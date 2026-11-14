@@ -1,0 +1,32 @@
+\chapter{RESTRICCIONES DEL PROYECTO}
+\label{anx:restricciones}
+
+Este anexo justifica las restricciones RS-01--RS-12 de la Tabla~\ref{tab:mr-restricciones}. Se distinguen las impuestas por el entorno de las decisiones de diseño, que no se presentan como restricciones.
+
+\paragraph{RS-01, seguridad laboral.} El reglamento de seguridad minera exige controlar los peligros de cada tarea \cite{ds024}. La carga de 3032 kg suspendida, la mesa móvil, el aplicador giratorio y el fluido a 62~$^\circ$C generan peligros de caída de carga, atrapamiento, movimiento inesperado y contacto con el fluido. La restricción obliga a separar los movimientos peligrosos en la secuencia de operación y a enclavarlos.
+
+\paragraph{RS-02, técnica.} La ficha del fabricante fija un diámetro exterior de 1420 mm, un agujero de 900 mm con cono de 1:30, un ancho de 515 mm y una masa de 3032 kg \cite{skf241}. Estas entradas definen la envolvente, las cargas y el paso libre del agujero, que debe permanecer accesible para la lanza.
+
+\paragraph{RS-03, preservación.} El fabricante recomienda proteger las superficies funcionales durante la manipulación y la limpieza \cite{skfmaintenance2011}. El contacto con el rodamiento debe limitarse a superficies autorizadas, con materiales que no lo dañen, y la presión de aplicación debe acotarse. El detergente seleccionado es compatible con el acero de los aros y el latón de la jaula \cite{zep36342}.
+
+\paragraph{RS-04, espacial.} La máquina debe caber en el taller con su área de izaje, su recorrido y su espacio de mantenimiento. Las cotas de cabina de $3940\times4040\times2570$ mm, el plano de puerta en $Y=-2020$ mm y la abertura útil de 2140 por 1465 mm son entradas heredadas y provisionales, no un levantamiento de obra.
+
+\paragraph{RS-05, infraestructura.} La losa debe resistir las reacciones de los rieles y sus anclajes, incluido el levantamiento de 3,78 kN en un apoyo, la fuerza lateral de guiado y el tensor de las cadenas. Los anclajes se dimensionaron con una losa supuesta de 200 mm y $f'_c=21$ MPa; si la real mide menos de 186 mm, cambian el empotramiento y la placa. El diseño civil y la aceptación de la instalación quedan fuera del alcance.
+
+\paragraph{RS-06, geográfica y ambiental.} La presión atmosférica y la carga de aspiración de la bomba dependen de la altitud. Se adoptó un escenario de cálculo de 2335 m, de un emplazamiento de referencia en Arequipa, como hipótesis del equipo; la ficha del emplazamiento real debe confirmar la altitud, la temperatura y la exposición a humedad y polvo.
+
+\paragraph{RS-07, servicios.} La bomba tiene un motor de 4 kW, las resistencias suman 36 kW y el circuito recircula 221 L/min. La alimentación eléctrica, el agua de reposición y la recepción del fluido usado deben proceder de datos del taller.
+
+\paragraph{RS-08, ambiental y legal.} La Ley de Gestión Integral de Residuos Sólidos rige el manejo de grasas, lodos, filtros y absorbentes \cite{dleg1278}. Mientras no se identifique el receptor del agua de lavado ni se caracterice el fluido usado, la restricción es recolectar todo el líquido en la cabina, sin descarga directa.
+
+\paragraph{RS-09, química y ocupacional.} El agente de limpieza debe estar identificado y contar con hoja de datos de seguridad \cite{ds024}. Se eligió un fluido acuoso, que excluye los requisitos de los líquidos inflamables \cite{en12921_2}: agua con Zep Recirculating Detergent a 7--15 g/L, un detergente alcalino de baja espuma compatible con acero, cobre y latón por debajo de 70~$^\circ$C \cite{zep36342}.
+
+\paragraph{RS-10, económica y constructiva.} No existe un monto máximo de inversión acreditado. El presupuesto del Capítulo~\ref{cap:cronograma-presupuesto} es una estimación de clase 4 y no un filtro de descarte.
+
+\paragraph{RS-11, organizacional y ergonómica.} La tarea debe ser compatible con el personal y los equipos de izaje del taller. El movimiento de la mesa se evalúa con ISO 11228-2 \cite{iso11228}; por las fuerzas de empuje directo se adoptó un accionamiento por cadena con volante, cuya evaluación con fuerzas medidas queda pendiente.
+
+\paragraph{RS-12, propiedad industrial.} Una implementación comercial debe respetar los derechos vigentes según el régimen andino \cite{can486}. Las patentes revisadas en el Capítulo~\ref{cap:estado-arte} sirven como antecedentes; la libertad de operación exige una evaluación específica.
+
+\section*{Decisiones de diseño que no son restricciones}
+
+Mantener el rodamiento y la mesa inmóviles durante el lavado, usar perfiles rectos, ubicar las ruedas bajo las almas de los longitudinales y adoptar tres apoyos sectoriales son decisiones del equipo, justificadas en los Capítulos~\ref{cap:metodologia} y~\ref{cap:diseno}. No se imponen desde el entorno y podrían revisarse si otra alternativa cumple mejor las especificaciones.

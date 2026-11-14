@@ -1,0 +1,1063 @@
+{
+  "revision": "V5.2_N3_R05_CIERRE_HALLAZGOS_R04",
+  "classification": "CORRECCION_MECANICA_SIN_NUEVA_CORRIDA_SAP",
+  "warning": "NO LIBERADO PARA FABRICACION; SAP R05 NO EJECUTADO",
+  "parameters": {
+    "g": 9.81,
+    "bearing_mass_kg": 3032.0,
+    "design_mobile_mass_kg": 3500.0,
+    "bearing_od_mm": 1420.0,
+    "bearing_id_mm": 900.0,
+    "bearing_width_mm": 515.0,
+    "bearing_bottom_z_mm": 890.0,
+    "bearing_cg_above_pad_mm": 257.5,
+    "pad_r_in_mm": 638.0,
+    "pad_r_out_mm": 688.0,
+    "pad_sector_deg": 24.0,
+    "pad_angles_deg": [
+      0.0,
+      120.0,
+      240.0
+    ],
+    "pad_xy_mm": [
+      [
+        663.0,
+        0.0
+      ],
+      [
+        -331.5,
+        574.175
+      ],
+      [
+        -331.5,
+        -574.175
+      ]
+    ],
+    "placement_requirement_radial_mm": 5.0,
+    "horizontal_accel_m_s2": 0.3,
+    "vertical_service_factor": 1.15,
+    "uls_factor": 1.4,
+    "wheel_xy_mm": [
+      [
+        -930.0,
+        -722.0
+      ],
+      [
+        -930.0,
+        722.0
+      ],
+      [
+        930.0,
+        -722.0
+      ],
+      [
+        930.0,
+        722.0
+      ]
+    ],
+    "mobile_cg_envelope_x_mm": 100.0,
+    "mobile_cg_envelope_y_mm": 100.0,
+    "wheel_catalog_dynamic_kg": 2500.0,
+    "rail_y_min_mm": -4620.0,
+    "rail_y_max_mm": 1920.0,
+    "rail_support_count": 12,
+    "table_center_load_y_mm": -3320.038,
+    "table_center_wash_y_mm": 0.0,
+    "rail_scan_step_mm": 5.0,
+    "rail_E_MPa": 200000.0,
+    "rail_I_mm4": 900000.0,
+    "rail_Z_head_mm3": 27000.0,
+    "rail_Z_base_mm3": 41500.0,
+    "rail_mass_kg_m": 22.1,
+    "center_force_required_N": 2000.0,
+    "retention_force_required_N": 2000.0,
+    "handle_design_force_N": 1500.0,
+    "steel_density_kg_mm3": 7.85e-06,
+    "steel_E_MPa": 200000.0,
+    "steel_Fy_candidate_MPa": 355.0
+  },
+  "wheel_cases": [
+    {
+      "case": "4C_MM",
+      "contacts": 4,
+      "missing": "-",
+      "ex_mm": -100.0,
+      "ey_mm": -100.0,
+      "reactions_kN": [
+        10.823456013761056,
+        8.190011728174426,
+        8.721814069341436,
+        6.599718188723081
+      ],
+      "eligible": true
+    },
+    {
+      "case": "4C_MP",
+      "contacts": 4,
+      "missing": "-",
+      "ex_mm": -100.0,
+      "ey_mm": 100.0,
+      "reactions_kN": [
+        8.190011728174426,
+        10.823456013761056,
+        6.599718188723081,
+        8.721814069341436
+      ],
+      "eligible": true
+    },
+    {
+      "case": "4C_PM",
+      "contacts": 4,
+      "missing": "-",
+      "ex_mm": 100.0,
+      "ey_mm": -100.0,
+      "reactions_kN": [
+        8.721814069341436,
+        6.599718188723081,
+        10.823456013761056,
+        8.190011728174426
+      ],
+      "eligible": true
+    },
+    {
+      "case": "4C_PP",
+      "contacts": 4,
+      "missing": "-",
+      "ex_mm": 100.0,
+      "ey_mm": 100.0,
+      "reactions_kN": [
+        6.599718188723081,
+        8.721814069341436,
+        8.190011728174426,
+        10.823456013761056
+      ],
+      "eligible": true
+    },
+    {
+      "case": "3C_W1_MM",
+      "contacts": 3,
+      "missing": "W-01",
+      "ex_mm": -100.0,
+      "ey_mm": -100.0,
+      "reactions_kN": [
+        0.0,
+        19.013467741935486,
+        19.545270083102494,
+        -4.2237378250379765
+      ],
+      "eligible": false
+    },
+    {
+      "case": "3C_W1_MP",
+      "contacts": 3,
+      "missing": "W-01",
+      "ex_mm": -100.0,
+      "ey_mm": 100.0,
+      "reactions_kN": [
+        0.0,
+        19.013467741935486,
+        14.789729916897507,
+        0.5318023411670093
+      ],
+      "eligible": true
+    },
+    {
+      "case": "3C_W1_PM",
+      "contacts": 3,
+      "missing": "W-01",
+      "ex_mm": 100.0,
+      "ey_mm": -100.0,
+      "reactions_kN": [
+        0.0,
+        15.321532258064519,
+        19.545270083102494,
+        -0.5318023411670093
+      ],
+      "eligible": false
+    },
+    {
+      "case": "3C_W1_PP",
+      "contacts": 3,
+      "missing": "W-01",
+      "ex_mm": 100.0,
+      "ey_mm": 100.0,
+      "reactions_kN": [
+        0.0,
+        15.32153225806452,
+        14.78972991689751,
+        4.2237378250379765
+      ],
+      "eligible": true
+    },
+    {
+      "case": "3C_W2_MM",
+      "contacts": 3,
+      "missing": "W-02",
+      "ex_mm": -100.0,
+      "ey_mm": -100.0,
+      "reactions_kN": [
+        19.013467741935482,
+        0.0,
+        0.5318023411670093,
+        14.789729916897507
+      ],
+      "eligible": true
+    },
+    {
+      "case": "3C_W2_MP",
+      "contacts": 3,
+      "missing": "W-02",
+      "ex_mm": -100.0,
+      "ey_mm": 100.0,
+      "reactions_kN": [
+        19.013467741935486,
+        0.0,
+        -4.2237378250379765,
+        19.545270083102494
+      ],
+      "eligible": false
+    },
+    {
+      "case": "3C_W2_PM",
+      "contacts": 3,
+      "missing": "W-02",
+      "ex_mm": 100.0,
+      "ey_mm": -100.0,
+      "reactions_kN": [
+        15.321532258064519,
+        0.0,
+        4.2237378250379765,
+        14.789729916897508
+      ],
+      "eligible": true
+    },
+    {
+      "case": "3C_W2_PP",
+      "contacts": 3,
+      "missing": "W-02",
+      "ex_mm": 100.0,
+      "ey_mm": 100.0,
+      "reactions_kN": [
+        15.321532258064519,
+        0.0,
+        -0.5318023411670093,
+        19.545270083102494
+      ],
+      "eligible": false
+    },
+    {
+      "case": "3C_W3_MM",
+      "contacts": 3,
+      "missing": "W-03",
+      "ex_mm": -100.0,
+      "ey_mm": -100.0,
+      "reactions_kN": [
+        19.545270083102494,
+        -0.5318023411670093,
+        0.0,
+        15.321532258064517
+      ],
+      "eligible": false
+    },
+    {
+      "case": "3C_W3_MP",
+      "contacts": 3,
+      "missing": "W-03",
+      "ex_mm": -100.0,
+      "ey_mm": 100.0,
+      "reactions_kN": [
+        14.789729916897508,
+        4.2237378250379765,
+        0.0,
+        15.321532258064517
+      ],
+      "eligible": true
+    },
+    {
+      "case": "3C_W3_PM",
+      "contacts": 3,
+      "missing": "W-03",
+      "ex_mm": 100.0,
+      "ey_mm": -100.0,
+      "reactions_kN": [
+        19.545270083102494,
+        -4.2237378250379765,
+        0.0,
+        19.013467741935486
+      ],
+      "eligible": false
+    },
+    {
+      "case": "3C_W3_PP",
+      "contacts": 3,
+      "missing": "W-03",
+      "ex_mm": 100.0,
+      "ey_mm": 100.0,
+      "reactions_kN": [
+        14.789729916897508,
+        0.5318023411670093,
+        0.0,
+        19.013467741935486
+      ],
+      "eligible": true
+    },
+    {
+      "case": "3C_W4_MM",
+      "contacts": 3,
+      "missing": "W-04",
+      "ex_mm": -100.0,
+      "ey_mm": -100.0,
+      "reactions_kN": [
+        4.2237378250379765,
+        14.789729916897508,
+        15.321532258064517,
+        0.0
+      ],
+      "eligible": true
+    },
+    {
+      "case": "3C_W4_MP",
+      "contacts": 3,
+      "missing": "W-04",
+      "ex_mm": -100.0,
+      "ey_mm": 100.0,
+      "reactions_kN": [
+        -0.5318023411670091,
+        19.545270083102494,
+        15.321532258064517,
+        0.0
+      ],
+      "eligible": false
+    },
+    {
+      "case": "3C_W4_PM",
+      "contacts": 3,
+      "missing": "W-04",
+      "ex_mm": 100.0,
+      "ey_mm": -100.0,
+      "reactions_kN": [
+        0.5318023411670091,
+        14.789729916897508,
+        19.013467741935486,
+        0.0
+      ],
+      "eligible": true
+    },
+    {
+      "case": "3C_W4_PP",
+      "contacts": 3,
+      "missing": "W-04",
+      "ex_mm": 100.0,
+      "ey_mm": 100.0,
+      "reactions_kN": [
+        -4.2237378250379765,
+        19.545270083102494,
+        19.013467741935486,
+        0.0
+      ],
+      "eligible": false
+    }
+  ],
+  "wheel": {
+    "eligible_cases": 12,
+    "governing_case": "3C_W1_MP",
+    "max_unfactored_kN": 19.013467741935486,
+    "service_selection_kN": 21.86548790322581,
+    "uls_local_kN": 26.61885483870968,
+    "catalog_dynamic_kN": 24.525,
+    "catalog_service_utilization": 0.8915591397849464
+  },
+  "pad": {
+    "bearing_weight_kN": 29.743920000000003,
+    "physical_placement_requirement_mm": 5.0,
+    "outer_full_contact_limit_mm": 22.0,
+    "geometric_margin_at_requirement_mm": 17.0,
+    "inertial_equivalent_mm": 7.8746177370030574,
+    "combined_resultant_envelope_mm": 12.874617737003057,
+    "coverage_cases": [
+      {
+        "case": "CENTRADO",
+        "dx_mm": 0.0,
+        "dy_mm": 0.0,
+        "design": true,
+        "coverage_fraction": [
+          0.9999999999999948,
+          0.9999999999999948,
+          0.9999999999999948
+        ],
+        "all_full_contact": true
+      },
+      {
+        "case": "E5_000",
+        "dx_mm": 5.0,
+        "dy_mm": 0.0,
+        "design": true,
+        "coverage_fraction": [
+          0.9999999999999948,
+          0.9999999999999948,
+          0.9999999999999948
+        ],
+        "all_full_contact": true
+      },
+      {
+        "case": "E5_045",
+        "dx_mm": 3.5355339059327378,
+        "dy_mm": 3.5355339059327378,
+        "design": true,
+        "coverage_fraction": [
+          0.9999999999999948,
+          0.9999999999999948,
+          0.9999999999999948
+        ],
+        "all_full_contact": true
+      },
+      {
+        "case": "E5_090",
+        "dx_mm": 3.061616997868383e-16,
+        "dy_mm": 5.0,
+        "design": true,
+        "coverage_fraction": [
+          0.9999999999999948,
+          0.9999999999999948,
+          0.9999999999999948
+        ],
+        "all_full_contact": true
+      },
+      {
+        "case": "E5_135",
+        "dx_mm": -3.5355339059327373,
+        "dy_mm": 3.5355339059327378,
+        "design": true,
+        "coverage_fraction": [
+          0.9999999999999948,
+          0.9999999999999948,
+          0.9999999999999948
+        ],
+        "all_full_contact": true
+      },
+      {
+        "case": "E5_180",
+        "dx_mm": -5.0,
+        "dy_mm": 6.123233995736766e-16,
+        "design": true,
+        "coverage_fraction": [
+          0.9999999999999948,
+          0.9999999999999948,
+          0.9999999999999948
+        ],
+        "all_full_contact": true
+      },
+      {
+        "case": "E5_225",
+        "dx_mm": -3.5355339059327386,
+        "dy_mm": -3.5355339059327373,
+        "design": true,
+        "coverage_fraction": [
+          0.9999999999999948,
+          0.9999999999999948,
+          0.9999999999999948
+        ],
+        "all_full_contact": true
+      },
+      {
+        "case": "E5_270",
+        "dx_mm": -9.184850993605148e-16,
+        "dy_mm": -5.0,
+        "design": true,
+        "coverage_fraction": [
+          0.9999999999999948,
+          0.9999999999999948,
+          0.9999999999999948
+        ],
+        "all_full_contact": true
+      },
+      {
+        "case": "E5_315",
+        "dx_mm": 3.535533905932737,
+        "dy_mm": -3.5355339059327386,
+        "design": true,
+        "coverage_fraction": [
+          0.9999999999999948,
+          0.9999999999999948,
+          0.9999999999999948
+        ],
+        "all_full_contact": true
+      },
+      {
+        "case": "AUDIT_M100_P100",
+        "dx_mm": -100.0,
+        "dy_mm": 100.0,
+        "design": false,
+        "coverage_fraction": [
+          0.0,
+          0.9999999999999948,
+          0.44828740303354403
+        ],
+        "all_full_contact": false
+      }
+    ],
+    "reaction_cases": [
+      {
+        "case": "RES_000",
+        "angle_deg": 0,
+        "resultant_ex_mm": 12.874617737003057,
+        "resultant_ey_mm": 0.0,
+        "reactions_kN": [
+          10.299699426847663,
+          9.72211028657617,
+          9.72211028657617
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_015",
+        "angle_deg": 15,
+        "resultant_ex_mm": 12.435925775770572,
+        "resultant_ey_mm": 3.3321962687511077,
+        "reactions_kN": [
+          10.286578845048226,
+          9.814979263191946,
+          9.642361891759835
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_030",
+        "angle_deg": 30,
+        "resultant_ex_mm": 11.149746024258368,
+        "resultant_ey_mm": 6.437308868501527,
+        "reactions_kN": [
+          10.248111245616752,
+          9.914639954324032,
+          9.581168800059219
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_045",
+        "angle_deg": 45,
+        "resultant_ex_mm": 9.103729507019464,
+        "resultant_ey_mm": 9.103729507019464,
+        "reactions_kN": [
+          10.18691813188379,
+          10.014300648568863,
+          9.542701219547352
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_060",
+        "angle_deg": 60,
+        "resultant_ex_mm": 6.43730886850153,
+        "resultant_ey_mm": 11.149746024258366,
+        "reactions_kN": [
+          10.107169713423831,
+          10.107169634310733,
+          9.529580652265436
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_075",
+        "angle_deg": 75,
+        "resultant_ex_mm": 3.3321962687511077,
+        "resultant_ey_mm": 12.435925775770572,
+        "reactions_kN": [
+          10.01430071316444,
+          10.186918043644596,
+          9.542701243190974
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_090",
+        "angle_deg": 90,
+        "resultant_ex_mm": 7.883429700933266e-16,
+        "resultant_ey_mm": 12.874617737003057,
+        "reactions_kN": [
+          9.914640000000002,
+          10.248111154264816,
+          9.581168845735187
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_105",
+        "angle_deg": 105,
+        "resultant_ex_mm": -3.332196268751109,
+        "resultant_ey_mm": 12.435925775770572,
+        "reactions_kN": [
+          9.814979286835564,
+          10.28657875680903,
+          9.642361956355408
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_120",
+        "angle_deg": 120,
+        "resultant_ex_mm": -6.437308868501526,
+        "resultant_ey_mm": 11.149746024258368,
+        "reactions_kN": [
+          9.722110286576168,
+          10.299699347734563,
+          9.722110365689266
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_135",
+        "angle_deg": 135,
+        "resultant_ex_mm": -9.103729507019462,
+        "resultant_ey_mm": 9.103729507019464,
+        "reactions_kN": [
+          9.642361868116215,
+          10.28657878045265,
+          9.81497935143114
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_150",
+        "angle_deg": 150,
+        "resultant_ex_mm": -11.149746024258368,
+        "resultant_ey_mm": 6.437308868501527,
+        "reactions_kN": [
+          9.58116875438325,
+          10.248111199940785,
+          9.91464004567597
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_165",
+        "angle_deg": 165,
+        "resultant_ex_mm": -12.43592577577057,
+        "resultant_ey_mm": 3.3321962687511113,
+        "reactions_kN": [
+          9.542701154951777,
+          10.186918108240166,
+          10.014300736808057
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_180",
+        "angle_deg": 180,
+        "resultant_ex_mm": -12.874617737003057,
+        "resultant_ey_mm": 1.5766859401866533e-15,
+        "reactions_kN": [
+          9.529580573152337,
+          10.107169713423831,
+          10.107169713423831
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_195",
+        "angle_deg": 195,
+        "resultant_ex_mm": -12.435925775770572,
+        "resultant_ey_mm": -3.332196268751108,
+        "reactions_kN": [
+          9.542701154951779,
+          10.014300736808059,
+          10.186918108240167
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_210",
+        "angle_deg": 210,
+        "resultant_ex_mm": -11.149746024258366,
+        "resultant_ey_mm": -6.43730886850153,
+        "reactions_kN": [
+          9.581168754383253,
+          9.914640045675972,
+          10.248111199940785
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_225",
+        "angle_deg": 225,
+        "resultant_ex_mm": -9.103729507019466,
+        "resultant_ey_mm": -9.103729507019462,
+        "reactions_kN": [
+          9.642361868116215,
+          9.81497935143114,
+          10.28657878045265
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_240",
+        "angle_deg": 240,
+        "resultant_ex_mm": -6.437308868501534,
+        "resultant_ey_mm": -11.149746024258366,
+        "reactions_kN": [
+          9.72211028657617,
+          9.722110365689266,
+          10.299699347734565
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_255",
+        "angle_deg": 255,
+        "resultant_ex_mm": -3.332196268751106,
+        "resultant_ey_mm": -12.435925775770572,
+        "reactions_kN": [
+          9.814979286835564,
+          9.642361956355407,
+          10.286578756809028
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_270",
+        "angle_deg": 270,
+        "resultant_ex_mm": -2.3650289102799796e-15,
+        "resultant_ey_mm": -12.874617737003057,
+        "reactions_kN": [
+          9.914640000000002,
+          9.581168845735187,
+          10.248111154264816
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_285",
+        "angle_deg": 285,
+        "resultant_ex_mm": 3.332196268751102,
+        "resultant_ey_mm": -12.435925775770574,
+        "reactions_kN": [
+          10.014300713164436,
+          9.542701243190972,
+          10.186918043644594
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_300",
+        "angle_deg": 300,
+        "resultant_ex_mm": 6.43730886850153,
+        "resultant_ey_mm": -11.149746024258366,
+        "reactions_kN": [
+          10.107169713423831,
+          9.529580652265436,
+          10.107169634310734
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_315",
+        "angle_deg": 315,
+        "resultant_ex_mm": 9.103729507019462,
+        "resultant_ey_mm": -9.103729507019466,
+        "reactions_kN": [
+          10.18691813188379,
+          9.542701219547352,
+          10.014300648568863
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_330",
+        "angle_deg": 330,
+        "resultant_ex_mm": 11.149746024258365,
+        "resultant_ey_mm": -6.437308868501534,
+        "reactions_kN": [
+          10.248111245616752,
+          9.581168800059219,
+          9.914639954324032
+        ],
+        "eligible": true
+      },
+      {
+        "case": "RES_345",
+        "angle_deg": 345,
+        "resultant_ex_mm": 12.435925775770572,
+        "resultant_ey_mm": -3.332196268751107,
+        "reactions_kN": [
+          10.286578845048222,
+          9.642361891759833,
+          9.814979263191944
+        ],
+        "eligible": true
+      }
+    ],
+    "governing_case": "RES_000",
+    "max_unfactored_kN": 10.299699426847663,
+    "service_kN": 11.844654340874811,
+    "uls_kN": 14.419579197586728,
+    "full_liner_area_mm2": 13885.839528866887,
+    "service_pressure_MPa": 0.8530023925633944,
+    "uls_pressure_MPa": 1.038437695294567
+  },
+  "mechanisms": {
+    "locator": {
+      "required_force_N": 2000.0,
+      "stroke_mm": 345.0,
+      "guide_z_max_mm": 780.0,
+      "mast_section": "RHS 80x40x6 S355 candidate",
+      "mast_I_mm4": 972992.0,
+      "mast_Z_mm3": 24324.8,
+      "mast_stress_MPa": 16.033019798723938,
+      "mast_deflection_mm": 0.025402315743603236,
+      "mast_utilization_0_60Fy": 0.07527239342123915,
+      "screw": "Tr24x5 candidate, 19 mm assumed root",
+      "screw_axial_stress_MPa": 7.0539586965937,
+      "screw_Euler_kN": 68.2931480403825,
+      "screw_torque_Nm": 5.305164769729845,
+      "lock_pin_d_mm": 16.0,
+      "lock_pin_double_shear_MPa": 4.97359197162173,
+      "status": "PREDIMENSIONADO; guide bearings, wear, corrosion and certified hardware pending"
+    },
+    "retention": {
+      "required_force_per_stop_N": 2000.0,
+      "contact_pressure_MPa": 0.8333333333333334,
+      "base_moment_Nmm": 200000.0,
+      "bolt_pattern": "4 x M12 candidate, radial rows 180 mm",
+      "bolt_shear_each_N": 500.0,
+      "bolt_tension_each_N": 555.5555555555555,
+      "bolt_resultant_each_N": 747.4235581707617,
+      "web_strip_stress_MPa": 30.0,
+      "status": "LOAD_PATH_DEFINED_AND_PRELIMINARY_CHECKED; final code/material/interface pending"
+    },
+    "handle": {
+      "design_force_total_N": 1500.0,
+      "section": "CHS 42.4x3.2 candidate",
+      "bar_stress_MPa": 93.89816013313826,
+      "post_stress_MPa": 52.16564451841014,
+      "connection": "2 end plates; 4 x M12 candidate per post through end-beam web",
+      "bolt_shear_each_N": 187.5,
+      "bolt_tension_each_N": 1171.875,
+      "bolt_resultant_each_N": 1186.7802094848903,
+      "status": "GEOMETRY_AND_LOAD_PATH_DEFINED; ergonomic test and final connection code pending"
+    }
+  },
+  "mass": {
+    "rows": [
+      {
+        "component": "Rodamiento",
+        "mass_kg": 3032.0,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 1147.5,
+        "state": "VERIFICADO"
+      },
+      {
+        "component": "Bastidor W6x9",
+        "mass_kg": 168.125,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 730.0,
+        "state": "R01_CALCULADO"
+      },
+      {
+        "component": "Tres PAD",
+        "mass_kg": 21.457,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 847.5,
+        "state": "R04_CALCULADO"
+      },
+      {
+        "component": "Cuatro ruedas SPKVS 200K",
+        "mass_kg": 57.2,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 390.0,
+        "state": "CATALOGO_2026_09_08"
+      },
+      {
+        "component": "Horquillas/adaptadores",
+        "mass_kg": 52.0,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 610.0,
+        "state": "ESTIMACION_CAD_R04"
+      },
+      {
+        "component": "Tres cassettes centrado R05",
+        "mass_kg": 54.41375810666746,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 820.0,
+        "state": "CALCULADO_GEOMETRIA_R05"
+      },
+      {
+        "component": "Tres topes conectados R05",
+        "mass_kg": 17.899917295376955,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 845.0,
+        "state": "CALCULADO_GEOMETRIA_R05"
+      },
+      {
+        "component": "Manillar y conexiones R05",
+        "mass_kg": 8.73561292405092,
+        "x_mm": 0.0,
+        "y_mm": -1015.0,
+        "z_mm": 910.0,
+        "state": "CALCULADO_GEOMETRIA_R05"
+      },
+      {
+        "component": "Bloqueo central",
+        "mass_kg": 8.0,
+        "x_mm": 0.0,
+        "y_mm": -850.0,
+        "z_mm": 575.0,
+        "state": "HIPOTESIS_R04"
+      },
+      {
+        "component": "Tornilleria/guardas/servicios",
+        "mass_kg": 20.0,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 720.0,
+        "state": "RESERVA"
+      }
+    ],
+    "locator_each_kg": 18.137919368889154,
+    "retention_each_kg": 5.966639098458985,
+    "handle_kg": 8.73561292405092,
+    "total_kg": 3439.8312883260955,
+    "design_scenario_kg": 3500.0,
+    "margin_kg": 60.168711673904454,
+    "cg_mm": {
+      "x": 0.0,
+      "y": -4.554481253508062,
+      "z": 1093.326347075897
+    },
+    "status": "MASS_WITHIN_3500_SCENARIO"
+  },
+  "rail": {
+    "support_count": 12,
+    "support_positions_mm": [
+      -4620.0,
+      -4025.4545454545455,
+      -3430.909090909091,
+      -2836.3636363636365,
+      -2241.818181818182,
+      -1647.2727272727275,
+      -1052.727272727273,
+      -458.181818181818,
+      136.36363636363603,
+      730.9090909090901,
+      1325.454545454545,
+      1920.0
+    ],
+    "support_pitch_mm": 594.5454545454545,
+    "scan_positions": 666,
+    "adjacent_max_by_support_kN": [
+      0.742470682258064,
+      26.54796076935484,
+      26.568311575806458,
+      26.58866238225807,
+      26.60901318870969,
+      26.60834568225806,
+      26.60494302741937,
+      26.612415843548398,
+      26.592065037096763,
+      26.219979032258102,
+      0.0,
+      0.0
+    ],
+    "continuous_max_by_support_kN": [
+      0.5628922359263708,
+      26.74137170220889,
+      26.61942847159065,
+      26.618813264161417,
+      26.618847633915696,
+      26.618845672987,
+      26.618838801797164,
+      26.61885193181565,
+      26.61882545497155,
+      26.599826219105463,
+      0.9049885316086065,
+      0.562895148949466
+    ],
+    "continuous_min_by_support_kN": [
+      -2.1007540405327902,
+      -3.377353415558225,
+      -3.619939155251914,
+      -3.6918905245810247,
+      -3.6426680556597786,
+      -3.639155883441947,
+      -3.639096325831047,
+      -3.6426624091277646,
+      -3.6374410851602392,
+      -3.6199541264344326,
+      -3.3773708936967957,
+      -0.1508314219347678
+    ],
+    "governing_adjacent": {
+      "support": 8,
+      "value_kN": 26.612415843548398,
+      "case": "3C_W1_MP",
+      "side": "L",
+      "center_y_mm": -1180.038,
+      "loads": [
+        [
+          -458.038,
+          26.61885483870968
+        ]
+      ]
+    },
+    "governing_continuous": {
+      "support": 2,
+      "value_kN": 26.74137170220889,
+      "case": "3C_W4_PM",
+      "side": "R",
+      "center_y_mm": -3320.038,
+      "loads": [
+        [
+          -4042.038,
+          26.61885483870968
+        ]
+      ]
+    },
+    "governing_vertical_installation_kN": 26.74137170220889,
+    "governing_uplift_continuous_kN": -3.6918905245810247,
+    "lateral_installation_kN": 2.6741371702208894,
+    "simple_span_moment_Nmm": 3956529.7873900295,
+    "simple_span_head_stress_MPa": 146.53814027370478,
+    "simple_span_base_stress_MPa": 95.33806716602481,
+    "simple_span_service_deflection_mm": 0.5318640295609807,
+    "rail_self_weight_support_kN": 0.1288980490909091,
+    "note": "Adjacency model is the transparent two-support transfer bound; continuous FE is a sensitivity with vertical supports and free rotations.",
+    "support_count_sensitivity": [
+      {
+        "support_count": 11,
+        "support_pitch_mm": 654.0,
+        "governing_vertical_installation_kN": 26.791541578584752,
+        "governing_uplift_continuous_kN": -3.692068746526138,
+        "lateral_installation_kN": 2.679154157858475,
+        "simple_span_head_stress_MPa": 161.1919543010753,
+        "simple_span_base_stress_MPa": 104.8718738826273,
+        "simple_span_service_deflection_mm": 0.7079110233456655
+      },
+      {
+        "support_count": 12,
+        "support_pitch_mm": 594.5454545454545,
+        "governing_vertical_installation_kN": 26.74137170220889,
+        "governing_uplift_continuous_kN": -3.6918905245810247,
+        "lateral_installation_kN": 2.6741371702208894,
+        "simple_span_head_stress_MPa": 146.53814027370478,
+        "simple_span_base_stress_MPa": 95.33806716602481,
+        "simple_span_service_deflection_mm": 0.5318640295609807
+      },
+      {
+        "support_count": 13,
+        "support_pitch_mm": 545.0,
+        "governing_vertical_installation_kN": 26.619588270728133,
+        "governing_uplift_continuous_kN": -3.691828490027508,
+        "lateral_installation_kN": 2.6619588270728136,
+        "simple_span_head_stress_MPa": 134.3266285842294,
+        "simple_span_base_stress_MPa": 87.39322823552274,
+        "simple_span_service_deflection_mm": 0.40967073110281566
+      }
+    ]
+  }
+}

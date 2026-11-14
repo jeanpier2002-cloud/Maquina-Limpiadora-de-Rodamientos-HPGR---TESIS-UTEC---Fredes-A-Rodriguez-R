@@ -1,0 +1,2 @@
+INF_INT    entra ventana sup 0.000 % | inf 15.500 %  (662 s)
+listo d2400_INF_INT en 662 s

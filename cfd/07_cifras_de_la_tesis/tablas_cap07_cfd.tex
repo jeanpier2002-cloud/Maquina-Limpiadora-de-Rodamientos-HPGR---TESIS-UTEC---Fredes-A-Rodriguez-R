@@ -1,0 +1,128 @@
+% ======================================================================
+% BORRADOR de tablas del capitulo 7 (subsistema de aspersion) - 11/11/2026
+% Generado por D:/CFD_Redosado/CIERRE_CFD_TESIS/scripts/cierre_tablas.py desde los CSV de resultados.
+% Cada cifra tiene su fuente en salida/CIFRAS_CIERRE_CFD.csv. AUDITAR antes de pegar en Prism.
+% Estilo copiado de la tesis P2 (booktabs, \small\singlespacing, columna Y de tabularx).
+% ======================================================================
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\setlength{\tabcolsep}{3.5pt}
+\caption{Indicadores de mojado por superficie, desde el Caso Base hasta el diseño vigente}
+\label{tab:cfd-evolucion}
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+\textbf{Superficie} & \textbf{Caso} & \textbf{$\bar D$} & \textbf{$D_{mín}$} & \textbf{CV} & \textbf{Seca 10/2 mm (\%)} & \textbf{$\eta$ (\%)} & \textbf{$\bar J$}\\
+\midrule
+OD & Caso Base (22 boquillas) & 26,40 & 0,44 & 0,302 & 0 / 0,39 & 94,3 & 609\\
+ & Casos 2 y 3 (LAT\_1 a $-$4$^\circ$) & 26,38 & 14,56 & 0,265 & 0 / 0 & 94,2 & 608\\
+ & O7+C2 sin Caso 2 (24 boq.) & 25,82 & 0,13 & 0,661 & 0 / 1,56 & 79,1 & 612\\
+ & Vigente: O7+C2 + Caso 2 & 25,82 & 10,53 & 0,648 & 0 / 0 & 79,1 & 612\\
+\addlinespace
+Cara superior & Caso Base y Caso 2 & 22,53 & 6,13 & 0,396 & 0 / 0 & 97,9 & 527\\
+ & Caso 3 (SUP\_2 +15 mm) $^\ddagger$ & 21,82 & 14,03 & 0,321 & 0 / 0 & 94,8 & 509\\
+\addlinespace
+Cara inferior & Caso Base, Casos 2 y 3 & 5,46 & 2,93 & 0,616 & 0 / 0 & 31,0 & 43\\
+ & Vigente: O7+C2 & 14,16 & 7,33 & 0,430 & 0 / 0 & 48,2 & 84\\
+\addlinespace
+Agujero & Todos los casos $^\dagger$ & 18,72 & 11,52 & 0,339 & 0 / 0 & 86,9 & 438\\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize
+D en kg\,m$^{-2}$ por vuelta y J en N\,s\,m$^{-2}$ por vuelta, a 1,7 rpm; bandas de 10 mm con las sombras del soporte. Los Casos 2 y 3 se compararon contra un Caso Base emparejado (brazo A duplicado: OD con $D_{mín}$ 0,27 y franja seca de 2 mm de 1,17 \%). La transferencia $\eta$ depende de qué boquillas se asignan a cada superficie, por eso baja en el OD del diseño vigente (INF\_EXT y C2 reparten su caudal entre el OD y la cara inferior).\\
+$^\dagger$ Agujero: no se re-simuló en el diseño vigente (cambio de caudal $\leq$ 0,03 \%); la boquilla C2 envía además 16,3 \% de su caudal hacia el agujero, que no está contabilizado: la dosis del agujero es una cota inferior.\\
+$^\ddagger$ El diseño vigente usa el Caso 3 en la cara superior solo si la SUP\_2 desplazada 15 mm está en los planos [INTERFAZ ISMAEL]; si no, rige la fila «Caso Base y Caso 2».
+\end{table}
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\setlength{\tabcolsep}{3.5pt}
+\caption{Verificación numérica del modelo de mojado del diseño vigente}
+\label{tab:cfd-verificacion-vigente}
+\begin{tabularx}{\textwidth}{@{}Ylcc@{}}
+\toprule
+\textbf{Estudio} & \textbf{Superficie} & \textbf{Cambio en $\bar D$ (\%)} & \textbf{Cambio en CV}\\
+\midrule
+Malla, 3 niveles con Courant constante (GCI 0,08 \%) & OD (vigente) & $-$0,09 & $-$0,0005\\
+Malla, 3 niveles con Courant constante (GCI 0,33 \%) & Cara inferior (vigente) & $-$0,26 & $-$0,0021\\
+Malla, 3 niveles con Courant constante & Cara superior (geometría del Caso Base) & $-$0,05 & $-$0,0040\\
+Malla, 3 niveles con Courant constante & Agujero & +0,11 & $-$0,0039\\
+Número de parcelas $\times$0,5 / $\times$1 / $\times$2 & OD (vigente) & +0,02 & $-$0,0008\\
+Número de parcelas $\times$0,5 / $\times$1 / $\times$2 & Cara inferior (vigente) & $-$0,26 & $-$0,0017\\
+Ruido entre brazos A y B equivalentes & OD (vigente) & $-$0,01 & +0,0101\\
+Ruido entre brazos A y B equivalentes & Cara inferior (vigente) & $-$0,42 & +0,0061\\
+Paso de tiempo a la mitad & Todas & $\leq$ 0,01 & $\leq$ 0,0001\\
+Dominio ampliado & Todas & $\leq$ 0,14 & $\leq$ 0,0084\\
+Caso puente OpenFOAM $\leftrightarrow$ Fluent & Agujero & 0,27 & 0,0035\\
+Predicción previa por trazado de rayos frente a CFD & Cara inferior (vigente) & $-$1,98 & $-$0,0183\\
+\bottomrule
+\end{tabularx}
+\par\smallskip\footnotesize
+Criterio de trabajo: cambio $<$ 5 \% en $\bar D$ y $<$ 0,03 en CV. Balance de masa en las 22 corridas revisadas: 0,012–0,198 \% (criterio $<$ 1 \%). La dosis mínima cambia hasta $\pm$18 \% porque la fija una sola banda; se informa, pero no se usa para juzgar convergencia. Concordancia entre programas no equivale a validación física.
+\end{table}
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\setlength{\tabcolsep}{4pt}
+\caption{Tiempo del lavado (rodamiento armado) hasta la dosis de referencia en el 95\,\% del área accesible}
+\label{tab:cfd-tiempo-lavado}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+\textbf{Superficie} & \textbf{Lectura} & \textbf{$D_{req}=65$} & \textbf{$D_{req}=183$} & \textbf{$D_{req}=305$}\\
+& & \multicolumn{3}{c}{\textbf{$t_{95}$ (min)}}\\
+\midrule
+OD & media $\theta$ y por celdas & 2,9 & 8,2 & 14,1\\
+Cara superior & media $\theta$ y por celdas & 2,9 & 7,7 & 12,9\\
+Agujero & media $\theta$ y por celdas & 2,9 & 8,2 & 14,1\\
+Cara inferior & media $\theta$ & 5,3 & 14,1 & 23,5\\
+ & por celdas & 27,1 & 75,9 & $>120$\\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize
+$t_{95}$: tiempo hasta que el 95 \% del área accesible recibe la dosis acumulada $D_{req}$ (vueltas enteras de 35,294 s; horizonte 120 min). «Media $\theta$»: dosis media de cada banda de 10 mm; «por celdas»: celdas de 10 mm $\times$ 0,5$^\circ$, que ven las sombras parciales de las bases de los apoyos y de los topes. $D_{req}$ = 65/183/305 kg\,m$^{-2}$ es un dato externo pendiente (analogía con ensayos de remoción de grasa por aspersión). Alcanzar $D_{req}$ no equivale a limpiar.
+\end{table}
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Acceso geométrico a la cavidad con el rodamiento armado y masa de grasa estimada}
+\label{tab:cfd-cavidad}
+\begin{tabularx}{\textwidth}{@{}Yc@{}}
+\toprule
+\textbf{Zona} & \textbf{Área con línea de vista (\%)}\\
+\midrule
+Rodillos y pistas, total (cota superior, sin jaula) & 24,3\\
+Hilera superior: flanco de los rodillos & 23,9\\
+Hilera superior: extremo de los rodillos hacia la cara & 95,1\\
+Hilera inferior: flanco de los rodillos & 0,35\\
+Hilera inferior: extremo de los rodillos hacia la cara & 49,4\\
+Pista exterior, mitad superior & 66,1\\
+Pista exterior, mitad inferior & 16,2\\
+Pista interior, mitad superior & 30,5\\
+Pista interior, mitad inferior & 1,9\\
+\midrule
+Volumen libre del rodamiento (regla del fabricante) & 93--99 dm$^3$\\
+Grasa en la cavidad, llena (0,9 kg/dm$^3$) & 84--89 kg\\
+Fracción de la grasa que está en la cavidad & 94--99\,\%\\
+\bottomrule
+\end{tabularx}
+\par\smallskip\footnotesize
+Trazado de rayos desde las 24 boquillas con el barrido de 360$^\circ$ del aplicador, 2 400 rayos por plano; geometría de aros y rodillos medida en el modelo del fabricante, sin jaula, por lo que el acceso es una cota superior. La línea de vista no incluye el escurrimiento ni la película que bajan desde la hilera superior. Volumen libre: $\pi$/4\,B\,(D$^2$ $-$ d$^2$) $-$ M/7,8, con el agujero cónico tomado en su extremo menor y en su diámetro medio; grasa con la cavidad llena, como en la lubricación por purga de estos equipos.
+\end{table}
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Acción hidráulica local de un chorro sobre el diámetro exterior (VOF) y estado del indicador de cortante}
+\label{tab:cfd-accion}
+\begin{tabularx}{\textwidth}{@{}Yl@{}}
+\toprule
+\textbf{Magnitud} & \textbf{Valor}\\
+\midrule
+Empuje de la película en el OD a 0,33 mm del eje (lámina 2D, LAT\_3\_A) & 17,0 N/m (0,94 del valor teórico)\\
+Cortante en la pared, lámina intacta (cota superior) & $\approx$ 2 kPa a 0,33 mm; 0,6–1 kPa en la película\\
+Cortante en la pared, mezcla equivalente 3D (cota inferior) & 5 $\rightarrow$ 25 Pa (no converge al refinar)\\
+Umbral $\tau_0$ candidato de la grasa (por analogía) & 20 / 300 / 1000 Pa\\
+KPI-1 ($\tau_w$ $>$ $\tau_0$) & Indeterminado: las dos cotas quedan a ambos lados del umbral\\
+\bottomrule
+\end{tabularx}
+\end{table}
+

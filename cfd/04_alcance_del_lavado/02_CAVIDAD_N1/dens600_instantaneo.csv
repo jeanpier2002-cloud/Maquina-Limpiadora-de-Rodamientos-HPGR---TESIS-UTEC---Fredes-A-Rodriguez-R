@@ -1,0 +1,10 @@
+tag,boquilla,frac_flanco_hilera_sup_instant_media,frac_flanco_hilera_inf_instant_media
+dens600,SUP_1_A,0.00038,0.00000
+dens600,SUP_2_A,0.00046,0.00001
+dens600,SUP_1_B,0.00038,0.00000
+dens600,SUP_2_B,0.00046,0.00001
+dens600,INF_EXT_A,0.00000,0.00000
+dens600,INF_EXT_B,0.00000,0.00000
+dens600,C2_A,0.00000,0.00000
+dens600,C2_B,0.00000,0.00000
+dens600,INF_INT,0.00000,0.00000

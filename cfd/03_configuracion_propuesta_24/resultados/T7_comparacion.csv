@@ -1,0 +1,133 @@
+superficie,kpi,caso,valor
+OD,D̄ 10 mm,"Base (G3_A_base_v3, S9)",26.3829
+OD,D̄ 10 mm,"Caso 2 diseño anterior (G8_C2_OD, S9)",26.3844
+OD,D̄ 10 mm,"R3_01 kit, LAT_1 horizontal (S9)",25.8237
+OD,D̄ 10 mm,"R3_02 Caso 2, ramal A (S9)",25.8261
+OD,D̄ 10 mm,"R3_03 Caso 2, ramal B (S9)",25.8234
+OD,D̄ 10 mm,Caso 2 A+B explícito (R3_02 + R3_03),25.8247
+OD,CV 10 mm,"Base (G3_A_base_v3, S9)",0.304326
+OD,CV 10 mm,"Caso 2 diseño anterior (G8_C2_OD, S9)",0.265457
+OD,CV 10 mm,"R3_01 kit, LAT_1 horizontal (S9)",0.660945
+OD,CV 10 mm,"R3_02 Caso 2, ramal A (S9)",0.6434
+OD,CV 10 mm,"R3_03 Caso 2, ramal B (S9)",0.6535
+OD,CV 10 mm,Caso 2 A+B explícito (R3_02 + R3_03),0.647914
+OD,D_min 10 mm,"Base (G3_A_base_v3, S9)",0.266916
+OD,D_min 10 mm,"Caso 2 diseño anterior (G8_C2_OD, S9)",14.5626
+OD,D_min 10 mm,"R3_01 kit, LAT_1 horizontal (S9)",0.133136
+OD,D_min 10 mm,"R3_02 Caso 2, ramal A (S9)",11.9965
+OD,D_min 10 mm,"R3_03 Caso 2, ramal B (S9)",9.0697
+OD,D_min 10 mm,Caso 2 A+B explícito (R3_02 + R3_03),10.5331
+OD,zona seca 10 mm %,"Base (G3_A_base_v3, S9)",0
+OD,zona seca 10 mm %,"Caso 2 diseño anterior (G8_C2_OD, S9)",0
+OD,zona seca 10 mm %,"R3_01 kit, LAT_1 horizontal (S9)",0
+OD,zona seca 10 mm %,"R3_02 Caso 2, ramal A (S9)",0
+OD,zona seca 10 mm %,"R3_03 Caso 2, ramal B (S9)",0
+OD,zona seca 10 mm %,Caso 2 A+B explícito (R3_02 + R3_03),0
+OD,zona seca 2 mm %,"Base (G3_A_base_v3, S9)",1.16871
+OD,zona seca 2 mm %,"Caso 2 diseño anterior (G8_C2_OD, S9)",0
+OD,zona seca 2 mm %,"R3_01 kit, LAT_1 horizontal (S9)",1.55828
+OD,zona seca 2 mm %,"R3_02 Caso 2, ramal A (S9)",0
+OD,zona seca 2 mm %,"R3_03 Caso 2, ramal B (S9)",0
+OD,zona seca 2 mm %,Caso 2 A+B explícito (R3_02 + R3_03),0
+OD,η %,"Base (G3_A_base_v3, S9)",94.2272
+OD,η %,"Caso 2 diseño anterior (G8_C2_OD, S9)",94.2324
+OD,η %,"R3_01 kit, LAT_1 horizontal (S9)",79.079
+OD,η %,"R3_02 Caso 2, ramal A (S9)",79.0864
+OD,η %,"R3_03 Caso 2, ramal B (S9)",79.078
+OD,η %,Caso 2 A+B explícito (R3_02 + R3_03),79.0822
+OD bajo z 890-1000,D̄,"Base (G3_A_base_v3, S9)",29.3366
+OD bajo z 890-1000,D̄,"Caso 2 diseño anterior (G8_C2_OD, S9)",29.3449
+OD bajo z 890-1000,D̄,"R3_01 kit, LAT_1 horizontal (S9)",28.6904
+OD bajo z 890-1000,D̄,"R3_02 Caso 2, ramal A (S9)",28.7044
+OD bajo z 890-1000,D̄,"R3_03 Caso 2, ramal B (S9)",28.6639
+OD bajo z 890-1000,D̄,Caso 2 A+B explícito (R3_02 + R3_03),28.6841
+OD bajo z 890-1000,D_min,"Base (G3_A_base_v3, S9)",26.2792
+OD bajo z 890-1000,D_min,"Caso 2 diseño anterior (G8_C2_OD, S9)",26.2826
+OD bajo z 890-1000,D_min,"R3_01 kit, LAT_1 horizontal (S9)",11.9941
+OD bajo z 890-1000,D_min,"R3_02 Caso 2, ramal A (S9)",11.9965
+OD bajo z 890-1000,D_min,"R3_03 Caso 2, ramal B (S9)",9.0697
+OD bajo z 890-1000,D_min,Caso 2 A+B explícito (R3_02 + R3_03),10.5331
+OD alto z 1000-1405,D̄,"Base (G3_A_base_v3, S9)",25.5925
+OD alto z 1000-1405,D̄,"Caso 2 diseño anterior (G8_C2_OD, S9)",25.5921
+OD alto z 1000-1405,D̄,"R3_01 kit, LAT_1 horizontal (S9)",25.0565
+OD alto z 1000-1405,D̄,"R3_02 Caso 2, ramal A (S9)",25.0557
+OD alto z 1000-1405,D̄,"R3_03 Caso 2, ramal B (S9)",25.0632
+OD alto z 1000-1405,D̄,Caso 2 A+B explícito (R3_02 + R3_03),25.0595
+OD alto z 1000-1405,CV,"Base (G3_A_base_v3, S9)",0.34545
+OD alto z 1000-1405,CV,"Caso 2 diseño anterior (G8_C2_OD, S9)",0.298961
+OD alto z 1000-1405,CV,"R3_01 kit, LAT_1 horizontal (S9)",0.35686
+OD alto z 1000-1405,CV,"R3_02 Caso 2, ramal A (S9)",0.309042
+OD alto z 1000-1405,CV,"R3_03 Caso 2, ramal B (S9)",0.311573
+OD alto z 1000-1405,CV,Caso 2 A+B explícito (R3_02 + R3_03),0.308969
+OD alto z 1000-1405,D_min,"Base (G3_A_base_v3, S9)",0.266916
+OD alto z 1000-1405,D_min,"Caso 2 diseño anterior (G8_C2_OD, S9)",14.5626
+OD alto z 1000-1405,D_min,"R3_01 kit, LAT_1 horizontal (S9)",0.133136
+OD alto z 1000-1405,D_min,"R3_02 Caso 2, ramal A (S9)",14.5596
+OD alto z 1000-1405,D_min,"R3_03 Caso 2, ramal B (S9)",14.8785
+OD alto z 1000-1405,D_min,Caso 2 A+B explícito (R3_02 + R3_03),15.6912
+Cara inferior,D̄ 10 mm,"Base (G3_A_base_v3, S9)",5.45523
+Cara inferior,D̄ 10 mm,"Caso 2 diseño anterior (G8_C2_OD, S9)",5.4533
+Cara inferior,D̄ 10 mm,"R3_01 kit, LAT_1 horizontal (S9)",14.1908
+Cara inferior,D̄ 10 mm,"R3_02 Caso 2, ramal A (S9)",14.1923
+Cara inferior,D̄ 10 mm,"R3_03 Caso 2, ramal B (S9)",14.1327
+Cara inferior,D̄ 10 mm,Caso 2 A+B explícito (R3_02 + R3_03),14.1625
+Cara inferior,CV 10 mm,"Base (G3_A_base_v3, S9)",0.625926
+Cara inferior,CV 10 mm,"Caso 2 diseño anterior (G8_C2_OD, S9)",0.625988
+Cara inferior,CV 10 mm,"R3_01 kit, LAT_1 horizontal (S9)",0.428468
+Cara inferior,CV 10 mm,"R3_02 Caso 2, ramal A (S9)",0.428603
+Cara inferior,CV 10 mm,"R3_03 Caso 2, ramal B (S9)",0.434686
+Cara inferior,CV 10 mm,Caso 2 A+B explícito (R3_02 + R3_03),0.430263
+Cara inferior,D_min 10 mm,"Base (G3_A_base_v3, S9)",2.83176
+Cara inferior,D_min 10 mm,"Caso 2 diseño anterior (G8_C2_OD, S9)",2.83187
+Cara inferior,D_min 10 mm,"R3_01 kit, LAT_1 horizontal (S9)",7.50531
+Cara inferior,D_min 10 mm,"R3_02 Caso 2, ramal A (S9)",7.54126
+Cara inferior,D_min 10 mm,"R3_03 Caso 2, ramal B (S9)",7.12319
+Cara inferior,D_min 10 mm,Caso 2 A+B explícito (R3_02 + R3_03),7.33222
+Cara inferior,zona seca 10 mm %,"Base (G3_A_base_v3, S9)",0
+Cara inferior,zona seca 10 mm %,"Caso 2 diseño anterior (G8_C2_OD, S9)",0
+Cara inferior,zona seca 10 mm %,"R3_01 kit, LAT_1 horizontal (S9)",0
+Cara inferior,zona seca 10 mm %,"R3_02 Caso 2, ramal A (S9)",0
+Cara inferior,zona seca 10 mm %,"R3_03 Caso 2, ramal B (S9)",0
+Cara inferior,zona seca 10 mm %,Caso 2 A+B explícito (R3_02 + R3_03),0
+Cara inferior,zona seca 2 mm %,"Base (G3_A_base_v3, S9)",0
+Cara inferior,zona seca 2 mm %,"Caso 2 diseño anterior (G8_C2_OD, S9)",0
+Cara inferior,zona seca 2 mm %,"R3_01 kit, LAT_1 horizontal (S9)",0
+Cara inferior,zona seca 2 mm %,"R3_02 Caso 2, ramal A (S9)",0
+Cara inferior,zona seca 2 mm %,"R3_03 Caso 2, ramal B (S9)",0
+Cara inferior,zona seca 2 mm %,Caso 2 A+B explícito (R3_02 + R3_03),0
+Cara inferior,η % (INF_EXT+C2+INF_INT),"Base (G3_A_base_v3, S9)",30.9159
+Cara inferior,η % (INF_EXT+C2+INF_INT),"Caso 2 diseño anterior (G8_C2_OD, S9)",30.905
+Cara inferior,η % (INF_EXT+C2+INF_INT),"R3_01 kit, LAT_1 horizontal (S9)",48.2896
+Cara inferior,η % (INF_EXT+C2+INF_INT),"R3_02 Caso 2, ramal A (S9)",48.2946
+Cara inferior,η % (INF_EXT+C2+INF_INT),"R3_03 Caso 2, ramal B (S9)",48.0831
+Cara inferior,η % (INF_EXT+C2+INF_INT),Caso 2 A+B explícito (R3_02 + R3_03),48.1889
+Z1 r 450-521,D̄,"Base (G3_A_base_v3, S9)",10.166
+Z1 r 450-521,D̄,"Caso 2 diseño anterior (G8_C2_OD, S9)",10.1656
+Z1 r 450-521,D̄,"R3_01 kit, LAT_1 horizontal (S9)",12.1126
+Z1 r 450-521,D̄,"R3_02 Caso 2, ramal A (S9)",12.1108
+Z1 r 450-521,D̄,"R3_03 Caso 2, ramal B (S9)",11.751
+Z1 r 450-521,D̄,Caso 2 A+B explícito (R3_02 + R3_03),11.9309
+Z2 r 521-617 (pared proyectada),D̄,"Base (G3_A_base_v3, S9)",3.77331
+Z2 r 521-617 (pared proyectada),D̄,"Caso 2 diseño anterior (G8_C2_OD, S9)",3.77389
+Z2 r 521-617 (pared proyectada),D̄,"R3_01 kit, LAT_1 horizontal (S9)",9.59618
+Z2 r 521-617 (pared proyectada),D̄,"R3_02 Caso 2, ramal A (S9)",9.59613
+Z2 r 521-617 (pared proyectada),D̄,"R3_03 Caso 2, ramal B (S9)",9.87237
+Z2 r 521-617 (pared proyectada),D̄,Caso 2 A+B explícito (R3_02 + R3_03),9.73425
+Z3 r 617-710,"D̄ (D-047: ≥ 15,8)","Base (G3_A_base_v3, S9)",4.13973
+Z3 r 617-710,"D̄ (D-047: ≥ 15,8)","Caso 2 diseño anterior (G8_C2_OD, S9)",4.13438
+Z3 r 617-710,"D̄ (D-047: ≥ 15,8)","R3_01 kit, LAT_1 horizontal (S9)",20.092
+Z3 r 617-710,"D̄ (D-047: ≥ 15,8)","R3_02 Caso 2, ramal A (S9)",20.0971
+Z3 r 617-710,"D̄ (D-047: ≥ 15,8)","R3_03 Caso 2, ramal B (S9)",19.8895
+Z3 r 617-710,"D̄ (D-047: ≥ 15,8)",Caso 2 A+B explícito (R3_02 + R3_03),19.9933
+Z3 r 617-710,"CV (D-047: ≤ 0,4)","Base (G3_A_base_v3, S9)",0.245998
+Z3 r 617-710,"CV (D-047: ≤ 0,4)","Caso 2 diseño anterior (G8_C2_OD, S9)",0.244403
+Z3 r 617-710,"CV (D-047: ≤ 0,4)","R3_01 kit, LAT_1 horizontal (S9)",0.297936
+Z3 r 617-710,"CV (D-047: ≤ 0,4)","R3_02 Caso 2, ramal A (S9)",0.298126
+Z3 r 617-710,"CV (D-047: ≤ 0,4)","R3_03 Caso 2, ramal B (S9)",0.306281
+Z3 r 617-710,"CV (D-047: ≤ 0,4)",Caso 2 A+B explícito (R3_02 + R3_03),0.297995
+Z3 r 617-710,D_min 2 mm,"Base (G3_A_base_v3, S9)",2.41317
+Z3 r 617-710,D_min 2 mm,"Caso 2 diseño anterior (G8_C2_OD, S9)",2.41373
+Z3 r 617-710,D_min 2 mm,"R3_01 kit, LAT_1 horizontal (S9)",10.9519
+Z3 r 617-710,D_min 2 mm,"R3_02 Caso 2, ramal A (S9)",10.9511
+Z3 r 617-710,D_min 2 mm,"R3_03 Caso 2, ramal B (S9)",11.1629
+Z3 r 617-710,D_min 2 mm,Caso 2 A+B explícito (R3_02 + R3_03),11.1073

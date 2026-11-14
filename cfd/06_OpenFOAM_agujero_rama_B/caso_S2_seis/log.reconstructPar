@@ -1,0 +1,96 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2606                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _481094f-20260618 OPENFOAM=2606 version=2606
+Arch   : "LSB;label=32;scalar=64"
+Exec   : reconstructPar -latestTime
+Date   : Sep 19 2026
+Time   : 22:44:08
+Host   : DESKTOP-KR70U7K
+PID    : 1734
+I/O    : uncollated
+Case   : /home/piermoto/cfd01/F4/S2_seis
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+memory pool : not available
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+
+--> FOAM Warning : allowSystemOperations : Allowing user-supplied system call operations.
+                   This can be a security risk if running untrusted cases
+                   through e.g. 'coded' on-the-fly-compilation functionality.
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Reconstructing fields
+region=region0
+
+Time = 0.035
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicCloud:UCoeff
+        kinematicCloud:rhokTrans
+
+    Reconstructing volVectorField::Internals
+
+        kinematicCloud:UTrans
+
+    Reconstructing volScalarFields
+
+        epsilon
+        k
+        kinematicCloud:campos_de_impacto:count
+        kinematicCloud:campos_de_impacto:mass
+        nut
+        p
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+Reconstructing lagrangian fields for cloud kinematicCloud
+
+    Reconstructing lagrangian labelFields
+
+        active
+        origId
+        origProcId
+        typeId
+
+    Reconstructing lagrangian scalarFields
+
+        age
+        d
+        dTarget
+        nParticle
+        rho
+        tTurb
+
+    Reconstructing lagrangian vectorFields
+
+        U
+        UCorrect
+        UTurb
+
+No finite-area fields
+
+
+End
+

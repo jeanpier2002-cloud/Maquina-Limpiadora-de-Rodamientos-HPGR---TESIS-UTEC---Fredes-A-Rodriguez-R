@@ -1,0 +1,45 @@
+\section{Correspondencia de nombres de cálculo y archivos}
+La Tabla~\ref{tab:correspondencia-sap} relaciona los identificadores que aparecen en los archivos de respaldo con la denominación que se emplea en el informe.
+
+\begingroup
+\small\singlespacing
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{\dimexpr(\textwidth-3.6cm-2\tabcolsep)/1\relax}@{}}
+\caption{Correspondencia entre identificadores originales y denominaciones del informe}\label{tab:correspondencia-sap}\\
+\toprule
+\textbf{Denominación} & \textbf{Significado}\\
+
+\midrule\endfirsthead
+\caption[]{Correspondencia de identificadores y denominaciones (continuación)}\\
+\toprule
+\textbf{Denominación} & \textbf{Significado}\\
+
+\midrule\endhead
+\midrule\multicolumn{2}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
+\bottomrule\endlastfoot
+N3, N4, N5 & Bastidor con tres, cuatro o cinco apoyos sectoriales, respectivamente. Los apoyos reciben el rodamiento y son distintos de las cuatro ruedas del conjunto móvil.\\
+R01 & Análisis estructural original realizado en SAP2000.\\
+R03, R04, R05 & Revisiones mecánicas: reserva de masa y desarrollo de la integración. R05 identifica la revisión mecánica posterior al análisis original, no cinco apoyos.\\
+R06, R06.1 & Integración de la mesa con el aplicador, los rieles y el drenaje (R06) y desarrollo de los centradores K2-M (R06.1). Configuración candidata vigente.\\
+\texttt{LC\_G\_FRAME} & Peso propio del bastidor.\\
+\texttt{LC\_G\_EXTERNAL} & Carga vertical externa aplicada en los apoyos sectoriales.\\
+\texttt{SLS\_NOMINAL} & Combinación nominal de servicio: peso propio y carga externa con factor 1,00.\\
+\texttt{SLS\_UNC\_125} & Servicio con carga externa amplificada por 1,25; peso propio con factor 1,00. Este factor no sustituye el factor mecánico 1,15.\\
+\texttt{ULS\_1\_4D} & Combinación resistente: factor 1,40 sobre el peso propio y la carga externa, conforme a la Tabla~\ref{tab:combinaciones-r01}.\\
+\texttt{DSTL1} & Identificador de la combinación resistente reportada para cuatro y cinco apoyos. Su equivalencia con la combinación del bastidor con tres apoyos no está demostrada.\\
+\texttt{Frame}, \texttt{Frames} & Barra o elementos de barra del modelo.\\
+\texttt{MatProp = Default} & Campo de asignación del material descrito en el apartado~\ref{sec:material-trazabilidad}. Para el bastidor W6×9 se consideró acero ASTM A36.\\
+D/C & Razón demanda/capacidad; no es un factor de seguridad global.\\
+PMM & Interacción de carga axial y flexión biaxial.\\
+V5.2, I01 & Identificadores de la arquitectura y del cálculo de aspersión documentados.\\
+PAD y liner & Apoyo sectorial del rodamiento y revestimiento de su superficie de contacto. En el informe se emplea «apoyos sectoriales».\\
+K2-M, v5.7.3, v5.7.4 & Centrador de brazo pivotante de eje vertical derivado del concepto K2. La versión 5.7.3 es la vigente; la 5.7.4 es un estudio de refuerzo no adoptado.\\
+U1, U2, U3 & Unidades de centrado: U1 y U3 son las referencias y U2 el empujador.\\
+LOAD, WASH & Receptores del pasador de bloqueo en las estaciones de carga y de lavado.\\
+E1, E2 & Etapas de limpieza: E1, con el rodamiento montado sobre la mesa, y E2, con sus elementos desmontados.\\
+Libro I01 & Identificador documental de la hoja de cálculo hidráulico. En el texto se utiliza «hoja de cálculo hidráulico».\\
+\end{longtable}
+
+\endgroup

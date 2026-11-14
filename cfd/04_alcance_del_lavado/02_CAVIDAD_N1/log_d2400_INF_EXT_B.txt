@@ -1,0 +1,2 @@
+INF_EXT_B  entra ventana sup 0.000 % | inf 11.641 %  (628 s)
+listo d2400_INF_EXT_B en 628 s

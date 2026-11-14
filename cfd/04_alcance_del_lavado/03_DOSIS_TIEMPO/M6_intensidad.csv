@@ -1,0 +1,157 @@
+superficie,zona,s_centro_mm,J_Ns_m2_vuelta,J_sobre_mediana,vueltas_para_262_Pa_s,vueltas_para_419_Pa_s
+OD,OD_bajo_z890-1000,895.0,2955,5.574,0.1,0.1
+OD,OD_bajo_z890-1000,905.0,1381,2.605,0.2,0.3
+OD,OD_bajo_z890-1000,915.0,182.9,0.345,1.4,2.3
+OD,OD_bajo_z890-1000,925.0,232.4,0.438,1.1,1.8
+OD,OD_bajo_z890-1000,935.0,245.5,0.463,1.1,1.7
+OD,OD_bajo_z890-1000,945.0,270,0.509,1.0,1.6
+OD,OD_bajo_z890-1000,955.0,309.4,0.584,0.8,1.4
+OD,OD_bajo_z890-1000,965.0,345.6,0.652,0.8,1.2
+OD,OD_bajo_z890-1000,975.0,377,0.711,0.7,1.1
+OD,OD_bajo_z890-1000,985.0,410.4,0.774,0.6,1.0
+OD,OD_bajo_z890-1000,995.0,450.9,0.851,0.6,0.9
+OD,OD_alto_z1000-1405,1005.0,472.4,0.891,0.6,0.9
+OD,OD_alto_z1000-1405,1015.0,509.6,0.961,0.5,0.8
+OD,OD_alto_z1000-1405,1025.0,444.7,0.839,0.6,0.9
+OD,OD_alto_z1000-1405,1035.0,340.4,0.642,0.8,1.2
+OD,OD_alto_z1000-1405,1045.0,435.9,0.822,0.6,1.0
+OD,OD_alto_z1000-1405,1055.0,438.8,0.828,0.6,1.0
+OD,OD_alto_z1000-1405,1065.0,501.1,0.945,0.5,0.8
+OD,OD_alto_z1000-1405,1075.0,504.5,0.952,0.5,0.8
+OD,OD_alto_z1000-1405,1085.0,532.7,1.005,0.5,0.8
+OD,OD_alto_z1000-1405,1095.0,544.2,1.026,0.5,0.8
+OD,OD_alto_z1000-1405,1105.0,536.2,1.011,0.5,0.8
+OD,OD_alto_z1000-1405,1115.0,543,1.024,0.5,0.8
+OD,OD_alto_z1000-1405,1125.0,776.2,1.464,0.3,0.5
+OD,OD_alto_z1000-1405,1135.0,972.2,1.834,0.3,0.4
+OD,OD_alto_z1000-1405,1145.0,826.8,1.560,0.3,0.5
+OD,OD_alto_z1000-1405,1155.0,521.7,0.984,0.5,0.8
+OD,OD_alto_z1000-1405,1165.0,520.7,0.982,0.5,0.8
+OD,OD_alto_z1000-1405,1175.0,537.2,1.013,0.5,0.8
+OD,OD_alto_z1000-1405,1185.0,544.9,1.028,0.5,0.8
+OD,OD_alto_z1000-1405,1195.0,527.7,0.995,0.5,0.8
+OD,OD_alto_z1000-1405,1205.0,708.2,1.336,0.4,0.6
+OD,OD_alto_z1000-1405,1215.0,940,1.773,0.3,0.4
+OD,OD_alto_z1000-1405,1225.0,952.3,1.796,0.3,0.4
+OD,OD_alto_z1000-1405,1235.0,902.9,1.703,0.3,0.5
+OD,OD_alto_z1000-1405,1245.0,564.1,1.064,0.5,0.7
+OD,OD_alto_z1000-1405,1255.0,530.5,1.001,0.5,0.8
+OD,OD_alto_z1000-1405,1265.0,541.4,1.021,0.5,0.8
+OD,OD_alto_z1000-1405,1275.0,529.8,0.999,0.5,0.8
+OD,OD_alto_z1000-1405,1285.0,632.1,1.192,0.4,0.7
+OD,OD_alto_z1000-1405,1295.0,935.6,1.765,0.3,0.4
+OD,OD_alto_z1000-1405,1305.0,945.8,1.784,0.3,0.4
+OD,OD_alto_z1000-1405,1315.0,917.1,1.730,0.3,0.5
+OD,OD_alto_z1000-1405,1325.0,629.4,1.187,0.4,0.7
+OD,OD_alto_z1000-1405,1335.0,530.5,1.001,0.5,0.8
+OD,OD_alto_z1000-1405,1345.0,539.2,1.017,0.5,0.8
+OD,OD_alto_z1000-1405,1355.0,534.2,1.008,0.5,0.8
+OD,OD_alto_z1000-1405,1365.0,524,0.988,0.5,0.8
+OD,OD_alto_z1000-1405,1375.0,505.2,0.953,0.5,0.8
+OD,OD_alto_z1000-1405,1385.0,478.3,0.902,0.5,0.9
+OD,OD_alto_z1000-1405,1395.0,434.7,0.820,0.6,1.0
+OD,OD_alto_z1000-1405,1402.5,349,0.658,0.8,1.2
+Cara inferior,Z1_aro_interior,455.0,263.2,4.639,1.0,1.6
+Cara inferior,Z1_aro_interior,465.0,182.8,3.222,1.4,2.3
+Cara inferior,Z1_aro_interior,475.0,137.1,2.417,1.9,3.1
+Cara inferior,Z1_aro_interior,485.0,101.1,1.783,2.6,4.1
+Cara inferior,Z1_aro_interior,495.0,76.54,1.349,3.4,5.5
+Cara inferior,Z1_aro_interior,505.0,59.21,1.044,4.4,7.1
+Cara inferior,Z1_aro_interior,515.0,48.53,0.855,5.4,8.6
+Cara inferior,Z2_ventana_proyectada,525.0,40.78,0.719,6.4,10.3
+Cara inferior,Z2_ventana_proyectada,535.0,38.29,0.675,6.8,10.9
+Cara inferior,Z2_ventana_proyectada,545.0,37.45,0.660,7.0,11.2
+Cara inferior,Z2_ventana_proyectada,555.0,35.99,0.634,7.3,11.6
+Cara inferior,Z2_ventana_proyectada,565.0,35.94,0.634,7.3,11.7
+Cara inferior,Z2_ventana_proyectada,575.0,34.88,0.615,7.5,12.0
+Cara inferior,Z2_ventana_proyectada,585.0,36.31,0.640,7.2,11.5
+Cara inferior,Z2_ventana_proyectada,595.0,39.51,0.696,6.6,10.6
+Cara inferior,Z2_ventana_proyectada,605.0,41.86,0.738,6.3,10.0
+Cara inferior,Z2_ventana_proyectada,615.0,44.31,0.781,5.9,9.5
+Cara inferior,Z3_aro_exterior,625.0,46.66,0.823,5.6,9.0
+Cara inferior,Z3_aro_exterior,635.0,54.25,0.956,4.8,7.7
+Cara inferior,Z3_aro_exterior,645.0,71.64,1.263,3.7,5.8
+Cara inferior,Z3_aro_exterior,655.0,87.68,1.546,3.0,4.8
+Cara inferior,Z3_aro_exterior,665.0,100.4,1.770,2.6,4.2
+Cara inferior,Z3_aro_exterior,675.0,109.2,1.925,2.4,3.8
+Cara inferior,Z3_aro_exterior,685.0,125.1,2.205,2.1,3.4
+Cara inferior,Z3_aro_exterior,695.0,158.4,2.793,1.7,2.6
+Cara inferior,Z3_aro_exterior,705.0,188.9,3.330,1.4,2.2
+Cara superior,Z1_aro_interior,463.6,437.2,0.933,0.6,1.0
+Cara superior,Z1_aro_interior,473.6,442.4,0.944,0.6,0.9
+Cara superior,Z1_aro_interior,483.6,470.5,1.004,0.6,0.9
+Cara superior,Z1_aro_interior,493.6,499.9,1.067,0.5,0.8
+Cara superior,Z1_aro_interior,503.6,477.6,1.020,0.5,0.9
+Cara superior,Z1_aro_interior,513.6,468.6,1.000,0.6,0.9
+Cara superior,Z2_ventana_proyectada,523.6,492.1,1.051,0.5,0.9
+Cara superior,Z2_ventana_proyectada,533.6,476,1.016,0.6,0.9
+Cara superior,Z2_ventana_proyectada,543.6,453.6,0.968,0.6,0.9
+Cara superior,Z2_ventana_proyectada,553.6,602.2,1.286,0.4,0.7
+Cara superior,Z2_ventana_proyectada,563.6,802.3,1.713,0.3,0.5
+Cara superior,Z2_ventana_proyectada,573.6,819.1,1.748,0.3,0.5
+Cara superior,Z2_ventana_proyectada,583.6,731.3,1.561,0.4,0.6
+Cara superior,Z2_ventana_proyectada,593.6,839.7,1.792,0.3,0.5
+Cara superior,Z2_ventana_proyectada,603.6,815.8,1.742,0.3,0.5
+Cara superior,Z2_ventana_proyectada,613.6,674.7,1.440,0.4,0.6
+Cara superior,Z3_aro_exterior,623.6,468.3,1.000,0.6,0.9
+Cara superior,Z3_aro_exterior,633.6,400.7,0.855,0.7,1.0
+Cara superior,Z3_aro_exterior,643.6,391.8,0.836,0.7,1.1
+Cara superior,Z3_aro_exterior,653.6,369.3,0.788,0.7,1.1
+Cara superior,Z3_aro_exterior,663.6,378.2,0.807,0.7,1.1
+Cara superior,Z3_aro_exterior,673.6,363.6,0.776,0.7,1.2
+Cara superior,Z3_aro_exterior,683.6,326.1,0.696,0.8,1.3
+Cara superior,Z3_aro_exterior,693.6,331.4,0.707,0.8,1.3
+Cara superior,Z3_aro_exterior,703.6,347.7,0.742,0.8,1.2
+Cara superior,Z3_aro_exterior,709.3,374.8,0.800,0.7,1.1
+Agujero,agujero,895.0,678.1,1.890,0.4,0.6
+Agujero,agujero,905.0,678.3,1.890,0.4,0.6
+Agujero,agujero,915.0,378.9,1.056,0.7,1.1
+Agujero,agujero,925.0,343.6,0.958,0.8,1.2
+Agujero,agujero,935.0,358,0.998,0.7,1.2
+Agujero,agujero,945.0,350.7,0.977,0.7,1.2
+Agujero,agujero,955.0,354.4,0.988,0.7,1.2
+Agujero,agujero,965.0,370.4,1.032,0.7,1.1
+Agujero,agujero,975.0,335.4,0.935,0.8,1.2
+Agujero,agujero,985.0,471.3,1.314,0.6,0.9
+Agujero,agujero,995.0,645.5,1.799,0.4,0.6
+Agujero,agujero,1005.0,629.1,1.753,0.4,0.7
+Agujero,agujero,1015.0,602.3,1.679,0.4,0.7
+Agujero,agujero,1025.0,473.4,1.319,0.6,0.9
+Agujero,agujero,1035.0,350.5,0.977,0.7,1.2
+Agujero,agujero,1045.0,350.6,0.977,0.7,1.2
+Agujero,agujero,1055.0,352.2,0.982,0.7,1.2
+Agujero,agujero,1065.0,346.2,0.965,0.8,1.2
+Agujero,agujero,1075.0,359.6,1.002,0.7,1.2
+Agujero,agujero,1085.0,577.5,1.609,0.5,0.7
+Agujero,agujero,1095.0,653.3,1.821,0.4,0.6
+Agujero,agujero,1105.0,602.7,1.680,0.4,0.7
+Agujero,agujero,1115.0,600.7,1.674,0.4,0.7
+Agujero,agujero,1125.0,365.9,1.020,0.7,1.1
+Agujero,agujero,1135.0,346.3,0.965,0.8,1.2
+Agujero,agujero,1145.0,341.6,0.952,0.8,1.2
+Agujero,agujero,1155.0,360.2,1.004,0.7,1.2
+Agujero,agujero,1165.0,321.6,0.896,0.8,1.3
+Agujero,agujero,1175.0,475.7,1.326,0.6,0.9
+Agujero,agujero,1185.0,631.8,1.761,0.4,0.7
+Agujero,agujero,1195.0,614.5,1.713,0.4,0.7
+Agujero,agujero,1205.0,583.8,1.627,0.4,0.7
+Agujero,agujero,1215.0,510.1,1.422,0.5,0.8
+Agujero,agujero,1225.0,340.8,0.950,0.8,1.2
+Agujero,agujero,1235.0,335.4,0.935,0.8,1.2
+Agujero,agujero,1245.0,343,0.956,0.8,1.2
+Agujero,agujero,1255.0,339,0.945,0.8,1.2
+Agujero,agujero,1265.0,356.1,0.992,0.7,1.2
+Agujero,agujero,1275.0,567.6,1.582,0.5,0.7
+Agujero,agujero,1285.0,638.6,1.780,0.4,0.7
+Agujero,agujero,1295.0,583.8,1.627,0.4,0.7
+Agujero,agujero,1305.0,599.1,1.670,0.4,0.7
+Agujero,agujero,1315.0,400.7,1.117,0.7,1.0
+Agujero,agujero,1325.0,324.8,0.905,0.8,1.3
+Agujero,agujero,1335.0,336.7,0.939,0.8,1.2
+Agujero,agujero,1345.0,341.3,0.951,0.8,1.2
+Agujero,agujero,1355.0,320.6,0.894,0.8,1.3
+Agujero,agujero,1365.0,321.9,0.897,0.8,1.3
+Agujero,agujero,1375.0,324.7,0.905,0.8,1.3
+Agujero,agujero,1385.0,282.2,0.787,0.9,1.5
+Agujero,agujero,1395.0,269.2,0.750,1.0,1.6
+Agujero,agujero,1402.5,251.5,0.701,1.0,1.7

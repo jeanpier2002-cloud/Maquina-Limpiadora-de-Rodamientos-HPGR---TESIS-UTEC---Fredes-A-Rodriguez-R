@@ -1,0 +1,10 @@
+indicador,rama_B_S2_seis,Fluent_F5_base_v1,diferencia,criterio,cumple
+mdot_depositado_kg_s,0.783494,0.781418,-0.26 %,-,-
+K2_D_media_kg_m2_vuelta,18.8086,18.7587,-0.27 %,|dD| <= 5 %,SI
+K3_CV,0.3397,0.3362,-0.0035,"|dCV| <= 0,03",SI
+K4_zona_seca_pct,0.000,0.000,0.000,0 % en ambos,SI
+K2_D_min,8.4704,10.4535,1.9831,-,-
+K2_D_max,36.8906,34.3777,-2.5129,-,-
+K4_C(Dmin)_max_dif_1a20_pp,,,1.33,"curvas superpuestas (<= 2 pp, objetivo de trabajo)",SI
+K6_vn_medio_m_s (rama B: |U| medio),23.455,23.347,-,no comparable 1:1,-
+balance_ventana_pct,~1e-8 (rama B),0.060,-,< 1 %,SI

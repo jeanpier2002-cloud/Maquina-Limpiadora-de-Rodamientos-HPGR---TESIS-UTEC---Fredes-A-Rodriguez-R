@@ -1,0 +1,43 @@
+superficie,zona,D_req,N95_acc_media_theta,t95_acc_min_media_theta,N95_ref_media_theta,t95_ref_min_media_theta,N95_acc_peor_celda,t95_acc_min_peor_celda,N95_ref_peor_celda,t95_ref_min_peor_celda,N95_acc_celdas,t95_acc_min_celdas,N95_ref_celdas,t95_ref_min_celdas
+OD,total,65,5,2.94,5,2.94,5,2.94,5,2.94,5,2.94,5,2.94
+OD,total,183,14,8.24,14,8.24,14,8.24,14,8.24,14,8.24,14,8.24
+OD,total,305,24,14.12,24,14.12,24,14.12,24,14.12,24,14.12,24,14.12
+OD,OD_alto_z1000-1405,65,4,2.35,4,2.35,4,2.35,4,2.35,4,2.35,4,2.35
+OD,OD_alto_z1000-1405,183,10,5.88,10,5.88,10,5.88,10,5.88,10,5.88,10,5.88
+OD,OD_alto_z1000-1405,305,17,10.00,17,10.00,17,10.00,17,10.00,17,10.00,17,10.00
+OD,OD_bajo_z890-1000,65,7,4.12,7,4.12,13,7.65,13,7.65,7,4.12,7,4.12
+OD,OD_bajo_z890-1000,183,18,10.59,18,10.59,35,20.59,35,20.59,18,10.59,18,10.59
+OD,OD_bajo_z890-1000,305,29,17.06,29,17.06,58,34.12,58,34.12,29,17.06,29,17.06
+Cara inferior,total,65,9,5.29,9,5.29,99,58.24,106,62.35,46,27.06,91,53.53
+Cara inferior,total,183,24,14.12,25,14.71,,no alcanzada,,no alcanzada,129,75.88,,no alcanzada
+Cara inferior,total,305,40,23.53,42,24.71,,no alcanzada,,no alcanzada,,no alcanzada,,no alcanzada
+Cara inferior,Z1+Z3_aros_sin_ventana,65,9,5.29,,no alcanzada,106,62.35,,no alcanzada,67,39.41,,no alcanzada
+Cara inferior,Z1+Z3_aros_sin_ventana,183,24,14.12,,no alcanzada,,no alcanzada,,no alcanzada,189,111.18,,no alcanzada
+Cara inferior,Z1+Z3_aros_sin_ventana,305,40,23.53,,no alcanzada,,no alcanzada,,no alcanzada,,no alcanzada,,no alcanzada
+Cara inferior,Z1_aro_interior,65,9,5.29,9,5.29,14,8.24,14,8.24,11,6.47,11,6.47
+Cara inferior,Z1_aro_interior,183,24,14.12,24,14.12,38,22.35,38,22.35,31,18.24,31,18.24
+Cara inferior,Z1_aro_interior,305,40,23.53,40,23.53,63,37.06,63,37.06,51,30.00,51,30.00
+Cara inferior,Z2_ventana_proyectada,65,9,5.29,9,5.29,59,34.71,59,34.71,46,27.06,46,27.06
+Cara inferior,Z2_ventana_proyectada,183,25,14.71,25,14.71,166,97.65,166,97.65,129,75.88,129,75.88
+Cara inferior,Z2_ventana_proyectada,305,42,24.71,42,24.71,,no alcanzada,,no alcanzada,,no alcanzada,,no alcanzada
+Cara inferior,Z3_aro_exterior,65,6,3.53,,no alcanzada,106,62.35,,no alcanzada,75,44.12,,no alcanzada
+Cara inferior,Z3_aro_exterior,183,16,9.41,,no alcanzada,,no alcanzada,,no alcanzada,,no alcanzada,,no alcanzada
+Cara inferior,Z3_aro_exterior,305,27,15.88,,no alcanzada,,no alcanzada,,no alcanzada,,no alcanzada,,no alcanzada
+Cara superior,total,65,5,2.94,5,2.94,5,2.94,5,2.94,5,2.94,5,2.94
+Cara superior,total,183,13,7.65,13,7.65,13,7.65,13,7.65,13,7.65,13,7.65
+Cara superior,total,305,22,12.94,22,12.94,22,12.94,22,12.94,22,12.94,22,12.94
+Cara superior,Z1+Z3_aros_sin_ventana,65,5,2.94,5,2.94,5,2.94,5,2.94,5,2.94,5,2.94
+Cara superior,Z1+Z3_aros_sin_ventana,183,14,8.24,14,8.24,14,8.24,14,8.24,14,8.24,14,8.24
+Cara superior,Z1+Z3_aros_sin_ventana,305,22,12.94,22,12.94,22,12.94,22,12.94,22,12.94,22,12.94
+Cara superior,Z1_aro_interior,65,4,2.35,4,2.35,4,2.35,4,2.35,4,2.35,4,2.35
+Cara superior,Z1_aro_interior,183,10,5.88,10,5.88,10,5.88,10,5.88,10,5.88,10,5.88
+Cara superior,Z1_aro_interior,305,16,9.41,16,9.41,16,9.41,16,9.41,16,9.41,16,9.41
+Cara superior,Z2_ventana_proyectada,65,4,2.35,4,2.35,4,2.35,4,2.35,4,2.35,4,2.35
+Cara superior,Z2_ventana_proyectada,183,10,5.88,10,5.88,10,5.88,10,5.88,10,5.88,10,5.88
+Cara superior,Z2_ventana_proyectada,305,17,10.00,17,10.00,17,10.00,17,10.00,17,10.00,17,10.00
+Cara superior,Z3_aro_exterior,65,5,2.94,5,2.94,5,2.94,5,2.94,5,2.94,5,2.94
+Cara superior,Z3_aro_exterior,183,14,8.24,14,8.24,14,8.24,14,8.24,14,8.24,14,8.24
+Cara superior,Z3_aro_exterior,305,22,12.94,22,12.94,22,12.94,22,12.94,22,12.94,22,12.94
+Agujero,total,65,5,2.94,5,2.94,5,2.94,5,2.94,5,2.94,5,2.94
+Agujero,total,183,14,8.24,14,8.24,14,8.24,14,8.24,14,8.24,14,8.24
+Agujero,total,305,24,14.12,24,14.12,24,14.12,24,14.12,24,14.12,24,14.12

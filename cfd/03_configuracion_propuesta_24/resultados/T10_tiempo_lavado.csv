@@ -1,0 +1,16 @@
+superficie,caso,D_media,D_min_10mm,D_req,vueltas_media,min_media,vueltas_peor_celda,min_peor_celda
+OD,O7+C2 + Caso 2 (R3_02_03_AB),25.82,10.53,65,2.517,1.481,6.171,3.63
+OD,O7+C2 + Caso 2 (R3_02_03_AB),25.82,10.53,183,7.086,4.168,17.37,10.22
+OD,O7+C2 + Caso 2 (R3_02_03_AB),25.82,10.53,305,11.81,6.947,28.96,17.03
+Cara inferior,O7+C2 (R3_02_03_AB),14.16,7.332,65,4.59,2.7,8.865,5.215
+Cara inferior,O7+C2 (R3_02_03_AB),14.16,7.332,183,12.92,7.601,24.96,14.68
+Cara inferior,O7+C2 (R3_02_03_AB),14.16,7.332,305,21.54,12.67,41.6,24.47
+Cara superior,Caso 3 (G7; no cambia),21.82,14.03,65,2.979,1.752,4.633,2.725
+Cara superior,Caso 3 (G7; no cambia),21.82,14.03,183,8.387,4.933,13.04,7.673
+Cara superior,Caso 3 (G7; no cambia),21.82,14.03,305,13.98,8.222,21.74,12.79
+Agujero,Base = Caso 3 (G7; no cambia),18.72,11.52,65,3.472,2.042,5.642,3.319
+Agujero,Base = Caso 3 (G7; no cambia),18.72,11.52,183,9.776,5.75,15.89,9.344
+Agujero,Base = Caso 3 (G7; no cambia),18.72,11.52,305,16.29,9.584,26.48,15.57
+Cara inferior (diseño anterior),Caso Base (G7),5.46,2.93,65,11.9,7.003,22.18,13.05
+Cara inferior (diseño anterior),Caso Base (G7),5.46,2.93,183,33.52,19.72,62.46,36.74
+Cara inferior (diseño anterior),Caso Base (G7),5.46,2.93,305,55.86,32.86,104.1,61.23

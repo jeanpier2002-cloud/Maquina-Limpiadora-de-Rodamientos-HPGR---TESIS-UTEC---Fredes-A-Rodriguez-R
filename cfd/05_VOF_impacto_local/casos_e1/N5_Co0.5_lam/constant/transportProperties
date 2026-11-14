@@ -1,0 +1,14 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  Generado por e1_generar.py (CFD_Redosado/CORRIDA_2_desde24oct/02_VOF_v3). OpenFOAM v2606 (ESI).
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      transportProperties;
+}
+phases          (water air);
+water           { transportModel Newtonian; nu 4.60504e-07; rho 982.12; }
+air             { transportModel Newtonian; nu 2.01413e-05; rho 0.9061; }
+sigma           0.0662;

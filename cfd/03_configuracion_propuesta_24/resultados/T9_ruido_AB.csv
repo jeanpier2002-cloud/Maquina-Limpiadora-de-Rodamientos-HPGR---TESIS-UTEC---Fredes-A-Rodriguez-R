@@ -1,0 +1,11 @@
+kpi,A_S9 (R3_02),B_S9 (R3_03),B_menos_A,unidad
+OD: D̄ (kg·m⁻²·vuelta⁻¹),25.826,25.823,-0.0105,%
+OD: CV (−),0.6434,0.6535,0.0101,abs
+OD: D_min 10 mm (no es criterio),11.996,9.0697,-24.4,%
+OD: zona seca 2 mm (%),0,0,0,abs
+Cara inferior: D̄ (kg·m⁻²·vuelta⁻¹),14.192,14.133,-0.42,%
+Cara inferior: CV (−),0.4286,0.43469,0.00608,abs
+Cara inferior: D_min 10 mm (no es criterio),7.5413,7.1232,-5.54,%
+Cara inferior: zona seca 2 mm (%),0,0,0,abs
+Z3: D̄ (kg·m⁻²·vuelta⁻¹),20.097,19.89,-1.03,%
+Z3: CV (−),0.29813,0.30628,0.00816,abs

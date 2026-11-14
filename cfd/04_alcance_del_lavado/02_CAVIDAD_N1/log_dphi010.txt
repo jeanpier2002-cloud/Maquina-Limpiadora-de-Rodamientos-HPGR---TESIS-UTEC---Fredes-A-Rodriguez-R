@@ -1,0 +1,10 @@
+SUP_1_A    entra ventana sup 54.667 % | inf 0.000 %  (120 s)
+SUP_2_A    entra ventana sup 46.000 % | inf 0.000 %  (176 s)
+SUP_1_B    entra ventana sup 54.667 % | inf 0.000 %  (256 s)
+SUP_2_B    entra ventana sup 46.000 % | inf 0.000 %  (303 s)
+INF_EXT_A  entra ventana sup 0.000 % | inf 11.921 %  (324 s)
+INF_EXT_B  entra ventana sup 0.000 % | inf 11.920 %  (344 s)
+C2_A       entra ventana sup 0.000 % | inf 11.871 %  (365 s)
+C2_B       entra ventana sup 0.000 % | inf 11.871 %  (384 s)
+INF_INT    entra ventana sup 0.000 % | inf 15.333 %  (407 s)
+listo dphi010 en 407 s

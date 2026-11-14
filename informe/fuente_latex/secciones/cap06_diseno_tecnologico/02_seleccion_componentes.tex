@@ -1,0 +1,72 @@
+\section{Selección de materiales, componentes y/o equipos de la solución}
+\label{sec:seleccion-componentes}
+
+Los componentes se seleccionaron a partir de los parámetros de las Secciones~\ref{sec:dimensionamiento-soporte} y~\ref{sec:dimensionamiento-aspersion}, con tres niveles: seleccionado, cuando el cálculo y el catálogo fijan una designación comercial; candidato, cuando la pieza es de fabricación propia y su geometría sale del modelo CAD y de los planos; y por confirmar, cuando falta un dato del fabricante. Los materiales en contacto con el agua alcalina a 62~$^\circ$C son de acero inoxidable 304 o 316. La Tabla~\ref{tab:seleccion-componentes} da el estado de cada componente, y el Anexo~\ref{anx:manuales} lista los catálogos y fichas empleados.
+
+\begingroup
+\footnotesize\singlespacing
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{3.9cm}>{\raggedright\arraybackslash}p{\dimexpr\textwidth-2.7cm-3.9cm-2.2cm-6\tabcolsep\relax}>{\raggedright\arraybackslash}p{2.2cm}@{}}
+\caption{Componentes de la solución y nivel de selección}\label{tab:seleccion-componentes}\\
+\toprule
+\textbf{Componente} & \textbf{Selección} & \textbf{Justificación} & \textbf{Estado}\\
+\midrule\endfirsthead
+\caption[]{Componentes de la solución y nivel de selección (continuación)}\\
+\toprule
+\textbf{Componente} & \textbf{Selección} & \textbf{Justificación} & \textbf{Estado}\\
+\midrule\endhead
+\midrule\multicolumn{4}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
+\bottomrule\endlastfoot
+\multicolumn{4}{@{}l}{\textit{Mesa y traslado}}\\
+Bastidor & Perfil W6$\times$9, acero ASTM A36, uniones soldadas a momento & D/C máximo de 0,82 con el desvío lateral de las ruedas (Tabla~\ref{tab:uniones-bastidor}) & Candidato\\
+Revestimiento de los apoyos & Polietileno de ultra alto peso molecular, 8 mm & Presión media de 0,85 MPa en servicio; protege la superficie del aro & Por confirmar\\
+Rueda & Blickle SPKVS 200K, $\varnothing$200 mm, pestaña simple & D/C 0,89 en servicio y 0,43 frente a la capacidad estática \cite{blickle2026} & Seleccionada\\
+Riel y pedestales & Riel A45 sobre 12 pedestales por riel de acero inoxidable 304 con 4 anclajes adhesivos M16 & Esfuerzos de 97,9 MPa con apoyos cada 580 mm o menos \cite{arcelor2023}; anclaje en el Anexo~\ref{anx:calculos} & Candidato\\
+Traslado & Dos cadenas de rodillos 08B de acero inoxidable, eje de 25 mm, reductor sinfín de relación 5 y volante de 400 mm & Fuerza de 15,5 a 39,8 N en la empuñadura; parada con 190 N (Tabla~\ref{tab:traslado-verificacion}) & Candidato\\
+Centradores & Brazo pivotante con dos referencias y un empujador de fuerza limitada a 1,95 kN & Selección multicriterio (Tabla~\ref{tab:seleccion-centradores}) y error de colocación (Tabla~\ref{tab:centrado-por-fuerza}) & Candidato\\
+Bloqueo & Pasador $\varnothing$25 mm a doble corte con ajuste H7/g6 y receptores de carga y lavado & Retiene la mesa en el centrado y el lavado; error de colocación con juegos de 0,121 mm & Candidato\\
+\multicolumn{4}{@{}l}{\textit{Aspersión e hidráulica}}\\
+Boquillas & Spraying Systems VeeJet de acero inoxidable 316: 20 H3/8U-316SS5020 y 4 H3/8U-316SS1520 & Caudal de catálogo de 9,12 L/min a 4 bar en ambas; abanicos de 50$^\circ$ y 15$^\circ$ \cite{manSpray} & Seleccionadas\\
+Distribuidor, eje y cubo & Tubo DN40 y DN50 Sch10S, eje hueco y cubo de 316L soldados y mecanizados & Verificación de la Tabla~\ref{tab:conjunto-giratorio} & Candidato\\
+Tubería & DN15, DN25, DN40 y DN50 Sch10S de acero inoxidable 316L & ASME B36.19M \cite{asmeb3619}; 2,57 m/s en la alimentación DN40 del cálculo & Seleccionada para el cálculo\\
+Fluido & Agua a 62~$^\circ$C con Zep Recirculating Detergent (7--15 g/L), alcalino de baja espuma & No forma espuma sobre 61~$^\circ$C y es compatible con acero y latón \cite{zep36342}; líquido acuoso \cite{en12921_2} & Seleccionado\\
+Bomba & Grundfos CRN 15-3, multietapa vertical de 316, motor de 4 kW, con variador de frecuencia & Unos 56 m a 13,3 m$^3$/h frente a 51,0--53,4 m requeridos; NPSH requerido de unos 2,2 m frente a 5,2 m disponibles \cite{grundfoscr} & Seleccionada; lectura gráfica de la curva\\
+Unión rotativa & Deublin 555-000-001, de un paso, con conexiones de 1-1/2 pulgadas NPT, carcasa de latón y rotor de acero inoxidable & Admite agua hasta 51,7 bar y 121~$^\circ$C \cite{deublin555}, frente a 6 bar de diseño, 9 bar de prueba y 62~$^\circ$C; su pérdida de 0,30 bar es supuesta & Seleccionada\\
+Filtro & Filtro de bolsa Pentair ES2 de 316L, unos 150 µm & Filtración antes de las boquillas & Por confirmar la bolsa\\
+Tanques & Lavado: 599 L de inoxidable 304, aislado, con 3 resistencias de 12 kW; enjuague: 204 L con inhibidor & Precalentamiento de unos 23 min (Sección~\ref{sec:calentamiento}) & Candidato\\
+Drenaje & Colector de la cabina, línea por gravedad DN100 y pozo con bomba Hidrostal A02Q-S & Capacidad por gravedad de 413 L/min frente a 250 L/min (E14) & Candidato\\
+\multicolumn{4}{@{}l}{\textit{Accionamiento y soporte del distribuidor}}\\
+Motorreductor & SEW SF47R17DRN63MS4, 0,12 kW, con brida & Par de giro a 1,7 rpm con transmisión 2:1 & Seleccionado\\
+Limitador de par & Mayr ROBA-slip tamaño 1, ajustado a 30 N\,m & Protege el eje de salida del motorreductor; factor de seguridad de 2,31 & Seleccionado\\
+Soporte superior & Postes SHS80$\times$4 y vigas RHS150$\times$100$\times$3, 247 kg & Gobernado por rigidez; resumen en el Anexo~\ref{anx:calculos} & Candidato\\
+\end{longtable}
+\endgroup
+
+El mecanismo de centrado se seleccionó con una matriz ponderada propia, precedida de diez condiciones excluyentes: ninguna pieza atraviesa los perfiles del bastidor ni entra bajo la huella del rodamiento, el contacto ocurre solo sobre la superficie autorizada del aro, los mecanismos son cautivos, tienen estados activo, retraído y de mantenimiento, se accionan con el distribuidor detenido, conservan el paso por la puerta y la holgura vertical de 18,8 mm, limitan la fuerza y superan los barridos del conjunto. Se compararon tres conceptos: un centrador de carro radial con poste, uno de brazo pivotante de eje vertical y uno de leva excéntrica (Tabla~\ref{tab:seleccion-centradores}).
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Matriz ponderada de selección del mecanismo de centrado}
+\label{tab:seleccion-centradores}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Bloque de criterios} & \textbf{Peso} & \textbf{\makecell{Carro\\radial}} & \textbf{\makecell{Brazo\\pivotante}} & \textbf{Leva}\\
+\midrule
+Integración geométrica & 0,30 & 3,25 & 2,50 & 3,25\\
+Mecánica y seguridad & 0,30 & 2,00 & 3,00 & 3,00\\
+Fabricación y mantenimiento & 0,20 & 2,00 & 4,00 & 3,00\\
+Entorno de lavado & 0,10 & 3 & 3 & 2\\
+Efecto en masa y centro de gravedad & 0,10 & 4 & 5 & 4\\
+\midrule
+\textbf{Puntuación ponderada} & \textbf{1,00} & \textbf{2,675} & \textbf{3,250} & \textbf{3,075}\\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize
+Escala de 1 a 5. El centrador de carro radial no cumple la condición de tres estados por autointerferencia del poste retraído. Elaboración propia.
+\end{table}
+
+Se seleccionó el centrador de brazo pivotante. Su ventaja sobre el de leva fue de 0,175 puntos, y las tres evaluaciones por bloque no ordenaron igual a los conceptos. Se aceptó una menor nota de integración geométrica a cambio de un camino de cargas viable y de mejor fabricación y mantenimiento: el camino de cargas del centrador de leva quedó refutado y su carcasa fija, a 15 mm del diámetro exterior, sombreaba el lavado.
+
+La bomba se eligió por el punto de la red y no por su potencia nominal. Se prefirió la versión de acero inoxidable 316 por el detergente alcalino, y el variador permite ajustar la presión de la boquilla más desfavorable a 4 bar sin estrangular la línea. El catálogo asigna a la CRN 15-3 un motor de 4 kW \cite{grundfoscr}; el presupuesto del Capítulo~\ref{cap:cronograma-presupuesto} la valoró por analogía con un motor de 3 kW, de modo que su precio debe confirmarse con la cotización. El revestimiento de los apoyos debe ser compatible con el fluido, la temperatura y la abrasión de las partículas retenidas; su resistencia declarada a compresión no sustituye la verificación de fluencia bajo carga sostenida. La rueda y el riel se verifican como sistema: la pestaña guía lateralmente y el juego de 3 mm entre pestaña y cabeza del riel debe compararse con la tolerancia de trocha de la instalación.

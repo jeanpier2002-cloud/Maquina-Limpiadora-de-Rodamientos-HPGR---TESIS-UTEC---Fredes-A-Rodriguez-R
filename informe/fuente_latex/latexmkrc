@@ -1,0 +1,5 @@
+$pdf_mode = 1;
+$bibtex_use = 2;
+$pdflatex = 'pdflatex %O -interaction=nonstopmode -file-line-error %S';
+$biber = 'biber %O %B';
+$max_repeat = 5;

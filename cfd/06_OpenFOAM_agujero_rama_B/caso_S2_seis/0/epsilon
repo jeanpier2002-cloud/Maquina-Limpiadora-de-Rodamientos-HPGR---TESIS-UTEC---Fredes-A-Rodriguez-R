@@ -1,0 +1,8 @@
+FoamFile { version 2.0; format ascii; class volScalarField; object epsilon; }
+dimensions [0 2 -3 0 0 0 0];
+internalField uniform 1e-05;
+boundaryField
+{
+    "(pared_agujero|cara_inf_rodamiento|cara_sup_rodamiento|lanza)" { type epsilonWallFunction; value uniform 1e-05; }
+    "(abierto_inferior|abierto_superior|lateral_abierto)" { type inletOutlet; inletValue uniform 1e-05; value uniform 1e-05; }
+}

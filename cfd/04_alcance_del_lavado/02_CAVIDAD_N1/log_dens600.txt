@@ -1,0 +1,10 @@
+SUP_1_A    entra ventana sup 55.167 % | inf 0.000 %  (65 s)
+SUP_2_A    entra ventana sup 46.167 % | inf 0.000 %  (111 s)
+SUP_1_B    entra ventana sup 55.167 % | inf 0.000 %  (238 s)
+SUP_2_B    entra ventana sup 46.167 % | inf 0.000 %  (377 s)
+INF_EXT_A  entra ventana sup 0.000 % | inf 11.667 %  (437 s)
+INF_EXT_B  entra ventana sup 0.000 % | inf 11.663 %  (495 s)
+C2_A       entra ventana sup 0.000 % | inf 11.825 %  (555 s)
+C2_B       entra ventana sup 0.000 % | inf 11.825 %  (609 s)
+INF_INT    entra ventana sup 0.000 % | inf 15.500 %  (682 s)
+listo dens600 en 682 s

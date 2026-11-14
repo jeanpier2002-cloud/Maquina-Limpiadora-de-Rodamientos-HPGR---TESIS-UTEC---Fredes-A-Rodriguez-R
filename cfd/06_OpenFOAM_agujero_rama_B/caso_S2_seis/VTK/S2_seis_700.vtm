@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<!-- time='0.035' -->
+<VTKFile type='vtkMultiBlockDataSet' version='1.0' byte_order='LittleEndian' header_type='UInt64'>
+  <vtkMultiBlockDataSet>
+    <DataSet name='internal' file='S2_seis_700/internal.vtu' />
+    <Block name='boundary'>
+      <DataSet name='abierto_inferior' file='S2_seis_700/boundary/abierto_inferior.vtp' />
+      <DataSet name='abierto_superior' file='S2_seis_700/boundary/abierto_superior.vtp' />
+      <DataSet name='lateral_abierto' file='S2_seis_700/boundary/lateral_abierto.vtp' />
+      <DataSet name='pared_agujero' file='S2_seis_700/boundary/pared_agujero.vtp' />
+      <DataSet name='cara_inf_rodamiento' file='S2_seis_700/boundary/cara_inf_rodamiento.vtp' />
+      <DataSet name='cara_sup_rodamiento' file='S2_seis_700/boundary/cara_sup_rodamiento.vtp' />
+      <DataSet name='lanza' file='S2_seis_700/boundary/lanza.vtp' />
+    </Block>
+  </vtkMultiBlockDataSet>
+  <FieldData>
+    <DataArray type='Float32' Name='TimeValue' NumberOfTuples='1' format='ascii'>
+0.035
+    </DataArray>
+  </FieldData>
+</VTKFile>

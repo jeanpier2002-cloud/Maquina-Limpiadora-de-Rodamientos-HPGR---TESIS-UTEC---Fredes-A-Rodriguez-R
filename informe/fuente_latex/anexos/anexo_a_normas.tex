@@ -1,0 +1,28 @@
+\chapter{ESTÁNDARES, NORMAS Y REGULACIONES}
+\label{anx:normas}
+
+Este anexo amplía la Sección~4.2 con el uso concreto de cada documento; las normas orientan el diseño y no sustituyen sus datos.
+
+\section{Normas técnicas}
+
+\paragraph{EN 12921-1 y EN 12921-2.} Son las normas específicas de las máquinas de limpieza de superficies con líquidos; la parte 1 fija requisitos comunes de seguridad y la parte 2, los de las máquinas que emplean líquidos acuosos \cite{en12921_1,en12921_2}. Se emplearon las ediciones EN 12921-1:2005+A1:2010 y EN 12921-2:2005+A1:2008. La parte 2 rige porque el agente de limpieza es una solución acuosa de un detergente alcalino de baja espuma \cite{zep36342}, aplicada por aspersión, y sus requisitos específicos prevalecen sobre los de la parte 1. De ambas partes se usaron la lista de peligros significativos (cláusula 4), para la identificación de peligros del Capítulo~\ref{cap:seguridad-ambiente}, y los requisitos de seguridad y medidas de protección (cláusula 5), como referencia de las medidas de la Tabla~\ref{tab:matriz-riesgos}. El fluido acuoso deja fuera los requisitos de los líquidos inflamables de la parte 3. La acreditación de conformidad de la máquina corresponde a la etapa de fabricación.
+
+\paragraph{ISO 12100:2010.} Se aplicó su estrategia de evaluación del riesgo: determinación de los límites de la máquina, identificación de peligros, estimación y evaluación del riesgo (cláusula 5), y la secuencia de reducción en tres pasos: diseño intrínsecamente seguro, medidas de protección e información para la utilización (cláusula 6) \cite{iso12100}. La matriz de riesgos del Capítulo~\ref{cap:seguridad-ambiente} sigue ese orden. La eficacia de cada medida requiere verificación funcional.
+
+\paragraph{ANSI/AISC 360-16.} El análisis estructural verificó las barras del bastidor y del soporte superior con las ecuaciones de interacción de carga axial y flexión del capítulo H \cite{aisc360}. El capítulo J se usó para diseñar las diez uniones soldadas a momento del bastidor, con D/C de 0,58 como máximo, y para los pernos de las mordazas. Su apéndice 3 permitió omitir la fatiga del bastidor por el número de ciclos. La norma no se usó para el criterio de flecha. El análisis de torsión no uniforme siguió la Guía de Diseño 9 del AISC \cite{aiscdg9}.
+
+\paragraph{ASME B36.19M y ASME B31.3.} La primera proporcionó los diámetros exteriores y el espesor de la tubería de acero inoxidable Sch10S: 33,4, 48,3 y 60,3 mm con 2,77 mm, que dan diámetros interiores de 27,86, 42,76 y 54,76 mm para DN25, DN40 y DN50 \cite{asmeb3619}. La segunda limitó los esfuerzos longitudinales de la tubería que gira con el distribuidor, con cargas sostenidas y ocasionales \cite{asmeb313}. La razón máxima, 0,93, corresponde a un golpe accidental de 1000 N con el rotor detenido.
+
+\paragraph{ISO 286-2:2010 y EN 1991-3:2006.} La primera fijó las desviaciones del ajuste H7/g6 del pasador de bloqueo, de los pivotes y de los pasadores de los rodillos de centrado, que suman 0,121 mm de juego en el error de colocación \cite{iso286}. La segunda dio la fuerza lateral de guiado de las ruedas por desvío, $H_T=f\,Q_r$ con $f=0{,}281$, es decir, 6,51 kN por rueda \cite{en19913}. Esa fuerza gobierna las vigas longitudinales del bastidor.
+
+\paragraph{ISO 11228-2:2007.} Se aplicó a la tarea de mover la mesa cargada \cite{iso11228}. Las fuerzas de empuje directo, de 325 a 837 N, superan la cifra guía de 200 N de la HSE para iniciar o detener el movimiento \cite{hsepushpull}, por lo que se adoptó el accionamiento por cadena con volante, con 15,5 a 39,8 N en la empuñadura. La evaluación con fuerzas medidas en la tarea real sigue pendiente.
+
+\section{Regulaciones}
+
+\paragraph{D.S. 024-2016-EM.} Reglamento de Seguridad y Salud Ocupacional en Minería, que alcanza las actividades conexas como el mantenimiento \cite{ds024}. Exige la identificación de peligros, la evaluación de riesgos y los controles de cada tarea, y la hoja de datos de seguridad de los productos químicos. Su aplicación al taller depende de si opera dentro de una unidad minera o como servicio externo.
+
+\paragraph{D. Leg. 1278.} Ley de Gestión Integral de Residuos Sólidos, aplicable a las grasas retiradas, los lodos, los filtros y los absorbentes \cite{dleg1278}. La clasificación de cada corriente depende de su caracterización, y el destino del agua de lavado, del régimen del receptor.
+
+\section{Criterio de flecha}
+
+El criterio de flecha $L/800$ es un requisito de proyecto empleado para comparación y no se atribuye a AISC 360-16 ni a otra cláusula normativa; los límites $L/360$ y $L/1000$ se informan como referencia. Para aplicarlo se definen $L=1860$ mm, la combinación nominal de servicio y el desplazamiento relativo respecto de la cuerda del tramo, evaluado en los nodos del modelo.

@@ -1,0 +1,24 @@
+CMD C:\Users\Usuario\AppData\Local\Programs\Python\Python312\python.exe -I -B D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/scripts/kit/rayos_r05.py --tablas D:/CFD03_run/G3/G3_A_base_v3/abanico_LAT_1_A.csv --salida D:/CFD_Redosado/CORRIDA_3_O7C2/01_ENTRADA/mascaras --caso T3_fidelidad_LAT1_horizontal --dphi 0.5
+LAT_1_A {'libre_od_pct': '100.000', 'obst_od_pct': '100.000'}
+K1 od       libre 27.184 % | con obstaculos 27.264 % del area mojable (contacto excluido 0.291 %)
+fidelidad LAT_1_A__od__libre         max|dif|/max = 2.500e-01  (suma 5.346752e+00 frente a 5.346752e+00)
+fidelidad LAT_1_A__od__obst          max|dif|/max = 2.500e-01  (suma 5.346752e+00 frente a 5.346752e+00)
+fidelidad LAT_1_A__sup__libre        max|dif|/max = 0.000e+00  (suma 0.000000e+00 frente a 0.000000e+00)
+fidelidad LAT_1_A__sup__obst         max|dif|/max = 0.000e+00  (suma 0.000000e+00 frente a 0.000000e+00)
+fidelidad LAT_1_A__cara_inf__libre   max|dif|/max = 0.000e+00  (suma 0.000000e+00 frente a 0.000000e+00)
+fidelidad LAT_1_A__cara_inf__obst    max|dif|/max = 0.000e+00  (suma 0.000000e+00 frente a 0.000000e+00)
+fidelidad LAT_1_A__agujero__libre    max|dif|/max = 0.000e+00  (suma 0.000000e+00 frente a 0.000000e+00)
+fidelidad LAT_1_A__agujero__obst     max|dif|/max = 0.000e+00  (suma 0.000000e+00 frente a 0.000000e+00)
+CMD C:\Users\Usuario\AppData\Local\Programs\Python\Python312\python.exe -I -B D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/scripts/kit/rayos_r05.py --tablas D:/CFD_Redosado/CORRIDA_3_O7C2/01_ENTRADA/inyecciones/caso2_A/abanico_LAT_1_A.csv --salida D:/CFD_Redosado/CORRIDA_3_O7C2/01_ENTRADA/mascaras --caso T3_LAT1_A_m4 --dphi 0.5
+LAT_1_A {'libre_od_pct': '100.000', 'obst_od_pct': '100.000'}
+K1 od       libre 27.184 % | con obstaculos 27.264 % del area mojable (contacto excluido 0.291 %)
+CMD C:\Users\Usuario\AppData\Local\Programs\Python\Python312\python.exe -I -B D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/scripts/kit/rayos_r05.py --tablas D:/CFD_Redosado/CORRIDA_3_O7C2/01_ENTRADA/inyecciones/caso2_B/abanico_LAT_1_B.csv --salida D:/CFD_Redosado/CORRIDA_3_O7C2/01_ENTRADA/mascaras --caso T3_LAT1_B_m4 --dphi 0.5
+LAT_1_B {'libre_od_pct': '100.000', 'obst_od_pct': '100.000'}
+K1 od       libre 27.184 % | con obstaculos 27.264 % del area mojable (contacto excluido 0.291 %)
+ensamblado D:/CFD_Redosado/CORRIDA_3_O7C2/01_ENTRADA/mascaras/K1_O7C2_Caso2_mascaras.npz: 196 claves; 180/180 claves ajenas a LAT_1 identicas al kit
+LAT_1_A -4 grados od      : masa libre 5.3454e+00 (kit horizontal 5.3468e+00) | obst/libre 1.0000 (kit 1.0000)
+LAT_1_B -4 grados od      : masa libre 5.3454e+00 (kit horizontal 5.3468e+00) | obst/libre 1.0000 (kit 1.0000)
+LAT_1_A -4 grados cara_inf: masa libre 0.0000e+00 (kit horizontal 0.0000e+00) | obst/libre 0.0000 (kit 0.0000)
+LAT_1_B -4 grados cara_inf: masa libre 0.0000e+00 (kit horizontal 0.0000e+00) | obst/libre 0.0000 (kit 0.0000)
+cociente od LAT_1_A: max|kit - reproduccion| = 0.000e+00 ; min/max kit 1.0000/1.0000 ; Caso 2 min/max 1.0000/1.0000
+marginal en z (suma en theta) LAT_1_A__od__libre: max|dif|/max = 2.500e-01

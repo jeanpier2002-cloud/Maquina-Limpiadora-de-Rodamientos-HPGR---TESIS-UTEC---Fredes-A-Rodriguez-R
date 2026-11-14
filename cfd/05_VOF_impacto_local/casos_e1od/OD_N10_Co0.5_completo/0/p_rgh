@@ -1,0 +1,21 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  Generado por v3_e1od_generar.py (CFD_Redosado/CORRIDA_2_desde24oct/02_VOF_v3). OpenFOAM v2606 (ESI).
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      p_rgh;
+}
+dimensions      [1 -1 -2 0 0 0 0];
+internalField   uniform 0;
+boundaryField
+{
+    pared       { type fixedFluxPressure; value uniform 0; }
+    entrada     { type fixedFluxPressure; value uniform 0; }
+    entrada_media { type fixedFluxPressure; value uniform 0; }
+    atmosfera   { type totalPressure; p0 uniform 0; }
+    salida      { type totalPressure; p0 uniform 0; }
+    frenteYfondo { type empty; }
+}

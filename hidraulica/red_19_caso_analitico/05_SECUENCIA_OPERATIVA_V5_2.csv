@@ -1,0 +1,8 @@
+stage_id,etapa,zonas_activas,boquillas_instaladas_representadas,boquillas_simultaneas,presion_bar,caudal_L_min,duracion_min,volumen_L,numero_vueltas,retorna,se_descarga,clasificacion,observacion
+E01,Prelavado,Head A superior+lateral,8,PENDIENTE,PENDIENTE,PENDIENTE,PENDIENTE,PENDIENTE_QxT,PENDIENTE,PENDIENTE,PENDIENTE,SUPUESTO_DE_ESCENARIO,8 es conteo CAD instalado/representado; la simultaneidad se debe definir.
+E02,Lavado exterior Head A,Head A,8,PENDIENTE,PENDIENTE,PENDIENTE,PENDIENTE,PENDIENTE_QxT,PENDIENTE,PENDIENTE,PENDIENTE,DOCUMENTADO_GEOMETRICAMENTE,Rodamiento fijo; trolley se mueve. Conteo activo aún no aprobado.
+E03,Lavado lateral,Rama lateral Head A,4,PENDIENTE,PENDIENTE,PENDIENTE,PENDIENTE,PENDIENTE_QxT,PENDIENTE,PENDIENTE,PENDIENTE,SUPUESTO_DE_ESCENARIO,4 es conteo CAD de la rama; puede operar junto o separado según válvulas.
+E04,Lavado interior,Lanza axial superseded,0,0,N/A,N/A,N/A,0,0,No,No,SUPERSEDED_EN_V5_2,No hay lanza activa; solo existe un keep-out geométrico pendiente.
+E05,Enjuague,Head A o rama dedicada,PENDIENTE,PENDIENTE,PENDIENTE,PENDIENTE,PENDIENTE,PENDIENTE_QxT,PENDIENTE,PENDIENTE,PENDIENTE,PENDIENTE,"Definir fluido, arquitectura y si es paso único."
+E06,Drenaje,Bandeja y S-101,0,0,N/A,N/A,PENDIENTE,PENDIENTE_BALANCE,0,PENDIENTE,PENDIENTE,DOCUMENTADO_GEOMETRICAMENTE,La capacidad hidráulica y el volumen recibido por etapa no están calculados.
+E07,Secado opcional,Módulo fuera de alcance,0,0,N/A,N/A,PENDIENTE,PENDIENTE,0,No,No,PENDIENTE,No activo en V5.2 estructural.

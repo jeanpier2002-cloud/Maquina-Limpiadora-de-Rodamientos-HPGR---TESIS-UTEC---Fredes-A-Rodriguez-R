@@ -1,0 +1,13 @@
+superficie,caso_N1,magnitud,N1,estimado_CFD_calibrado,CFD_R3_01_S9,CFD_R3_02_S9,CFD_Caso2_AB
+cara_inferior,O7+C2 (kit),D_media_A+B,13.88,13.95,14.19,14.19,14.16
+cara_inferior,O7+C2 (kit),CV,0.412,~0.41,0.4285,0.4286,0.4303
+cara_inferior,O7+C2 (kit),D_min_10mm,7.63,7.40-7.67,7.505,7.541,7.332
+cara_inferior,O7+C2 (kit),zona_seca_10mm_pct,0.00,0,0,0,0
+cara_inferior,O7+C2 (kit),D_min_2mm,6.68,,6.141,6.195,6.831
+cara_inferior,O7+C2 (kit),Z1_D_media,11.95,,12.11,12.11,11.93
+cara_inferior,O7+C2 (kit),Z2_D_media,9.70,,9.596,9.596,9.734
+cara_inferior,O7+C2 (kit),Z3_D_media,19.58,,20.09,20.1,19.99
+OD,O7+C2 + Caso 2,D_media_A+B,25.98,,25.82,25.83,25.82
+OD,O7+C2 + Caso 2,CV,0.645,,0.6609,0.6434,0.6479
+OD,O7+C2 + Caso 2,D_min_10mm,11.59,~9.4 (9-12),0.1331,12,10.53
+OD,O7+C2 + Caso 2,zona_seca_2mm,0,0,1.558,0,0

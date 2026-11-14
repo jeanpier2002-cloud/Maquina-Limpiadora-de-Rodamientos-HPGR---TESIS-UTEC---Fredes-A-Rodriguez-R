@@ -1,0 +1,2 @@
+SUP_2_B    entra ventana sup 46.181 % | inf 0.000 %  (1064 s)
+listo d2400_SUP_2_B en 1064 s

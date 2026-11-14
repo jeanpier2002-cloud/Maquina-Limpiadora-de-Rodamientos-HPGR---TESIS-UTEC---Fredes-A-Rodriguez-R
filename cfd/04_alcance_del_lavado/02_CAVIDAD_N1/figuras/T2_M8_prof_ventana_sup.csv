@@ -1,0 +1,16 @@
+superficie,prof_mm,pct_area_N1
+flanco de rodillo,0-25,60.767
+flanco de rodillo,25-50,51.352
+flanco de rodillo,50-100,32.741
+flanco de rodillo,100-150,13.862
+flanco de rodillo,150-214,0.099
+pista exterior,0-25,97.502
+pista exterior,25-50,88.275
+pista exterior,50-100,77.432
+pista exterior,100-150,64.556
+pista exterior,150-214,52.329
+pista interior,0-25,0.000
+pista interior,25-50,0.000
+pista interior,50-100,30.229
+pista interior,100-150,40.405
+pista interior,150-214,36.596

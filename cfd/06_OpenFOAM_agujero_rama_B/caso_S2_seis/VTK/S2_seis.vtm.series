@@ -1,0 +1,6 @@
+{
+  "file-series-version" : "1.0",
+  "files" : [
+    { "name" : "S2_seis_700.vtm", "time" : 0.035 }
+  ]
+}

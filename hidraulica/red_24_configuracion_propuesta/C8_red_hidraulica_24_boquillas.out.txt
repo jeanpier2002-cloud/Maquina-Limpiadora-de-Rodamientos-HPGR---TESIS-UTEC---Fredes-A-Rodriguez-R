@@ -1,0 +1,65 @@
+[Respuesta de Codex C8 (tarea nueva, solo lectura, effort high), transcrita por Claude el 2026-10-07. Prompt: C8_red_hidraulica_C2.prompt.txt]
+
+## Resultado del recálculo
+
+C2 requiere 221,07 L/min y 53,39 m de altura de bomba para conservar 4,00 bar en la boquilla más desfavorable: +18,48 L/min y +0,83 m frente a la red R05 de 22 boquillas. Es un cálculo CANDIDATO bajo HIPÓTESIS, no una validación de la T, de la boquilla de 15° ni de la bomba.
+
+Limitación de ejecución: el python.exe indicado por el proyecto devolvió «Acceso denegado» y `python` no está en el PATH. Las ecuaciones se reprodujeron en memoria, sin escribir archivos. La base se comprobó primero: 202,59234 L/min y 52,55867 m, iguales a los de Jean (Calculos_aspersion_R05_22boquillas.md:90).
+
+### Método y supuestos de C2
+
+Jean usa q = K_q·√p, con 2 US gpm a 40 psi para la 5020; agua a 62 °C; diámetro interior de 17,08 mm en DN15 y 42,76 mm en DN40. Calcula las pérdidas por Darcy–Weisbach y Swamee–Jain, y las de accesorios con K_m. Ajusta la presión en C hasta que la toma mínima llegue a 4 bar, y obtiene altura y potencia por Bernoulli desde el depósito hasta C (calculo_red_22.py:19–43, 46–101). Longitudes estimadas: pie exterior DN15 de 0,13 m; pie interior DN25 de 0,25 m; lanza con la pérdida equivalente de R04; alimentación DN40 de 14 m. Todas son [VERIFICAR] (calculo_red_22.py:82–86, 137–173).
+
+HIPÓTESIS de C2:
+- las dos boquillas nuevas tienen la misma K_q que la 5020;
+- los 0,13 m existentes son comunes hasta la T;
+- cada salida conserva el 30·f_T terminal;
+- la derivación nueva añade 0,05 m de DN15 con K_T = 1, y el paso recto de la T, K_T = 0.
+
+La geometría y las pérdidas de la T son [VERIFICAR]. La ficha describe la 5020 con un abanico de 45°–55° según la presión, así que una boquilla de 15° con esa capacidad requiere confirmación. En 04_REFERENCIAS no hay un catálogo con una opción de menor capacidad: no se asignó código ni K a esa variante (Boquilla H3-8U-316SS5020.md:20–31).
+
+### Presión y caudal por boquilla (manométricas)
+
+| Toma | Base: bar / L/min | C2: bar / L/min | Δp, mbar |
+|---|---:|---:|---:|
+| SUP_1 A/B | 4,06360 / 9,190 | 4,06312 / 9,189 | −0,48 |
+| SUP_2 A/B | 4,06317 / 9,189 | 4,06256 / 9,189 | −0,61 |
+| LAT_4 A/B | 4,09891 / 9,230 | 4,09752 / 9,228 | −1,39 |
+| LAT_3 A/B | 4,10618 / 9,238 | 4,10452 / 9,236 | −1,67 |
+| LAT_2 A/B | 4,11369 / 9,246 | 4,11179 / 9,244 | −1,89 |
+| LAT_1 A/B | 4,12137 / 9,255 | 4,11930 / 9,253 | −2,07 |
+| LAT_5 A/B | 4,12705 / 9,261 | 4,12486 / 9,259 | −2,19 |
+| INF_EXT A/B | 4,14046 / 9,276 | 4,13063 / 9,265 | −9,82 |
+| Nueva C2 A/B | — | 4,12821 / 9,263 | — |
+| INT_5 | 4,00000 / 9,118 | 4,00000 / 9,118 | 0 |
+| INT_4 | 4,00501 / 9,123 | 4,00501 / 9,123 | 0 |
+| INT_3 | 4,01151 / 9,131 | 4,01151 / 9,131 | 0 |
+| INT_2 | 4,01917 / 9,139 | 4,01917 / 9,139 | 0 |
+| INT_1 | 4,02768 / 9,149 | 4,02768 / 9,149 | 0 |
+| INF_INT | 4,03746 / 9,160 | 4,03746 / 9,160 | 0 |
+
+INT_5 sigue siendo la toma más desfavorable y fija la presión de C en 4,06254 bar en los dos casos. Las boquillas exteriores pierden algo de presión por el mayor caudal compartido. El cálculo supone reajustar la altura de bomba: sin la curva de una bomba seleccionada no puede afirmarse que una bomba existente mantenga los 4 bar (calculo_red_22.py:46–79).
+
+### Velocidades, retorno y B2
+
+En cada lado exterior el caudal pasa de 73,886 a 83,126 L/min.
+- **DN15 común del pie:** la velocidad pasa de 0,675 a 1,348 m/s. Tras la T, cada salida lleva ≈ 0,674 m/s.
+- **Ramal exterior DN40:** 0,751 m/s al comienzo y 0,215 m/s en la extensión, frente a 0,644 y 0,108 m/s en la base.
+- **Alimentación DN40:** pasa de 2,351 a 2,566 m/s.
+
+Repercusiones:
+- **P1-14, retorno:** la demanda nominal pasa de 202,59 a 221,07 L/min con C2. Falta dimensionar el retorno para esa demanda (PENDIENTES.md:38).
+- **P1-18, drenaje (variante B):** frente a los 250 L/min propuestos, el margen nominal baja de 47,41 a 28,93 L/min, un 11,57 % de la capacidad. La evacuación real, la bomba de retorno y sus curvas quedan [VERIFICAR] (PENDIENTES.md:42).
+- **B2:** bajar INF_INT de Z850 a Z840 suma ρ·g·0,010 = 96,35 Pa (0,000963 bar). Con la misma longitud y las mismas pérdidas (HIPÓTESIS), su caudal pasa de 9,16026 a 9,16135 L/min: +0,00109 L/min, despreciable (calculo_red_22.py:148–173).
+
+| Magnitud | Base R05, 22 | C2, 24 |
+|---|---:|---:|
+| Caudal total | 202,59 L/min | 221,07 L/min |
+| Presión en C | 4,06254 bar | 4,06254 bar |
+| Altura requerida de bomba | 52,56 m | 53,39 m |
+| Potencia hidráulica | 1,710 kW | 1,895 kW |
+| Potencia al eje (η_b = 0,55) | 3,109 kW | 3,446 kW |
+| Velocidad DN15 común del pie | 0,675 m/s | 1,348 m/s |
+| Margen nominal frente a 250 L/min | 47,41 L/min | 28,93 L/min |
+
+Veredicto: C2 es hidráulicamente calculable con la presión mínima de 4 bar. Exige +9,12 % de caudal y +10,85 % de potencia hidráulica frente a R05. El pie DN15 común casi duplica su velocidad, e INF_EXT se mantiene por encima de 4,13 bar con las pérdidas supuestas. No está validado: falta medir la T y el pie, documentar la boquilla real de 15° y comprobar las curvas de la bomba, el retorno y el drenaje.

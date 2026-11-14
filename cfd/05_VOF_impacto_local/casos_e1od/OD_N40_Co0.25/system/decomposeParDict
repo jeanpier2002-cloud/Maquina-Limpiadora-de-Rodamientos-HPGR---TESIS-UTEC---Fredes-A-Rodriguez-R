@@ -1,0 +1,13 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  Generado por v3_e1od_generar.py (CFD_Redosado/CORRIDA_2_desde24oct/02_VOF_v3). OpenFOAM v2606 (ESI).
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      decomposeParDict;
+}
+numberOfSubdomains 8;
+method scotch;
+coeffs { n (1 1 1); }

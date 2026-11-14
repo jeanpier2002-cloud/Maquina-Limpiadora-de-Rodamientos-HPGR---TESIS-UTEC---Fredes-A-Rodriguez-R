@@ -1,0 +1,22 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  Generado por e1_generar.py (CFD_Redosado/CORRIDA_2_desde24oct/02_VOF_v3). OpenFOAM v2606 (ESI).
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    object      U;
+}
+dimensions      [0 1 -1 0 0 0 0];
+internalField   uniform (0 0 0);
+boundaryField
+{
+    pared       { type noSlip; }
+    entrada     { type fixedValue; value uniform (0 -27.4711 0); }
+    entrada_media { type fixedValue; value uniform (0 -27.4711 0); }
+    atmosfera   { type pressureInletOutletVelocity; value uniform (0 0 0); }
+    salida      { type pressureInletOutletVelocity; value uniform (0 0 0); }
+    simetria { type symmetry; }
+    frenteYfondo { type empty; }
+}

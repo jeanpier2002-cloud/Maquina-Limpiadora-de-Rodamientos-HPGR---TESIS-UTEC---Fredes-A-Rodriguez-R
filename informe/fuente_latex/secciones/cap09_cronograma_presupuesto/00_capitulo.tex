@@ -1,0 +1,155 @@
+\chapter{CRONOGRAMA Y PRESUPUESTO DE IMPLEMENTACIÓN DE LA MÁQUINA}
+\label{cap:cronograma-presupuesto}
+
+El alcance de esta tesis es el diseño de la máquina por cálculo, simulación y modelado CAD; su fabricación, montaje y ensayo no forman parte del proyecto. Por ello, este capítulo presenta el presupuesto de inversión de la máquina diseñada en el Capítulo~\ref{cap:diseno}, como estimación de clase 4, y lo compara con el costo de la limpieza manual descrita en el Capítulo~\ref{cap:introduccion}. El cronograma del desarrollo académico se presenta en la Sección~\ref{sec:cronograma-proyecto} del Anexo~\ref{anx:portafolio}.
+
+\section{Identificación de actividades y su duración para la implementación}
+
+El presupuesto se organiza en las cuatro actividades de la Tabla~\ref{tab:actividades-costos}. Las tres primeras se ejecutaron en el proyecto; la cuarta depende de las respuestas de los proveedores.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Actividades del presupuesto de implementación}
+\label{tab:actividades-costos}
+\begin{tabularx}{\textwidth}{@{}p{0.6cm}YP{3.8cm}P{2.6cm}@{}}
+\toprule
+\textbf{ID} & \textbf{Actividad} & \textbf{Resultado} & \textbf{Estado}\\
+\midrule
+1 & Metrado de materiales y horas de taller a partir del modelo CAD integrado & Masas por pieza y horas por complejidad & Ejecutada\\
+2 & Consulta de precios de mercado y conversión a soles & Base de precios del Anexo~\ref{anx:calculos} & Ejecutada\\
+3 & Selección comercial de bomba, boquillas, accionamiento, filtro, tanques y tablero & Componentes de la Tabla~\ref{tab:seleccion-componentes} & Ejecutada con catálogos\\
+4 & Cotizaciones formales de las diez partidas de mayor costo & Presupuesto con precios cotizados & Pendiente de proveedores\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Diagrama de Gantt}
+
+Las actividades del presupuesto figuran en la fase 3 del diagrama de Gantt del proyecto (Figura~\ref{fig:gantt-2} del Anexo~\ref{anx:portafolio}): la selección final estaba programada del 13 al 17 de noviembre de 2026 y la evaluación económica, del 16 al 19 de noviembre, antes de la entrega del informe final del 22 de noviembre. Ambas forman parte de la ruta crítica de esa fase. La selección se adelantó y se cerró con los catálogos disponibles; las cotizaciones formales quedan fuera del plazo del proyecto.
+
+\section{Identificación de recursos materiales y no materiales}
+
+Los recursos materiales son los componentes de la Tabla~\ref{tab:seleccion-componentes} y las piezas de fabricación propia de los planos del Anexo~\ref{anx:planos}. Se agrupan en ocho partidas: mesa, centrado y traslado; aspersión y accionamiento; hidráulica y filtrado; tanques y calentamiento; cabina; drenaje; tablero eléctrico y control; y obra civil, montaje y puesta en marcha. La Tabla~\ref{tab:recursos-implementacion} resume los recursos con mayor peso en el costo y los no materiales.
+
+\begingroup
+\small\singlespacing
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{\dimexpr\textwidth-3.4cm-3.4cm-6\tabcolsep\relax}>{\raggedright\arraybackslash}p{3.4cm}@{}}
+\caption{Recursos materiales y no materiales}\label{tab:recursos-implementacion}\\
+\toprule
+\textbf{Recurso} & \textbf{Designación y cantidad} & \textbf{Origen}\\
+\midrule\endfirsthead
+\caption[]{Recursos materiales y no materiales (continuación)}\\
+\toprule
+\textbf{Recurso} & \textbf{Designación y cantidad} & \textbf{Origen}\\
+\midrule\endhead
+\midrule\multicolumn{3}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
+\bottomrule\endlastfoot
+\multicolumn{3}{@{}l}{\textit{Materiales y equipos}}\\
+Bastidor de la mesa & W6$\times$9, ASTM A36, con uniones soldadas; 168 kg & Fabricación en taller\\
+Pedestales del riel & 24 pedestales de acero inoxidable 304; 701 kg; 96 anclajes M16 & Fabricación en taller\\
+Rieles y ruedas & Dos rieles A45 de 6540 mm; cuatro ruedas Blickle SPKVS 200K & Comercial \cite{arcelor2023,blickle2026}\\
+Traslado & Dos cadenas 08B de inoxidable, reductor sinfín y volante & Comercial y taller\\
+Cabina & Paneles de acero inoxidable 304 de 1,5 mm; 768 kg & Fabricación en taller\\
+Soporte superior & Postes, vigas, bases y cartucho del eje; 559 kg & Fabricación en taller\\
+Bomba y filtro & Grundfos CRN 15-3 de 316 con variador; filtro de bolsa Pentair ES2 & Comercial\\
+Boquillas y tubería & 24 boquillas VeeJet de 316; tubería de 316L Sch10S & Comercial \cite{manSpray,asmeb3619}\\
+Accionamiento del distribuidor & Motorreductor SEW SF47R17DRN63MS4 y limitador Mayr ROBA-slip & Comercial\\
+Tanques y calentamiento & Tanque de 600 L y tanque de enjuague de inoxidable 304; tres resistencias de 12 kW; dos dosificadoras & Taller y comercial\\
+Agente de limpieza & Zep Recirculating Detergent, alcalino de baja espuma, 7--15 g/L & Comercial \cite{zep36342}\\
+\multicolumn{3}{@{}l}{\textit{No materiales}}\\
+Mano de obra & Taller de calderería y mecanizado a S/~50,5/h; dos técnicos durante 15 días para montaje y puesta en marcha & Tarifa estimada\\
+Programas & SAP2000, ANSYS Fluent 2026 R1 (licencia Student), FreeCAD, SolidWorks, CalculiX, OpenFOAM y Python & Disponibles\\
+\end{longtable}
+\endgroup
+
+El detergente es un producto en polvo para lavadoras de piezas por aspersión con recirculación; no forma espuma por encima de 61~$^\circ$C, admite hasta 70~$^\circ$C y es compatible con acero, cobre y latón \cite{zep36342}, de modo que cubre los aros, los rodillos y la jaula a 62~$^\circ$C. A 7--15 g/L, la solución conserva las propiedades del agua usadas en el cálculo hidráulico y en el modelo de mojado.
+
+\section{Determinación de costos unitarios y totales}
+\label{sec:costos-unitarios}
+
+Las piezas fabricadas se costearon con la masa de cada pieza en el modelo CAD por el precio del material, más las horas de taller por una tarifa de S/~50,5/h; las horas por kilogramo dependen de la complejidad de la pieza y son una hipótesis. Los componentes comerciales llevan su precio publicado o, cuando no lo hay, una hipótesis con rango; lo importado lleva un factor de 1,20 por flete, seguro y aranceles. Se usaron S/~3,448 por dólar y S/~3,91 por euro, y la fuente de cada precio figura en la Sección~\ref{sec:base-precios} del Anexo~\ref{anx:calculos}. A cada partida se le asignó un rango de 0,85 a 1,20 si tiene fuente y de 0,70 a 1,50 si es una hipótesis. La Tabla~\ref{tab:costos-componentes} muestra las diez partidas de mayor costo, que suman la mitad del subtotal.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Costos unitarios y totales de las diez partidas de mayor costo}
+\label{tab:costos-componentes}
+\begin{tabularx}{\textwidth}{@{}Yrrl@{}}
+\toprule
+\textbf{Partida} & \textbf{Cantidad} & \textbf{Total (S/)} & \textbf{Base del precio}\\
+\midrule
+Paneles de la cabina, inoxidable 304 de 1,5 mm & 768 kg & 24\,572 & Material con fuente; horas supuestas\\
+Pedestales del riel, inoxidable 304 & 24 & 22\,418 & Material con fuente; horas supuestas\\
+Bomba Grundfos CRN 15-3 de 316 & 1 & 17\,388 & Hipótesis\\
+Montaje, pruebas y puesta en marcha & 240 h & 12\,115 & Hipótesis\\
+Soporte superior con bases y cartucho & 559 kg & 10\,317 & Material con fuente; horas supuestas\\
+Dosificadoras de detergente e inhibidor & 2 & 10\,127 & Precio publicado\\
+Filtro de bolsa Pentair ES2 de 316L & 1 & 9138 & Precio publicado\\
+Obra civil: pozo, piso húmedo, colector y bordillos & 1 & 8500 & Hipótesis\\
+Ruedas Blickle SPKVS 200K & 4 & 7448 & Hipótesis\\
+Traslado por doble cadena con volante & 1 & 6885 & Mixto\\
+\midrule
+\textbf{Diez partidas} & & \textbf{128\,908} & 48,8\,\% del subtotal\\
+\bottomrule
+\end{tabularx}
+\par\smallskip\footnotesize
+Montos sin IGV. La bomba se valoró con el precio de la Grundfos CR 10-06 de la segunda entrega multiplicado por 1,4 por el acero 316 y el tamaño, a falta de un precio publicado de la CRN 15-3, y con un motor de 3 kW; la bomba seleccionada lleva uno de 4 kW \cite{grundfoscr}, por lo que el precio se confirmará en la actividad 4. La segunda entrega valoró las ruedas con el precio de otro producto.
+\end{table}
+
+Solo el 17,9\,\% del subtotal tiene un precio publicado; el resto es una hipótesis o una combinación de material con fuente y horas supuestas. La fabricación suma S/~97\,627, de los cuales S/~42\,019 son mano de obra de taller. La inversión de la segunda entrega, S/~33\,855, era unas nueve veces menor porque solo incluía los componentes comerciales.
+
+\section{Formulación del presupuesto de implementación}
+
+La Tabla~\ref{tab:presupuesto-completo} agrupa la estimación por partida. Al subtotal se le suma un 5\,\% de ingeniería de fabricación y gestión, y un 15\,\% de contingencia. El total, sin IGV, es de S/~319\,095, con un rango de S/~246\,904 a 437\,055. No incluye el rodamiento, el galpón, el puente grúa ni la acometida eléctrica.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Presupuesto de inversión de la máquina por partida (estimación de clase 4, sin IGV)}
+\label{tab:presupuesto-completo}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Partida} & \textbf{Base (S/)} & \textbf{Rango (S/)}\\
+\midrule
+Mesa, centrado y traslado & 60\,076 & 42\,666--88\,891\\
+Aspersión y accionamiento & 33\,048 & 23\,673--48\,498\\
+Hidráulica y filtrado & 40\,100 & 29\,441--57\,407\\
+Tanques y calentamiento & 32\,778 & 25\,190--44\,675\\
+Cabina hermética & 45\,591 & 32\,673--66\,865\\
+Drenaje & 5689 & 3983--8534\\
+Tablero eléctrico y control & 26\,364 & 20\,014--36\,429\\
+Obra civil, montaje y puesta en marcha & 20\,615 & 14\,430--30\,922\\
+\midrule
+Subtotal & 264\,261 & \\
+Ingeniería de fabricación y gestión (5\,\%) & 13\,213 & \\
+Contingencia (15\,\%) & 41\,621 & \\
+\textbf{Total sin IGV} & \textbf{319\,095} & 246\,904--437\,055\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El beneficio se mide frente a la limpieza manual que la empresa de remanufactura de referencia aplica a cada rodamiento: unos diez turnos-persona, 10 L de solvente y 75 kg de residuos contaminados (Capítulo~\ref{cap:introduccion}). Con sueldos de S/~1800 a 2800 mensuales para un técnico de mantenimiento en Lima y 26 turnos al mes, la mano de obra cuesta S/~692--1077 por rodamiento, S/~885 en el valor central y sin cargas sociales. Con la fórmula de la segunda entrega, recuperar S/~319\,095 en cinco años al 10\,\% solo con ese ahorro exigiría reemplazar el 793\,\% de la limpieza manual con doce rodamientos al año. Ese valor actual neto no cierra con ningún volumen razonable, de modo que la evaluación se plantea como el beneficio por rodamiento que haría falta para recuperar la inversión:
+\begin{equation}
+  B^{*}=\frac{I}{A\,n},\qquad A=\frac{1-(1+i)^{-H}}{i},
+  \label{eq:beneficio-requerido}
+\end{equation}
+donde $I$ es la inversión, $n$ el número de rodamientos por año y $A$ el factor de valor actual de una anualidad. Con un horizonte de $H=5$ años y una tasa del 10\,\% anual ($A=3{,}791$), ambas hipótesis de evaluación, la Tabla~\ref{tab:beneficio-requerido} da el resultado.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Beneficio por rodamiento necesario para recuperar la inversión en cinco años al 10\,\% anual}
+\label{tab:beneficio-requerido}
+\begin{tabular}{@{}rrrr@{}}
+\toprule
+\textbf{Rodamientos por año} & \textbf{Base (S/)} & \textbf{Rango (S/)} & \textbf{Mano de obra manual (S/)}\\
+\midrule
+4 & 21\,044 & 16\,283--28\,824 & 885\\
+12 & 7015 & 5428--9608 & 885\\
+24 & 3507 & 2714--4804 & 885\\
+48 & 1754 & 1357--2402 & 885\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La mano de obra cubre entre el 4 y el 50\,\% de ese beneficio, según el volumen. El resto tendría que venir del solvente que se deja de usar (10 L por rodamiento), de los residuos peligrosos que no se generan (75 kg), de la menor exposición del personal y, sobre todo, del tiempo de parada del molino que se acorte. Esos datos los tiene la empresa de remanufactura o su cliente, y no forman parte de esta tesis. En el Perú operan unos 120 rodamientos 241/900 \cite{taller_ingeniero_2026}, por lo que la viabilidad económica depende de que el taller concentre la remanufactura de varias plantas.
+
+El costo de operación por ciclo comprende la energía y el detergente. El calentamiento del rodamiento, unos 17,4 kWh, domina el consumo de energía; a S/~0,7238/kWh (tarifa BT5B de Luz del Sur con IGV, cota superior para un usuario industrial), cuesta unos S/~12,6 por rodamiento. El detergente cuesta S/~31,99/kg, es decir, S/~237--473 por metro cúbico de baño a 7,4--14,8 kg/m$^3$. El agua de reposición depende del arrastre y de las purgas, que no se modelaron. La restricción presupuestal RS-10 no tiene un techo acreditado; el total queda como referencia para las cotizaciones de la actividad 4.

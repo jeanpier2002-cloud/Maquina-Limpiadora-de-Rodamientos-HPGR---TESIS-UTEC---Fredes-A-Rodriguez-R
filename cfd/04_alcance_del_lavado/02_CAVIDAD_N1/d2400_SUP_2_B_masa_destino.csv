@@ -1,0 +1,12 @@
+boquilla,ventana,destino,prof_bin,prof_rango_mm,kg_por_vuelta
+SUP_2_B,sup,pista_interior,2,50-100,1.318125e-01
+SUP_2_B,sup,pista_interior,3,100-150,1.085717e-01
+SUP_2_B,sup,pista_interior,4,150-214,9.483851e-02
+SUP_2_B,sup,pista_interior,5,214-257.5,4.179805e-02
+SUP_2_B,sup,rodillo_extremo_cara,0,0-25,1.589965e+00
+SUP_2_B,sup,rodillo_extremo_interior,4,150-214,1.218220e-01
+SUP_2_B,sup,rodillo_flanco,0,0-25,1.825135e-01
+SUP_2_B,sup,rodillo_flanco,1,25-50,9.734119e-02
+SUP_2_B,sup,rodillo_flanco,2,50-100,7.347807e-02
+SUP_2_B,sup,rodillo_flanco,3,100-150,8.507068e-03
+SUP_2_B,sup,rodillo_flanco,4,150-214,8.327252e-04

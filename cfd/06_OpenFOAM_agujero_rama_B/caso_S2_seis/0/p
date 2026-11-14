@@ -1,0 +1,8 @@
+FoamFile { version 2.0; format ascii; class volScalarField; object p; }
+dimensions [0 2 -2 0 0 0 0];
+internalField uniform 0;
+boundaryField
+{
+    "(pared_agujero|cara_inf_rodamiento|cara_sup_rodamiento|lanza)" { type zeroGradient; }
+    "(abierto_inferior|abierto_superior|lateral_abierto)" { type fixedValue; value uniform 0; }
+}

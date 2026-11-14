@@ -1,0 +1,9 @@
+id,palanca,estado,efecto,costo_o_nota
+L1,Duración (vueltas),CUANTIFICADA (T4),t95 por superficie y D_req: ver 03_DOSIS_TIEMPO/T4_t95_tabla.csv,"tiempo, agua y energía (T7)"
+L2,Temperatura del baño / fase de calentamiento (D-058),CUANTIFICADA como factor sobre τ_y; no cambia la dosis,"sin fase 1,10-1,39; con fase 1,02-1,05; 15 °C 1,52-2,61 (L2_temperatura.csv)","+23 min y ≈ 13,8 kWh por ciclo con 36 kW; arranque en frío del tanque ≈ 1,3 h con 858 kg y 36 kW (sin pérdidas)"
+L3,Pose de boquillas hacia la ventana,CUANTIFICADA en N1 (T2c),"ventana sup.: sin ganancia al converger (mejor 31,3 % frente a 30,7 % de la pose tipo SUP_1, 600 rayos); ventana inf.: una boquilla por dentro (r 540 mm, 75°, 40° tang.) ve 18,7 % (flanco de la hilera inf. 18,4 %) frente a 0,4 % por fuera (T2c_pose_denso.csv)",[INTERFAZ ISMAEL]: espacio bajo la cara inferior entre la lanza y las bases de PAD
+L4,Zona que manda,CUANTIFICADA (T4/T4b),"cara inferior: sombras de bases de PAD y topes (≈ 14 % del área con f < 0,5)","cavidad: la hilera inferior (flanco 0,35 % visible) manda; reposición propuesta en L3 (solo N1)"
+L5,"Pausas entre pasadas (rodamiento mojado por el rocío, sin inmersión)",NO MODELABLE (solo tendencia de literatura),"Davis y DeWeese, Tabla 2, 75 psi: remojo 10 frente a 2 min, Δresiduo = [-55, 15, -20, -15] puntos (media -18.8; sin réplicas; un par inverso)",tiempo de ciclo; requiere ensayo
+L6,Química del desengrasante,NO MODELABLE (fuera de alcance),—,ensayo futuro (ASTM D4049 o gravimétrico)
+L7,Velocidad del rotor,A primer orden no cambia la dosis acumulada por tiempo,D·N/t constante si el caudal no cambia,la intensidad por pasada no se modela
+L8,Presión / caudal,DESCARTADA por Jean (24/10),"t ∝ p^-0,5; potencia ∝ p^1,5 (L8_escalas_presion.csv)",no se explora

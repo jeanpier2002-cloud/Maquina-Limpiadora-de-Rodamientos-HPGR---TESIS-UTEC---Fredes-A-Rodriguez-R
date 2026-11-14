@@ -1,0 +1,150 @@
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla,es-nodecimaldot]{babel}
+\usepackage{lmodern}
+\addto\extrasspanish{\spanishucroman}
+\spanishucroman
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,babel}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{etoolbox}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage[table]{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{siunitx}
+\usepackage{url}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=ieee,sorting=none,defernumbers=true,maxbibnames=99]{biblatex}
+\addbibresource{bibliografia/referencias.bib}
+\addbibresource{aspersion_manual/referencias.bib}
+\AtBeginBibliography{\raggedright}
+% Formato IEEE: sin comillas angulares y con la formula de acceso en linea del estilo IEEE.
+\DefineBibliographyStrings{spanish}{urlseen={Accessed:},url={[Online]. Available}}
+\AtBeginDocument{\setquotestyle{english}}
+
+\usepackage{newunicodechar}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{Ø}{\O{}}
+
+\graphicspath{{images/}{images/institucional/}{images/mesa/}{images/sap/}{images/aspersion/}{images/gestion/}{images/p3/}{images/planos/}}
+
+\definecolor{utecblue}{RGB}{0,78,121}
+\definecolor{statusgreen}{RGB}{25,115,70}
+\definecolor{statusamber}{RGB}{155,95,0}
+\definecolor{statusred}{RGB}{160,35,35}
+\definecolor{lightgray}{RGB}{242,244,246}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black,
+  filecolor=black,
+  pdftitle={Diseño de una máquina para la limpieza de rodamientos HPGR},
+  pdfauthor={Ismael Enrique Rodriguez Rojas y Jean Piere Fredes Arapa},
+  pdfsubject={Informe Capstone de Ingeniería Mecánica}
+}
+
+\sisetup{output-decimal-marker={,},group-separator={\,},group-minimum-digits=4}
+\onehalfspacing
+\setlength{\emergencystretch}{3em}
+\setlength{\LTpre}{0.8em}
+\setlength{\LTpost}{0.8em}
+\setlist[itemize]{topsep=3pt,itemsep=2pt,parsep=0pt}
+\setlist[enumerate]{topsep=3pt,itemsep=3pt,parsep=0pt}
+\captionsetup{font=small,labelfont=bf,justification=centering}
+\cftsetindents{chapter}{0em}{9.5em}
+\cftsetindents{section}{1.5em}{3em}
+\cftsetindents{subsection}{3em}{4em}
+\cftsetindents{figure}{0em}{6em}
+\cftsetindents{table}{0em}{6em}
+\renewcommand{\cftchapfont}{\bfseries}
+\renewcommand{\cftchappresnum}{CAPÍTULO\space}
+\renewcommand{\cftfigfont}{\normalfont}
+\renewcommand{\cftfigpresnum}{Figura\space}
+\renewcommand{\cfttabfont}{\normalfont}
+\renewcommand{\cfttabpresnum}{Tabla\space}
+\setlength{\cftbeforechapskip}{0pt}
+\setlength{\cftbeforesecskip}{0pt}
+\setlength{\cftbeforesubsecskip}{0pt}
+\setlength{\cftbeforefigskip}{0pt}
+\setlength{\cftbeforetabskip}{0pt}
+
+\makeatletter
+\newcommand{\indicepreliminar}[2]{%
+  \cleardoublepage
+  \begingroup
+  \doublespacing
+  \setlength{\parskip}{0pt}
+  \chapter*{#1}
+  \let\addvspace\@gobble
+  \@starttoc{#2}
+  \cleardoublepage
+  \endgroup
+}
+\renewcommand{\tableofcontents}{\indicepreliminar{TABLA DE CONTENIDO}{toc}}
+\renewcommand{\listoftables}{\indicepreliminar{ÍNDICE DE TABLAS}{lot}}
+\renewcommand{\listoffigures}{\indicepreliminar{ÍNDICE DE FIGURAS}{lof}}
+\makeatother
+
+\newcommand{\preliminarpendiente}[2]{%
+  \cleardoublepage
+  \thispagestyle{empty}
+  \phantomsection
+  \addcontentsline{toc}{chapter}{#1}
+  \null\vfill
+  \noindent\makebox[\textwidth][r]{\normalfont\normalsize\itshape #2:}\par
+  \vfill\null
+  \cleardoublepage
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead{}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{16pt}
+
+\newcommand{\estadoverificado}{{\scriptsize\textcolor{black}{\textbf{VERIFICADO}}}}
+\newcommand{\estadocalculado}{{\scriptsize\textcolor{black}{\textbf{CALCULADO}}}}
+\newcommand{\estadoprovisional}{{\scriptsize\textcolor{black}{\textbf{PROVISIONAL}}}}
+\newcommand{\estadopendiente}{{\scriptsize\textcolor{black}{\textbf{PENDIENTE}}}}
+\newcommand{\estadoantecedente}{{\scriptsize\textcolor{black}{\textbf{ANTECEDENTE}}}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\source}[1]{\par\smallskip{\footnotesize\itshape Procedencia: #1}\par}
+\newcommand{\longstatus}[1]{\begingroup\footnotesize\path{#1}\endgroup}
+
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\newenvironment{notaalcance}{%
+  \begin{center}\begin{minipage}{0.94\textwidth}\small\color{black}\textbf{Alcance documental.}\ }%
+  {\end{minipage}\end{center}}
+
+\renewcommand{\chaptername}{CAPÍTULO}
+
+\makeatletter
+\patchcmd{\LT@output}{\vss}{\vfil}{}{}
+\patchcmd{\LT@output}{\vss}{\vfil}{}{}
+\makeatother

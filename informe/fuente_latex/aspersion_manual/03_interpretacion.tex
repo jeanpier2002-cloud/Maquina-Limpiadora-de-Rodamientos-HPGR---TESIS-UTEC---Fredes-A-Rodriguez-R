@@ -1,0 +1,280 @@
+\ifdefined\AspersionSoloResultados
+\else
+\subsection{Acciones nominales de los chorros sobre el distribuidor}
+\label{sec:man-asp-reacciones}
+
+Para estimar las acciones hidráulicas se emplea la fuerza característica
+de una boquilla a 4 bar, $F=4{,}04654$ N, calculada mediante cantidad de
+movimiento. El líquido se acelera en la dirección del chorro; la acción
+sobre el distribuidor tiene sentido contrario. Se considera el abanico
+representado por una fuerza equivalente alineada con su eje. Esta
+idealización permite estimar la escala de las cargas, pero no reemplaza
+la integración de la cantidad de movimiento del abanico real.
+
+Las cuatro boquillas superiores descargan hacia abajo. Su acción sobre
+el distribuidor es ascendente. Las dos boquillas exteriores inclinadas
+también aportan una componente ascendente. La suma nominal es
+\begin{align}
+ F_{z,nom}&=4F+2F\sin\alpha\notag\\
+ &=4(4{,}04654)+2(4{,}04654)\sin43{,}637^\circ\notag\\
+ &=\boxed{21{,}771\ \mathrm{N}}.
+ \label{eq:man-asp-fz}
+\end{align}
+En cada ramal exterior, la magnitud de la resultante radial nominal es
+\begin{align}
+ F_{r,ext}&=4F+F\cos\alpha\notag\\
+ &=4(4{,}04654)+4{,}04654\cos43{,}637^\circ
+ =\boxed{19{,}115\ \mathrm{N}}.
+\end{align}
+Las resultantes de dos ramales diametralmente opuestos se compensan
+globalmente solo si ambos conservan la misma orientación y descarga.
+La compensación no elimina las fuerzas locales ni los momentos en sus
+uniones. Para cinco boquillas interiores paralelas, la escala de la
+resultante es
+\begin{equation}
+ F_{r,int}=5F=5(4{,}04654)=20{,}233\ \mathrm{N}.
+\end{equation}
+Si cambia su orientación, debe efectuarse la suma vectorial
+$\boldsymbol{R}=-\sum_j\rho q_j\boldsymbol{v}_j$ y calcularse el momento
+$\boldsymbol{M}_O=\sum_j\boldsymbol{r}_j\times\boldsymbol{R}_j$ respecto
+del apoyo superior. Estas fuerzas no constituyen una envolvente
+estructural: faltan el peso propio, el líquido contenido, las fuerzas
+de presión en conexiones, el arranque, las mangueras y los casos de
+ramales cerrados u obstruidos. Tampoco deben añadirse como reacciones
+de rueda sin resolver previamente el camino de carga de la estructura.
+
+\subsection{Cinemática nominal y tiempo de repetición}
+\label{sec:man-asp-cinematica}
+
+Se adopta una velocidad de giro de 1,7 rev/min. La velocidad angular y
+el período de una vuelta se obtienen convirtiendo a unidades SI:
+\begin{align}
+ \omega&=1{,}7\frac{\mathrm{rev}}{\mathrm{min}}
+ \frac{2\pi\ \mathrm{rad}}{\mathrm{rev}}
+ \frac{1\ \mathrm{min}}{60\ \mathrm{s}}
+ =0{,}17802\ \mathrm{rad/s},\\
+ T_g&=\frac{60}{1{,}7}=35{,}2941\ \mathrm{s}.
+\end{align}
+Se propone una oscilación con período $T_o=15$ s. Si ambos movimientos
+se mantienen periódicos, la posición conjunta se repite cuando
+$nT_g=mT_o$, con $n$ y $m$ enteros. En este caso,
+\begin{equation}
+ \frac{T_g}{T_o}=\frac{35{,}2941}{15}=\frac{40}{17},\qquad
+ 17T_g=40T_o=\boxed{600\ \mathrm{s}}.
+ \label{eq:man-asp-repeticion}
+\end{equation}
+Por tanto, durante diez minutos se completan 17 vueltas y 40
+oscilaciones. La trayectoria nominal es periódica; no corresponde
+describirla como un movimiento que nunca se repite. Tampoco puede
+identificarse ese intervalo con el tiempo de limpieza suficiente sin
+medir la remoción de contaminante.
+
+Como referencia, la velocidad tangencial de barrido sobre el diámetro
+exterior es $u_D=\omega D/2=0{,}17802(0{,}710)=0{,}12640$ m/s, y sobre
+el diámetro interior menor es $u_d=0{,}17802(0{,}450)=0{,}08011$ m/s.
+Son velocidades geométricas del barrido, no del chorro. Para la mayor
+distancia normal adoptada, el tiempo de vuelo rectilíneo estimado es
+\begin{equation}
+ t_v\simeq\frac{s_s}{v_j}
+ =\frac{0{,}18485}{27{,}11354}
+ =0{,}00682\ \mathrm{s}.
+\end{equation}
+Este tiempo es pequeño frente a los períodos mecánicos, lo que apoya
+una primera evaluación cuasiestática de las huellas. La dispersión,
+gravedad, interferencias y evolución real del abanico siguen requiriendo
+una comprobación específica.
+\fi
+
+\ifdefined\AspersionSoloDiseno
+\else
+\section{Interpretación del caso base de diecinueve boquillas}
+\label{sec:man-asp-interpretacion}
+
+\subsection{Qué determina el cálculo hidráulico}
+
+El balance permite definir una demanda hidráulica de referencia de
+aproximadamente 174 L/min y 51 m de altura, con 19 boquillas simultáneas
+y al menos 4 bar en sus tomas dentro del modelo simplificado. El caudal
+indica cuánto líquido debe transportar el circuito; la altura expresa
+la energía por unidad de peso que debe aportar la bomba. Ninguna de
+estas dos magnitudes equivale a una eficacia de limpieza.
+
+La alimentación DN40 presenta una velocidad de 2,02 m/s y reduce la
+pérdida de la línea estacionaria a 2,64 m, frente a 20,85 m obtenidos
+con DN25 para el mismo caudal y el trazado supuesto. Esta comparación
+respalda DN40 como diámetro hidráulico preliminar. No selecciona por
+sí sola el material, la clase de presión ni las conexiones.
+
+La potencia al eje estimada es 2,58 kW. El consumo eléctrico de 3,03 kW
+resulta de aplicar las eficiencias adoptadas, no de una curva de bomba
+medida. La selección comercial deberá situar el punto de trabajo sobre
+las curvas de caudal--altura, eficiencia y potencia, comprobar el
+NPSH y verificar compatibilidad con el líquido a la temperatura prevista.
+
+\subsection{Efecto de modificar la presión de boquilla}
+\label{sec:man-asp-sensibilidad}
+
+Manteniendo la misma boquilla y las propiedades del líquido,
+$q\propto\sqrt{p_n}$ y $v_j\propto\sqrt{p_n}$. Por ello,
+$F\simeq\rho qv_j\propto p_n$. Por ejemplo, pasar de 4 a 5 bar produce
+\begin{align}
+ \frac{q_5}{q_4}&=\sqrt{\frac54}=1{,}1180,
+ &\frac{F_5}{F_4}&=\frac54=1{,}25.
+\end{align}
+El caudal individual aumenta aproximadamente 11,8\,\%, mientras la
+escala de fuerza aumenta 25\,\%. La Tabla~\ref{tab:man-asp-sensibilidad}
+expone la sustitución de distintas presiones en las mismas ecuaciones.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Sensibilidad de las boquillas a una presión uniforme impuesta.}
+\label{tab:man-asp-sensibilidad}
+\input{aspersion_manual/tabla_sensibilidad}
+\par\smallskip\footnotesize
+Se considera la misma presión en las 19 boquillas y $C_v=0{,}95$.
+No corresponde a una nueva resolución de la red ni a una curva de bomba.
+\end{table}
+
+Al aumentar la presión también aumenta el caudal de las tuberías y sus
+pérdidas. No es correcto multiplicar toda la altura de bombeo por el
+cuadrado de la razón de caudales: la elevación estática no depende de
+$Q$, y la presión objetivo debe incorporarse como un término propio.
+Para otra presión se requiere repetir el balance de cada tramo con su
+nuevo Reynolds y con las pérdidas reales del filtro y la unión rotativa.
+La mayor fuerza nominal tampoco demuestra una mejora proporcional de
+la limpieza; esa relación queda fuera del alcance de este cálculo.
+
+\subsection{Alcance geométrico y superficie de referencia}
+\label{sec:man-asp-superficie}
+
+Para interpretar el acceso se construye una envolvente geométrica
+simplificada: superficie cilíndrica exterior, agujero interior y dos
+caras anulares. Esta convención excluye el detalle de rodillos, jaula,
+ranuras y superficies internas de los aros. Su área no es, por tanto,
+el área real total que podría requerir limpieza.
+
+El área lateral exterior se obtiene como perímetro por ancho axial:
+\begin{equation}
+ A_D=\pi DB=\pi(1{,}420)(0{,}515)=2{,}29745\ \mathrm{m^2}.
+\end{equation}
+Con una conicidad diametral de 1:30, el incremento de diámetro del
+agujero a lo largo del ancho es $\Delta d=B/30=0{,}017167$ m. Su diámetro
+medio es $d_m=d+\Delta d/2=0{,}908583$ m. Aproximando la longitud de la
+generatriz por el ancho axial,
+\begin{equation}
+ A_d\simeq\pi d_mB=\pi(0{,}908583)(0{,}515)
+ =1{,}47001\ \mathrm{m^2}.
+\end{equation}
+Para conservar una referencia simple se representan las dos caras con
+el diámetro interior menor. El área convencional de una cara es
+\begin{equation}
+ A_c=\frac{\pi}{4}(D^2-d^2)
+ =\frac{\pi}{4}(1{,}420^2-0{,}900^2)
+ =0{,}94750\ \mathrm{m^2}.
+\end{equation}
+La suma de referencia resulta
+\begin{equation}
+ A_{ref}=A_D+A_d+2A_c
+ =2{,}29745+1{,}47001+2(0{,}94750)
+ =\boxed{5{,}66247\ \mathrm{m^2}}.
+ \label{eq:man-asp-aref}
+\end{equation}
+Se trata de una aproximación explícita. Para un inventario superficial
+de precisión deben emplearse las dos caras con sus diámetros reales y
+la generatriz cónica, además del resto de la geometría del rodamiento.
+
+En un escenario ideal, si todo el exterior, todo el agujero y la cara
+superior fueran alcanzables, y se descontaran tres zonas laterales de
+retención representadas por rectángulos de $80\times30$ mm, el área sería
+\begin{align}
+ A_{ret}&=3(0{,}080)(0{,}030)=0{,}00720\ \mathrm{m^2},\\
+ A_{pot}&=A_D-A_{ret}+A_d+A_c\notag\\
+ &=2{,}29745-0{,}00720+1{,}47001+0{,}94750
+ =4{,}70777\ \mathrm{m^2},\\
+ \lambda_{pot}&=\frac{A_{pot}}{A_{ref}}
+ =\frac{4{,}70777}{5{,}66247}=0{,}8314.
+ \label{eq:man-asp-lambda}
+\end{align}
+El 83,14\,\% resultante es una fracción potencial de esa envolvente
+convencional, bajo las condiciones indicadas. No es una cobertura
+demostrada: la franja nominal de 13,76 mm identificada en la
+Ecuación~\eqref{eq:man-asp-hueco}, las sombras y las trayectorias pueden
+reducirla. La cara inferior no se incluye en $A_{pot}$, porque el caso
+base no dispone una aplicación ascendente acreditada hacia ella.
+
+Como referencia para estudiar posteriormente dicha cara, tres sectores
+de apoyo de radios 638 y 688 mm y ángulo de 24$^\circ$ tendrían un área
+proyectada conjunta
+\begin{equation}
+ A_{\mathrm{ap}}=3\pi(0{,}688^2-0{,}638^2)\frac{24}{360}
+ =0{,}04166\ \mathrm{m^2}.
+\end{equation}
+Esta proyección representa una hipótesis geométrica para descontar zonas
+ocupadas; no determina por sí sola el contacto resistente real entre
+el rodamiento y el liner. Tampoco acredita que la superficie inferior
+restante sea accesible desde las boquillas existentes.
+
+La cobertura geométrica y la remoción deben mantenerse como indicadores
+independientes. Una superficie visible puede recibir un chorro
+insuficiente, y una superficie inicialmente sombreada puede requerir
+otra orientación o una operación complementaria. El porcentaje de
+limpieza solo podrá establecerse después de definir un criterio de
+aceptación y medir el contaminante residual.
+
+\subsection{Caudal recirculado y volumen de líquido}
+
+Un caudal de 173,99 L/min durante diez minutos representa un volumen
+acumulado que ha circulado por las boquillas de
+\begin{equation}
+ V_{circ}=Qt=(173{,}99168)(10)=1739{,}92\ \mathrm{L}.
+\end{equation}
+En un circuito recirculado ese volumen puede contener varias pasadas
+del mismo líquido. Por tanto, no exige un tanque de 1740 L ni equivale
+al consumo de agua nueva. El volumen útil del depósito debe permitir
+mantener el nivel de succión, alojar el inventario de tuberías y retorno,
+separar aire y contaminantes y absorber las variaciones durante el ciclo.
+La reposición depende de arrastre, evaporación, purgas y pérdidas.
+
+\subsection{Síntesis y condiciones de aplicación}
+\label{sec:man-asp-conclusion}
+
+La Tabla~\ref{tab:man-asp-sintesis} ordena los resultados principales del
+caso base y su significado dentro del diseño.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Resultados principales y significado dentro del diseño.}
+\label{tab:man-asp-sintesis}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.5cm} >{\raggedright\arraybackslash}p{2.6cm} >{\raggedright\arraybackslash}X@{}}
+\toprule Magnitud & Resultado & Interpretación\\\midrule
+Cantidad simultánea & 19 boquillas & Configuración del caso base hidráulico; cobertura por completar.\\
+Caudal de alimentación & 173,99 L/min & Resultado de continuidad y presión en la red simplificada.\\
+Presión mínima de toma & 4,00 bar & Condición impuesta para el predimensionamiento.\\
+Altura de bombeo & 50,75 m & Incluye presión, desnivel, pérdidas y carga cinética.\\
+Alimentación principal & DN40; 2,02 m/s & Alternativa hidráulica preliminar frente a DN25.\\
+Potencia al eje & 2,58 kW & Demanda con eficiencia de bomba adoptada de 0,55.\\
+Consumo de bombeo & 3,03 kW & Estimación con eficiencia de motor de 0,85.\\
+NPSH disponible & 6,01 m & Escenario a 2335 m, 62 $^\circ$C y nivel inundado de 0,50 m.\\
+Franja axial nominal & 13,76 mm & Discontinuidad geométrica; no se declara cobertura completa.\\
+Repetición cinemática & 600 s & Período conjunto, no tiempo validado de limpieza.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+El desarrollo establece una base cuantitativa para especificar la bomba,
+contrastar diámetros y preparar la verificación de cobertura. Los
+decimales de las operaciones permiten seguir la sustitución numérica;
+no representan precisión experimental. Para especificación preliminar
+se retienen aproximadamente 174 L/min y 51 m.
+
+El cierre del dimensionamiento requiere confirmar las propiedades de
+la solución de limpieza; las curvas de boquilla, filtro, unión rotativa
+y bomba; el trazado y los accesorios; y el nivel mínimo del depósito.
+Con esos datos debe refinarse la distribución de presión incorporando
+los cambios de velocidad y las conexiones de las tomas. El cierre de
+cobertura requiere corregir la franja lateral y comprobar interferencias,
+sombras, oscilación y acceso inferior; la eficacia de lavado queda fuera
+del alcance del caso analítico. Estas verificaciones delimitan la aplicación del
+caso analítico y no invalidan las operaciones de predimensionamiento
+desarrolladas.
+\fi

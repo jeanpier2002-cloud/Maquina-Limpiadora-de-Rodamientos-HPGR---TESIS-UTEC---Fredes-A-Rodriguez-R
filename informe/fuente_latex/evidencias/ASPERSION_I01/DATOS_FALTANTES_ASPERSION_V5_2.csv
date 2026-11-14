@@ -1,0 +1,28 @@
+id,dato_faltante,por_que_se_necesita,calculo_que_bloquea,unidad,rango_razonable_estudio,responsable,metodo_obtencion,prioridad,estado
+F-001,Fluido de limpieza,"Define propiedades, compatibilidad, seguridad y residuos",Todo el cálculo hidráulico,texto,Agua / agua+detergente / solvente aprobado,Equipo de proceso + EHS,Seleccionar con SDS y aprobación SKF/taller,ALTA,PENDIENTE
+F-002,Temperatura,"Cambia viscosidad, densidad, vapor y limpieza","Re, pérdidas, calentamiento",°C,Rango de ensayo a definir; no asumir calentamiento,Proceso,Medición y DOE piloto,ALTA,PENDIENTE
+F-003,Densidad,Convierte presión en altura y potencia,"TDH, Ph, Re",kg/m3,850–1000 solo sensibilidad heredada,Proceso,Ficha técnica o densímetro,ALTA,PENDIENTE
+F-004,Viscosidad dinámica,Determina Re y pérdidas,Tuberías y bomba,Pa·s,Definir a temperatura de trabajo,Proceso,Ficha técnica o viscosímetro,ALTA,PENDIENTE
+F-005,Concentración de detergente,"Afecta limpieza, espuma y descarga",Consumo/efluente,%,Según proveedor y ensayo,Proceso + EHS,Ensayo piloto y SDS,MEDIA,PENDIENTE
+F-006,Catálogo de boquilla,Única base válida para Q-P/patrón/gota,"Caudal, bomba, cobertura",documento,Familias a comparar; sin modelo seleccionado,Ingeniería hidráulica,Solicitar curvas oficiales,ALTA,PENDIENTE
+F-007,Patrón y ángulo real,Define huella y solape,Cobertura,deg,Abanico orientable candidato; confirmar,Ingeniería + proveedor,Catálogo + ensayo,ALTA,PENDIENTE
+F-008,Diámetro/orificio,"Afecta Q, gota y obstrucción",Caudal y filtración,mm,1–2 mm solo sensibilidad heredada,Proveedor,Catálogo,ALTA,PENDIENTE
+F-009,Presión mínima/máxima en boquilla,Define operación y atomización,TDH y bomba,bar,2–8 bar estudio inicial; 10–15 solo sensibilidad,Proceso + EHS,Piloto y catálogo,ALTA,PENDIENTE
+F-010,Caudal por boquilla,Determina Q simultáneo,"Bomba, tubería, tanque",L/min,Curva de catálogo; no usar rango genérico,Proveedor,Lectura Q-P para fluido real,ALTA,PENDIENTE
+F-011,Cantidad/orientación final,Distingue instalado de activo,Simultaneidad y cobertura,count/deg,8 es solo geometría Head A vigente,CAD + proceso,Mapa CAD y piloto,ALTA,PENDIENTE
+F-012,Simultaneidad de zonas,Gobierna Q de diseño,Bomba y manifold,count,4–8 solo escenarios; definir secuencia,Control/proceso,Matriz de estados y válvulas,ALTA,PENDIENTE
+F-013,Duración por etapa,Convierte caudal en volumen,Consumo/tanque/efluente,min,Definir por criterio de limpieza,Proceso,Ensayo piloto,ALTA,PENDIENTE
+F-014,Número de vueltas,Afecta exposición y volumen,Ciclo,rev,No usar frames CAD como tiempo,Proceso,Ensayo de cobertura/remoción,MEDIA,PENDIENTE
+F-015,Velocidad del trolley,Determina exposición local,Cobertura y ciclo,rpm o deg/s,Rango DOE por definir,Mecánica + proceso,Prueba de movimiento y limpieza,ALTA,PENDIENTE
+F-016,Diámetros internos de tubería/manguera,Gobiernan V y pérdidas,Re/hf,mm,Seleccionar tras Q y compatibilidad,Hidráulica,Layout + catálogo,ALTA,PENDIENTE
+F-017,Longitudes y elevaciones,Gobiernan TDH,hf/Δz,m,Medir ruta más desfavorable,CAD,Medición CAD/obra,ALTA,PENDIENTE
+F-018,Accesorios y K,Pérdidas menores,hm,count/-,Inventario físico,Hidráulica,P&ID + catálogos,ALTA,PENDIENTE
+F-019,Curva y eficiencia de bomba,Valida punto de operación,Selección de bomba,Q-H/%,Solo después de curva del sistema,Proveedor,Curva oficial y NPSH,ALTA,PENDIENTE
+F-020,Capacidad útil de drenaje,Evita acumulación/desborde,Drenaje/sump,L/min,>Qsim con margen aprobado,Hidráulica + EHS,Prueba de descarga y Manning/Darcy,ALTA,PENDIENTE
+F-021,Límite de niebla/atomización,Protege operador y ambiente,Presión/patrón/ventilación,mg/m3 o criterio,Definir con higiene ocupacional,EHS,Medición aerosol + norma interna,ALTA,PENDIENTE
+F-022,Grado de filtración,Protege orificios y retorno,Filtro/ΔP,µm,Según boquilla y suciedad,Proveedor + proceso,Catálogo y análisis de sólidos,ALTA,PENDIENTE
+F-023,Criterio de fin de lavado,Cierra duración y calidad,Tiempo/consumo,métrica,"Masa residual, imagen o conductividad",Taller + tesis,Protocolo experimental,ALTA,PENDIENTE
+F-024,Carga de grasa/suciedad,Dimensiona filtración y efluente,Balance de masa,kg/ciclo,Medir casos representativos,Taller,Pesaje antes/después,ALTA,PENDIENTE
+F-025,Disponibilidad de agua y descarga,Limita paso único,Arquitectura,L/min; L/ciclo,Dato de planta,Operaciones/EHS,Levantamiento de servicios,ALTA,PENDIENTE
+F-026,Arquitectura paso único/recirculación,Evita contradicción 480 L vs 80/16 L,"Tanque, retorno, efluente",decisión,Comparar escenarios A/B/C,Equipo de proyecto,Revisión de riesgos/costos,ALTA,PENDIENTE
+F-027,Restricciones de seguridad minera,"Define materiales, ventilación y control",Sistema completo,documento,Requisitos del sitio,EHS/cliente,HAZOP/JSA y normas internas,ALTA,PENDIENTE

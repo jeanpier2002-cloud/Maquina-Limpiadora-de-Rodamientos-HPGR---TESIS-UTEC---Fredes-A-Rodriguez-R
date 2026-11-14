@@ -1,0 +1,58 @@
+--> FOAM IOWarning :
+    Ignoring [v1806] '-useTimeName' option
+
+    This option is 96 months old.
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2606                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _481094f-20260618 OPENFOAM=2606 version=2606
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToVTK -latestTime
+Date   : Sep 20 2026
+Time   : 07:54:29
+Host   : DESKTOP-KR70U7K
+PID    : 1726
+I/O    : uncollated
+Case   : /home/piermoto/cfd01/F4/S2_seis
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+memory pool : not available
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+
+--> FOAM Warning : allowSystemOperations : Allowing user-supplied system call operations.
+                   This can be a security risk if running untrusted cases
+                   through e.g. 'coded' on-the-fly-compilation functionality.
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Initial memory 224828 kB
+Create mesh for time = 0.035
+
+VTK mesh topology: 1.34 s, 313480 kB
+Time: 0.035
+    volScalar    : epsilon k kinematicCloud:campos_de_impacto:count kinematicCloud:campos_de_impacto:mass nut p
+    volVector    : U
+    volScalar:Internal    : kinematicCloud:UCoeff kinematicCloud:rhokTrans
+    volVector:Internal    : kinematicCloud:UTrans
+    Internal  : "VTK/S2_seis_700/internal.vtu"
+    Boundary  : "VTK/S2_seis_700/boundary/abierto_inferior.vtp"
+    Boundary  : "VTK/S2_seis_700/boundary/abierto_superior.vtp"
+    Boundary  : "VTK/S2_seis_700/boundary/lateral_abierto.vtp"
+    Boundary  : "VTK/S2_seis_700/boundary/pared_agujero.vtp"
+    Boundary  : "VTK/S2_seis_700/boundary/cara_inf_rodamiento.vtp"
+    Boundary  : "VTK/S2_seis_700/boundary/cara_sup_rodamiento.vtp"
+    Boundary  : "VTK/S2_seis_700/boundary/lanza.vtp"
+    Lagrangian: "VTK/lagrangian/kinematicCloud/kinematicCloud_700.vtp"
+        label: active origId origProcId typeId
+        scalar: age d dTarget nParticle rho tTurb
+        vector: U UCorrect UTurb
+Wrote in 2.45 s, 661776 kB
+
+End: 3.79 s, 668644 kB (peak)
+

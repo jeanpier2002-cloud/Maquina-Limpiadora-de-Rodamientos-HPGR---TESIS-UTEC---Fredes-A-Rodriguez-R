@@ -1,0 +1,9 @@
+cota,valor,unidad,relativo,relativo_a
+"Velocidad ganada en la ventana de E1 (1,2 ms)",0.01177,m/s,0.0429,% de v
+Velocidad ganada en 10 ms (ventana de E2),0.0981,m/s,0.357,% de v
+"Tiempo de vuelo LAT -> OD (130,35 mm)",4.745,ms,,
+"Caida durante el vuelo, 1/2 g t^2",0.1104,mm,0.0908,"% del alto de huella 121,6 mm"
+"Desvio angular del chorro al llegar, atan(g t / v)",0.09708,grados,,
+"Gravedad a lo largo de la pared en el dominio de E1 (20 mm), 2gL/u_f^2",0.05546,% de u_f^2,,cota de V4 (gravedad en el plano)
+"Bond de la lamina e0 = 0,30 mm, rho g e^2/sigma",0.0131,-,,la gravedad no deforma la lamina
+"Bond de la lamina e_OD = 0,049 mm",0.0003494,-,,

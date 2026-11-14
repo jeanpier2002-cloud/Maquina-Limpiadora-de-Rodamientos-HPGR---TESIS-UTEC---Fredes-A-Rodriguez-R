@@ -1,0 +1,2 @@
+C2_B       entra ventana sup 0.000 % | inf 11.820 %  (617 s)
+listo d2400_C2_B en 617 s

@@ -1,0 +1,21 @@
+caso,magnitud,cambio_pct
+hacia la pared (cara superior),p0_Pa,0.00499193
+hacia la pared (cara superior),F_loc1_Nm,0.00574991
+hacia la pared (cara superior),tau_xr2,0.00226945
+hacia la pared (cara superior),h_xr2_um,-0.000869467
+hacia la pared (cara superior),M_xr2_Nm,0.00424099
+alejandose de la pared (cara inferior),p0_Pa,-0.00458686
+alejandose de la pared (cara inferior),F_loc1_Nm,-0.00426207
+alejandose de la pared (cara inferior),tau_xr2,-0.0022342200000000003
+alejandose de la pared (cara inferior),h_xr2_um,0.000141066
+alejandose de la pared (cara inferior),M_xr2_Nm,-0.00549293
+"hacia la pared, N20",p0_Pa,0.00457591
+"hacia la pared, N20",F_loc1_Nm,0.00482168
+"hacia la pared, N20",tau_xr2,0.00223319
+"hacia la pared, N20",h_xr2_um,0.0001781
+"hacia la pared, N20",M_xr2_Nm,0.00507809
+a lo largo de la pared (I3 falso),p0_Pa,-0.00021330900000000001
+a lo largo de la pared (I3 falso),F_loc1_Nm,-0.000911951
+a lo largo de la pared (I3 falso),tau_xr2,-0.00461496
+a lo largo de la pared (I3 falso),h_xr2_um,0.00351716
+a lo largo de la pared (I3 falso),M_xr2_Nm,0.00148908

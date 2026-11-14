@@ -1,0 +1,10 @@
+SUP_1_A    entra ventana sup 54.667 % | inf 0.000 %  (19 s)
+SUP_2_A    entra ventana sup 46.000 % | inf 0.000 %  (33 s)
+SUP_1_B    entra ventana sup 54.667 % | inf 0.000 %  (53 s)
+SUP_2_B    entra ventana sup 46.000 % | inf 0.000 %  (67 s)
+INF_EXT_A  entra ventana sup 0.000 % | inf 11.915 %  (73 s)
+INF_EXT_B  entra ventana sup 0.000 % | inf 11.911 %  (79 s)
+C2_A       entra ventana sup 0.000 % | inf 11.867 %  (85 s)
+C2_B       entra ventana sup 0.000 % | inf 11.867 %  (91 s)
+INF_INT    entra ventana sup 0.000 % | inf 15.333 %  (98 s)
+listo fase4 en 98 s

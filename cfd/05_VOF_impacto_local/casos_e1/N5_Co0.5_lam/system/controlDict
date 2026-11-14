@@ -1,0 +1,73 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  Generado por e1_generar.py (CFD_Redosado/CORRIDA_2_desde24oct/02_VOF_v3). OpenFOAM v2606 (ESI).
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+application     interFoam;
+startFrom       latestTime;
+startTime       0;
+stopAt          endTime;
+endTime         0.0012;
+deltaT          1e-09;
+writeControl    adjustable;
+writeInterval   0.0001;
+purgeWrite      0;
+writeFormat     binary;
+writePrecision  8;
+writeCompression off;
+timeFormat      general;
+timePrecision   8;
+runTimeModifiable yes;
+adjustTimeStep  yes;
+maxCo           0.5;
+maxAlphaCo      0.5;
+maxDeltaT       1e-05;
+
+functions
+{
+    wallShearStress
+    {
+        type            wallShearStress;
+        libs            (fieldFunctionObjects);
+        writeFields     yes;
+        patches         (pared);
+        executeControl  timeStep;
+        writeControl    writeTime;
+    }
+    fuerzas
+    {
+        type            forces;
+        libs            (forces);
+        patches         (pared);
+        rho             rho;
+        CofR            (0 0 0);
+        log             off;
+        writeControl    timeStep;
+        writeInterval   1;
+    }
+    paredSup
+    {
+        type            surfaces;
+        libs            (sampling);
+        interpolationScheme cell;
+        surfaceFormat   raw;
+        writeControl    adjustableRunTime;
+        writeInterval   1e-05;
+        fields          (alpha.water p rho wallShearStress);
+        surfaces
+        {
+            pared
+            {
+                type        patch;
+                patches     (pared);
+                interpolate false;
+                triangulate false;
+            }
+        }
+    }
+}

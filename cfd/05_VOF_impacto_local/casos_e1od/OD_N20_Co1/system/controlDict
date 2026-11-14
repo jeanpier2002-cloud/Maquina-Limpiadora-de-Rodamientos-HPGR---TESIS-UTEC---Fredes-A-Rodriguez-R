@@ -1,0 +1,93 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  Generado por v3_e1od_generar.py (CFD_Redosado/CORRIDA_2_desde24oct/02_VOF_v3). OpenFOAM v2606 (ESI).
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+application     interFoam;
+startFrom       latestTime;
+startTime       0;
+stopAt          endTime;
+endTime         9.8e-05;
+deltaT          1e-10;
+writeControl    adjustable;
+writeInterval   1.6333333e-05;
+purgeWrite      0;
+writeFormat     binary;
+writePrecision  8;
+writeCompression off;
+timeFormat      general;
+timePrecision   8;
+runTimeModifiable yes;
+adjustTimeStep  yes;
+maxCo           1;
+maxAlphaCo      1;
+maxDeltaT       1.63333e-06;
+
+functions
+{
+    wallShearStress
+    {
+        type            wallShearStress;
+        libs            (fieldFunctionObjects);
+        writeFields     yes;
+        patches         (pared);
+        executeControl  timeStep;
+        writeControl    writeTime;
+    }
+    fuerzas
+    {
+        type            forces;
+        libs            (forces);
+        patches         (pared);
+        rho             rho;
+        CofR            (0 0 0);
+        log             off;
+        writeControl    timeStep;
+        writeInterval   1;
+    }
+    paredSup
+    {
+        type            surfaces;
+        libs            (sampling);
+        interpolationScheme cell;
+        surfaceFormat   raw;
+        writeControl    adjustableRunTime;
+        writeInterval   1.6333333e-06;
+        fields          (alpha.water p rho wallShearStress);
+        surfaces
+        {
+            pared
+            {
+                type        patch;
+                patches     (pared);
+                interpolate false;
+                triangulate false;
+            }
+        }
+    }
+    lineas
+    {
+        type            sets;
+        libs            (sampling);
+        interpolationScheme cell;
+        setFormat       raw;
+        writeControl    writeTime;
+        fields          (alpha.water U p);
+        sets
+        {
+            xr0p5 { type midPoint; axis y; start (8.1666667e-05 1e-12 8.16667e-06); end (8.1666667e-05 0.00049 8.16667e-06); }
+            xr1 { type midPoint; axis y; start (0.00016333333 1e-12 8.16667e-06); end (0.00016333333 0.00049 8.16667e-06); }
+            xr2 { type midPoint; axis y; start (0.00032666667 1e-12 8.16667e-06); end (0.00032666667 0.00049 8.16667e-06); }
+            xr4 { type midPoint; axis y; start (0.00065333333 1e-12 8.16667e-06); end (0.00065333333 0.00049 8.16667e-06); }
+            xr5 { type midPoint; axis y; start (0.00081666667 1e-12 8.16667e-06); end (0.00081666667 0.00049 8.16667e-06); }
+            xr8 { type midPoint; axis y; start (0.0013066667 1e-12 8.16667e-06); end (0.0013066667 0.00049 8.16667e-06); }
+            xr10 { type midPoint; axis y; start (0.0016333333 1e-12 8.16667e-06); end (0.0016333333 0.00049 8.16667e-06); }
+            eje { type midPoint; axis y; start (1.63333e-08 1e-12 8.16667e-06); end (1.63333e-08 0.00049 8.16667e-06); }
+        }
+    }
+}

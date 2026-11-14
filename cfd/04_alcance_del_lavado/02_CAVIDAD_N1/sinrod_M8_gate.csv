@@ -1,0 +1,15 @@
+tag,subconjunto,frac_area_rodillos_mas_pistas_N1,area_m2,gate_T6_5pct
+sinrod,todas,0.20082,8.7906,ABIERTO
+sinrod,SUP (ventana sup),0.19604,8.7906,ABIERTO
+sinrod,INF (ventana inf),0.01919,8.7906,CERRADO
+sinrod,ramal A,0.19604,8.7906,ABIERTO
+sinrod,ramal B,0.19604,8.7906,ABIERTO
+sinrod,SUP_1_A,0.15982,8.7906,ABIERTO
+sinrod,SUP_2_A,0.07391,8.7906,ABIERTO
+sinrod,SUP_1_B,0.15982,8.7906,ABIERTO
+sinrod,SUP_2_B,0.07391,8.7906,ABIERTO
+sinrod,INF_EXT_A,0.00000,8.7906,CERRADO
+sinrod,INF_EXT_B,0.00000,8.7906,CERRADO
+sinrod,C2_A,0.00000,8.7906,CERRADO
+sinrod,C2_B,0.00000,8.7906,CERRADO
+sinrod,INF_INT,0.01919,8.7906,CERRADO

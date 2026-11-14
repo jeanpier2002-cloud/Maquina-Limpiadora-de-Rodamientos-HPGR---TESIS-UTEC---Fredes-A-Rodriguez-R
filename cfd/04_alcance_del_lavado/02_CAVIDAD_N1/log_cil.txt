@@ -1,0 +1,10 @@
+SUP_1_A    entra ventana sup 54.667 % | inf 0.000 %  (14 s)
+SUP_2_A    entra ventana sup 46.000 % | inf 0.000 %  (26 s)
+SUP_1_B    entra ventana sup 54.667 % | inf 0.000 %  (41 s)
+SUP_2_B    entra ventana sup 46.000 % | inf 0.000 %  (54 s)
+INF_EXT_A  entra ventana sup 0.000 % | inf 11.915 %  (60 s)
+INF_EXT_B  entra ventana sup 0.000 % | inf 11.911 %  (65 s)
+C2_A       entra ventana sup 0.000 % | inf 11.867 %  (71 s)
+C2_B       entra ventana sup 0.000 % | inf 11.867 %  (77 s)
+INF_INT    entra ventana sup 0.000 % | inf 15.333 %  (83 s)
+listo cil en 83 s

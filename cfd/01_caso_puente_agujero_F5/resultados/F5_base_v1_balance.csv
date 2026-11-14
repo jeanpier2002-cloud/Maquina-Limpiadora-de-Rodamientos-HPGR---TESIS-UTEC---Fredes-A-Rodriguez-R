@@ -1,0 +1,12 @@
+zona,n_parcelas_total,masa_total_kg,mdot_ventana_kg_s
+pared_agujero,1372107,2.283724e-02,7.814178e-01
+cara_inf_rodamiento,128151,2.125128e-03,6.767965e-02
+cara_sup_rodamiento,0,0.000000e+00,0.000000e+00
+lanza,0,0.000000e+00,0.000000e+00
+abierto_inferior,0,0.000000e+00,0.000000e+00
+abierto_superior,4643,7.745453e-05,3.070600e-03
+lateral_abierto,81757,1.355875e-03,4.674593e-02
+nucleo_abierto,0,0.000000e+00,0.000000e+00
+TOTAL_salidas_ventana,,,8.989139e-01
+inyectado,,3.144317e-02,8.983763e-01
+error_balance_ventana_pct,,,0.0598

@@ -1,0 +1,631 @@
+superficie,zona,lectura,bandas,D_req,X_pct,S_ref_m2,S_acc_m2,N_X_acc,t_X_acc_min,N_X_acc_continuo,N_X_ref,t_X_ref_min,N_X_ref_continuo
+OD,total,media_theta,10mm,65,90,2.2975,2.2903,5,2.94,4.142,5,2.94,4.142
+OD,total,media_theta,10mm,65,95,2.2975,2.2903,5,2.94,4.915,5,2.94,4.915
+OD,total,media_theta,10mm,65,99,2.2975,2.2903,7,4.12,6.171,7,4.12,6.171
+OD,total,media_theta,10mm,183,90,2.2975,2.2903,12,7.06,11.663,12,7.06,11.663
+OD,total,media_theta,10mm,183,95,2.2975,2.2903,14,8.24,13.837,14,8.24,13.837
+OD,total,media_theta,10mm,183,99,2.2975,2.2903,18,10.59,17.374,18,10.59,17.374
+OD,total,media_theta,10mm,305,90,2.2975,2.2903,20,11.76,19.438,20,11.76,19.438
+OD,total,media_theta,10mm,305,95,2.2975,2.2903,24,14.12,23.062,24,14.12,23.062
+OD,total,media_theta,10mm,305,99,2.2975,2.2903,29,17.06,28.956,29,17.06,28.956
+OD,total,peor_celda,10mm,65,90,2.2975,2.2903,5,2.94,4.142,5,2.94,4.142
+OD,total,peor_celda,10mm,65,95,2.2975,2.2903,5,2.94,4.915,5,2.94,4.915
+OD,total,peor_celda,10mm,65,99,2.2975,2.2903,13,7.65,12.312,13,7.65,12.312
+OD,total,peor_celda,10mm,183,90,2.2975,2.2903,12,7.06,11.663,12,7.06,11.663
+OD,total,peor_celda,10mm,183,95,2.2975,2.2903,14,8.24,13.837,14,8.24,13.837
+OD,total,peor_celda,10mm,183,99,2.2975,2.2903,35,20.59,34.663,35,20.59,34.663
+OD,total,peor_celda,10mm,305,90,2.2975,2.2903,20,11.76,19.438,20,11.76,19.438
+OD,total,peor_celda,10mm,305,95,2.2975,2.2903,24,14.12,23.062,24,14.12,23.062
+OD,total,peor_celda,10mm,305,99,2.2975,2.2903,58,34.12,57.772,58,34.12,57.772
+OD,total,celdas,10mm,65,90,2.2975,2.2903,5,2.94,4.142,5,2.94,4.142
+OD,total,celdas,10mm,65,95,2.2975,2.2903,5,2.94,4.915,5,2.94,4.915
+OD,total,celdas,10mm,65,99,2.2975,2.2903,7,4.12,6.156,7,4.12,6.156
+OD,total,celdas,10mm,183,90,2.2975,2.2903,12,7.06,11.663,12,7.06,11.663
+OD,total,celdas,10mm,183,95,2.2975,2.2903,14,8.24,13.837,14,8.24,13.837
+OD,total,celdas,10mm,183,99,2.2975,2.2903,18,10.59,17.332,18,10.59,17.332
+OD,total,celdas,10mm,305,90,2.2975,2.2903,20,11.76,19.438,20,11.76,19.438
+OD,total,celdas,10mm,305,95,2.2975,2.2903,24,14.12,23.062,24,14.12,23.062
+OD,total,celdas,10mm,305,99,2.2975,2.2903,29,17.06,28.886,29,17.06,28.886
+OD,OD_alto_z1000-1405,media_theta,10mm,65,90,1.8067,1.8067,4,2.35,3.347,4,2.35,3.347
+OD,OD_alto_z1000-1405,media_theta,10mm,65,95,1.8067,1.8067,4,2.35,3.516,4,2.35,3.516
+OD,OD_alto_z1000-1405,media_theta,10mm,65,99,1.8067,1.8067,5,2.94,4.142,5,2.94,4.142
+OD,OD_alto_z1000-1405,media_theta,10mm,183,90,1.8067,1.8067,10,5.88,9.423,10,5.88,9.423
+OD,OD_alto_z1000-1405,media_theta,10mm,183,95,1.8067,1.8067,10,5.88,9.898,10,5.88,9.898
+OD,OD_alto_z1000-1405,media_theta,10mm,183,99,1.8067,1.8067,12,7.06,11.663,12,7.06,11.663
+OD,OD_alto_z1000-1405,media_theta,10mm,305,90,1.8067,1.8067,16,9.41,15.705,16,9.41,15.705
+OD,OD_alto_z1000-1405,media_theta,10mm,305,95,1.8067,1.8067,17,10.00,16.496,17,10.00,16.496
+OD,OD_alto_z1000-1405,media_theta,10mm,305,99,1.8067,1.8067,20,11.76,19.438,20,11.76,19.438
+OD,OD_alto_z1000-1405,peor_celda,10mm,65,90,1.8067,1.8067,4,2.35,3.347,4,2.35,3.347
+OD,OD_alto_z1000-1405,peor_celda,10mm,65,95,1.8067,1.8067,4,2.35,3.516,4,2.35,3.516
+OD,OD_alto_z1000-1405,peor_celda,10mm,65,99,1.8067,1.8067,5,2.94,4.142,5,2.94,4.142
+OD,OD_alto_z1000-1405,peor_celda,10mm,183,90,1.8067,1.8067,10,5.88,9.423,10,5.88,9.423
+OD,OD_alto_z1000-1405,peor_celda,10mm,183,95,1.8067,1.8067,10,5.88,9.898,10,5.88,9.898
+OD,OD_alto_z1000-1405,peor_celda,10mm,183,99,1.8067,1.8067,12,7.06,11.663,12,7.06,11.663
+OD,OD_alto_z1000-1405,peor_celda,10mm,305,90,1.8067,1.8067,16,9.41,15.705,16,9.41,15.705
+OD,OD_alto_z1000-1405,peor_celda,10mm,305,95,1.8067,1.8067,17,10.00,16.496,17,10.00,16.496
+OD,OD_alto_z1000-1405,peor_celda,10mm,305,99,1.8067,1.8067,20,11.76,19.438,20,11.76,19.438
+OD,OD_alto_z1000-1405,celdas,10mm,65,90,1.8067,1.8067,4,2.35,3.347,4,2.35,3.347
+OD,OD_alto_z1000-1405,celdas,10mm,65,95,1.8067,1.8067,4,2.35,3.516,4,2.35,3.516
+OD,OD_alto_z1000-1405,celdas,10mm,65,99,1.8067,1.8067,5,2.94,4.142,5,2.94,4.142
+OD,OD_alto_z1000-1405,celdas,10mm,183,90,1.8067,1.8067,10,5.88,9.423,10,5.88,9.423
+OD,OD_alto_z1000-1405,celdas,10mm,183,95,1.8067,1.8067,10,5.88,9.898,10,5.88,9.898
+OD,OD_alto_z1000-1405,celdas,10mm,183,99,1.8067,1.8067,12,7.06,11.663,12,7.06,11.663
+OD,OD_alto_z1000-1405,celdas,10mm,305,90,1.8067,1.8067,16,9.41,15.705,16,9.41,15.705
+OD,OD_alto_z1000-1405,celdas,10mm,305,95,1.8067,1.8067,17,10.00,16.496,17,10.00,16.496
+OD,OD_alto_z1000-1405,celdas,10mm,305,99,1.8067,1.8067,20,11.76,19.438,20,11.76,19.438
+OD,OD_bajo_z890-1000,media_theta,10mm,65,90,0.4907,0.4835,6,3.53,5.063,7,4.12,6.171
+OD,OD_bajo_z890-1000,media_theta,10mm,65,95,0.4907,0.4835,7,4.12,6.171,7,4.12,6.171
+OD,OD_bajo_z890-1000,media_theta,10mm,65,99,0.4907,0.4835,7,4.12,6.171,,,inf
+OD,OD_bajo_z890-1000,media_theta,10mm,183,90,0.4907,0.4835,15,8.82,14.253,18,10.59,17.374
+OD,OD_bajo_z890-1000,media_theta,10mm,183,95,0.4907,0.4835,18,10.59,17.374,18,10.59,17.374
+OD,OD_bajo_z890-1000,media_theta,10mm,183,99,0.4907,0.4835,18,10.59,17.374,,,inf
+OD,OD_bajo_z890-1000,media_theta,10mm,305,90,0.4907,0.4835,24,14.12,23.756,29,17.06,28.956
+OD,OD_bajo_z890-1000,media_theta,10mm,305,95,0.4907,0.4835,29,17.06,28.956,29,17.06,28.956
+OD,OD_bajo_z890-1000,media_theta,10mm,305,99,0.4907,0.4835,29,17.06,28.956,,,inf
+OD,OD_bajo_z890-1000,peor_celda,10mm,65,90,0.4907,0.4835,6,3.53,5.063,13,7.65,12.312
+OD,OD_bajo_z890-1000,peor_celda,10mm,65,95,0.4907,0.4835,13,7.65,12.312,13,7.65,12.312
+OD,OD_bajo_z890-1000,peor_celda,10mm,65,99,0.4907,0.4835,13,7.65,12.312,,,inf
+OD,OD_bajo_z890-1000,peor_celda,10mm,183,90,0.4907,0.4835,15,8.82,14.253,35,20.59,34.663
+OD,OD_bajo_z890-1000,peor_celda,10mm,183,95,0.4907,0.4835,35,20.59,34.663,35,20.59,34.663
+OD,OD_bajo_z890-1000,peor_celda,10mm,183,99,0.4907,0.4835,35,20.59,34.663,,,inf
+OD,OD_bajo_z890-1000,peor_celda,10mm,305,90,0.4907,0.4835,24,14.12,23.756,58,34.12,57.772
+OD,OD_bajo_z890-1000,peor_celda,10mm,305,95,0.4907,0.4835,58,34.12,57.772,58,34.12,57.772
+OD,OD_bajo_z890-1000,peor_celda,10mm,305,99,0.4907,0.4835,58,34.12,57.772,,,inf
+OD,OD_bajo_z890-1000,celdas,10mm,65,90,0.4907,0.4835,6,3.53,5.063,7,4.12,6.156
+OD,OD_bajo_z890-1000,celdas,10mm,65,95,0.4907,0.4835,7,4.12,6.156,7,4.12,6.156
+OD,OD_bajo_z890-1000,celdas,10mm,65,99,0.4907,0.4835,7,4.12,6.156,,,inf
+OD,OD_bajo_z890-1000,celdas,10mm,183,90,0.4907,0.4835,15,8.82,14.253,18,10.59,17.332
+OD,OD_bajo_z890-1000,celdas,10mm,183,95,0.4907,0.4835,18,10.59,17.332,18,10.59,17.332
+OD,OD_bajo_z890-1000,celdas,10mm,183,99,0.4907,0.4835,18,10.59,17.332,,,inf
+OD,OD_bajo_z890-1000,celdas,10mm,305,90,0.4907,0.4835,24,14.12,23.756,29,17.06,28.886
+OD,OD_bajo_z890-1000,celdas,10mm,305,95,0.4907,0.4835,29,17.06,28.886,29,17.06,28.886
+OD,OD_bajo_z890-1000,celdas,10mm,305,99,0.4907,0.4835,29,17.06,28.886,,,inf
+Cara inferior,total,media_theta,10mm,65,90,0.9475,0.9058,8,4.71,7.754,9,5.29,8.463
+Cara inferior,total,media_theta,10mm,65,95,0.9475,0.9058,9,5.29,8.463,9,5.29,8.865
+Cara inferior,total,media_theta,10mm,65,99,0.9475,0.9058,9,5.29,8.865,,,inf
+Cara inferior,total,media_theta,10mm,183,90,0.9475,0.9058,22,12.94,21.831,24,14.12,23.828
+Cara inferior,total,media_theta,10mm,183,95,0.9475,0.9058,24,14.12,23.828,25,14.71,24.958
+Cara inferior,total,media_theta,10mm,183,99,0.9475,0.9058,25,14.71,24.958,,,inf
+Cara inferior,total,media_theta,10mm,305,90,0.9475,0.9058,37,21.76,36.385,40,23.53,39.713
+Cara inferior,total,media_theta,10mm,305,95,0.9475,0.9058,40,23.53,39.713,42,24.71,41.597
+Cara inferior,total,media_theta,10mm,305,99,0.9475,0.9058,42,24.71,41.597,,,inf
+Cara inferior,total,peor_celda,10mm,65,90,0.9475,0.9058,91,53.53,90.625,99,58.24,98.978
+Cara inferior,total,peor_celda,10mm,65,95,0.9475,0.9058,99,58.24,98.978,106,62.35,105.675
+Cara inferior,total,peor_celda,10mm,65,99,0.9475,0.9058,106,62.35,105.675,,,inf
+Cara inferior,total,peor_celda,10mm,183,90,0.9475,0.9058,,,255.144,,,278.662
+Cara inferior,total,peor_celda,10mm,183,95,0.9475,0.9058,,,278.662,,,297.516
+Cara inferior,total,peor_celda,10mm,183,99,0.9475,0.9058,,,297.516,,,inf
+Cara inferior,total,peor_celda,10mm,305,90,0.9475,0.9058,,,425.239,,,464.437
+Cara inferior,total,peor_celda,10mm,305,95,0.9475,0.9058,,,464.437,,,495.860
+Cara inferior,total,peor_celda,10mm,305,99,0.9475,0.9058,,,495.860,,,inf
+Cara inferior,total,celdas,10mm,65,90,0.9475,0.9058,24,14.12,23.517,33,19.41,32.510
+Cara inferior,total,celdas,10mm,65,95,0.9475,0.9058,46,27.06,45.572,91,53.53,90.625
+Cara inferior,total,celdas,10mm,65,99,0.9475,0.9058,79,46.47,78.759,,,inf
+Cara inferior,total,celdas,10mm,183,90,0.9475,0.9058,67,39.41,66.210,92,54.12,91.529
+Cara inferior,total,celdas,10mm,183,95,0.9475,0.9058,129,75.88,128.304,,,255.144
+Cara inferior,total,celdas,10mm,183,99,0.9475,0.9058,,,221.738,,,inf
+Cara inferior,total,celdas,10mm,305,90,0.9475,0.9058,111,65.29,110.350,153,90.00,152.548
+Cara inferior,total,celdas,10mm,305,95,0.9475,0.9058,,,213.839,,,425.240
+Cara inferior,total,celdas,10mm,305,99,0.9475,0.9058,,,369.563,,,inf
+Cara inferior,Z1_aro_interior,media_theta,10mm,65,90,0.2133,0.2133,9,5.29,8.463,9,5.29,8.463
+Cara inferior,Z1_aro_interior,media_theta,10mm,65,95,0.2133,0.2133,9,5.29,8.463,9,5.29,8.463
+Cara inferior,Z1_aro_interior,media_theta,10mm,65,99,0.2133,0.2133,9,5.29,8.463,9,5.29,8.463
+Cara inferior,Z1_aro_interior,media_theta,10mm,183,90,0.2133,0.2133,24,14.12,23.828,24,14.12,23.828
+Cara inferior,Z1_aro_interior,media_theta,10mm,183,95,0.2133,0.2133,24,14.12,23.828,24,14.12,23.828
+Cara inferior,Z1_aro_interior,media_theta,10mm,183,99,0.2133,0.2133,24,14.12,23.828,24,14.12,23.828
+Cara inferior,Z1_aro_interior,media_theta,10mm,305,90,0.2133,0.2133,40,23.53,39.713,40,23.53,39.713
+Cara inferior,Z1_aro_interior,media_theta,10mm,305,95,0.2133,0.2133,40,23.53,39.713,40,23.53,39.713
+Cara inferior,Z1_aro_interior,media_theta,10mm,305,99,0.2133,0.2133,40,23.53,39.713,40,23.53,39.713
+Cara inferior,Z1_aro_interior,peor_celda,10mm,65,90,0.2133,0.2133,14,8.24,13.248,14,8.24,13.248
+Cara inferior,Z1_aro_interior,peor_celda,10mm,65,95,0.2133,0.2133,14,8.24,13.248,14,8.24,13.248
+Cara inferior,Z1_aro_interior,peor_celda,10mm,65,99,0.2133,0.2133,14,8.24,13.248,14,8.24,13.248
+Cara inferior,Z1_aro_interior,peor_celda,10mm,183,90,0.2133,0.2133,38,22.35,37.299,38,22.35,37.299
+Cara inferior,Z1_aro_interior,peor_celda,10mm,183,95,0.2133,0.2133,38,22.35,37.299,38,22.35,37.299
+Cara inferior,Z1_aro_interior,peor_celda,10mm,183,99,0.2133,0.2133,38,22.35,37.299,38,22.35,37.299
+Cara inferior,Z1_aro_interior,peor_celda,10mm,305,90,0.2133,0.2133,63,37.06,62.165,63,37.06,62.165
+Cara inferior,Z1_aro_interior,peor_celda,10mm,305,95,0.2133,0.2133,63,37.06,62.165,63,37.06,62.165
+Cara inferior,Z1_aro_interior,peor_celda,10mm,305,99,0.2133,0.2133,63,37.06,62.165,63,37.06,62.165
+Cara inferior,Z1_aro_interior,celdas,10mm,65,90,0.2133,0.2133,10,5.88,9.107,10,5.88,9.107
+Cara inferior,Z1_aro_interior,celdas,10mm,65,95,0.2133,0.2133,11,6.47,10.792,11,6.47,10.792
+Cara inferior,Z1_aro_interior,celdas,10mm,65,99,0.2133,0.2133,14,8.24,13.248,14,8.24,13.248
+Cara inferior,Z1_aro_interior,celdas,10mm,183,90,0.2133,0.2133,26,15.29,25.641,26,15.29,25.641
+Cara inferior,Z1_aro_interior,celdas,10mm,183,95,0.2133,0.2133,31,18.24,30.385,31,18.24,30.385
+Cara inferior,Z1_aro_interior,celdas,10mm,183,99,0.2133,0.2133,38,22.35,37.299,38,22.35,37.299
+Cara inferior,Z1_aro_interior,celdas,10mm,305,90,0.2133,0.2133,43,25.29,42.735,43,25.29,42.735
+Cara inferior,Z1_aro_interior,celdas,10mm,305,95,0.2133,0.2133,51,30.00,50.641,51,30.00,50.641
+Cara inferior,Z1_aro_interior,celdas,10mm,305,99,0.2133,0.2133,63,37.06,62.165,63,37.06,62.165
+Cara inferior,Z2_ventana_proyectada,media_theta,10mm,65,90,0.3581,0.3581,8,4.71,7.754,8,4.71,7.754
+Cara inferior,Z2_ventana_proyectada,media_theta,10mm,65,95,0.3581,0.3581,9,5.29,8.865,9,5.29,8.865
+Cara inferior,Z2_ventana_proyectada,media_theta,10mm,65,99,0.3581,0.3581,9,5.29,8.865,9,5.29,8.865
+Cara inferior,Z2_ventana_proyectada,media_theta,10mm,183,90,0.3581,0.3581,22,12.94,21.831,22,12.94,21.831
+Cara inferior,Z2_ventana_proyectada,media_theta,10mm,183,95,0.3581,0.3581,25,14.71,24.958,25,14.71,24.958
+Cara inferior,Z2_ventana_proyectada,media_theta,10mm,183,99,0.3581,0.3581,25,14.71,24.958,25,14.71,24.958
+Cara inferior,Z2_ventana_proyectada,media_theta,10mm,305,90,0.3581,0.3581,37,21.76,36.385,37,21.76,36.385
+Cara inferior,Z2_ventana_proyectada,media_theta,10mm,305,95,0.3581,0.3581,42,24.71,41.597,42,24.71,41.597
+Cara inferior,Z2_ventana_proyectada,media_theta,10mm,305,99,0.3581,0.3581,42,24.71,41.597,42,24.71,41.597
+Cara inferior,Z2_ventana_proyectada,peor_celda,10mm,65,90,0.3581,0.3581,59,34.71,58.925,59,34.71,58.925
+Cara inferior,Z2_ventana_proyectada,peor_celda,10mm,65,95,0.3581,0.3581,59,34.71,58.925,59,34.71,58.925
+Cara inferior,Z2_ventana_proyectada,peor_celda,10mm,65,99,0.3581,0.3581,59,34.71,58.925,59,34.71,58.925
+Cara inferior,Z2_ventana_proyectada,peor_celda,10mm,183,90,0.3581,0.3581,166,97.65,165.898,166,97.65,165.898
+Cara inferior,Z2_ventana_proyectada,peor_celda,10mm,183,95,0.3581,0.3581,166,97.65,165.898,166,97.65,165.898
+Cara inferior,Z2_ventana_proyectada,peor_celda,10mm,183,99,0.3581,0.3581,166,97.65,165.898,166,97.65,165.898
+Cara inferior,Z2_ventana_proyectada,peor_celda,10mm,305,90,0.3581,0.3581,,,276.496,,,276.496
+Cara inferior,Z2_ventana_proyectada,peor_celda,10mm,305,95,0.3581,0.3581,,,276.496,,,276.496
+Cara inferior,Z2_ventana_proyectada,peor_celda,10mm,305,99,0.3581,0.3581,,,276.496,,,276.496
+Cara inferior,Z2_ventana_proyectada,celdas,10mm,65,90,0.3581,0.3581,31,18.24,30.721,31,18.24,30.721
+Cara inferior,Z2_ventana_proyectada,celdas,10mm,65,95,0.3581,0.3581,46,27.06,45.572,46,27.06,45.572
+Cara inferior,Z2_ventana_proyectada,celdas,10mm,65,99,0.3581,0.3581,59,34.71,58.925,59,34.71,58.925
+Cara inferior,Z2_ventana_proyectada,celdas,10mm,183,90,0.3581,0.3581,87,51.18,86.492,87,51.18,86.492
+Cara inferior,Z2_ventana_proyectada,celdas,10mm,183,95,0.3581,0.3581,129,75.88,128.304,129,75.88,128.304
+Cara inferior,Z2_ventana_proyectada,celdas,10mm,183,99,0.3581,0.3581,166,97.65,165.898,166,97.65,165.898
+Cara inferior,Z2_ventana_proyectada,celdas,10mm,305,90,0.3581,0.3581,145,85.29,144.154,145,85.29,144.154
+Cara inferior,Z2_ventana_proyectada,celdas,10mm,305,95,0.3581,0.3581,,,213.839,,,213.839
+Cara inferior,Z2_ventana_proyectada,celdas,10mm,305,99,0.3581,0.3581,,,276.496,,,276.496
+Cara inferior,Z3_aro_exterior,media_theta,10mm,65,90,0.3760,0.3344,6,3.53,5.634,,,inf
+Cara inferior,Z3_aro_exterior,media_theta,10mm,65,95,0.3760,0.3344,6,3.53,5.634,,,inf
+Cara inferior,Z3_aro_exterior,media_theta,10mm,65,99,0.3760,0.3344,6,3.53,5.634,,,inf
+Cara inferior,Z3_aro_exterior,media_theta,10mm,183,90,0.3760,0.3344,16,9.41,15.862,,,inf
+Cara inferior,Z3_aro_exterior,media_theta,10mm,183,95,0.3760,0.3344,16,9.41,15.862,,,inf
+Cara inferior,Z3_aro_exterior,media_theta,10mm,183,99,0.3760,0.3344,16,9.41,15.862,,,inf
+Cara inferior,Z3_aro_exterior,media_theta,10mm,305,90,0.3760,0.3344,27,15.88,26.437,,,inf
+Cara inferior,Z3_aro_exterior,media_theta,10mm,305,95,0.3760,0.3344,27,15.88,26.437,,,inf
+Cara inferior,Z3_aro_exterior,media_theta,10mm,305,99,0.3760,0.3344,27,15.88,26.437,,,inf
+Cara inferior,Z3_aro_exterior,peor_celda,10mm,65,90,0.3760,0.3344,106,62.35,105.675,,,inf
+Cara inferior,Z3_aro_exterior,peor_celda,10mm,65,95,0.3760,0.3344,106,62.35,105.675,,,inf
+Cara inferior,Z3_aro_exterior,peor_celda,10mm,65,99,0.3760,0.3344,106,62.35,105.675,,,inf
+Cara inferior,Z3_aro_exterior,peor_celda,10mm,183,90,0.3760,0.3344,,,297.516,,,inf
+Cara inferior,Z3_aro_exterior,peor_celda,10mm,183,95,0.3760,0.3344,,,297.516,,,inf
+Cara inferior,Z3_aro_exterior,peor_celda,10mm,183,99,0.3760,0.3344,,,297.516,,,inf
+Cara inferior,Z3_aro_exterior,peor_celda,10mm,305,90,0.3760,0.3344,,,495.860,,,inf
+Cara inferior,Z3_aro_exterior,peor_celda,10mm,305,95,0.3760,0.3344,,,495.860,,,inf
+Cara inferior,Z3_aro_exterior,peor_celda,10mm,305,99,0.3760,0.3344,,,495.860,,,inf
+Cara inferior,Z3_aro_exterior,celdas,10mm,65,90,0.3760,0.3344,13,7.65,12.383,,,inf
+Cara inferior,Z3_aro_exterior,celdas,10mm,65,95,0.3760,0.3344,75,44.12,74.684,,,inf
+Cara inferior,Z3_aro_exterior,celdas,10mm,65,99,0.3760,0.3344,99,58.24,98.978,,,inf
+Cara inferior,Z3_aro_exterior,celdas,10mm,183,90,0.3760,0.3344,35,20.59,34.864,,,inf
+Cara inferior,Z3_aro_exterior,celdas,10mm,183,95,0.3760,0.3344,,,210.264,,,inf
+Cara inferior,Z3_aro_exterior,celdas,10mm,183,99,0.3760,0.3344,,,278.662,,,inf
+Cara inferior,Z3_aro_exterior,celdas,10mm,305,90,0.3760,0.3344,59,34.71,58.106,,,inf
+Cara inferior,Z3_aro_exterior,celdas,10mm,305,95,0.3760,0.3344,,,350.440,,,inf
+Cara inferior,Z3_aro_exterior,celdas,10mm,305,99,0.3760,0.3344,,,464.437,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,10mm,65,90,0.5894,0.5477,8,4.71,7.440,9,5.29,8.463
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,10mm,65,95,0.5894,0.5477,9,5.29,8.463,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,10mm,65,99,0.5894,0.5477,9,5.29,8.463,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,10mm,183,90,0.5894,0.5477,21,12.35,20.946,24,14.12,23.828
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,10mm,183,95,0.5894,0.5477,24,14.12,23.828,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,10mm,183,99,0.5894,0.5477,24,14.12,23.828,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,10mm,305,90,0.5894,0.5477,35,20.59,34.911,40,23.53,39.713
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,10mm,305,95,0.5894,0.5477,40,23.53,39.713,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,10mm,305,99,0.5894,0.5477,40,23.53,39.713,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,65,90,0.5894,0.5477,99,58.24,98.978,106,62.35,105.675
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,65,95,0.5894,0.5477,106,62.35,105.675,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,65,99,0.5894,0.5477,106,62.35,105.675,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,183,90,0.5894,0.5477,,,278.662,,,297.516
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,183,95,0.5894,0.5477,,,297.516,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,183,99,0.5894,0.5477,,,297.516,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,305,90,0.5894,0.5477,,,464.437,,,495.860
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,305,95,0.5894,0.5477,,,495.860,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,305,99,0.5894,0.5477,,,495.860,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,celdas,10mm,65,90,0.5894,0.5477,10,5.88,9.107,68,40.00,67.407
+Cara inferior,Z1+Z3_aros_sin_ventana,celdas,10mm,65,95,0.5894,0.5477,67,39.41,66.803,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,celdas,10mm,65,99,0.5894,0.5477,91,53.53,90.625,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,celdas,10mm,183,90,0.5894,0.5477,26,15.29,25.641,190,111.76,189.778
+Cara inferior,Z1+Z3_aros_sin_ventana,celdas,10mm,183,95,0.5894,0.5477,189,111.18,188.075,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,celdas,10mm,183,99,0.5894,0.5477,,,255.144,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,celdas,10mm,305,90,0.5894,0.5477,43,25.29,42.735,,,316.296
+Cara inferior,Z1+Z3_aros_sin_ventana,celdas,10mm,305,95,0.5894,0.5477,,,313.459,,,inf
+Cara inferior,Z1+Z3_aros_sin_ventana,celdas,10mm,305,99,0.5894,0.5477,,,425.240,,,inf
+Cara superior,total,media_theta,10mm,65,90,0.9230,0.9230,5,2.94,4.246,5,2.94,4.246
+Cara superior,total,media_theta,10mm,65,95,0.9230,0.9230,5,2.94,4.531,5,2.94,4.531
+Cara superior,total,media_theta,10mm,65,99,0.9230,0.9230,5,2.94,4.633,5,2.94,4.633
+Cara superior,total,media_theta,10mm,183,90,0.9230,0.9230,12,7.06,11.953,12,7.06,11.953
+Cara superior,total,media_theta,10mm,183,95,0.9230,0.9230,13,7.65,12.756,13,7.65,12.756
+Cara superior,total,media_theta,10mm,183,99,0.9230,0.9230,14,8.24,13.044,14,8.24,13.044
+Cara superior,total,media_theta,10mm,305,90,0.9230,0.9230,20,11.76,19.921,20,11.76,19.921
+Cara superior,total,media_theta,10mm,305,95,0.9230,0.9230,22,12.94,21.260,22,12.94,21.260
+Cara superior,total,media_theta,10mm,305,99,0.9230,0.9230,22,12.94,21.740,22,12.94,21.740
+Cara superior,total,peor_celda,10mm,65,90,0.9230,0.9230,5,2.94,4.246,5,2.94,4.246
+Cara superior,total,peor_celda,10mm,65,95,0.9230,0.9230,5,2.94,4.531,5,2.94,4.531
+Cara superior,total,peor_celda,10mm,65,99,0.9230,0.9230,5,2.94,4.633,5,2.94,4.633
+Cara superior,total,peor_celda,10mm,183,90,0.9230,0.9230,12,7.06,11.953,12,7.06,11.953
+Cara superior,total,peor_celda,10mm,183,95,0.9230,0.9230,13,7.65,12.756,13,7.65,12.756
+Cara superior,total,peor_celda,10mm,183,99,0.9230,0.9230,14,8.24,13.044,14,8.24,13.044
+Cara superior,total,peor_celda,10mm,305,90,0.9230,0.9230,20,11.76,19.921,20,11.76,19.921
+Cara superior,total,peor_celda,10mm,305,95,0.9230,0.9230,22,12.94,21.260,22,12.94,21.260
+Cara superior,total,peor_celda,10mm,305,99,0.9230,0.9230,22,12.94,21.740,22,12.94,21.740
+Cara superior,total,celdas,10mm,65,90,0.9230,0.9230,5,2.94,4.246,5,2.94,4.246
+Cara superior,total,celdas,10mm,65,95,0.9230,0.9230,5,2.94,4.531,5,2.94,4.531
+Cara superior,total,celdas,10mm,65,99,0.9230,0.9230,5,2.94,4.633,5,2.94,4.633
+Cara superior,total,celdas,10mm,183,90,0.9230,0.9230,12,7.06,11.953,12,7.06,11.953
+Cara superior,total,celdas,10mm,183,95,0.9230,0.9230,13,7.65,12.756,13,7.65,12.756
+Cara superior,total,celdas,10mm,183,99,0.9230,0.9230,14,8.24,13.044,14,8.24,13.044
+Cara superior,total,celdas,10mm,305,90,0.9230,0.9230,20,11.76,19.921,20,11.76,19.921
+Cara superior,total,celdas,10mm,305,95,0.9230,0.9230,22,12.94,21.260,22,12.94,21.260
+Cara superior,total,celdas,10mm,305,99,0.9230,0.9230,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z1_aro_interior,media_theta,10mm,65,90,0.1842,0.1842,4,2.35,3.296,4,2.35,3.296
+Cara superior,Z1_aro_interior,media_theta,10mm,65,95,0.1842,0.1842,4,2.35,3.296,4,2.35,3.296
+Cara superior,Z1_aro_interior,media_theta,10mm,65,99,0.1842,0.1842,4,2.35,3.296,4,2.35,3.296
+Cara superior,Z1_aro_interior,media_theta,10mm,183,90,0.1842,0.1842,10,5.88,9.278,10,5.88,9.278
+Cara superior,Z1_aro_interior,media_theta,10mm,183,95,0.1842,0.1842,10,5.88,9.278,10,5.88,9.278
+Cara superior,Z1_aro_interior,media_theta,10mm,183,99,0.1842,0.1842,10,5.88,9.278,10,5.88,9.278
+Cara superior,Z1_aro_interior,media_theta,10mm,305,90,0.1842,0.1842,16,9.41,15.464,16,9.41,15.464
+Cara superior,Z1_aro_interior,media_theta,10mm,305,95,0.1842,0.1842,16,9.41,15.464,16,9.41,15.464
+Cara superior,Z1_aro_interior,media_theta,10mm,305,99,0.1842,0.1842,16,9.41,15.464,16,9.41,15.464
+Cara superior,Z1_aro_interior,peor_celda,10mm,65,90,0.1842,0.1842,4,2.35,3.296,4,2.35,3.296
+Cara superior,Z1_aro_interior,peor_celda,10mm,65,95,0.1842,0.1842,4,2.35,3.296,4,2.35,3.296
+Cara superior,Z1_aro_interior,peor_celda,10mm,65,99,0.1842,0.1842,4,2.35,3.296,4,2.35,3.296
+Cara superior,Z1_aro_interior,peor_celda,10mm,183,90,0.1842,0.1842,10,5.88,9.278,10,5.88,9.278
+Cara superior,Z1_aro_interior,peor_celda,10mm,183,95,0.1842,0.1842,10,5.88,9.278,10,5.88,9.278
+Cara superior,Z1_aro_interior,peor_celda,10mm,183,99,0.1842,0.1842,10,5.88,9.278,10,5.88,9.278
+Cara superior,Z1_aro_interior,peor_celda,10mm,305,90,0.1842,0.1842,16,9.41,15.464,16,9.41,15.464
+Cara superior,Z1_aro_interior,peor_celda,10mm,305,95,0.1842,0.1842,16,9.41,15.464,16,9.41,15.464
+Cara superior,Z1_aro_interior,peor_celda,10mm,305,99,0.1842,0.1842,16,9.41,15.464,16,9.41,15.464
+Cara superior,Z1_aro_interior,celdas,10mm,65,90,0.1842,0.1842,4,2.35,3.296,4,2.35,3.296
+Cara superior,Z1_aro_interior,celdas,10mm,65,95,0.1842,0.1842,4,2.35,3.296,4,2.35,3.296
+Cara superior,Z1_aro_interior,celdas,10mm,65,99,0.1842,0.1842,4,2.35,3.296,4,2.35,3.296
+Cara superior,Z1_aro_interior,celdas,10mm,183,90,0.1842,0.1842,10,5.88,9.278,10,5.88,9.278
+Cara superior,Z1_aro_interior,celdas,10mm,183,95,0.1842,0.1842,10,5.88,9.278,10,5.88,9.278
+Cara superior,Z1_aro_interior,celdas,10mm,183,99,0.1842,0.1842,10,5.88,9.278,10,5.88,9.278
+Cara superior,Z1_aro_interior,celdas,10mm,305,90,0.1842,0.1842,16,9.41,15.464,16,9.41,15.464
+Cara superior,Z1_aro_interior,celdas,10mm,305,95,0.1842,0.1842,16,9.41,15.464,16,9.41,15.464
+Cara superior,Z1_aro_interior,celdas,10mm,305,99,0.1842,0.1842,16,9.41,15.464,16,9.41,15.464
+Cara superior,Z2_ventana_proyectada,media_theta,10mm,65,90,0.3573,0.3573,4,2.35,3.358,4,2.35,3.358
+Cara superior,Z2_ventana_proyectada,media_theta,10mm,65,95,0.3573,0.3573,4,2.35,3.421,4,2.35,3.421
+Cara superior,Z2_ventana_proyectada,media_theta,10mm,65,99,0.3573,0.3573,4,2.35,3.421,4,2.35,3.421
+Cara superior,Z2_ventana_proyectada,media_theta,10mm,183,90,0.3573,0.3573,10,5.88,9.455,10,5.88,9.455
+Cara superior,Z2_ventana_proyectada,media_theta,10mm,183,95,0.3573,0.3573,10,5.88,9.632,10,5.88,9.632
+Cara superior,Z2_ventana_proyectada,media_theta,10mm,183,99,0.3573,0.3573,10,5.88,9.632,10,5.88,9.632
+Cara superior,Z2_ventana_proyectada,media_theta,10mm,305,90,0.3573,0.3573,16,9.41,15.758,16,9.41,15.758
+Cara superior,Z2_ventana_proyectada,media_theta,10mm,305,95,0.3573,0.3573,17,10.00,16.053,17,10.00,16.053
+Cara superior,Z2_ventana_proyectada,media_theta,10mm,305,99,0.3573,0.3573,17,10.00,16.053,17,10.00,16.053
+Cara superior,Z2_ventana_proyectada,peor_celda,10mm,65,90,0.3573,0.3573,4,2.35,3.358,4,2.35,3.358
+Cara superior,Z2_ventana_proyectada,peor_celda,10mm,65,95,0.3573,0.3573,4,2.35,3.421,4,2.35,3.421
+Cara superior,Z2_ventana_proyectada,peor_celda,10mm,65,99,0.3573,0.3573,4,2.35,3.421,4,2.35,3.421
+Cara superior,Z2_ventana_proyectada,peor_celda,10mm,183,90,0.3573,0.3573,10,5.88,9.455,10,5.88,9.455
+Cara superior,Z2_ventana_proyectada,peor_celda,10mm,183,95,0.3573,0.3573,10,5.88,9.632,10,5.88,9.632
+Cara superior,Z2_ventana_proyectada,peor_celda,10mm,183,99,0.3573,0.3573,10,5.88,9.632,10,5.88,9.632
+Cara superior,Z2_ventana_proyectada,peor_celda,10mm,305,90,0.3573,0.3573,16,9.41,15.758,16,9.41,15.758
+Cara superior,Z2_ventana_proyectada,peor_celda,10mm,305,95,0.3573,0.3573,17,10.00,16.053,17,10.00,16.053
+Cara superior,Z2_ventana_proyectada,peor_celda,10mm,305,99,0.3573,0.3573,17,10.00,16.053,17,10.00,16.053
+Cara superior,Z2_ventana_proyectada,celdas,10mm,65,90,0.3573,0.3573,4,2.35,3.358,4,2.35,3.358
+Cara superior,Z2_ventana_proyectada,celdas,10mm,65,95,0.3573,0.3573,4,2.35,3.421,4,2.35,3.421
+Cara superior,Z2_ventana_proyectada,celdas,10mm,65,99,0.3573,0.3573,4,2.35,3.421,4,2.35,3.421
+Cara superior,Z2_ventana_proyectada,celdas,10mm,183,90,0.3573,0.3573,10,5.88,9.455,10,5.88,9.455
+Cara superior,Z2_ventana_proyectada,celdas,10mm,183,95,0.3573,0.3573,10,5.88,9.632,10,5.88,9.632
+Cara superior,Z2_ventana_proyectada,celdas,10mm,183,99,0.3573,0.3573,10,5.88,9.632,10,5.88,9.632
+Cara superior,Z2_ventana_proyectada,celdas,10mm,305,90,0.3573,0.3573,16,9.41,15.758,16,9.41,15.758
+Cara superior,Z2_ventana_proyectada,celdas,10mm,305,95,0.3573,0.3573,17,10.00,16.053,17,10.00,16.053
+Cara superior,Z2_ventana_proyectada,celdas,10mm,305,99,0.3573,0.3573,17,10.00,16.053,17,10.00,16.053
+Cara superior,Z3_aro_exterior,media_theta,10mm,65,90,0.3816,0.3816,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z3_aro_exterior,media_theta,10mm,65,95,0.3816,0.3816,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z3_aro_exterior,media_theta,10mm,65,99,0.3816,0.3816,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z3_aro_exterior,media_theta,10mm,183,90,0.3816,0.3816,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z3_aro_exterior,media_theta,10mm,183,95,0.3816,0.3816,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z3_aro_exterior,media_theta,10mm,183,99,0.3816,0.3816,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z3_aro_exterior,media_theta,10mm,305,90,0.3816,0.3816,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z3_aro_exterior,media_theta,10mm,305,95,0.3816,0.3816,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z3_aro_exterior,media_theta,10mm,305,99,0.3816,0.3816,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z3_aro_exterior,peor_celda,10mm,65,90,0.3816,0.3816,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z3_aro_exterior,peor_celda,10mm,65,95,0.3816,0.3816,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z3_aro_exterior,peor_celda,10mm,65,99,0.3816,0.3816,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z3_aro_exterior,peor_celda,10mm,183,90,0.3816,0.3816,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z3_aro_exterior,peor_celda,10mm,183,95,0.3816,0.3816,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z3_aro_exterior,peor_celda,10mm,183,99,0.3816,0.3816,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z3_aro_exterior,peor_celda,10mm,305,90,0.3816,0.3816,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z3_aro_exterior,peor_celda,10mm,305,95,0.3816,0.3816,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z3_aro_exterior,peor_celda,10mm,305,99,0.3816,0.3816,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z3_aro_exterior,celdas,10mm,65,90,0.3816,0.3816,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z3_aro_exterior,celdas,10mm,65,95,0.3816,0.3816,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z3_aro_exterior,celdas,10mm,65,99,0.3816,0.3816,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z3_aro_exterior,celdas,10mm,183,90,0.3816,0.3816,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z3_aro_exterior,celdas,10mm,183,95,0.3816,0.3816,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z3_aro_exterior,celdas,10mm,183,99,0.3816,0.3816,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z3_aro_exterior,celdas,10mm,305,90,0.3816,0.3816,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z3_aro_exterior,celdas,10mm,305,95,0.3816,0.3816,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z3_aro_exterior,celdas,10mm,305,99,0.3816,0.3816,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,10mm,65,90,0.5658,0.5658,5,2.94,4.531,5,2.94,4.531
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,10mm,65,95,0.5658,0.5658,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,10mm,65,99,0.5658,0.5658,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,10mm,183,90,0.5658,0.5658,13,7.65,12.756,13,7.65,12.756
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,10mm,183,95,0.5658,0.5658,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,10mm,183,99,0.5658,0.5658,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,10mm,305,90,0.5658,0.5658,22,12.94,21.260,22,12.94,21.260
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,10mm,305,95,0.5658,0.5658,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,10mm,305,99,0.5658,0.5658,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,65,90,0.5658,0.5658,5,2.94,4.531,5,2.94,4.531
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,65,95,0.5658,0.5658,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,65,99,0.5658,0.5658,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,183,90,0.5658,0.5658,13,7.65,12.756,13,7.65,12.756
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,183,95,0.5658,0.5658,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,183,99,0.5658,0.5658,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,305,90,0.5658,0.5658,22,12.94,21.260,22,12.94,21.260
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,305,95,0.5658,0.5658,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,10mm,305,99,0.5658,0.5658,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z1+Z3_aros_sin_ventana,celdas,10mm,65,90,0.5658,0.5658,5,2.94,4.531,5,2.94,4.531
+Cara superior,Z1+Z3_aros_sin_ventana,celdas,10mm,65,95,0.5658,0.5658,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z1+Z3_aros_sin_ventana,celdas,10mm,65,99,0.5658,0.5658,5,2.94,4.633,5,2.94,4.633
+Cara superior,Z1+Z3_aros_sin_ventana,celdas,10mm,183,90,0.5658,0.5658,13,7.65,12.756,13,7.65,12.756
+Cara superior,Z1+Z3_aros_sin_ventana,celdas,10mm,183,95,0.5658,0.5658,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z1+Z3_aros_sin_ventana,celdas,10mm,183,99,0.5658,0.5658,14,8.24,13.044,14,8.24,13.044
+Cara superior,Z1+Z3_aros_sin_ventana,celdas,10mm,305,90,0.5658,0.5658,22,12.94,21.260,22,12.94,21.260
+Cara superior,Z1+Z3_aros_sin_ventana,celdas,10mm,305,95,0.5658,0.5658,22,12.94,21.740,22,12.94,21.740
+Cara superior,Z1+Z3_aros_sin_ventana,celdas,10mm,305,99,0.5658,0.5658,22,12.94,21.740,22,12.94,21.740
+Agujero,total,media_theta,10mm,65,90,1.4702,1.4702,5,2.94,4.835,5,2.94,4.835
+Agujero,total,media_theta,10mm,65,95,1.4702,1.4702,5,2.94,4.916,5,2.94,4.916
+Agujero,total,media_theta,10mm,65,99,1.4702,1.4702,6,3.53,5.406,6,3.53,5.406
+Agujero,total,media_theta,10mm,183,90,1.4702,1.4702,14,8.24,13.613,14,8.24,13.613
+Agujero,total,media_theta,10mm,183,95,1.4702,1.4702,14,8.24,13.840,14,8.24,13.840
+Agujero,total,media_theta,10mm,183,99,1.4702,1.4702,16,9.41,15.219,16,9.41,15.219
+Agujero,total,media_theta,10mm,305,90,1.4702,1.4702,23,13.53,22.688,23,13.53,22.688
+Agujero,total,media_theta,10mm,305,95,1.4702,1.4702,24,14.12,23.067,24,14.12,23.067
+Agujero,total,media_theta,10mm,305,99,1.4702,1.4702,26,15.29,25.365,26,15.29,25.365
+Agujero,total,peor_celda,10mm,65,90,1.4702,1.4702,5,2.94,4.835,5,2.94,4.835
+Agujero,total,peor_celda,10mm,65,95,1.4702,1.4702,5,2.94,4.916,5,2.94,4.916
+Agujero,total,peor_celda,10mm,65,99,1.4702,1.4702,6,3.53,5.406,6,3.53,5.406
+Agujero,total,peor_celda,10mm,183,90,1.4702,1.4702,14,8.24,13.613,14,8.24,13.613
+Agujero,total,peor_celda,10mm,183,95,1.4702,1.4702,14,8.24,13.840,14,8.24,13.840
+Agujero,total,peor_celda,10mm,183,99,1.4702,1.4702,16,9.41,15.219,16,9.41,15.219
+Agujero,total,peor_celda,10mm,305,90,1.4702,1.4702,23,13.53,22.688,23,13.53,22.688
+Agujero,total,peor_celda,10mm,305,95,1.4702,1.4702,24,14.12,23.067,24,14.12,23.067
+Agujero,total,peor_celda,10mm,305,99,1.4702,1.4702,26,15.29,25.365,26,15.29,25.365
+Agujero,total,celdas,10mm,65,90,1.4702,1.4702,5,2.94,4.835,5,2.94,4.835
+Agujero,total,celdas,10mm,65,95,1.4702,1.4702,5,2.94,4.916,5,2.94,4.916
+Agujero,total,celdas,10mm,65,99,1.4702,1.4702,6,3.53,5.406,6,3.53,5.406
+Agujero,total,celdas,10mm,183,90,1.4702,1.4702,14,8.24,13.613,14,8.24,13.613
+Agujero,total,celdas,10mm,183,95,1.4702,1.4702,14,8.24,13.840,14,8.24,13.840
+Agujero,total,celdas,10mm,183,99,1.4702,1.4702,16,9.41,15.219,16,9.41,15.219
+Agujero,total,celdas,10mm,305,90,1.4702,1.4702,23,13.53,22.688,23,13.53,22.688
+Agujero,total,celdas,10mm,305,95,1.4702,1.4702,24,14.12,23.067,24,14.12,23.067
+Agujero,total,celdas,10mm,305,99,1.4702,1.4702,26,15.29,25.365,26,15.29,25.365
+OD,total,media_theta,2mm,65,90,2.2974,2.2902,5,2.94,,5,2.94,
+OD,total,media_theta,2mm,65,95,2.2974,2.2902,5,2.94,,6,3.53,
+OD,total,media_theta,2mm,65,99,2.2974,2.2902,7,4.12,,7,4.12,
+OD,total,media_theta,2mm,183,90,2.2974,2.2902,12,7.06,,13,7.65,
+OD,total,media_theta,2mm,183,95,2.2974,2.2902,15,8.82,,15,8.82,
+OD,total,media_theta,2mm,183,99,2.2974,2.2902,18,10.59,,18,10.59,
+OD,total,media_theta,2mm,305,90,2.2974,2.2902,20,11.76,,21,12.35,
+OD,total,media_theta,2mm,305,95,2.2974,2.2902,24,14.12,,24,14.12,
+OD,total,media_theta,2mm,305,99,2.2974,2.2902,29,17.06,,30,17.65,
+OD,total,peor_celda,2mm,65,90,2.2974,2.2902,5,2.94,,5,2.94,
+OD,total,peor_celda,2mm,65,95,2.2974,2.2902,5,2.94,,6,3.53,
+OD,total,peor_celda,2mm,65,99,2.2974,2.2902,13,7.65,,13,7.65,
+OD,total,peor_celda,2mm,183,90,2.2974,2.2902,12,7.06,,13,7.65,
+OD,total,peor_celda,2mm,183,95,2.2974,2.2902,15,8.82,,15,8.82,
+OD,total,peor_celda,2mm,183,99,2.2974,2.2902,35,20.59,,36,21.18,
+OD,total,peor_celda,2mm,305,90,2.2974,2.2902,20,11.76,,21,12.35,
+OD,total,peor_celda,2mm,305,95,2.2974,2.2902,24,14.12,,24,14.12,
+OD,total,peor_celda,2mm,305,99,2.2974,2.2902,58,34.12,,60,35.29,
+OD,OD_alto_z1000-1405,media_theta,2mm,65,90,1.8067,1.8067,4,2.35,,4,2.35,
+OD,OD_alto_z1000-1405,media_theta,2mm,65,95,1.8067,1.8067,4,2.35,,4,2.35,
+OD,OD_alto_z1000-1405,media_theta,2mm,65,99,1.8067,1.8067,5,2.94,,5,2.94,
+OD,OD_alto_z1000-1405,media_theta,2mm,183,90,1.8067,1.8067,10,5.88,,10,5.88,
+OD,OD_alto_z1000-1405,media_theta,2mm,183,95,1.8067,1.8067,11,6.47,,11,6.47,
+OD,OD_alto_z1000-1405,media_theta,2mm,183,99,1.8067,1.8067,14,8.24,,14,8.24,
+OD,OD_alto_z1000-1405,media_theta,2mm,305,90,1.8067,1.8067,17,10.00,,17,10.00,
+OD,OD_alto_z1000-1405,media_theta,2mm,305,95,1.8067,1.8067,17,10.00,,17,10.00,
+OD,OD_alto_z1000-1405,media_theta,2mm,305,99,1.8067,1.8067,23,13.53,,23,13.53,
+OD,OD_alto_z1000-1405,peor_celda,2mm,65,90,1.8067,1.8067,4,2.35,,4,2.35,
+OD,OD_alto_z1000-1405,peor_celda,2mm,65,95,1.8067,1.8067,4,2.35,,4,2.35,
+OD,OD_alto_z1000-1405,peor_celda,2mm,65,99,1.8067,1.8067,5,2.94,,5,2.94,
+OD,OD_alto_z1000-1405,peor_celda,2mm,183,90,1.8067,1.8067,10,5.88,,10,5.88,
+OD,OD_alto_z1000-1405,peor_celda,2mm,183,95,1.8067,1.8067,11,6.47,,11,6.47,
+OD,OD_alto_z1000-1405,peor_celda,2mm,183,99,1.8067,1.8067,14,8.24,,14,8.24,
+OD,OD_alto_z1000-1405,peor_celda,2mm,305,90,1.8067,1.8067,17,10.00,,17,10.00,
+OD,OD_alto_z1000-1405,peor_celda,2mm,305,95,1.8067,1.8067,17,10.00,,17,10.00,
+OD,OD_alto_z1000-1405,peor_celda,2mm,305,99,1.8067,1.8067,23,13.53,,23,13.53,
+OD,OD_bajo_z890-1000,media_theta,2mm,65,90,0.4907,0.4835,6,3.53,,6,3.53,
+OD,OD_bajo_z890-1000,media_theta,2mm,65,95,0.4907,0.4835,7,4.12,,7,4.12,
+OD,OD_bajo_z890-1000,media_theta,2mm,65,99,0.4907,0.4835,7,4.12,,,,
+OD,OD_bajo_z890-1000,media_theta,2mm,183,90,0.4907,0.4835,17,10.00,,17,10.00,
+OD,OD_bajo_z890-1000,media_theta,2mm,183,95,0.4907,0.4835,18,10.59,,18,10.59,
+OD,OD_bajo_z890-1000,media_theta,2mm,183,99,0.4907,0.4835,19,11.18,,,,
+OD,OD_bajo_z890-1000,media_theta,2mm,305,90,0.4907,0.4835,27,15.88,,28,16.47,
+OD,OD_bajo_z890-1000,media_theta,2mm,305,95,0.4907,0.4835,29,17.06,,29,17.06,
+OD,OD_bajo_z890-1000,media_theta,2mm,305,99,0.4907,0.4835,31,18.24,,,,
+OD,OD_bajo_z890-1000,peor_celda,2mm,65,90,0.4907,0.4835,6,3.53,,12,7.06,
+OD,OD_bajo_z890-1000,peor_celda,2mm,65,95,0.4907,0.4835,13,7.65,,13,7.65,
+OD,OD_bajo_z890-1000,peor_celda,2mm,65,99,0.4907,0.4835,14,8.24,,,,
+OD,OD_bajo_z890-1000,peor_celda,2mm,183,90,0.4907,0.4835,17,10.00,,34,20.00,
+OD,OD_bajo_z890-1000,peor_celda,2mm,183,95,0.4907,0.4835,35,20.59,,35,20.59,
+OD,OD_bajo_z890-1000,peor_celda,2mm,183,99,0.4907,0.4835,37,21.76,,,,
+OD,OD_bajo_z890-1000,peor_celda,2mm,305,90,0.4907,0.4835,27,15.88,,56,32.94,
+OD,OD_bajo_z890-1000,peor_celda,2mm,305,95,0.4907,0.4835,58,34.12,,58,34.12,
+OD,OD_bajo_z890-1000,peor_celda,2mm,305,99,0.4907,0.4835,62,36.47,,,,
+Cara inferior,total,media_theta,2mm,65,90,0.9475,0.9058,8,4.71,,9,5.29,
+Cara inferior,total,media_theta,2mm,65,95,0.9475,0.9058,9,5.29,,10,5.88,
+Cara inferior,total,media_theta,2mm,65,99,0.9475,0.9058,10,5.88,,,,
+Cara inferior,total,media_theta,2mm,183,90,0.9475,0.9058,22,12.94,,23,13.53,
+Cara inferior,total,media_theta,2mm,183,95,0.9475,0.9058,24,14.12,,27,15.88,
+Cara inferior,total,media_theta,2mm,183,99,0.9475,0.9058,27,15.88,,,,
+Cara inferior,total,media_theta,2mm,305,90,0.9475,0.9058,37,21.76,,39,22.94,
+Cara inferior,total,media_theta,2mm,305,95,0.9475,0.9058,40,23.53,,45,26.47,
+Cara inferior,total,media_theta,2mm,305,99,0.9475,0.9058,45,26.47,,,,
+Cara inferior,total,peor_celda,2mm,65,90,0.9475,0.9058,91,53.53,,107,62.94,
+Cara inferior,total,peor_celda,2mm,65,95,0.9475,0.9058,112,65.88,,,,
+Cara inferior,total,peor_celda,2mm,65,99,0.9475,0.9058,169,99.41,,,,
+Cara inferior,total,peor_celda,2mm,183,90,0.9475,0.9058,,,,,,
+Cara inferior,total,peor_celda,2mm,183,95,0.9475,0.9058,,,,,,
+Cara inferior,total,peor_celda,2mm,183,99,0.9475,0.9058,,,,,,
+Cara inferior,total,peor_celda,2mm,305,90,0.9475,0.9058,,,,,,
+Cara inferior,total,peor_celda,2mm,305,95,0.9475,0.9058,,,,,,
+Cara inferior,total,peor_celda,2mm,305,99,0.9475,0.9058,,,,,,
+Cara inferior,Z1_aro_interior,media_theta,2mm,65,90,0.2199,0.2199,9,5.29,,9,5.29,
+Cara inferior,Z1_aro_interior,media_theta,2mm,65,95,0.2199,0.2199,9,5.29,,9,5.29,
+Cara inferior,Z1_aro_interior,media_theta,2mm,65,99,0.2199,0.2199,10,5.88,,10,5.88,
+Cara inferior,Z1_aro_interior,media_theta,2mm,183,90,0.2199,0.2199,24,14.12,,24,14.12,
+Cara inferior,Z1_aro_interior,media_theta,2mm,183,95,0.2199,0.2199,26,15.29,,26,15.29,
+Cara inferior,Z1_aro_interior,media_theta,2mm,183,99,0.2199,0.2199,26,15.29,,26,15.29,
+Cara inferior,Z1_aro_interior,media_theta,2mm,305,90,0.2199,0.2199,40,23.53,,40,23.53,
+Cara inferior,Z1_aro_interior,media_theta,2mm,305,95,0.2199,0.2199,43,25.29,,43,25.29,
+Cara inferior,Z1_aro_interior,media_theta,2mm,305,99,0.2199,0.2199,44,25.88,,44,25.88,
+Cara inferior,Z1_aro_interior,peor_celda,2mm,65,90,0.2199,0.2199,14,8.24,,14,8.24,
+Cara inferior,Z1_aro_interior,peor_celda,2mm,65,95,0.2199,0.2199,14,8.24,,14,8.24,
+Cara inferior,Z1_aro_interior,peor_celda,2mm,65,99,0.2199,0.2199,16,9.41,,16,9.41,
+Cara inferior,Z1_aro_interior,peor_celda,2mm,183,90,0.2199,0.2199,37,21.76,,37,21.76,
+Cara inferior,Z1_aro_interior,peor_celda,2mm,183,95,0.2199,0.2199,39,22.94,,39,22.94,
+Cara inferior,Z1_aro_interior,peor_celda,2mm,183,99,0.2199,0.2199,43,25.29,,43,25.29,
+Cara inferior,Z1_aro_interior,peor_celda,2mm,305,90,0.2199,0.2199,62,36.47,,62,36.47,
+Cara inferior,Z1_aro_interior,peor_celda,2mm,305,95,0.2199,0.2199,65,38.24,,65,38.24,
+Cara inferior,Z1_aro_interior,peor_celda,2mm,305,99,0.2199,0.2199,72,42.35,,72,42.35,
+Cara inferior,Z2_ventana_proyectada,media_theta,2mm,65,90,0.3438,0.3438,8,4.71,,8,4.71,
+Cara inferior,Z2_ventana_proyectada,media_theta,2mm,65,95,0.3438,0.3438,9,5.29,,9,5.29,
+Cara inferior,Z2_ventana_proyectada,media_theta,2mm,65,99,0.3438,0.3438,10,5.88,,10,5.88,
+Cara inferior,Z2_ventana_proyectada,media_theta,2mm,183,90,0.3438,0.3438,23,13.53,,23,13.53,
+Cara inferior,Z2_ventana_proyectada,media_theta,2mm,183,95,0.3438,0.3438,25,14.71,,25,14.71,
+Cara inferior,Z2_ventana_proyectada,media_theta,2mm,183,99,0.3438,0.3438,27,15.88,,27,15.88,
+Cara inferior,Z2_ventana_proyectada,media_theta,2mm,305,90,0.3438,0.3438,38,22.35,,38,22.35,
+Cara inferior,Z2_ventana_proyectada,media_theta,2mm,305,95,0.3438,0.3438,41,24.12,,41,24.12,
+Cara inferior,Z2_ventana_proyectada,media_theta,2mm,305,99,0.3438,0.3438,45,26.47,,45,26.47,
+Cara inferior,Z2_ventana_proyectada,peor_celda,2mm,65,90,0.3438,0.3438,57,33.53,,57,33.53,
+Cara inferior,Z2_ventana_proyectada,peor_celda,2mm,65,95,0.3438,0.3438,62,36.47,,62,36.47,
+Cara inferior,Z2_ventana_proyectada,peor_celda,2mm,65,99,0.3438,0.3438,64,37.65,,64,37.65,
+Cara inferior,Z2_ventana_proyectada,peor_celda,2mm,183,90,0.3438,0.3438,159,93.53,,159,93.53,
+Cara inferior,Z2_ventana_proyectada,peor_celda,2mm,183,95,0.3438,0.3438,173,101.76,,173,101.76,
+Cara inferior,Z2_ventana_proyectada,peor_celda,2mm,183,99,0.3438,0.3438,179,105.29,,179,105.29,
+Cara inferior,Z2_ventana_proyectada,peor_celda,2mm,305,90,0.3438,0.3438,,,,,,
+Cara inferior,Z2_ventana_proyectada,peor_celda,2mm,305,95,0.3438,0.3438,,,,,,
+Cara inferior,Z2_ventana_proyectada,peor_celda,2mm,305,99,0.3438,0.3438,,,,,,
+Cara inferior,Z3_aro_exterior,media_theta,2mm,65,90,0.3838,0.3422,6,3.53,,,,
+Cara inferior,Z3_aro_exterior,media_theta,2mm,65,95,0.3838,0.3422,6,3.53,,,,
+Cara inferior,Z3_aro_exterior,media_theta,2mm,65,99,0.3838,0.3422,6,3.53,,,,
+Cara inferior,Z3_aro_exterior,media_theta,2mm,183,90,0.3838,0.3422,16,9.41,,,,
+Cara inferior,Z3_aro_exterior,media_theta,2mm,183,95,0.3838,0.3422,17,10.00,,,,
+Cara inferior,Z3_aro_exterior,media_theta,2mm,183,99,0.3838,0.3422,17,10.00,,,,
+Cara inferior,Z3_aro_exterior,media_theta,2mm,305,90,0.3838,0.3422,26,15.29,,,,
+Cara inferior,Z3_aro_exterior,media_theta,2mm,305,95,0.3838,0.3422,28,16.47,,,,
+Cara inferior,Z3_aro_exterior,media_theta,2mm,305,99,0.3838,0.3422,28,16.47,,,,
+Cara inferior,Z3_aro_exterior,peor_celda,2mm,65,90,0.3838,0.3422,129,75.88,,,,
+Cara inferior,Z3_aro_exterior,peor_celda,2mm,65,95,0.3838,0.3422,169,99.41,,,,
+Cara inferior,Z3_aro_exterior,peor_celda,2mm,65,99,0.3838,0.3422,,,,,,
+Cara inferior,Z3_aro_exterior,peor_celda,2mm,183,90,0.3838,0.3422,,,,,,
+Cara inferior,Z3_aro_exterior,peor_celda,2mm,183,95,0.3838,0.3422,,,,,,
+Cara inferior,Z3_aro_exterior,peor_celda,2mm,183,99,0.3838,0.3422,,,,,,
+Cara inferior,Z3_aro_exterior,peor_celda,2mm,305,90,0.3838,0.3422,,,,,,
+Cara inferior,Z3_aro_exterior,peor_celda,2mm,305,95,0.3838,0.3422,,,,,,
+Cara inferior,Z3_aro_exterior,peor_celda,2mm,305,99,0.3838,0.3422,,,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,2mm,65,90,0.6037,0.5620,8,4.71,,9,5.29,
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,2mm,65,95,0.6037,0.5620,9,5.29,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,2mm,65,99,0.6037,0.5620,10,5.88,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,2mm,183,90,0.6037,0.5620,21,12.35,,25,14.71,
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,2mm,183,95,0.6037,0.5620,23,13.53,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,2mm,183,99,0.6037,0.5620,26,15.29,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,2mm,305,90,0.6037,0.5620,35,20.59,,42,24.71,
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,2mm,305,95,0.6037,0.5620,39,22.94,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,media_theta,2mm,305,99,0.6037,0.5620,44,25.88,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,65,90,0.6037,0.5620,107,62.94,,149,87.65,
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,65,95,0.6037,0.5620,139,81.76,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,65,99,0.6037,0.5620,,,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,183,90,0.6037,0.5620,,,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,183,95,0.6037,0.5620,,,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,183,99,0.6037,0.5620,,,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,305,90,0.6037,0.5620,,,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,305,95,0.6037,0.5620,,,,,,
+Cara inferior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,305,99,0.6037,0.5620,,,,,,
+Cara superior,total,media_theta,2mm,65,90,0.9230,0.9230,5,2.94,,5,2.94,
+Cara superior,total,media_theta,2mm,65,95,0.9230,0.9230,5,2.94,,5,2.94,
+Cara superior,total,media_theta,2mm,65,99,0.9230,0.9230,6,3.53,,6,3.53,
+Cara superior,total,media_theta,2mm,183,90,0.9230,0.9230,13,7.65,,13,7.65,
+Cara superior,total,media_theta,2mm,183,95,0.9230,0.9230,14,8.24,,14,8.24,
+Cara superior,total,media_theta,2mm,183,99,0.9230,0.9230,16,9.41,,16,9.41,
+Cara superior,total,media_theta,2mm,305,90,0.9230,0.9230,22,12.94,,22,12.94,
+Cara superior,total,media_theta,2mm,305,95,0.9230,0.9230,22,12.94,,22,12.94,
+Cara superior,total,media_theta,2mm,305,99,0.9230,0.9230,27,15.88,,27,15.88,
+Cara superior,total,peor_celda,2mm,65,90,0.9230,0.9230,5,2.94,,5,2.94,
+Cara superior,total,peor_celda,2mm,65,95,0.9230,0.9230,5,2.94,,5,2.94,
+Cara superior,total,peor_celda,2mm,65,99,0.9230,0.9230,6,3.53,,6,3.53,
+Cara superior,total,peor_celda,2mm,183,90,0.9230,0.9230,13,7.65,,13,7.65,
+Cara superior,total,peor_celda,2mm,183,95,0.9230,0.9230,14,8.24,,14,8.24,
+Cara superior,total,peor_celda,2mm,183,99,0.9230,0.9230,16,9.41,,16,9.41,
+Cara superior,total,peor_celda,2mm,305,90,0.9230,0.9230,22,12.94,,22,12.94,
+Cara superior,total,peor_celda,2mm,305,95,0.9230,0.9230,22,12.94,,22,12.94,
+Cara superior,total,peor_celda,2mm,305,99,0.9230,0.9230,27,15.88,,27,15.88,
+Cara superior,Z1_aro_interior,media_theta,2mm,65,90,0.1907,0.1907,4,2.35,,4,2.35,
+Cara superior,Z1_aro_interior,media_theta,2mm,65,95,0.1907,0.1907,4,2.35,,4,2.35,
+Cara superior,Z1_aro_interior,media_theta,2mm,65,99,0.1907,0.1907,4,2.35,,4,2.35,
+Cara superior,Z1_aro_interior,media_theta,2mm,183,90,0.1907,0.1907,10,5.88,,10,5.88,
+Cara superior,Z1_aro_interior,media_theta,2mm,183,95,0.1907,0.1907,10,5.88,,10,5.88,
+Cara superior,Z1_aro_interior,media_theta,2mm,183,99,0.1907,0.1907,11,6.47,,11,6.47,
+Cara superior,Z1_aro_interior,media_theta,2mm,305,90,0.1907,0.1907,17,10.00,,17,10.00,
+Cara superior,Z1_aro_interior,media_theta,2mm,305,95,0.1907,0.1907,17,10.00,,17,10.00,
+Cara superior,Z1_aro_interior,media_theta,2mm,305,99,0.1907,0.1907,18,10.59,,18,10.59,
+Cara superior,Z1_aro_interior,peor_celda,2mm,65,90,0.1907,0.1907,4,2.35,,4,2.35,
+Cara superior,Z1_aro_interior,peor_celda,2mm,65,95,0.1907,0.1907,4,2.35,,4,2.35,
+Cara superior,Z1_aro_interior,peor_celda,2mm,65,99,0.1907,0.1907,4,2.35,,4,2.35,
+Cara superior,Z1_aro_interior,peor_celda,2mm,183,90,0.1907,0.1907,10,5.88,,10,5.88,
+Cara superior,Z1_aro_interior,peor_celda,2mm,183,95,0.1907,0.1907,10,5.88,,10,5.88,
+Cara superior,Z1_aro_interior,peor_celda,2mm,183,99,0.1907,0.1907,11,6.47,,11,6.47,
+Cara superior,Z1_aro_interior,peor_celda,2mm,305,90,0.1907,0.1907,17,10.00,,17,10.00,
+Cara superior,Z1_aro_interior,peor_celda,2mm,305,95,0.1907,0.1907,17,10.00,,17,10.00,
+Cara superior,Z1_aro_interior,peor_celda,2mm,305,99,0.1907,0.1907,18,10.59,,18,10.59,
+Cara superior,Z2_ventana_proyectada,media_theta,2mm,65,90,0.3430,0.3430,4,2.35,,4,2.35,
+Cara superior,Z2_ventana_proyectada,media_theta,2mm,65,95,0.3430,0.3430,4,2.35,,4,2.35,
+Cara superior,Z2_ventana_proyectada,media_theta,2mm,65,99,0.3430,0.3430,4,2.35,,4,2.35,
+Cara superior,Z2_ventana_proyectada,media_theta,2mm,183,90,0.3430,0.3430,10,5.88,,10,5.88,
+Cara superior,Z2_ventana_proyectada,media_theta,2mm,183,95,0.3430,0.3430,11,6.47,,11,6.47,
+Cara superior,Z2_ventana_proyectada,media_theta,2mm,183,99,0.3430,0.3430,11,6.47,,11,6.47,
+Cara superior,Z2_ventana_proyectada,media_theta,2mm,305,90,0.3430,0.3430,17,10.00,,17,10.00,
+Cara superior,Z2_ventana_proyectada,media_theta,2mm,305,95,0.3430,0.3430,17,10.00,,17,10.00,
+Cara superior,Z2_ventana_proyectada,media_theta,2mm,305,99,0.3430,0.3430,18,10.59,,18,10.59,
+Cara superior,Z2_ventana_proyectada,peor_celda,2mm,65,90,0.3430,0.3430,4,2.35,,4,2.35,
+Cara superior,Z2_ventana_proyectada,peor_celda,2mm,65,95,0.3430,0.3430,4,2.35,,4,2.35,
+Cara superior,Z2_ventana_proyectada,peor_celda,2mm,65,99,0.3430,0.3430,4,2.35,,4,2.35,
+Cara superior,Z2_ventana_proyectada,peor_celda,2mm,183,90,0.3430,0.3430,10,5.88,,10,5.88,
+Cara superior,Z2_ventana_proyectada,peor_celda,2mm,183,95,0.3430,0.3430,11,6.47,,11,6.47,
+Cara superior,Z2_ventana_proyectada,peor_celda,2mm,183,99,0.3430,0.3430,11,6.47,,11,6.47,
+Cara superior,Z2_ventana_proyectada,peor_celda,2mm,305,90,0.3430,0.3430,17,10.00,,17,10.00,
+Cara superior,Z2_ventana_proyectada,peor_celda,2mm,305,95,0.3430,0.3430,17,10.00,,17,10.00,
+Cara superior,Z2_ventana_proyectada,peor_celda,2mm,305,99,0.3430,0.3430,18,10.59,,18,10.59,
+Cara superior,Z3_aro_exterior,media_theta,2mm,65,90,0.3893,0.3893,5,2.94,,5,2.94,
+Cara superior,Z3_aro_exterior,media_theta,2mm,65,95,0.3893,0.3893,6,3.53,,6,3.53,
+Cara superior,Z3_aro_exterior,media_theta,2mm,65,99,0.3893,0.3893,6,3.53,,6,3.53,
+Cara superior,Z3_aro_exterior,media_theta,2mm,183,90,0.3893,0.3893,14,8.24,,14,8.24,
+Cara superior,Z3_aro_exterior,media_theta,2mm,183,95,0.3893,0.3893,15,8.82,,15,8.82,
+Cara superior,Z3_aro_exterior,media_theta,2mm,183,99,0.3893,0.3893,17,10.00,,17,10.00,
+Cara superior,Z3_aro_exterior,media_theta,2mm,305,90,0.3893,0.3893,23,13.53,,23,13.53,
+Cara superior,Z3_aro_exterior,media_theta,2mm,305,95,0.3893,0.3893,25,14.71,,25,14.71,
+Cara superior,Z3_aro_exterior,media_theta,2mm,305,99,0.3893,0.3893,28,16.47,,28,16.47,
+Cara superior,Z3_aro_exterior,peor_celda,2mm,65,90,0.3893,0.3893,5,2.94,,5,2.94,
+Cara superior,Z3_aro_exterior,peor_celda,2mm,65,95,0.3893,0.3893,6,3.53,,6,3.53,
+Cara superior,Z3_aro_exterior,peor_celda,2mm,65,99,0.3893,0.3893,6,3.53,,6,3.53,
+Cara superior,Z3_aro_exterior,peor_celda,2mm,183,90,0.3893,0.3893,14,8.24,,14,8.24,
+Cara superior,Z3_aro_exterior,peor_celda,2mm,183,95,0.3893,0.3893,15,8.82,,15,8.82,
+Cara superior,Z3_aro_exterior,peor_celda,2mm,183,99,0.3893,0.3893,17,10.00,,17,10.00,
+Cara superior,Z3_aro_exterior,peor_celda,2mm,305,90,0.3893,0.3893,23,13.53,,23,13.53,
+Cara superior,Z3_aro_exterior,peor_celda,2mm,305,95,0.3893,0.3893,25,14.71,,25,14.71,
+Cara superior,Z3_aro_exterior,peor_celda,2mm,305,99,0.3893,0.3893,28,16.47,,28,16.47,
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,2mm,65,90,0.5800,0.5800,5,2.94,,5,2.94,
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,2mm,65,95,0.5800,0.5800,5,2.94,,5,2.94,
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,2mm,65,99,0.5800,0.5800,6,3.53,,6,3.53,
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,2mm,183,90,0.5800,0.5800,13,7.65,,13,7.65,
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,2mm,183,95,0.5800,0.5800,14,8.24,,14,8.24,
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,2mm,183,99,0.5800,0.5800,17,10.00,,17,10.00,
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,2mm,305,90,0.5800,0.5800,22,12.94,,22,12.94,
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,2mm,305,95,0.5800,0.5800,24,14.12,,24,14.12,
+Cara superior,Z1+Z3_aros_sin_ventana,media_theta,2mm,305,99,0.5800,0.5800,28,16.47,,28,16.47,
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,65,90,0.5800,0.5800,5,2.94,,5,2.94,
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,65,95,0.5800,0.5800,5,2.94,,5,2.94,
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,65,99,0.5800,0.5800,6,3.53,,6,3.53,
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,183,90,0.5800,0.5800,13,7.65,,13,7.65,
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,183,95,0.5800,0.5800,14,8.24,,14,8.24,
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,183,99,0.5800,0.5800,17,10.00,,17,10.00,
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,305,90,0.5800,0.5800,22,12.94,,22,12.94,
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,305,95,0.5800,0.5800,24,14.12,,24,14.12,
+Cara superior,Z1+Z3_aros_sin_ventana,peor_celda,2mm,305,99,0.5800,0.5800,28,16.47,,28,16.47,
+Agujero,total,media_theta,2mm,65,90,1.4702,1.4702,6,3.53,,6,3.53,
+Agujero,total,media_theta,2mm,65,95,1.4702,1.4702,6,3.53,,6,3.53,
+Agujero,total,media_theta,2mm,65,99,1.4702,1.4702,6,3.53,,6,3.53,
+Agujero,total,media_theta,2mm,183,90,1.4702,1.4702,15,8.82,,15,8.82,
+Agujero,total,media_theta,2mm,183,95,1.4702,1.4702,15,8.82,,15,8.82,
+Agujero,total,media_theta,2mm,183,99,1.4702,1.4702,16,9.41,,16,9.41,
+Agujero,total,media_theta,2mm,305,90,1.4702,1.4702,24,14.12,,24,14.12,
+Agujero,total,media_theta,2mm,305,95,1.4702,1.4702,25,14.71,,25,14.71,
+Agujero,total,media_theta,2mm,305,99,1.4702,1.4702,27,15.88,,27,15.88,
+Agujero,total,peor_celda,2mm,65,90,1.4702,1.4702,6,3.53,,6,3.53,
+Agujero,total,peor_celda,2mm,65,95,1.4702,1.4702,6,3.53,,6,3.53,
+Agujero,total,peor_celda,2mm,65,99,1.4702,1.4702,6,3.53,,6,3.53,
+Agujero,total,peor_celda,2mm,183,90,1.4702,1.4702,15,8.82,,15,8.82,
+Agujero,total,peor_celda,2mm,183,95,1.4702,1.4702,15,8.82,,15,8.82,
+Agujero,total,peor_celda,2mm,183,99,1.4702,1.4702,16,9.41,,16,9.41,
+Agujero,total,peor_celda,2mm,305,90,1.4702,1.4702,24,14.12,,24,14.12,
+Agujero,total,peor_celda,2mm,305,95,1.4702,1.4702,25,14.71,,25,14.71,
+Agujero,total,peor_celda,2mm,305,99,1.4702,1.4702,27,15.88,,27,15.88,

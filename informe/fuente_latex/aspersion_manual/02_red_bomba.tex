@@ -1,0 +1,454 @@
+\subsection{Modelo hidráulico y cálculo de la distribución}
+\label{sec:man-asp-red}
+
+Se identifica como $C$ la salida de alimentación central, situada a
+$z_C=1{,}770$ m. Desde ella parten dos recorridos exteriores simétricos
+y un recorrido interior. En cada lado exterior, $S1$ y $S2$ son las tomas
+superiores; $E0$ es el inicio del tubo descendente y $E1$ a $E5$ son sus
+tomas. En el ramal interior, $I0$ es la entrada y $I1$ a $I5$ son las
+tomas ordenadas de arriba hacia abajo. Los puntos de la
+Figura~\ref{fig:man-asp-esquema} son estaciones de cálculo, no un plano
+de montaje.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[>=Stealth, every node/.style={font=\small},
+ box/.style={draw,rounded corners=2pt,align=center,minimum height=10mm,text width=24mm},
+ flow/.style={->,thick}]
+\node[box] (tan) at (0,0) {Depósito\\abierto};
+\node[box] (bom) at (3.3,0) {Bomba};
+\node[box] (fil) at (6.6,0) {Filtro};
+\node[box] (uni) at (9.9,0) {Unión\\rotativa};
+\draw[flow] (tan)--node[above,font=\scriptsize]{DN50}(bom);
+\draw[flow] (bom)--node[above,font=\scriptsize]{DN40}(fil);
+\draw[flow] (fil)--node[above,font=\scriptsize]{DN40}(uni);
+\node[box] (c) at (9.9,-1.8) {$C$\\Distribución};
+\draw[flow] (uni)--node[right,font=\scriptsize]{DN40}(c);
+\node[box,text width=34mm] (a) at (0,-3.6) {Lado exterior 1\\$S1,S2,E1\ldots E5$\\7 boquillas};
+\node[box,text width=34mm] (b) at (4.9,-3.6) {Lado exterior 2\\Simétrico al lado 1\\7 boquillas};
+\node[box,text width=34mm] (i) at (9.9,-3.6) {Ramal interior\\$I1\ldots I5$\\5 boquillas};
+\draw[flow] (c.west)--(0,-1.8)--(a.north);
+\draw[flow] (4.9,-1.8)--(b.north);
+\draw[flow] (c)--(i);
+\node[align=center,text width=12cm] at (4.9,-5) {Después de la aplicación, el líquido retorna al depósito.\\El dimensionamiento del retorno y del tanque se evalúa por separado.};
+\end{tikzpicture}
+\caption{Esquema funcional del circuito y de los grupos simultáneos. Elaboración propia; sin escala.}
+\label{fig:man-asp-esquema}
+\end{figure}
+
+\subsubsection{Geometría hidráulica adoptada}
+Se consideran diámetros exteriores de 33,4; 48,3 y 60,3 mm, con espesor
+de 2,77 mm. El diámetro que interviene en la velocidad es el interior:
+\begin{equation}
+ D_{25}=33{,}4-2(2{,}77)=27{,}86\ \mathrm{mm},\quad
+ D_{40}=42{,}76\ \mathrm{mm},\quad D_{50}=54{,}76\ \mathrm{mm}.
+\end{equation}
+Estas dimensiones se adoptan para el predimensionamiento y deben cotejarse
+con la tubería suministrada. Se supone rugosidad $\varepsilon=0{,}045$ mm.
+
+\subsubsection{Ecuaciones por tramo}
+Para cada tubo se calculan la velocidad, Reynolds y factor de Darcy:
+\begin{align}
+ v&=\frac{4Q}{\pi D_i^2},\qquad Re=\frac{\rho vD_i}{\mu},
+ \label{eq:man-asp-vre}\\
+ f&=\frac{0{,}25}{\left[\log_{10}\left(
+ \frac{\varepsilon}{3{,}7D_i}+\frac{5{,}74}{Re^{0{,}9}}\right)\right]^2}.
+ \label{eq:man-asp-sj}
+\end{align}
+La Ecuación~\eqref{eq:man-asp-sj} es la aproximación de Swamee--Jain para
+el régimen turbulento \cite{manSwamee}. Las pérdidas del tramo son
+\begin{equation}
+ h_L=h_f+h_m
+ =\left(f\frac{L}{D_i}+\sum K_m\right)\frac{v^2}{2g}.
+ \label{eq:man-asp-hl}
+\end{equation}
+Los coeficientes $K_m$ son adimensionales y se refieren a la velocidad del
+tramo donde se colocan. No deben confundirse con el coeficiente de boquilla
+$K_q$. Para el caso base se adoptan factores $f_T$ de 0,023; 0,020 y 0,019
+para DN25, DN40 y DN50; se representan un paso de derivación por $20f_T$,
+una salida de derivación por $60f_T$ y un codo por $30f_T$.
+Son coeficientes de predimensionamiento, sujetos a confirmación con los
+accesorios reales. Por ejemplo, la entrada a un lado exterior toma
+$60(0{,}019)=1{,}14$, y la entrada interior,
+$(60+30)(0{,}023)=2{,}07$.
+
+\subsubsection{Relación entre presión, caudal y elevación}
+En un tramo sin bomba, Bernoulli proporciona
+\begin{equation}
+ \frac{p_j}{\rho g}+z_j+\frac{v_j^2}{2g}
+ =\frac{p_i}{\rho g}+z_i+\frac{v_i^2}{2g}-h_{L,ij}.
+ \label{eq:man-asp-bernoulli-ramal}
+\end{equation}
+Para la primera aproximación de los colectores se desprecia la diferencia
+de cargas cinéticas entre sus estaciones. Así,
+\begin{equation}
+ p_j\simeq p_i-\rho g\left[h_{L,ij}+(z_j-z_i)\right],\qquad
+ q_j=K_q\sqrt{p_j},
+ \label{eq:man-asp-recursion}
+\end{equation}
+con $p_j$ en bar únicamente en la segunda expresión, por las unidades
+elegidas para $K_q$. La primera expresión emplea pascales.
+La menor elevación incrementa la presión; la pérdida de carga la reduce.
+Las tomas superiores se representan a 1,740 m, en el colector. El descenso
+dentro del cuerpo y de las conexiones de cada boquilla no se modela.
+Las diferencias cinéticas y estas conexiones se deben incluir al cerrar
+la red; por ello se presenta un predimensionamiento, no una predicción
+exacta de la instalación.
+
+\subsubsection{Procedimiento de solución por aproximaciones sucesivas}
+Se inicia con $q_j=9{,}11767$ L/min y $p_C=4$ bar. Se suman los caudales
+aguas abajo de cada tramo, se calculan sus pérdidas y se obtienen las
+presiones con la Ecuación~\eqref{eq:man-asp-recursion}. Después se actualiza
+cada caudal con su presión y se ajusta la presión central mediante
+\begin{equation}
+ p_C^{(k+1)}=p_C^{(k)}+\left(4-p_{min}^{(k)}\right)
+ \quad[\mathrm{bar}].
+ \label{eq:man-asp-iteracion}
+\end{equation}
+Así se busca que la toma más desfavorable tenga 4 bar. Es una resolución
+de ecuaciones de continuidad y energía; las sucesivas aproximaciones se
+exponen para que el cálculo pueda comprobarse con una calculadora: la
+Tabla~\ref{tab:man-asp-iteraciones} registra las aproximaciones y la
+Tabla~\ref{tab:man-asp-tramos}, los tramos del estado convergido.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Aproximaciones sucesivas para determinar la presión central.}
+\label{tab:man-asp-iteraciones}
+\input{aspersion_manual/tabla_iteraciones}
+\end{table}
+En las dos últimas filas la diferencia de caudal total es menor que
+0,001 L/min. Los dígitos adicionales permiten revisar el cierre aritmético;
+no representan la precisión física de las hipótesis.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Datos por tramo y pérdidas del estado convergido.}
+\label{tab:man-asp-tramos}
+\input{aspersion_manual/tabla_tramos}
+\par\smallskip\footnotesize
+Se muestra un lado exterior; el segundo es simétrico. $z_f$ es la elevación
+final del tramo. Los caudales y pérdidas son resultados; $L$, DN y
+$\sum K_m$ son entradas del modelo.
+\end{table}
+
+\subsubsection{Ejemplo completo: primer tramo del lado exterior}
+El tramo $C$--$S1$ alimenta siete boquillas. En el estado convergido conduce
+$Q=64{,}11274$ L/min $=1{,}06855\times10^{-3}$ m$^3$/s. Se tiene
+$D_i=0{,}05476$ m, $L=0{,}536$ m y $\sum K_m=1{,}14$. Entonces:
+\begin{align}
+ v&=\frac{4(1{,}06855\times10^{-3})}{\pi(0{,}05476)^2}
+ =0{,}45371\ \mathrm{m/s},\\
+ Re&=\frac{982{,}120(0{,}45371)(0{,}05476)}{4{,}52269\times10^{-4}}
+ =5{,}3952\times10^4,\\
+ f&=\frac{0{,}25}{\left[\log_{10}\left(
+ \frac{0{,}000045}{3{,}7(0{,}05476)}+
+ \frac{5{,}74}{(53952)^{0{,}9}}\right)\right]^2}=0{,}023396,\\
+ h_{L,C-S1}&=\left(0{,}023396\frac{0{,}536}{0{,}05476}+1{,}14\right)
+ \frac{0{,}45371^2}{2(9{,}81)}=0{,}014363\ \mathrm{m}.
+\end{align}
+El segundo tramo, $S1$--$S2$, conduce el caudal restante después de la
+primera boquilla y pierde 0,003230 m. Como $S2$ es la toma desfavorable,
+la presión central se puede verificar directamente:
+\begin{align}
+ p_C&=p_{S2}+\rho g\left[h_{L,C-S1}+h_{L,S1-S2}+z_{S2}-z_C\right]\notag\\
+ &=400000+982{,}120(9{,}81)
+ \left(0{,}014363+0{,}003230+1{,}740-1{,}770\right)\notag\\
+ &=\boxed{399880{,}47\ \mathrm{Pa}=3{,}99880\ \mathrm{bar}}.
+ \label{eq:man-asp-pc}
+\end{align}
+El resultado es ligeramente inferior a 4 bar porque el descenso de 30 mm
+aporta más presión hidrostática que la perdida en esos dos tramos. La
+Tabla~\ref{tab:man-asp-boquillas} reúne la presión y el caudal de cada toma.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Presión y caudal calculados en las tomas de boquilla.}
+\label{tab:man-asp-boquillas}
+\input{aspersion_manual/tabla_boquillas}
+\par\smallskip\footnotesize
+La cantidad 2 corresponde a puntos equivalentes en los dos lados exteriores.
+Los puntos $I1$--$I5$ pertenecen a un único ramal interior.
+\end{table}
+
+La suma de un lado exterior es 64,11274 L/min y la del ramal interior
+45,76621 L/min. Por continuidad, el caudal final es
+\begin{equation}
+ Q=2(64{,}11274)+45{,}76621
+ =\boxed{173{,}99168\ \mathrm{L/min}}
+ =\boxed{2{,}89986\times10^{-3}\ \mathrm{m^3/s}}.
+ \label{eq:man-asp-qfinal}
+\end{equation}
+La variación respecto de $Q_0=173{,}23564$ L/min es 0,44\,\%.
+Las boquillas inferiores entregan algo más de líquido al recibir más
+presión. La dispersión extrema de caudal predicha es
+\begin{equation}
+ \delta_q=100\left(\sqrt{\frac{4{,}06238}{4{,}00000}}-1\right)
+ =0{,}777\ \mathord{\text{\%}}.
+\end{equation}
+Esta dispersión se refiere al caudal de las boquillas del modelo; no es
+un indicador de uniformidad de limpieza sobre la pieza.
+
+\subsection{Diámetro de alimentación y pérdidas de la línea principal}
+\label{sec:man-asp-alimentacion}
+
+Se adopta como criterio de predimensionamiento una velocidad de 1,5 a
+3 m/s en la alimentación a presión. No se aplica ese intervalo como
+restricción universal a todos los colectores. Para DN40,
+\begin{equation}
+ v_{40}=\frac{4(2{,}89986\times10^{-3})}{\pi(0{,}04276)^2}
+ =\boxed{2{,}01935\ \mathrm{m/s}}.
+ \label{eq:man-asp-v40}
+\end{equation}
+El Reynolds y el factor de Darcy son
+\begin{align}
+ Re_{40}&=\frac{982{,}120(2{,}01935)(0{,}04276)}{4{,}52269\times10^{-4}}
+ =1{,}87507\times10^5,\\
+ f_{40}&=\frac{0{,}25}{\left[\log_{10}\left(
+ \frac{0{,}000045}{3{,}7(0{,}04276)}+
+ \frac{5{,}74}{(187507)^{0{,}9}}\right)\right]^2}=0{,}021478.
+\end{align}
+
+\subsubsection{Línea estacionaria}
+Se adopta una longitud de 14 m, seis codos, una válvula de retención y
+una válvula de bola. La longitud y los accesorios son hipótesis de trazado.
+Con $K_{codo}=0{,}60$, $K_{ret}=2{,}00$ y $K_{bola}=0{,}06$,
+\begin{equation}
+ \sum K_{est}=6(0{,}60)+2{,}00+0{,}06=5{,}66.
+\end{equation}
+La fricción distribuida y las pérdidas locales se calculan por separado:
+\begin{align}
+ h_{f,est}&=0{,}021478\frac{14}{0{,}04276}
+ \frac{2{,}01935^2}{2(9{,}81)}=1{,}46154\ \mathrm{m},\\
+ h_{m,est}&=5{,}66\frac{2{,}01935^2}{2(9{,}81)}=1{,}17636\ \mathrm{m},\\
+ h_{L,est}&=1{,}46154+1{,}17636=\boxed{2{,}63790\ \mathrm{m}}.
+ \label{eq:man-asp-hest}
+\end{align}
+
+\subsubsection{Alimentación del distribuidor}
+Entre la unión rotativa y el punto $C$ se considera DN40, longitud de
+1,75 m y un codo. Como el diámetro y el caudal son los mismos, se
+mantienen $v_{40}$ y $f_{40}$:
+\begin{align}
+ h_{L,rot}&=\left(0{,}021478\frac{1{,}75}{0{,}04276}+0{,}60\right)
+ \frac{2{,}01935^2}{2(9{,}81)}\notag\\
+ &=0{,}18269+0{,}12470=\boxed{0{,}30740\ \mathrm{m}}.
+ \label{eq:man-asp-hrot}
+\end{align}
+
+\subsubsection{Contraste con DN25}
+Para conducir el mismo caudal por un diámetro interior de 27,86 mm,
+\begin{equation}
+ v_{25}=\frac{4(2{,}89986\times10^{-3})}{\pi(0{,}02786)^2}
+ =4{,}75691\ \mathrm{m/s}.
+\end{equation}
+Se obtiene $Re=2{,}87789\times10^5$, $f=0{,}023022$ y
+$\sum K=(6\times30+100+3)(0{,}023)=6{,}509$. Para los mismos 14 m,
+\begin{equation}
+ h_{L,25}=\left(0{,}023022\frac{14}{0{,}02786}+6{,}509\right)
+ \frac{4{,}75691^2}{2(9{,}81)}=20{,}8499\ \mathrm{m}.
+\end{equation}
+DN40 reduce esa pérdida de 20,85 a 2,64 m y satisface el criterio de
+velocidad adoptado. Por esta razón se conserva como diámetro de
+predimensionamiento de la alimentación. La comprobación corresponde
+a capacidad hidráulica, no al espesor resistente final del tubo.
+
+\subsection{Línea de succión y condiciones del depósito}
+\label{sec:man-asp-succion}
+
+Se considera un depósito abierto, una línea de succión DN50 de 1,5 m
+y un nivel de líquido 0,5 m por encima del eje de la bomba. Este nivel
+es una condición que debe cumplir el diseño del tanque, no una
+medición de planta. La velocidad y el factor de fricción son
+\begin{align}
+ v_1&=\frac{4(2{,}89986\times10^{-3})}{\pi(0{,}05476)^2}
+ =1{,}23129\ \mathrm{m/s},\\
+ Re_1&=\frac{982{,}120(1{,}23129)(0{,}05476)}{4{,}52269\times10^{-4}}
+ =1{,}46417\times10^5,\qquad f_1=0{,}020945.
+\end{align}
+Se adoptan coeficientes de entrada 0,50, de codo $30(0{,}019)=0{,}57$
+y de válvula de bola $3(0{,}019)=0{,}057$. Por ello,
+\begin{equation}
+ \sum K_s=0{,}50+0{,}57+0{,}057=1{,}127.
+\end{equation}
+La pérdida en succión resulta
+\begin{align}
+ h_{L,s}&=\left(0{,}020945\frac{1{,}5}{0{,}05476}+1{,}127\right)
+ \frac{1{,}23129^2}{2(9{,}81)}\notag\\
+ &=0{,}04433+0{,}08709=\boxed{0{,}13142\ \mathrm{m}}.
+ \label{eq:man-asp-hs}
+\end{align}
+No se ha incluido una caída adicional por un filtro en succión. Si se
+incorpora uno, su pérdida debe añadirse tanto al balance de energía como
+a la evaluación de cavitación.
+
+\subsection{Altura que debe suministrar la bomba}
+\label{sec:man-asp-bomba}
+
+La altura de bombeo expresa energía por unidad de peso del líquido. No
+significa que la bomba esté instalada a esa altura sobre el piso.
+Se obtiene aplicando Bernoulli entre la superficie libre del depósito,
+denominada $S$, y la sección de alimentación $C$:
+\begin{equation}
+ \frac{p_{S,g}}{\rho g}+z_S+\frac{v_S^2}{2g}+H_b
+ =\frac{p_{C,g}}{\rho g}+z_C+\frac{v_C^2}{2g}+\sum h_L.
+ \label{eq:man-asp-bern-global}
+\end{equation}
+El depósito está abierto, de modo que $p_{S,g}=0$, y su sección se
+considera suficientemente grande para tomar $v_S\simeq0$.
+Se adopta el eje de bomba a $z_b=0{,}50$ m; con nivel inundado de 0,50 m,
+la superficie queda a $z_S=1{,}00$ m. La sección $C$ está a 1,770 m
+y se evalúa sobre la alimentación DN40, de velocidad $v_C=2{,}01935$ m/s.
+
+Además de las pérdidas de tubería, se suponen caídas de 0,30 bar en la
+unión rotativa y de 0,20 bar en el filtro. Estas dos pérdidas requieren
+confirmación mediante curvas comerciales. Su altura equivalente es
+\begin{equation}
+ h_{JR+f}=
+ \frac{(0{,}30+0{,}20)10^5}{982{,}120(9{,}81)}
+ =5{,}18963\ \mathrm{m}.
+ \label{eq:man-asp-accesorios}
+\end{equation}
+Despejando $H_b$ se obtiene la expresión de cálculo:
+\begin{align}
+ H_b={}&\frac{p_{C,g}}{\rho g}+(z_C-z_S)
+ +h_{L,est}+h_{L,rot}+h_{L,s}+h_{JR+f}+\frac{v_C^2}{2g}.
+ \label{eq:man-asp-hb}
+\end{align}
+La sustitución muestra de dónde proviene cada metro de altura:
+\begin{align}
+ H_b={}&\frac{399880{,}47}{982{,}120(9{,}81)}+(1{,}770-1{,}000)
+ +2{,}63790+0{,}30740\notag\\
+ &+0{,}13142+5{,}18963+\frac{2{,}01935^2}{2(9{,}81)}\notag\\
+ ={}&41{,}50462+0{,}77000+2{,}63790+0{,}30740\notag\\
+ &+0{,}13142+5{,}18963+0{,}20784\notag\\
+ ={}&\boxed{50{,}74881\ \mathrm{m}}.
+ \label{eq:man-asp-hbnum}
+\end{align}
+La Tabla~\ref{tab:man-asp-altura} ordena estas contribuciones.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Contribuciones a la altura de bombeo del caso base.}
+\label{tab:man-asp-altura}
+\begin{tabularx}{\linewidth}{@{}Xr@{}}
+\toprule Contribución física & Altura (m)\\\midrule
+Presión requerida en la alimentación central & 41,50462\\
+Desnivel entre nivel libre y alimentación central & 0,77000\\
+Fricción y accesorios de la línea estacionaria & 2,63790\\
+Fricción y codo de la alimentación del distribuidor & 0,30740\\
+Pérdidas de la succión & 0,13142\\
+Unión rotativa y filtro & 5,18963\\
+Carga cinética en la alimentación central & 0,20784\\\midrule
+Total & 50,74881\\\bottomrule
+\end{tabularx}
+\end{table}
+
+La presión requerida representa aproximadamente el 81,8\,\% de la
+altura total. La demanda principal es, por tanto, proporcionar presión
+al conjunto de boquillas. Las pérdidas, aunque menores, deben incluirse
+para no subdimensionar la alimentación.
+Las pérdidas en los ramales después de $C$ ya están incorporadas al
+determinar $p_C$; no se vuelven a sumar en la
+Ecuación~\eqref{eq:man-asp-hb}. Tampoco se añade otra vez la energía del
+chorro, que procede de la presión aplicada a la boquilla.
+
+La cota elevada de la unión rotativa, $z_{JR}=3{,}52$ m, no se suma como
+un desnivel adicional permanente: el líquido vuelve a descender hasta
+$C$. En el balance global se utiliza la diferencia entre extremos,
+$z_C-z_S$. La elevación intermedia sí interviene al comprobar presiones
+locales, purga de aire y llenado.
+
+\subsubsection{Comprobación mediante las bridas de la bomba}
+En la descarga, con brida a $z_b=0{,}50$ m y el mismo diámetro que la
+alimentación, se requiere
+\begin{align}
+ p_{2,g}&=p_{C,g}+\rho g\left[h_{L,est}+h_{L,rot}+z_C-z_b\right]
+ +\Delta p_{JR}+\Delta p_f\notag\\
+ &=399880{,}47+982{,}120(9{,}81)
+ (2{,}63790+0{,}30740+1{,}770-0{,}500)+50000\notag\\
+ &=490493{,}17\ \mathrm{Pa}=4{,}90493\ \mathrm{bar}.
+ \label{eq:man-asp-p2}
+\end{align}
+En la brida de succión, la presión manométrica resulta de descontar la
+pérdida y la aceleración desde el depósito:
+\begin{align}
+ p_{1,g}&=\rho g\left(h_s-h_{L,s}-\frac{v_1^2}{2g}\right)\notag\\
+ &=982{,}120(9{,}81)
+ \left(0{,}50-0{,}13142-\frac{1{,}23129^2}{2(9{,}81)}\right)
+ =2806{,}64\ \mathrm{Pa}.
+\end{align}
+Suponiendo las dos bridas a igual elevación,
+\begin{equation}
+ H_b=\frac{490493{,}17-2806{,}64}{982{,}120(9{,}81)}
+ +\frac{2{,}01935^2-1{,}23129^2}{2(9{,}81)}
+ =50{,}74881\ \mathrm{m}.
+\end{equation}
+La coincidencia de ambos balances comprueba que se han usado presiones
+y cargas cinéticas con referencias consistentes.
+
+\subsection{Potencia hidráulica, potencia al eje y potencia eléctrica}
+\label{sec:man-asp-potencia}
+
+La potencia hidráulica es la energía que recibe el líquido por unidad
+de tiempo. Con el caudal y la altura calculados:
+\begin{align}
+ P_h&=\rho gQH_b\notag\\
+ &=982{,}120(9{,}81)(2{,}89986\times10^{-3})(50{,}74881)
+ =\boxed{1417{,}87\ \mathrm{W}}.
+ \label{eq:man-asp-ph}
+\end{align}
+Se adoptan una eficiencia de bomba $\eta_p=0{,}55$ y una eficiencia
+de motor $\eta_m=0{,}85$. Son hipótesis de predimensionamiento, que
+deben reemplazarse por las del equipo seleccionado:
+\begin{align}
+ P_{eje}&=\frac{P_h}{\eta_p}
+ =\frac{1417{,}87}{0{,}55}=\boxed{2577{,}95\ \mathrm{W}},\\
+ P_{el}&=\frac{P_{eje}}{\eta_m}
+ =\frac{2577{,}95}{0{,}85}=\boxed{3032{,}88\ \mathrm{W}}.
+ \label{eq:man-asp-pel}
+\end{align}
+La potencia nominal de salida de un motor se contrasta con la demanda
+al eje de la bomba, aproximadamente 2,58 kW, y con su intervalo real
+de operación. Los 3,03 kW representan consumo eléctrico estimado,
+no la potencia nominal de un motor ya seleccionado. Tampoco incluyen
+calentamiento del baño, accionamiento del distribuidor, secado ni auxiliares.
+
+Con precisión compatible con las hipótesis, el punto de predimensionamiento es
+\begin{equation}
+ \boxed{Q\approx10{,}4\ \mathrm{m^3/h},\qquad H_b\approx51\ \mathrm{m}}.
+ \label{eq:man-asp-punto}
+\end{equation}
+Una bomba candidata debe evaluarse mediante su curva, eficiencia,
+materiales y comportamiento de succión. El punto calculado no sustituye
+esa selección.
+
+\subsection{Comprobación de la disponibilidad de NPSH}
+\label{sec:man-asp-npsh}
+
+El NPSH disponible expresa la carga absoluta que queda sobre la presión
+de vapor del líquido en la entrada de la bomba. Es una propiedad de la
+instalación y debe compararse con el NPSH requerido por la bomba
+\cite{white2016}. Para el escenario de emplazamiento a 2335 m se adopta
+la aproximación troposférica de la atmósfera estándar \cite{white2016}:
+\begin{align}
+ p_{atm}&=101325\left(1-2{,}25577\times10^{-5}z_{sitio}\right)^{5{,}25588}\notag\\
+ &=101325\left(1-2{,}25577\times10^{-5}(2335)\right)^{5{,}25588}
+ =76243{,}85\ \mathrm{Pa}.
+\end{align}
+La altitud del sitio no debe confundirse con las cotas geométricas medidas
+desde el piso de la cabina. Para depósito abierto,
+\begin{align}
+ NPSH_A&=\frac{p_{atm}-p_v}{\rho g}+h_s-h_{L,s}\notag\\
+ &=\frac{76243{,}85-21867{,}00}{982{,}120(9{,}81)}
+ +0{,}50-0{,}13142\notag\\
+ &=5{,}64391+0{,}50000-0{,}13142
+ =\boxed{6{,}01249\ \mathrm{m}}.
+ \label{eq:man-asp-npsh}
+\end{align}
+Si el nivel libre descendiera hasta el eje de la bomba, manteniendo
+el caudal y las pérdidas, $h_s=0$ y el NPSH disponible disminuiría a
+5,51249 m. Se debe verificar la condición más desfavorable de nivel,
+temperatura, caudal y ensuciamiento de los elementos de succión.
+No se puede declarar un margen suficiente mientras no se conozcan
+$NPSH_R$ y el criterio de margen aplicable al equipo seleccionado.

@@ -1,0 +1,6 @@
+Hallazgo,Problema,Cambio R05,Evidencia,Estado,Pendiente
+F01,Colocación PAD y CG mezclados,Separación colocación ≤5 / CG ±100 / inercia 7.875,02_CALCULOS; vista 02; script,CORREGIDO_CALCULADO,Validar mecanismo y tolerancia
+F02,Centrador incompleto,Cassette completo activo/retraído,FCStd/STEP; vista 03; CAD QA,MODELADO_PRELIMINAR,"Guías, hardware, corrosión y ensayo"
+F03,Rutas de carga incompletas,Topes conectados + manillar unido a M03,FCStd/STEP; vistas 04–05; CAD QA,RUTA_CARGA_DEFINIDA,Uniones finales y ergonomía
+F04,Entradas duplicadas,Entrada única + siete pruebas,XLSX; R05_XLSX_INPUT_TESTS,CERRADO_DOCUMENTAL,Reejecutar script fuera de sensibilidad
+F05,P/2 insuficiente,Envolvente 26.741 kN,Riel_Envolvente; vista 06; script,CORREGIDO_CALCULADO,"Apoyos reales, clips, losa, anclajes"

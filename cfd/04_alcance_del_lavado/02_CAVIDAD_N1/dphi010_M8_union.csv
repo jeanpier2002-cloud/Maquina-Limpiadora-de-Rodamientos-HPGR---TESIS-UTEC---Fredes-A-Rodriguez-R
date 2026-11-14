@@ -1,0 +1,673 @@
+tag,subconjunto,superficie,fila_o_mitad,prof_mm,area_total_m2,frac_N1_media,frac_N1_min_rodillo,frac_N1_max_rodillo
+dphi010,todas,rodillo_flanco,hilera_sup,0-25,0.22130,0.57804,0.57145,0.58823
+dphi010,todas,rodillo_flanco,hilera_sup,25-50,0.23246,0.44369,0.43306,0.44991
+dphi010,todas,rodillo_flanco,hilera_sup,50-100,0.48469,0.27854,0.26601,0.29091
+dphi010,todas,rodillo_flanco,hilera_sup,100-150,0.48848,0.08992,0.07812,0.09752
+dphi010,todas,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,todas,rodillo_flanco,hilera_sup,todo,2.01446,0.20352,0.19890,0.20763
+dphi010,todas,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.95147,0.95147,0.95147
+dphi010,todas,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,todas,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,todas,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,todas,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,todas,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,todas,rodillo_flanco,hilera_inf,150-214,0.58753,0.00326,0.00326,0.00326
+dphi010,todas,rodillo_flanco,hilera_inf,todo,2.01446,0.00095,0.00095,0.00095
+dphi010,todas,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.47165,0.47165,0.47165
+dphi010,todas,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.52728,0.51290,0.54598
+dphi010,todas,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,todas,pista_exterior,mitad_sup,25-50,0.10534,0.35050,0.35050,0.35050
+dphi010,todas,pista_exterior,mitad_sup,50-100,0.21043,0.29653,0.29653,0.29653
+dphi010,todas,pista_exterior,mitad_sup,100-150,0.21026,0.25658,0.25658,0.25658
+dphi010,todas,pista_exterior,mitad_sup,150-214,0.27326,0.24055,0.24055,0.24055
+dphi010,todas,pista_exterior,mitad_sup,214-257.5,0.16815,0.21597,0.21597,0.21597
+dphi010,todas,pista_exterior,mitad_sup,todo,1.07288,0.23797,0.23797,0.23797
+dphi010,todas,pista_exterior,mitad_inf,0-25,0.10550,0.66010,0.66010,0.66010
+dphi010,todas,pista_exterior,mitad_inf,25-50,0.10532,0.18087,0.18087,0.18087
+dphi010,todas,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,todas,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,todas,pista_exterior,mitad_inf,150-214,0.27323,0.03173,0.03173,0.03173
+dphi010,todas,pista_exterior,mitad_inf,214-257.5,0.16815,0.17847,0.17847,0.17847
+dphi010,todas,pista_exterior,mitad_inf,todo,1.09384,0.12391,0.12391,0.12391
+dphi010,todas,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,todas,pista_interior,mitad_sup,50-100,0.16110,0.29728,0.29728,0.29728
+dphi010,todas,pista_interior,mitad_sup,100-150,0.16598,0.36530,0.36530,0.36530
+dphi010,todas,pista_interior,mitad_sup,150-214,0.22748,0.33890,0.33890,0.33890
+dphi010,todas,pista_interior,mitad_sup,214-257.5,0.14443,0.19363,0.19363,0.19363
+dphi010,todas,pista_interior,mitad_sup,todo,0.77911,0.27414,0.27414,0.27414
+dphi010,todas,resalte_interior,mitad_sup,0-25,0.08318,0.19696,0.19696,0.19696
+dphi010,todas,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,todas,resalte_interior,mitad_sup,todo,0.12789,0.12810,0.12810,0.12810
+dphi010,todas,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,todas,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,todas,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,todas,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,todas,pista_interior,mitad_inf,214-257.5,0.14419,0.02572,0.02572,0.02572
+dphi010,todas,pista_interior,mitad_inf,todo,0.79645,0.00466,0.00466,0.00466
+dphi010,todas,resalte_interior,mitad_inf,0-25,0.08267,0.63144,0.63144,0.63144
+dphi010,todas,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,todas,resalte_interior,mitad_inf,todo,0.12739,0.40979,0.40979,0.40979
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_sup,0-25,0.22130,0.57804,0.57145,0.58823
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_sup,25-50,0.23246,0.44369,0.43306,0.44991
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_sup,50-100,0.48469,0.27854,0.26601,0.29091
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_sup,100-150,0.48848,0.08992,0.07812,0.09752
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_sup,todo,2.01446,0.20352,0.19890,0.20763
+dphi010,SUP (ventana sup),rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.95147,0.95147,0.95147
+dphi010,SUP (ventana sup),rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_inf,150-214,0.58753,0.00326,0.00326,0.00326
+dphi010,SUP (ventana sup),rodillo_flanco,hilera_inf,todo,2.01446,0.00095,0.00095,0.00095
+dphi010,SUP (ventana sup),rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.52728,0.51290,0.54598
+dphi010,SUP (ventana sup),pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),pista_exterior,mitad_sup,25-50,0.10534,0.35050,0.35050,0.35050
+dphi010,SUP (ventana sup),pista_exterior,mitad_sup,50-100,0.21043,0.29653,0.29653,0.29653
+dphi010,SUP (ventana sup),pista_exterior,mitad_sup,100-150,0.21026,0.25658,0.25658,0.25658
+dphi010,SUP (ventana sup),pista_exterior,mitad_sup,150-214,0.27326,0.24055,0.24055,0.24055
+dphi010,SUP (ventana sup),pista_exterior,mitad_sup,214-257.5,0.16815,0.21597,0.21597,0.21597
+dphi010,SUP (ventana sup),pista_exterior,mitad_sup,todo,1.07288,0.23797,0.23797,0.23797
+dphi010,SUP (ventana sup),pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),pista_exterior,mitad_inf,150-214,0.27323,0.03173,0.03173,0.03173
+dphi010,SUP (ventana sup),pista_exterior,mitad_inf,214-257.5,0.16815,0.17847,0.17847,0.17847
+dphi010,SUP (ventana sup),pista_exterior,mitad_inf,todo,1.09384,0.04283,0.04283,0.04283
+dphi010,SUP (ventana sup),pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),pista_interior,mitad_sup,50-100,0.16110,0.29728,0.29728,0.29728
+dphi010,SUP (ventana sup),pista_interior,mitad_sup,100-150,0.16598,0.36530,0.36530,0.36530
+dphi010,SUP (ventana sup),pista_interior,mitad_sup,150-214,0.22748,0.33890,0.33890,0.33890
+dphi010,SUP (ventana sup),pista_interior,mitad_sup,214-257.5,0.14443,0.19363,0.19363,0.19363
+dphi010,SUP (ventana sup),pista_interior,mitad_sup,todo,0.77911,0.27414,0.27414,0.27414
+dphi010,SUP (ventana sup),resalte_interior,mitad_sup,0-25,0.08318,0.19696,0.19696,0.19696
+dphi010,SUP (ventana sup),resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),resalte_interior,mitad_sup,todo,0.12789,0.12810,0.12810,0.12810
+dphi010,SUP (ventana sup),pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),pista_interior,mitad_inf,214-257.5,0.14419,0.02572,0.02572,0.02572
+dphi010,SUP (ventana sup),pista_interior,mitad_inf,todo,0.79645,0.00466,0.00466,0.00466
+dphi010,SUP (ventana sup),resalte_interior,mitad_inf,0-25,0.08267,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,SUP (ventana sup),resalte_interior,mitad_inf,todo,0.12739,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_sup,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_sup,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_sup,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_sup,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_sup,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_inf,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_flanco,hilera_inf,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.47165,0.47165,0.47165
+dphi010,INF (ventana inf),rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_sup,25-50,0.10534,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_sup,50-100,0.21043,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_sup,100-150,0.21026,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_sup,150-214,0.27326,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_sup,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_sup,todo,1.07288,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_inf,0-25,0.10550,0.66010,0.66010,0.66010
+dphi010,INF (ventana inf),pista_exterior,mitad_inf,25-50,0.10532,0.18087,0.18087,0.18087
+dphi010,INF (ventana inf),pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_inf,150-214,0.27323,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_inf,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_exterior,mitad_inf,todo,1.09384,0.08108,0.08108,0.08108
+dphi010,INF (ventana inf),pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_sup,50-100,0.16110,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_sup,100-150,0.16598,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_sup,150-214,0.22748,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_sup,214-257.5,0.14443,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_sup,todo,0.77911,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),resalte_interior,mitad_sup,0-25,0.08318,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),resalte_interior,mitad_sup,todo,0.12789,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_inf,214-257.5,0.14419,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),pista_interior,mitad_inf,todo,0.79645,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),resalte_interior,mitad_inf,0-25,0.08267,0.63144,0.63144,0.63144
+dphi010,INF (ventana inf),resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,INF (ventana inf),resalte_interior,mitad_inf,todo,0.12739,0.40979,0.40979,0.40979
+dphi010,ramal A,rodillo_flanco,hilera_sup,0-25,0.22130,0.57804,0.57145,0.58823
+dphi010,ramal A,rodillo_flanco,hilera_sup,25-50,0.23246,0.44369,0.43306,0.44991
+dphi010,ramal A,rodillo_flanco,hilera_sup,50-100,0.48469,0.27854,0.26601,0.29091
+dphi010,ramal A,rodillo_flanco,hilera_sup,100-150,0.48848,0.08992,0.07812,0.09752
+dphi010,ramal A,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,ramal A,rodillo_flanco,hilera_sup,todo,2.01446,0.20352,0.19890,0.20763
+dphi010,ramal A,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.95147,0.95147,0.95147
+dphi010,ramal A,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,ramal A,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,ramal A,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,ramal A,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,ramal A,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,ramal A,rodillo_flanco,hilera_inf,150-214,0.58753,0.00326,0.00326,0.00326
+dphi010,ramal A,rodillo_flanco,hilera_inf,todo,2.01446,0.00095,0.00095,0.00095
+dphi010,ramal A,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,ramal A,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.52728,0.51290,0.54598
+dphi010,ramal A,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,ramal A,pista_exterior,mitad_sup,25-50,0.10534,0.35050,0.35050,0.35050
+dphi010,ramal A,pista_exterior,mitad_sup,50-100,0.21043,0.29611,0.29611,0.29611
+dphi010,ramal A,pista_exterior,mitad_sup,100-150,0.21026,0.25658,0.25658,0.25658
+dphi010,ramal A,pista_exterior,mitad_sup,150-214,0.27326,0.24055,0.24055,0.24055
+dphi010,ramal A,pista_exterior,mitad_sup,214-257.5,0.16815,0.21597,0.21597,0.21597
+dphi010,ramal A,pista_exterior,mitad_sup,todo,1.07288,0.23789,0.23789,0.23789
+dphi010,ramal A,pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,ramal A,pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,ramal A,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,ramal A,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,ramal A,pista_exterior,mitad_inf,150-214,0.27323,0.03173,0.03173,0.03173
+dphi010,ramal A,pista_exterior,mitad_inf,214-257.5,0.16815,0.17847,0.17847,0.17847
+dphi010,ramal A,pista_exterior,mitad_inf,todo,1.09384,0.04283,0.04283,0.04283
+dphi010,ramal A,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,ramal A,pista_interior,mitad_sup,50-100,0.16110,0.29728,0.29728,0.29728
+dphi010,ramal A,pista_interior,mitad_sup,100-150,0.16598,0.36530,0.36530,0.36530
+dphi010,ramal A,pista_interior,mitad_sup,150-214,0.22748,0.33859,0.33859,0.33859
+dphi010,ramal A,pista_interior,mitad_sup,214-257.5,0.14443,0.19363,0.19363,0.19363
+dphi010,ramal A,pista_interior,mitad_sup,todo,0.77911,0.27404,0.27404,0.27404
+dphi010,ramal A,resalte_interior,mitad_sup,0-25,0.08318,0.19696,0.19696,0.19696
+dphi010,ramal A,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,ramal A,resalte_interior,mitad_sup,todo,0.12789,0.12810,0.12810,0.12810
+dphi010,ramal A,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,ramal A,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,ramal A,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,ramal A,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,ramal A,pista_interior,mitad_inf,214-257.5,0.14419,0.02572,0.02572,0.02572
+dphi010,ramal A,pista_interior,mitad_inf,todo,0.79645,0.00466,0.00466,0.00466
+dphi010,ramal A,resalte_interior,mitad_inf,0-25,0.08267,0.63144,0.63144,0.63144
+dphi010,ramal A,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,ramal A,resalte_interior,mitad_inf,todo,0.12739,0.40979,0.40979,0.40979
+dphi010,ramal B,rodillo_flanco,hilera_sup,0-25,0.22130,0.57804,0.57145,0.58823
+dphi010,ramal B,rodillo_flanco,hilera_sup,25-50,0.23246,0.44369,0.43306,0.44991
+dphi010,ramal B,rodillo_flanco,hilera_sup,50-100,0.48469,0.27854,0.26601,0.29091
+dphi010,ramal B,rodillo_flanco,hilera_sup,100-150,0.48848,0.08992,0.07812,0.09752
+dphi010,ramal B,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,ramal B,rodillo_flanco,hilera_sup,todo,2.01446,0.20352,0.19890,0.20763
+dphi010,ramal B,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.95147,0.95147,0.95147
+dphi010,ramal B,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,ramal B,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,ramal B,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,ramal B,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,ramal B,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,ramal B,rodillo_flanco,hilera_inf,150-214,0.58753,0.00326,0.00326,0.00326
+dphi010,ramal B,rodillo_flanco,hilera_inf,todo,2.01446,0.00095,0.00095,0.00095
+dphi010,ramal B,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,ramal B,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.52728,0.51290,0.54598
+dphi010,ramal B,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,ramal B,pista_exterior,mitad_sup,25-50,0.10534,0.35050,0.35050,0.35050
+dphi010,ramal B,pista_exterior,mitad_sup,50-100,0.21043,0.29639,0.29639,0.29639
+dphi010,ramal B,pista_exterior,mitad_sup,100-150,0.21026,0.25658,0.25658,0.25658
+dphi010,ramal B,pista_exterior,mitad_sup,150-214,0.27326,0.24055,0.24055,0.24055
+dphi010,ramal B,pista_exterior,mitad_sup,214-257.5,0.16815,0.21597,0.21597,0.21597
+dphi010,ramal B,pista_exterior,mitad_sup,todo,1.07288,0.23795,0.23795,0.23795
+dphi010,ramal B,pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,ramal B,pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,ramal B,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,ramal B,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,ramal B,pista_exterior,mitad_inf,150-214,0.27323,0.03173,0.03173,0.03173
+dphi010,ramal B,pista_exterior,mitad_inf,214-257.5,0.16815,0.17847,0.17847,0.17847
+dphi010,ramal B,pista_exterior,mitad_inf,todo,1.09384,0.04283,0.04283,0.04283
+dphi010,ramal B,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,ramal B,pista_interior,mitad_sup,50-100,0.16110,0.29728,0.29728,0.29728
+dphi010,ramal B,pista_interior,mitad_sup,100-150,0.16598,0.36530,0.36530,0.36530
+dphi010,ramal B,pista_interior,mitad_sup,150-214,0.22748,0.33869,0.33869,0.33869
+dphi010,ramal B,pista_interior,mitad_sup,214-257.5,0.14443,0.19363,0.19363,0.19363
+dphi010,ramal B,pista_interior,mitad_sup,todo,0.77911,0.27407,0.27407,0.27407
+dphi010,ramal B,resalte_interior,mitad_sup,0-25,0.08318,0.19696,0.19696,0.19696
+dphi010,ramal B,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,ramal B,resalte_interior,mitad_sup,todo,0.12789,0.12810,0.12810,0.12810
+dphi010,ramal B,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,ramal B,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,ramal B,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,ramal B,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,ramal B,pista_interior,mitad_inf,214-257.5,0.14419,0.02572,0.02572,0.02572
+dphi010,ramal B,pista_interior,mitad_inf,todo,0.79645,0.00466,0.00466,0.00466
+dphi010,ramal B,resalte_interior,mitad_inf,0-25,0.08267,0.63144,0.63144,0.63144
+dphi010,ramal B,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,ramal B,resalte_interior,mitad_inf,todo,0.12739,0.40979,0.40979,0.40979
+dphi010,SUP_1_A,rodillo_flanco,hilera_sup,0-25,0.22130,0.55884,0.54406,0.57196
+dphi010,SUP_1_A,rodillo_flanco,hilera_sup,25-50,0.23246,0.43686,0.42742,0.44413
+dphi010,SUP_1_A,rodillo_flanco,hilera_sup,50-100,0.48469,0.22015,0.20170,0.23782
+dphi010,SUP_1_A,rodillo_flanco,hilera_sup,100-150,0.48848,0.00049,0.00000,0.00559
+dphi010,SUP_1_A,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,rodillo_flanco,hilera_sup,todo,2.01446,0.16489,0.15890,0.17008
+dphi010,SUP_1_A,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.95147,0.95147,0.95147
+dphi010,SUP_1_A,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,rodillo_flanco,hilera_inf,150-214,0.58753,0.00326,0.00326,0.00326
+dphi010,SUP_1_A,rodillo_flanco,hilera_inf,todo,2.01446,0.00095,0.00095,0.00095
+dphi010,SUP_1_A,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.49359,0.48927,0.52235
+dphi010,SUP_1_A,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_exterior,mitad_sup,25-50,0.10534,0.35050,0.35050,0.35050
+dphi010,SUP_1_A,pista_exterior,mitad_sup,50-100,0.21043,0.29611,0.29611,0.29611
+dphi010,SUP_1_A,pista_exterior,mitad_sup,100-150,0.21026,0.25658,0.25658,0.25658
+dphi010,SUP_1_A,pista_exterior,mitad_sup,150-214,0.27326,0.24055,0.24055,0.24055
+dphi010,SUP_1_A,pista_exterior,mitad_sup,214-257.5,0.16815,0.21597,0.21597,0.21597
+dphi010,SUP_1_A,pista_exterior,mitad_sup,todo,1.07288,0.23789,0.23789,0.23789
+dphi010,SUP_1_A,pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_exterior,mitad_inf,150-214,0.27323,0.03173,0.03173,0.03173
+dphi010,SUP_1_A,pista_exterior,mitad_inf,214-257.5,0.16815,0.17847,0.17847,0.17847
+dphi010,SUP_1_A,pista_exterior,mitad_inf,todo,1.09384,0.04283,0.04283,0.04283
+dphi010,SUP_1_A,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_interior,mitad_sup,50-100,0.16110,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_interior,mitad_sup,100-150,0.16598,0.22307,0.22307,0.22307
+dphi010,SUP_1_A,pista_interior,mitad_sup,150-214,0.22748,0.30382,0.30382,0.30382
+dphi010,SUP_1_A,pista_interior,mitad_sup,214-257.5,0.14443,0.11504,0.11504,0.11504
+dphi010,SUP_1_A,pista_interior,mitad_sup,todo,0.77911,0.15756,0.15756,0.15756
+dphi010,SUP_1_A,resalte_interior,mitad_sup,0-25,0.08318,0.19696,0.19696,0.19696
+dphi010,SUP_1_A,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,resalte_interior,mitad_sup,todo,0.12789,0.12810,0.12810,0.12810
+dphi010,SUP_1_A,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_interior,mitad_inf,214-257.5,0.14419,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,pista_interior,mitad_inf,todo,0.79645,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,resalte_interior,mitad_inf,0-25,0.08267,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,SUP_1_A,resalte_interior,mitad_inf,todo,0.12739,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,rodillo_flanco,hilera_sup,0-25,0.22130,0.47283,0.46602,0.48282
+dphi010,SUP_2_A,rodillo_flanco,hilera_sup,25-50,0.23246,0.37224,0.36636,0.38325
+dphi010,SUP_2_A,rodillo_flanco,hilera_sup,50-100,0.48469,0.24546,0.23839,0.25240
+dphi010,SUP_2_A,rodillo_flanco,hilera_sup,100-150,0.48848,0.08992,0.07812,0.09752
+dphi010,SUP_2_A,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,rodillo_flanco,hilera_sup,todo,2.01446,0.17576,0.17302,0.17969
+dphi010,SUP_2_A,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.95147,0.95147,0.95147
+dphi010,SUP_2_A,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,rodillo_flanco,hilera_inf,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,rodillo_flanco,hilera_inf,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.26179,0.25173,0.26826
+dphi010,SUP_2_A,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_sup,25-50,0.10534,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_sup,50-100,0.21043,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_sup,100-150,0.21026,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_sup,150-214,0.27326,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_sup,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_sup,todo,1.07288,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_inf,150-214,0.27323,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_inf,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_exterior,mitad_inf,todo,1.09384,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_interior,mitad_sup,50-100,0.16110,0.29728,0.29728,0.29728
+dphi010,SUP_2_A,pista_interior,mitad_sup,100-150,0.16598,0.27876,0.27876,0.27876
+dphi010,SUP_2_A,pista_interior,mitad_sup,150-214,0.22748,0.22950,0.22950,0.22950
+dphi010,SUP_2_A,pista_interior,mitad_sup,214-257.5,0.14443,0.15791,0.15791,0.15791
+dphi010,SUP_2_A,pista_interior,mitad_sup,todo,0.77911,0.21713,0.21713,0.21713
+dphi010,SUP_2_A,resalte_interior,mitad_sup,0-25,0.08318,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,resalte_interior,mitad_sup,todo,0.12789,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,pista_interior,mitad_inf,214-257.5,0.14419,0.02572,0.02572,0.02572
+dphi010,SUP_2_A,pista_interior,mitad_inf,todo,0.79645,0.00466,0.00466,0.00466
+dphi010,SUP_2_A,resalte_interior,mitad_inf,0-25,0.08267,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,SUP_2_A,resalte_interior,mitad_inf,todo,0.12739,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,rodillo_flanco,hilera_sup,0-25,0.22130,0.55884,0.54406,0.57196
+dphi010,SUP_1_B,rodillo_flanco,hilera_sup,25-50,0.23246,0.43686,0.42742,0.44413
+dphi010,SUP_1_B,rodillo_flanco,hilera_sup,50-100,0.48469,0.22015,0.20170,0.23782
+dphi010,SUP_1_B,rodillo_flanco,hilera_sup,100-150,0.48848,0.00049,0.00000,0.00559
+dphi010,SUP_1_B,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,rodillo_flanco,hilera_sup,todo,2.01446,0.16489,0.15890,0.17008
+dphi010,SUP_1_B,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.95147,0.95147,0.95147
+dphi010,SUP_1_B,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,rodillo_flanco,hilera_inf,150-214,0.58753,0.00326,0.00326,0.00326
+dphi010,SUP_1_B,rodillo_flanco,hilera_inf,todo,2.01446,0.00095,0.00095,0.00095
+dphi010,SUP_1_B,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.49359,0.48927,0.52235
+dphi010,SUP_1_B,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_exterior,mitad_sup,25-50,0.10534,0.35050,0.35050,0.35050
+dphi010,SUP_1_B,pista_exterior,mitad_sup,50-100,0.21043,0.29639,0.29639,0.29639
+dphi010,SUP_1_B,pista_exterior,mitad_sup,100-150,0.21026,0.25658,0.25658,0.25658
+dphi010,SUP_1_B,pista_exterior,mitad_sup,150-214,0.27326,0.24055,0.24055,0.24055
+dphi010,SUP_1_B,pista_exterior,mitad_sup,214-257.5,0.16815,0.21597,0.21597,0.21597
+dphi010,SUP_1_B,pista_exterior,mitad_sup,todo,1.07288,0.23795,0.23795,0.23795
+dphi010,SUP_1_B,pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_exterior,mitad_inf,150-214,0.27323,0.03173,0.03173,0.03173
+dphi010,SUP_1_B,pista_exterior,mitad_inf,214-257.5,0.16815,0.17847,0.17847,0.17847
+dphi010,SUP_1_B,pista_exterior,mitad_inf,todo,1.09384,0.04283,0.04283,0.04283
+dphi010,SUP_1_B,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_interior,mitad_sup,50-100,0.16110,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_interior,mitad_sup,100-150,0.16598,0.22307,0.22307,0.22307
+dphi010,SUP_1_B,pista_interior,mitad_sup,150-214,0.22748,0.30392,0.30392,0.30392
+dphi010,SUP_1_B,pista_interior,mitad_sup,214-257.5,0.14443,0.11504,0.11504,0.11504
+dphi010,SUP_1_B,pista_interior,mitad_sup,todo,0.77911,0.15759,0.15759,0.15759
+dphi010,SUP_1_B,resalte_interior,mitad_sup,0-25,0.08318,0.19696,0.19696,0.19696
+dphi010,SUP_1_B,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,resalte_interior,mitad_sup,todo,0.12789,0.12810,0.12810,0.12810
+dphi010,SUP_1_B,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_interior,mitad_inf,214-257.5,0.14419,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,pista_interior,mitad_inf,todo,0.79645,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,resalte_interior,mitad_inf,0-25,0.08267,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,SUP_1_B,resalte_interior,mitad_inf,todo,0.12739,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,rodillo_flanco,hilera_sup,0-25,0.22130,0.47283,0.46602,0.48282
+dphi010,SUP_2_B,rodillo_flanco,hilera_sup,25-50,0.23246,0.37224,0.36636,0.38325
+dphi010,SUP_2_B,rodillo_flanco,hilera_sup,50-100,0.48469,0.24546,0.23839,0.25240
+dphi010,SUP_2_B,rodillo_flanco,hilera_sup,100-150,0.48848,0.08992,0.07812,0.09752
+dphi010,SUP_2_B,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,rodillo_flanco,hilera_sup,todo,2.01446,0.17576,0.17302,0.17969
+dphi010,SUP_2_B,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.95147,0.95147,0.95147
+dphi010,SUP_2_B,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,rodillo_flanco,hilera_inf,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,rodillo_flanco,hilera_inf,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.26179,0.25173,0.26826
+dphi010,SUP_2_B,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_sup,25-50,0.10534,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_sup,50-100,0.21043,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_sup,100-150,0.21026,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_sup,150-214,0.27326,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_sup,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_sup,todo,1.07288,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_inf,150-214,0.27323,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_inf,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_exterior,mitad_inf,todo,1.09384,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_interior,mitad_sup,50-100,0.16110,0.29728,0.29728,0.29728
+dphi010,SUP_2_B,pista_interior,mitad_sup,100-150,0.16598,0.27876,0.27876,0.27876
+dphi010,SUP_2_B,pista_interior,mitad_sup,150-214,0.22748,0.22950,0.22950,0.22950
+dphi010,SUP_2_B,pista_interior,mitad_sup,214-257.5,0.14443,0.15791,0.15791,0.15791
+dphi010,SUP_2_B,pista_interior,mitad_sup,todo,0.77911,0.21713,0.21713,0.21713
+dphi010,SUP_2_B,resalte_interior,mitad_sup,0-25,0.08318,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,resalte_interior,mitad_sup,todo,0.12789,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,pista_interior,mitad_inf,214-257.5,0.14419,0.02572,0.02572,0.02572
+dphi010,SUP_2_B,pista_interior,mitad_inf,todo,0.79645,0.00466,0.00466,0.00466
+dphi010,SUP_2_B,resalte_interior,mitad_inf,0-25,0.08267,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,SUP_2_B,resalte_interior,mitad_inf,todo,0.12739,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_sup,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_sup,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_sup,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_sup,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_sup,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_inf,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_flanco,hilera_inf,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_sup,25-50,0.10534,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_sup,50-100,0.21043,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_sup,100-150,0.21026,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_sup,150-214,0.27326,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_sup,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_sup,todo,1.07288,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_inf,150-214,0.27323,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_inf,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_exterior,mitad_inf,todo,1.09384,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_sup,50-100,0.16110,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_sup,100-150,0.16598,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_sup,150-214,0.22748,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_sup,214-257.5,0.14443,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_sup,todo,0.77911,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,resalte_interior,mitad_sup,0-25,0.08318,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,resalte_interior,mitad_sup,todo,0.12789,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_inf,214-257.5,0.14419,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,pista_interior,mitad_inf,todo,0.79645,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,resalte_interior,mitad_inf,0-25,0.08267,0.61473,0.61473,0.61473
+dphi010,INF_EXT_A,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,INF_EXT_A,resalte_interior,mitad_inf,todo,0.12739,0.39895,0.39895,0.39895
+dphi010,INF_EXT_B,rodillo_flanco,hilera_sup,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_sup,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_sup,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_sup,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_sup,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_inf,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_flanco,hilera_inf,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_sup,25-50,0.10534,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_sup,50-100,0.21043,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_sup,100-150,0.21026,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_sup,150-214,0.27326,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_sup,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_sup,todo,1.07288,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_inf,150-214,0.27323,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_inf,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_exterior,mitad_inf,todo,1.09384,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_sup,50-100,0.16110,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_sup,100-150,0.16598,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_sup,150-214,0.22748,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_sup,214-257.5,0.14443,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_sup,todo,0.77911,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,resalte_interior,mitad_sup,0-25,0.08318,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,resalte_interior,mitad_sup,todo,0.12789,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_inf,214-257.5,0.14419,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,pista_interior,mitad_inf,todo,0.79645,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,resalte_interior,mitad_inf,0-25,0.08267,0.61473,0.61473,0.61473
+dphi010,INF_EXT_B,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,INF_EXT_B,resalte_interior,mitad_inf,todo,0.12739,0.39895,0.39895,0.39895
+dphi010,C2_A,rodillo_flanco,hilera_sup,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_sup,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_sup,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_sup,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_sup,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_inf,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_flanco,hilera_inf,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,C2_A,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_sup,25-50,0.10534,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_sup,50-100,0.21043,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_sup,100-150,0.21026,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_sup,150-214,0.27326,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_sup,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_sup,todo,1.07288,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_inf,150-214,0.27323,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_inf,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_exterior,mitad_inf,todo,1.09384,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_sup,50-100,0.16110,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_sup,100-150,0.16598,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_sup,150-214,0.22748,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_sup,214-257.5,0.14443,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_sup,todo,0.77911,0.00000,0.00000,0.00000
+dphi010,C2_A,resalte_interior,mitad_sup,0-25,0.08318,0.00000,0.00000,0.00000
+dphi010,C2_A,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,C2_A,resalte_interior,mitad_sup,todo,0.12789,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_inf,214-257.5,0.14419,0.00000,0.00000,0.00000
+dphi010,C2_A,pista_interior,mitad_inf,todo,0.79645,0.00000,0.00000,0.00000
+dphi010,C2_A,resalte_interior,mitad_inf,0-25,0.08267,0.60475,0.60475,0.60475
+dphi010,C2_A,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,C2_A,resalte_interior,mitad_inf,todo,0.12739,0.39247,0.39247,0.39247
+dphi010,C2_B,rodillo_flanco,hilera_sup,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_sup,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_sup,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_sup,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_sup,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_inf,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_flanco,hilera_inf,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,C2_B,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_sup,25-50,0.10534,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_sup,50-100,0.21043,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_sup,100-150,0.21026,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_sup,150-214,0.27326,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_sup,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_sup,todo,1.07288,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_inf,0-25,0.10550,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_inf,25-50,0.10532,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_inf,150-214,0.27323,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_inf,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_exterior,mitad_inf,todo,1.09384,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_sup,50-100,0.16110,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_sup,100-150,0.16598,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_sup,150-214,0.22748,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_sup,214-257.5,0.14443,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_sup,todo,0.77911,0.00000,0.00000,0.00000
+dphi010,C2_B,resalte_interior,mitad_sup,0-25,0.08318,0.00000,0.00000,0.00000
+dphi010,C2_B,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,C2_B,resalte_interior,mitad_sup,todo,0.12789,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_inf,214-257.5,0.14419,0.00000,0.00000,0.00000
+dphi010,C2_B,pista_interior,mitad_inf,todo,0.79645,0.00000,0.00000,0.00000
+dphi010,C2_B,resalte_interior,mitad_inf,0-25,0.08267,0.60475,0.60475,0.60475
+dphi010,C2_B,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,C2_B,resalte_interior,mitad_inf,todo,0.12739,0.39247,0.39247,0.39247
+dphi010,INF_INT,rodillo_flanco,hilera_sup,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_sup,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_sup,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_sup,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_sup,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_sup,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_extremo_cara,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_extremo_interior,hilera_sup,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_inf,0-25,0.22130,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_inf,25-50,0.23246,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_inf,50-100,0.48469,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_inf,100-150,0.48848,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_inf,150-214,0.58753,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_flanco,hilera_inf,todo,2.01446,0.00000,0.00000,0.00000
+dphi010,INF_INT,rodillo_extremo_cara,hilera_inf,extremo,0.25485,0.47165,0.47165,0.47165
+dphi010,INF_INT,rodillo_extremo_interior,hilera_inf,extremo,0.25485,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_sup,0-25,0.10544,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_sup,25-50,0.10534,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_sup,50-100,0.21043,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_sup,100-150,0.21026,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_sup,150-214,0.27326,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_sup,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_sup,todo,1.07288,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_inf,0-25,0.10550,0.66010,0.66010,0.66010
+dphi010,INF_INT,pista_exterior,mitad_inf,25-50,0.10532,0.18087,0.18087,0.18087
+dphi010,INF_INT,pista_exterior,mitad_inf,50-100,0.21040,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_inf,100-150,0.21023,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_inf,150-214,0.27323,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_inf,214-257.5,0.16815,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_exterior,mitad_inf,todo,1.09384,0.08108,0.08108,0.08108
+dphi010,INF_INT,pista_interior,mitad_sup,25-50,0.08013,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_sup,50-100,0.16110,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_sup,100-150,0.16598,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_sup,150-214,0.22748,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_sup,214-257.5,0.14443,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_sup,todo,0.77911,0.00000,0.00000,0.00000
+dphi010,INF_INT,resalte_interior,mitad_sup,0-25,0.08318,0.00000,0.00000,0.00000
+dphi010,INF_INT,resalte_interior,mitad_sup,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,INF_INT,resalte_interior,mitad_sup,todo,0.12789,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_inf,25-50,0.08014,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_inf,50-100,0.16109,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_inf,100-150,0.16611,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_inf,150-214,0.22759,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_inf,214-257.5,0.14419,0.00000,0.00000,0.00000
+dphi010,INF_INT,pista_interior,mitad_inf,todo,0.79645,0.00000,0.00000,0.00000
+dphi010,INF_INT,resalte_interior,mitad_inf,0-25,0.08267,0.00000,0.00000,0.00000
+dphi010,INF_INT,resalte_interior,mitad_inf,25-50,0.04471,0.00000,0.00000,0.00000
+dphi010,INF_INT,resalte_interior,mitad_inf,todo,0.12739,0.00000,0.00000,0.00000

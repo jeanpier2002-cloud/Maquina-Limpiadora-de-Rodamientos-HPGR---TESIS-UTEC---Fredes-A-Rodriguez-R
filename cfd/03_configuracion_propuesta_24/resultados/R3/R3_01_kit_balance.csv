@@ -1,0 +1,12 @@
+zona,n_parcelas_total,masa_total_kg,mdot_ventana_kg_s
+abierto_agujero,407243,8.577040e-04,2.474332e-02
+abierto_exterior,0,0.000000e+00,0.000000e+00
+abierto_inferior,144314,6.075475e-04,1.618656e-02
+abierto_interior,6019,2.525512e-05,4.440941e-04
+abierto_lateral,0,0.000000e+00,0.000000e+00
+abierto_superior,0,0.000000e+00,0.000000e+00
+cara_inf,3481703,7.332940e-03,1.742199e-01
+od,10136532,3.792294e-02,8.448212e-01
+TOTAL_salidas_ventana,,,1.060415e+00
+inyectado,,,1.059842e+00
+error_balance_ventana_pct,,,0.0540

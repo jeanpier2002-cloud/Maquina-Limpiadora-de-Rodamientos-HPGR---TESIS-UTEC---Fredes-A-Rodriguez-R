@@ -1,0 +1,2 @@
+caso,superficie,modo,banda_mm,T_vuelta_s,n_impactos,n_fuera_de_limites,mdot_depositado_kg_s,K5_eta_pct,K2_D_media_kg_m2_vuelta,K2_D_min,K2_D_max,K3_CV,K4_zona_seca_pct,K4_cob_Dmin_1_pct,K4_cob_Dmin_5_pct,K6_J_media_N_s_m2_vuelta,K6_p_huella_Pa,K6_vn_medio_m_s,A_huella_m2,parcelas_por_celda_huella,area_que_cuenta_m2
+F5_base_v1,cono,transitorio,10.0,35.294,704221,0,0.781418,86.98,18.7587,10.4535,34.3777,0.3362,0.000,100.00,100.00,437.95775,3542.46,23.347,0.005150,3418.55,1.470219

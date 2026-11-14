@@ -1,0 +1,15 @@
+fenomeno,v_m_s,L_m,Fr,Fr2,cambio_max_v2_pct,fuente_v,fuente_L
+"Chorro en vuelo, LAT -> OD",27.47,0.1303,24.3,590,0.339,"E1/E2 (27,47 m/s)","TABLA_MAESTRA_22: 130,35 mm"
+"Chorro en vuelo, SUP -> cara superior",27.47,0.189,20.2,407,0.491,E1/E2,PROMPT §A: ~189 mm
+"Chorro en vuelo, INT -> agujero",27.47,0.148,22.8,520,0.385,E1/E2,PROMPT §A: ~148 mm
+"Lamina, L = espesor e0 (E1)",27.47,0.0003,506,2.56e+05,0.00078,E1/E2,"E1: e0 = 0,30 mm"
+"Lamina, L = espesor en el OD (E1-OD)",27.47,4.9e-05,1.25e+03,1.57e+06,0.000127,E1/E2,"e_OD = 0,049 mm (lamina intacta)"
+Dominio de E1 (impacto y pelicula cercana),27.47,0.02,62,3.85e+03,0.052,E1/E2,E1: dominio de 20 mm
+"Pelicula junto al impacto, alto de huella",26.6,0.1216,24.4,593,0.337,u_f de E1 (NUMEROS_v2 l. 13),"alto de huella 121,6 mm (2*130,35*tan 25)"
+Pelicula que escurre lejos del impacto (u = 1 m/s),1,0.515,0.445,0.198,1.01e+03,"[CALCULO, orden de magnitud]",ancho del rodamiento 515 mm (CLAUDE.md)
+"Pelicula que escurre lejos del impacto (u = 0,1 m/s)",0.1,0.515,0.0445,0.00198,1.01e+05,"[CALCULO, orden de magnitud]",ancho del rodamiento 515 mm
+Gotas de INF_EXT llegando rasantes a la cara inferior,4.4,0.26,2.76,7.59,26.3,"K6: v_n 4,4 m/s (G7)",ancho radial de la cara inferior (1420-900)/2 = 260 mm
+Gotas de INF_INT llegando a la cara inferior,9.7,0.26,6.07,36.9,5.42,"K6: v_n 9,7 m/s (G5)",260 mm
+Drenaje y goteo bajo la cara inferior,0.1,0.0026,0.626,0.392,510,"[CALCULO, orden de magnitud]","longitud capilar sqrt(sigma/rho g) = 2,6 mm"
+"Rotor a 1,7 rpm, L = diametro exterior",0.1264,1.42,0.0339,0.00115,1.74e+05,"omega*R, R = 0,71 m",OD 1420 mm
+"Rotor a 1,7 rpm, L = radio exterior",0.1264,0.71,0.0479,0.00229,8.72e+04,omega*R,R = 710 mm

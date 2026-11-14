@@ -1,0 +1,43 @@
+superficie,zona,D_req,D_min_banda_media_theta,vueltas_M5,min_M5,D_min_celda,min_peor_celda_absoluta
+OD,total,65,10.5331,6.171,3.63,5.2794,7.24
+OD,total,183,10.5331,17.374,10.22,5.2794,20.39
+OD,total,305,10.5331,28.956,17.03,5.2794,33.98
+OD,OD_alto_z1000-1405,65,15.6912,4.142,2.44,15.6912,2.44
+OD,OD_alto_z1000-1405,183,15.6912,11.663,6.86,15.6912,6.86
+OD,OD_alto_z1000-1405,305,15.6912,19.438,11.43,15.6912,11.43
+OD,OD_bajo_z890-1000,65,10.5331,6.171,3.63,5.2794,7.24
+OD,OD_bajo_z890-1000,183,10.5331,17.374,10.22,5.2794,20.39
+OD,OD_bajo_z890-1000,305,10.5331,28.956,17.03,5.2794,33.98
+Cara inferior,total,65,7.3322,8.865,5.21,0.6151,62.16
+Cara inferior,total,183,7.3322,24.958,14.68,0.6151,175.01
+Cara inferior,total,305,7.3322,41.597,24.47,0.6151,291.68
+Cara inferior,Z1_aro_interior,65,7.6802,8.463,4.98,4.9063,7.79
+Cara inferior,Z1_aro_interior,183,7.6802,23.828,14.02,4.9063,21.94
+Cara inferior,Z1_aro_interior,305,7.6802,39.713,23.36,4.9063,36.57
+Cara inferior,Z2_ventana_proyectada,65,7.3322,8.865,5.21,1.1031,34.66
+Cara inferior,Z2_ventana_proyectada,183,7.3322,24.958,14.68,1.1031,97.59
+Cara inferior,Z2_ventana_proyectada,305,7.3322,41.597,24.47,1.1031,162.64
+Cara inferior,Z3_aro_exterior,65,11.5369,5.634,3.31,0.6151,62.16
+Cara inferior,Z3_aro_exterior,183,11.5369,15.862,9.33,0.6151,175.01
+Cara inferior,Z3_aro_exterior,305,11.5369,26.437,15.55,0.6151,291.68
+Cara inferior,Z1+Z3_aros_sin_ventana,65,7.6802,8.463,4.98,0.6151,62.16
+Cara inferior,Z1+Z3_aros_sin_ventana,183,7.6802,23.828,14.02,0.6151,175.01
+Cara inferior,Z1+Z3_aros_sin_ventana,305,7.6802,39.713,23.36,0.6151,291.68
+Cara superior,total,65,14.0292,4.633,2.73,14.0292,2.73
+Cara superior,total,183,14.0292,13.044,7.67,14.0292,7.67
+Cara superior,total,305,14.0292,21.740,12.79,14.0292,12.79
+Cara superior,Z1_aro_interior,65,19.7231,3.296,1.94,19.7231,1.94
+Cara superior,Z1_aro_interior,183,19.7231,9.278,5.46,19.7231,5.46
+Cara superior,Z1_aro_interior,305,19.7231,15.464,9.10,19.7231,9.10
+Cara superior,Z2_ventana_proyectada,65,18.9994,3.421,2.01,18.9994,2.01
+Cara superior,Z2_ventana_proyectada,183,18.9994,9.632,5.67,18.9994,5.67
+Cara superior,Z2_ventana_proyectada,305,18.9994,16.053,9.44,18.9994,9.44
+Cara superior,Z3_aro_exterior,65,14.0292,4.633,2.73,14.0292,2.73
+Cara superior,Z3_aro_exterior,183,14.0292,13.044,7.67,14.0292,7.67
+Cara superior,Z3_aro_exterior,305,14.0292,21.740,12.79,14.0292,12.79
+Cara superior,Z1+Z3_aros_sin_ventana,65,14.0292,4.633,2.73,14.0292,2.73
+Cara superior,Z1+Z3_aros_sin_ventana,183,14.0292,13.044,7.67,14.0292,7.67
+Cara superior,Z1+Z3_aros_sin_ventana,305,14.0292,21.740,12.79,14.0292,12.79
+Agujero,total,65,11.5207,5.642,3.32,11.5207,3.32
+Agujero,total,183,11.5207,15.884,9.34,11.5207,9.34
+Agujero,total,305,11.5207,26.474,15.57,11.5207,15.57

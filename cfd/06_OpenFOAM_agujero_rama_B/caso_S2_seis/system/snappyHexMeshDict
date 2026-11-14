@@ -1,0 +1,43 @@
+FoamFile { version 2.0; format ascii; class dictionary; object snappyHexMeshDict; }
+castellatedMesh true; snap true; addLayers false;
+geometry
+{
+    pared_agujero.stl        { type triSurfaceMesh; name pared_agujero; }
+    cara_inf_rodamiento.stl  { type triSurfaceMesh; name cara_inf_rodamiento; }
+    cara_sup_rodamiento.stl  { type triSurfaceMesh; name cara_sup_rodamiento; }
+    lanza.stl                { type triSurfaceMesh; name lanza; }
+}
+castellatedMeshControls
+{
+    maxLocalCells 4000000; maxGlobalCells 8000000; minRefinementCells 10;
+    maxLoadUnbalance 0.10; nCellsBetweenLevels 2; features ();
+    refinementSurfaces
+    {
+        pared_agujero       { level (2 2); patchInfo { type wall; } }
+        cara_inf_rodamiento { level (0 0); patchInfo { type wall; } }
+        cara_sup_rodamiento { level (0 0); patchInfo { type wall; } }
+        lanza               { level (2 2); patchInfo { type wall; } }
+    }
+    resolveFeatureAngle 30; refinementRegions {};
+    locationInMesh (0.2 -0.2 1.1); allowFreeStandingZoneFaces false;
+}
+snapControls
+{
+    nSmoothPatch 3; tolerance 2.0; nSolveIter 50; nRelaxIter 5;
+    nFeatureSnapIter 10; implicitFeatureSnap false; explicitFeatureSnap false;
+    multiRegionFeatureSnap false;
+}
+addLayersControls
+{
+    relativeSizes true; layers {}; expansionRatio 1.0; finalLayerThickness 0.3;
+    minThickness 0.1; nGrow 0; featureAngle 60; nRelaxIter 3;
+    nSmoothSurfaceNormals 1; nSmoothNormals 3; nSmoothThickness 10;
+    maxFaceThicknessRatio 0.5; maxThicknessToMedialRatio 0.3; minMedialAxisAngle 90;
+    nBufferCellsNoExtrude 0; nLayerIter 50;
+}
+meshQualityControls
+{
+    #includeEtc "caseDicts/meshQualityDict"
+    nSmoothScale 4; errorReduction 0.75; relaxed { maxNonOrtho 75; }
+}
+writeFlags (); mergeTolerance 1e-6;

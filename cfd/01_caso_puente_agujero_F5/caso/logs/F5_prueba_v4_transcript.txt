@@ -1,0 +1,649 @@
+Transcript Start Time:  21:38:20, 26 Sep 2026 Hora est. Pacífico, Sudamérica 
+Current Directory: "D:\CFD02_run\F5"
+
+Build Time: Feb  2 2026 16:32:00 EST  Build Id: 10262 
+Executable Path: D:/Ansys/ANSYS Inc/ANSYS Student/v261/fluent/ntbin/win64/fluent.exe
+
+-----------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    CPU Model Name                   
+-----------------------------------------------------------------------------------
+n3    DESKTOP-KR70U7K  4/16  Windows-x64  23984  Intel(R) Core(TM) i7-10700F      
+n2    DESKTOP-KR70U7K  3/16  Windows-x64  21764  Intel(R) Core(TM) i7-10700F      
+n1    DESKTOP-KR70U7K  2/16  Windows-x64  10512  Intel(R) Core(TM) i7-10700F      
+n0*   DESKTOP-KR70U7K  1/16  Windows-x64  13032  Intel(R) Core(TM) i7-10700F      
+host  DESKTOP-KR70U7K        Windows-x64  25796  Intel(R) Core(TM) i7-10700F      
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-----------------------------------------------------------------------------------
+
+Cortex Process ID: 22564 
+License Server Path: () 
+
+
+> /file/read-case "D:/CFD02_run/F5/agujero_base.msh"
+Reading "D:/CFD02_run/F5/agujero_base.msh"...
+
+Buffering for file scan...
+
+  529132 nodes.
+  512130 hexahedral cells, zone  2.
+ 1518094 quadrilateral interior faces, zone  3.
+    5412 quadrilateral pressure-outlet faces, zone  4.
+    5400 quadrilateral pressure-outlet faces, zone  5.
+     820 quadrilateral wall faces, zone  6.
+     820 quadrilateral wall faces, zone  7.
+    6428 quadrilateral wall faces, zone  8.
+    1804 quadrilateral pressure-outlet faces, zone  9.
+    8856 quadrilateral pressure-outlet faces, zone 10.
+    7052 quadrilateral wall faces, zone 11.
+
+Building...
+     mesh
+	auto partitioning mesh by Metis (fast),
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 5655/2338 = 2.41873
+     materials,
+     interface,
+     domains,
+     zones,
+	pared_agujero
+	nucleo_abierto
+	lateral_abierto
+	lanza
+	cara_sup_rodamiento
+	cara_inf_rodamiento
+	abierto_superior
+	abierto_inferior
+	interior-fluid
+	fluid
+     parallel,
+Done.
+
+
+> /mesh/check
+
+ Domain Extents:
+   x-coordinate: min (m) = -5.499994e-01, max (m) = 5.499994e-01
+   y-coordinate: min (m) = -5.500000e-01, max (m) = 5.500000e-01
+   z-coordinate: min (m) = 7.900000e-01, max (m) = 1.445000e+00
+ Volume statistics:
+   minimum volume (m3): 9.128422e-08
+   maximum volume (m3): 6.920213e-06
+     total volume (m3): 4.445705e-01
+ Face area statistics:
+   minimum face area (m2): 8.205523e-06
+   maximum face area (m2): 9.455015e-04
+ Checking mesh.........................................
+ Done.
+
+> /define/operating-conditions/operating-pressure
+operating pressure (constant or expression) (in [Pa]) [101325] 76240
+
+> /define/operating-conditions/gravity
+Enable gravitational forces? [no] yes
+x-component of gravity (constant or expression) (in [m/s^2]) [0] 0
+y-component of gravity (constant or expression) (in [m/s^2]) [0] 0
+z-component of gravity (constant or expression) (in [m/s^2]) [0] -9.81
+
+> /define/materials/change-create
+
+material-name> air
+material name [air] 
+air is a fluid
+change Density? [no] yes
+
+Density
+methods: (constant ideal-gas incompressible-ideal-gas rgp-table real-gas-soave-redlich-kwong real-gas-peng-robinson real-gas-aungier-redlich-kwong real-gas-redlich-kwong real-gas-nist boussinesq piecewise-linear piecewise-polynomial polynomial expression compressible-liquid user-defined)
+new method [constant] constant
+value (in [kg/m^3]) [1.225] 0.90610
+
+change Cp (Specific Heat)? [no] no
+change Thermal Conductivity? [no] no
+change Viscosity? [no] yes
+
+Viscosity
+methods: (constant piecewise-linear piecewise-polynomial polynomial expression power-law sutherland kinetic-theory user-defined)
+new method [constant] constant
+value (in [kg/(m s)]) [1.7894e-05] 1.8250e-05
+
+change Molecular Weight? [no] no
+change Thermal Expansion Coefficient? [no] no
+change Speed of Sound? [no] no
+
+> /define/models/viscous/ke-standard?
+Enable the standard k-epsilon turbulence model? [no] yes
+
+Adjusting the following setting:
+Changing Discretization Scheme for Turbulent Kinetic Energy:   from: Second Order Upwind   to: First Order Upwind
+
+> /define/models/unsteady-1st-order?
+Enable first-order unsteady solution model? [no] yes
+Pressure-Velocity Coupling scheme is set to SIMPLE
+
+> /define/models/dpm/injections/create-injection
+injection name [injection-0] INT_1
+Particle type [inert]: Change current value? [no] no
+Injection type [single]: Change current value? [no] yes
+
+Injection type [single]> file
+Injection Material [anthracite]: Change current value? [no] no
+File name [""] "D:/CFD02_run/F5/INT_1.dpm"
+Stochastic Tracking? [no] no
+Modify Laws? [no] no
+Set user defined initialization function? [no] no
+Cloud Tracking? [no] no
+Set parcel release method? [no] no
+Start Time (in [s]) [0] 0
+Stop Time (in [s]) [0] 1
+
+The injection settings have been assigned. ---
+Please note that more options and settings may be available in the
+TUI menu: /define[/models/dpm]/injections/injection-properties/set
+At least the drag-parameters should be set there for all particles having any mass;
+for droplets, e.g. breakup parameters may be available there, too.
+
+> /define/models/dpm/injections/create-injection
+injection name [injection-0] INT_2
+Particle type [inert]: Change current value? [no] no
+Injection type [single]: Change current value? [no] yes
+
+Injection type [single]> file
+Injection Material [anthracite]: Change current value? [no] no
+File name [""] "D:/CFD02_run/F5/INT_2.dpm"
+Stochastic Tracking? [no] no
+Modify Laws? [no] no
+Set user defined initialization function? [no] no
+Cloud Tracking? [no] no
+Set parcel release method? [no] no
+Start Time (in [s]) [0] 0
+Stop Time (in [s]) [0] 1
+
+The injection settings have been assigned. ---
+Please note that more options and settings may be available in the
+TUI menu: /define[/models/dpm]/injections/injection-properties/set
+At least the drag-parameters should be set there for all particles having any mass;
+for droplets, e.g. breakup parameters may be available there, too.
+
+> /define/models/dpm/injections/create-injection
+injection name [injection-0] INT_3
+Particle type [inert]: Change current value? [no] no
+Injection type [single]: Change current value? [no] yes
+
+Injection type [single]> file
+Injection Material [anthracite]: Change current value? [no] no
+File name [""] "D:/CFD02_run/F5/INT_3.dpm"
+Stochastic Tracking? [no] no
+Modify Laws? [no] no
+Set user defined initialization function? [no] no
+Cloud Tracking? [no] no
+Set parcel release method? [no] no
+Start Time (in [s]) [0] 0
+Stop Time (in [s]) [0] 1
+
+The injection settings have been assigned. ---
+Please note that more options and settings may be available in the
+TUI menu: /define[/models/dpm]/injections/injection-properties/set
+At least the drag-parameters should be set there for all particles having any mass;
+for droplets, e.g. breakup parameters may be available there, too.
+
+> /define/models/dpm/injections/create-injection
+injection name [injection-0] INT_4
+Particle type [inert]: Change current value? [no] no
+Injection type [single]: Change current value? [no] yes
+
+Injection type [single]> file
+Injection Material [anthracite]: Change current value? [no] no
+File name [""] "D:/CFD02_run/F5/INT_4.dpm"
+Stochastic Tracking? [no] no
+Modify Laws? [no] no
+Set user defined initialization function? [no] no
+Cloud Tracking? [no] no
+Set parcel release method? [no] no
+Start Time (in [s]) [0] 0
+Stop Time (in [s]) [0] 1
+
+The injection settings have been assigned. ---
+Please note that more options and settings may be available in the
+TUI menu: /define[/models/dpm]/injections/injection-properties/set
+At least the drag-parameters should be set there for all particles having any mass;
+for droplets, e.g. breakup parameters may be available there, too.
+
+> /define/models/dpm/injections/create-injection
+injection name [injection-0] INT_5
+Particle type [inert]: Change current value? [no] no
+Injection type [single]: Change current value? [no] yes
+
+Injection type [single]> file
+Injection Material [anthracite]: Change current value? [no] no
+File name [""] "D:/CFD02_run/F5/INT_5.dpm"
+Stochastic Tracking? [no] no
+Modify Laws? [no] no
+Set user defined initialization function? [no] no
+Cloud Tracking? [no] no
+Set parcel release method? [no] no
+Start Time (in [s]) [0] 0
+Stop Time (in [s]) [0] 1
+
+The injection settings have been assigned. ---
+Please note that more options and settings may be available in the
+TUI menu: /define[/models/dpm]/injections/injection-properties/set
+At least the drag-parameters should be set there for all particles having any mass;
+for droplets, e.g. breakup parameters may be available there, too.
+
+> /define/models/dpm/injections/create-injection
+injection name [injection-0] INF_INT
+Particle type [inert]: Change current value? [no] no
+Injection type [single]: Change current value? [no] yes
+
+Injection type [single]> file
+Injection Material [anthracite]: Change current value? [no] no
+File name [""] "D:/CFD02_run/F5/INF_INT.dpm"
+Stochastic Tracking? [no] no
+Modify Laws? [no] no
+Set user defined initialization function? [no] no
+Cloud Tracking? [no] no
+Set parcel release method? [no] no
+Start Time (in [s]) [0] 0
+Stop Time (in [s]) [0] 1
+
+The injection settings have been assigned. ---
+Please note that more options and settings may be available in the
+TUI menu: /define[/models/dpm]/injections/injection-properties/set
+At least the drag-parameters should be set there for all particles having any mass;
+for droplets, e.g. breakup parameters may be available there, too.
+
+> /define/materials/change-create
+
+material-name> anthracite
+material name [anthracite] 
+anthracite is a inert-particle
+change Density? [no] yes
+
+Density
+methods: (constant piecewise-linear piecewise-polynomial polynomial user-defined)
+new method [constant] constant
+value (in [kg/m^3]) [1550] 982.12
+
+change Cp (Specific Heat)? [no] no
+
+> /define/models/dpm/interaction/coupled-calculations?
+Discrete phase affects continuous phase [no] yes
+
+Adjusting the following settings:
+Update DPM source terms every flow iteration?:   from: disabled   to: enabled
+DPM source terms under-relaxation factor:        from:   0.5   to:   0.9
+
+> /define/models/dpm/unsteady-tracking
+Unsteady particle tracking [yes] yes
+Use same time stepping as fluid flow? [yes] yes
+
+> /define/boundary-conditions/wall
+(cara_inf_rodamiento cara_sup_rodamiento lanza pared_agujero)
+zone id/name [cara_inf_rodamiento] pared_agujero
+Wall Motion [motion-bc-stationary]: Change current value? [no] 
+Shear Boundary Condition [shear-bc-noslip]: Change current value? [no] 
+Use Profile for Wall Roughness Height? [no] 
+Wall Roughness Height (constant or expression) (in [m]) [0] 
+Use Profile for Wall Roughness Constant? [no] 
+Wall Roughness Constant (constant or expression) [0.5] 
+Discrete Phase BC Type [reflect]: Change current value? [no] yes
+
+Discrete Phase BC Type [reflect]> trap
+
+Resetting "DEM Collision Partner" from *dem-unknown* to none.
+
+Resetting "Use Settings from" from *pick-an-injection* to int_1.
+
+> /define/boundary-conditions/wall
+(cara_inf_rodamiento cara_sup_rodamiento lanza pared_agujero)
+zone id/name [cara_inf_rodamiento] cara_inf_rodamiento
+Wall Motion [motion-bc-stationary]: Change current value? [no] 
+Shear Boundary Condition [shear-bc-noslip]: Change current value? [no] 
+Use Profile for Wall Roughness Height? [no] 
+Wall Roughness Height (constant or expression) (in [m]) [0] 
+Use Profile for Wall Roughness Constant? [no] 
+Wall Roughness Constant (constant or expression) [0.5] 
+Discrete Phase BC Type [reflect]: Change current value? [no] yes
+
+Discrete Phase BC Type [reflect]> trap
+
+Resetting "DEM Collision Partner" from *dem-unknown* to none.
+
+Resetting "Use Settings from" from *pick-an-injection* to int_1.
+
+> /define/boundary-conditions/wall
+(cara_inf_rodamiento cara_sup_rodamiento lanza pared_agujero)
+zone id/name [cara_inf_rodamiento] cara_sup_rodamiento
+Wall Motion [motion-bc-stationary]: Change current value? [no] 
+Shear Boundary Condition [shear-bc-noslip]: Change current value? [no] 
+Use Profile for Wall Roughness Height? [no] 
+Wall Roughness Height (constant or expression) (in [m]) [0] 
+Use Profile for Wall Roughness Constant? [no] 
+Wall Roughness Constant (constant or expression) [0.5] 
+Discrete Phase BC Type [reflect]: Change current value? [no] yes
+
+Discrete Phase BC Type [reflect]> trap
+
+Resetting "DEM Collision Partner" from *dem-unknown* to none.
+
+Resetting "Use Settings from" from *pick-an-injection* to int_1.
+
+> /define/boundary-conditions/wall
+(cara_inf_rodamiento cara_sup_rodamiento lanza pared_agujero)
+zone id/name [cara_inf_rodamiento] lanza
+Wall Motion [motion-bc-stationary]: Change current value? [no] 
+Shear Boundary Condition [shear-bc-noslip]: Change current value? [no] 
+Use Profile for Wall Roughness Height? [no] 
+Wall Roughness Height (constant or expression) (in [m]) [0] 
+Use Profile for Wall Roughness Constant? [no] 
+Wall Roughness Constant (constant or expression) [0.5] 
+Discrete Phase BC Type [reflect]: Change current value? [no] yes
+
+Discrete Phase BC Type [reflect]> trap
+
+Resetting "DEM Collision Partner" from *dem-unknown* to none.
+
+Resetting "Use Settings from" from *pick-an-injection* to int_1.
+
+> /solve/set/transient-controls/time-step-size
+Time step size (constant or expression) (in [s]) [1] 5e-05
+
+> /solve/set/transient-controls/max-iterations-per-time-step
+Max Iterations/Time Step [20] 10
+
+> /report/dpm-sample
+(inf_int int_1 int_2 int_3 int_4 int_5)
+Injection Name(1) ["inf_int"] INT_1
+Injection Name(2) ["int_1"] 
+Injection Name(3) ["int_2"] pared_agujero
+Injection Name(4) ["int_3"] 
+Injection Name(5) ["int_4"] 
+Injection Name(6) ["int_5"] 
+Injection Name(7) [()] 
+(interior-fluid abierto_inferior abierto_superior cara_inf_rodamiento cara_sup_rodamiento lanza lateral_abierto nucleo_abierto pared_agujero)
+Pick Boundary Names : (1) [()] 
+Planes Name(1) [()] 
+Append sample files? [no] 
+Accumulate erosion/accretion rates? [no] 
+
+
+Warning: At least one boundary zone or one plane needs to be selected for calculating and sampling particle tracks.
+[Hit ENTER key to proceed...]
+> 
+adjoint/                parallel/               server/
+define/                 parametric-study/       solve/
+display/                plot/                   surface/
+exit                    preferences/            turbo-setup/
+file/                   print-license-usage     views/
+mesh/                   report/
+
+> 
+adjoint/                parallel/               server/
+define/                 parametric-study/       solve/
+display/                plot/                   surface/
+exit                    preferences/            turbo-setup/
+file/                   print-license-usage     views/
+mesh/                   report/
+
+> /solve/initialize/initialize-flow
+
+> /solve/dual-time-iterate
+Number of Time Steps [0] 2
+Maximum Number of iterations per time step [10] 10
+
+
+Advancing DPM injections ....
+
+Updating solution at time level N...
+ done.
+Injecting 2700 particle parcels with mass 4.49188e-05 kg at t = 0 s.
+number tracked = 2700
+
+  iter  continuity  x-velocity  y-velocity  z-velocity           k     epsilon     time/iter
+     1  1.0000e+00  9.0593e-04  1.5562e+01  4.0187e-02  1.2331e-04  2.3017e-01  0:00:09    9
+
+ Reversed flow on 4421 faces (89.2% area) of pressure-outlet 4.
+
+ Reversed flow on 3634 faces (85.9% area) of pressure-outlet 5.
+
+ Reversed flow on 693 faces (78.6% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+     2  1.0000e+00  1.1456e-02  6.0879e-02  1.8518e-02  4.0548e-05  1.2483e-01  0:00:07    8
+
+ Reversed flow on 4307 faces (86.9% area) of pressure-outlet 4.
+
+ Reversed flow on 3517 faces (83.5% area) of pressure-outlet 5.
+
+ Reversed flow on 633 faces (74.6% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+     3  7.8091e-01  9.7090e-03  1.7211e-02  8.5997e-03  1.3983e-05  2.9949e-02  0:00:06    7
+
+ Reversed flow on 4201 faces (84.6% area) of pressure-outlet 4.
+
+ Reversed flow on 3448 faces (81.5% area) of pressure-outlet 5.
+
+ Reversed flow on 585 faces (70.7% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+     4  5.9195e-01  7.0935e-03  1.0464e-02  5.7949e-03  4.3019e-06  6.8960e-03  0:00:05    6
+
+ Reversed flow on 4102 faces (81.8% area) of pressure-outlet 4.
+
+ Reversed flow on 3354 faces (79.1% area) of pressure-outlet 5.
+
+ Reversed flow on 545 faces (67.2% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+     5  4.3663e-01  5.0205e-03  7.2873e-03  4.0521e-03  1.3270e-06  1.6529e-03  0:00:04    5
+
+ Reversed flow on 4011 faces (79.6% area) of pressure-outlet 4.
+
+ Reversed flow on 3279 faces (76.3% area) of pressure-outlet 5.
+
+ Reversed flow on 517 faces (64.3% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+     6  3.1008e-01  3.3870e-03  4.4582e-03  2.7077e-03  4.2751e-07  4.0726e-04  0:00:03    4
+
+ Reversed flow on 3924 faces (76.4% area) of pressure-outlet 4.
+
+ Reversed flow on 3206 faces (73.8% area) of pressure-outlet 5.
+
+ Reversed flow on 480 faces (60.1% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+     7  2.1844e-01  2.1936e-03  2.6153e-03  1.7999e-03  1.4300e-07  1.0176e-04  0:00:02    3
+
+ Reversed flow on 3858 faces (74.2% area) of pressure-outlet 4.
+
+ Reversed flow on 3128 faces (71.0% area) of pressure-outlet 5.
+
+ Reversed flow on 459 faces (57.5% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+     8  1.5385e-01  1.4038e-03  1.5701e-03  1.2113e-03  5.1563e-08  2.5690e-05  0:00:01    2
+
+ Reversed flow on 3791 faces (71.5% area) of pressure-outlet 4.
+
+ Reversed flow on 3059 faces (68.1% area) of pressure-outlet 5.
+
+ Reversed flow on 428 faces (53.6% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+     9  1.0831e-01  9.0016e-04  9.9633e-04  8.3311e-04  2.0455e-08  6.5568e-06  0:00:01    1
+
+ Reversed flow on 3714 faces (68.0% area) of pressure-outlet 4.
+
+ Reversed flow on 2987 faces (65.0% area) of pressure-outlet 5.
+
+ Reversed flow on 394 faces (49.2% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    10  7.6517e-02  5.9238e-04  6.8536e-04  5.9611e-04  9.2936e-09  1.6966e-06  0:00:00    0
+Flow time = 5e-05s, time step = 1
+1 more time step
+
+Advancing DPM injections ....
+
+Updating solution at time level N...
+ done.
+Injecting 2700 particle parcels with mass 4.49188e-05 kg at t = 5e-05 s.
+number tracked = 5400
+
+  iter  continuity  x-velocity  y-velocity  z-velocity           k     epsilon     time/iter
+    10  7.6517e-02  5.9238e-04  6.8536e-04  5.9611e-04  9.2936e-09  1.6966e-06  0:00:06   10
+
+ Reversed flow on 3648 faces (65.3% area) of pressure-outlet 4.
+
+ Reversed flow on 2916 faces (61.9% area) of pressure-outlet 5.
+
+ Reversed flow on 373 faces (46.5% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    11  1.0654e+00  4.2988e-02  6.1923e-02  2.7742e-02  1.2671e-04  3.9205e-03  0:00:05    9
+
+ Reversed flow on 3724 faces (65.5% area) of pressure-outlet 4.
+
+ Reversed flow on 2986 faces (62.8% area) of pressure-outlet 5.
+
+ Reversed flow on 345 faces (43.3% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    12  1.1247e+00  7.6398e-03  1.5362e-02  7.0356e-03  2.9004e-05  9.3383e-04  0:00:05    8
+
+ Reversed flow on 3738 faces (65.9% area) of pressure-outlet 4.
+
+ Reversed flow on 2990 faces (63.3% area) of pressure-outlet 5.
+
+ Reversed flow on 349 faces (43.9% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    13  9.4678e-01  2.7474e-03  6.1062e-03  2.4872e-03  7.2943e-06  2.2745e-04  0:00:04    7
+
+ Reversed flow on 3725 faces (65.9% area) of pressure-outlet 4.
+
+ Reversed flow on 2981 faces (63.2% area) of pressure-outlet 5.
+
+ Reversed flow on 350 faces (44.1% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    14  7.2439e-01  1.8670e-03  3.2780e-03  1.4739e-03  2.0583e-06  5.7017e-05  0:00:03    6
+
+ Reversed flow on 3701 faces (65.3% area) of pressure-outlet 4.
+
+ Reversed flow on 2956 faces (62.6% area) of pressure-outlet 5.
+
+ Reversed flow on 349 faces (43.9% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    15  5.3178e-01  1.3930e-03  2.0575e-03  1.0951e-03  6.4691e-07  1.4694e-05  0:00:03    5
+
+ Reversed flow on 3662 faces (64.3% area) of pressure-outlet 4.
+
+ Reversed flow on 2914 faces (60.9% area) of pressure-outlet 5.
+
+ Reversed flow on 341 faces (42.7% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    16  3.8389e-01  1.0119e-03  1.3410e-03  8.1482e-04  2.2159e-07  3.8637e-06  0:00:02    4
+
+ Reversed flow on 3652 faces (64.0% area) of pressure-outlet 4.
+
+ Reversed flow on 2908 faces (60.7% area) of pressure-outlet 5.
+
+ Reversed flow on 341 faces (42.7% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    17  2.7866e-01  6.6133e-04  8.2290e-04  5.4776e-04  8.6002e-08  1.0609e-06  0:00:02    3
+
+ Reversed flow on 3594 faces (61.2% area) of pressure-outlet 4.
+
+ Reversed flow on 2848 faces (58.1% area) of pressure-outlet 5.
+
+ Reversed flow on 298 faces (37.3% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    18  1.9745e-01  5.0343e-04  6.0649e-04  4.4201e-04  4.1275e-08  3.0429e-07  0:00:01    2
+
+ Reversed flow on 3582 faces (60.8% area) of pressure-outlet 4.
+
+ Reversed flow on 2841 faces (58.0% area) of pressure-outlet 5.
+
+ Reversed flow on 305 faces (38.4% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    19  1.4190e-01  3.1896e-04  3.7897e-04  2.8954e-04  2.5348e-08  1.0934e-07  0:00:01    1
+
+ Reversed flow on 3499 faces (57.6% area) of pressure-outlet 4.
+
+ Reversed flow on 2745 faces (53.7% area) of pressure-outlet 5.
+
+ Reversed flow on 285 faces (35.4% area) of pressure-outlet 9.
+
+ Reversed flow on 8856 faces (100.0% area) of pressure-outlet 10.
+    20  1.0053e-01  2.4854e-04  3.0937e-04  2.5321e-04  1.6222e-08  4.9357e-08  0:00:00    0
+Flow time = 0.0001s, time step = 2
+
+> /report/dpm-summary
+
+ Fate                        Zone   Zone Number                  Elapsed Time (s)               Injection, Index      Injection, Index
+                             Name     Id               Min        Max        Avg    Std Dev                  Min                  Max
+ ----------- -------------------- ------ ------ ---------- ---------- ---------- ---------- --------------- ---- --------------- ----
+
+                                               (*)- Mass Transfer Summary -(*) 
+
+ Fate                        Zone   Zone          Mass (kg)   
+                             Name     Id    Initial      Final     Change
+ ----------- -------------------- ------ ---------- ---------- ----------
+
+Note: Numbers printed in the summary may show some imbalance because
+parcels that are currently in the flow domain have not been reported.
+
+
+
+> /file/write-case-data "D:/CFD02_run/F5/F5_prueba_v4_t1.cas.h5"Fast-loading "D:\Ansys\ANSYS Inc\ANSYS Student\v261\fluent\fluent26.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Writing to DESKTOP-KR70U7K:"D:/CFD02_run/F5/F5_prueba_v4_t1.cas.h5" in NODE0 mode and compression level 1 ...
+Grouping cells for Laplace smoothing ...
+      512130 cells,     1 zone  ...
+     1554686 faces,     9 zones ...
+      529132 nodes,     1 zone  ...
+  Done.
+Done.
+
+Writing to DESKTOP-KR70U7K:"D:/CFD02_run/F5/F5_prueba_v4_t1.dat.h5" in NODE0 mode and compression level 1 ...
+  Writing results.
+    Writing particle data.
+Done.
+
+
+> 
+adjoint/                parallel/               server/
+define/                 parametric-study/       solve/
+display/                plot/                   surface/
+exit                    preferences/            turbo-setup/
+file/                   print-license-usage     views/
+mesh/                   report/
+
+> 
+adjoint/                parallel/               server/
+define/                 parametric-study/       solve/
+display/                plot/                   surface/
+exit                    preferences/            turbo-setup/
+file/                   print-license-usage     views/
+mesh/                   report/
+
+> /exit
+
+Posting ANSYS Product Improvement Program performance data 
+Done.
+Transcript Stop Time:  21:39:07, 26 Sep 2026 Hora est. Pacífico, Sudamérica 
+Total Transcript Time: 0 Minute 47 Second.

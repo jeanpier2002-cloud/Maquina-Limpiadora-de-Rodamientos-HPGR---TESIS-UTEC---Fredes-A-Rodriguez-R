@@ -1,0 +1,105 @@
+\chapter{ANÁLISIS DE SEGURIDAD, RIESGOS E IMPACTOS AMBIENTALES}
+\label{cap:seguridad-ambiente}
+
+\section{Consideraciones de seguridad y análisis de riesgos}
+
+El análisis siguió la estrategia de ISO 12100: se fijaron los límites de la máquina, se identificaron los peligros en cada estado de operación, se estimó el riesgo y se aplicaron las medidas en tres pasos, primero por diseño intrínsecamente seguro, después con medidas de protección y, por último, con información para la utilización \cite{iso12100}. La serie EN 12921 se usó para reconocer los peligros propios de las máquinas de limpieza con líquidos acuosos \cite{en12921_1,en12921_2}, y el reglamento de seguridad minera fija la obligación de identificar peligros y controlar cada tarea \cite{ds024}. La mención de estas normas no equivale a una declaración de conformidad.
+
+Los límites de la máquina son los siguientes: un rodamiento de 3032 kg por ciclo, una masa móvil de diseño de 3500 kg, agua con detergente alcalino de baja espuma a 62~$^\circ$C y hasta 4,13 bar en las boquillas, un operador entrenado y personal de izaje del taller. Los estados de operación son los siete pasos de la Sección~\ref{sec:integracion}: carga y centrado en la estación exterior, traslado, bloqueo en la estación de lavado, precalentamiento y lavado con la cabina cerrada, enjuague, despresurización y retiro.
+
+El diseño elimina o reduce varios peligros en su origen. La carga, el centrado y el retiro ocurren fuera de la cabina, separados de la aspersión. El rodamiento y la mesa permanecen inmóviles durante el lavado, de modo que el único movimiento en la cabina es el del distribuidor, que gira a 1,7 rpm con un limitador de par. La mesa se mueve con una cadena que impone su velocidad, sin empuje directo. El empujador del centrador se detiene por fuerza normal limitada, para no dañar el aro ni formar un camino rígido de carga. El fluido es acuoso, lo que excluye los peligros de los líquidos inflamables, y la presión de trabajo, de 4,13 bar como máximo, queda por debajo del límite de 8 bar fijado para preservar las pistas.
+
+Para priorizar las medidas se usó una escala cualitativa de probabilidad $P$ y severidad $S$ de 1 a 4 (Tabla~\ref{tab:escala-riesgo}). El índice $R=P\,S$ ordena los controles; no acredita un riesgo residual aceptable. Los valores son una evaluación de diseño y deben revisarse con el responsable de seguridad del taller y con el procedimiento real.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Escala de probabilidad, severidad y nivel de riesgo}
+\label{tab:escala-riesgo}
+\begin{tabularx}{\textwidth}{@{}cYY@{}}
+\toprule
+\textbf{Valor} & \textbf{Probabilidad $P$} & \textbf{Severidad $S$}\\
+\midrule
+1 & Improbable durante la vida de la máquina & Lesión leve, sin pérdida de días\\
+2 & Posible en condiciones anómalas & Lesión con descanso médico\\
+3 & Probable en algún ciclo de operación o mantenimiento & Lesión grave o incapacidad temporal\\
+4 & Frecuente si no hay control & Lesión incapacitante o mortal\\
+\midrule
+\multicolumn{3}{@{}l}{Nivel de riesgo: bajo para $R\leq4$; medio para $R=6$ u $8$; alto para $R\geq9$.}\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+La Tabla~\ref{tab:matriz-riesgos} presenta la matriz de peligros. Para cada uno se indican la medida preventiva y el paso de ISO 12100 al que pertenece (1: diseño intrínseco; 2: protección; 3: información y procedimiento), la medida de contingencia ante el evento y el riesgo residual esperado si las medidas se implementan y verifican.
+
+\begingroup
+\small\singlespacing
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.06}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.9cm}>{\raggedright\arraybackslash}p{2.6cm}>{\centering\arraybackslash}p{0.75cm}>{\raggedright\arraybackslash}p{\dimexpr\textwidth-1.9cm-2.6cm-0.75cm-2.6cm-1.7cm-10\tabcolsep\relax}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{1.7cm}@{}}
+\caption{Matriz de peligros, medidas preventivas, contingencia y riesgo residual}\label{tab:matriz-riesgos}\\
+\toprule
+\textbf{Estado} & \textbf{Peligro y consecuencia} & \textbf{P--S (R)} & \textbf{Medida preventiva (paso)} & \textbf{Contingencia} & \textbf{Residual}\\
+\midrule\endfirsthead
+\caption[]{Matriz de peligros, medidas preventivas, contingencia y riesgo residual (continuación)}\\
+\toprule
+\textbf{Estado} & \textbf{Peligro y consecuencia} & \textbf{P--S (R)} & \textbf{Medida preventiva (paso)} & \textbf{Contingencia} & \textbf{Residual}\\
+\midrule\endhead
+\midrule\multicolumn{6}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
+\bottomrule\endlastfoot
+Izaje y carga & Caída o giro del rodamiento; aplastamiento & 2--4 (8) & Carga fuera de la cabina con pasador en la estación de carga (1); aparejo certificado y zona de exclusión (2); plan de izaje y señalero (3) & Suspender la maniobra, despejar la zona y apoyar la carga en lugar seguro & Medio\\
+Centrado & Atrapamiento de manos entre aro, apoyo sectorial y centrador & 3--3 (9) & Empujador con fuerza normal limitada a 1,45 kN y disparo independiente a 1,60 kN (1); mando desde fuera del alcance (2); prohibición de intervenir en la interfaz (3) & Parada de emergencia y liberación manual del empujador & Medio\\
+Traslado & Movimiento no controlado, choque o atrapamiento con la mesa cargada & 3--4 (12) & Doble cadena que impone 0,032 m/s y detiene la mesa con 190 N; rieles con pestaña (1); pasador fusible de 3 kN en el volante y zona de paso señalizada (2); operación desde el volante, fuera de la cabina (3) & Detener el volante e insertar el pasador de bloqueo; calzos en el riel & Bajo\\
+Traslado con el distribuidor fuera de 0$^\circ$ & Choque entre mesa y distribuidor & 2--3 (6) & Traslado permitido solo con el distribuidor detenido a 0$^\circ$ y la lanza retirada, mediante enclavamiento (2) & Detención del traslado e inspección del distribuidor & Bajo\\
+Bloqueo & Inicio de la aspersión con la mesa libre & 2--4 (8) & Pasador con receptor en la estación de lavado y confirmación positiva de posición (2) & Corte de la bomba y del giro & Bajo\\
+Aspersión y giro & Golpe o arrastre por el distribuidor giratorio; descenso de la lanza sobre una persona & 2--4 (8) & Giro lento de 1,7 rpm y limitador de par de 30 N\,m en el motorreductor (1); cabina cerrada con puerta enclavada y sin personal dentro (2) & Parada de emergencia que detiene giro, lanza y bomba & Bajo\\
+Giro del distribuidor & Atasco de la U con un objeto; rotura del eje del motorreductor & 2--3 (6) & Limitador de par, que desliza antes de que el eje llegue a su carga admisible (1); inspección del limitador (3) & Parada y retiro del objeto con la energía aislada & Bajo\\
+Sismo & Deslizamiento del rodamiento sobre los apoyos; vuelco de la mesa & 1--4 (4) & Tres topes de retención con cartelas; mesa sin vuelco, con factores de 3,45 y 2,59 (1); inspección y reapriete después de un sismo severo (3) & Evacuar la cabina; inspeccionar topes, mordazas y viga bajo los topes & Bajo\\
+Aspersión & Impacto del chorro o proyección de fluido caliente & 3--3 (9) & Presión de 4,13 bar como máximo (1); cabina cerrada (2); despresurización antes de abrir (3) & Lavado de ojos y piel; primeros auxilios según la hoja de seguridad & Bajo\\
+Fluido & Quemadura a 62~$^\circ$C, contacto dérmico o inhalación de niebla alcalina & 3--3 (9) & Fluido acuoso (1); ventilación de la cabina (2); hoja de seguridad, equipo de protección y capacitación (3) & Ducha y lavaojos; atención médica & Medio\\
+Drenaje & Derrame, resbalón o exposición al efluente & 3--3 (9) & Piso con pendiente, sumidero y cesta, captación superior a 250 L/min (1); alarma de nivel (2) & Kit antiderrames y contención secundaria & Bajo\\
+Servicio técnico & Energía residual y movimiento inesperado & 2--4 (8) & Puntos de purga y despresurización (1); aislamiento, bloqueo y etiquetado (2); procedimiento escrito (3) & Liberación de energía según procedimiento & Bajo\\
+Equipo eléctrico & Contacto eléctrico en ambiente húmedo & 2--4 (8) & Tablero fuera de la cabina con grado IP54, y motores y sensores de la zona húmeda con grado IP66; cables y bornes fuera del alcance de la aspersión (1); seccionador general bloqueable, protección diferencial de 30 mA y mando a 24 V (2); bloqueo y etiquetado antes de intervenir (3) & Apertura del seccionador general y atención de emergencia & Bajo\\
+\end{longtable}
+\endgroup
+\noindent{\footnotesize Valoración de diseño con la escala de la Tabla~\ref{tab:escala-riesgo}.\par}
+
+El traslado de la mesa cargada era el riesgo más alto de la segunda entrega, porque el empuje manual exigía de 325 a 837 N y la parada, 565 N. La doble cadena con volante lo reduce en su origen: la fuerza en la empuñadura queda entre 15,5 y 39,8 N, la cadena limita la velocidad a 0,032 m/s y la mesa se detiene con 190 N (Sección~\ref{sec:dimensionamiento-traslado}). El operador queda fuera de la cabina y lejos de la mesa. La evaluación ergonómica con fuerzas medidas según ISO 11228-2 \cite{iso11228} sigue pendiente.
+
+La estabilidad del conjunto depende de que las reacciones de las ruedas permanezcan compresivas. La envolvente de tres contactos con reacciones no negativas dio 19,01 kN por rueda sin factor, y la carga resistente de rueda es de 26,62 kN. Las reacciones negativas del modelo continuo del riel, de hasta 3,78 kN, se resolvieron anclando los pedestales a la losa; en la revisión sísmica, la rueda menos cargada conservó 4,58 kN de compresión (Anexo~\ref{anx:calculos}).
+
+El control funcional mínimo debe impedir la aspersión si la puerta está abierta, la mesa no está bloqueada en la estación de lavado o la lanza no está en su posición; impedir el traslado si el distribuidor no está detenido a 0$^\circ$ o la lanza no está retirada, y permitir la parada de emergencia y la descarga segura de la presión. La lógica de control, su nivel de desempeño y la arquitectura eléctrica no se diseñaron en este alcance y se tratan en las recomendaciones.
+
+\section{Análisis de impactos ambientales y sostenibilidad}
+
+Los aspectos ambientales del ciclo de lavado son el uso del fluido y de la energía, la generación de efluente con grasa y partículas, los residuos sólidos de mantenimiento, las emisiones de niebla y vapor, y los derrames. La Ley de Gestión Integral de Residuos Sólidos proporciona el marco para las corrientes de residuos \cite{dleg1278}; su clasificación concreta depende de la caracterización del contaminante, que es grasa con polvo mineral y posibles partículas de desgaste. La Tabla~\ref{tab:impactos-ambientales} resume los impactos por medio receptor.
+
+\begingroup
+\small\singlespacing
+\setlength{\tabcolsep}{3.5pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{\dimexpr(\textwidth-2.3cm-1.0cm-2.6cm-8\tabcolsep)/2\relax}>{\centering\arraybackslash}p{1.0cm}>{\raggedright\arraybackslash}p{\dimexpr(\textwidth-2.3cm-1.0cm-2.6cm-8\tabcolsep)/2\relax}>{\raggedright\arraybackslash}p{2.6cm}@{}}
+\caption{Impactos ambientales y sociales del ciclo de lavado}\label{tab:impactos-ambientales}\\
+\toprule
+\textbf{Medio o aspecto} & \textbf{Impacto} & \textbf{Signo} & \textbf{Medida o cuantificación} & \textbf{Estado}\\
+\midrule\endfirsthead
+\caption[]{Impactos ambientales y sociales del ciclo de lavado (continuación)}\\
+\toprule
+\textbf{Medio o aspecto} & \textbf{Impacto} & \textbf{Signo} & \textbf{Medida o cuantificación} & \textbf{Estado}\\
+\midrule\endhead
+\midrule\multicolumn{5}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
+\bottomrule\endlastfoot
+Agua & Consumo de agua de reposición y generación de efluente con grasa, sólidos y detergente & $-$ & Circuito recirculado de 221 L/min; el volumen circulado no es agua nueva; la purga va a un contenedor de 1000 L & Estimación\\
+Agua & Riesgo de descarga no controlada & $-$ & Recolección total en la cabina, sin descarga directa; entrega a gestión autorizada & Medida adoptada\\
+Suelo & Derrames de efluente o de grasa retirada & $-$ & Piso impermeable con pendiente, sumidero, cesta y contención secundaria & Diseño preliminar\\
+Aire & Niebla y vapor del fluido a 62~$^\circ$C & $-$ & Cabina cerrada con extractor de dos velocidades, de unos 150 y 800 m$^3$/h & Diseño preliminar\\
+Energía & Consumo eléctrico de bombeo y calentamiento & $-$ & Bomba con 3,45 kW en el eje (rendimiento supuesto); calentar el rodamiento de 15 a 60~$^\circ$C requiere unos 17,4 kWh por ciclo & Cálculo\\
+Residuos peligrosos & Grasa contaminada, lodos, filtros y absorbentes & $-$ & Segregación, caracterización y entrega a una empresa autorizada \cite{dleg1278} & Medida adoptada\\
+Biodiversidad & Sin efecto directo si el efluente y los residuos se gestionan; efecto indirecto ante una disposición inadecuada & 0 & Trazabilidad de la entrega de residuos & Condicionado\\
+Economía circular & Recirculación del fluido; componentes reemplazables (revestimientos, boquillas, filtros, ruedas) sin desechar el bastidor & $+$ & Bastidor de tres apoyos sectoriales con 168 kg de perfiles, la menor masa de las alternativas & Diseño\\
+Economía circular & La limpieza permite inspeccionar y reacondicionar el rodamiento en lugar de reemplazarlo & $+$ & Efecto no cuantificado & Cualitativo\\
+Social & Menor exposición del personal al fluido y a la manipulación directa del rodamiento durante el lavado & $+$ & Lavado en cabina cerrada con la pieza inmóvil & Cualitativo\\
+\end{longtable}
+\endgroup
+
+El volumen circulado no es consumo de agua nueva: en un circuito recirculado la misma porción atraviesa varias veces la bomba, y el consumo real depende del arrastre, la evaporación y las purgas, que deben medirse en la puesta en servicio. El tiempo de lavado que da la simulación, de 14 a 18 min con la dosis requerida central y mayor con la lectura por celdas de la cara inferior (Sección~\ref{sec:alcance-lavado}), supone una dosis requerida que es una hipótesis; no demuestra que la grasa se retire, por lo que la energía por ciclo es una referencia y no un resultado. El calentamiento domina el consumo de energía, y por eso conviene que el rodamiento llegue a la máquina a la mayor temperatura posible. La comparación de masa favorece el uso de material del bastidor de tres apoyos sectoriales, pero no es un análisis de ciclo de vida, que requeriría fabricación, transporte, vida útil, mantenimiento y fin de vida.
+
+El agente de limpieza seleccionado es un detergente alcalino de baja espuma en polvo, Zep Recirculating Detergent, que se dosifica a 7--15 g/L y opera por debajo de 70~$^\circ$C \cite{zep36342}; su baja concentración mantiene el efluente como una solución acuosa diluida, sin solventes orgánicos. La caracterización del efluente y de la grasa retirada, la ventilación de la cabina y la medición de consumos corresponden a la puesta en servicio, que está fuera del alcance de esta tesis; por ello, el impacto ambiental se evalúa de forma cualitativa y con estimaciones de cálculo.

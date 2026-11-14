@@ -1,0 +1,4 @@
+zona,r_min_m,r_max_m,area_mojable_m2,D_media_kg_m2_vuelta,J_media_Ns_m2_vuelta,CV_bandas,D_min_bandas,seca_pct
+Z1_aro_interior,0.4501,0.5215,0.21793914,10.16698,115.20693,0.38445261,5.238526,0
+Z2_ventana_proyectada,0.5215,0.6175,0.3435135,3.7759151,19.066807,0.21146462,2.212136,0
+Z3_aro_exterior_sin_PAD,0.6175,0.7100,0.34410961,4.1368005,20.940484,0.24439887,2.415298,0

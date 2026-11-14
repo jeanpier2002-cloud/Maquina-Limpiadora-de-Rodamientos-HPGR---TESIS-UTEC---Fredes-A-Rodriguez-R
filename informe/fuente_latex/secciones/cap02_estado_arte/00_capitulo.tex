@@ -1,0 +1,98 @@
+\chapter{ESTADO DEL ARTE}
+\label{cap:estado-arte}
+
+\section{Análisis de soluciones precedentes}
+
+La revisión se concentró en antecedentes que resolvieron la limpieza de componentes industriales o su manipulación durante el mantenimiento. Se examinaron procedimientos para rodamientos, una referencia de procesos de limpieza, una propuesta patentada de extracción de accionamientos HPGR y equipos comerciales de limpieza por aspersión. Esta distinción permitió reconocer qué funciones podían adaptarse al proyecto y qué resultados correspondían a piezas o procesos diferentes \cite{skfmaintenance2011,chalk1994,udy_extraccion_2018,stingray_6075,bvl_pacific}.
+
+El SKF Bearing Maintenance Handbook estableció una secuencia de limpieza, secado, inspección y protección para los rodamientos desmontados que podían reutilizarse. El manual también distinguió una revisión visual de superficies expuestas de una inspección detallada posterior a la limpieza. También describió medios de elevación y transporte para componentes grandes y pesados, y advirtió sobre el daño que podía producir una manipulación inadecuada \cite{skfmaintenance2011}. El aporte de este antecedente estuvo en vincular el lavado con la condición final requerida para inspeccionar y preservar el rodamiento. Para el proyecto, esa secuencia aportó criterios funcionales sobre recepción, manejo y protección del componente, aunque no definió una máquina específica ni proporcionó un ciclo de lavado para el rodamiento de referencia.
+
+El ASM Handbook reunió procesos de limpieza por aplicación manual, inmersión, aspersión y ultrasonido, entre otros. Su comparación consideró el contaminante, el material de la pieza, la limpieza requerida, la manipulación y los recursos de la instalación \cite{chalk1994}. También mostró que la selección podía involucrar varias operaciones consecutivas. Este antecedente permitió distinguir el agente de limpieza de la forma de aplicarlo: una solución líquida podía utilizarse mediante inmersión o aspersión, con configuraciones de equipo diferentes. Por su antigüedad, el manual se utilizó para organizar los principios de solución; los equipos y parámetros comerciales se contrastaron con documentación de fabricantes consultada para esta revisión.
+
+La manipulación durante el mantenimiento tuvo un antecedente distinto en la solicitud de patente US20180243746A1 de Udy \cite{udy_extraccion_2018}. El documento propuso desplazar el conjunto de accionamientos de una prensa de rodillos mediante una base con movimiento guiado e incorporó elementos de apoyo y bloqueo para la configuración de mantenimiento. La propuesta estuvo dirigida a retirar accionamientos, no a limpiar rodamientos desmontados. Su utilidad para este proyecto consistió en identificar funciones separadas de soporte, desplazamiento y retención. La publicación describió una configuración mecánica; su existencia no constituyó evidencia de desempeño experimental de una mesa de lavado ni justificó trasladar sus dimensiones al diseño propio.
+
+Entre los equipos comerciales, StingRay presentó el modelo 6075 con plataforma giratoria retráctil y distribuidor oscilante. La cabina incorporó regulación de temperatura, temporización e interbloqueo de puerta \cite{stingray_6075}. Esta arquitectura combinó movimiento de la carga y de las boquillas. Su adaptación al rodamiento exigía estudiar la sujeción de la pieza y el espacio ocupado por los accesorios.
+
+BvL describió la PacificTA como una instalación de aspersión con la pieza inmóvil y un sistema de boquillas oscilante. Su ficha incluyó carga frontal, envolvente de acero inoxidable y ejemplos con distintas dimensiones y capacidades \cite{bvl_pacific}. El movimiento correspondió al sistema de aplicación; no se atribuyó a la rotación del componente. Este antecedente aportó una referencia para separar el soporte de la pieza del movimiento utilizado durante la limpieza.
+
+Los antecedentes permitieron recuperar tres principios de solución: organizar el lavado como una secuencia de operaciones, controlar la exposición de las superficies al medio de limpieza y definir la manipulación de la pieza desde la carga hasta su retirada \cite{skfmaintenance2011,chalk1994,udy_extraccion_2018}. Los catálogos ampliaron esa base con configuraciones integradas. La revisión no justificó adoptar automáticamente un equipo; aportó opciones funcionales y datos para compararlas con las restricciones del proyecto.
+
+\section{Análisis comparativo de tecnologías actuales}
+
+La comparación distinguió entre el principio de limpieza y la configuración de la máquina. Se incluyeron la aplicación manual, la inmersión y el ultrasonido como referencias del proceso, junto con equipos de aspersión. Las ventajas y limitaciones de la Tabla~\ref{tab:comparacion-tecnologias} se interpretaron a partir de los antecedentes citados; no representaron puntajes ni una selección final. La Tabla~\ref{tab:comerciales_revision} compara configuraciones identificadas mediante características publicadas. Se distinguieron el espacio útil, la capacidad de carga y el volumen de los tanques para evitar confundir dimensiones exteriores con dimensiones de la pieza admisible.
+
+\begingroup
+\small
+\singlespacing
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.18\textwidth-1.5\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.26\textwidth-1.5\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.25\textwidth-1.5\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.31\textwidth-1.5\tabcolsep\relax}@{}}
+\caption{Comparación funcional de las tecnologías consideradas.}
+\label{tab:comparacion-tecnologias}\\
+\toprule
+\textbf{Tecnología y fuente} & \textbf{Configuración descrita} & \textbf{Aporte funcional} & \textbf{Limitación o condición para su adaptación} \\
+\midrule
+\endfirsthead
+\caption[]{Comparación funcional de las tecnologías consideradas (continuación).}\\
+\toprule
+\textbf{Tecnología y fuente} & \textbf{Configuración descrita} & \textbf{Aporte funcional} & \textbf{Limitación o condición para su adaptación} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\textit{Continúa en la página siguiente.}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Aplicación manual \cite{skfmaintenance2011,chalk1994} & Intervención del operario sobre las superficies accesibles, con medios de limpieza y manejo adecuados a la pieza. & Permite dirigir la aplicación a zonas concretas y revisar el componente durante la intervención. & Requiere definir acceso, procedimiento y protección; las fuentes no aportaron un tiempo de ciclo comparable para este rodamiento. \\
+\addlinespace[0.5em]
+Inmersión \cite{chalk1994} & Pieza introducida en un baño de limpieza; posibilidad de combinar el baño con otras operaciones. & Permite tratar superficies alcanzadas por el líquido mediante un proceso en tanque. & Deben comprobarse acceso del líquido, manejo de la pieza, compatibilidad del baño y operaciones posteriores; no se estableció una cobertura universal. \\
+\addlinespace[0.5em]
+Ultrasonido en tanque \cite{chalk1994} & Componente sumergido en un baño sometido a acción ultrasónica. & Aporta una vía de limpieza para geometrías de acceso difícil al lavado directo. & Exige validar el proceso y seleccionar una cuba con capacidad geométrica y de carga suficiente. \\
+\addlinespace[0.5em]
+Aspersión con plataforma giratoria \cite{stingray_6075} & Rotación de la carga y oscilación del distribuidor. & Varía la orientación de aplicación. & Requiere sujeción compatible con el giro. \\
+\addlinespace[0.5em]
+Aspersión con pieza inmóvil \cite{bvl_pacific} & Boquillas móviles alrededor del componente. & Permite variar la aplicación manteniendo la pieza apoyada. & Requiere comprobar acceso y recorridos. \\
+\end{longtable}
+\noindent\textit{Fuente:} elaboración propia a partir de \cite{skfmaintenance2011,chalk1994,stingray_6075,bvl_pacific}. Las condiciones de adaptación son inferencias de diseño, no resultados de ensayos sobre el rodamiento del proyecto.\par
+\endgroup
+
+\begingroup
+\small\singlespacing
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.2cm}>{\raggedright\arraybackslash}p{\dimexpr(\textwidth-3.2cm-4\tabcolsep)/2\relax}>{\raggedright\arraybackslash}p{\dimexpr(\textwidth-3.2cm-4\tabcolsep)/2\relax}@{}}
+\caption{Características publicadas de configuraciones comerciales identificadas}\label{tab:comerciales_revision}\\
+\toprule
+\textbf{Característica} & \textbf{StingRay 6075} & \textbf{BvL PacificTA, ejemplo 2}\\
+
+\midrule\endfirsthead
+\caption[]{Características publicadas de configuraciones comerciales identificadas (continuación)}\\
+\toprule
+\textbf{Característica} & \textbf{StingRay 6075} & \textbf{BvL PacificTA, ejemplo 2}\\
+
+\midrule\endhead
+\midrule\multicolumn{3}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
+\bottomrule\endlastfoot
+Principio de aplicación & Aspersión; plataforma giratoria y distribuidor oscilante. & Aspersión; pieza inmóvil y boquillas oscilantes.\\
+Carga máxima publicada & 1360 kg estándar; 3170 kg con opción de alta capacidad. & 25000 kg.\\
+Espacio útil & Plataforma de diámetro 1520 mm y altura de trabajo 1900 mm. & Largo 5000 mm, ancho 2500 mm y alto 2700 mm.\\
+Tanques & Depósito de 1325 L en la configuración estándar. & Dos tanques: 9000 L y 5000 L.\\
+Materiales declarados & Cabina de acero revestido; boquillas de inoxidable 316. & Envolvente de acero inoxidable.\\
+\end{longtable}
+\par\smallskip\footnotesize
+Fuente: fichas de StingRay y BvL \cite{stingray_6075,bvl_pacific}. Las capacidades corresponden a las versiones indicadas; no acreditan desempeño de limpieza del rodamiento del proyecto.
+\endgroup
+
+Los parámetros de proceso se leyeron según el principio de cada equipo. StingRay publicó, para el sistema estándar de 6075, 8,3 bar, 1300 L/min, bomba de 22 kW y operación entre 60 y 88~$^\circ$C \cite{stingray_6075}. La ficha PacificTA consultada remitió a solicitud los datos técnicos adicionales \cite{bvl_pacific}. Por ello, no se completaron presiones ni consumos ausentes con valores de otros equipos.
+
+La comparación mostró dos condiciones que debían comprobarse antes de adaptar una máquina. La versión estándar de StingRay, de 1360 kg, no admite la masa del rodamiento, y su opción de alta capacidad deja una diferencia nominal de 138 kg, que también debe admitir los útiles que carguen sobre la plataforma giratoria. La capacidad del ejemplo BvL superó la masa de referencia, pero esa constatación no resolvió por sí sola el costo, el espacio de instalación ni el procedimiento de lavado.
+
+La energía y la reposición de fluido por ciclo se mantuvieron fuera de la clasificación numérica: los catálogos consultados no aportaron una prueba común con duración, contaminante y criterio de limpieza equivalentes. Se conservaron las potencias y los inventarios como datos del equipo, sin convertirlos en consumos del proceso.
+
+\section{Determinación de la insuficiencia tecnológica}
+
+La revisión identificó soluciones comerciales para limpiar piezas pesadas y variar la aplicación del fluido \cite{stingray_6075,bvl_pacific}. La insuficiencia para el caso estudiado se localizó en la falta de una configuración y un proceso verificados conjuntamente frente a los requisitos del rodamiento y del taller delimitados en el capítulo~\ref{cap:introduccion}. Los documentos consultados no aportaron una validación específica que relacionara apoyos, transferencia, acceso a superficies internas, agente de limpieza y resultado final para ese conjunto de condiciones. Esta conclusión se limitó al alcance de la revisión y no demostró la inexistencia de una solución adaptable en el mercado.
+
+El proyecto encontró su oportunidad en adaptar e integrar los principios revisados con una escala y una secuencia compatibles con el taller. La generación de alternativas debía resolver cómo recibir y posicionar el rodamiento, cómo exponer las zonas de interés al fluido y cómo recoger los residuos, conservando acceso para operación y mantenimiento \cite{skfmaintenance2011,chalk1994,udy_extraccion_2018}. La pertinencia del diseño propio debía contrastarse posteriormente con el desempeño, costo y posibilidades de adaptación de las opciones comerciales. Ese contraste constituyó la base de la matriz de decisión del capítulo~\ref{cap:metodologia}, sin anticipar aquí una geometría de bastidor, un número de apoyos o un mecanismo de aplicación concreto.

@@ -1,0 +1,7 @@
+csv,boquillas,factor,mdot_dep_libre_kg_s,mdot_dep_obst_kg_s
+pared_agujero.csv,int_1,1.0014174367708273,1.488297e-01,1.488297e-01
+pared_agujero.csv,int_2,0.9995505052714468,1.497058e-01,1.497058e-01
+pared_agujero.csv,int_3,0.9976475858527365,1.495933e-01,1.495933e-01
+pared_agujero.csv,int_4,0.995791284378636,1.494365e-01,1.494365e-01
+pared_agujero.csv,int_5,0.994059196525137,1.459848e-01,1.459848e-01
+pared_agujero.csv,inf_int,1.0046711495371075,3.632314e-02,3.632314e-02

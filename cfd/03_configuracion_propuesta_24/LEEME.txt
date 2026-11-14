@@ -1,0 +1,6 @@
+CORRIDA 3 (diseno O7+C2) - paquete para Ismael preparado el 26/10/2026 (Jean lo revisa y lo envia).
+Empezar por RESULTADOS_R3_para_Jean.pdf y DECISIONES_PARA_REGISTRAR.md (incluye el aviso del journal del kit).
+casos/<caso>/: journal (corregido: 8 lineas en blanco en el primer /report/dpm-sample), transcript, tablas .dpm.
+resultados/KPI/<caso>/: KPI con obstaculos (r3_post.py); R3_02_03_AB = valor final del Caso 2 (A+B explicito).
+Los .cas.h5/.dat.h5 y los .dpm de impactos no se copian (pesados): ver su SHA-256 y ruta en MANIFIESTO_SHA256.txt.
+Estados: CFD EJECUTADO y verificado (balance, malla, parcelas); NO validado. Abanico 16,8 grados = HIPOTESIS.

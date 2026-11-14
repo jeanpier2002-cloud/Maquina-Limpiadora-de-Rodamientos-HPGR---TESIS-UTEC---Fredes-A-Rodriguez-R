@@ -1,0 +1,95 @@
+\chapter{MEMORIAS DE CÁLCULO Y TRAZABILIDAD}
+\label{anx:calculos}
+
+\section{Corrida estructural R01}
+
+La fuente primaria es el libro \texttt{evidencias/N3\_R01/R01\_SAP\_ORIGINAL.xlsx}. La Tabla~\ref{tab:traza-r01} identifica las tablas empleadas.
+
+\begin{longtable}{P{3.5cm}P{4.0cm}P{5.0cm}}
+\caption{Procedencia tabular de las variables R01}\label{tab:traza-r01}\\
+\toprule
+\textbf{Variable} & \textbf{Hoja} & \textbf{Uso en el informe} \\
+\midrule
+Unidades, versión y norma & Program Control & Identidad N--mm--C, SAP2000 24.2.0 y AISC 360-16 \\
+Sección asignada & Frame Section Assignments & Confirmación interna W6X9 en 20 elementos de barra \\
+Nodos y barras & Joint Coordinates; Connectivity - Frame & Geometría y conectividad R01 \\
+Cargas & Joint Loads - Force & Tres fuerzas F3 de $-9948$ N \\
+Casos y combinaciones & Load Case Definitions; Combination Definitions & Reconstrucción de SLS y ULS \\
+Peso propio & Load Pattern Definitions & Multiplicadores 1,0 y 0,0 \\
+Desplazamientos & Joint Displacements & U1, U2, U3 y flecha relativa \\
+Fuerzas internas & Element Forces - Frames & P, V2, V3, T, M2 y M3 \\
+Reacciones & Base Reactions; Joint Reactions & Equilibrio F1--F3 y M1--M3 \\
+Diseño & Steel Sum - AISC 360-16 & D/C y combinación gobernante \\
+\bottomrule
+\end{longtable}
+
+La exportación permite comparar los resultados del caso analizado. Las definiciones completas de secciones y materiales, junto con las opciones del análisis, se conservan en el archivo nativo \nolinkurl{evidencias/N3_R01/V5_2_N3_W6X9_R01.sdb}. Las tablas exportadas y el archivo nativo constituyen el respaldo del modelo estructural.
+
+\subsection{Material y propiedades mecánicas del bastidor}
+\label{sec:material-trazabilidad}
+
+Para el bastidor de perfiles W6×9 se consideró acero ASTM A36 y se realizó la simulación estructural en SAP2000 con las propiedades mecánicas de este material. Esta especificación corresponde al bastidor; los centradores, ejes, rieles y demás componentes se dimensionaron con los materiales indicados en sus respectivos apartados.
+
+La tabla \emph{Frame Section Assignments} registra W6X9 como sección de análisis y de diseño en los 20 elementos de barra. El campo \texttt{MatProp = Default} indica que se utiliza el material asociado a la sección, salvo una sobrescritura específica \cite{csi_material_overwrites}.
+
+Las propiedades mecánicas empleadas fueron $E=199947{,}979$ MPa, $F_y=248{,}211$ MPa y $F_u=399{,}896$ MPa, según la comprobación de la barra 15 presentada en \nolinkurl{evidencias/N3_R01/04_comprobacion_uls_barra15.png}. Los resultados corresponden a las cargas, los apoyos y las idealizaciones del modelo de barras; su alcance no incluye la verificación de uniones, contactos ni del funcionamiento de la máquina completa.
+
+\subsection{Respaldo del cálculo manual y sus extensiones}
+\label{sec:respaldo-complementario}
+
+El desarrollo manual del capítulo VI se contrasta con las hojas de coordenadas, cargas, reacciones y desplazamientos de \nolinkurl{evidencias/N3_R01/R01_SAP_ORIGINAL.xlsx}. No se dispone del libro complementario \nolinkurl{calculos/CALCULOS_SOPORTE_N3_N4_N5.xlsx}, citado como soporte de la hoja \emph{Contacto N3}; por ello, la extensión automática de ese desarrollo no forma parte de los entregables verificables. El libro mecánico R05 contiene las hojas \emph{Ruedas}, \emph{PAD\_Contacto} y \emph{Auditoria\_R01}, pero responde a sus propios casos y no sustituye esa hoja ni recalcula las corridas de cuatro y cinco PAD.
+
+\section{Resultados de control R01}
+
+\begin{table}[H]
+\centering
+\small
+\caption{Resultados de control preservados}
+\begin{tabularx}{\textwidth}{YP{4.0cm}}
+\toprule
+\textbf{Dato} & \textbf{Valor} \\
+\midrule
+Geometría de ejes & 1860×1900 mm \\
+Carga externa total & 29,844 kN \\
+Peso propio exportado & 1,64874 kN \\
+SLS máximo nodal $|U3|$ & 1,353133 mm \\
+SLS flecha relativa nodo 7 & 1,235802 mm respecto de cuerda 3--14 \\
+ULS D/C máximo & 0,277132, barras 12, 13, 15 y 16 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Cálculo mecánico R05 y aspersión I01}
+
+La memoria mecánica R05 contiene los cálculos de integración de la mesa, mientras que la memoria de aspersión I01 reúne las ecuaciones y los parámetros hidráulicos. Estos desarrollos complementan el análisis estructural R01 y se presentan por separado para distinguir las hipótesis y los resultados de cada subsistema.
+
+\subsection{Procedencia de las cargas de ruedas y riel}
+\label{sec:traza-ruedas-riel}
+
+Las cargas de ruedas y riel del apartado~\ref{sec:ruedas-rieles} se obtuvieron mediante el cálculo mecánico R05. La Tabla~\ref{tab:traza-ruedas-riel} relaciona cada magnitud con su hoja y celda en el libro \nolinkurl{evidencias/N3_R05/02_CALCULOS_EDITABLES_N3_R05.xlsx}. El procedimiento se desarrolla en \nolinkurl{evidencias/N3_R05/01_CALCULO_R05_REPRODUCIBLE.py} y los resultados se almacenan en \nolinkurl{evidencias/N3_R05/19_RESULTADOS_NUMERICOS_R05.json}. Este cálculo es distinto de la simulación estructural R01.
+
+\begingroup
+\small\singlespacing
+\begin{longtable}{P{3.4cm}P{4.0cm}P{5.1cm}}
+\caption{Trazabilidad de ruedas y riel en el libro mecánico R05}\label{tab:traza-ruedas-riel}\\
+\toprule
+\textbf{Magnitud} & \textbf{Hoja y celda} & \textbf{Valor y alcance} \\
+\midrule
+Masa de cálculo & \texttt{Entradas!C7} & 3500 kg; escenario de diseño \\
+Masa estimada & \texttt{Masa\_CG!B20} & 3439,831288 kg; balance de masas \\
+Peso de cálculo & \texttt{Ruedas!B19} & 34,335 kN \\
+Carga de servicio & \texttt{Ruedas!B7} & 21,865488 kN; factor 1,15 \\
+Carga resistente local & \texttt{Ruedas!B8} & 26,618855 kN; factor 1,40 \\
+Reacción de instalación & \makecell[l]{\texttt{Riel\_Envolvente}\\\texttt{B13}} & 26,741372 kN; apoyo del riel \\
+Momento del vano simple & \makecell[l]{\texttt{Riel\_Envolvente}\\\texttt{B16}} & 3956529,787 N\,mm; carga resistente \\
+Esfuerzos de cabeza y base & \makecell[l]{\texttt{Riel\_Envolvente}\\\texttt{B17:B18}} & 146,538140 y 95,338067 MPa \\
+Flecha de servicio & \makecell[l]{\texttt{Riel\_Envolvente}\\\texttt{B19}} & 0,531864 mm; carga de servicio \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+El caso manual se identifica como \texttt{3C\_W1\_MP} en el código y en \texttt{wheel\_cases} del JSON. El libro identifica primero el caso simétrico \texttt{3C-03}, con rueda 3 ausente y $e_x=e_y=+100$ mm; ambos alcanzan el mismo máximo sin factor de 19,013468 kN. Las funciones \texttt{wheel\_cases} y \texttt{rail\_envelope} contienen los barridos restantes. El reparto de cuatro contactos requiere comprobar su compatibilidad con las deformaciones y rigideces del conjunto.
+
+El bloque \texttt{rail.governing\_continuous} del JSON localiza la reacción de instalación en el riel derecho, apoyo 2, caso \texttt{3C\_W4\_PM}, con centro de mesa en $Y=-3320{,}038$ mm y una carga de rueda de 26,618855 kN situada en $Y=-4042{,}038$ mm. El mínimo continuo, $-3{,}691891$ kN, corresponde a los apoyos de instalación riel--base, no al contacto rueda--riel. La sensibilidad continua usa restricciones bilaterales y no valida la retención ni el diseño civil.
+
+\input{anexos/anexo_correspondencia}

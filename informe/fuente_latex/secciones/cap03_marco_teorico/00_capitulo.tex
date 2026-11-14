@@ -1,0 +1,301 @@
+\chapter{MARCO TEÓRICO}
+\label{cap:marco-teorico}
+
+\section{Fundamentos teóricos y/o científicos del diseño}
+
+El dimensionamiento de la máquina relaciona dos problemas: sostener y desplazar una carga pesada, y suministrar un fluido a las superficies que requieren limpieza. El primero se representa mediante equilibrio, rigidez y resistencia; el segundo, mediante conservación de masa y energía en la red y mediante el movimiento de las gotas en el aire hasta la superficie. Para las comprobaciones mecánicas se consideran materiales elásticos y deformaciones pequeñas; el equilibrio estático representa las posiciones detenidas y, durante un traslado controlado, las aceleraciones pueden incorporarse como acciones estáticas equivalentes, lo que no representa un golpe ni una caída de la carga \cite{shigley2015}.
+
+El inventario de masas define el peso y la posición del centro de gravedad del cuerpo que se analiza, sea el rodamiento, un subconjunto o la mesa cargada:
+\begin{equation}
+  m_T=\sum_i m_i,\qquad W=m_Tg,\qquad
+  \mathbf{r}_{CG}=\frac{\sum_i m_i\mathbf{r}_i}{m_T}.
+  \label{eq:mt-masas}
+\end{equation}
+El inventario distingue el peso propio de los elementos estructurales de las cargas añadidas, para no representar dos veces un componente. El equilibrio del cuerpo aislado se expresa mediante
+\begin{equation}
+  \sum\mathbf{F}=\mathbf{0},\qquad \sum\mathbf{M}_O=\mathbf{0},
+  \label{eq:mt-equilibrio}
+\end{equation}
+que permite comprobar tanto las fuerzas como su posición: dos estados con igual carga vertical pueden producir reacciones diferentes si cambian los brazos de momento \cite{shigley2015}.
+
+El circuito hidráulico se representa con un líquido newtoniano monofásico de densidad constante, con las propiedades del fluido a la temperatura de operación. Para un volumen de control, la conservación de masa es
+\begin{equation}
+  \frac{\mathrm{d}m_{VC}}{\mathrm{d}t}
+  =\sum\dot{m}_{\mathrm{entrada}}-\sum\dot{m}_{\mathrm{salida}},
+  \label{eq:mt-balance-masa}
+\end{equation}
+sin acumulación en los tramos de tubería en régimen permanente \cite{white2016}. La energía transferida al líquido se expresa con la altura de bombeo $H_b$; con caudal $Q$, las potencias hidráulica, en el eje y eléctrica son
+\begin{equation}
+  P_h=\rho gQH_b,\qquad P_{\mathrm{eje}}=\frac{P_h}{\eta_p},\qquad
+  P_{\mathrm{el}}=\frac{P_h}{\eta_p\eta_m},
+  \label{eq:teo-potencia}
+\end{equation}
+donde $\eta_p$ y $\eta_m$ son las eficiencias de la bomba y del motor, que deben evaluarse en el punto de operación \cite{white2016}.
+
+Estos balances describen la capacidad mecánica y el suministro de fluido, no la limpieza. La remoción de grasa depende además del contaminante, el material, el agente de limpieza y la exposición de las superficies \cite{chalk1994}, y la condición final del rodamiento incluye su inspección y protección después del lavado \cite{skfmaintenance2011}. Por ello, ni la presión ni la cobertura calculadas se traducen por sí mismas en un porcentaje de limpieza.
+
+\section{Descripción teórica de los componentes y/o subsistemas de la solución}
+
+\subsection{Distribución de carga y estabilidad del soporte}
+
+Para un cuerpo sostenido por reacciones verticales $R_i$ en posiciones $(x_i,y_i)$, la resultante vertical $W$ y sus momentos equivalentes definen un punto $(x_R,y_R)$. Las ecuaciones de equilibrio se pueden organizar como
+\begin{equation}
+  \begin{bmatrix}
+    1 & 1 & \cdots & 1\\
+    x_1 & x_2 & \cdots & x_n\\
+    y_1 & y_2 & \cdots & y_n
+  \end{bmatrix}
+  \begin{bmatrix}R_1\\R_2\\\vdots\\R_n\end{bmatrix}
+  =\begin{bmatrix}W\\Wx_R\\Wy_R\end{bmatrix}.
+  \label{eq:teo-reparto}
+\end{equation}
+Esta expresión se deriva de la ecuación~\eqref{eq:mt-equilibrio}. Con tres apoyos no colineales, las tres reacciones quedan determinadas para la resultante especificada. Si los apoyos solo transmiten compresión, la solución debe satisfacer $R_i\geq0$. La resultante situada dentro del triángulo de apoyo permite reacciones no negativas; sobre un borde aparece una condición límite. La comprobación se refiere al volteo por acciones representadas y no evalúa el deslizamiento lateral \cite{shigley2015}.
+
+Con cuatro o más apoyos, las tres ecuaciones no bastan y el reparto depende de la rigidez del conjunto y de la compatibilidad de deformaciones (Sección~\ref{sec:contacto_revision}). En un modelo con cargas iguales impuestas sobre los apoyos sectoriales (los tres apoyos, a 0$^\circ$, 120$^\circ$ y 240$^\circ$, sobre los que descansa la cara inferior del aro exterior), la igualdad forma parte de la entrada y no un resultado del contacto.
+
+\subsection{Resistencia y rigidez del bastidor}
+
+Para flexión respecto de un eje principal, el esfuerzo extremo de la sección es
+\begin{equation}
+  |\sigma_b|_{\max}=\frac{|M|}{S},\qquad S=\frac{I}{c},
+  \label{eq:mt-flexion}
+\end{equation}
+donde $I$ es el segundo momento de área y $c$ la distancia a la fibra extrema. Si concurren carga axial, flexión biaxial o cortante, sus contribuciones se combinan en la misma sección con una convención de signos definida \cite{shigley2015}. Aumentar $I$ reduce a la vez el esfuerzo y la curvatura de la viga, $EI\,\mathrm{d}^2u/\mathrm{d}s^2=M$, por lo que el perfil gobierna la resistencia y la deformación.
+
+La flecha de un tramo se mide respecto de su cuerda deformada. Con una coordenada longitudinal $0\leq s\leq L$ y desplazamientos extremos $u_i$ y $u_j$,
+\begin{equation}
+  u_c(s)=u_i+\frac{s}{L}(u_j-u_i),\qquad
+  \delta_{\mathrm{rel}}(s)=u(s)-u_c(s).
+  \label{eq:mt-flecha}
+\end{equation}
+Esta interpolación separa la deformación interna del movimiento de los extremos. El máximo de $|\delta_{\mathrm{rel}}|$ se compara con el límite de servicio del tramo; el máximo desplazamiento nodal global es otra magnitud.
+
+La verificación resistente sigue los estados límite del código de acero. En flexión aislada, la utilización es
+\begin{equation}
+  U_M=\frac{M_{\mathrm{req}}}{M_{\mathrm{disp}}},\qquad
+  M_{\mathrm{disp}}=\begin{cases}
+    \phi_bM_n,&\text{LRFD},\\
+    M_n/\Omega_b,&\text{ASD},
+  \end{cases}
+  \label{eq:mt-utilizacion}
+\end{equation}
+donde la resistencia nominal $M_n$ depende de los estados límite aplicables. Cuando actúan fuerza axial y momentos, se emplea la interacción de carga axial y flexión biaxial, y la razón demanda/capacidad (D/C) resultante debe interpretarse con el código, el método y la combinación utilizados \cite{aisc360}. Esta comprobación de barras no proporciona la resistencia de las uniones.
+
+Las uniones soldadas se verifican por separado. En un cordón de filete con garganta efectiva $a_w$ y longitud $L_w$, la resistencia de diseño es
+\begin{equation}
+  \phi R_n=\phi\,(0{,}60F_{EXX})\,a_wL_w,\qquad \phi=0{,}75,
+  \label{eq:mt-filete}
+\end{equation}
+donde $F_{EXX}$ es la resistencia del electrodo \cite{aisc360}. Una soldadura a tope con penetración completa desarrolla la resistencia del metal base, de modo que se verifica la sección unida. En un perfil W, la continuidad de las alas en el nudo también transmite la parte de la torsión debida al alabeo, por lo que el detalle de la unión fija la condición de borde de la Ecuación~\eqref{eq:teo-torsion}.
+
+En piezas que giran, como un eje, la flexión produce un esfuerzo alterno $\sigma_a$ y la carga constante un esfuerzo medio $\sigma_m$. El criterio de Goodman modificado da el factor de seguridad a fatiga
+\begin{equation}
+  \frac{1}{n_f}=\frac{\sigma_a}{S_e}+\frac{\sigma_m}{S_{ut}},
+  \label{eq:mt-goodman}
+\end{equation}
+donde $S_{ut}$ es la resistencia última y $S_e$ el límite de fatiga corregido con los factores de superficie, tamaño, carga y temperatura \cite{shigley2015}.
+
+\subsection{Torsión de perfiles abiertos}
+
+Una carga horizontal aplicada fuera del centro de corte de un perfil W produce torsión. En una sección abierta de paredes delgadas, el momento torsor se equilibra con dos mecanismos: la torsión uniforme de Saint-Venant y la resistencia al alabeo de la sección,
+\begin{equation}
+  T=GJ\frac{\mathrm{d}\phi}{\mathrm{d}z}-EC_w\frac{\mathrm{d}^3\phi}{\mathrm{d}z^3},
+  \label{eq:teo-torsion}
+\end{equation}
+donde $\phi$ es el giro de la sección, $J$ la constante de torsión, $C_w$ la constante de alabeo y $G$ el módulo de corte \cite{aiscdg9}. En un perfil W, $J$ es pequeña y el segundo término gobierna la rigidez de tramos cortos; un modelo con solo torsión uniforme sobrestima el giro. La solución depende de la condición de alabeo en los extremos: libre, impedido o continuo entre tramos colineales. Las uniones del bastidor determinan cuál de esas condiciones es aplicable.
+
+\subsection{Apoyos sectoriales y pasadores}
+
+En un apoyo sectorial con reacción normal $R$ y área efectiva $A_e$, la presión media se obtiene del equilibrio de la distribución de contacto:
+\begin{equation}
+  R=\int_{A_e}p(x,y)\,\mathrm{d}A,\qquad p_m=\frac{R}{A_e}.
+  \label{eq:mt-pad}
+\end{equation}
+El área efectiva es la que realmente transmite carga y puede ser menor que la nominal por desalineación o deformación. La media $p_m$ permite predimensionar el apoyo, pero no da el máximo local ni demuestra que el revestimiento y la superficie del rodamiento se conserven \cite{shigley2015,skfmaintenance2011}.
+
+Para un pasador sometido a cortante, y para las placas que reciben sus reacciones, se emplean las estimaciones
+\begin{equation}
+  \tau_{\mathrm{med}}=\frac{F}{n_cA_p},\qquad A_p=\frac{\pi d_p^2}{4},\qquad
+  p_{b,i}=\frac{F_i}{t_id_p}.
+  \label{eq:mt-pasador}
+\end{equation}
+donde $n_c$ es el número de planos de corte y $F_i$ la fuerza que recibe cada placa; la revisión considera también la flexión del pasador y las distancias a los bordes \cite{shigley2015}.
+
+El juego de un pasador en su alojamiento sale de las desviaciones límite del sistema ISO de tolerancias. Con agujero H7 y eje g6, el juego máximo es $j_{\max}=ES-ei$ y el mínimo, $j_{\min}=EI-es$, donde $ES$ y $EI$ son las desviaciones del agujero y $es$ y $ei$ las del eje \cite{iso286}. El error radial de colocación del rodamiento se expresa entonces como
+\begin{equation}
+  A=\lVert\mathbf{d}\rVert+\sum_k t_k,
+  \label{eq:mt-colocacion}
+\end{equation}
+donde $\lVert\mathbf{d}\rVert$ es el desplazamiento elástico de las referencias de centrado bajo la fuerza de contacto y $t_k$ son las partidas de tolerancia de fabricación, juegos y montaje. Como $\lVert\mathbf{d}\rVert$ es proporcional a la fuerza, limitar la fuerza del centrador limita el error.
+
+\subsection{Rodadura y demanda de desplazamiento}
+
+La fuerza de traslado se calcula a partir del equilibrio en la dirección de movimiento. En un tramo recto de pendiente $\theta$, tomando el sentido ascendente como positivo, una aproximación es
+\begin{equation}
+  F_{\mathrm{acc}}=c_rW\cos\theta+W\sin\theta+m_Ta+F_{\mathrm{aux}}.
+  \label{eq:teo-rodadura}
+\end{equation}
+La expresión resulta de la segunda ley de Newton \cite{shigley2015}. El coeficiente adimensional $c_r$ es una resistencia de rodadura equivalente, distinta del coeficiente de deslizamiento, y se obtiene de datos de la rueda y el riel o por medición; $F_{\mathrm{aux}}$ reúne resistencias adicionales, como el arrastre de mangueras. Arranque, marcha y frenado requieren valores propios, y la aceptabilidad del empuje humano exige además una evaluación ergonómica. A velocidad constante $v$, la potencia que pide el traslado es $P=F_{\mathrm{acc}}v/\eta_t$, con $\eta_t$ el rendimiento de la transmisión.
+
+Una rueda guiada por pestaña recibe también una fuerza lateral por el desvío entre su plano y el riel. La norma europea de acciones de equipos de elevación la estima como $H_T=f\,Q_r$, donde $Q_r$ es la carga vertical de la rueda y $f$ un coeficiente que crece con el ángulo de desvío y depende del sistema de guiado \cite{en19913}.
+
+\subsection{Tuberías, bomba y boquillas}
+
+El caudal de suministro depende de las boquillas que funcionan simultáneamente. Para $n$ boquillas,
+\begin{equation}
+  Q_{\mathrm{sim}}=\sum_{j=1}^{n}\chi_jq_j,\qquad
+  v_i=\frac{Q_i}{A_i},\qquad Re_i=\frac{\rho v_iD_i}{\mu},
+  \label{eq:mt-caudal-re}
+\end{equation}
+donde $\chi_j$ vale uno para una boquilla activa y cero para una inactiva; cada tramo conduce su propio caudal y las áreas corresponden al diámetro interior \cite{white2016}.
+
+Las pérdidas se calculan por tramo y accesorio mediante
+\begin{equation}
+  h_L=\sum_i f_i\frac{L_i}{D_i}\frac{v_i^2}{2g}
+  +\sum_j K_j\frac{v_j^2}{2g}+h_{\mathrm{filtro}}(Q).
+  \label{eq:teo-perdidas}
+\end{equation}
+El factor de Darcy $f_i$ depende, en régimen turbulento, de $Re$ y de la rugosidad relativa, y se estima con la correlación explícita de Swamee--Jain \cite{manSwamee}:
+\begin{equation}
+  f=\frac{0{,}25}{\left[\log_{10}\left(\dfrac{\varepsilon}{3{,}7D}
+    +\dfrac{5{,}74}{Re^{0{,}9}}\right)\right]^2}.
+  \label{eq:mt-swamee-jain}
+\end{equation}
+La correlación evita resolver iterativamente la ecuación de Colebrook y no se extiende al régimen laminar ni a la transición. Para válvulas y accesorios sin dato del fabricante, el coeficiente se estima como $K=n f_T$, donde $f_T$ es el factor de fricción en régimen completamente turbulento del diámetro nominal y $n$ una longitud equivalente adimensional del accesorio \cite{crane410}. Las pérdidas del filtro se incluyen una sola vez \cite{white2016}.
+
+Entre una sección de referencia $A$ y una sección $B$, el balance de energía mecánica proporciona
+\begin{equation}
+  H_b=(z_B-z_A)+\frac{p_B-p_A}{\rho g}
+  +\frac{\alpha_Bv_B^2-\alpha_Av_A^2}{2g}+h_L,
+  \label{eq:teo-energia}
+\end{equation}
+con $\alpha$ como coeficiente de corrección de energía cinética. En la red, $A$ es la superficie libre del depósito y $B$ la toma donde se exige la presión de la boquilla, sin añadir otra vez la energía del chorro; los ramales se resuelven con continuidad y presión común en sus uniones \cite{white2016}.
+
+Una representación aproximada de una boquilla hidráulica es
+\begin{equation}
+  q=C_dA_o\sqrt{\frac{2\Delta p}{\rho}},\qquad
+  \frac{q_2}{q_1}\simeq\sqrt{\frac{\Delta p_2}{\Delta p_1}}.
+  \label{eq:teo-boquilla}
+\end{equation}
+donde $\Delta p$ es la diferencia de presión que impulsa la descarga. La segunda relación supone orificio, fluido y coeficiente de descarga constantes y se usa para interpolar el catálogo, sin suponer que el ángulo y las gotas no cambian \cite{white2016}.
+
+La succión de la bomba se comprueba con la carga neta positiva de aspiración disponible, que es una propiedad de la instalación:
+\begin{equation}
+  NPSH_A=\frac{p_{atm}-p_v}{\rho g}+h_s-h_{L,s},
+  \label{eq:teo-npsh}
+\end{equation}
+donde $p_v$ es la presión de vapor del líquido a la temperatura de operación, $h_s$ la altura del nivel libre sobre el eje de la bomba y $h_{L,s}$ las pérdidas de la succión. Para evitar la cavitación, $NPSH_A$ debe superar el valor requerido por la bomba con un margen; la presión atmosférica disminuye con la altitud del sitio \cite{white2016}.
+
+Aumentar la presión o el número de boquillas simultáneas eleva el caudal, las pérdidas y la potencia de la Ecuación~\eqref{eq:teo-potencia}, por lo que la aplicación del fluido, los diámetros y la bomba se revisan en conjunto \cite{white2016}. La tubería que gira con el distribuidor se verifica, además, como tubería a presión: la norma de tuberías de proceso limita la suma de los esfuerzos longitudinales por cargas sostenidas al esfuerzo admisible del material a la temperatura de operación y admite un valor mayor para cargas ocasionales \cite{asmeb313}.
+
+El calor necesario para llevar una masa $m$ de calor específico $c$ desde $T_0$ hasta $T_1$ es $Q_t=mc\,(T_1-T_0)$; con una potencia neta $P_t$, el tiempo de calentamiento es $t=Q_t/P_t$. Esta relación permite estimar el precalentamiento del baño y del rodamiento.
+
+\subsection{Cobertura geométrica}
+
+La huella ideal de un abanico sobre un plano perpendicular a su eje se obtiene por geometría:
+\begin{equation}
+  B=2S\tan\left(\frac{\alpha}{2}\right),
+  \label{eq:teo-huella}
+\end{equation}
+donde $S$ es la distancia a la superficie y $\alpha$ el ángulo de apertura. Esta construcción permite establecer el número y la separación preliminares de las boquillas. En una superficie curva u obstruida se evalúan la orientación, la distancia local y las zonas alcanzables mediante trazado de rayos desde cada boquilla. El alcance geométrico indica qué superficies pueden recibir el chorro; no indica cuánto líquido llega ni con qué intensidad, que se obtienen con el modelo de mojado de la Sección~\ref{sec:teo-cfd}. En un circuito recirculado, el volumen bombeado durante una etapa, $V=Qt$, no representa consumo de líquido nuevo, porque la misma porción atraviesa varias veces la bomba \cite{white2016}.
+
+\section{Descripción de las tecnologías aplicables}
+
+\subsection{Modelo estructural de barras en SAP2000}
+\label{sec:sap_barras_revision}
+
+El bastidor se representa mediante elementos de barra que incorporan respuesta axial, flexión, cortante y torsión; la sección entra por sus propiedades y las uniones y cargas, por nodos \cite{csi_analisis_2016}.
+
+Para el análisis lineal, el ensamblaje de las rigideces elementales y la aplicación de las condiciones de borde conducen al sistema
+\begin{equation}
+\mathbf{K}\mathbf{u}=\mathbf{F},
+\label{eq:kuf_revision}
+\end{equation}
+donde $\mathbf{K}$ es la matriz de rigidez del conjunto, $\mathbf{u}$ contiene los desplazamientos y giros nodales, y $\mathbf{F}$ reúne las acciones equivalentes. La discretización se define sobre las líneas medias de los perfiles. Las tensiones locales de una mordaza, un contacto o una soldadura no quedan resueltas con barras y requieren un modelo local. La coincidencia de cargas y reacciones es necesaria, pero no prueba que la rigidez o las uniones estén bien representadas.
+
+\subsection{Contacto y factibilidad del apoyo}
+\label{sec:contacto_revision}
+
+Un apoyo sin amarre transmite compresión normal y permite separación. Si $R_i$ es su reacción compresiva y $g_i$ la distancia entre las superficies, se exige
+\begin{equation}
+R_i\geq0,\qquad g_i\geq0,\qquad R_i g_i=0.
+\label{eq:complementariedad_revision}
+\end{equation}
+La condición de complementariedad expresa que un contacto abierto no transmite reacción normal y que una reacción positiva corresponde a un contacto cerrado. Con cuatro o más apoyos, el equilibrio no determina todas las reacciones: se supone una combinación de contactos cerrados, se resuelve con las relaciones entre fuerzas y deformaciones y se comprueban las reacciones y las separaciones; una combinación que genera tracción en un contacto sin amarre se descarta. Una restricción vertical bilateral, como la de un apoyo de SAP2000, no posee por sí sola esa condición; para representarla se requieren elementos de enlace con comportamiento de contacto \cite{csi_analisis_2016}.
+
+\subsection{Elementos finitos de sólidos}
+\label{sec:teo-fem}
+
+Los detalles que el modelo de barras no resuelve, como la mordaza de un centrador, sus placas y el tramo de perfil al que se fija, se analizan con elementos finitos de sólidos. El dominio se divide en elementos tridimensionales cuyos desplazamientos se interpolan a partir de los nodos, y el ensamblaje conduce al mismo sistema de la Ecuación~\eqref{eq:kuf_revision} \cite{shigley2015}. La calidad del resultado se comprueba con el equilibrio, la estabilidad al refinar la malla y la interpretación de las concentraciones de tensión. En esquinas vivas y uniones idealizadas, la tensión nodal crece al refinar sin converger; esos picos se distinguen de las tensiones linealizadas a través del espesor, que sí son estables.
+
+\subsection{Simulación del mojado con fase discreta}
+\label{sec:teo-cfd}
+
+El transporte de las gotas desde la boquilla hasta la superficie se representa con un modelo euleriano--lagrangiano: el aire se resuelve como fase continua con las ecuaciones promediadas de Navier--Stokes y el modelo de turbulencia $k$--$\varepsilon$, y cada gota se sigue como una partícula cuya trayectoria obedece al balance de fuerzas
+\begin{equation}
+  \frac{\mathrm{d}\mathbf{u}_p}{\mathrm{d}t}=\frac{\mathbf{u}-\mathbf{u}_p}{\tau_r}
+  +\frac{\mathbf{g}(\rho_p-\rho)}{\rho_p},\qquad
+  \tau_r=\frac{\rho_pd_p^2}{18\mu}\,\frac{24}{C_D\,Re_p},
+  \label{eq:teo-dpm}
+\end{equation}
+donde $\mathbf{u}$ y $\mathbf{u}_p$ son las velocidades del aire y de la gota, $d_p$ su diámetro, $C_D$ el coeficiente de arrastre y $Re_p$ el número de Reynolds de la gota \cite{fluent2026}. Con acoplamiento en dos vías, la cantidad de movimiento que pierden las gotas se añade como fuente al aire, lo que reproduce el arrastre de aire por el chorro. El tamaño de las gotas se describe con la distribución de Rosin--Rammler, $Y_d=\exp[-(d/\bar d)^n]$, que expresa la fracción másica de gotas de diámetro mayor que $d$ en función de un diámetro característico $\bar d$ y un exponente de dispersión $n$ \cite{fluent2026}. Una pared con condición de retención registra la gota en su primer impacto y no representa rebote, salpicadura ni escurrimiento; por ello, la masa depositada es una cota superior de la que permanece en la superficie.
+
+Cuando el tiempo de vuelo de las gotas es mucho menor que el período de giro del aplicador, la trayectoria puede calcularse con el aplicador detenido, y la masa recibida por un punto durante una vuelta se obtiene integrando la huella instantánea a lo largo de la circunferencia. Para una banda de revolución de área $A_b$, la dosis y el impulso por vuelta son
+\begin{equation}
+  D=\frac{\dot m_b\,T_v}{A_b},\qquad J=\frac{\dot I_b\,T_v}{A_b},\qquad
+  T_v=\frac{60}{N},
+  \label{eq:teo-dosis}
+\end{equation}
+donde $\dot m_b$ es el caudal másico depositado en la banda, $\dot I_b=\sum\dot m_pv_{n,p}$ el flujo de cantidad de movimiento normal a la pared y $N$ la velocidad de giro en rpm. La uniformidad se expresa con el coeficiente de variación entre bandas, $CV=s_D/\bar D$. Estas magnitudes describen el mojado y la acción hidráulica; no son una medida de remoción, que depende además de la reología del contaminante y del agente de limpieza \cite{chalk1994}.
+
+La verificación numérica estima el error de discretización con tres mallas de tamaños $h_1<h_2<h_3$. Con las razones $r_{21}=h_2/h_1$ y $r_{32}=h_3/h_2$ y las diferencias $\varepsilon_{21}=\varphi_2-\varphi_1$ y $\varepsilon_{32}=\varphi_3-\varphi_2$ de un indicador $\varphi$, el orden aparente y el índice de convergencia de la malla fina son
+\begin{equation}
+  p=\frac{\left|\ln\left|\varepsilon_{32}/\varepsilon_{21}\right|+q(p)\right|}{\ln r_{21}},\qquad
+  \mathrm{GCI}_{21}=\frac{1{,}25\,\left|(\varphi_1-\varphi_2)/\varphi_1\right|}{r_{21}^{\,p}-1},
+  \label{eq:teo-gci}
+\end{equation}
+con $q(p)=\ln\left[(r_{21}^{\,p}-s)/(r_{32}^{\,p}-s)\right]$ y $s=\operatorname{sgn}(\varepsilon_{32}/\varepsilon_{21})$ \cite{celik2008}. El procedimiento supone que las diferencias entre mallas proceden de la discretización; si son menores que la variabilidad entre corridas equivalentes, el índice deja de ser interpretable. La verificación comprueba que las ecuaciones se resuelven con precisión suficiente; la validación, que el modelo representa el fenómeno físico, exige una comparación con mediciones.
+
+\subsection{Modelo geométrico}
+
+El modelo CAD paramétrico proporciona las coordenadas, las distancias, las masas y las áreas que usan los demás modelos. Las interferencias se comprueban barriendo las posiciones del mecanismo, porque una vista aislada no describe todo su recorrido.
+
+La Tabla~\ref{tab:mt-modelos-diseno} relaciona cada grupo de modelos con su aplicación en los Capítulos~\ref{cap:diseno} y~\ref{cap:resultados}. Se conservan en este capítulo solo los modelos que tienen una aplicación identificable.
+
+\begingroup
+\footnotesize
+\singlespacing
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.25\textwidth-1.333333\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.27\textwidth-1.333333\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.48\textwidth-1.333333\tabcolsep\relax}@{}}
+\caption{Modelos teóricos y su aplicación en el diseño}
+\label{tab:mt-modelos-diseno}\\
+\toprule
+\textbf{Grupo de modelos} & \textbf{Ecuaciones} & \textbf{Aplicación}\\
+\midrule
+\endfirsthead
+\caption[]{Modelos teóricos y su aplicación en el diseño (continuación)}\\
+\toprule
+\textbf{Grupo de modelos} & \textbf{Ecuaciones} & \textbf{Aplicación}\\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{\textit{Continúa en la página siguiente.}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Masas, equilibrio y reparto & \eqref{eq:mt-masas}, \eqref{eq:mt-equilibrio}, \eqref{eq:teo-reparto} & Reacciones en los apoyos sectoriales y las ruedas; contraste con el análisis estructural\\
+Flexión, flecha y resistencia & \eqref{eq:mt-flexion}--\eqref{eq:mt-utilizacion} & Selección del perfil, flecha relativa y razón D/C\\
+Uniones soldadas y fatiga & \eqref{eq:mt-filete}, \eqref{eq:mt-goodman} & Uniones a momento del bastidor; eje y cubo del distribuidor\\
+Torsión de perfiles abiertos & \eqref{eq:teo-torsion} & Modelo global del bastidor bajo las cargas de centrado\\
+Apoyos, pasadores y colocación & \eqref{eq:mt-pad}--\eqref{eq:mt-colocacion} & Presión media de los apoyos sectoriales, pasador de bloqueo y error de colocación\\
+Rodadura y guiado & \eqref{eq:teo-rodadura} & Fuerza de traslado, potencia estimada y fuerza lateral de la rueda\\
+Red hidráulica y bomba & \eqref{eq:mt-caudal-re}--\eqref{eq:teo-npsh}, \eqref{eq:teo-potencia} & Caudal, pérdidas, altura, potencia y NPSH de la red; tubería del distribuidor\\
+Huella y acceso & \eqref{eq:teo-huella} & Número y disposición de las boquillas\\
+Barras, contacto y sólidos & \eqref{eq:kuf_revision}, \eqref{eq:complementariedad_revision} & Análisis del bastidor; factibilidad del contacto; elementos finitos de los centradores\\
+Mojado y verificación & \eqref{eq:teo-dpm}--\eqref{eq:teo-gci} & Dosis, uniformidad, transferencia e impulso; estudio de malla\\
+\end{longtable}
+\noindent\textit{Fuente:} elaboración propia.\par
+\endgroup
+

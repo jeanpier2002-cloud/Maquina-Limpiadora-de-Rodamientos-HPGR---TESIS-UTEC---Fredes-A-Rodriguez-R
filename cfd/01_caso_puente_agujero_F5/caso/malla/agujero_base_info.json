@@ -1,0 +1,27 @@
+{
+ "nivel": "base",
+ "ni": 67,
+ "nj": 82,
+ "nk": 109,
+ "celdas": 512130,
+ "celdas_lanza": 1846,
+ "dth_min_deg": 0.7992476026095184,
+ "dth_max_deg": 9.990595032619133,
+ "dr_fino_m": 0.005,
+ "dz_m": 0.006,
+ "r_in_m": 0.1,
+ "R_ext_m": 0.55,
+ "nodos": 529132,
+ "caras": 1554686,
+ "zonas": {
+  "interior-fluid": 1518094,
+  "abierto_inferior": 5412,
+  "abierto_superior": 5400,
+  "cara_inf_rodamiento": 820,
+  "cara_sup_rodamiento": 820,
+  "lanza": 6428,
+  "lateral_abierto": 1804,
+  "nucleo_abierto": 8856,
+  "pared_agujero": 7052
+ }
+}

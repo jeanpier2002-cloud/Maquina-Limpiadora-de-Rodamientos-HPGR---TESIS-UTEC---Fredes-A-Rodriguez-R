@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<!-- time='0.035' -->
+<VTKFile type='vtkMultiBlockDataSet' version='1.0' byte_order='LittleEndian' header_type='UInt64'>
+  <vtkMultiBlockDataSet>
+    <Block name='boundary'>
+      <DataSet name='abierto_inferior' file='boundary/abierto_inferior.vtp' />
+      <DataSet name='abierto_superior' file='boundary/abierto_superior.vtp' />
+      <DataSet name='lateral_abierto' file='boundary/lateral_abierto.vtp' />
+      <DataSet name='pared_agujero' file='boundary/pared_agujero.vtp' />
+      <DataSet name='cara_inf_rodamiento' file='boundary/cara_inf_rodamiento.vtp' />
+      <DataSet name='cara_sup_rodamiento' file='boundary/cara_sup_rodamiento.vtp' />
+      <DataSet name='lanza' file='boundary/lanza.vtp' />
+    </Block>
+  </vtkMultiBlockDataSet>
+  <FieldData>
+    <DataArray type='Float32' Name='TimeValue' NumberOfTuples='1' format='ascii'>
+0.035
+    </DataArray>
+  </FieldData>
+</VTKFile>

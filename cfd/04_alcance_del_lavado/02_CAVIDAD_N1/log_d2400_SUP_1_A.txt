@@ -1,0 +1,2 @@
+SUP_1_A    entra ventana sup 55.333 % | inf 0.000 %  (1257 s)
+listo d2400_SUP_1_A en 1257 s

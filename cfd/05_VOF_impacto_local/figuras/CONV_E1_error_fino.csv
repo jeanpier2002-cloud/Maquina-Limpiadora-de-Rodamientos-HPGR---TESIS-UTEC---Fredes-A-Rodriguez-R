@@ -1,0 +1,17 @@
+magnitud,N,valor,error_rel_fino
+p₀ (presión de estancamiento),5,364497.0,0.016101516484821655
+p₀ (presión de estancamiento),10,369106.0,0.0036602944431547635
+p₀ (presión de estancamiento),20,370233.0,0.0006181470704147794
+p₀ (presión de estancamiento),40,370462.0,0.0
+F/b local (|x| < 1 mm),5,222.688,0.0009600631667728358
+F/b local (|x| < 1 mm),10,223.029,0.0005697571129914023
+F/b local (|x| < 1 mm),20,222.92,8.07529766444477e-05
+F/b local (|x| < 1 mm),40,222.902,0.0
+espesor de la película en x = 2 mm,5,135.914,0.12944838717942153
+espesor de la película en x = 2 mm,10,149.216,0.04424688068458397
+espesor de la película en x = 2 mm,20,153.604,0.01614101611539534
+espesor de la película en x = 2 mm,40,156.124,0.0
+τ_w en x = 2 mm,5,922.382,0.1759826608019378
+τ_w en x = 2 mm,10,679.81,0.13328233569197434
+τ_w en x = 2 mm,20,781.659,0.003430866322432627
+τ_w en x = 2 mm,40,784.35,0.0

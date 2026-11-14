@@ -1,0 +1,130 @@
+﻿tabla,fila,magnitud,valor,unidad,fuente,nota
+A_evolucion,OD | Caso Base (22 boquillas),D,26.3956,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,OD | Caso Base (22 boquillas),Dmin,0.441773,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,OD | Caso Base (22 boquillas),CV,0.302428,-,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,OD | Caso Base (22 boquillas),s10,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,OD | Caso Base (22 boquillas),s2,0.389569,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,OD | Caso Base (22 boquillas),eta,94.2724,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,OD | Caso Base (22 boquillas),J,608.973,N s/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,OD | Casos 2 y 3 (LAT_1 a −4°),D,26.3844,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C2/G7_od_indicadores.csv,
+A_evolucion,OD | Casos 2 y 3 (LAT_1 a −4°),Dmin,14.5626,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C2/G7_od_indicadores.csv,
+A_evolucion,OD | Casos 2 y 3 (LAT_1 a −4°),CV,0.265457,-,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C2/G7_od_indicadores.csv,
+A_evolucion,OD | Casos 2 y 3 (LAT_1 a −4°),s10,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C2/G7_od_indicadores.csv,
+A_evolucion,OD | Casos 2 y 3 (LAT_1 a −4°),s2,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C2/G7_od_indicadores.csv,
+A_evolucion,OD | Casos 2 y 3 (LAT_1 a −4°),eta,94.2324,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C2/G7_od_indicadores.csv,
+A_evolucion,OD | Casos 2 y 3 (LAT_1 a −4°),J,608.376,N s/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C2/G7_od_indicadores.csv,
+A_evolucion,OD | O7+C2 sin Caso 2 (24 boq.),D,25.8237,kg/m2/vuelta,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_01_kit/R3_01_kit_resumen.csv,
+A_evolucion,OD | O7+C2 sin Caso 2 (24 boq.),Dmin,0.133136,kg/m2/vuelta,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_01_kit/R3_01_kit_resumen.csv,
+A_evolucion,OD | O7+C2 sin Caso 2 (24 boq.),CV,0.660945,-,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_01_kit/R3_01_kit_resumen.csv,
+A_evolucion,OD | O7+C2 sin Caso 2 (24 boq.),s10,0.0,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_01_kit/R3_01_kit_resumen.csv,
+A_evolucion,OD | O7+C2 sin Caso 2 (24 boq.),s2,1.55828,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_01_kit/R3_01_kit_resumen.csv,
+A_evolucion,OD | O7+C2 sin Caso 2 (24 boq.),eta,79.079,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_01_kit/R3_01_kit_resumen.csv,
+A_evolucion,OD | O7+C2 sin Caso 2 (24 boq.),J,611.833,N s/m2/vuelta,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_01_kit/R3_01_kit_resumen.csv,
+A_evolucion,OD | Vigente: O7+C2 + Caso 2,D,25.8247,kg/m2/vuelta,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,OD | Vigente: O7+C2 + Caso 2,Dmin,10.5331,kg/m2/vuelta,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,OD | Vigente: O7+C2 + Caso 2,CV,0.647914,-,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,OD | Vigente: O7+C2 + Caso 2,s10,0.0,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,OD | Vigente: O7+C2 + Caso 2,s2,0.0,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,OD | Vigente: O7+C2 + Caso 2,eta,79.0822,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,OD | Vigente: O7+C2 + Caso 2,J,611.581,N s/m2/vuelta,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,Cara superior | Caso Base y Caso 2,D,22.5341,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Cara superior | Caso Base y Caso 2,Dmin,6.12672,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Cara superior | Caso Base y Caso 2,CV,0.39581,-,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Cara superior | Caso Base y Caso 2,s10,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Cara superior | Caso Base y Caso 2,s2,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Cara superior | Caso Base y Caso 2,eta,97.9422,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Cara superior | Caso Base y Caso 2,J,526.617,N s/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Cara superior | Caso 3 (SUP_2 +15 mm) ‡,D,21.8178,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C3/G7_sup_indicadores.csv,
+A_evolucion,Cara superior | Caso 3 (SUP_2 +15 mm) ‡,Dmin,14.0292,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C3/G7_sup_indicadores.csv,
+A_evolucion,Cara superior | Caso 3 (SUP_2 +15 mm) ‡,CV,0.320958,-,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C3/G7_sup_indicadores.csv,
+A_evolucion,Cara superior | Caso 3 (SUP_2 +15 mm) ‡,s10,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C3/G7_sup_indicadores.csv,
+A_evolucion,Cara superior | Caso 3 (SUP_2 +15 mm) ‡,s2,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C3/G7_sup_indicadores.csv,
+A_evolucion,Cara superior | Caso 3 (SUP_2 +15 mm) ‡,eta,94.8287,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C3/G7_sup_indicadores.csv,
+A_evolucion,Cara superior | Caso 3 (SUP_2 +15 mm) ‡,J,509.404,N s/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G8/comparacion/C3/G7_sup_indicadores.csv,
+A_evolucion,"Cara inferior | Caso Base, Casos 2 y 3",D,5.46499,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,"Cara inferior | Caso Base, Casos 2 y 3",Dmin,2.93254,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,"Cara inferior | Caso Base, Casos 2 y 3",CV,0.616153,-,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,"Cara inferior | Caso Base, Casos 2 y 3",s10,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,"Cara inferior | Caso Base, Casos 2 y 3",s2,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,"Cara inferior | Caso Base, Casos 2 y 3",eta,30.9722,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,"Cara inferior | Caso Base, Casos 2 y 3",J,43.0456,N s/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Cara inferior | Vigente: O7+C2,D,14.1625,kg/m2/vuelta,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,Cara inferior | Vigente: O7+C2,Dmin,7.33222,kg/m2/vuelta,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,Cara inferior | Vigente: O7+C2,CV,0.430263,-,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,Cara inferior | Vigente: O7+C2,s10,0.0,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,Cara inferior | Vigente: O7+C2,s2,0.0,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,Cara inferior | Vigente: O7+C2,eta,48.1889,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,Cara inferior | Vigente: O7+C2,J,83.5416,N s/m2/vuelta,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/KPI/R3_02_03_AB/R3_02_03_AB_resumen.csv,
+A_evolucion,Agujero | Todos los casos †,D,18.7212,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Agujero | Todos los casos †,Dmin,11.5207,kg/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Agujero | Todos los casos †,CV,0.33885,-,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Agujero | Todos los casos †,s10,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Agujero | Todos los casos †,s2,0.0,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Agujero | Todos los casos †,eta,86.9071,%,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+A_evolucion,Agujero | Todos los casos †,J,437.983,N s/m2/vuelta,G:/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/06_RESULTADOS/G7/G7_tabla_K1_K6.csv [caso=Caso Base],
+B_verificacion,malla OD (vigente),dD_pct,-0.0891,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_malla.csv,cambio entre las dos mallas mas finas
+B_verificacion,malla OD (vigente),dCV_abs,-0.000544,-,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_malla.csv,
+B_verificacion,malla OD (vigente),GCI_fino_pct,0.0848,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_malla.csv,
+B_verificacion,malla Cara inferior (vigente),dD_pct,-0.256,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_malla.csv,cambio entre las dos mallas mas finas
+B_verificacion,malla Cara inferior (vigente),dCV_abs,-0.00206,-,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_malla.csv,
+B_verificacion,malla Cara inferior (vigente),GCI_fino_pct,0.326,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_malla.csv,
+B_verificacion,malla Co Cara superior (geometría del Caso Base),dD_pct,-0.05414,%,D:/CFD_Redosado/CORRIDA_2_desde24oct/03_FLUENT/resultados/RESUMEN_Co_vs_dt_fijo.csv,"fina menos base, Courant constante"
+B_verificacion,malla Co Cara superior (geometría del Caso Base),dCV_abs,-0.004,-,D:/CFD_Redosado/CORRIDA_2_desde24oct/03_FLUENT/resultados/RESUMEN_Co_vs_dt_fijo.csv,
+B_verificacion,malla Co Agujero,dD_pct,0.1146,%,D:/CFD_Redosado/CORRIDA_2_desde24oct/03_FLUENT/resultados/RESUMEN_Co_vs_dt_fijo.csv,"fina menos base, Courant constante"
+B_verificacion,malla Co Agujero,dCV_abs,-0.0039,-,D:/CFD_Redosado/CORRIDA_2_desde24oct/03_FLUENT/resultados/RESUMEN_Co_vs_dt_fijo.csv,
+B_verificacion,parcelas OD (vigente),dD_pct,0.0151,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_particulas.csv,
+B_verificacion,parcelas OD (vigente),dCV_abs,-0.000768,-,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_particulas.csv,
+B_verificacion,parcelas Cara inferior (vigente),dD_pct,-0.255,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_particulas.csv,
+B_verificacion,parcelas Cara inferior (vigente),dCV_abs,-0.00174,-,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_particulas.csv,
+B_verificacion,ruido AB OD (vigente),dD_pct,-0.0105,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_ruido_AB.csv,
+B_verificacion,ruido AB OD (vigente),dCV_abs,0.0101,-,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_ruido_AB.csv,
+B_verificacion,ruido AB Cara inferior (vigente),dD_pct,-0.42,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_ruido_AB.csv,
+B_verificacion,ruido AB Cara inferior (vigente),dCV_abs,0.00608,-,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T9_ruido_AB.csv,
+B_verificacion,dt/2,dD_pct,"≤ 0,01",%,D:/ENTREGABLE P2/PRISM_ACTUAL_EXTRAIDO/secciones/cap07_pruebas_resultados/00_capitulo.tex,"tesis P2, origen G6"
+B_verificacion,dominio,dD_pct,"≤ 0,14",%,D:/ENTREGABLE P2/PRISM_ACTUAL_EXTRAIDO/secciones/cap07_pruebas_resultados/00_capitulo.tex,"tesis P2, origen G6"
+B_verificacion,caso puente,dD_pct,"0,27",%,D:/ENTREGABLE P2/PRISM_ACTUAL_EXTRAIDO/secciones/cap07_pruebas_resultados/00_capitulo.tex,tesis P2: OpenFOAM rama B vs Fluent
+B_verificacion,N1 vs CFD cara inferior,dD_pct,-1.977401,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/T7_N1_vs_CFD.csv,N1 / CFD - 1
+B_verificacion,balance de masa,min_pct,0.0117,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/*_aceptacion.txt + D:/CFD_Redosado/CORRIDA_2_desde24oct/03_FLUENT/resultados/BALANCES_Co.csv,
+B_verificacion,balance de masa,max_pct,0.1982,%,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/*_aceptacion.txt + D:/CFD_Redosado/CORRIDA_2_desde24oct/03_FLUENT/resultados/BALANCES_Co.csv,
+C_lavado_E1,OD | media θ,t95_min_Dreq65,2.94,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,OD | media θ,t95_min_Dreq183,8.24,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,OD | media θ,t95_min_Dreq305,14.12,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,OD | por celdas,t95_min_Dreq65,2.94,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,OD | por celdas,t95_min_Dreq183,8.24,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,OD | por celdas,t95_min_Dreq305,14.12,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara superior | media θ,t95_min_Dreq65,2.94,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara superior | media θ,t95_min_Dreq183,7.65,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara superior | media θ,t95_min_Dreq305,12.94,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara superior | por celdas,t95_min_Dreq65,2.94,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara superior | por celdas,t95_min_Dreq183,7.65,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara superior | por celdas,t95_min_Dreq305,12.94,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Agujero | media θ,t95_min_Dreq65,2.94,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Agujero | media θ,t95_min_Dreq183,8.24,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Agujero | media θ,t95_min_Dreq305,14.12,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Agujero | por celdas,t95_min_Dreq65,2.94,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Agujero | por celdas,t95_min_Dreq183,8.24,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Agujero | por celdas,t95_min_Dreq305,14.12,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara inferior | media θ,t95_min_Dreq65,5.29,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara inferior | media θ,t95_min_Dreq183,14.12,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara inferior | media θ,t95_min_Dreq305,23.53,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara inferior | por celdas,t95_min_Dreq65,27.06,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara inferior | por celdas,t95_min_Dreq183,75.88,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+C_lavado_E1,Cara inferior | por celdas,t95_min_Dreq305,no alcanzada,min,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/03_DOSIS_TIEMPO/T4_t95_tabla.csv,95 % del area accesible con D >= D_req
+D_cavidad,"Rodillos y pistas, total (cota superior, sin jaula)",frac_N1,0.24275,-,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/d2400_M8_gate.csv,"2 400 rayos/plano, dphi 0,1 deg"
+D_cavidad,Hilera superior: flanco de los rodillos,frac_N1,0.23869,-,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/d2400_M8_union.csv,"2 400 rayos/plano, dphi 0,1 deg"
+D_cavidad,Hilera superior: extremo de los rodillos hacia la cara,frac_N1,0.95147,-,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/d2400_M8_union.csv,"2 400 rayos/plano, dphi 0,1 deg"
+D_cavidad,Hilera inferior: flanco de los rodillos,frac_N1,0.00347,-,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/d2400_M8_union.csv,"2 400 rayos/plano, dphi 0,1 deg"
+D_cavidad,Hilera inferior: extremo de los rodillos hacia la cara,frac_N1,0.49384,-,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/d2400_M8_union.csv,"2 400 rayos/plano, dphi 0,1 deg"
+D_cavidad,"Pista exterior, mitad superior",frac_N1,0.66142,-,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/d2400_M8_union.csv,"2 400 rayos/plano, dphi 0,1 deg"
+D_cavidad,"Pista exterior, mitad inferior",frac_N1,0.16164,-,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/d2400_M8_union.csv,"2 400 rayos/plano, dphi 0,1 deg"
+D_cavidad,"Pista interior, mitad superior",frac_N1,0.30506,-,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/d2400_M8_union.csv,"2 400 rayos/plano, dphi 0,1 deg"
+D_cavidad,"Pista interior, mitad inferior",frac_N1,0.01862,-,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/d2400_M8_union.csv,"2 400 rayos/plano, dphi 0,1 deg"
+D_cavidad,volumen libre (SKF),V_dm3,93-99,dm3,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/T3b_grasa_skf.csv,
+D_cavidad,"grasa en la cavidad, llena",M_kg,84-89,kg,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/T3b_grasa_skf.csv,
+D_cavidad,fraccion de la grasa en la cavidad,pct,94-99,%,D:/CFD_Redosado/CORRIDA_4_PRIMER_LAVADO/02_CAVIDAD_N1/T3b_grasa_skf.csv,
+A_evolucion,nota agujero,C2 hacia el agujero,16.297,% del caudal de C2_A,D:/CFD_Redosado/CORRIDA_3_O7C2/03_FLUENT/resultados/destino_R3_02_caso2.csv,no contabilizado en el agujero
+E_accion,"Empuje de la película en el OD a 0,33 mm del eje (lámina 2D, LAT_3_A)",valor,"17,0 N/m (0,94 del valor teórico)",,D:/CFD_Redosado/CORRIDA_2_desde24oct/02_VOF_v3/INFORME_E1_OD_v3.md,
+E_accion,"Cortante en la pared, lámina intacta (cota superior)",valor,"≈ 2 kPa a 0,33 mm; 0,6–1 kPa en la película",,D:/CFD_Redosado/CORRIDA_2_desde24oct/02_VOF_v3/INFORME_E1_OD_v3.md ; D:/CFD_Redosado/CORRIDA_1_13a21oct/06_VOF/RESUMEN_PARA_JEAN_VOF.md,
+E_accion,"Cortante en la pared, mezcla equivalente 3D (cota inferior)",valor,5 → 25 Pa (no converge al refinar),,D:/CFD_Redosado/CORRIDA_1_13a21oct/06_VOF/RESUMEN_PARA_JEAN_VOF.md,
+E_accion,Umbral τ₀ candidato de la grasa (por analogía),valor,20 / 300 / 1000 Pa,,D:/CFD_Redosado/CORRIDA_1_13a21oct/METRICA_GRASA/04_ENTREGA/U9_UMBRAL_ANALOGICO.md,
+E_accion,KPI-1 (τ_w > τ₀),valor,Indeterminado: las dos cotas quedan a ambos lados del umbral,,D:/CFD_Redosado/CORRIDA_1_13a21oct/06_VOF/RESUMEN_PARA_JEAN_VOF.md,

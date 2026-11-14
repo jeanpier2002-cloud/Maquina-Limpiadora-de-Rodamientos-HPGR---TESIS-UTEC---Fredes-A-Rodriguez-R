@@ -1,0 +1,13 @@
+Fuente,Ruta o identificacion de fuente,Uso R05,SHA256
+R01 SAP,00_REFERENCIAS/V5_2_N3_W6X9_REV01_SAP_RAW.xlsx,historical executed results,A09E2BE2E11FB250811934517C9C40E3EE3151630D6547419254014AEF9B18A8
+Independent R04 review,00_REFERENCIAS/REVISION_INDEPENDIENTE_R04_2026-09-08.txt,F01-F05 source and bounded R05 assignment,ADD5616D8B5A82EBBA53A2086EDF6C15CE0EB11223D8FA9C2A822B017B4ACB3A
+Head A geometry,00_REFERENCIAS/Head_A.step,project reference; final swept hoses pending,83A53327143120927C4491F3BFBC105FE53D72BC90B77F6868BD890FDE384045
+Blickle SPKVS,https://www.blickle.com/product/spkvs-200k-253179,catalogue or technical reference,WEB
+ArcelorMittal A45,https://rails.arcelormittal.com/wp-content/uploads/2023/10/ArcelorMittal-CRANE-Rails-EN.pdf,catalogue or technical reference,WEB
+Gantrex BG10,https://www.gantrex.com/content/uploads/2022/07/GXHQ_EN_CLIPS_RailLok-Clip-BG10_2017-09_R2.0-1.pdf,catalogue or technical reference,WEB
+haacon 4585 manual,https://www.haacon.com/wp-content/uploads/2022/10/094008_Seilwinde-DE-FR-EN-IT.pdf,catalogue or technical reference,WEB
+Tractel Tirfor TU8 candidate,https://www.tractel.com/PIM/Manuals/LH/Manual%20LH/Group%201/150425.ind-03.03-23.pdf,catalogue or technical reference,WEB
+HSE push pull,https://www.hse.gov.uk/msd/pushpull/assessment.htm,catalogue or technical reference,WEB
+ISO 11228-2,https://www.iso.org/standard/26521.html,catalogue or technical reference,WEB
+Roechling PE1000,https://www.roechling.com/fileadmin/assets/Technical%20Data%20Sheet%20Polystone%C2%AE%20M%20Natural%20-%20ASTM%20717946%20EN.pdf,catalogue or technical reference,WEB
+SKF 6207 reference,https://cdn.skfmediahub.skf.com/api/public/0901d19680416953/pdf_preview_medium/0901d19680416953_pdf_preview_medium.pdf,catalogue or technical reference,WEB

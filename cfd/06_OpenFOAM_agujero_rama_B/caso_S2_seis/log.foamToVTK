@@ -1,0 +1,51 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2606                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _481094f-20260618 OPENFOAM=2606 version=2606
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToVTK -latestTime -fields (U p kinematicCloud:campos_de_impacto:mass) -patches (pared_agujero cara_inf_rodamiento lanza)
+Date   : Sep 20 2026
+Time   : 07:54:25
+Host   : DESKTOP-KR70U7K
+PID    : 1724
+I/O    : uncollated
+Case   : /home/piermoto/cfd01/F4/S2_seis
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+memory pool : not available
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+
+--> FOAM Warning : allowSystemOperations : Allowing user-supplied system call operations.
+                   This can be a security risk if running untrusted cases
+                   through e.g. 'coded' on-the-fly-compilation functionality.
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Including patches (pared_agujero cara_inf_rodamiento lanza)
+
+Including fields (U p kinematicCloud:campos_de_impacto:mass)
+
+Create time
+
+Initial memory 224824 kB
+Create mesh for time = 0.035
+
+VTK mesh topology: 1.44 s, 313476 kB
+Time: 0.035
+    volScalar    : kinematicCloud:campos_de_impacto:mass p
+    volVector    : U
+    Internal  : "VTK/S2_seis_700/internal.vtu"
+    Boundary  : "VTK/S2_seis_700/boundary/pared_agujero.vtp"
+    Boundary  : "VTK/S2_seis_700/boundary/cara_inf_rodamiento.vtp"
+    Boundary  : "VTK/S2_seis_700/boundary/lanza.vtp"
+    Lagrangian: "VTK/lagrangian/kinematicCloud/kinematicCloud_700.vtp"
+        label: active origId origProcId typeId
+        scalar: age d dTarget nParticle rho tTurb
+        vector: U UCorrect UTurb
+Wrote in 2.15 s, 617336 kB
+
+End: 3.59 s, 629972 kB (peak)
+

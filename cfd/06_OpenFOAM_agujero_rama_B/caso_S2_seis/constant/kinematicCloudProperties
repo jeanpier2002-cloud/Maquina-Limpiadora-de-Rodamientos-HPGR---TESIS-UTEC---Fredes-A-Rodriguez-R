@@ -1,0 +1,140 @@
+FoamFile { version 2.0; format ascii; class dictionary; object kinematicCloudProperties; }
+
+solution
+{
+    active true; coupled yes; transient yes;
+    cellValueSourceCorrection no; maxCo 0.3;
+    sourceTerms { schemes { U semiImplicit 1; } }
+    interpolationSchemes { rho cell; U cellPoint; mu cell; muc cell; }
+    integrationSchemes { U Euler; }
+}
+
+constantProperties { rho0 982.1203530851709; }
+
+subModels
+{
+    particleForces { sphereDrag; gravity; }
+
+    injectionModels
+    {
+        INT_1
+        {
+            type             kinematicLookupTableInjection;
+            inputFile        "tabla_INT_1";
+            duration         0.035;
+            parcelsPerSecond 22000;
+            randomise        false;
+            massTotal        0.00523416704;
+            parcelBasisType  mass;
+            minParticlesPerParcel 1e-6;
+            injectorID       1;
+            SOI              0;
+        }
+
+        INT_2
+        {
+            type             kinematicLookupTableInjection;
+            inputFile        "tabla_INT_2";
+            duration         0.035;
+            parcelsPerSecond 22000;
+            randomise        false;
+            massTotal        0.0052384008;
+            parcelBasisType  mass;
+            minParticlesPerParcel 1e-6;
+            injectorID       2;
+            SOI              0;
+        }
+
+        INT_3
+        {
+            type             kinematicLookupTableInjection;
+            inputFile        "tabla_INT_3";
+            duration         0.035;
+            parcelsPerSecond 22000;
+            randomise        false;
+            massTotal        0.00524338506;
+            parcelBasisType  mass;
+            minParticlesPerParcel 1e-6;
+            injectorID       3;
+            SOI              0;
+        }
+
+        INT_4
+        {
+            type             kinematicLookupTableInjection;
+            inputFile        "tabla_INT_4";
+            duration         0.035;
+            parcelsPerSecond 22000;
+            randomise        false;
+            massTotal        0.00524890785;
+            parcelBasisType  mass;
+            minParticlesPerParcel 1e-6;
+            injectorID       4;
+            SOI              0;
+        }
+
+        INT_5
+        {
+            type             kinematicLookupTableInjection;
+            inputFile        "tabla_INT_5";
+            duration         0.035;
+            parcelsPerSecond 22000;
+            randomise        false;
+            massTotal        0.00525476293;
+            parcelBasisType  mass;
+            minParticlesPerParcel 1e-6;
+            injectorID       5;
+            SOI              0;
+        }
+
+        INF_INT
+        {
+            type             kinematicLookupTableInjection;
+            inputFile        "tabla_INF_INT";
+            duration         0.035;
+            parcelsPerSecond 22000;
+            randomise        false;
+            massTotal        0.00522354541;
+            parcelBasisType  mass;
+            minParticlesPerParcel 1e-6;
+            injectorID       6;
+            SOI              0;
+        }
+    }
+
+    dispersionModel none;
+
+    patchInteractionModel localInteraction;
+    localInteractionCoeffs
+    {
+        patches
+        (
+            // todo escape: la gota se retira al tocar y su masa queda contabilizada
+            // por patch, que es lo que cierra el balance. En la pared del agujero
+            // 'escape' equivale a deposicion perfecta (absorcion)
+            pared_agujero       { type escape; }
+            cara_inf_rodamiento { type escape; }
+            cara_sup_rodamiento { type escape; }
+            lanza               { type escape; }
+            abierto_inferior    { type escape; }
+            abierto_superior    { type escape; }
+            lateral_abierto     { type escape; }
+        );
+    }
+
+    stochasticCollisionModel none;
+    collisionModel none;
+    surfaceFilmModel none;
+}
+
+cloudFunctions
+{
+    campos_de_impacto { type patchInteractionFields; resetMode none; }
+    impactos
+    {
+        type              particlePostProcessing;
+        maxStoredParcels  8000000;
+        patches           (pared_agujero);
+        fields            (position U d nParticle rho age typeId origId);
+    }
+}

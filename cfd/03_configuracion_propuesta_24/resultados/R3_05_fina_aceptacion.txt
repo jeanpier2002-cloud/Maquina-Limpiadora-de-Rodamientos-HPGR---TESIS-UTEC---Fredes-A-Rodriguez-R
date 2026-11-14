@@ -1,0 +1,1 @@
+OK R3_05_fina | pasos 1262/1262 | Error/FATAL 0 | muestras 8/8 | balance 0.0241 %

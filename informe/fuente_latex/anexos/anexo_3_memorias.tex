@@ -1,0 +1,390 @@
+\chapter{MEMORIAS DE CÁLCULO}
+\label{anx:calculos}
+
+Este anexo desarrolla los cálculos resumidos en el Capítulo~\ref{cap:diseno}. La Sección~\ref{sec:memoria-soporte} presenta el caso de referencia del soporte; la Sección~\ref{sec:man-asp-base}, el caso analítico de diecinueve boquillas con el que se fijó el método hidráulico; la Sección~\ref{sec:memoria-red22}, la red de veintidós boquillas de la configuración base; la Sección~\ref{sec:memoria-red24}, la red de 24 boquillas de la configuración propuesta; la Sección~\ref{sec:memoria-termica}, el balance del precalentamiento; la Sección~\ref{sec:comprobaciones-resumidas}, las comprobaciones de los componentes que se resolvieron con menor profundidad; la Sección~\ref{sec:costo-historico}, la línea base histórica de costos, y la Sección~\ref{sec:base-precios}, la base de precios del presupuesto. La procedencia de los datos, los libros de cálculo y los guiones se registran en el Anexo~\ref{anx:programas}.
+
+\section{Memoria de cálculo del soporte}
+\label{sec:memoria-soporte}
+
+El caso de referencia corresponde al rodamiento centrado sobre los tres apoyos sectoriales. Las coordenadas de los nodos proceden de la exportación del modelo de SAP2000, cuyas reacciones se usan como comprobación del cálculo manual.
+
+\input{secciones/cap06_diseno_tecnologico/caso_manual_soporte}
+
+\input{aspersion_manual/01_base_boquillas}
+\input{aspersion_manual/02_red_bomba}
+\input{aspersion_manual/03_interpretacion}
+
+\section{Red hidráulica de la configuración base}
+\label{sec:memoria-red22}
+
+La red de veintidós boquillas se resolvió con el método de la Sección~\ref{sec:man-asp-red}: caudal de boquilla proporcional a la raíz de la presión, pérdidas de Darcy--Weisbach con el factor de Swamee--Jain \cite{manSwamee}, pérdidas locales como múltiplos del factor de fricción en régimen completamente turbulento \cite{crane410} y aproximaciones sucesivas hasta que la toma más desfavorable reciba 4 bar. El guion de cálculo reprodujo primero el caso base: 173,992 L/min, $p_C=3{,}998805$ bar y 50,74881 m de altura de bombeo, iguales a los de la memoria anterior.
+
+\subsection{Cambios respecto del caso base}
+
+La Tabla~\ref{tab:red22-cambios} resume las diferencias de la geometría de la configuración base y su tratamiento en el cálculo. El recuento es de dos lados exteriores con dos boquillas superiores, cinco laterales y una inferior cada uno, más la lanza con cinco boquillas y una inferior interior: 22 boquillas.
+
+\begingroup
+\small\singlespacing
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}p{0.6cm}>{\raggedright\arraybackslash}p{6.2cm}>{\raggedright\arraybackslash}p{\dimexpr\textwidth-6.8cm-4\tabcolsep\relax}@{}}
+\caption{Cambios de la red de 22 boquillas respecto del caso analítico}\label{tab:red22-cambios}\\
+\toprule
+\textbf{N.°} & \textbf{Cambio} & \textbf{Tratamiento en el cálculo}\\
+\midrule\endfirsthead
+\toprule
+\textbf{N.°} & \textbf{Cambio} & \textbf{Tratamiento en el cálculo}\\
+\midrule\endhead
+\bottomrule\endlastfoot
+H1 & Lados exteriores con la misma topología: transversal DN50 a $Z=1740$ mm y ramal DN40 & Igual que en el caso base\\
+H2 & La boquilla lateral 5 baja de $Z=1070$ a $Z=1040$ mm & Tramo E4--E5 de 0,060 m\\
+H3 & Válvula de ramal de paso total en cada lado & $K=3f_T$ en DN40, igual que la válvula de bola del caso base\\
+H4 & Dos boquillas inferiores exteriores a $R=835{,}85$ mm y $Z=855$ mm, inclinadas 30$^\circ$ hacia arriba y hacia dentro & Prolongación DN40 hasta $Z=944$ mm, reducción a DN15 y pie con codo de 45$^\circ$; longitud equivalente de 0,13 m, estimada sin medir en el CAD, y $f_T$ de DN15 de 0,027 \cite{crane410}\\
+H5 & La lanza se alimenta por la red fija, la válvula de aislamiento, el flexible de 1,26 m, una curva de 180$^\circ$ y el cuello móvil & Pérdida de la revisión anterior (0,98775 m a 54,706 L/min) aplicada como $K$ equivalente de 8,663 sobre la velocidad en DN25\\
+H6 & Boquilla inferior interior a $Y=400$ mm y $Z=850$ mm, inclinada 25$^\circ$ hacia arriba & Pie DN25 de 0,25 m, estimado sin medir en el CAD, con $K=60f_T$ por el método de Crane \cite{crane410}\\
+H7 & Tomas superiores & A $Z=1740$ mm, como en el caso base\\
+\end{longtable}
+\endgroup
+
+\subsection{Convergencia y estado de los tramos}
+
+La Tabla~\ref{tab:red22-iteraciones} muestra las aproximaciones sucesivas. La toma más desfavorable pasa a ser la boquilla más alta de la lanza, por la pérdida del recorrido que la alimenta; en el caso base lo era la segunda boquilla superior.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Aproximaciones sucesivas de la red de 22 boquillas}
+\label{tab:red22-iteraciones}
+\begin{tabular}{cccc}
+\toprule
+\textbf{Iteración} & \textbf{$p_C$ (bar)} & \textbf{$p_{mín}$ (bar)} & \textbf{$Q$ (L/min)}\\
+\midrule
+0 & 4,000000 & 3,937894 & 200,588635\\
+1 & 4,062106 & 4,001172 & 201,039492\\
+2 & 4,060934 & 3,998360 & 202,594551\\
+3 & 4,062574 & 4,000075 & 202,552204\\
+4 & 4,062498 & 3,999955 & 202,593500\\
+5 & 4,062543 & 4,000003 & 202,591269\\
+6 & 4,062540 & 3,999999 & 202,592400\\
+7 & 4,062541 & 4,000000 & 202,592311\\
+8 & 4,062541 & 4,000000 & 202,592343\\
+9 & 4,062541 & 4,000000 & 202,592340\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+En la Tabla~\ref{tab:red22-tramos} figuran los tramos del estado convergido. Se muestra un lado exterior; el otro es simétrico. Los nodos siguen la notación de la Sección~\ref{sec:man-asp-red}: $C$ es la alimentación central; $S1$ y $S2$, las tomas superiores; $E0$ a $E6$, el tubo descendente exterior y sus tomas, e $I0$ a $I6$, la lanza.
+
+\begingroup
+\small\singlespacing
+\setlength{\tabcolsep}{3.5pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.6cm}cccccccc@{}}
+\caption{Tramos de la red de 22 boquillas en el estado convergido}\label{tab:red22-tramos}\\
+\toprule
+\textbf{Tramo} & \textbf{DN} & \textbf{$L$ (m)} & \textbf{$\sum K$} & \textbf{$Q$ (L/min)} & \textbf{$v$ (m/s)} & \textbf{$h_L$ (m)} & \textbf{$z$ final (m)}\\
+\midrule\endfirsthead
+\toprule
+\textbf{Tramo} & \textbf{DN} & \textbf{$L$ (m)} & \textbf{$\sum K$} & \textbf{$Q$ (L/min)} & \textbf{$v$ (m/s)} & \textbf{$h_L$ (m)} & \textbf{$z$ final (m)}\\
+\midrule\endhead
+\bottomrule\endlastfoot
+\multicolumn{8}{@{}l}{\textit{Lado exterior (uno de dos)}}\\
+C--S1 & 50 & 0,5360 & 1,140 & 73,886 & 0,523 & 0,01902 & 1,7400\\
+S1--S2 & 50 & 0,0880 & 0,380 & 64,696 & 0,458 & 0,00446 & 1,7400\\
+S2--E0 & 50 & 0,2760 & 0,950 & 55,507 & 0,393 & 0,00842 & 1,7400\\
+E0--E1, con válvula & 40 & 0,3940 & 0,460 & 55,507 & 0,644 & 0,01437 & 1,3463\\
+E1--E2 & 40 & 0,0821 & 0,400 & 46,277 & 0,537 & 0,00657 & 1,2642\\
+E2--E3 & 40 & 0,0821 & 0,400 & 37,039 & 0,430 & 0,00422 & 1,1821\\
+E3--E4 & 40 & 0,0821 & 0,400 & 27,793 & 0,323 & 0,00239 & 1,1000\\
+E4--E5 & 40 & 0,0600 & 0,400 & 18,538 & 0,215 & 0,00104 & 1,0400\\
+E5--prolongación & 40 & 0,0960 & 0,000 & 9,276 & 0,108 & 0,00004 & 0,9440\\
+Reducción y pie & 15 & 0,1300 & 1,742 & 9,276 & 0,675 & 0,04578 & 0,8550\\
+\multicolumn{8}{@{}l}{\textit{Lanza}}\\
+C--I0, recorrido de alimentación & 25 & --- & 8,663 & 54,821 & 1,499 & 0,99190 & 1,7000\\
+I0--I1 & 25 & 0,3618 & 0,460 & 54,821 & 1,499 & 0,08903 & 1,3382\\
+I1--I2 & 25 & 0,0954 & 0,460 & 45,703 & 1,250 & 0,04337 & 1,2428\\
+I2--I3 & 25 & 0,0953 & 0,460 & 36,580 & 1,000 & 0,02787 & 1,1475\\
+I3--I4 & 25 & 0,0953 & 0,460 & 27,449 & 0,750 & 0,01577 & 1,0522\\
+I4--I5 & 25 & 0,0954 & 0,460 & 18,309 & 0,501 & 0,00708 & 0,9568\\
+I5--I6, pie a 25$^\circ$ & 25 & 0,2500 & 1,380 & 9,160 & 0,250 & 0,00530 & 0,8500\\
+\end{longtable}
+\endgroup
+
+\subsection{Presión y caudal en las tomas}
+
+La Tabla~\ref{tab:red22-tomas} reúne la presión y el caudal de cada toma. El caudal total es de 202,59 L/min (12,16 m$^3$/h): cada lado exterior aporta 73,886 L/min y la lanza, 54,821 L/min. Con $p_C=4{,}06254$ bar, el caudal varía un 1,74\,\% entre boquillas, de 9,118 a 9,276 L/min.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Presión y caudal en las tomas de la red de 22 boquillas}
+\label{tab:red22-tomas}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Toma} & \textbf{Cantidad} & \textbf{$p$ (bar)} & \textbf{$q$ (L/min)}\\
+\midrule
+S1, superior 1 & 2 & 4,06360 & 9,18986\\
+S2, superior 2 & 2 & 4,06317 & 9,18938\\
+E1, lateral 4 & 2 & 4,09891 & 9,22970\\
+E2, lateral 3 & 2 & 4,10618 & 9,23789\\
+E3, lateral 2 & 2 & 4,11369 & 9,24633\\
+E4, lateral 1 & 2 & 4,12137 & 9,25495\\
+E5, lateral 5 & 2 & 4,12705 & 9,26133\\
+E6, inferior exterior & 2 & 4,14046 & 9,27636\\
+I1, interior 5 & 1 & 4,00000 & 9,11767\\
+I2, interior 4 & 1 & 4,00501 & 9,12338\\
+I3, interior 3 & 1 & 4,01151 & 9,13077\\
+I4, interior 2 & 1 & 4,01917 & 9,13949\\
+I5, interior 1 & 1 & 4,02768 & 9,14916\\
+I6, inferior interior & 1 & 4,03746 & 9,16026\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Altura de bombeo, potencia y NPSH}
+
+La Tabla~\ref{tab:red22-altura} descompone la altura de bombeo con el balance de energía entre el nivel libre del depósito y la alimentación central. Con un rendimiento de bomba de 0,55 y de motor de 0,85, ambos supuestos, la potencia hidráulica es de 1,710 kW, la potencia al eje de 3,11 kW y la eléctrica de 3,66 kW. El NPSH disponible es de 5,97 m con el nivel libre a $+0{,}50$ m y de 5,47 m sin nivel inundado, con una presión de vapor de 21,867 kPa a 62~$^\circ$C y una presión atmosférica de 76,244 kPa a 2335 m. En diez minutos circulan 2026 L; el volumen se recircula y no equivale a consumo de agua nueva.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Descomposición de la altura de bombeo de la red de 22 boquillas}
+\label{tab:red22-altura}
+\begin{tabular}{lc}
+\toprule
+\textbf{Contribución} & \textbf{Altura (m)}\\
+\midrule
+Presión requerida en la alimentación central & 42,16616\\
+Desnivel entre el nivel libre y la alimentación central & 0,77000\\
+Línea estacionaria DN40 de 14 m, $\sum K=5{,}66$ & 3,55905\\
+Fricción y codo de la alimentación del distribuidor & 0,41459\\
+Pérdidas de la succión & 0,17746\\
+Unión rotativa (0,30 bar) y filtro (0,20 bar), supuestas & 5,18963\\
+Carga cinética en la alimentación central & 0,28178\\
+\midrule
+\textbf{Total} & \textbf{52,55867}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Sensibilidad a la presión de boquilla}
+
+La Tabla~\ref{tab:red22-sensibilidad} aplica una presión uniforme a las 22 boquillas; no es una nueva resolución de la red. Entre 3 y 6 bar, el caudal total pasa de 173,7 a 245,7 L/min y la escala de fuerza del chorro se duplica.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Sensibilidad de caudal, velocidad y fuerza a una presión uniforme}
+\label{tab:red22-sensibilidad}
+\begin{tabular}{ccccc}
+\toprule
+\textbf{$p$ (bar)} & \textbf{$q$ (L/min)} & \textbf{$22q$ (L/min)} & \textbf{$v_j$ (m/s)} & \textbf{$F$ (N)}\\
+\midrule
+3 & 7,896 & 173,715 & 23,481 & 3,035\\
+4 & 9,118 & 200,589 & 27,114 & 4,047\\
+5 & 10,194 & 224,265 & 30,314 & 5,058\\
+6 & 11,167 & 245,670 & 33,207 & 6,070\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Limitaciones}
+
+El cálculo conserva las limitaciones del caso base: propiedades del agua, adoptadas porque el detergente se dosifica a 7--15 g/L (Sección~\ref{sec:costos-unitarios}), coeficientes de pérdida de predimensionamiento, pérdidas de boquilla, filtro, unión rotativa y bomba sin curvas medidas, y un trazado supuesto de 14 m para la línea estacionaria. Añade tres: las longitudes de los pies DN15 y DN25 se estimaron sin medirlas en el CAD; la pérdida de la lanza se tomó como un coeficiente equivalente constante, y la derivación de cada boquilla no se modeló. El cálculo define la demanda hidráulica de la configuración vigente; no demuestra la limpieza.
+
+\section{Red hidráulica de la configuración propuesta}
+\label{sec:memoria-red24}
+
+La red de 24 boquillas se calculó con el mismo guion y el mismo criterio: la boquilla más alta de la lanza, que sigue siendo la más desfavorable, se mantiene en 4,00 bar y se reajusta la altura de la bomba. Los cambios respecto de la configuración base son dos: cada boquilla inferior exterior pasa a ser de 15$^\circ$ y se agrega a su lado una segunda boquilla de 15$^\circ$, con una te en el pie DN15. Las boquillas de 15$^\circ$ tienen la misma capacidad nominal que las de 50$^\circ$, 2 gal/min a 40 psi, por lo que conservan el coeficiente de caudal. La pérdida de la te se tomó con $K_T=1$, sin dato del fabricante. La Tabla~\ref{tab:red24-boquillas} compara la presión y el caudal por grupo de boquillas.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Presión y caudal por grupo de boquillas en las redes de 22 y 24 boquillas}
+\label{tab:red24-boquillas}
+\begin{tabularx}{\textwidth}{@{}YP{3.6cm}P{3.6cm}@{}}
+\toprule
+\textbf{Grupo} & \textbf{22 boquillas (bar; L/min)} & \textbf{24 boquillas (bar; L/min)}\\
+\midrule
+Superiores, cada brazo & 4,0636; 9,190 & 4,0631; 9,189\\
+Laterales 1 a 5, cada brazo & 4,0989--4,1271; 9,23--9,26 & 4,0975--4,1249; 9,23--9,26\\
+Inferior exterior, cada brazo & 4,1405; 9,276 & 4,1306; 9,265\\
+Inferior adicional, cada brazo & -- & 4,1282; 9,263\\
+Lanza e inferior interior & 4,0000--4,0375; 9,12--9,16 & Iguales\\
+\midrule
+Caudal total (L/min) & 202,59 & 221,07\\
+Presión en el cubo (bar) & 4,0625 & 4,0625\\
+Altura de bombeo (m) & 52,56 & 53,39\\
+Potencia hidráulica / al eje con $\eta_p=0{,}55$ (kW) & 1,710 / 3,109 & 1,895 / 3,446\\
+Velocidad en el pie DN15 común (m/s) & 0,675 & 1,348\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+El mayor cambio en una boquilla existente es de $-9{,}8$ mbar en la inferior exterior, es decir, $-0{,}12$\,\% de caudal. Es unas diez veces menor que la incertidumbre numérica de la simulación del mojado, de modo que las superficies cuyas boquillas no cambiaron conservan sus resultados. El cálculo supone 14 m de alimentación en DN40 e incluye las válvulas de ramal de la configuración base, que el diseño final eliminó; ambas suposiciones son conservadoras.
+
+La Tabla~\ref{tab:red24-trazado} recalcula la altura con el trazado del modelo integrado: 8,66 m de tubería DN50 hasta la unión rotativa, con siete codos, una válvula de bola, una de retención y una te. La subida hasta la unión rotativa no suma altura estática, porque se recupera al bajar hasta el cubo.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Altura de bombeo de la red de 24 boquillas con el trazado del modelo integrado}
+\label{tab:red24-trazado}
+\begin{tabularx}{\textwidth}{@{}Yr@{}}
+\toprule
+\textbf{Término} & \textbf{m}\\
+\midrule
+Presión en el cubo, 4,06254 bar & 42,17\\
+Desnivel del nivel libre al cubo: normal / nivel bajo & 1,08 / 1,39\\
+Impulsión: 8,66 m de DN50 ($v=1{,}56$ m/s; $f=0{,}0206$) y accesorios ($\Sigma K=6{,}33$) & 1,19\\
+Unión rotativa (0,30 bar) y filtro (0,20 bar) & 5,19\\
+Alimentación del distribuidor y carga cinética & 0,83\\
+Succión: entrada, válvula de tres vías y colador ($K=3$, hipótesis) & 0,52\\
+\midrule
+\textbf{Total: nivel normal / nivel bajo} & \textbf{50,98 / 51,29}\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Con la presión atmosférica a 2335 m (76,24 kPa) y la presión de vapor a 62~$^\circ$C (21,87 kPa), el NPSH disponible es de 5,55 m con el nivel normal y de 5,24 m con el nivel bajo, frente a unos 2,2 m requeridos por la bomba. Es un valor conservador: la curva del catálogo da cerca de 1,8 m a 13,3 m$^3$/h \cite[p.~50]{grundfoscr}, en una lectura gráfica con $\pm0{,}3$ m.
+
+\section{Balance del precalentamiento}
+\label{sec:memoria-termica}
+
+El rodamiento, de 3032 kg de acero, tiene una capacidad térmica de unos 1,4 MJ/K. Si llega a 15~$^\circ$C (hipótesis), llevarlo a 60~$^\circ$C requiere unos 62,8 MJ (17,4 kWh). Al rociarlo, sus aros se igualan con el baño en minutos, con una constante de tiempo de 1,5 a 2 min. Sin precalentar, el baño baja durante un lavado de 10 min hasta las temperaturas de la Tabla~\ref{tab:termica-sin-precalentar}, según la masa de agua y el aporte de calor.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Temperatura del baño tras 10 min de lavado sin precalentar}
+\label{tab:termica-sin-precalentar}
+\begin{tabularx}{\textwidth}{@{}Yr@{}}
+\toprule
+\textbf{Caso} & \textbf{Baño a los 10 min ($^\circ$C)}\\
+\midrule
+Sin aporte de calor; equilibrio con 600 kg / 858 kg de agua (tanque y pozo) & 45,2 / 48,8\\
+24 kW, extractor a 150 m$^3$/h, 858 kg & 50,9\\
+48 kW, extractor a 150 m$^3$/h, 858 kg & 54,0\\
+24 kW, extractor a 800 m$^3$/h, 600 kg & 41,7\\
+24 kW, rodamiento precalentado a 50~$^\circ$C, 858 kg & 59,5\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+El extractor pierde mucho calor: su aire sale saturado a unos 45~$^\circ$C y, a 2335 m de altitud, arrastra 8,8 kW a 150 m$^3$/h y 46,7 kW a 800 m$^3$/h. Por eso el precalentamiento se hace con el extractor detenido. La Tabla~\ref{tab:termica-precalentamiento} da el tiempo para que el baño llegue a 60~$^\circ$C y el rodamiento a 55~$^\circ$C, recirculando con la puerta cerrada.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Tiempo de precalentamiento según la potencia de las resistencias}
+\label{tab:termica-precalentamiento}
+\begin{tabularx}{\textwidth}{@{}YP{4.2cm}P{4.2cm}@{}}
+\toprule
+\textbf{Resistencias} & \textbf{Extractor a 150 m$^3$/h, tanque sin aislar} & \textbf{Extractor detenido, tanque aislado}\\
+\midrule
+24 kW & 57 min & 34 min\\
+36 kW & 33 min & 23 min\\
+48 kW & 23 min & 18 min\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Se adoptaron 36 kW con el tanque aislado con 50 mm de lana mineral. Es una estimación de predimensionamiento con una masa de agua de 858 kg; el diseño de las resistencias, del aislamiento y del control de temperatura queda como recomendación.
+
+\section{Comprobaciones de los componentes resueltos con menor profundidad}
+\label{sec:comprobaciones-resumidas}
+
+Los componentes de esta sección se eligieron de catálogo o se comprobaron con cálculos y simulaciones que no forman parte del desarrollo principal. La Tabla~\ref{tab:comprobaciones-resumidas} resume su resultado y su limitación; no incluye análisis nuevos.
+
+\begingroup
+\small\singlespacing
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{\dimexpr\textwidth-2.7cm-3.3cm-3.6cm-6\tabcolsep\relax}>{\raggedright\arraybackslash}p{3.6cm}@{}}
+\caption{Comprobaciones resumidas}\label{tab:comprobaciones-resumidas}\\
+\toprule
+\textbf{Componente} & \textbf{Método} & \textbf{Resultado} & \textbf{Limitación}\\
+\midrule\endfirsthead
+\caption[]{Comprobaciones resumidas (continuación)}\\
+\toprule
+\textbf{Componente} & \textbf{Método} & \textbf{Resultado} & \textbf{Limitación}\\
+\midrule\endhead
+\midrule\multicolumn{4}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
+\bottomrule\endlastfoot
+\multicolumn{4}{@{}l}{\textit{Soporte superior del distribuidor}}\\
+Cabina como estructura & Modelo de cáscaras en SAP2000, 2768 elementos & El techo de 1,5 mm se hunde 1037 mm con su peso; con el cartucho, 8,6 m. El muro abolla bajo la viga (factor 0,24) & La cabina es cerramiento; se mantiene un marco propio\\
+Marco del soporte & Barrido de 14 variantes en SAP2000 con el rotor real & Postes SHS80$\times$4 y vigas RHS150$\times$100$\times$3: D/C 0,18; flecha 1,99 mm ($\leq4{,}04$); lateral 2,26 mm ($\leq5$); primera frecuencia 3,74 Hz ($\geq3$); 247 kg & Criterios de flecha, lateral y frecuencia propios; bases tomadas como empotradas\\
+Sismo y bases & E.030, estático equivalente, $V/P=0{,}295$ \cite{e030}; ACI 318-19 \cite{aci318} & Barras con D/C $\leq0{,}18$; desplazamiento inelástico de 12,6 mm frente a 22,9 mm de holgura; 4 anclajes M16 por poste con adhesivo de al menos 2,6 MPa & Suelo, categoría y factor de sobrerresistencia supuestos; texto de E.030 de 2018, sin la modificación de 2026\\
+\multicolumn{4}{@{}l}{\textit{Accionamiento del distribuidor}}\\
+Motorreductor y limitador & Catálogo del fabricante y carga radial en el eje de salida & SEW SF47R17DRN63MS4 de 0,12 kW; limitador Mayr a 30 N\,m; factor de seguridad de 2,31 en la carga radial; sin limitador, 3,9 kN y no pasa & Calculado con 625 N de tiro de correa; el eje del distribuidor se verificó con 1071 N, cifra que falta conciliar con la correa elegida\\
+Eje de salida del motorreductor & SolidWorks, sólidos de segundo orden & 105 MPa con el limitador (factor 2,9 a fluencia, fatiga $\approx1{,}8$); 662 MPa en un atasco sin limitador & Con 1071 N de correa, el pico sube a unos 180 MPa; material y radios supuestos\\
+\multicolumn{4}{@{}l}{\textit{Distribuidor y lanza}}\\
+Brazo de la U & SolidWorks; contraste con viga a mano dentro del 2\,\% & Chorros: 11,3 MPa en el codo y 0,67 mm en las boquillas; golpe accidental de 1000 N: 150 MPa en el codo & El codo ovaliza: el pico supera 1,5 veces el valor de ASME B31.3; una placa diagonal no lo reduce\\
+Lanza, carro y mástil & SolidWorks, 985\,629 nodos & Servicio: 7,8 MPa y 0,71 mm en las boquillas; el giro a 1,7 rpm deja todo bajo 0,2 MPa; un golpe de 200 N en el pie da unos 95 MPa & Golpe aceptable para la lanza por definir\\
+Unión del transversal con el cubo & Submodelo en SolidWorks con el cordón, tres mallas & Golpe de 1000 N fuera del plano: unos 185 MPa a 2,8 mm del fin del cordón, sobre la fluencia supuesta de 153 MPa; la sección general trabaja al 74\,\% & Fluencia local con un golpe accidental: se recomienda reforzar la unión o justificar un golpe menor\\
+\multicolumn{4}{@{}l}{\textit{Riel, anclajes y sismo de la mesa}}\\
+Pedestales del riel & ACI 318-19, capítulo 17 \cite{aci318} & 24 pedestales de inoxidable 304 con 4 anclajes adhesivos M16 de 150 mm: D/C 0,79 en los comunes y 0,98 en el del tensor de las cadenas & Losa supuesta de 200 mm y 21 MPa; adhesivo por elegir\\
+Sismo de la mesa & E.030, artículo 6.6, $F=0{,}236\,P$ \cite{e030} & Sin vuelco (factores 3,45 y 2,59); la rueda menos cargada conserva 4,58 kN; pasador de bloqueo con D/C 0,81; adherencia requerida de 2,45 MPa & Revisión estática; la viga bajo los topes puede fluir localmente (D/C 0,79--1,24)\\
+Topes de retención & Cálculo a mano de la unión, con la base medida en el CAD & Cartelas de 8 mm a 60$^\circ$ y 300$^\circ$: cordón de 3,97 a 0,39; chapa de asiento a 190$^\circ$: 0,69; dosis del lavado $-0{,}19$\,\% como máximo & Fricción del revestimiento y deslizamiento dinámico no modelados\\
+\end{longtable}
+\endgroup
+
+\section{Línea base histórica de costos}
+\label{sec:costo-historico}
+
+La Tabla~\ref{tab:presupuesto-historico} conserva la estimación histórica en soles, elaborada para una arquitectura anterior del aplicador. Sus importes son referenciales y no son cotizaciones vigentes.
+
+\begin{table}[htbp]
+\centering\small\singlespacing
+\caption{Línea base histórica de costos y su vigencia}
+\label{tab:presupuesto-historico}
+\begin{tabularx}{\textwidth}{Y R{2.2cm} p{5.4cm}}
+\toprule
+\textbf{Partida histórica} & \textbf{Monto (S/)} & \textbf{Interpretación con el diseño vigente} \\
+\midrule
+Estructura y fabricación & 7100 & Incluía fabricación, como el presupuesto actual (Tabla~\ref{tab:presupuesto-completo}) \\
+Sistema hidráulico & 3560 & Sin bomba ni filtración; el presupuesto actual incluye ambas \\
+Anillo exterior & 2710 & Arquitectura anterior, sustituida por la U superior giratoria \\
+Lanza interna & 1780 & Lanza anterior, sustituida por la lanza corta \\
+Guardas y control & 1900 & El presupuesto actual incluye la cabina y el tablero como partidas propias \\
+\midrule
+Subtotal histórico & 17050 & Arquitectura anterior \\
+Contingencia histórica & 2560 & Aproximadamente 15\,\% del subtotal \\
+Total histórico & 19610 & Arquitectura anterior \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+También se registró un intervalo de S/ 18\,000 a S/ 24\,000, que combina partidas de arquitecturas distintas y sirve solo como antecedente de orden de magnitud.
+
+\section{Base de precios del estudio de costos}
+\label{sec:base-precios}
+
+La Tabla~\ref{tab:base-precios} registra el precio de referencia y la fuente de los valores con fuente publicada empleados en la Sección~\ref{sec:costos-unitarios}. Los precios son de catálogos o tiendas en línea de fabricantes y distribuidores, sin IGV; a los importados se les aplicó un factor de 1,20. Los componentes sin precio publicado, como la bomba CRN 15-3, el motorreductor, el limitador y las ruedas, se valoraron con una hipótesis de rango más amplio.
+
+\begingroup
+\small\singlespacing
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{\dimexpr\textwidth-7.7cm-4\tabcolsep\relax}@{}}
+\caption{Base de precios de referencia, consultada entre el 9 de octubre y el 3 de noviembre de 2026}\label{tab:base-precios}\\
+\toprule
+\textbf{Concepto} & \textbf{Valor de referencia} & \textbf{Fuente}\\
+\midrule\endfirsthead
+\caption[]{Base de precios de referencia (continuación)}\\
+\toprule
+\textbf{Concepto} & \textbf{Valor de referencia} & \textbf{Fuente}\\
+\midrule\endhead
+\midrule\multicolumn{3}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
+\bottomrule\endlastfoot
+Tipo de cambio del dólar & S/ 3,448 (venta SUNAT, 13/10/2026) & \url{https://tucambista.pe/noticias/dolares-a-soles-13-octubre-2026}\\
+Tarifa de taller & S/ 50,5/h: soldador homologado a S/ 3500 al mes, 208 h, cargas sociales de 1,5 y gastos y utilidad de 2,0 (factores supuestos) & \url{https://cazvid.com}\\
+Filtro de bolsa de acero inoxidable de 2 pulgadas & US\$ 2208,45 & \url{https://punchout.acklandsgrainger.com}\\
+Variador Schneider ATV320U55N4C & US\$ 922,48 & \url{https://standardelectricsupply.com}\\
+Controlador Siemens 6ES7214-1AG40-0XB0 & US\$ 745,00 & Steiner Electric, distribuidor\\
+Dosificadora Grundfos DDA 7.5-16 & EUR 1079,17 (listado descontinuado, referencia) & \url{https://www.hellopro.fr}\\
+Tipo de cambio del euro & S/ 3,91 & \url{https://www.global66.com/pe/precio/euro-hoy/}\\
+Acero A36 (perfiles y rieles) & US\$ 1,81--3,16/kg, rango internacional de inicios de 2026; se adopta el máximo & \url{https://es.accio.com/plp/acero-a36-precio-por-kg}\\
+Masa del riel A45 & 22,1 kg/m & Catálogo ArcelorMittal \cite{arcelor2023}\\
+Plancha UHMW-PE de 8 mm & EUR 198,25 por plancha de 2013$\times$1003 mm & \url{https://www.klefinghaus.de/uhmw-polyethylene-panel-8mm-reclaimed-black-similar-to-ral-9004-41068232-en.html}\\
+Rueda Blickle de 200 mm & US\$ 220,00 en la segunda entrega, que correspondía a otro producto (LE-ALST 200K-14); el presupuesto actual usa una hipótesis de US\$ 450 para la SPKVS 200K & \url{https://www.tenaquip.com/product/blickle-high-quality-caster-swivel-8-2032-mm-polyurethane-elastomer-660-lbs-300-kg-le-alst-200k-14-mo563}\\
+Boquilla VeeJet de 50$^\circ$ en acero inoxidable & US\$ 16,26 (conexión de 1/4 de pulgada; la de 3/8 se cotiza a pedido) & \url{https://northstarhotsy.com/product/parts/nozzles/threaded/ssc-veejet-50-deg-ss/}\\
+Acero inoxidable 316L & US\$ 2,05--2,55/lb en el mercado estadounidense (mayo de 2026), es decir, 4,52--5,62 US\$/kg; se adopta el máximo & \url{https://www.mwalloys.com/es/stainless-steel-prices-per-pound/}\\
+Masa de la tubería Sch10S & 2,13, 3,16 y 4,00 kg/m para DN25, DN40 y DN50 (espesor de 2,77 mm) & Calculada con ASME B36.19M \cite{asmeb3619}\\
+Bomba Grundfos CR 10-06 con motor & EUR 2647,06 neto; base de la hipótesis de precio de la CRN 15-3 ($\times1{,}4$) & \url{https://www.sparepartsnow.de/produkte/grundfos-grundfos-cr10-06-a-a-a-e-hqqe-c47rmg}\\
+Unión rotativa Deublin 555-000-001 & US\$ 476,00 & \url{https://allworldmachinery.com/itemdetail/555-000-001}\\
+Motorreductor SEW-Eurodrive S37 (0,5 HP, helicoidal-sinfín, con freno) & US\$ 1226,14 & \url{https://www.mrosupply.com/products/6421197}\\
+Detergente Zep 36342 & US\$ 525,29 por balde de 125 lb (56,7 kg) & \cite{zep36342}\\
+Tarifa eléctrica & S/ 0,7238/kWh, BT5B de Luz del Sur con IGV (pliego de mayo de 2026) & \url{https://hacecuentas.com/pe/calculadora-recibo-luz-peru-osinergmin}\\
+Sueldo de un técnico de mantenimiento en Lima & S/ 1800--2800 mensuales & \url{https://cazvid.com/es/empleo/tecnico-mecanico-de-mantenimiento-en-lima-peru}\\
+\end{longtable}
+\endgroup

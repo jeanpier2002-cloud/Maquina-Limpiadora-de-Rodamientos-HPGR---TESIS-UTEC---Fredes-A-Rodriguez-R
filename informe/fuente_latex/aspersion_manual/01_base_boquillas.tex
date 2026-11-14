@@ -1,0 +1,284 @@
+\section{Dimensionamiento analítico del sistema de aspersión}
+\label{sec:man-asp-base}
+
+El sistema de aspersión debe suministrar líquido a las superficies exteriores
+y al agujero del rodamiento mientras la pieza permanece inmóvil sobre sus
+tres apoyos. El distribuidor gira alrededor del eje vertical de la pieza y
+alimenta dos ramales exteriores, un ramal interior y dos grupos superiores.
+El dimensionamiento determina cuántas boquillas se requieren, cuánto
+líquido debe circular, qué presión debe proporcionar la bomba y qué potencia
+demanda el bombeo. La cobertura geométrica se evalúa por separado, porque
+disponer de presión y caudal no demuestra por sí solo la remoción de grasa.
+
+Se aplican la conservación de masa, el balance de energía de Bernoulli,
+las pérdidas de Darcy--Weisbach y el balance de cantidad de movimiento.
+Estas relaciones se desarrollan a continuación con los datos, las
+sustituciones numéricas y la interpretación de cada resultado.
+
+\subsection{Datos de diseño y supuestos de cálculo}
+\label{sec:man-asp-datos}
+
+El rodamiento de referencia es el SKF 241/900 ECAK30/W33. Sus diámetros
+exterior e interior son 1420 y 900 mm, y su ancho axial es 515 mm
+\cite{skf241}. En posición de lavado, el eje del rodamiento es vertical.
+Las cotas $z$ de este desarrollo se miden desde el piso de la cabina; por
+consiguiente, no se confunden con la distancia medida desde el centro de
+la pieza. Se adoptan $z_{inf}=890$ mm y $z_{sup}=1405$ mm para sus caras. La
+Tabla~\ref{tab:man-asp-base} reúne las condiciones geométricas y operativas del caso.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Condiciones geométricas y operativas del caso base.}
+\label{tab:man-asp-base}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X l >{\raggedright\arraybackslash}p{4.1cm}@{}}
+\toprule Parámetro & Valor & Condición\\\midrule
+Diámetro exterior $D$ & 1420 mm & Dato del rodamiento.\\
+Diámetro interior menor $d$ & 900 mm & Agujero cónico 1:30.\\
+Ancho axial $B$ & 515 mm & Dato del rodamiento.\\
+Temperatura nominal $T$ & 62 $^\circ$C & Condición de diseño adoptada.\\
+Presión mínima de boquilla $p_n$ & 4 bar & Presión manométrica propuesta.\\
+Distancia lateral $s_e$ & 125,85 mm & Separación geométrica adoptada.\\
+Distancia interior $s_i$ & 143,30 mm & Separación geométrica adoptada.\\
+Distancia superior $s_s$ & 184,85 mm & Separación geométrica adoptada.\\
+Ángulo de abanico $\theta$ & 50$^\circ$ & Ángulo de cálculo adoptado.\\
+Solape mínimo objetivo $\phi$ & 25\,\% & Criterio geométrico propuesto.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Se supone régimen permanente, líquido incompresible y tuberías llenas.
+El detergente diluido se aproxima inicialmente mediante las propiedades
+del agua a 62 $^\circ$C. Esta simplificación permite predimensionar la red;
+deberá revisarse al conocer la formulación y concentración del producto.
+Las propiedades se obtuvieron de la biblioteca CoolProp, que implementa
+las formulaciones de referencia para el agua \cite{bell2014}:
+\begin{equation}
+ \rho=982{,}120\ \mathrm{kg/m^3},\qquad
+ \mu=4{,}52269\times10^{-4}\ \mathrm{Pa\,s},\qquad
+ p_v=21866{,}997\ \mathrm{Pa}.
+ \label{eq:man-asp-props}
+\end{equation}
+La viscosidad cinemática se obtiene dividiendo la viscosidad dinámica por
+la densidad:
+\begin{equation}
+ \nu=\frac{\mu}{\rho}
+ =\frac{4{,}52269\times10^{-4}\ \mathrm{kg/(m\,s)}}
+ {982{,}120\ \mathrm{kg/m^3}}
+ =4{,}60503\times10^{-7}\ \mathrm{m^2/s}.
+ \label{eq:man-asp-nu}
+\end{equation}
+Se utiliza $g=9{,}81$ m/s$^2$. En la hidráulica, $Q$ representa el caudal
+de una tubería y $q$ el caudal de una boquilla. Los cálculos de pérdidas
+se efectúan en metros, segundos y pascales; en la geometría de huellas
+se mantienen milímetros. Un bar equivale a $10^5$ Pa y un L/min a
+$1/60000$ m$^3$/s.
+
+\subsection{Caudal y velocidad de una boquilla}
+\label{sec:man-asp-boquilla}
+
+Se toma como referencia hidráulica una boquilla de abanico plano H3/8U-5020,
+cuya ficha indica 2 gal/min estadounidenses a 40 psi y un diámetro equivalente
+de 0,109 pulgadas \cite{manSpray}. Se emplea su capacidad para el cálculo,
+sin considerar cerrado el material comercial de la boquilla ni su
+compatibilidad con la solución de limpieza.
+
+\subsubsection{Conversión del punto nominal}
+El caudal y la presión de catálogo se convierten antes de aplicar las ecuaciones:
+\begin{align}
+ q_r&=2\ \frac{\mathrm{gal}}{\mathrm{min}}
+ \left(3{,}785411784\ \frac{\mathrm{L}}{\mathrm{gal}}\right)
+ =7{,}57082\ \mathrm{L/min},\label{eq:man-asp-qr}\\
+ p_r&=40\ \mathrm{psi}\left(6894{,}757\ \frac{\mathrm{Pa}}{\mathrm{psi}}\right)
+ =275790{,}28\ \mathrm{Pa}=2{,}75790\ \mathrm{bar}.
+ \label{eq:man-asp-pr}
+\end{align}
+
+\subsubsection{Caudal a la presión de diseño}
+Para el mismo orificio y propiedades aproximadamente constantes,
+$q$ varía con la raíz cuadrada de la presión diferencial. Así,
+\begin{equation}
+ q=q_r\sqrt{\frac{p_n}{p_r}}
+ =7{,}57082\sqrt{\frac{4{,}00000}{2{,}75790}}
+ =\boxed{9{,}11767\ \mathrm{L/min}}.
+ \label{eq:man-asp-q}
+\end{equation}
+La presión de la Ecuación~\eqref{eq:man-asp-q} es la diferencia entre la
+entrada de la boquilla y la cabina, considerada a presión atmosférica.
+No es la presión absoluta del líquido. La misma relación puede escribirse
+como $q=K_q\sqrt{p_n}$, con
+\begin{equation}
+ K_q=\frac{7{,}57082}{\sqrt{2{,}75790}}
+ =4{,}55883\ \frac{\mathrm{L}}{\mathrm{min}\sqrt{\mathrm{bar}}}.
+ \label{eq:man-asp-kq}
+\end{equation}
+Este coeficiente se utiliza después para actualizar el caudal de cada
+boquilla cuando su presión difiere ligeramente de 4 bar. Se conserva el
+coeficiente nominal de catálogo; la variación por temperatura y detergente
+debe comprobarse con el fabricante.
+
+\subsubsection{Velocidad y escala de fuerza del chorro}
+Se adopta un coeficiente de velocidad $C_v=0{,}95$ como hipótesis. La
+velocidad característica estimada es
+\begin{equation}
+ v_j=C_v\sqrt{\frac{2p_n}{\rho}}
+ =0{,}95\sqrt{\frac{2(400000)}{982{,}120}}
+ =\boxed{27{,}114\ \mathrm{m/s}}.
+ \label{eq:man-asp-vj}
+\end{equation}
+Primero se convierte el caudal a SI:
+\begin{equation}
+ q=\frac{9{,}11767}{60000}=1{,}51961\times10^{-4}\ \mathrm{m^3/s}.
+\end{equation}
+El flujo de cantidad de movimiento proporciona una escala de fuerza:
+\begin{equation}
+ F\simeq\rho qv_j
+ =(982{,}120)(1{,}51961\times10^{-4})(27{,}114)
+ =\boxed{4{,}047\ \mathrm{N}}.
+ \label{eq:man-asp-f}
+\end{equation}
+Esta fuerza corresponde a una representación equivalente del chorro. No
+es una medición de impacto sobre la grasa ni un valor de esfuerzo cortante
+de pared; ambos dependen de la distribución real del abanico y de la distancia.
+
+Como comprobación dimensional del orificio,
+$d_{eq}=0{,}109(25{,}4)=2{,}7686$ mm y
+$A_{eq}=\pi(0{,}0027686)^2/4=6{,}02019\times10^{-6}$ m$^2$.
+El coeficiente de descarga implícito resulta
+\begin{equation}
+ C_d=\frac{q}{A_{eq}\sqrt{2p_n/\rho}}
+ =\frac{1{,}51961\times10^{-4}}
+ {(6{,}02019\times10^{-6})(28{,}5406)}
+ \simeq0{,}884.
+ \label{eq:man-asp-cd}
+\end{equation}
+El área es equivalente: no representa necesariamente un orificio circular
+real ni permite reemplazar el abanico por un chorro cilíndrico en una
+simulación sin justificar esa idealización.
+
+\subsection{Número de boquillas y cobertura nominal}
+\label{sec:man-asp-cobertura}
+
+Una boquilla de abanico plano situada a distancia $s$, con incidencia normal,
+produce una anchura geométrica
+\begin{equation}
+ b=2s\tan(\theta/2).
+ \label{eq:man-asp-b}
+\end{equation}
+La ecuación se obtiene de los dos triángulos rectángulos formados por el eje
+del chorro y sus rayos extremos. Describe la envolvente ideal del abanico,
+no una distribución uniforme de caudal sobre toda la huella.
+
+Si dos huellas de ancho $b$ deben superponerse una fracción $\phi$, la
+separación máxima entre centros es $a_{max}=b(1-\phi)$. Con $N$ boquillas,
+la longitud cubierta es $b+(N-1)a_{max}$. Para cubrir una longitud $L$ se exige
+\begin{equation}
+ b+(N-1)b(1-\phi)\geq L
+ \quad\Longrightarrow\quad
+ N\geq1+\frac{L-b}{b(1-\phi)}.
+ \label{eq:man-asp-n}
+\end{equation}
+Se redondea hacia arriba porque la cantidad de boquillas debe ser entera,
+con un mínimo de una.
+
+\subsubsection{Ramal interior}
+La longitud objetivo es el ancho axial del rodamiento, $L=515$ mm:
+\begin{align}
+ b_i&=2(143{,}30)\tan25^\circ=133{,}644\ \mathrm{mm},\\
+ N_i&\geq1+\frac{515-133{,}644}{133{,}644(1-0{,}25)}
+ =4{,}805\quad\Longrightarrow\quad\boxed{N_i=5}.
+\end{align}
+Una vez fijado $N_i$, se distribuyen sus centros uniformemente:
+\begin{align}
+ a_i&=\frac{515-133{,}644}{5-1}=95{,}339\ \mathrm{mm},\\
+ \phi_i&=1-\frac{95{,}339}{133{,}644}=0{,}2866.
+\end{align}
+El solape nominal es 28,66\,\%, superior al 25\,\% propuesto.
+La primera boquilla queda a $890+b_i/2=956{,}822$ mm y las siguientes
+a esa cota más múltiplos de $a_i$. Así se obtienen, redondeando a décimas,
+$z=956{,}8;1052{,}2;1147{,}5;1242{,}8;1338{,}2$ mm.
+
+\subsubsection{Grupos superiores}
+La anchura radial de la cara anular es
+$L_s=(1420-900)/2=260$ mm. Por cada lado del distribuidor:
+\begin{align}
+ b_s&=2(184{,}85)\tan25^\circ=172{,}394\ \mathrm{mm},\\
+ N_s&\geq1+\frac{260-172{,}394}{172{,}394(0{,}75)}
+ =1{,}678\quad\Longrightarrow\quad\boxed{N_s=2},\\
+ a_s&=\frac{260-172{,}394}{2-1}=87{,}606\ \mathrm{mm}.
+\end{align}
+Sus radios nominales son $450+b_s/2=536{,}197$ mm y
+$536{,}197+87{,}606=623{,}803$ mm. Se requieren cuatro boquillas
+superiores en total. El solape radial nominal es 49,18\,\%.
+La cobertura sobre la proyección anular no demuestra el alcance de las
+superficies internas entre aros, rodillos y jaula.
+
+\subsubsection{Ramales exteriores}
+Se obtiene $b_e=2(125{,}85)\tan25^\circ=117{,}370$ mm.
+El caso base dispone cuatro boquillas de eje radial por ramal, con centros
+entre 1100 mm y $1405-b_e/2=1346{,}315$ mm. Su separación es
+\begin{equation}
+ a_e=\frac{1346{,}315-1100}{4-1}=82{,}105\ \mathrm{mm},\qquad
+ \phi_e=1-\frac{82{,}105}{117{,}370}=0{,}3005.
+\end{equation}
+Estas cuatro boquillas cubren nominalmente desde
+$1100-117{,}370/2=1041{,}315$ mm hasta 1405 mm. El solape de
+30,05\,\% se refiere únicamente a ellas. Para intentar alcanzar la zona
+inferior se propone una quinta boquilla inclinada en cada ramal.
+
+\subsubsection{Comprobación de la boquilla inclinada}
+Su centro está a $z_n=1070$ mm y su eje apunta hacia $z_t=950$ mm.
+La inclinación descendente es
+\begin{equation}
+ \alpha=\arctan\left(\frac{1070-950}{125{,}85}\right)=43{,}637^\circ.
+\end{equation}
+En un plano radial vertical, cada rayo recorre horizontalmente $s_e$ hasta
+la generatriz del rodamiento. Sus descensos son $s_e\tan(\alpha\pm25^\circ)$;
+por tanto, los bordes no son simétricos respecto del punto de impacto del eje:
+\begin{align}
+ z_{min}&=1070-125{,}85\tan(43{,}637^\circ+25^\circ)
+ =748{,}259\ \mathrm{mm},\\
+ z_{max}&=1070-125{,}85\tan(43{,}637^\circ-25^\circ)
+ =1027{,}557\ \mathrm{mm}.
+ \label{eq:man-asp-inclinada}
+\end{align}
+La intersección de esta huella ideal con la superficie exterior existente
+comienza a 890 mm. Entre su borde superior y la huella radial siguiente queda
+\begin{equation}
+ \Delta z_{sin\ cobertura}=1041{,}315-1027{,}557
+ =\boxed{13{,}759\ \mathrm{mm}}.
+ \label{eq:man-asp-hueco}
+\end{equation}
+En consecuencia, la distribución lateral propuesta no garantiza cobertura
+axial completa en esta posición nominal. Debe ajustarse la orientación o la
+ubicación de la boquilla y comprobarse el barrido con oscilación y las sombras
+del soporte. El cálculo hidráulico posterior corresponde a esta configuración
+base de 19 boquillas, cuya distribución detalla la
+Tabla~\ref{tab:man-asp-cantidad}; no implica que el problema de cobertura esté resuelto.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Cantidad de boquillas del caso base hidráulico.}
+\label{tab:man-asp-cantidad}
+\begin{tabularx}{\linewidth}{@{}Xrr@{}}
+\toprule Grupo & Distribución & Total\\\midrule
+Ramales exteriores & $2(4+1)$ & 10\\
+Ramal interior & $1(5)$ & 5\\
+Grupos superiores & $2(2)$ & 4\\\midrule
+Total simultáneo & & 19\\\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Primera estimación del caudal total}
+\label{sec:man-asp-qtotal}
+Si todas las boquillas reciben exactamente 4 bar, el caudal es
+\begin{equation}
+ Q_0=Nq=19(9{,}11767)
+ =173{,}236\ \mathrm{L/min}
+ =2{,}88726\times10^{-3}\ \mathrm{m^3/s}.
+ \label{eq:man-asp-q0}
+\end{equation}
+Esta es una primera estimación por continuidad, no un caudal asignado a
+cada tubo del distribuidor. Cada tramo transporta la suma de las boquillas
+que tiene aguas abajo. La diferencia de elevación y las pérdidas generan
+presiones ligeramente distintas; la sección siguiente determina esa
+corrección y el caudal que se empleará en la alimentación principal.

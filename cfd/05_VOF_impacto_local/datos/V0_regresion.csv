@@ -1,0 +1,8 @@
+comprobacion,valor,referencia
+"force.dat filas (v3, tanda 1)",1565,1565
+max |dt| entre tiempos (s),0,
+max |dFy| / max|Fy|,0,
+max |dp| pared t=0.0003 s (Pa),0,364413
+max |dp| pared t=0.0005 s (Pa),0,364475
+max |dp| pared t=0.001 s (Pa),0,364533
+resumen v3 / tanda 1,nombre=N5_Co0.5_lam np=1 rc=0 pared_s=28 pasos=1565,nombre=N5_Co0.5_lam np=1 rc=0 pared_s=34 pasos=1565

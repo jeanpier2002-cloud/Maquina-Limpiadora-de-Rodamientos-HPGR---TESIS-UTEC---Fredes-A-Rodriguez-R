@@ -1,0 +1,1 @@
+OK R3_01_kit | pasos 1000/1000 | Error/FATAL 0 | muestras 8/8 | balance 0.0540 %

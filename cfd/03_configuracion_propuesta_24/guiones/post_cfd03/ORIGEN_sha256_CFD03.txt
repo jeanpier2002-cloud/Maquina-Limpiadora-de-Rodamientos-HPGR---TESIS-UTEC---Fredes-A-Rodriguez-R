@@ -1,0 +1,4 @@
+e5ce69bda9ab1cba78b4afe68602fae7ef6309b7005db425548416b455cad07b */g/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/05_SCRIPTS/procesar_caso.py
+1968668b17d76a350f66689ccb1fcf15d713e7aa7683ca9387a41ac2e1001fc2 */g/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/05_SCRIPTS/dpm2csv.py
+dd78d5e24e232b2ee076de763a506b9426ed5d5b6d0e44c27e925113632d568c */g/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/05_SCRIPTS/lector_impactos.py
+2365c5a12d3a33d80e7f6f8fd4e44765df10d9eaa734cfab1c98d99551393a07 */g/Mi unidad/Semestre X/TESIS II/Sistema de aspersión/CFD03_ANSYS_COMPLETO/05_SCRIPTS/post_kpi.py

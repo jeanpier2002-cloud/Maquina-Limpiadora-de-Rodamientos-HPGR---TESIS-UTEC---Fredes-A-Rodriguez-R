@@ -1,0 +1,6 @@
+magnitud,clave,orden_5-10-20,orden_10-20-40
+p₀ (presión de estancamiento),p0_Pa,1.85,-3.58
+"F/b local (|x| < 0,16 mm)",F_loc1_Nm,3.76,-0.77
+"M por lado en x = 0,33 mm",M_xr2_Nm,2.23,2.10
+"espesor de la película en x = 0,33 mm",h_xr2_um,1.57,3.24
+"τ_w en x = 0,33 mm",tau_xr2,1.79,1.72

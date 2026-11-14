@@ -1,0 +1,16 @@
+csv,boquillas,factor,mdot_dep_libre_kg_s,mdot_dep_obst_kg_s
+cara_inf.csv,lat_1_b,1,0.000000e+00,0.000000e+00
+cara_inf.csv,lat_1_b,1,0.000000e+00,0.000000e+00
+cara_inf.csv,lat_2_b,1,0.000000e+00,0.000000e+00
+cara_inf.csv,lat_2_b,1,0.000000e+00,0.000000e+00
+cara_inf.csv,lat_3_b,1,0.000000e+00,0.000000e+00
+cara_inf.csv,lat_3_b,1,0.000000e+00,0.000000e+00
+cara_inf.csv,lat_4_b,1,0.000000e+00,0.000000e+00
+cara_inf.csv,lat_4_b,1,0.000000e+00,0.000000e+00
+cara_inf.csv,lat_5_b,1,0.000000e+00,0.000000e+00
+cara_inf.csv,lat_5_b,1,0.000000e+00,0.000000e+00
+cara_inf.csv,inf_ext_b,1,8.128286e-02,6.473959e-02
+cara_inf.csv,inf_ext_b,1,8.128286e-02,6.473959e-02
+cara_inf.csv,c2_b,1,9.201359e-02,7.221606e-02
+cara_inf.csv,c2_b,1,9.201359e-02,7.221606e-02
+cara_inf.csv,inf_int,1,9.121336e-02,8.984206e-02

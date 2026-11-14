@@ -1,0 +1,136 @@
+\chapter{MARCO REFERENCIAL}
+\label{cap:marco-referencial}
+
+\section{Marco legal y regulaciones}
+
+El proyecto toma como entorno de referencia un taller de mantenimiento de equipos mineros en el Perú. La recepción de componentes de gran masa, el uso de medios de izaje y la presencia de fluidos de limpieza condicionan la organización del puesto de trabajo y el diseño de la máquina.
+
+El Reglamento de Seguridad y Salud Ocupacional en Minería, aprobado por el D.S.~024-2016-EM y sus modificatorias, comprende las actividades mineras y las actividades conexas, entre ellas el mantenimiento mecánico \cite{ds024}. Su aplicación depende de la actividad y del ámbito del centro de trabajo, por lo que la instalación requiere establecer si el taller opera dentro de una unidad minera o como servicio externo. El reglamento exige identificar peligros, evaluar riesgos y aplicar controles a cada tarea. En la máquina, esa obligación se traduce en requisitos verificables: estabilidad de la carga durante el izaje y el traslado, control del movimiento de la mesa y del aplicador, protección frente a salpicaduras y acceso seguro para operación y mantenimiento con las energías aisladas. El mismo reglamento exige que los productos químicos cuenten con identificación y hoja de datos de seguridad; por ello, el agente de limpieza no puede definirse solo por una denominación comercial.
+
+La gestión ambiental distingue las corrientes que salen del proceso. El D.\ Leg.~1278, Ley de Gestión Integral de Residuos Sólidos, y su reglamento sirven de base para el manejo de las grasas retiradas, los lodos separados, los elementos filtrantes y los materiales absorbentes \cite{dleg1278}. Su clasificación depende de la composición y de las características de peligrosidad de cada corriente. El agua de lavado que se descarta sigue un régimen distinto según su destino: un cuerpo natural de agua, el alcantarillado o un tratamiento externo exigen autorizaciones y límites diferentes. Mientras no se identifique el receptor ni se caracterice el fluido usado, se adopta como restricción la recolección controlada en la cabina, sin una conexión de descarga directa.
+
+La revisión de patentes se encuadra en el Régimen Común sobre Propiedad Industrial de la Decisión~486 de la Comunidad Andina \cite{can486}. La documentación pública permite estudiar principios de solución; una aplicación industrial exige examinar los derechos vigentes en el territorio y para la configuración que se implemente. La revisión del Capítulo~\ref{cap:estado-arte} no equivale a una comprobación de libertad de operación.
+
+\section{Identificación de normas y estándares de ingeniería}
+
+Las normas técnicas aportan criterios para evaluar riesgos, materiales, componentes y resultados. En el proyecto se distingue entre una obligación legal, una exigencia contractual y una referencia adoptada para el cálculo, de modo que cada norma se cita con la función y el alcance con que se aplica. La Tabla~\ref{tab:normas-funcion} reúne las referencias técnicas empleadas; su aplicación detallada se presenta en el Anexo~\ref{anx:normas}.
+
+\begingroup
+\small
+\singlespacing
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.23\textwidth}>{\raggedright\arraybackslash}p{0.33\textwidth}>{\raggedright\arraybackslash}p{\dimexpr0.44\textwidth-16pt\relax}@{}}
+\caption{Referencias técnicas, función y alcance de aplicación}\label{tab:normas-funcion}\\
+\toprule
+\textbf{Referencia} & \textbf{Función en el proyecto} & \textbf{Alcance de la comprobación} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\small Tabla~\thetable\ (continuación)}\\
+\toprule
+\textbf{Referencia} & \textbf{Función en el proyecto} & \textbf{Alcance de la comprobación} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r@{}}{\small Continúa en la página siguiente}\\
+\endfoot
+\bottomrule
+\endlastfoot
+EN~12921-1 \cite{en12921_1} & Requisitos comunes de seguridad de las máquinas de limpieza de superficies con líquidos o vapores. & Norma específica del tipo de máquina; orienta la identificación de peligros del Capítulo~\ref{cap:seguridad-ambiente}. Edición EN 12921-1:2005+A1:2010. \\
+\addlinespace[4pt]
+EN~12921-2 \cite{en12921_2} & Requisitos de seguridad de las máquinas que emplean líquidos de limpieza acuosos. & Respalda la elección de un fluido acuoso, que excluye los requisitos de los líquidos inflamables. Edición EN 12921-2:2005+A1:2008. \\
+\addlinespace[4pt]
+ISO~12100:2010 \cite{iso12100} & Evaluación y reducción de riesgos de maquinaria. & Sustenta el procedimiento de análisis de peligros y la jerarquía de medidas. La eficacia de las medidas requiere una verificación específica. \\
+\addlinespace[4pt]
+ANSI/AISC~360-16 \cite{aisc360} & Diseño de miembros de acero y de sus uniones. & Verificación de las barras del bastidor y del soporte superior, y de las uniones soldadas a momento del bastidor. \\
+\addlinespace[4pt]
+AISC, Guía de Diseño 9 \cite{aiscdg9} & Análisis torsional de perfiles de acero. & Modelo de torsión no uniforme del bastidor bajo las cargas de centrado. \\
+\addlinespace[4pt]
+ISO~286-2:2010 \cite{iso286} & Clases de tolerancia de agujeros y ejes. & Ajuste H7/g6 del pasador de bloqueo, de los pivotes y de los pasadores de los rodillos de centrado. \\
+\addlinespace[4pt]
+ISO~2553:2019 \cite{iso2553} & Representación simbólica de las uniones soldadas en los planos. & Símbolos de soldadura de los planos del bastidor, del brazo de aspersión y de los topes. \\
+\addlinespace[4pt]
+EN~1991-3:2006 \cite{en19913} & Acciones de equipos de elevación y maquinaria sobre rieles. & Fuerza lateral de guiado de las ruedas de la mesa por desvío. \\
+\addlinespace[4pt]
+ASME~B36.19M \cite{asmeb3619} & Dimensiones de tubería de acero inoxidable. & Diámetros interiores de los tramos DN25, DN40 y DN50 Sch10S de la red hidráulica. Edición de 2018. \\
+\addlinespace[4pt]
+ASME~B31.3 \cite{asmeb313} & Tuberías de proceso a presión. & Esfuerzos sostenidos y ocasionales de la tubería del distribuidor giratorio. \\
+\addlinespace[4pt]
+ACI~318-19 \cite{aci318} y E.030 \cite{e030} & Anclaje al concreto y diseño sismorresistente. & Anclajes de los pedestales del riel y del soporte superior, y revisión sísmica de la mesa. Comprobaciones resumidas en el Anexo~\ref{anx:calculos}. \\
+\addlinespace[4pt]
+ISO~11228-2:2007 \cite{iso11228} & Evaluación de tareas de empuje y tracción manual. & Se aplica al traslado de la mesa; las fuerzas de empuje directo llevaron a un accionamiento manual por cadena. \\
+\end{longtable}
+\endgroup
+
+La evaluación de riesgos considera el uso previsto, las intervenciones necesarias y los usos incorrectos razonablemente previsibles. ISO~12100 proporciona el marco para identificar peligros y justificar su reducción \cite{iso12100}, y la serie EN~12921 precisa los peligros propios de las máquinas de limpieza con líquidos \cite{en12921_1}. En la máquina, la protección se expresa en condiciones comprobables: impedir el movimiento inesperado de la mesa y del aplicador, limitar el acceso a los mecanismos móviles durante la aspersión y permitir el mantenimiento con las energías controladas.
+
+La referencia estructural requiere precisión. ANSI/AISC~360-16 aporta el procedimiento de diseño de miembros que utiliza el análisis estructural \cite{aisc360}; su empleo para el bastidor se justifica en el modelo y no certifica la máquina. El bastidor W6$\times$9 es de acero ASTM A36, con las propiedades indicadas en el apartado~\ref{sec:material-trazabilidad} del Anexo~\ref{anx:programas}. Las uniones soldadas, los ejes, la tubería que gira y los anclajes se verifican con las normas propias de cada función, listadas en la Tabla~\ref{tab:normas-funcion}.
+
+La preservación del rodamiento se apoya en las recomendaciones de mantenimiento del fabricante, que definen las precauciones de manipulación, limpieza y protección de las superficies funcionales \cite{skfmaintenance2011}. El traslado manual se evalúa como una tarea completa, con recorrido, frecuencia, postura y fuerzas de arranque, marcha y frenado \cite{iso11228}. El equipo eléctrico de la máquina debe especificarse considerando el contacto previsible con agua; su definición y verificación quedan fuera del alcance de esta etapa.
+
+\section{Identificación de restricciones generales}
+\label{sec:restricciones-generales}
+
+La documentación disponible define un caso de mantenimiento en el Perú, pero no acredita una sede concreta del taller ni una ficha de sus condiciones ambientales. Para los cálculos que dependen de la altitud, como la presión atmosférica, la carga de aspiración de la bomba y la presión del aire en el modelo de mojado, el equipo adoptó un escenario de cálculo de 2335 m, correspondiente a un emplazamiento de referencia en Arequipa. Es una hipótesis de cálculo, no una ubicación confirmada: para una instalación específica deben obtenerse la altitud, la temperatura de operación, la exposición a humedad y polvo y las condiciones de los servicios, y repetir las comprobaciones que dependen de ellas. Por la misma razón, la revisión sísmica usa el factor de zona más alto de la norma peruana, $Z=0{,}45$, y supone un suelo intermedio \cite{e030}; el distrito y el tipo de suelo del taller quedan por confirmar.
+
+El rodamiento de referencia aporta la entrada técnica principal: diámetro interior de 900~mm, diámetro exterior de 1420~mm, ancho de 515~mm y masa nominal de 3032~kg \cite{skf241}. La carga de la máquina incluye además la estructura móvil, sus accesorios y los contenidos que se trasladan con ella, de modo que la masa del rodamiento no es por sí sola la masa del conjunto. La restricción funcional consiste en sostener y posicionar el componente sin comprometer su conservación; el número de apoyos, sus materiales y sus dimensiones se derivan de esa necesidad y de las verificaciones mecánicas \cite{skfmaintenance2011}.
+
+El espacio disponible comprende el volumen del equipo y el necesario para utilizarlo: la aproximación de la carga suspendida, la retirada del aparejo, el desplazamiento de la mesa, la apertura de accesos y el mantenimiento. Los recorridos dibujados en CAD son una propuesta de implantación cuya compatibilidad depende de un levantamiento del taller. La infraestructura también limita las alternativas: las reacciones de los rieles y sus anclajes requieren una losa con capacidad compatible, y la exclusión del diseño civil del alcance no permite asumir una capacidad ilimitada.
+
+Los servicios y el manejo del fluido fijan otras condiciones. El suministro eléctrico, la disponibilidad de agua, el producto de limpieza y la recepción del fluido usado condicionan la bomba, los depósitos y los accesorios, y sus valores deben proceder del taller o del suministrador. El costo se trata con el mismo criterio: la documentación revisada no acredita un monto máximo de inversión, por lo que el presupuesto se trata como estimación y no como límite numérico de descarte.
+
+La Tabla~\ref{tab:mr-restricciones} consolida las restricciones con un código, de RS-01 a RS-12, que se usa en los Capítulos~\ref{cap:metodologia} y~\ref{cap:resultados}. La columna de respaldo distingue las fuentes disponibles de los documentos que todavía no se aportan; su justificación se amplía en el Anexo~\ref{anx:restricciones}.
+
+\begingroup
+\small
+\singlespacing
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}p{1.1cm}>{\raggedright\arraybackslash}p{0.17\textwidth}>{\raggedright\arraybackslash}p{0.33\textwidth}>{\raggedright\arraybackslash}p{\dimexpr0.50\textwidth-1.1cm-24pt\relax}@{}}
+\caption{Restricciones del entorno y respaldo documental}\label{tab:mr-restricciones}\\
+\toprule
+\textbf{Cód.} & \textbf{Categoría} & \textbf{Restricción o condición} & \textbf{Fuente, estado y efecto en el diseño} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\small Tabla~\thetable\ (continuación)}\\
+\toprule
+\textbf{Cód.} & \textbf{Categoría} & \textbf{Restricción o condición} & \textbf{Fuente, estado y efecto en el diseño} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\small Continúa en la página siguiente}\\
+\endfoot
+\bottomrule
+\endlastfoot
+RS-01 & Seguridad laboral & Controlar caída de carga, atrapamiento, movimiento inesperado y exposición al fluido. & Reglamento de seguridad minera \cite{ds024}. Obligación identificada; se traduce en funciones protectoras verificables. \\
+RS-02 & Técnica & Compatibilidad con el rodamiento de 1420~mm de diámetro exterior, 515~mm de ancho y 3032~kg. & Ficha del fabricante \cite{skf241}. Las dimensiones de paso y las cargas se derivan de esta entrada. \\
+RS-03 & Preservación & Evitar daño inducido por el apoyo, la manipulación o la limpieza. & Manual de mantenimiento \cite{skfmaintenance2011}. Materiales de contacto y procedimiento requieren justificación. \\
+RS-04 & Espacial & Compatibilidad con accesos, área de izaje, recorrido y mantenimiento. & Fuente requerida: levantamiento del taller. Las coordenadas CAD no sustituyen la medición. \\
+RS-05 & Infraestructura & Compatibilidad de cargas y fijaciones con la losa. & Losa supuesta de 200~mm con $f'_c=21$~MPa para dimensionar los anclajes; planos e inspección de la losa requeridos. \\
+RS-06 & Geográfica y ambiental & Operación dentro de condiciones admisibles de altitud, temperatura, humedad y exposición. & Escenario de cálculo de 2335 m (hipótesis); ficha del emplazamiento requerida. \\
+RS-07 & Servicios & Compatibilidad con la alimentación eléctrica, el agua disponible y la recepción del fluido usado. & Fuentes requeridas: datos del taller y del receptor. \\
+RS-08 & Ambiental y legal & Segregar y recolectar residuos; definir el destino de las aguas de lavado. & Ley de gestión de residuos \cite{dleg1278}. Caracterización y destino pendientes; recolección sin descarga directa. \\
+RS-09 & Química y ocupacional & Utilizar productos identificados y compatibles con el componente y el puesto. & Hoja de datos de seguridad del producto \cite{ds024}; fluido acuoso \cite{en12921_2}. \\
+RS-10 & Económica y constructiva & Ajustarse al presupuesto aprobado y a capacidades de fabricación comprobables. & Fuentes requeridas: presupuesto del responsable y cotizaciones. Sin techo acreditado. \\
+RS-11 & Organizacional y ergonómica & Compatibilidad de la tarea con el personal, los equipos de izaje y el mantenimiento. & Evaluación de tareas manuales \cite{iso11228}; procedimientos del taller requeridos. \\
+RS-12 & Propiedad industrial & Respetar los derechos aplicables a una implementación comercial. & Régimen andino \cite{can486}. La libertad de operación exige una evaluación específica. \\
+\end{longtable}
+\endgroup
+
+Estas restricciones alimentan los filtros de viabilidad del Capítulo~\ref{cap:metodologia}. Una incompatibilidad demostrada con una obligación de seguridad o con una condición física acreditada permite descartar una alternativa; cuando falta el dato que permite evaluar el límite, su estado queda condicionado a esa comprobación. Las preferencias por menor costo, menor consumo o mayor facilidad de mantenimiento se comparan entre las opciones que satisfacen los requisitos.
+
+\section{Compromiso ético y responsabilidad profesional con la seguridad y el bienestar social}
+
+El Código de Ética del Colegio de Ingenieros del Perú establece el servicio a la sociedad, la prioridad de la seguridad y la responsabilidad sobre los documentos técnicos que se autorizan. Sus artículos 14, 19 y 29 vinculan las decisiones profesionales con el bienestar humano, la idoneidad técnica y la preservación del entorno \cite{cip2018}. En el proyecto, estos principios orientan tanto la selección de soluciones como el alcance de las conclusiones. La reducción de una exposición peligrosa tiene prioridad frente a una mejora de costo que traslada el riesgo al operario.
+
+Un dilema concreto aparece al comparar el traslado manual con un medio de accionamiento asistido. El primero puede reducir componentes y costo inicial, pero obliga a comprobar que la tarea sea controlable durante el arranque, el movimiento y la detención. Se adopta como regla de decisión que la alternativa de menor costo solo se mantiene cuando satisface las condiciones de seguridad y ergonomía. La presencia de un operario junto a la carga no se utiliza como sustituto de un medio de retención o de control del movimiento.
+
+Otro compromiso se presenta en la elección de materiales y protecciones. Reducir espesor, cambiar el grado de acero o eliminar una protección superficial puede abaratar el suministro; también modifica la respuesta mecánica o el mantenimiento requerido. La decisión debe conservar coherencia entre las propiedades utilizadas en el cálculo, las condiciones ambientales y el material que se especifica. La aceptación de una sustitución depende de esa comprobación, no de que la pieza mantenga una apariencia semejante en el modelo.
+
+La limpieza plantea un conflicto entre remoción, preservación del rodamiento y manejo del residuo. Un proceso más intenso solo aporta valor si mantiene condiciones compatibles con las superficies, el personal y el destino del fluido. La comparación de alternativas incorpora esos efectos junto con el consumo y el tiempo de operación. El ahorro de agua por recirculación se evalúa considerando también la contaminación acumulada y la gestión de las purgas; el costo ambiental no se desplaza a otra etapa sin identificarlo.
+
+La documentación del análisis identifica la geometría, las cargas, las condiciones de apoyo y los resultados de cada caso. Las estimaciones mecánicas, las observaciones geométricas y los resultados ejecutados se presentan con su alcance. Una conclusión favorable para el bastidor bajo cargas definidas sustenta ese comportamiento; la seguridad de la máquina completa requiere las verificaciones de sus demás funciones antes de autorizar su fabricación o puesta en servicio.
+
+La información del taller y los recursos de terceros se incorporan respetando su procedencia, sus condiciones de uso y las autorizaciones que correspondan. La documentación técnica mantiene las atribuciones de textos, figuras y resultados, y limita la difusión de información reservada. El compromiso profesional se concreta así en decisiones revisables: las prestaciones se apoyan en evidencia, los riesgos relevantes se hacen visibles y las condiciones pendientes se conservan como tales durante el desarrollo del proyecto.

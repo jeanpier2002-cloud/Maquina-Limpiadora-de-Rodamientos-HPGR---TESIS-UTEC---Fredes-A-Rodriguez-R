@@ -1,0 +1,12 @@
+ventana,region,kg_por_vuelta,area_m2,frac_N1,D_bal_kg_m2_vuelta_en_area_visible,min_D65,min_D183,min_D305
+ventana sup,"extremo de rodillo (lado cara), hilera sup",6.886,0.2549,0.9515,28.398,1.3,3.8,6.3
+ventana sup,"flanco de rodillo 0-25 mm, hilera sup",0.5053,0.2213,0.5444,4.194,9.1,25.7,42.8
+ventana sup,"flanco de rodillo 25-50 mm, hilera sup",0.2712,0.2325,0.4132,2.823,13.5,38.1,63.6
+ventana sup,"flanco de rodillo 50-100 mm, hilera sup",0.1819,0.4847,0.2366,1.586,24.1,67.9,113.1
+ventana sup,"flanco de rodillo 100-150 mm, hilera sup",0.01596,0.4885,0.0655,0.499,76.6,215.8,359.6
+ventana sup,"pista exterior, mitad sup (todas las prof.)",0.8744,1.0729,0.2353,3.463,11.0,31.1,51.8
+ventana sup,"pista interior, mitad sup (todas las prof.)",1.167,0.7791,0.2670,5.611,6.8,19.2,32.0
+ventana sup,"extremo interior de rodillo, hilera inf",0.7134,0.2549,0.5125,5.463,7.0,19.7,32.8
+ventana inf,"extremo de rodillo (lado cara), hilera inf",0.3898,0.2549,0.4717,3.243,11.8,33.2,55.3
+ventana inf,"resalte del aro interior, mitad inf",2.545,0.1274,0.4098,48.760,0.8,2.2,3.7
+ventana inf,"pista exterior 0-50 mm, mitad inf",0.4217,0.2108,0.4186,4.778,8.0,22.5,37.5

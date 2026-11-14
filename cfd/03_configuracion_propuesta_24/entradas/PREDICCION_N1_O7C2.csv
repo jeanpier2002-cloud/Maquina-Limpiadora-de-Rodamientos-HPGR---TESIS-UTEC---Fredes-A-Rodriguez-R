@@ -1,0 +1,29 @@
+superficie,caso,magnitud,valor_N1,estimado_CFD,referencia_CFD_existente,metodo_y_estado
+cara_inferior,Base (22 boquillas),D_media_A+B,5.43,,5.46 (G7),N1 con obstaculos y bandas de 10 mm; CALIBRACION
+cara_inferior,Base (22 boquillas),CV,0.638,,0.616 (G7),N1; CALIBRACION
+cara_inferior,Base (22 boquillas),D_min_10mm,3.02,,2.93 (G7),N1; CALIBRACION
+cara_inferior,O7+C2 (kit),D_media_A+B,13.88,13.95,,N1 x factor CFD/N1 de la base (1.005); HIPOTESIS
+cara_inferior,O7+C2 (kit),CV,0.412,~0.41,,N1; HIPOTESIS (ruido CFD +-0.05)
+cara_inferior,O7+C2 (kit),D_min_10mm,7.63,7.40-7.67,,N1 x 0.970 o x 1.005; HIPOTESIS
+cara_inferior,O7+C2 (kit),zona_seca_10mm_pct,0.00,0,,N1
+cara_inferior,O7+C2 (kit),D_min_2mm,6.68,,,N1
+cara_inferior,O7+C2 (kit),Z1_D_media,11.95,,,N1 (r 450.1-521.5 mm)
+cara_inferior,O7+C2 (kit),Z2_D_media,9.70,,,N1 (r 521.5-617.5; pared proyectada)
+cara_inferior,O7+C2 (kit),Z3_D_media,19.58,,,N1 (r 617.5-710); criterio D-047 >= 15.8
+cara_inferior,solo INF_EXT 1520@15 (sin C2),Z3_D_media,10.38,,,N1: no alcanza 15.8
+cara_inferior,INF_EXT viejo + C2 (D-046),Z3_D_media,13.35,,,N1: no alcanza 15.8
+cara_inferior,O7+C2 con abanico 21 grados,Z3_D_media_A_libre,17.17,,,N1 (A libre bandas de 5 mm; nominal 16.8 grados = 21.09)
+OD,Diseno anterior + Caso 2 (N1),D_media_A+B,26.33,,26.38 (G7 Caso 3),N1 libre bandas de 10 mm; CALIBRACION
+OD,Diseno anterior + Caso 2 (N1),CV,0.248,,0.265 (G7 Caso 3),N1; CALIBRACION
+OD,Diseno anterior + Caso 2 (N1),D_min_10mm,17.98,,14.56 (G7 Caso 3),N1; cociente CFD/N1 = 0.81
+OD,O7+C2 + Caso 2,D_media_A+B,25.98,,,N1
+OD,O7+C2 + Caso 2,CV,0.645,,,N1 (0.340 sin las dos bandas bajas z 890-910)
+OD,O7+C2 + Caso 2,D_min_10mm,11.59,~9.4 (9-12),,N1 x 0.81; HIPOTESIS; en z 920-930
+OD,O7+C2 + Caso 2,D_banda_890-900,122.57,,,N1 (A+B)
+OD,O7+C2 + Caso 2,D_banda_900-910,65.39,,,N1 (A+B)
+OD,O7+C2 + Caso 2,D_media_z910-1030,16.31,,,N1; base 28.22 (-42 %)
+OD,O7+C2 sin Caso 2 (LAT_1 horizontal),franja_sin_impacto_z_mm,1031-1039,,,N1: 9 bandas de 1 mm con D=0
+OD,O7+C2 + Caso 2,zona_seca_2mm,0,0,,N1
+tiempo_lavado_min,Cara inferior Base (D_req 65/183/305),T,13.0/36.7/61.2,,,D_min 2.93 CFD; DATO EXTERNO PENDIENTE (D_req)
+tiempo_lavado_min,Cara inferior O7+C2 (D_req 65/183/305),T,5.2/14.5/24.2,,,D_min 7.40 estimado; HIPOTESIS
+tiempo_lavado_min,OD O7+C2 (D_req 65/183/305),T,4.1/11.5/19.1,,,D_min 9.4 estimado; HIPOTESIS

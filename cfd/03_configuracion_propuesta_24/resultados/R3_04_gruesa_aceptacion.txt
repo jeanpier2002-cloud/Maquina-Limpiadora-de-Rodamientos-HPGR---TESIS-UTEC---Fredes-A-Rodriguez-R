@@ -1,0 +1,1 @@
+OK R3_04_gruesa | pasos 800/800 | Error/FATAL 0 | muestras 8/8 | balance 0.1246 %

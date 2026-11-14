@@ -1,0 +1,5 @@
+caso,V_envolvente_dm3,V_libre_SKF_dm3,llenado_pct,M_grasa_cavidad_kg,pct_masa_en_cavidad,jaula_implicita_dm3,jaula_implicita_kg_laton
+d nominal 900 (formula SKF tal cual),487.96,99.25,50,44.7,89.8-98.9,13.6,116
+d nominal 900 (formula SKF tal cual),487.96,99.25,100,89.3,94.6-99.4,13.6,116
+"d medio 908,58 (agujero conico 1:30)",481.69,92.97,50,41.8,89.1-98.8,19.9,169
+"d medio 908,58 (agujero conico 1:30)",481.69,92.97,100,83.7,94.3-99.4,19.9,169
