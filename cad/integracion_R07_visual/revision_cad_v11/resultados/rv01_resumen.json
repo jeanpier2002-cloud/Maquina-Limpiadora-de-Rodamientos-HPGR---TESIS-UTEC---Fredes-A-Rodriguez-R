@@ -1,0 +1,2103 @@
+{
+ "fuente": "C:/Users/<usuario>/Documents/Codex/2026-07-06/ho/01_DISENO_VIGENTE/integracion_R07_visual/cad/R07_V11_STEP.FCStd",
+ "segundos": 160,
+ "objetos_con_solido": 738,
+ "revisados": 663,
+ "superados_visibles_en_archivo": [
+  "CTX_LOCATOR_01_FIXED_GUIDE",
+  "CTX_LOCATOR_01_BASE_FASTENERS",
+  "CTX_LOCATOR_01_CARRIAGE_WASH",
+  "CTX_LOCATOR_01_ROLLER_WASH",
+  "CTX_LOCATOR_03_FIXED_GUIDE",
+  "CTX_LOCATOR_03_BASE_FASTENERS",
+  "CTX_LOCATOR_03_CARRIAGE_WASH",
+  "CTX_LOCATOR_03_ROLLER_WASH",
+  "CTX_LOCATOR_01_CARRIAGE_WASH001",
+  "CTX_LOCATOR_01_ROLLER_WASH001",
+  "CTX_LOCATOR_03_CARRIAGE_WASH001",
+  "CTX_LOCATOR_03_ROLLER_WASH001",
+  "R06_LOCATOR_02_FIXED_GUIDE_ACTIVO",
+  "R06_LOCATOR_02_CARRIAGE_ACTIVO",
+  "R06_LOCATOR_02_ROLLER_ACTIVO",
+  "R06_LOCATOR_02_RETENTION_STOP_ACTIVO",
+  "R06_LOCATOR_02_FIXED_GUIDE_LAVADO",
+  "R06_LOCATOR_02_CARRIAGE_LAVADO",
+  "R06_LOCATOR_02_ROLLER_LAVADO",
+  "R06_LOCATOR_02_RETENTION_STOP_LAVADO",
+  "R06_LOCATOR_02_TELESCOPIC_EXTENSION_LAVADO",
+  "R06_LOCATOR_02_MOUNT_RESERVA"
+ ],
+ "ocultos_por_grupo": 0,
+ "invalidos": [
+  "R07_STEP_SCHNEIDER_ATV320U55N4C",
+  "R07_STEP_GRUNDFOS_CRN15_3_HIDRAULICA",
+  "R07_STEP_GRUNDFOS_DDA_INHIBIDOR",
+  "R07_STEP_GRUNDFOS_DDA_DETERGENTE"
+ ],
+ "pares_evaluados": 2641,
+ "solapes": 270,
+ "contactos": 692,
+ "errores_boolean": 0,
+ "solapes_detalle": [
+  [
+   "CTX_BEARING_REFERENCE",
+   "SKF_ARO_EXTERIOR",
+   126478730.44
+  ],
+  [
+   "CTX_BEARING_REFERENCE",
+   "SKF_ARO_INTERIOR",
+   110173951.96
+  ],
+  [
+   "CTX_BEARING_REFERENCE",
+   "SKF_RODILLOS_HILERA_SUP",
+   65707998.72
+  ],
+  [
+   "CTX_BEARING_REFERENCE",
+   "SKF_RODILLOS_HILERA_INF",
+   65707998.72
+  ],
+  [
+   "Floor and foundation reference",
+   "R06_COLECTOR_SOMERO_PAREDES_FONDO",
+   6800000.0
+  ],
+  [
+   "Floor and foundation reference",
+   "R07_F_POZO_BOMBEO",
+   5100000.0
+  ],
+  [
+   "Rail support L-02",
+   "R06_DELANTAL_EXTERIOR_RESERVA",
+   2100000.0
+  ],
+  [
+   "Rail support L-03",
+   "R06_DELANTAL_EXTERIOR_RESERVA",
+   2100000.0
+  ],
+  [
+   "Rail support L-04",
+   "R06_DELANTAL_EXTERIOR_RESERVA",
+   2100000.0
+  ],
+  [
+   "Rail support L-05",
+   "R06_DELANTAL_EXTERIOR_RESERVA",
+   2100000.0
+  ],
+  [
+   "Rail support R-02",
+   "R06_DELANTAL_EXTERIOR_RESERVA",
+   2100000.0
+  ],
+  [
+   "Rail support R-03",
+   "R06_DELANTAL_EXTERIOR_RESERVA",
+   2100000.0
+  ],
+  [
+   "Rail support R-04",
+   "R06_DELANTAL_EXTERIOR_RESERVA",
+   2100000.0
+  ],
+  [
+   "Rail support R-05",
+   "R06_DELANTAL_EXTERIOR_RESERVA",
+   2100000.0
+  ],
+  [
+   "R04_POLEA_MOTRIZ",
+   "R04_CORREA_ENVOLVENTE",
+   814300.82
+  ],
+  [
+   "MANGUERA_FLEXIBLE_1IN",
+   "MANGUERA_FLEXIBLE_1IN_GUARDADA",
+   692359.05
+  ],
+  [
+   "CTX_CABIN_LEFT",
+   "R04_SOP_PLACAS_BASE",
+   600000.0
+  ],
+  [
+   "CTX_CABIN_RIGHT",
+   "R04_SOP_PLACAS_BASE",
+   600000.0
+  ],
+  [
+   "R04_SOP_COLUMNAS_SHS150x6",
+   "R04_SOP_ARRIOSTRAMIENTO_L50x5",
+   313575.43
+  ],
+  [
+   "R06_PISO_HUMEDO_IZQ",
+   "R06_PATA_RECEPTOR_WASH_IZQ",
+   280000.0
+  ],
+  [
+   "R06_PISO_HUMEDO_DER",
+   "R06_PATA_RECEPTOR_WASH_DER",
+   280000.0
+  ],
+  [
+   "R04_CORREA_ENVOLVENTE",
+   "POLEA_CONDUCIDA",
+   261551.73
+  ],
+  [
+   "R061_K2M_2_SILLA_SUPERIOR_2_FIJO",
+   "R061_K2M_2_MENSULA_TRIANGULADA_FIJO",
+   98280.0
+  ],
+  [
+   "R04_ALOJAMIENTO_APOYO_INFERIOR",
+   "RESALTE_AXIAL",
+   92393.6
+  ],
+  [
+   "CTX_WHEEL_01",
+   "CTX_AXLE_01",
+   57726.77
+  ],
+  [
+   "CTX_WHEEL_02",
+   "CTX_AXLE_02",
+   57726.77
+  ],
+  [
+   "CTX_WHEEL_03",
+   "CTX_AXLE_03",
+   57726.77
+  ],
+  [
+   "CTX_WHEEL_04",
+   "CTX_AXLE_04",
+   57726.77
+  ],
+  [
+   "CTX_M01_W6X9",
+   "CTX_M05_W6X9",
+   55988.3
+  ],
+  [
+   "CTX_M01_W6X9",
+   "CTX_M06_W6X9",
+   55988.3
+  ],
+  [
+   "CTX_M02_W6X9",
+   "CTX_M05_W6X9",
+   55988.3
+  ],
+  [
+   "CTX_M02_W6X9",
+   "CTX_M06_W6X9",
+   55988.3
+  ],
+  [
+   "CTX_M05_W6X9",
+   "CTX_M07_W6X9",
+   55988.3
+  ],
+  [
+   "CTX_M06_W6X9",
+   "CTX_M07_W6X9",
+   55988.3
+  ],
+  [
+   "MANETA_V_AIS",
+   "MANETA_V_AIS_BARRIDO",
+   48000.0
+  ],
+  [
+   "TUBO_LANZA_VERTICAL_DN25",
+   "TUBO_LANZA_VERTICAL_DN25_GUARDADA",
+   40865.48
+  ],
+  [
+   "R07_STEP_GRUNDFOS_CRN15_3_HIDRAULICA",
+   "R07_STEP_GRUNDFOS_CRN15_3_MOTOR",
+   38175.61
+  ],
+  [
+   "CTX_M03_W6X9",
+   "CTX_TABLE_LOCK_BODY",
+   34189.68
+  ],
+  [
+   "CTX_M01_W6X9",
+   "CTX_M03_W6X9",
+   27994.15
+  ],
+  [
+   "CTX_M01_W6X9",
+   "CTX_M04_W6X9",
+   27994.15
+  ],
+  [
+   "CTX_M02_W6X9",
+   "CTX_M03_W6X9",
+   27994.15
+  ],
+  [
+   "CTX_M02_W6X9",
+   "CTX_M04_W6X9",
+   27994.15
+  ],
+  [
+   "R061_K2M_2_RODILLO_ACTIVO",
+   "R061_K2M_2_RODILLO_RETRAIDO",
+   17535.59
+  ],
+  [
+   "R061_K2M_1_RODILLO_ACTIVO",
+   "R061_K2M_1_RODILLO_RETRAIDO",
+   16775.53
+  ],
+  [
+   "R061_K2M_3_RODILLO_ACTIVO",
+   "R061_K2M_3_RODILLO_RETRAIDO",
+   16775.53
+  ],
+  [
+   "R061_K2M_2_MONTANTE_FIJO",
+   "R061_K2M_2_MENSULA_TRIANGULADA_FIJO",
+   16185.49
+  ],
+  [
+   "R061_K2M_1_PLACA_SUPERIOR_FIJO",
+   "R061_K2M_1_PARED_LATERAL_1_FIJO",
+   14677.87
+  ],
+  [
+   "R061_K2M_1_PLACA_SUPERIOR_FIJO",
+   "R061_K2M_1_PARED_LATERAL_2_FIJO",
+   14677.87
+  ],
+  [
+   "R061_K2M_3_PLACA_SUPERIOR_FIJO",
+   "R061_K2M_3_PARED_LATERAL_1_FIJO",
+   14677.87
+  ],
+  [
+   "R061_K2M_3_PLACA_SUPERIOR_FIJO",
+   "R061_K2M_3_PARED_LATERAL_2_FIJO",
+   14677.87
+  ],
+  [
+   "R07_STEP_RITTAL_CUERPO",
+   "R07_STEP_RITTAL_PUERTA_V9",
+   12974.93
+  ],
+  [
+   "R061_K2M_1_PLACA_INFERIOR_CAJA_FIJO",
+   "R061_K2M_1_PARED_LATERAL_1_FIJO",
+   12386.07
+  ],
+  [
+   "R061_K2M_1_PLACA_INFERIOR_CAJA_FIJO",
+   "R061_K2M_1_PARED_LATERAL_2_FIJO",
+   12386.07
+  ],
+  [
+   "R061_K2M_3_PLACA_INFERIOR_CAJA_FIJO",
+   "R061_K2M_3_PARED_LATERAL_1_FIJO",
+   12386.07
+  ],
+  [
+   "R061_K2M_3_PLACA_INFERIOR_CAJA_FIJO",
+   "R061_K2M_3_PARED_LATERAL_2_FIJO",
+   12386.07
+  ],
+  [
+   "R061_K2M_1_PLACA_INFERIOR_CAJA_FIJO",
+   "R061_K2M_1_CIERRE_FRONTAL_FIJO",
+   12000.0
+  ],
+  [
+   "R061_K2M_3_PLACA_INFERIOR_CAJA_FIJO",
+   "R061_K2M_3_CIERRE_FRONTAL_FIJO",
+   12000.0
+  ],
+  [
+   "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+   "R061_K2M_1_PLACA_SUPERIOR_FIJO",
+   10614.58
+  ],
+  [
+   "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+   "R061_K2M_3_PLACA_SUPERIOR_FIJO",
+   10614.58
+  ],
+  [
+   "CTX_M01_W6X9",
+   "CTX_WEB_STIFFENERS_01",
+   9598.95
+  ],
+  [
+   "CTX_M01_W6X9",
+   "CTX_WEB_STIFFENERS_02",
+   9598.95
+  ],
+  [
+   "CTX_M02_W6X9",
+   "CTX_WEB_STIFFENERS_03",
+   9598.95
+  ],
+  [
+   "CTX_M02_W6X9",
+   "CTX_WEB_STIFFENERS_04",
+   9598.95
+  ],
+  [
+   "R063 B-MEC A | O7+C2",
+   "B_COM_ROTULA_INF_EXT_A",
+   9081.64
+  ],
+  [
+   "R063 B-MEC B | O7+C2",
+   "B_COM_ROTULA_INF_EXT_B",
+   9081.63
+  ],
+  [
+   "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+   "R061_K2M_1_PLACA_INFERIOR_CAJA_FIJO",
+   9000.0
+  ],
+  [
+   "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+   "R061_K2M_3_PLACA_INFERIOR_CAJA_FIJO",
+   9000.0
+  ],
+  [
+   "Rail support L-01",
+   "Gantrex clip pair L-01",
+   8750.0
+  ],
+  [
+   "Rail support L-02",
+   "Gantrex clip pair L-02",
+   8750.0
+  ],
+  [
+   "Rail support L-03",
+   "Gantrex clip pair L-03",
+   8750.0
+  ],
+  [
+   "Rail support L-04",
+   "Gantrex clip pair L-04",
+   8750.0
+  ],
+  [
+   "Rail support L-05",
+   "Gantrex clip pair L-05",
+   8750.0
+  ],
+  [
+   "Rail support L-06",
+   "Gantrex clip pair L-06",
+   8750.0
+  ],
+  [
+   "Rail support L-07",
+   "Gantrex clip pair L-07",
+   8750.0
+  ],
+  [
+   "Rail support L-08",
+   "Gantrex clip pair L-08",
+   8750.0
+  ],
+  [
+   "Rail support L-09",
+   "Gantrex clip pair L-09",
+   8750.0
+  ],
+  [
+   "Rail support L-10",
+   "Gantrex clip pair L-10",
+   8750.0
+  ],
+  [
+   "Rail support L-11",
+   "Gantrex clip pair L-11",
+   8750.0
+  ],
+  [
+   "Rail support L-12",
+   "Gantrex clip pair L-12",
+   8750.0
+  ],
+  [
+   "Rail support R-01",
+   "Gantrex clip pair R-01",
+   8750.0
+  ],
+  [
+   "Rail support R-02",
+   "Gantrex clip pair R-02",
+   8750.0
+  ],
+  [
+   "Rail support R-03",
+   "Gantrex clip pair R-03",
+   8750.0
+  ],
+  [
+   "Rail support R-04",
+   "Gantrex clip pair R-04",
+   8750.0
+  ],
+  [
+   "Rail support R-05",
+   "Gantrex clip pair R-05",
+   8750.0
+  ],
+  [
+   "Rail support R-06",
+   "Gantrex clip pair R-06",
+   8750.0
+  ],
+  [
+   "Rail support R-07",
+   "Gantrex clip pair R-07",
+   8750.0
+  ],
+  [
+   "Rail support R-08",
+   "Gantrex clip pair R-08",
+   8750.0
+  ],
+  [
+   "Rail support R-09",
+   "Gantrex clip pair R-09",
+   8750.0
+  ],
+  [
+   "Rail support R-10",
+   "Gantrex clip pair R-10",
+   8750.0
+  ],
+  [
+   "Rail support R-11",
+   "Gantrex clip pair R-11",
+   8750.0
+  ],
+  [
+   "Rail support R-12",
+   "Gantrex clip pair R-12",
+   8750.0
+  ],
+  [
+   "R061_K2M_2_MONTANTE_FIJO",
+   "R061_RET_2_SOPORTE_FIJO",
+   8447.31
+  ],
+  [
+   "R063 B-MEC A | O7+C2",
+   "B_COM_ROTULA_C2_A",
+   7912.06
+  ],
+  [
+   "R063 B-MEC B | O7+C2",
+   "B_COM_ROTULA_C2_B",
+   7912.06
+  ],
+  [
+   "R061_K2M_2_HORQUILLA_ACTIVO",
+   "R061_K2M_2_RODILLO_RETRAIDO",
+   6427.52
+  ],
+  [
+   "B_COM_TE_A",
+   "B_COM_ROTULA_C2_A",
+   6395.5
+  ],
+  [
+   "B_COM_TE_B",
+   "B_COM_ROTULA_C2_B",
+   6395.5
+  ],
+  [
+   "R061_K2M_1_HORQUILLA_ACTIVO",
+   "R061_K2M_1_RODILLO_RETRAIDO",
+   6361.85
+  ],
+  [
+   "R061_K2M_3_HORQUILLA_ACTIVO",
+   "R061_K2M_3_RODILLO_RETRAIDO",
+   6361.85
+  ],
+  [
+   "R061_K2M_1_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_1_COLLAR_DISPARO_RETRAIDO",
+   6031.86
+  ],
+  [
+   "R061_K2M_2_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_2_COLLAR_DISPARO_RETRAIDO",
+   6031.86
+  ],
+  [
+   "R061_K2M_3_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_3_COLLAR_DISPARO_RETRAIDO",
+   6031.86
+  ],
+  [
+   "R061_K2M_2_BRAZO_ACTIVO",
+   "R061_K2M_2_BRAZO_RETRAIDO",
+   5645.43
+  ],
+  [
+   "R061_K2M_1_BRAZO_ACTIVO",
+   "R061_K2M_1_BRAZO_RETRAIDO",
+   5366.36
+  ],
+  [
+   "R061_K2M_3_BRAZO_ACTIVO",
+   "R061_K2M_3_BRAZO_RETRAIDO",
+   5366.36
+  ],
+  [
+   "B_COM_TE_A",
+   "B_COM_ROTULA_INF_EXT_A",
+   5234.4
+  ],
+  [
+   "B_COM_TE_B",
+   "B_COM_ROTULA_INF_EXT_B",
+   5234.4
+  ],
+  [
+   "CADENA_PORTAMANGUERAS",
+   "CODO_CUELLO_4_GUARDADA",
+   5091.29
+  ],
+  [
+   "BOQUILLA_C2_A",
+   "B_COM_BOQUILLA_C2_A",
+   4431.7
+  ],
+  [
+   "BOQUILLA_C2_B",
+   "B_COM_BOQUILLA_C2_B",
+   4431.7
+  ],
+  [
+   "R04_CARTUCHO_POSTES_D76x8",
+   "R04_TORNAPUNTAS_MOTOR",
+   4403.3
+  ],
+  [
+   "B_COM_NIPLE_INF_EXT_A",
+   "B_COM_ROTULA_INF_EXT_A",
+   4299.04
+  ],
+  [
+   "B_COM_NIPLE_INF_EXT_B",
+   "B_COM_ROTULA_INF_EXT_B",
+   4299.04
+  ],
+  [
+   "R061_K2M_1_PLACA_SUPERIOR_FIJO",
+   "R061_K2M_1_SOPORTE_LIMITADOR_FIJO",
+   4276.58
+  ],
+  [
+   "R061_K2M_3_PLACA_SUPERIOR_FIJO",
+   "R061_K2M_3_SOPORTE_LIMITADOR_FIJO",
+   4276.58
+  ],
+  [
+   "CTX_M05_W6X9",
+   "CTX_BEARING_RETENTION_STOP_03",
+   4134.94
+  ],
+  [
+   "CTX_M06_W6X9",
+   "CTX_BEARING_RETENTION_STOP_01",
+   4134.94
+  ],
+  [
+   "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+   "R061_K2M_1_PARED_LATERAL_1_FIJO",
+   3900.0
+  ],
+  [
+   "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+   "R061_K2M_1_PARED_LATERAL_2_FIJO",
+   3900.0
+  ],
+  [
+   "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+   "R061_K2M_3_PARED_LATERAL_1_FIJO",
+   3900.0
+  ],
+  [
+   "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+   "R061_K2M_3_PARED_LATERAL_2_FIJO",
+   3900.0
+  ],
+  [
+   "R061_K2M_1_MONTANTE_FIJO",
+   "R061_RET_1_SOPORTE_FIJO",
+   3839.68
+  ],
+  [
+   "R061_K2M_3_MONTANTE_FIJO",
+   "R061_RET_3_SOPORTE_FIJO",
+   3839.68
+  ],
+  [
+   "PORTABOQUILLA_16_INF_B",
+   "R063 B-MEC B | O7+C2",
+   3408.35
+  ],
+  [
+   "PORTABOQUILLA_08_INF_A",
+   "R063 B-MEC A | O7+C2",
+   3408.04
+  ],
+  [
+   "R061_K2M_2_MENSULA_TRIANGULADA_FIJO",
+   "R061_K2M_2_SOPORTE_LIMITADOR_FIJO",
+   3210.61
+  ],
+  [
+   "B_COM_NIPLE_C2_A",
+   "B_COM_ROTULA_C2_A",
+   3059.66
+  ],
+  [
+   "B_COM_NIPLE_C2_B",
+   "B_COM_ROTULA_C2_B",
+   3059.66
+  ],
+  [
+   "CADENA_PORTAMANGUERAS",
+   "PURGA_VD2_GUARDADA",
+   2797.92
+  ],
+  [
+   "R04_TORNAPUNTAS_MOTOR",
+   "R07_V9_MENSULA_MOTOR_RANURADA",
+   2731.01
+  ],
+  [
+   "PORTABOQUILLA_08_INF_A",
+   "B_COM_ROTULA_INF_EXT_A",
+   2416.98
+  ],
+  [
+   "PORTABOQUILLA_16_INF_B",
+   "B_COM_ROTULA_INF_EXT_B",
+   2416.98
+  ],
+  [
+   "R07_STEP_RITTAL_MANETA",
+   "R07_STEP_RITTAL_CIERRE_VARILLA",
+   2416.84
+  ],
+  [
+   "B_COM_TE_A",
+   "B_COM_NIPLE_C2_A",
+   2372.07
+  ],
+  [
+   "B_COM_TE_B",
+   "B_COM_NIPLE_C2_B",
+   2372.07
+  ],
+  [
+   "R061_K2M_2_BRAZO_ACTIVO",
+   "R061_K2M_2_RODILLO_RETRAIDO",
+   2278.47
+  ],
+  [
+   "R061_K2M_1_BRAZO_ACTIVO",
+   "R061_K2M_1_RODILLO_RETRAIDO",
+   2201.52
+  ],
+  [
+   "R061_K2M_3_BRAZO_ACTIVO",
+   "R061_K2M_3_RODILLO_RETRAIDO",
+   2201.52
+  ],
+  [
+   "R061_K2M_3_PLACA_SUPERIOR_FIJO",
+   "R061_K2M_3_SOPORTE_LIMITADOR_COLGANTE_FIJO",
+   2183.18
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-02",
+   2132.35
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-03",
+   2132.35
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-04",
+   2132.35
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-05",
+   2132.35
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-06",
+   2132.35
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-07",
+   2132.35
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-08",
+   2132.35
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-09",
+   2132.35
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-10",
+   2132.35
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-11",
+   2132.35
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-12",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-02",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-03",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-04",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-05",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-06",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-07",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-08",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-09",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-10",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-11",
+   2132.35
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-12",
+   2132.35
+  ],
+  [
+   "R061_K2M_1_EJE_PIVOTE_FIJO",
+   "R061_K2M_1_BRAZO_ACTIVO",
+   2040.48
+  ],
+  [
+   "R061_K2M_1_EJE_PIVOTE_FIJO",
+   "R061_K2M_1_BRAZO_RETRAIDO",
+   2040.48
+  ],
+  [
+   "R061_K2M_2_EJE_PIVOTE_FIJO",
+   "R061_K2M_2_BRAZO_ACTIVO",
+   2040.48
+  ],
+  [
+   "R061_K2M_2_EJE_PIVOTE_FIJO",
+   "R061_K2M_2_BRAZO_RETRAIDO",
+   2040.48
+  ],
+  [
+   "R061_K2M_3_EJE_PIVOTE_FIJO",
+   "R061_K2M_3_BRAZO_ACTIVO",
+   2040.48
+  ],
+  [
+   "R061_K2M_3_EJE_PIVOTE_FIJO",
+   "R061_K2M_3_BRAZO_RETRAIDO",
+   2040.48
+  ],
+  [
+   "CARRO_LANZA",
+   "COPLA_17_INT_1_GUARDADA",
+   1966.23
+  ],
+  [
+   "R04_UNION_ESTATOR",
+   "R04_SOPORTE_ANTIGIRO",
+   1890.69
+  ],
+  [
+   "R061_K2M_1_PARED_LATERAL_1_FIJO",
+   "R061_K2M_1_CIERRE_FRONTAL_FIJO",
+   1840.0
+  ],
+  [
+   "R061_K2M_1_PARED_LATERAL_2_FIJO",
+   "R061_K2M_1_CIERRE_FRONTAL_FIJO",
+   1840.0
+  ],
+  [
+   "R061_K2M_3_PARED_LATERAL_1_FIJO",
+   "R061_K2M_3_CIERRE_FRONTAL_FIJO",
+   1840.0
+  ],
+  [
+   "R061_K2M_3_PARED_LATERAL_2_FIJO",
+   "R061_K2M_3_CIERRE_FRONTAL_FIJO",
+   1840.0
+  ],
+  [
+   "R07_STEP_RITTAL_CIERRE_VARILLA",
+   "R07_STEP_RITTAL_PUERTA_V9",
+   1821.42
+  ],
+  [
+   "R061_K2M_1_RODILLO_ACTIVO",
+   "R061_K2M_1_HORQUILLA_RETRAIDO",
+   1677.09
+  ],
+  [
+   "R061_K2M_3_RODILLO_ACTIVO",
+   "R061_K2M_3_HORQUILLA_RETRAIDO",
+   1677.09
+  ],
+  [
+   "R061_K2M_2_RODILLO_ACTIVO",
+   "R061_K2M_2_HORQUILLA_RETRAIDO",
+   1653.34
+  ],
+  [
+   "R061_K2M_2_RODILLO_ACTIVO",
+   "R061_K2M_2_PASADOR_RODILLO_RETRAIDO",
+   1599.09
+  ],
+  [
+   "TUBO_PIE_A_DN15",
+   "R063 B-MEC A | O7+C2",
+   1573.56
+  ],
+  [
+   "TUBO_PIE_B_DN15",
+   "R063 B-MEC B | O7+C2",
+   1573.55
+  ],
+  [
+   "R061_K2M_1_RODILLO_ACTIVO",
+   "R061_K2M_1_PASADOR_RODILLO_RETRAIDO",
+   1550.24
+  ],
+  [
+   "R061_K2M_3_RODILLO_ACTIVO",
+   "R061_K2M_3_PASADOR_RODILLO_RETRAIDO",
+   1550.24
+  ],
+  [
+   "B_COM_TE_A",
+   "B_COM_NIPLE_INF_EXT_A",
+   1511.81
+  ],
+  [
+   "B_COM_TE_B",
+   "B_COM_NIPLE_INF_EXT_B",
+   1511.81
+  ],
+  [
+   "R061_K2M_1_PLACA_SUPERIOR_FIJO",
+   "R061_K2M_1_SOPORTE_LIMITADOR_COLGANTE_FIJO",
+   1407.22
+  ],
+  [
+   "TUBO_PIE_B_DN15",
+   "B_COM_ROTULA_INF_EXT_B",
+   1348.52
+  ],
+  [
+   "TUBO_PIE_A_DN15",
+   "B_COM_ROTULA_INF_EXT_A",
+   1348.44
+  ],
+  [
+   "R061_K2M_3_SOPORTE_LIMITADOR_FIJO",
+   "R061_K2M_3_SOPORTE_LIMITADOR_COLGANTE_FIJO",
+   1280.0
+  ],
+  [
+   "R061_K2M_2_MENSULA_TRIANGULADA_FIJO",
+   "R061_K2M_2_SOPORTE_LIMITADOR_COLGANTE_FIJO",
+   1179.7
+  ],
+  [
+   "CTX_HANDLE_POST_L",
+   "CTX_HANDLE_BAR",
+   1081.49
+  ],
+  [
+   "CTX_HANDLE_POST_R",
+   "CTX_HANDLE_BAR",
+   1081.29
+  ],
+  [
+   "R061_K2M_2_BRAZO_ACTIVO",
+   "R061_K2M_2_HORQUILLA_ACTIVO",
+   1075.06
+  ],
+  [
+   "R061_K2M_2_BRAZO_RETRAIDO",
+   "R061_K2M_2_HORQUILLA_RETRAIDO",
+   1075.06
+  ],
+  [
+   "R061_K2M_1_BRAZO_ACTIVO",
+   "R061_K2M_1_HORQUILLA_ACTIVO",
+   1067.63
+  ],
+  [
+   "R061_K2M_1_BRAZO_RETRAIDO",
+   "R061_K2M_1_HORQUILLA_RETRAIDO",
+   1067.63
+  ],
+  [
+   "R061_K2M_3_BRAZO_ACTIVO",
+   "R061_K2M_3_HORQUILLA_ACTIVO",
+   1067.63
+  ],
+  [
+   "R061_K2M_3_BRAZO_RETRAIDO",
+   "R061_K2M_3_HORQUILLA_RETRAIDO",
+   1067.63
+  ],
+  [
+   "A45 rail L",
+   "Gantrex clip pair L-01",
+   1066.18
+  ],
+  [
+   "A45 rail R",
+   "Gantrex clip pair R-01",
+   1066.18
+  ],
+  [
+   "CADENA_PORTAMANGUERAS",
+   "TUBO_CUELLO_4_GUARDADA",
+   947.27
+  ],
+  [
+   "R07_STEP_SEW_SF47R17DRN63MS4_V9",
+   "R07_STEP_MAYR_ROBA_SLIP_HUB_T1",
+   940.56
+  ],
+  [
+   "R061_K2M_2_PASADOR_RODILLO_ACTIVO",
+   "R061_K2M_2_RODILLO_RETRAIDO",
+   888.71
+  ],
+  [
+   "R061_K2M_1_PASADOR_RODILLO_ACTIVO",
+   "R061_K2M_1_RODILLO_RETRAIDO",
+   819.27
+  ],
+  [
+   "R061_K2M_3_PASADOR_RODILLO_ACTIVO",
+   "R061_K2M_3_RODILLO_RETRAIDO",
+   819.27
+  ],
+  [
+   "CADENA_PORTAMANGUERAS",
+   "COPLA_1_4_VD2_GUARDADA",
+   808.85
+  ],
+  [
+   "R061_K2M_1_HORQUILLA_ACTIVO",
+   "R061_K2M_1_PASADOR_RODILLO_RETRAIDO",
+   561.86
+  ],
+  [
+   "R061_K2M_3_HORQUILLA_ACTIVO",
+   "R061_K2M_3_PASADOR_RODILLO_RETRAIDO",
+   561.86
+  ],
+  [
+   "R061_K2M_2_HORQUILLA_ACTIVO",
+   "R061_K2M_2_PASADOR_RODILLO_RETRAIDO",
+   553.72
+  ],
+  [
+   "R061_K2M_1_BRAZO_ACTIVO",
+   "R061_K2M_1_HORQUILLA_RETRAIDO",
+   536.87
+  ],
+  [
+   "R061_K2M_3_BRAZO_ACTIVO",
+   "R061_K2M_3_HORQUILLA_RETRAIDO",
+   536.87
+  ],
+  [
+   "R061_K2M_1_HORQUILLA_ACTIVO",
+   "R061_K2M_1_HORQUILLA_RETRAIDO",
+   534.02
+  ],
+  [
+   "R061_K2M_3_HORQUILLA_ACTIVO",
+   "R061_K2M_3_HORQUILLA_RETRAIDO",
+   534.02
+  ],
+  [
+   "R061_K2M_2_HORQUILLA_ACTIVO",
+   "R061_K2M_2_HORQUILLA_RETRAIDO",
+   528.01
+  ],
+  [
+   "R061_K2M_2_BRAZO_ACTIVO",
+   "R061_K2M_2_HORQUILLA_RETRAIDO",
+   525.36
+  ],
+  [
+   "R061_K2M_1_ALOJAMIENTO_FIJO",
+   "R061_K2M_1_RECEPTOR_PASADOR_FIJO",
+   513.39
+  ],
+  [
+   "R061_K2M_2_ALOJAMIENTO_FIJO",
+   "R061_K2M_2_RECEPTOR_PASADOR_FIJO",
+   513.39
+  ],
+  [
+   "R061_K2M_3_ALOJAMIENTO_FIJO",
+   "R061_K2M_3_RECEPTOR_PASADOR_FIJO",
+   513.39
+  ],
+  [
+   "CODO_LANZA_SUP",
+   "COPLA_18_INT_2_GUARDADA",
+   438.99
+  ],
+  [
+   "TUBO_CUELLO_1",
+   "BOQUILLA_18_INT_2_GUARDADA",
+   385.68
+  ],
+  [
+   "R061_K2M_1_PLACA_SUPERIOR_FIJO",
+   "R061_K2M_1_GATILLO_FIJO",
+   350.0
+  ],
+  [
+   "R061_K2M_2_MENSULA_TRIANGULADA_FIJO",
+   "R061_K2M_2_GATILLO_FIJO",
+   350.0
+  ],
+  [
+   "R061_K2M_3_PLACA_SUPERIOR_FIJO",
+   "R061_K2M_3_GATILLO_FIJO",
+   350.0
+  ],
+  [
+   "R07_STEP_RITTAL_HERRAJE",
+   "R07_STEP_RITTAL_PUERTA_V9",
+   301.38
+  ],
+  [
+   "R07_STEP_RITTAL_HERRAJE_6",
+   "R07_STEP_RITTAL_PUERTA_V9",
+   301.38
+  ],
+  [
+   "R07_STEP_RITTAL_HERRAJE_8",
+   "R07_STEP_RITTAL_PUERTA_V9",
+   301.38
+  ],
+  [
+   "R07_STEP_RITTAL_CUERPO",
+   "R07_STEP_RITTAL_HERRAJE",
+   274.78
+  ],
+  [
+   "R07_STEP_RITTAL_CUERPO",
+   "R07_STEP_RITTAL_HERRAJE_6",
+   274.78
+  ],
+  [
+   "R07_STEP_RITTAL_CUERPO",
+   "R07_STEP_RITTAL_HERRAJE_8",
+   274.78
+  ],
+  [
+   "R061_K2M_1_CARTELA_MORDAZA_2_1_FIJO",
+   "R061_K2M_1_PLACA_INFERIOR_CAJA_FIJO",
+   247.62
+  ],
+  [
+   "R061_K2M_1_CARTELA_MORDAZA_2_2_FIJO",
+   "R061_K2M_1_PLACA_INFERIOR_CAJA_FIJO",
+   247.62
+  ],
+  [
+   "R061_K2M_3_CARTELA_MORDAZA_2_1_FIJO",
+   "R061_K2M_3_PLACA_INFERIOR_CAJA_FIJO",
+   247.62
+  ],
+  [
+   "R061_K2M_3_CARTELA_MORDAZA_2_2_FIJO",
+   "R061_K2M_3_PLACA_INFERIOR_CAJA_FIJO",
+   247.62
+  ],
+  [
+   "PORTABOQUILLA_08_INF_A",
+   "R063 INF_EXT A | 1520 15 deg",
+   229.93
+  ],
+  [
+   "PORTABOQUILLA_16_INF_B",
+   "R063 INF_EXT B | 1520 15 deg",
+   229.93
+  ],
+  [
+   "R061_K2M_1_ALOJAMIENTO_FIJO",
+   "R061_K2M_1_DATUM_AJUSTABLE_FIJO",
+   202.73
+  ],
+  [
+   "R061_K2M_2_ALOJAMIENTO_FIJO",
+   "R061_K2M_2_TOPE_FIN_CARRERA_FIJO",
+   202.73
+  ],
+  [
+   "R061_K2M_3_ALOJAMIENTO_FIJO",
+   "R061_K2M_3_DATUM_AJUSTABLE_FIJO",
+   202.73
+  ],
+  [
+   "CTX_M01_W6X9",
+   "B_COM_ROTULA_INF_EXT_B",
+   195.4
+  ],
+  [
+   "CTX_M02_W6X9",
+   "B_COM_ROTULA_INF_EXT_A",
+   195.4
+  ],
+  [
+   "CODO_LANZA_SUP",
+   "BOQUILLA_18_INT_2_GUARDADA",
+   184.47
+  ],
+  [
+   "TUBO_PIE_B_DN15",
+   "B_COM_NIPLE_INF_EXT_B",
+   127.17
+  ],
+  [
+   "TUBO_PIE_A_DN15",
+   "B_COM_NIPLE_INF_EXT_A",
+   127.16
+  ],
+  [
+   "R07_STEP_RITTAL_CUERPO",
+   "R07_STEP_RITTAL_CIERRE_VARILLA",
+   110.95
+  ],
+  [
+   "R063 B-MEC A | O7+C2",
+   "B_COM_NIPLE_INF_EXT_A",
+   94.9
+  ],
+  [
+   "R063 B-MEC B | O7+C2",
+   "B_COM_NIPLE_INF_EXT_B",
+   94.9
+  ],
+  [
+   "R063 B-MEC A | O7+C2",
+   "B_COM_NIPLE_C2_A",
+   79.43
+  ],
+  [
+   "R063 B-MEC B | O7+C2",
+   "B_COM_NIPLE_C2_B",
+   79.43
+  ],
+  [
+   "R063 B-MEC A | O7+C2",
+   "BOQUILLA_C2_A",
+   48.04
+  ],
+  [
+   "R063 B-MEC A | O7+C2",
+   "B_COM_BOQUILLA_C2_A",
+   48.04
+  ],
+  [
+   "R063 B-MEC B | O7+C2",
+   "BOQUILLA_C2_B",
+   48.04
+  ],
+  [
+   "R063 B-MEC B | O7+C2",
+   "B_COM_BOQUILLA_C2_B",
+   48.04
+  ],
+  [
+   "R07_B_PEDESTAL_BOMBA",
+   "R07_STEP_GRUNDFOS_CRN15_3_HIDRAULICA",
+   36.26
+  ],
+  [
+   "R061_K2M_1_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_1_LEVA_DISPARO_ACTIVO",
+   23.53
+  ],
+  [
+   "R061_K2M_1_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_1_LEVA_DISPARO_RETRAIDO",
+   23.53
+  ],
+  [
+   "R061_K2M_1_LEVA_DISPARO_ACTIVO",
+   "R061_K2M_1_COLLAR_DISPARO_RETRAIDO",
+   23.53
+  ],
+  [
+   "R061_K2M_1_COLLAR_DISPARO_RETRAIDO",
+   "R061_K2M_1_LEVA_DISPARO_RETRAIDO",
+   23.53
+  ],
+  [
+   "R061_K2M_2_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_2_LEVA_DISPARO_ACTIVO",
+   23.53
+  ],
+  [
+   "R061_K2M_2_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_2_LEVA_DISPARO_RETRAIDO",
+   23.53
+  ],
+  [
+   "R061_K2M_2_LEVA_DISPARO_ACTIVO",
+   "R061_K2M_2_COLLAR_DISPARO_RETRAIDO",
+   23.53
+  ],
+  [
+   "R061_K2M_2_COLLAR_DISPARO_RETRAIDO",
+   "R061_K2M_2_LEVA_DISPARO_RETRAIDO",
+   23.53
+  ],
+  [
+   "R061_K2M_3_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_3_LEVA_DISPARO_ACTIVO",
+   23.53
+  ],
+  [
+   "R061_K2M_3_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_3_LEVA_DISPARO_RETRAIDO",
+   23.53
+  ],
+  [
+   "R061_K2M_3_LEVA_DISPARO_ACTIVO",
+   "R061_K2M_3_COLLAR_DISPARO_RETRAIDO",
+   23.53
+  ],
+  [
+   "R061_K2M_3_COLLAR_DISPARO_RETRAIDO",
+   "R061_K2M_3_LEVA_DISPARO_RETRAIDO",
+   23.53
+  ],
+  [
+   "R063 INF_EXT A | 1520 15 deg",
+   "B_COM_ROTULA_INF_EXT_A",
+   21.78
+  ],
+  [
+   "R063 INF_EXT B | 1520 15 deg",
+   "B_COM_ROTULA_INF_EXT_B",
+   21.78
+  ],
+  [
+   "R04_CARTUCHO_POSTES_D76x8",
+   "R07_V9_MENSULA_MOTOR_RANURADA",
+   10.4
+  ],
+  [
+   "CARRO_LANZA",
+   "BOQUILLA_17_INT_1_GUARDADA",
+   6.63
+  ],
+  [
+   "R07_D_COLADOR_Y_SUCCION_2IN",
+   "R07_STEP_GRUNDFOS_CRN15_3_HIDRAULICA",
+   1.06
+  ],
+  [
+   "R07_B_RETENCION_2IN",
+   "R07_STEP_GRUNDFOS_CRN15_3_HIDRAULICA",
+   1.06
+  ]
+ ],
+ "errores_detalle": [],
+ "piso_zmin_mm": -1250.0,
+ "n_piezas_en_piso": 1,
+ "componentes": 42,
+ "tamano_componentes": [
+  612,
+  8,
+  2,
+  2,
+  2,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "aisladas": [
+  "CTX_TABLE_LOCK_PIN",
+  "Fixed double-ear lock receiver LOAD",
+  "R061_K2M_1_VARILLA_SERIE_FIJO",
+  "R061_K2M_1_CARTUCHO_SERIE_FIJO",
+  "R061_K2M_1_RESORTE_SERIE_FIJO",
+  "R061_K2M_1_RESORTE_RETORNO_FIJO",
+  "R061_K2M_2_TIRANTE_1_FIJO",
+  "R061_K2M_2_TIRANTE_2_FIJO",
+  "R061_K2M_2_TIRANTE_3_FIJO",
+  "R061_K2M_2_TIRANTE_4_FIJO",
+  "R061_K2M_2_VARILLA_SERIE_FIJO",
+  "R061_K2M_2_CARTUCHO_SERIE_FIJO",
+  "R061_K2M_2_RESORTE_SERIE_FIJO",
+  "R061_K2M_2_RESORTE_RETORNO_FIJO",
+  "R061_K2M_3_VARILLA_SERIE_FIJO",
+  "R061_K2M_3_CARTUCHO_SERIE_FIJO",
+  "R061_K2M_3_RESORTE_SERIE_FIJO",
+  "R061_K2M_3_RESORTE_RETORNO_FIJO",
+  "R07_E_REPOSICION_1IN",
+  "R07_E_LT_NIVEL",
+  "R07_B_PURGA_PUNTO_BAJO",
+  "R07_F_FLOTADOR_NIVEL",
+  "R07_G_LLENADO_AGUA_3_4",
+  "R07_H_LUMINARIA_IP65_1",
+  "R07_H_LUMINARIA_IP65_2",
+  "R07_STEP_RITTAL_PLACA_PASACABLES",
+  "R07_STEP_SCHNEIDER_ATV320U55N4C",
+  "R07_STEP_WEG_CFW300_A",
+  "R07_STEP_EH_FTL31_LSL_TANQUE1",
+  "R07_STEP_EH_TM131_TE_TANQUE1",
+  "R07_STEP_EH_FTL31_LSL_ENJUAGUE",
+  "R07_STEP_EH_FTL31_LSH_ENJUAGUE",
+  "R07_STEP_WIKA_233_50_PI_IMPULSION",
+  "R07_STEP_SCHNEIDER_VBF4_SECCIONADOR",
+  "R07_STEP_GRUNDFOS_DDA_INHIBIDOR",
+  "R07_V9_MANGUERA_DETERGENTE",
+  "R07_V9_GUARDA_TRANSMISION_CON_PASO"
+ ],
+ "grupos_sin_piso": [
+  [
+   "R07_G_TAPA_ENJUAGUE",
+   "R07_V9_TANQUE_ENJUAGUE",
+   "R07_G_PATA_1",
+   "R07_G_PATA_4",
+   "R07_G_PATA_2",
+   "R07_G_PATA_3",
+   "R07_G_REBOSE_ENJUAGUE_1IN",
+   "R07_G_SALIDA_ENJUAGUE_2IN"
+  ],
+  [
+   "R07_C_BANDEJA_T5_SUBIDA_TECHO",
+   "R07_C_BANDEJA_T6_ACCIONAMIENTO"
+  ],
+  [
+   "R07_G_BIDON_INHIBIDOR_60L",
+   "R07_V9_MANGUERAS_DOSIF_INHIBIDOR"
+  ],
+  [
+   "R07_V3_BIDON_DETERGENTE_200L",
+   "R07_STEP_GRUNDFOS_DDA_DETERGENTE"
+  ]
+ ],
+ "fijaciones": [
+  {
+   "label": "CTX_TABLE_LOCK_PIN",
+   "grupos": "G00_CONTEXTO_MESA_R05",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R04_PASADOR_ESTACIONAMIENTO_ROTOR",
+   "grupos": "G07_APOYOS_ACCIONAMIENTO_FIJOS",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R04_CARTUCHO_PLACA_BASE"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "EMBOLO_PASADOR",
+   "grupos": "A8_MASTIL_CARRO_SEGUROS",
+   "piezas_que_toca": 1,
+   "toca": [
+    "EMBOLO_INDEXADOR"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "EMBOLO_PASADOR_GUARDADA",
+   "grupos": "R06_LANZA_GUARDADA",
+   "piezas_que_toca": 1,
+   "toca": [
+    "EMBOLO_INDEXADOR_GUARDADA"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_PERNO_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_ARANDELA_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_COLLAR_ALMA_1_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_TUERCA_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_PERNO_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_ARANDELA_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_COLLAR_ALMA_1_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_TUERCA_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_PERNO_3_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_ARANDELA_3_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_COLLAR_ALMA_2_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_TUERCA_3_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_PERNO_4_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_ARANDELA_4_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_COLLAR_ALMA_2_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_TUERCA_4_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_ARANDELA_TRANSVERSAL_A_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_COLLAR_ALMA_1_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_ARANDELA_TRANSVERSAL_B_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_COLLAR_ALMA_2_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_PERNO_TRANSVERSAL_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_TUERCA_TRANSVERSAL_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_ARANDELA_TRANSVERSAL_A_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_COLLAR_ALMA_1_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_ARANDELA_TRANSVERSAL_B_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_COLLAR_ALMA_2_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_PERNO_TRANSVERSAL_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_TUERCA_TRANSVERSAL_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_RECEPTOR_PASADOR_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 2,
+   "toca": [
+    "R061_K2M_1_RETEN_SUP_FIJO",
+    "R061_K2M_1_ALOJAMIENTO_FIJO"
+   ],
+   "solapa_con": [
+    [
+     "R061_K2M_1_ALOJAMIENTO_FIJO",
+     513.39
+    ]
+   ]
+  },
+  {
+   "label": "R061_K2M_1_PASADOR_CAUTIVO_RETRAIDO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_1_BRAZO_RETRAIDO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_1_PASADOR_RODILLO_ACTIVO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 3,
+   "toca": [
+    "R061_K2M_1_RODILLO_RETRAIDO",
+    "R061_K2M_1_HORQUILLA_RETRAIDO",
+    "R061_K2M_1_HORQUILLA_ACTIVO"
+   ],
+   "solapa_con": [
+    [
+     "R061_K2M_1_RODILLO_RETRAIDO",
+     819.27
+    ]
+   ]
+  },
+  {
+   "label": "R061_K2M_1_PASADOR_RODILLO_RETRAIDO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 3,
+   "toca": [
+    "R061_K2M_1_HORQUILLA_RETRAIDO",
+    "R061_K2M_1_RODILLO_ACTIVO",
+    "R061_K2M_1_HORQUILLA_ACTIVO"
+   ],
+   "solapa_con": [
+    [
+     "R061_K2M_1_HORQUILLA_ACTIVO",
+     561.86
+    ],
+    [
+     "R061_K2M_1_RODILLO_ACTIVO",
+     1550.24
+    ]
+   ]
+  },
+  {
+   "label": "R061_K2M_2_TUERCA_APRIETE_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 2,
+   "toca": [
+    "R061_K2M_2_SILLA_SUPERIOR_1_FIJO",
+    "R061_K2M_2_APRIETE_ALMA_1_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_2_TUERCA_APRIETE_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 2,
+   "toca": [
+    "R061_K2M_2_SILLA_SUPERIOR_1_FIJO",
+    "R061_K2M_2_APRIETE_ALMA_2_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_2_TUERCA_APRIETE_3_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 2,
+   "toca": [
+    "R061_K2M_2_SILLA_SUPERIOR_2_FIJO",
+    "R061_K2M_2_APRIETE_ALMA_3_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_2_TUERCA_APRIETE_4_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 2,
+   "toca": [
+    "R061_K2M_2_SILLA_SUPERIOR_2_FIJO",
+    "R061_K2M_2_APRIETE_ALMA_4_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_2_RECEPTOR_PASADOR_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 2,
+   "toca": [
+    "R061_K2M_2_ALOJAMIENTO_FIJO",
+    "R061_K2M_2_RETEN_SUP_FIJO"
+   ],
+   "solapa_con": [
+    [
+     "R061_K2M_2_ALOJAMIENTO_FIJO",
+     513.39
+    ]
+   ]
+  },
+  {
+   "label": "R061_K2M_2_PASADOR_CAUTIVO_RETRAIDO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_2_BRAZO_RETRAIDO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_2_PASADOR_RODILLO_ACTIVO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 3,
+   "toca": [
+    "R061_K2M_2_HORQUILLA_RETRAIDO",
+    "R061_K2M_2_HORQUILLA_ACTIVO",
+    "R061_K2M_2_RODILLO_RETRAIDO"
+   ],
+   "solapa_con": [
+    [
+     "R061_K2M_2_RODILLO_RETRAIDO",
+     888.71
+    ]
+   ]
+  },
+  {
+   "label": "R061_K2M_2_PASADOR_RODILLO_RETRAIDO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 3,
+   "toca": [
+    "R061_K2M_2_HORQUILLA_RETRAIDO",
+    "R061_K2M_2_HORQUILLA_ACTIVO",
+    "R061_K2M_2_RODILLO_ACTIVO"
+   ],
+   "solapa_con": [
+    [
+     "R061_K2M_2_HORQUILLA_ACTIVO",
+     553.72
+    ],
+    [
+     "R061_K2M_2_RODILLO_ACTIVO",
+     1599.09
+    ]
+   ]
+  },
+  {
+   "label": "R061_K2M_3_PERNO_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_ARANDELA_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_COLLAR_ALMA_1_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_TUERCA_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_PERNO_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_ARANDELA_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_COLLAR_ALMA_1_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_TUERCA_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_PERNO_3_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_ARANDELA_3_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_COLLAR_ALMA_2_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_TUERCA_3_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_PERNO_4_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_ARANDELA_4_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_COLLAR_ALMA_2_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_TUERCA_4_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_ARANDELA_TRANSVERSAL_A_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_COLLAR_ALMA_1_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_ARANDELA_TRANSVERSAL_B_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_COLLAR_ALMA_2_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_PERNO_TRANSVERSAL_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_TUERCA_TRANSVERSAL_1_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_ARANDELA_TRANSVERSAL_A_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_COLLAR_ALMA_1_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_ARANDELA_TRANSVERSAL_B_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_COLLAR_ALMA_2_FIJO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_PERNO_TRANSVERSAL_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_TUERCA_TRANSVERSAL_2_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 0,
+   "toca": [],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_RECEPTOR_PASADOR_FIJO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 2,
+   "toca": [
+    "R061_K2M_3_RETEN_SUP_FIJO",
+    "R061_K2M_3_ALOJAMIENTO_FIJO"
+   ],
+   "solapa_con": [
+    [
+     "R061_K2M_3_ALOJAMIENTO_FIJO",
+     513.39
+    ]
+   ]
+  },
+  {
+   "label": "R061_K2M_3_PASADOR_CAUTIVO_RETRAIDO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 1,
+   "toca": [
+    "R061_K2M_3_BRAZO_RETRAIDO"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R061_K2M_3_PASADOR_RODILLO_ACTIVO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 3,
+   "toca": [
+    "R061_K2M_3_HORQUILLA_ACTIVO",
+    "R061_K2M_3_HORQUILLA_RETRAIDO",
+    "R061_K2M_3_RODILLO_RETRAIDO"
+   ],
+   "solapa_con": [
+    [
+     "R061_K2M_3_RODILLO_RETRAIDO",
+     819.27
+    ]
+   ]
+  },
+  {
+   "label": "R061_K2M_3_PASADOR_RODILLO_RETRAIDO",
+   "grupos": "G_R061_K2M",
+   "piezas_que_toca": 3,
+   "toca": [
+    "R061_K2M_3_HORQUILLA_ACTIVO",
+    "R061_K2M_3_HORQUILLA_RETRAIDO",
+    "R061_K2M_3_RODILLO_ACTIVO"
+   ],
+   "solapa_con": [
+    [
+     "R061_K2M_3_HORQUILLA_ACTIVO",
+     561.86
+    ],
+    [
+     "R061_K2M_3_RODILLO_ACTIVO",
+     1550.24
+    ]
+   ]
+  },
+  {
+   "label": "R07_V7_TORNILLO_TENSOR_M12",
+   "grupos": "R07_V7_SF47_BANCADA",
+   "piezas_que_toca": 2,
+   "toca": [
+    "R07_V9_BANCADA_TENSORA_SF47",
+    "R07_V7_TACO_TENSOR"
+   ],
+   "solapa_con": []
+  },
+  {
+   "label": "R07_V9_PERNOS_M12_BANCADA",
+   "grupos": "R07_V9_COMERCIALES",
+   "piezas_que_toca": 2,
+   "toca": [
+    "R07_V9_BANCADA_TENSORA_SF47",
+    "R07_V9_MENSULA_MOTOR_RANURADA"
+   ],
+   "solapa_con": []
+  }
+ ],
+ "duplicados": [
+  [
+   "R061_K2M_1_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_1_COLLAR_DISPARO_RETRAIDO"
+  ],
+  [
+   "R061_K2M_2_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_2_COLLAR_DISPARO_RETRAIDO"
+  ],
+  [
+   "R061_K2M_3_COLLAR_DISPARO_ACTIVO",
+   "R061_K2M_3_COLLAR_DISPARO_RETRAIDO"
+  ],
+  [
+   "BOQUILLA_C2_A",
+   "B_COM_BOQUILLA_C2_A"
+  ],
+  [
+   "BOQUILLA_C2_B",
+   "B_COM_BOQUILLA_C2_B"
+  ]
+ ]
+}

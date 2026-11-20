@@ -1,0 +1,562 @@
+{
+ "z_cara_superior_piso_referencia": 0.0,
+ "aisladas": [
+  {
+   "pieza": "CTX_TABLE_LOCK_PIN",
+   "dist_min_mm": 1.0,
+   "mas_cercana": "CTX_TABLE_LOCK_BODY",
+   "caja": [
+    -110.0,
+    110.0,
+    -862.5,
+    -837.5,
+    562.5,
+    587.5
+   ]
+  },
+  {
+   "pieza": "Fixed double-ear lock receiver LOAD",
+   "dist_min_mm": 370.0,
+   "mas_cercana": "R06_DELANTAL_EXTERIOR_RESERVA",
+   "caja": [
+    -110.0,
+    110.0,
+    -4240.0,
+    -4100.0,
+    470.0,
+    640.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_1_VARILLA_SERIE_FIJO",
+   "dist_min_mm": 1.0,
+   "mas_cercana": "R061_K2M_1_LEVA_DISPARO_ACTIVO",
+   "caja": [
+    398.9,
+    420.6,
+    693.9,
+    725.5,
+    741.0,
+    747.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_1_CARTUCHO_SERIE_FIJO",
+   "dist_min_mm": 1.2,
+   "mas_cercana": "R061_K2M_1_RESORTE_SERIE_FIJO",
+   "caja": [
+    397.7,
+    433.3,
+    697.8,
+    741.5,
+    735.0,
+    753.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_1_RESORTE_SERIE_FIJO",
+   "dist_min_mm": 1.0,
+   "mas_cercana": "R061_K2M_1_VARILLA_SERIE_FIJO",
+   "caja": [
+    401.8,
+    425.7,
+    702.1,
+    731.2,
+    737.5,
+    750.5
+   ]
+  },
+  {
+   "pieza": "R061_K2M_1_RESORTE_RETORNO_FIJO",
+   "dist_min_mm": 1.5,
+   "mas_cercana": "R061_K2M_1_EJE_PIVOTE_FIJO",
+   "caja": [
+    373.4,
+    402.6,
+    657.4,
+    686.6,
+    730.0,
+    732.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_2_TIRANTE_1_FIJO",
+   "dist_min_mm": 0.5,
+   "mas_cercana": "R061_K2M_2_SILLA_INFERIOR_INTERIOR_1_FIJO",
+   "caja": [
+    -991.0,
+    -983.0,
+    -72.0,
+    -64.0,
+    643.0,
+    738.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_2_TIRANTE_2_FIJO",
+   "dist_min_mm": 0.5,
+   "mas_cercana": "R061_K2M_2_SILLA_INFERIOR_INTERIOR_1_FIJO",
+   "caja": [
+    -991.0,
+    -983.0,
+    64.0,
+    72.0,
+    643.0,
+    738.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_2_TIRANTE_3_FIJO",
+   "dist_min_mm": 0.5,
+   "mas_cercana": "R061_K2M_2_SILLA_INFERIOR_INTERIOR_2_FIJO",
+   "caja": [
+    -877.0,
+    -869.0,
+    -72.0,
+    -64.0,
+    643.0,
+    738.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_2_TIRANTE_4_FIJO",
+   "dist_min_mm": 0.5,
+   "mas_cercana": "R061_K2M_2_SILLA_INFERIOR_INTERIOR_2_FIJO",
+   "caja": [
+    -877.0,
+    -869.0,
+    64.0,
+    72.0,
+    643.0,
+    738.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_2_VARILLA_SERIE_FIJO",
+   "dist_min_mm": 1.0,
+   "mas_cercana": "R061_K2M_2_RESORTE_SERIE_FIJO",
+   "caja": [
+    -823.8,
+    -790.3,
+    -148.1,
+    -136.5,
+    741.0,
+    747.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_2_CARTUCHO_SERIE_FIJO",
+   "dist_min_mm": 1.2,
+   "mas_cercana": "R061_K2M_2_RESORTE_SERIE_FIJO",
+   "caja": [
+    -839.6,
+    -797.1,
+    -156.6,
+    -132.0,
+    735.0,
+    753.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_2_RESORTE_SERIE_FIJO",
+   "dist_min_mm": 1.0,
+   "mas_cercana": "R061_K2M_2_VARILLA_SERIE_FIJO",
+   "caja": [
+    -829.2,
+    -800.7,
+    -152.3,
+    -135.1,
+    737.5,
+    750.5
+   ]
+  },
+  {
+   "pieza": "R061_K2M_2_RESORTE_RETORNO_FIJO",
+   "dist_min_mm": 1.5,
+   "mas_cercana": "R061_K2M_2_EJE_PIVOTE_FIJO",
+   "caja": [
+    -778.8,
+    -749.6,
+    -149.4,
+    -120.1,
+    730.0,
+    732.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_3_VARILLA_SERIE_FIJO",
+   "dist_min_mm": 1.0,
+   "mas_cercana": "R061_K2M_3_LEVA_DISPARO_ACTIVO",
+   "caja": [
+    398.9,
+    420.6,
+    -725.5,
+    -693.9,
+    741.0,
+    747.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_3_CARTUCHO_SERIE_FIJO",
+   "dist_min_mm": 1.2,
+   "mas_cercana": "R061_K2M_3_RESORTE_SERIE_FIJO",
+   "caja": [
+    397.7,
+    433.3,
+    -741.5,
+    -697.8,
+    735.0,
+    753.0
+   ]
+  },
+  {
+   "pieza": "R061_K2M_3_RESORTE_SERIE_FIJO",
+   "dist_min_mm": 1.0,
+   "mas_cercana": "R061_K2M_3_VARILLA_SERIE_FIJO",
+   "caja": [
+    401.8,
+    425.7,
+    -731.2,
+    -702.1,
+    737.5,
+    750.5
+   ]
+  },
+  {
+   "pieza": "R061_K2M_3_RESORTE_RETORNO_FIJO",
+   "dist_min_mm": 1.5,
+   "mas_cercana": "R061_K2M_3_EJE_PIVOTE_FIJO",
+   "caja": [
+    373.4,
+    402.6,
+    -686.6,
+    -657.4,
+    730.0,
+    732.0
+   ]
+  },
+  {
+   "pieza": "R07_E_REPOSICION_1IN",
+   "dist_min_mm": 3.3,
+   "mas_cercana": "R07_E_TAPA_B",
+   "caja": [
+    60.0,
+    140.0,
+    2320.0,
+    2380.0,
+    700.0,
+    980.0
+   ]
+  },
+  {
+   "pieza": "R07_E_LT_NIVEL",
+   "dist_min_mm": 5.0,
+   "mas_cercana": "R07_E_TAPA_B",
+   "caja": [
+    420.0,
+    480.0,
+    2320.0,
+    2380.0,
+    400.0,
+    910.0
+   ]
+  },
+  {
+   "pieza": "R07_B_PURGA_PUNTO_BAJO",
+   "dist_min_mm": 0.5,
+   "mas_cercana": "R07_B_TUBO_MONTANTE_Y_TECHO",
+   "caja": [
+    1925.1,
+    1965.1,
+    2150.0,
+    2190.0,
+    280.0,
+    369.4
+   ]
+  },
+  {
+   "pieza": "R07_F_FLOTADOR_NIVEL",
+   "dist_min_mm": 90.0,
+   "mas_cercana": "R07_F_POZO_BOMBEO",
+   "caja": [
+    -1710.0,
+    -1650.0,
+    2390.0,
+    2450.0,
+    -650.0,
+    -530.0
+   ]
+  },
+  {
+   "pieza": "R07_G_LLENADO_AGUA_3_4",
+   "dist_min_mm": 2.65,
+   "mas_cercana": "R07_G_TAPA_ENJUAGUE",
+   "caja": [
+    970.0,
+    1030.0,
+    2870.0,
+    3300.0,
+    880.0,
+    1163.3
+   ]
+  },
+  {
+   "pieza": "R07_H_LUMINARIA_IP65_1",
+   "dist_min_mm": 10.0,
+   "mas_cercana": "CTX_CABIN_LEFT",
+   "caja": [
+    -1960.0,
+    -1840.0,
+    -600.0,
+    600.0,
+    2440.0,
+    2520.0
+   ]
+  },
+  {
+   "pieza": "R07_H_LUMINARIA_IP65_2",
+   "dist_min_mm": 10.0,
+   "mas_cercana": "CTX_CABIN_RIGHT",
+   "caja": [
+    1840.0,
+    1960.0,
+    -600.0,
+    600.0,
+    2440.0,
+    2520.0
+   ]
+  },
+  {
+   "pieza": "R07_STEP_RITTAL_PLACA_PASACABLES",
+   "dist_min_mm": 1.46,
+   "mas_cercana": "R07_STEP_RITTAL_CUERPO",
+   "caja": [
+    2162.0,
+    2311.0,
+    -1567.0,
+    -1033.0,
+    500.0,
+    501.5
+   ]
+  },
+  {
+   "pieza": "R07_STEP_SCHNEIDER_ATV320U55N4C",
+   "dist_min_mm": 0.38,
+   "mas_cercana": "R07_STEP_RITTAL_PLACA_MONTAJE",
+   "caja": [
+    2134.3,
+    2312.8,
+    -1505.3,
+    -1354.7,
+    1150.0,
+    1384.4
+   ]
+  },
+  {
+   "pieza": "R07_STEP_WEG_CFW300_A",
+   "dist_min_mm": 1.01,
+   "mas_cercana": "R07_STEP_RITTAL_PLACA_MONTAJE",
+   "caja": [
+    2134.3,
+    2284.2,
+    -1235.2,
+    -1164.8,
+    1150.0,
+    1331.5
+   ]
+  },
+  {
+   "pieza": "R07_STEP_EH_FTL31_LSL_TANQUE1",
+   "dist_min_mm": 0.38,
+   "mas_cercana": "R07_V9_TANQUE_CUERPO",
+   "caja": [
+    525.4,
+    682.9,
+    2680.6,
+    2719.4,
+    390.6,
+    429.4
+   ]
+  },
+  {
+   "pieza": "R07_STEP_EH_TM131_TE_TANQUE1",
+   "dist_min_mm": 0.68,
+   "mas_cercana": "R07_V9_TANQUE_CUERPO",
+   "caja": [
+    461.0,
+    721.5,
+    2847.5,
+    2955.0,
+    376.0,
+    464.0
+   ]
+  },
+  {
+   "pieza": "R07_STEP_EH_FTL31_LSL_ENJUAGUE",
+   "dist_min_mm": 0.38,
+   "mas_cercana": "R07_V9_TANQUE_ENJUAGUE",
+   "caja": [
+    1280.5,
+    1319.5,
+    3075.4,
+    3232.9,
+    280.6,
+    319.4
+   ]
+  },
+  {
+   "pieza": "R07_STEP_EH_FTL31_LSH_ENJUAGUE",
+   "dist_min_mm": 0.38,
+   "mas_cercana": "R07_V9_TANQUE_ENJUAGUE",
+   "caja": [
+    1280.5,
+    1319.5,
+    3075.4,
+    3232.9,
+    780.5,
+    819.5
+   ]
+  },
+  {
+   "pieza": "R07_STEP_WIKA_233_50_PI_IMPULSION",
+   "dist_min_mm": 9.11,
+   "mas_cercana": "R07_B_TUBO_IMPULSION_1",
+   "caja": [
+    1715.2,
+    1765.1,
+    2250.1,
+    2389.8,
+    538.3,
+    661.7
+   ]
+  },
+  {
+   "pieza": "R07_STEP_SCHNEIDER_VBF4_SECCIONADOR",
+   "dist_min_mm": 0.5,
+   "mas_cercana": "R07_STEP_RITTAL_PUERTA_V9",
+   "caja": [
+    2350.0,
+    2461.8,
+    -1091.5,
+    -1028.5,
+    1118.5,
+    1201.5
+   ]
+  },
+  {
+   "pieza": "R07_STEP_GRUNDFOS_DDA_INHIBIDOR",
+   "dist_min_mm": 0.0,
+   "mas_cercana": "R07_D_FILTRO_BOLSA_PENTAIR_ES2",
+   "caja": [
+    1455.0,
+    1575.0,
+    2769.7,
+    3030.3,
+    610.0,
+    811.4
+   ]
+  },
+  {
+   "pieza": "R07_V9_MANGUERA_DETERGENTE",
+   "dist_min_mm": 2.0,
+   "mas_cercana": "R07_V9_AISLAMIENTO_TANQUE1",
+   "caja": [
+    -566.0,
+    -514.0,
+    3217.0,
+    3706.0,
+    754.0,
+    1156.0
+   ]
+  },
+  {
+   "pieza": "R07_V9_GUARDA_TRANSMISION_CON_PASO",
+   "dist_min_mm": 3.0,
+   "mas_cercana": "R07_V9_MENSULA_MOTOR_RANURADA",
+   "caja": [
+    -170.0,
+    800.0,
+    -155.0,
+    155.0,
+    3092.0,
+    3197.0
+   ]
+  }
+ ],
+ "grupos": [
+  {
+   "piezas": [
+    "R07_G_TAPA_ENJUAGUE",
+    "R07_V9_TANQUE_ENJUAGUE",
+    "R07_G_PATA_1",
+    "R07_G_PATA_4",
+    "R07_G_PATA_2",
+    "R07_G_PATA_3",
+    "R07_G_REBOSE_ENJUAGUE_1IN",
+    "R07_G_SALIDA_ENJUAGUE_2IN"
+   ],
+   "dist_min_mm": 0.38,
+   "mas_cercana": "R07_STEP_EH_FTL31_LSL_ENJUAGUE",
+   "caja": [
+    770.9,
+    1450.0,
+    2650.0,
+    3246.7,
+    0.0,
+    953.0
+   ],
+   "apoya_en_piso": true
+  },
+  {
+   "piezas": [
+    "R07_C_BANDEJA_T5_SUBIDA_TECHO",
+    "R07_C_BANDEJA_T6_ACCIONAMIENTO"
+   ],
+   "dist_min_mm": 7.07,
+   "mas_cercana": "R04_SOP_COLUMNAS_SHS150x6",
+   "caja": [
+    1050.0,
+    2310.0,
+    -220.0,
+    -20.0,
+    2360.0,
+    3010.0
+   ],
+   "apoya_en_piso": false
+  },
+  {
+   "piezas": [
+    "R07_G_BIDON_INHIBIDOR_60L",
+    "R07_V9_MANGUERAS_DOSIF_INHIBIDOR"
+   ],
+   "dist_min_mm": 2.0,
+   "mas_cercana": "R07_G_TAPA_ENJUAGUE",
+   "caja": [
+    1294.0,
+    1900.0,
+    2700.0,
+    3080.0,
+    0.0,
+    1006.0
+   ],
+   "apoya_en_piso": true
+  },
+  {
+   "piezas": [
+    "R07_V3_BIDON_DETERGENTE_200L",
+    "R07_STEP_GRUNDFOS_DDA_DETERGENTE"
+   ],
+   "dist_min_mm": 12.47,
+   "mas_cercana": "R07_V9_MANGUERA_DETERGENTE",
+   "caja": [
+    -850.0,
+    -270.0,
+    3410.0,
+    3990.0,
+    0.0,
+    1101.4
+   ],
+   "apoya_en_piso": true
+  }
+ ]
+}

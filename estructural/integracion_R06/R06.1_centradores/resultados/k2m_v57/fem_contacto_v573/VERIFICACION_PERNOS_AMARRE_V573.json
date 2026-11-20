@@ -1,0 +1,330 @@
+{
+  "datos": {
+    "d2": 10.86334175,
+    "d3": 9.85297925,
+    "dS": 10.3581605,
+    "AS_mm2": 84.26653836460693,
+    "kb_N_mm": {
+      "vertical": 448226.26789684535,
+      "transversal": 361658.96293822717
+    },
+    "MA_spec_Nm": 62.400000000000006
+  },
+  "montaje": {
+    "FMzul_mu010_N": 44188.81467359424,
+    "FMzul_mu012_N": 43109.53224492307,
+    "FMmax_N": 37799.3091614713,
+    "FMmin_rango_mu_N": 25229.265753037824,
+    "FMmin_alfaA_N": 23624.56822591956,
+    "FMmin_N": 23624.56822591956,
+    "aprovechamiento_FMmax": 0.8554044601712049,
+    "MA_para_26kN_mu012_Nm": 50.0497032308
+  },
+  "asentamiento": {
+    "vertical": {
+      "fZ_um": 14.0,
+      "FZ_cota_N": 6275.1677505558355
+    },
+    "transversal": {
+      "fZ_um": 14.0,
+      "FZ_cota_N": 5063.22548113518
+    }
+  },
+  "perno": {
+    "FA_transversal_conservador_N": 2875.598086124402,
+    "FSmax_N": 40674.9072475957,
+    "sigma_red_MPa": 501.45859862941364,
+    "Rp02_MPa": 640.0,
+    "aprovechamiento": 0.7835290603584588,
+    "sigma_a_FEM_MPa": 0.4450165003544337
+  },
+  "presion": {
+    "cabeza_sobre_arandela_MPa": 481.5023525787162,
+    "arandela_sobre_pieza_MPa": 131.52736605986976,
+    "cabeza_directa_sobre_pieza_MPa": 549.1528232406507,
+    "corona_FEM_26kN_MPa": 218.25044938762025,
+    "pG_pieza_MPa": 490.0
+  },
+  "deslizamiento": {
+    "modelo": "A, conservador (V6/K6): |F| + Mz/s como demanda de rozamiento en la cara del alma",
+    "demanda_N": 2810.489346757541,
+    "casos": [
+      {
+        "precarga": "par 62,4 N·m (F_M,mín VDI)",
+        "FM_N": 23624.56822591956,
+        "FK_min_N": 15685.744658659976,
+        "mu": 0.1,
+        "superficies": 1,
+        "capacidad_N": 2509.7191453855967,
+        "demanda_N": 2810.489346757541,
+        "margen": 0.8929829776017679
+      },
+      {
+        "precarga": "par 62,4 N·m (F_M,mín VDI)",
+        "FM_N": 23624.56822591956,
+        "FK_min_N": 15685.744658659976,
+        "mu": 0.1,
+        "superficies": 2,
+        "capacidad_N": 5019.438290771193,
+        "demanda_N": 2810.489346757541,
+        "margen": 1.7859659552035358
+      },
+      {
+        "precarga": "par 62,4 N·m (F_M,mín VDI)",
+        "FM_N": 23624.56822591956,
+        "FK_min_N": 15685.744658659976,
+        "mu": 0.15,
+        "superficies": 1,
+        "capacidad_N": 3764.578718078394,
+        "demanda_N": 2810.489346757541,
+        "margen": 1.3394744664026514
+      },
+      {
+        "precarga": "par 62,4 N·m (F_M,mín VDI)",
+        "FM_N": 23624.56822591956,
+        "FK_min_N": 15685.744658659976,
+        "mu": 0.15,
+        "superficies": 2,
+        "capacidad_N": 7529.157436156788,
+        "demanda_N": 2810.489346757541,
+        "margen": 2.678948932805303
+      },
+      {
+        "precarga": "par 62,4 N·m (F_M,mín VDI)",
+        "FM_N": 23624.56822591956,
+        "FK_min_N": 15685.744658659976,
+        "mu": 0.2,
+        "superficies": 1,
+        "capacidad_N": 5019.438290771193,
+        "demanda_N": 2810.489346757541,
+        "margen": 1.7859659552035358
+      },
+      {
+        "precarga": "par 62,4 N·m (F_M,mín VDI)",
+        "FM_N": 23624.56822591956,
+        "FK_min_N": 15685.744658659976,
+        "mu": 0.2,
+        "superficies": 2,
+        "capacidad_N": 10038.876581542387,
+        "demanda_N": 2810.489346757541,
+        "margen": 3.5719319104070717
+      },
+      {
+        "precarga": "par 62,4 N·m (F_M,mín VDI)",
+        "FM_N": 23624.56822591956,
+        "FK_min_N": 15685.744658659976,
+        "mu": 0.3,
+        "superficies": 1,
+        "capacidad_N": 7529.157436156788,
+        "demanda_N": 2810.489346757541,
+        "margen": 2.678948932805303
+      },
+      {
+        "precarga": "par 62,4 N·m (F_M,mín VDI)",
+        "FM_N": 23624.56822591956,
+        "FK_min_N": 15685.744658659976,
+        "mu": 0.3,
+        "superficies": 2,
+        "capacidad_N": 15058.314872313576,
+        "demanda_N": 2810.489346757541,
+        "margen": 5.357897865610606
+      },
+      {
+        "precarga": "hipótesis anterior 15,6 kN",
+        "FM_N": 15600.0,
+        "FK_min_N": 7661.176432740416,
+        "mu": 0.1,
+        "superficies": 1,
+        "capacidad_N": 1225.7882292384668,
+        "demanda_N": 2810.489346757541,
+        "margen": 0.4361476163048465
+      },
+      {
+        "precarga": "hipótesis anterior 15,6 kN",
+        "FM_N": 15600.0,
+        "FK_min_N": 7661.176432740416,
+        "mu": 0.1,
+        "superficies": 2,
+        "capacidad_N": 2451.5764584769336,
+        "demanda_N": 2810.489346757541,
+        "margen": 0.872295232609693
+      },
+      {
+        "precarga": "hipótesis anterior 15,6 kN",
+        "FM_N": 15600.0,
+        "FK_min_N": 7661.176432740416,
+        "mu": 0.15,
+        "superficies": 1,
+        "capacidad_N": 1838.6823438576998,
+        "demanda_N": 2810.489346757541,
+        "margen": 0.6542214244572696
+      },
+      {
+        "precarga": "hipótesis anterior 15,6 kN",
+        "FM_N": 15600.0,
+        "FK_min_N": 7661.176432740416,
+        "mu": 0.15,
+        "superficies": 2,
+        "capacidad_N": 3677.3646877153997,
+        "demanda_N": 2810.489346757541,
+        "margen": 1.3084428489145392
+      },
+      {
+        "precarga": "hipótesis anterior 15,6 kN",
+        "FM_N": 15600.0,
+        "FK_min_N": 7661.176432740416,
+        "mu": 0.2,
+        "superficies": 1,
+        "capacidad_N": 2451.5764584769336,
+        "demanda_N": 2810.489346757541,
+        "margen": 0.872295232609693
+      },
+      {
+        "precarga": "hipótesis anterior 15,6 kN",
+        "FM_N": 15600.0,
+        "FK_min_N": 7661.176432740416,
+        "mu": 0.2,
+        "superficies": 2,
+        "capacidad_N": 4903.152916953867,
+        "demanda_N": 2810.489346757541,
+        "margen": 1.744590465219386
+      },
+      {
+        "precarga": "hipótesis anterior 15,6 kN",
+        "FM_N": 15600.0,
+        "FK_min_N": 7661.176432740416,
+        "mu": 0.3,
+        "superficies": 1,
+        "capacidad_N": 3677.3646877153997,
+        "demanda_N": 2810.489346757541,
+        "margen": 1.3084428489145392
+      },
+      {
+        "precarga": "hipótesis anterior 15,6 kN",
+        "FM_N": 15600.0,
+        "FK_min_N": 7661.176432740416,
+        "mu": 0.3,
+        "superficies": 2,
+        "capacidad_N": 7354.729375430799,
+        "demanda_N": 2810.489346757541,
+        "margen": 2.6168856978290784
+      },
+      {
+        "precarga": "nominal 26 kN",
+        "FM_N": 26000.0,
+        "FK_min_N": 18061.176432740416,
+        "mu": 0.1,
+        "superficies": 1,
+        "capacidad_N": 2889.7882292384666,
+        "demanda_N": 2810.489346757541,
+        "margen": 1.028215329324202
+      },
+      {
+        "precarga": "nominal 26 kN",
+        "FM_N": 26000.0,
+        "FK_min_N": 18061.176432740416,
+        "mu": 0.1,
+        "superficies": 2,
+        "capacidad_N": 5779.576458476933,
+        "demanda_N": 2810.489346757541,
+        "margen": 2.056430658648404
+      },
+      {
+        "precarga": "nominal 26 kN",
+        "FM_N": 26000.0,
+        "FK_min_N": 18061.176432740416,
+        "mu": 0.15,
+        "superficies": 1,
+        "capacidad_N": 4334.682343857699,
+        "demanda_N": 2810.489346757541,
+        "margen": 1.5423229939863028
+      },
+      {
+        "precarga": "nominal 26 kN",
+        "FM_N": 26000.0,
+        "FK_min_N": 18061.176432740416,
+        "mu": 0.15,
+        "superficies": 2,
+        "capacidad_N": 8669.364687715399,
+        "demanda_N": 2810.489346757541,
+        "margen": 3.0846459879726056
+      },
+      {
+        "precarga": "nominal 26 kN",
+        "FM_N": 26000.0,
+        "FK_min_N": 18061.176432740416,
+        "mu": 0.2,
+        "superficies": 1,
+        "capacidad_N": 5779.576458476933,
+        "demanda_N": 2810.489346757541,
+        "margen": 2.056430658648404
+      },
+      {
+        "precarga": "nominal 26 kN",
+        "FM_N": 26000.0,
+        "FK_min_N": 18061.176432740416,
+        "mu": 0.2,
+        "superficies": 2,
+        "capacidad_N": 11559.152916953866,
+        "demanda_N": 2810.489346757541,
+        "margen": 4.112861317296808
+      },
+      {
+        "precarga": "nominal 26 kN",
+        "FM_N": 26000.0,
+        "FK_min_N": 18061.176432740416,
+        "mu": 0.3,
+        "superficies": 1,
+        "capacidad_N": 8669.364687715399,
+        "demanda_N": 2810.489346757541,
+        "margen": 3.0846459879726056
+      },
+      {
+        "precarga": "nominal 26 kN",
+        "FM_N": 26000.0,
+        "FK_min_N": 18061.176432740416,
+        "mu": 0.3,
+        "superficies": 2,
+        "capacidad_N": 17338.729375430798,
+        "demanda_N": 2810.489346757541,
+        "margen": 6.169291975945211
+      }
+    ]
+  },
+  "deslizamiento_componentes": {
+    "Fx_N": 544.0975,
+    "MY_Nmm": 102562.37874999999,
+    "demanda_por_perno_N": 631.4050190993089,
+    "FK_min_N": 15685.744658659976,
+    "margen_por_mu": {
+      "0.1": 1.9874082953645813,
+      "0.15": 2.981112443046871,
+      "0.2": 3.9748165907291626,
+      "0.3": 5.962224886093742
+    }
+  },
+  "consecuencia_desliz": {
+    "juego_diametral_mm": 1.5,
+    "proyeccion_radial_U1_mm": 0.6616183673469387,
+    "margen_D019_NOM_V2_LIBRE_mm": 0.9100000000000001
+  },
+  "labio": {
+    "U1": {
+      "M_serv_Nm": 601.0,
+      "M_decomp_Nm": 832.7712228174587,
+      "cociente": 0.7216868012882064
+    },
+    "U3": {
+      "M_serv_Nm": 574.0,
+      "M_decomp_Nm": 832.7712228174587,
+      "cociente": 0.6892649316795848
+    }
+  },
+  "respaldo": {
+    "Fb_Rd_alma_por_perno_N": 41452.799999999996,
+    "Fv_Rd_por_plano_N": 32358.35073200906,
+    "capacidad_2_pernos_N": 82905.59999999999,
+    "margen": 29.498635209433584,
+    "deslizamiento_max_antes_de_apoyo_mm": 1.5
+  }
+}

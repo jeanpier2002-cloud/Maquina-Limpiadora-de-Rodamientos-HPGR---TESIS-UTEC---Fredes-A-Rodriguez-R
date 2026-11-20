@@ -1,0 +1,1380 @@
+{
+ "fijaciones": [
+  {
+   "fijacion": "CTX_TABLE_LOCK_PIN",
+   "piezas_a_1_5mm": [
+    [
+     "R07_V12_BUJES_D050_D32_D25",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R04_PASADOR_ESTACIONAMIENTO_ROTOR",
+   "piezas_a_1_5mm": [
+    [
+     "R04_CARTUCHO_PLACA_BASE",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "EMBOLO_PASADOR",
+   "piezas_a_1_5mm": [
+    [
+     "EMBOLO_INDEXADOR",
+     0.0
+    ],
+    [
+     "PLACA_BLOQUEO",
+     0.5
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_1_PERNO_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_1_COLLAR_ALMA_1_FIJO",
+     0.75
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_COLLAR_ALMA_1_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_TUERCA_1_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_1_PERNO_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_1_COLLAR_ALMA_1_FIJO",
+     0.75
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_COLLAR_ALMA_1_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_TUERCA_2_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_1_PERNO_3_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+     0.75
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_3_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_TUERCA_3_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_1_PERNO_4_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+     0.75
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_4_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_TUERCA_4_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_TRANSVERSAL_A_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_COLLAR_ALMA_1_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_TRANSVERSAL_B_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_PERNO_TRANSVERSAL_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_COLLAR_ALMA_1_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+     0.75
+    ],
+    [
+     "R07_V16_M06_W6X9",
+     0.75
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R061_K2M_1_TUERCA_TRANSVERSAL_1_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_TRANSVERSAL_A_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_COLLAR_ALMA_1_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_TRANSVERSAL_B_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_PERNO_TRANSVERSAL_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_COLLAR_ALMA_1_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+     0.75
+    ],
+    [
+     "R07_V16_M06_W6X9",
+     0.75
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R061_K2M_1_TUERCA_TRANSVERSAL_2_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_1_RECEPTOR_PASADOR_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_ALOJAMIENTO_FIJO",
+     0.0
+    ],
+    [
+     "R061_K2M_1_RETEN_SUP_FIJO",
+     0.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_1_PASADOR_RODILLO_ACTIVO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_HORQUILLA_ACTIVO",
+     0.0
+    ],
+    [
+     "R061_K2M_1_RODILLO_ACTIVO",
+     0.2
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_2_RECEPTOR_PASADOR_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_2_ALOJAMIENTO_FIJO",
+     0.0
+    ],
+    [
+     "R061_K2M_2_RETEN_SUP_FIJO",
+     0.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_2_PASADOR_RODILLO_ACTIVO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_2_HORQUILLA_ACTIVO",
+     0.0
+    ],
+    [
+     "R061_K2M_2_RODILLO_ACTIVO",
+     0.2
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_3_PERNO_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_3_COLLAR_ALMA_1_FIJO",
+     0.75
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_COLLAR_ALMA_1_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_TUERCA_1_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_3_PERNO_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_3_COLLAR_ALMA_1_FIJO",
+     0.75
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_COLLAR_ALMA_1_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_TUERCA_2_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_3_PERNO_3_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+     0.75
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_3_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_TUERCA_3_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_3_PERNO_4_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+     0.75
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_4_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_TUERCA_4_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_TRANSVERSAL_A_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_COLLAR_ALMA_1_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_TRANSVERSAL_B_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_PERNO_TRANSVERSAL_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_COLLAR_ALMA_1_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+     0.75
+    ],
+    [
+     "R07_V16_M05_W6X9",
+     0.75
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R061_K2M_3_TUERCA_TRANSVERSAL_1_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_TRANSVERSAL_A_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_COLLAR_ALMA_1_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_TRANSVERSAL_B_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_PERNO_TRANSVERSAL_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_COLLAR_ALMA_1_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_3_COLLAR_ALMA_2_FIJO",
+     0.75
+    ],
+    [
+     "R07_V16_M05_W6X9",
+     0.75
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R061_K2M_3_TUERCA_TRANSVERSAL_2_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_3_RECEPTOR_PASADOR_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_ALOJAMIENTO_FIJO",
+     0.0
+    ],
+    [
+     "R061_K2M_3_RETEN_SUP_FIJO",
+     0.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_3_PASADOR_RODILLO_ACTIVO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_HORQUILLA_ACTIVO",
+     0.0
+    ],
+    [
+     "R061_K2M_3_RODILLO_ACTIVO",
+     0.2
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R07_V7_TORNILLO_TENSOR_M12",
+   "piezas_a_1_5mm": [
+    [
+     "R07_V7_TACO_TENSOR",
+     0.0
+    ],
+    [
+     "R07_V9_BANCADA_TENSORA_SF47",
+     0.0
+    ],
+    [
+     "R07_V9_MENSULA_MOTOR_RANURADA",
+     0.5
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V9_PERNOS_M12_BANCADA",
+   "piezas_a_1_5mm": [
+    [
+     "R07_V9_BANCADA_TENSORA_SF47",
+     0.0
+    ],
+    [
+     "R07_V9_MENSULA_MOTOR_RANURADA",
+     0.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R061_K2M_2_PERNO_PASANTE_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_2_COLLAR_ALMA_1_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_2_SILLA_SUPERIOR_1_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_2_COLLAR_ALMA_2_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_2_SILLA_SUPERIOR_2_FIJO",
+     0.75
+    ],
+    [
+     "R07_V16_M01_W6X9",
+     0.75
+    ]
+   ],
+   "n": 5
+  },
+  {
+   "fijacion": "R061_K2M_2_ARANDELA_PASANTE_A_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_2_SILLA_SUPERIOR_1_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_2_ARANDELA_PASANTE_B_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_2_SILLA_SUPERIOR_2_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_2_TUERCA_PASANTE_1_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_2_PERNO_PASANTE_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_2_COLLAR_ALMA_1_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_2_SILLA_SUPERIOR_1_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_2_COLLAR_ALMA_2_FIJO",
+     0.75
+    ],
+    [
+     "R061_K2M_2_SILLA_SUPERIOR_2_FIJO",
+     0.75
+    ],
+    [
+     "R07_V16_M01_W6X9",
+     0.75
+    ]
+   ],
+   "n": 5
+  },
+  {
+   "fijacion": "R061_K2M_2_ARANDELA_PASANTE_A_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_2_SILLA_SUPERIOR_1_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_2_ARANDELA_PASANTE_B_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_2_SILLA_SUPERIOR_2_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_2_TUERCA_PASANTE_2_FIJO",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_CABEZA_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_CABEZA_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_CABEZA_3_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_1_ARANDELA_CABEZA_4_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_CABEZA_1_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_CABEZA_2_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_CABEZA_3_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R061_K2M_3_ARANDELA_CABEZA_4_FIJO",
+   "piezas_a_1_5mm": [
+    [
+     "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "CTX_ARANDELA_EJE_01",
+   "piezas_a_1_5mm": [
+    [
+     "CTX_AXLE_01",
+     0.0
+    ],
+    [
+     "CTX_FORK_01",
+     0.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "CTX_TUERCA_EJE_01",
+   "piezas_a_1_5mm": [
+    [
+     "CTX_AXLE_01",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "CTX_ARANDELA_EJE_02",
+   "piezas_a_1_5mm": [
+    [
+     "CTX_AXLE_02",
+     0.0
+    ],
+    [
+     "CTX_FORK_02",
+     0.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "CTX_TUERCA_EJE_02",
+   "piezas_a_1_5mm": [
+    [
+     "CTX_AXLE_02",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "CTX_ARANDELA_EJE_03",
+   "piezas_a_1_5mm": [
+    [
+     "CTX_AXLE_03",
+     0.0
+    ],
+    [
+     "CTX_FORK_03",
+     0.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "CTX_TUERCA_EJE_03",
+   "piezas_a_1_5mm": [
+    [
+     "CTX_AXLE_03",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "CTX_ARANDELA_EJE_04",
+   "piezas_a_1_5mm": [
+    [
+     "CTX_AXLE_04",
+     0.0
+    ],
+    [
+     "CTX_FORK_04",
+     0.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "CTX_TUERCA_EJE_04",
+   "piezas_a_1_5mm": [
+    [
+     "CTX_AXLE_04",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R07_V15_PERNOS_A",
+   "piezas_a_1_5mm": [
+    [
+     "R07_V15_BRIDA_A_CENTRO",
+     1.0
+    ],
+    [
+     "R07_V15_BRIDA_A_BRAZO",
+     1.0
+    ],
+    [
+     "R07_V15_EMPAQUETADURA_A",
+     1.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V15_ARANDELAS_A",
+   "piezas_a_1_5mm": [
+    [
+     "R07_V15_BRIDA_A_CENTRO",
+     0.0
+    ],
+    [
+     "R07_V15_BRIDA_A_BRAZO",
+     0.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R07_V15_TUERCAS_A",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R07_V15_PERNOS_B",
+   "piezas_a_1_5mm": [
+    [
+     "R07_V15_BRIDA_B_CENTRO",
+     1.0
+    ],
+    [
+     "R07_V15_BRIDA_B_BRAZO",
+     1.0
+    ],
+    [
+     "R07_V15_EMPAQUETADURA_B",
+     1.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V15_ARANDELAS_B",
+   "piezas_a_1_5mm": [
+    [
+     "R07_V15_BRIDA_B_CENTRO",
+     0.0
+    ],
+    [
+     "R07_V15_BRIDA_B_BRAZO",
+     0.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R07_V15_TUERCAS_B",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L01",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L01",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L01",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L02",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L02",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L02",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L03",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L03",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L03",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L04",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L04",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L04",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L05",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L05",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L05",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L06",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L06",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L06",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L07",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L07",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L07",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L08",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L08",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L08",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L09",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L09",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L09",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L10",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L10",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L10",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L11",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L11",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L11",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_L12",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_L12",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_L12",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R01",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R01",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R01",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R02",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R02",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R02",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R03",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R03",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R03",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R04",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R04",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R04",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R05",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R05",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R05",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R06",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R06",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R06",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R07",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R07",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R07",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R08",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R08",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R08",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R09",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R09",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R09",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R10",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R10",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R10",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R11",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R11",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R11",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V17_ANCLAJES_R12",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V17_GROUT_R12",
+     1.0
+    ],
+    [
+     "R07_V17_PEDESTAL_R12",
+     0.0
+    ]
+   ],
+   "n": 3
+  },
+  {
+   "fijacion": "R07_V18B_ANCLAJES_M16_A4_VARILLA",
+   "piezas_a_1_5mm": [
+    [
+     "Floor and foundation reference",
+     0.0
+    ],
+    [
+     "R07_V18B_PLACAS_BASE_250x250x12",
+     1.0
+    ]
+   ],
+   "n": 2
+  },
+  {
+   "fijacion": "R07_V18B_ANCLAJES_M16_ARANDELA",
+   "piezas_a_1_5mm": [
+    [
+     "R07_V18B_PLACAS_BASE_250x250x12",
+     0.0
+    ]
+   ],
+   "n": 1
+  },
+  {
+   "fijacion": "R07_V18B_ANCLAJES_M16_TUERCA",
+   "piezas_a_1_5mm": [],
+   "n": 0
+  }
+ ],
+ "barrido_mesa_contra_aspersion_inferior": [],
+ "piezas_fijas_revisadas": [
+  "TUBO_PIE_A_DN15",
+  "R063 INF_EXT A | 1520 15 deg",
+  "TUBO_PIE_B_DN15",
+  "R063 INF_EXT B | 1520 15 deg",
+  "R063 B-MEC A | O7+C2",
+  "R063 B-MEC B | O7+C2"
+ ]
+}

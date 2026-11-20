@@ -1,0 +1,168 @@
+{
+ "nota": "HIPOTESIS de diseno; delta_total = global Vlasov + local FEM pegado v5.7.1",
+ "J_cajon_mm4": 2564689.811426386,
+ "resultados": {
+  "base": {
+   "U1_LIBRE": {
+    "delta_total_mm": 1.6371,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_LIBRE": {
+    "delta_total_mm": 1.313,
+    "caso": "ENV208_MMM_RIG"
+   },
+   "U1_IMPEDIDO": {
+    "delta_total_mm": 1.2319,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_IMPEDIDO": {
+    "delta_total_mm": 0.9512,
+    "caso": "ENV208_MMM_RIG"
+   }
+  },
+  "travesano_W6X9_X388": {
+   "U1_LIBRE": {
+    "delta_total_mm": 0.7427,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_LIBRE": {
+    "delta_total_mm": 0.4991,
+    "caso": "ENV208_MMM_RIG"
+   },
+   "U1_IMPEDIDO": {
+    "delta_total_mm": 0.7355,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_IMPEDIDO": {
+    "delta_total_mm": 0.4916,
+    "caso": "ENV208_MMM_RIG"
+   }
+  },
+  "travesano_W6X9_X300": {
+   "U1_LIBRE": {
+    "delta_total_mm": 0.7329,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_LIBRE": {
+    "delta_total_mm": 0.5088,
+    "caso": "ENV208_MMM_RIG"
+   },
+   "U1_IMPEDIDO": {
+    "delta_total_mm": 0.7067,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_IMPEDIDO": {
+    "delta_total_mm": 0.4845,
+    "caso": "ENV208_MMM_RIG"
+   }
+  },
+  "travesano_W6X9_X250": {
+   "U1_LIBRE": {
+    "delta_total_mm": 0.7522,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_LIBRE": {
+    "delta_total_mm": 0.5367,
+    "caso": "ENV208_MMM_RIG"
+   },
+   "U1_IMPEDIDO": {
+    "delta_total_mm": 0.7027,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_IMPEDIDO": {
+    "delta_total_mm": 0.4919,
+    "caso": "ENV208_MMM_RIG"
+   }
+  },
+  "travesano_W6X9_X200": {
+   "U1_LIBRE": {
+    "delta_total_mm": 0.7788,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_LIBRE": {
+    "delta_total_mm": 0.5713,
+    "caso": "ENV208_MMM_RIG"
+   },
+   "U1_IMPEDIDO": {
+    "delta_total_mm": 0.7064,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_IMPEDIDO": {
+    "delta_total_mm": 0.5061,
+    "caso": "ENV208_MMM_RIG"
+   }
+  },
+  "travesano_W6X9_X150": {
+   "U1_LIBRE": {
+    "delta_total_mm": 0.8087,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_LIBRE": {
+    "delta_total_mm": 0.6087,
+    "caso": "ENV208_MMM_RIG"
+   },
+   "U1_IMPEDIDO": {
+    "delta_total_mm": 0.7151,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_IMPEDIDO": {
+    "delta_total_mm": 0.5246,
+    "caso": "ENV208_MMM_RIG"
+   }
+  },
+  "travesano_W6X9_X520": {
+   "U1_LIBRE": {
+    "delta_total_mm": 0.9663,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_LIBRE": {
+    "delta_total_mm": 0.7105,
+    "caso": "ENV208_MMM_RIG"
+   },
+   "U1_IMPEDIDO": {
+    "delta_total_mm": 0.8276,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_IMPEDIDO": {
+    "delta_total_mm": 0.5843,
+    "caso": "ENV208_MMM_RIG"
+   }
+  },
+  "cajon_interior_X480-663": {
+   "U1_LIBRE": {
+    "delta_total_mm": 1.0703,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_LIBRE": {
+    "delta_total_mm": 0.81,
+    "caso": "ENV208_MMM_RIG"
+   },
+   "U1_IMPEDIDO": {
+    "delta_total_mm": 1.0197,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_IMPEDIDO": {
+    "delta_total_mm": 0.7636,
+    "caso": "ENV208_MMM_RIG"
+   }
+  },
+  "cajon_interior_X520-663": {
+   "U1_LIBRE": {
+    "delta_total_mm": 1.1419,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_LIBRE": {
+    "delta_total_mm": 0.8733,
+    "caso": "ENV208_MMM_RIG"
+   },
+   "U1_IMPEDIDO": {
+    "delta_total_mm": 1.0739,
+    "caso": "ENV208_PPP_RIG"
+   },
+   "U3_IMPEDIDO": {
+    "delta_total_mm": 0.8115,
+    "caso": "ENV208_MMM_RIG"
+   }
+  }
+ }
+}

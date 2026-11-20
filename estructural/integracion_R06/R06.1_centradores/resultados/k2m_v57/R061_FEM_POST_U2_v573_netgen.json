@@ -1,0 +1,176 @@
+{
+ "unidad": 2,
+ "PIV": 776.0,
+ "direccion_radial_contacto": [
+  -0.9701460551908042,
+  -0.24252140441148912
+ ],
+ "ventana_local_mm": 250.0,
+ "clasificacion": "seccion real W6x9 (rev. K1)",
+ "casos": [
+  {
+   "caso": "malla_1\\F2080_s+1\\F2080_s+1.frd",
+   "nodos": 362379,
+   "u_radial_alojamiento_medio_mm": 0.9493263093800903,
+   "u_radial_base_mm": 0.5136490765407564,
+   "u_radial_cabeza_mm": 1.3724548888006438,
+   "giro_alojamiento_mrad": 7.772799915152372,
+   "z_base_mm": 817.5735524126457,
+   "z_cabeza_mm": 928.0621564722617,
+   "u_radial_Z955_mm": 1.5818373566874362,
+   "u_total_alojamiento_max_mm": 1.510801840898071,
+   "W_p99_MPa": 35.6616185518979,
+   "W_p999_MPa": 52.661711602784116,
+   "W_max_MPa": 98.1301117209361,
+   "W_nodos_mayor_150MPa": 0,
+   "W_caja_mayor_150MPa_mm": null,
+   "W_local_p99_MPa": 36.720115359452514,
+   "W_local_p999_MPa": 54.063834986519616,
+   "W_local_max_MPa": 98.1301117209361,
+   "soporte_p99_MPa": 47.77105263548837,
+   "soporte_p999_MPa": 113.62594789505366,
+   "soporte_max_MPa": 240.35561666503656,
+   "soporte_nodos_mayor_150MPa": 18,
+   "soporte_caja_mayor_150MPa_mm": [
+    [
+     -801.993,
+     -783.543
+    ],
+    [
+     -119.978,
+     -105.007
+    ],
+    [
+     755.0,
+     770.0
+    ]
+   ],
+   "soporte_nodos": 196296,
+   "W_nodos": 166083,
+   "W_local_nodos": 95012
+  },
+  {
+   "caso": "malla_1\\F2080_s-1\\F2080_s-1.frd",
+   "nodos": 362379,
+   "u_radial_alojamiento_medio_mm": 0.985883749455302,
+   "u_radial_base_mm": 0.5257739464380224,
+   "u_radial_cabeza_mm": 1.4322139324128884,
+   "giro_alojamiento_mrad": 8.203922872315236,
+   "z_base_mm": 817.5735524126457,
+   "z_cabeza_mm": 928.0621564722617,
+   "u_radial_Z955_mm": 1.6532099230609498,
+   "u_total_alojamiento_max_mm": 1.6969726348441685,
+   "W_p99_MPa": 35.37106700115292,
+   "W_p999_MPa": 51.71791018480356,
+   "W_max_MPa": 94.0092663208803,
+   "W_nodos_mayor_150MPa": 0,
+   "W_caja_mayor_150MPa_mm": null,
+   "W_local_p99_MPa": 35.3726412380384,
+   "W_local_p999_MPa": 52.59205114149577,
+   "W_local_max_MPa": 94.0092663208803,
+   "soporte_p99_MPa": 49.266997547047325,
+   "soporte_p999_MPa": 113.8599507252036,
+   "soporte_max_MPa": 266.8956922489945,
+   "soporte_nodos_mayor_150MPa": 17,
+   "soporte_caja_mayor_150MPa_mm": [
+    [
+     -865.698,
+     -783.543
+    ],
+    [
+     -119.978,
+     -63.6978
+    ],
+    [
+     767.429,
+     770.0
+    ]
+   ],
+   "soporte_nodos": 196296,
+   "W_nodos": 166083,
+   "W_local_nodos": 95012
+  },
+  {
+   "caso": "malla_2\\F2080_s+1\\F2080_s+1.frd",
+   "nodos": 739436,
+   "u_radial_alojamiento_medio_mm": 0.9544566068046432,
+   "u_radial_base_mm": 0.5152838257127051,
+   "u_radial_cabeza_mm": 1.3764305467779845,
+   "giro_alojamiento_mrad": 7.782379371493969,
+   "z_base_mm": 817.6196820208023,
+   "z_cabeza_mm": 928.2730799031477,
+   "u_radial_Z955_mm": 1.5844295784032951,
+   "u_total_alojamiento_max_mm": 1.5132780948774749,
+   "W_p99_MPa": 34.60855188791725,
+   "W_p999_MPa": 51.07779772672615,
+   "W_max_MPa": 108.93072252439161,
+   "W_nodos_mayor_150MPa": 0,
+   "W_caja_mayor_150MPa_mm": null,
+   "W_local_p99_MPa": 35.418917449361984,
+   "W_local_p999_MPa": 52.93569346853847,
+   "W_local_max_MPa": 108.93072252439161,
+   "soporte_p99_MPa": 46.965874071401636,
+   "soporte_p999_MPa": 107.52050194996711,
+   "soporte_max_MPa": 237.10336583863148,
+   "soporte_nodos_mayor_150MPa": 42,
+   "soporte_caja_mayor_150MPa_mm": [
+    [
+     -866.544,
+     -778.024
+    ],
+    [
+     -120.566,
+     -64.324
+    ],
+    [
+     755.0,
+     770.0
+    ]
+   ],
+   "soporte_nodos": 394691,
+   "W_nodos": 344745,
+   "W_local_nodos": 201564
+  },
+  {
+   "caso": "malla_2\\F2080_s-1\\F2080_s-1.frd",
+   "nodos": 739436,
+   "u_radial_alojamiento_medio_mm": 0.9911441229192534,
+   "u_radial_base_mm": 0.5274068960334906,
+   "u_radial_cabeza_mm": 1.4361622813353232,
+   "giro_alojamiento_mrad": 8.212629731154628,
+   "z_base_mm": 817.6196820208023,
+   "z_cabeza_mm": 928.2730799031477,
+   "u_radial_Z955_mm": 1.6556605799449262,
+   "u_total_alojamiento_max_mm": 1.69960381832986,
+   "W_p99_MPa": 34.49199851170283,
+   "W_p999_MPa": 50.52840876956847,
+   "W_max_MPa": 104.36008083441244,
+   "W_nodos_mayor_150MPa": 0,
+   "W_caja_mayor_150MPa_mm": null,
+   "W_local_p99_MPa": 34.19718787628616,
+   "W_local_p999_MPa": 51.204546896268475,
+   "W_local_max_MPa": 104.36008083441244,
+   "soporte_p99_MPa": 48.0390791800722,
+   "soporte_p999_MPa": 109.83545404467858,
+   "soporte_max_MPa": 268.71709534454635,
+   "soporte_nodos_mayor_150MPa": 48,
+   "soporte_caja_mayor_150MPa_mm": [
+    [
+     -868.0,
+     -782.512
+    ],
+    [
+     -121.657,
+     -62.6134
+    ],
+    [
+     756.25,
+     770.0
+    ]
+   ],
+   "soporte_nodos": 394691,
+   "W_nodos": 344745,
+   "W_local_nodos": 201564
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+BASE: 15 cuerpos; tubo central 2.330 kg; refuerzo 0.000 kg; solapes []
+S40: 15 cuerpos; tubo central 3.207 kg; refuerzo 0.000 kg; solapes []
+S80: 15 cuerpos; tubo central 4.392 kg; refuerzo 0.000 kg; solapes []
+CART: 18 cuerpos; tubo central 2.330 kg; refuerzo 0.155 kg; solapes []
+LENG: 18 cuerpos; tubo central 2.330 kg; refuerzo 0.244 kg; solapes []

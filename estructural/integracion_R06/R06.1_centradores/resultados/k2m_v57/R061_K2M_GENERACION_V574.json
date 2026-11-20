@@ -1,0 +1,2592 @@
+{
+  "revision": "R061_K2M_V574_CANDIDATO_NO_VALIDADO",
+  "estado": "CANDIDATO_SELECCIONADO_PARA_MODELADO_NO_VALIDADO",
+  "piezas": {
+    "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "CONTRAPLACA_INFERIOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 404661.4896522757,
+      "masa_kg": 3.176592693770364,
+      "cg_mm": [
+        388.00000000000006,
+        574.1750000000001,
+        650.0700000000002
+      ]
+    },
+    "R061_K2M_1_COLLAR_ALMA_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "COLLAR_ALMA_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 579171.1685441484,
+      "masa_kg": 4.546493673071565,
+      "cg_mm": [
+        388.00000000000017,
+        550.1046073924928,
+        705.4524453633538
+      ]
+    },
+    "R061_K2M_1_TALON_INTERIOR_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "TALON_INTERIOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 10048.240000000022,
+      "masa_kg": 0.07887868400000016,
+      "cg_mm": [
+        388.00000000000017,
+        490.175,
+        657.8705000000001
+      ]
+    },
+    "R061_K2M_1_CARTELA_MORDAZA_1_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "CARTELA_MORDAZA_1_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4368.0,
+      "masa_kg": 0.034288799999999994,
+      "cg_mm": [
+        330.0000000000001,
+        549.5083333333333,
+        687.0
+      ]
+    },
+    "R061_K2M_1_CARTELA_MORDAZA_1_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "CARTELA_MORDAZA_1_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4368.0,
+      "masa_kg": 0.034288799999999994,
+      "cg_mm": [
+        446.0000000000001,
+        549.5083333333333,
+        687.0
+      ]
+    },
+    "R061_K2M_1_COLLAR_ALMA_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "COLLAR_ALMA_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 579171.1685441484,
+      "masa_kg": 4.546493673071565,
+      "cg_mm": [
+        388.0000000000002,
+        598.2453926075075,
+        705.4524453633538
+      ]
+    },
+    "R061_K2M_1_TALON_EXTERIOR_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "TALON_EXTERIOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 10048.240000000023,
+      "masa_kg": 0.07887868400000017,
+      "cg_mm": [
+        388.0000000000001,
+        658.1750000000001,
+        657.8704999999999
+      ]
+    },
+    "R061_K2M_1_CARTELA_MORDAZA_2_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "CARTELA_MORDAZA_2_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4368.0,
+      "masa_kg": 0.034288799999999994,
+      "cg_mm": [
+        330.00000000000006,
+        598.8416666666667,
+        686.9999999999999
+      ]
+    },
+    "R061_K2M_1_CARTELA_MORDAZA_2_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "CARTELA_MORDAZA_2_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4368.0,
+      "masa_kg": 0.034288799999999994,
+      "cg_mm": [
+        446.0000000000001,
+        598.8416666666667,
+        686.9999999999999
+      ]
+    },
+    "R061_K2M_1_PERNO_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "PERNO_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6672.742796224722,
+      "masa_kg": 0.05238103095036407,
+      "cg_mm": [
+        338.0000000000001,
+        514.175,
+        658.0254237288136
+      ]
+    },
+    "R061_K2M_1_ARANDELA_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 659.3417581721576,
+      "masa_kg": 0.005175832801651437,
+      "cg_mm": [
+        338.0000000000002,
+        514.175,
+        674.0000000000001
+      ]
+    },
+    "R061_K2M_1_TUERCA_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "TUERCA_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1758.1235014438303,
+      "masa_kg": 0.013801269486334066,
+      "cg_mm": [
+        338.0000000000003,
+        514.1749999999998,
+        680.5
+      ]
+    },
+    "R061_K2M_1_PERNO_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "PERNO_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6672.742796224722,
+      "masa_kg": 0.05238103095036407,
+      "cg_mm": [
+        438.0000000000001,
+        514.175,
+        658.0254237288136
+      ]
+    },
+    "R061_K2M_1_ARANDELA_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 659.3417581721576,
+      "masa_kg": 0.005175832801651437,
+      "cg_mm": [
+        438.00000000000017,
+        514.175,
+        674.0000000000001
+      ]
+    },
+    "R061_K2M_1_TUERCA_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "TUERCA_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1758.1235014438298,
+      "masa_kg": 0.013801269486334063,
+      "cg_mm": [
+        438.00000000000017,
+        514.175,
+        680.5000000000001
+      ]
+    },
+    "R061_K2M_1_PERNO_3_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "PERNO_3",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6672.742796224724,
+      "masa_kg": 0.05238103095036408,
+      "cg_mm": [
+        338.0000000000001,
+        634.1750000000001,
+        658.0254237288137
+      ]
+    },
+    "R061_K2M_1_ARANDELA_3_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_3",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 659.341758172158,
+      "masa_kg": 0.0051758328016514405,
+      "cg_mm": [
+        338.0000000000001,
+        634.1750000000001,
+        674.0000000000001
+      ]
+    },
+    "R061_K2M_1_TUERCA_3_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "TUERCA_3",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1758.1235014438294,
+      "masa_kg": 0.01380126948633406,
+      "cg_mm": [
+        338.0000000000002,
+        634.1749999999996,
+        680.5
+      ]
+    },
+    "R061_K2M_1_PERNO_4_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "PERNO_4",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6672.742796224724,
+      "masa_kg": 0.05238103095036408,
+      "cg_mm": [
+        438.0000000000001,
+        634.1750000000001,
+        658.0254237288137
+      ]
+    },
+    "R061_K2M_1_ARANDELA_4_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_4",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 659.341758172158,
+      "masa_kg": 0.0051758328016514405,
+      "cg_mm": [
+        438.00000000000006,
+        634.1750000000001,
+        674.0000000000001
+      ]
+    },
+    "R061_K2M_1_TUERCA_4_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "TUERCA_4",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1758.123501443829,
+      "masa_kg": 0.013801269486334056,
+      "cg_mm": [
+        438.0000000000001,
+        634.1749999999998,
+        680.5
+      ]
+    },
+    "R061_K2M_1_ARANDELA_TRANSVERSAL_A_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_TRANSVERSAL_A_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 799.1426312569034,
+      "masa_kg": 0.006273269655366691,
+      "cg_mm": [
+        298.0000000000001,
+        556.925,
+        766.5
+      ]
+    },
+    "R061_K2M_1_ARANDELA_TRANSVERSAL_B_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_TRANSVERSAL_B_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 799.1426312569034,
+      "masa_kg": 0.006273269655366691,
+      "cg_mm": [
+        298.0000000000001,
+        591.425,
+        766.5
+      ]
+    },
+    "R061_K2M_1_PERNO_TRANSVERSAL_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "PERNO_TRANSVERSAL_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 8324.795185303969,
+      "masa_kg": 0.06534964220463615,
+      "cg_mm": [
+        298.00000000000017,
+        575.2752495994165,
+        766.5
+      ]
+    },
+    "R061_K2M_1_TUERCA_TRANSVERSAL_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "TUERCA_TRANSVERSAL_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1726.1576195993903,
+      "masa_kg": 0.013550337313855212,
+      "cg_mm": [
+        298.00000000000006,
+        598.0749999999999,
+        766.4999999999997
+      ]
+    },
+    "R061_K2M_1_ARANDELA_TRANSVERSAL_A_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_TRANSVERSAL_A_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 799.1426312569034,
+      "masa_kg": 0.006273269655366691,
+      "cg_mm": [
+        478.00000000000017,
+        556.925,
+        766.5
+      ]
+    },
+    "R061_K2M_1_ARANDELA_TRANSVERSAL_B_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_TRANSVERSAL_B_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 799.1426312569034,
+      "masa_kg": 0.006273269655366691,
+      "cg_mm": [
+        478.00000000000017,
+        591.425,
+        766.5
+      ]
+    },
+    "R061_K2M_1_PERNO_TRANSVERSAL_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "PERNO_TRANSVERSAL_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 8324.79518530397,
+      "masa_kg": 0.06534964220463617,
+      "cg_mm": [
+        478.00000000000006,
+        575.2752495994164,
+        766.4999999999997
+      ]
+    },
+    "R061_K2M_1_TUERCA_TRANSVERSAL_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "TUERCA_TRANSVERSAL_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1726.1576195993903,
+      "masa_kg": 0.013550337313855212,
+      "cg_mm": [
+        478.00000000000017,
+        598.0749999999999,
+        766.4999999999997
+      ]
+    },
+    "R061_K2M_1_PLACA_SUPERIOR_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "PLACA_SUPERIOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 232229.42466428253,
+      "masa_kg": 1.8230009836146177,
+      "cg_mm": [
+        388.0000000000002,
+        647.1829684434492,
+        763.1688415328267
+      ]
+    },
+    "R061_K2M_1_PLACA_INFERIOR_CAJA_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "PLACA_INFERIOR_CAJA",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 185791.07000508663,
+      "masa_kg": 1.4584598995399298,
+      "cg_mm": [
+        388.00000000000006,
+        646.1053566683621,
+        709.9999999999999
+      ]
+    },
+    "R061_K2M_1_PARED_LATERAL_1_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "PARED_LATERAL_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 80509.46366887087,
+      "masa_kg": 0.6319992898006362,
+      "cg_mm": [
+        318.0000000000001,
+        646.1053566683622,
+        737.5
+      ]
+    },
+    "R061_K2M_1_PARED_LATERAL_2_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "PARED_LATERAL_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 80509.46366887087,
+      "masa_kg": 0.6319992898006362,
+      "cg_mm": [
+        458.0000000000001,
+        646.1053566683622,
+        737.5
+      ]
+    },
+    "R061_K2M_1_CIERRE_FRONTAL_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "CIERRE_FRONTAL",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 27600.0,
+      "masa_kg": 0.21666,
+      "cg_mm": [
+        388.0000000000001,
+        704.0357133367241,
+        716.5
+      ]
+    },
+    "R061_K2M_1_ACUERDO_RAIZ_SUPERIOR_R6_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_RAIZ_SUPERIOR_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 957.9825985937864,
+      "masa_kg": 0.007520163398961222,
+      "cg_mm": [
+        388.0000000000001,
+        591.5152076336744,
+        771.3402076336745
+      ]
+    },
+    "R061_K2M_1_ACUERDO_RAIZ_INFERIOR_R6_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_RAIZ_INFERIOR_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 957.9825985937864,
+      "masa_kg": 0.007520163398961222,
+      "cg_mm": [
+        388.00000000000006,
+        591.5152076336745,
+        756.6597923663255
+      ]
+    },
+    "R061_K2M_1_ACUERDO_TAPA_LATERAL_1_R6_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_TAPA_LATERAL_1_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 802.393193984838,
+      "masa_kg": 0.006298786572780978,
+      "cg_mm": [
+        324.3402076336746,
+        648.1053566683623,
+        756.6597923663255
+      ]
+    },
+    "R061_K2M_1_ACUERDO_FONDO_LATERAL_1_R6_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_FONDO_LATERAL_1_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 802.3931939848377,
+      "masa_kg": 0.006298786572780975,
+      "cg_mm": [
+        324.3402076336746,
+        648.1053566683623,
+        716.3402076336746
+      ]
+    },
+    "R061_K2M_1_ACUERDO_TAPA_LATERAL_2_R6_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_TAPA_LATERAL_2_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 802.3931939848378,
+      "masa_kg": 0.006298786572780976,
+      "cg_mm": [
+        451.6597923663257,
+        648.1053566683621,
+        756.6597923663255
+      ]
+    },
+    "R061_K2M_1_ACUERDO_FONDO_LATERAL_2_R6_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_FONDO_LATERAL_2_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 802.3931939848383,
+      "masa_kg": 0.0062987865727809796,
+      "cg_mm": [
+        451.65979236632563,
+        648.1053566683621,
+        716.3402076336747
+      ]
+    },
+    "R061_K2M_1_MONTANTE_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "MONTANTE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 83126.54161398589,
+      "masa_kg": 0.6525433516697892,
+      "cg_mm": [
+        388.00000000000006,
+        672.0357133367244,
+        787.5000000000001
+      ]
+    },
+    "R061_K2M_1_BASE_ALOJAMIENTO_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "BASE_ALOJAMIENTO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 14046.89220192311,
+      "masa_kg": 0.11026810378509641,
+      "cg_mm": [
+        384.0113597232326,
+        665.1271857242476,
+        808.0
+      ]
+    },
+    "R061_K2M_1_ALOJAMIENTO_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "ALOJAMIENTO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 98922.46947623542,
+      "masa_kg": 0.776541385388448,
+      "cg_mm": [
+        388.0000000000001,
+        672.0357133367244,
+        872.4999999999999
+      ]
+    },
+    "R061_K2M_1_CASQUILLO_INF_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "CASQUILLO_INF",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 2638.309510484706,
+      "masa_kg": 0.02071072965730494,
+      "cg_mm": [
+        388.0000000000001,
+        672.0357133367243,
+        827.0
+      ]
+    },
+    "R061_K2M_1_CASQUILLO_SUP_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "CASQUILLO_SUP",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 2638.309510484706,
+      "masa_kg": 0.02071072965730494,
+      "cg_mm": [
+        388.0000000000001,
+        672.0357133367243,
+        919.9999999999999
+      ]
+    },
+    "R061_K2M_1_RETEN_INF_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "RETEN_INF",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 502.15216974979364,
+      "masa_kg": 0.000477044561262304,
+      "cg_mm": [
+        388.0000000000001,
+        672.0357133367245,
+        812.9999999999997
+      ]
+    },
+    "R061_K2M_1_RETEN_SUP_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "RETEN_SUP",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 1520.0281895128874,
+      "masa_kg": 0.001444026780037243,
+      "cg_mm": [
+        387.99999999999994,
+        672.0357133367241,
+        935.9999999999998
+      ]
+    },
+    "R061_K2M_1_EJE_PIVOTE_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "EJE_PIVOTE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 68800.87911361648,
+      "masa_kg": 0.5400869010418893,
+      "cg_mm": [
+        388.00000000000017,
+        672.0357133367245,
+        837.5000000000001
+      ]
+    },
+    "R061_K2M_1_VARILLA_SERIE_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "VARILLA_SERIE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 933.0530181161678,
+      "masa_kg": 0.0073244661922119165,
+      "cg_mm": [
+        409.7500000000001,
+        709.7078184013474,
+        744.0
+      ]
+    },
+    "R061_K2M_1_CARTUCHO_SERIE_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "CARTUCHO_SERIE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 3664.353671147125,
+      "masa_kg": 0.02876517631850493,
+      "cg_mm": [
+        415.50000000000006,
+        719.6671105448684,
+        744.0
+      ]
+    },
+    "R061_K2M_1_RESORTE_SERIE_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "RESORTE_SERIE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 592.1762640653614,
+      "masa_kg": 0.004648583672913086,
+      "cg_mm": [
+        413.7500000000001,
+        716.6360216316231,
+        744.0
+      ]
+    },
+    "R061_K2M_1_SOPORTE_LIMITADOR_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "SOPORTE_LIMITADOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 11996.644950728078,
+      "masa_kg": 0.09417366286321541,
+      "cg_mm": [
+        417.5645595233114,
+        706.4809967703738,
+        757.4999999999999
+      ]
+    },
+    "R061_K2M_1_SOPORTE_LIMITADOR_COLGANTE_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "SOPORTE_LIMITADOR_COLGANTE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 8447.999999999989,
+      "masa_kg": 0.06631679999999991,
+      "cg_mm": [
+        398.875644347018,
+        718.8728819108087,
+        753.5000000000001
+      ]
+    },
+    "R061_K2M_1_GATILLO_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "GATILLO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1050.0000000000005,
+      "masa_kg": 0.008242500000000003,
+      "cg_mm": [
+        391.13878406783226,
+        694.4722468161974,
+        747.4999999999999
+      ]
+    },
+    "R061_K2M_1_RESORTE_RETORNO_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "RESORTE_RETORNO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 246.74011002723557,
+      "masa_kg": 0.0019369098637137992,
+      "cg_mm": [
+        388.0000000000001,
+        672.0357133367244,
+        731.0
+      ]
+    },
+    "R061_K2M_1_RECEPTOR_PASADOR_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "RECEPTOR_PASADOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1662.474356792009,
+      "masa_kg": 0.01305042370081727,
+      "cg_mm": [
+        404.54275598532485,
+        655.653026864885,
+        930.0000000000002
+      ]
+    },
+    "R061_K2M_1_PASADOR_CAUTIVO_RETRAIDO": {
+      "centrador": 1,
+      "estado": "RETRAIDO",
+      "pieza": "PASADOR_CAUTIVO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 961.3273519984753,
+      "masa_kg": 0.00754641971318803,
+      "cg_mm": [
+        405.7634009319201,
+        654.4441930120945,
+        942.9999999999998
+      ]
+    },
+    "R061_K2M_1_DATUM_AJUSTABLE_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "DATUM_AJUSTABLE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1500.000000000011,
+      "masa_kg": 0.011775000000000084,
+      "cg_mm": [
+        368.20782296001937,
+        666.6025072833836,
+        938.5
+      ]
+    },
+    "R061_K2M_1_BRAZO_ACTIVO": {
+      "centrador": 1,
+      "estado": "ACTIVO",
+      "pieza": "BRAZO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13789.584825066315,
+      "masa_kg": 0.10824824087677057,
+      "cg_mm": [
+        377.54320197621774,
+        675.5806166969236,
+        944.9999999999999
+      ]
+    },
+    "R061_K2M_1_HORQUILLA_ACTIVO": {
+      "centrador": 1,
+      "estado": "ACTIVO",
+      "pieza": "HORQUILLA",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13604.94164209041,
+      "masa_kg": 0.10679879189040972,
+      "cg_mm": [
+        332.9944420121783,
+        677.5474714281584,
+        955.0000000000001
+      ]
+    },
+    "R061_K2M_1_RODILLO_ACTIVO": {
+      "centrador": 1,
+      "estado": "ACTIVO",
+      "pieza": "RODILLO",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 75398.22368615505,
+      "masa_kg": 0.0716283125018473,
+      "cg_mm": [
+        324.19305483968344,
+        659.6391916750506,
+        955.0000000000001
+      ]
+    },
+    "R061_K2M_1_PASADOR_RODILLO_ACTIVO": {
+      "centrador": 1,
+      "estado": "ACTIVO",
+      "pieza": "PASADOR_RODILLO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 3691.4970316741587,
+      "masa_kg": 0.028978251698642144,
+      "cg_mm": [
+        324.19305483968344,
+        659.6391916750504,
+        955.0
+      ]
+    },
+    "R061_K2M_1_COLLAR_DISPARO_ACTIVO": {
+      "centrador": 1,
+      "estado": "ACTIVO",
+      "pieza": "COLLAR_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6031.857894892406,
+      "masa_kg": 0.047350084474905386,
+      "cg_mm": [
+        388.0000000000002,
+        672.0357133367244,
+        745.0
+      ]
+    },
+    "R061_K2M_1_LEVA_DISPARO_ACTIVO": {
+      "centrador": 1,
+      "estado": "ACTIVO",
+      "pieza": "LEVA_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 749.9999999999989,
+      "masa_kg": 0.005887499999999991,
+      "cg_mm": [
+        397.87500000000006,
+        689.1397150614671,
+        743.9999999999999
+      ]
+    },
+    "R061_K2M_1_BRAZO_RETRAIDO": {
+      "centrador": 1,
+      "estado": "RETRAIDO",
+      "pieza": "BRAZO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13789.5848250663,
+      "masa_kg": 0.10824824087677044,
+      "cg_mm": [
+        380.1547372457561,
+        679.8050644718069,
+        944.9999999999998
+      ]
+    },
+    "R061_K2M_1_HORQUILLA_RETRAIDO": {
+      "centrador": 1,
+      "estado": "RETRAIDO",
+      "pieza": "HORQUILLA",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13604.94164209042,
+      "masa_kg": 0.10679879189040979,
+      "cg_mm": [
+        340.97476589703484,
+        701.0980299059768,
+        954.9999999999998
+      ]
+    },
+    "R061_K2M_1_RODILLO_RETRAIDO": {
+      "centrador": 1,
+      "estado": "RETRAIDO",
+      "pieza": "RODILLO",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 75398.22368615508,
+      "masa_kg": 0.07162831250184733,
+      "cg_mm": [
+        325.21482129121057,
+        688.8589512683884,
+        955.0000000000001
+      ]
+    },
+    "R061_K2M_1_PASADOR_RODILLO_RETRAIDO": {
+      "centrador": 1,
+      "estado": "RETRAIDO",
+      "pieza": "PASADOR_RODILLO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 3691.497031674157,
+      "masa_kg": 0.02897825169864213,
+      "cg_mm": [
+        325.21482129121057,
+        688.8589512683882,
+        954.9999999999999
+      ]
+    },
+    "R061_K2M_1_COLLAR_DISPARO_RETRAIDO": {
+      "centrador": 1,
+      "estado": "RETRAIDO",
+      "pieza": "COLLAR_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6031.857894892409,
+      "masa_kg": 0.04735008447490541,
+      "cg_mm": [
+        387.9999999999999,
+        672.0357133367244,
+        745.0000000000002
+      ]
+    },
+    "R061_K2M_1_LEVA_DISPARO_RETRAIDO": {
+      "centrador": 1,
+      "estado": "RETRAIDO",
+      "pieza": "LEVA_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 749.9999999999986,
+      "masa_kg": 0.005887499999999989,
+      "cg_mm": [
+        404.3724425501558,
+        683.0813289801299,
+        744.0000000000001
+      ]
+    },
+    "R061_RET_1_SOPORTE_FIJO": {
+      "centrador": 1,
+      "estado": "FIJO",
+      "pieza": "SOPORTE_RETENCION",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13200.000000000011,
+      "masa_kg": 0.10362000000000007,
+      "cg_mm": [
+        362.08974596215563,
+        647.1578369061612,
+        789.9999999999999
+      ]
+    },
+    "R061_K2M_2_MONTANTE_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "MONTANTE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 83126.54161398594,
+      "masa_kg": 0.6525433516697896,
+      "cg_mm": [
+        -764.2108163374731,
+        -134.75098586953806,
+        787.5
+      ]
+    },
+    "R061_K2M_2_BASE_ALOJAMIENTO_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "BASE_ALOJAMIENTO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 14046.892201923118,
+      "masa_kg": 0.11026810378509647,
+      "cg_mm": [
+        -756.3547286003989,
+        -133.36574563867887,
+        807.9999999999999
+      ]
+    },
+    "R061_K2M_2_COLLAR_ALMA_1_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "COLLAR_ALMA_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 134640.0,
+      "masa_kg": 1.056924,
+      "cg_mm": [
+        -936.1589999999998,
+        9.33035915644576e-16,
+        750.039
+      ]
+    },
+    "R061_K2M_2_APRIETE_ALMA_1_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "APRIETE_ALMA_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 7107.1496619924965,
+      "masa_kg": 0.055791124846641095,
+      "cg_mm": [
+        -971.5794999999999,
+        -40.0,
+        734.9999999999999
+      ]
+    },
+    "R061_K2M_2_TUERCA_APRIETE_1_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "TUERCA_APRIETE_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1842.4438482661824,
+      "masa_kg": 0.014463184208889531,
+      "cg_mm": [
+        -997.5000000000003,
+        -40.000000000000014,
+        735.0000000000002
+      ]
+    },
+    "R061_K2M_2_APRIETE_ALMA_2_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "APRIETE_ALMA_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 7107.1496619924965,
+      "masa_kg": 0.055791124846641095,
+      "cg_mm": [
+        -971.5794999999999,
+        40.0,
+        734.9999999999999
+      ]
+    },
+    "R061_K2M_2_TUERCA_APRIETE_2_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "TUERCA_APRIETE_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1842.4438482661824,
+      "masa_kg": 0.014463184208889531,
+      "cg_mm": [
+        -997.5000000000003,
+        40.000000000000014,
+        735.0000000000002
+      ]
+    },
+    "R061_K2M_2_SILLA_SUPERIOR_1_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "SILLA_SUPERIOR_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 777024.0312554081,
+      "masa_kg": 6.099638645354953,
+      "cg_mm": [
+        -966.4195485866776,
+        -3.122267805616727e-16,
+        748.2631486778195
+      ]
+    },
+    "R061_K2M_2_SILLA_INFERIOR_INTERIOR_1_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "SILLA_INFERIOR_INTERIOR_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 84374.13244375124,
+      "masa_kg": 0.6623369396834472,
+      "cg_mm": [
+        -961.7638688130556,
+        8.623445839913089e-17,
+        664.8005
+      ]
+    },
+    "R061_K2M_2_GATO_COMPRESION_1_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "GATO_COMPRESION_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 2477.067267539215,
+      "masa_kg": 0.01944497805018284,
+      "cg_mm": [
+        -950.0000000000001,
+        -1.233930170756667e-16,
+        684.7695
+      ]
+    },
+    "R061_K2M_2_TIRANTE_1_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "TIRANTE_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4775.220833456493,
+      "masa_kg": 0.037485483542633466,
+      "cg_mm": [
+        -987.0,
+        -68.0,
+        690.5
+      ]
+    },
+    "R061_K2M_2_TIRANTE_2_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "TIRANTE_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4775.220833456493,
+      "masa_kg": 0.037485483542633466,
+      "cg_mm": [
+        -987.0,
+        68.0,
+        690.5
+      ]
+    },
+    "R061_K2M_2_COLLAR_ALMA_2_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "COLLAR_ALMA_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 134640.0,
+      "masa_kg": 1.056924,
+      "cg_mm": [
+        -923.8410000000001,
+        9.33035915644576e-16,
+        750.039
+      ]
+    },
+    "R061_K2M_2_APRIETE_ALMA_3_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "APRIETE_ALMA_3",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 9071.295277775604,
+      "masa_kg": 0.07120966793053848,
+      "cg_mm": [
+        -880.8594026180201,
+        -40.0,
+        734.9999999999999
+      ]
+    },
+    "R061_K2M_2_TUERCA_APRIETE_3_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "TUERCA_APRIETE_3",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1842.4438482661828,
+      "masa_kg": 0.014463184208889535,
+      "cg_mm": [
+        -862.5,
+        -40.0,
+        734.9999999999999
+      ]
+    },
+    "R061_K2M_2_APRIETE_ALMA_4_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "APRIETE_ALMA_4",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 9071.295277775604,
+      "masa_kg": 0.07120966793053848,
+      "cg_mm": [
+        -880.8594026180201,
+        40.00000000000001,
+        734.9999999999999
+      ]
+    },
+    "R061_K2M_2_TUERCA_APRIETE_4_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "TUERCA_APRIETE_4",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1842.4438482661828,
+      "masa_kg": 0.014463184208889535,
+      "cg_mm": [
+        -862.5,
+        40.0,
+        734.9999999999999
+      ]
+    },
+    "R061_K2M_2_SILLA_SUPERIOR_2_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "SILLA_SUPERIOR_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 777024.0312554081,
+      "masa_kg": 6.099638645354953,
+      "cg_mm": [
+        -893.5804514133227,
+        1.4013627479942366e-15,
+        748.2631486778192
+      ]
+    },
+    "R061_K2M_2_SILLA_INFERIOR_INTERIOR_2_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "SILLA_INFERIOR_INTERIOR_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 84374.13244375122,
+      "masa_kg": 0.6623369396834471,
+      "cg_mm": [
+        -898.2361311869444,
+        -4.311722919956545e-17,
+        664.8005000000002
+      ]
+    },
+    "R061_K2M_2_GATO_COMPRESION_2_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "GATO_COMPRESION_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 2477.067267539215,
+      "masa_kg": 0.01944497805018284,
+      "cg_mm": [
+        -909.9999999999999,
+        -1.233930170756667e-16,
+        684.7695
+      ]
+    },
+    "R061_K2M_2_TIRANTE_3_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "TIRANTE_3",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4775.220833456493,
+      "masa_kg": 0.037485483542633466,
+      "cg_mm": [
+        -872.9999999999999,
+        -68.0,
+        690.5
+      ]
+    },
+    "R061_K2M_2_TIRANTE_4_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "TIRANTE_4",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4775.220833456493,
+      "masa_kg": 0.037485483542633466,
+      "cg_mm": [
+        -872.9999999999999,
+        68.0,
+        690.5
+      ]
+    },
+    "R061_K2M_2_SILLA_INFERIOR_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "SILLA_INFERIOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 185644.24796047382,
+      "masa_kg": 1.4573073464897193,
+      "cg_mm": [
+        -929.9999999999999,
+        1.1757904207836122e-16,
+        651.1399999999999
+      ]
+    },
+    "R061_K2M_2_MENSULA_TRIANGULADA_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "MENSULA_TRIANGULADA",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 465570.6741963066,
+      "masa_kg": 3.6547297924410067,
+      "cg_mm": [
+        -838.211566438286,
+        -42.84304902929292,
+        763.9999999999999
+      ]
+    },
+    "R061_K2M_2_ALOJAMIENTO_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "ALOJAMIENTO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 98922.46947623536,
+      "masa_kg": 0.7765413853884475,
+      "cg_mm": [
+        -764.2108163374733,
+        -134.75098586953808,
+        872.5
+      ]
+    },
+    "R061_K2M_2_CASQUILLO_INF_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "CASQUILLO_INF",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 2638.309510484699,
+      "masa_kg": 0.020710729657304885,
+      "cg_mm": [
+        -764.2108163374733,
+        -134.75098586953806,
+        827.0000000000001
+      ]
+    },
+    "R061_K2M_2_CASQUILLO_SUP_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "CASQUILLO_SUP",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 2638.309510484699,
+      "masa_kg": 0.020710729657304885,
+      "cg_mm": [
+        -764.2108163374733,
+        -134.75098586953806,
+        919.9999999999998
+      ]
+    },
+    "R061_K2M_2_RETEN_INF_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "RETEN_INF",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 502.15216974978864,
+      "masa_kg": 0.0004770445612622992,
+      "cg_mm": [
+        -764.2108163374733,
+        -134.75098586953806,
+        812.9999999999999
+      ]
+    },
+    "R061_K2M_2_RETEN_SUP_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "RETEN_SUP",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 1520.0281895128837,
+      "masa_kg": 0.0014440267800372396,
+      "cg_mm": [
+        -764.2108163374735,
+        -134.75098586953808,
+        936.0000000000001
+      ]
+    },
+    "R061_K2M_2_EJE_PIVOTE_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "EJE_PIVOTE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 68800.87911361648,
+      "masa_kg": 0.5400869010418893,
+      "cg_mm": [
+        -764.2108163374735,
+        -134.75098586953808,
+        837.5000000000001
+      ]
+    },
+    "R061_K2M_2_VARILLA_SERIE_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "VARILLA_SERIE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 933.053018116168,
+      "masa_kg": 0.007324466192211918,
+      "cg_mm": [
+        -807.0499535935043,
+        -142.3046815980495,
+        743.9999999999999
+      ]
+    },
+    "R061_K2M_2_CARTUCHO_SERIE_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "CARTUCHO_SERIE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 3664.3536711471406,
+      "masa_kg": 0.028765176318505052,
+      "cg_mm": [
+        -818.3752427531451,
+        -144.30163564121918,
+        743.9999999999999
+      ]
+    },
+    "R061_K2M_2_RESORTE_SERIE_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "RESORTE_SERIE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 592.1762640653595,
+      "masa_kg": 0.004648583672913072,
+      "cg_mm": [
+        -814.9284156176022,
+        -143.69386701938498,
+        744.0
+      ]
+    },
+    "R061_K2M_2_SOPORTE_LIMITADOR_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "SOPORTE_LIMITADOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 11996.644950727648,
+      "masa_kg": 0.09417366286321203,
+      "cg_mm": [
+        -809.6011668509046,
+        -134.24422073673642,
+        757.4999999999999
+      ]
+    },
+    "R061_K2M_2_SOPORTE_LIMITADOR_COLGANTE_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "SOPORTE_LIMITADOR_COLGANTE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 8448.000000000005,
+      "masa_kg": 0.06631680000000004,
+      "cg_mm": [
+        -807.0808984886982,
+        -156.52611058438777,
+        753.5
+      ]
+    },
+    "R061_K2M_2_GATILLO_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "GATILLO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1050.0000000000002,
+      "masa_kg": 0.008242500000000002,
+      "cg_mm": [
+        -783.4157696405609,
+        -146.76846350114738,
+        747.5
+      ]
+    },
+    "R061_K2M_2_RESORTE_RETORNO_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "RESORTE_RETORNO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 246.74011002723628,
+      "masa_kg": 0.0019369098637138046,
+      "cg_mm": [
+        -764.2108163374734,
+        -134.75098586953806,
+        731.0
+      ]
+    },
+    "R061_K2M_2_RECEPTOR_PASADOR_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "RECEPTOR_PASADOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1662.4743567920325,
+      "masa_kg": 0.013050423700817455,
+      "cg_mm": [
+        -762.7005276645436,
+        -111.51794431770907,
+        930.0
+      ]
+    },
+    "R061_K2M_2_PASADOR_CAUTIVO_RETRAIDO": {
+      "centrador": 2,
+      "estado": "RETRAIDO",
+      "pieza": "PASADOR_CAUTIVO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 961.3273519984798,
+      "masa_kg": 0.007546419713188065,
+      "cg_mm": [
+        -762.5890875732946,
+        -109.80364140533834,
+        943.0
+      ]
+    },
+    "R061_K2M_2_TOPE_FIN_CARRERA_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "TOPE_FIN_CARRERA",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1499.999999999985,
+      "masa_kg": 0.011774999999999881,
+      "cg_mm": [
+        -743.7537683965525,
+        -136.4120667052779,
+        938.5000000000001
+      ]
+    },
+    "R061_K2M_2_BRAZO_ACTIVO": {
+      "centrador": 2,
+      "estado": "ACTIVO",
+      "pieza": "BRAZO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 14254.361421424412,
+      "masa_kg": 0.11189673715818162,
+      "cg_mm": [
+        -759.7762867881828,
+        -146.3626848605348,
+        944.9999999999999
+      ]
+    },
+    "R061_K2M_2_HORQUILLA_ACTIVO": {
+      "centrador": 2,
+      "estado": "ACTIVO",
+      "pieza": "HORQUILLA",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13604.941642090309,
+      "masa_kg": 0.10679879189040892,
+      "cg_mm": [
+        -732.4158584815244,
+        -183.09255772549724,
+        954.9999999999999
+      ]
+    },
+    "R061_K2M_2_RODILLO_ACTIVO": {
+      "centrador": 2,
+      "estado": "ACTIVO",
+      "pieza": "RODILLO",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 75398.22368615505,
+      "masa_kg": 0.0716283125018473,
+      "cg_mm": [
+        -713.057350565241,
+        -178.25323224244448,
+        954.9999999999999
+      ]
+    },
+    "R061_K2M_2_PASADOR_RODILLO_ACTIVO": {
+      "centrador": 2,
+      "estado": "ACTIVO",
+      "pieza": "PASADOR_RODILLO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 3691.4970316741546,
+      "masa_kg": 0.028978251698642113,
+      "cg_mm": [
+        -713.057350565241,
+        -178.25323224244445,
+        955.0
+      ]
+    },
+    "R061_K2M_2_COLLAR_DISPARO_ACTIVO": {
+      "centrador": 2,
+      "estado": "ACTIVO",
+      "pieza": "COLLAR_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6031.857894892405,
+      "masa_kg": 0.04735008447490537,
+      "cg_mm": [
+        -764.2108163374737,
+        -134.75098586953808,
+        745.0000000000001
+      ]
+    },
+    "R061_K2M_2_LEVA_DISPARO_ACTIVO": {
+      "centrador": 2,
+      "estado": "ACTIVO",
+      "pieza": "LEVA_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 750.0000000000003,
+      "masa_kg": 0.005887500000000002,
+      "cg_mm": [
+        -783.6607694594647,
+        -138.18053737845995,
+        744.0000000000001
+      ]
+    },
+    "R061_K2M_2_BRAZO_RETRAIDO": {
+      "centrador": 2,
+      "estado": "RETRAIDO",
+      "pieza": "BRAZO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 14254.36142142441,
+      "masa_kg": 0.1118967371581816,
+      "cg_mm": [
+        -765.0171182359755,
+        -147.15447259825737,
+        945.0
+      ]
+    },
+    "R061_K2M_2_HORQUILLA_RETRAIDO": {
+      "centrador": 2,
+      "estado": "RETRAIDO",
+      "pieza": "HORQUILLA",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13604.941642090327,
+      "masa_kg": 0.10679879189040906,
+      "cg_mm": [
+        -755.4466119207975,
+        -191.94377943226897,
+        954.9999999999999
+      ]
+    },
+    "R061_K2M_2_RODILLO_RETRAIDO": {
+      "centrador": 2,
+      "estado": "RETRAIDO",
+      "pieza": "RODILLO",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 75398.22368615505,
+      "masa_kg": 0.0716283125018473,
+      "cg_mm": [
+        -735.8320000615854,
+        -195.60955376904906,
+        955.0000000000001
+      ]
+    },
+    "R061_K2M_2_PASADOR_RODILLO_RETRAIDO": {
+      "centrador": 2,
+      "estado": "RETRAIDO",
+      "pieza": "PASADOR_RODILLO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 3691.497031674154,
+      "masa_kg": 0.02897825169864211,
+      "cg_mm": [
+        -735.8320000615854,
+        -195.60955376904903,
+        955.0
+      ]
+    },
+    "R061_K2M_2_COLLAR_DISPARO_RETRAIDO": {
+      "centrador": 2,
+      "estado": "RETRAIDO",
+      "pieza": "COLLAR_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6031.857894892404,
+      "masa_kg": 0.047350084474905366,
+      "cg_mm": [
+        -764.2108163374735,
+        -134.75098586953803,
+        745.0000000000002
+      ]
+    },
+    "R061_K2M_2_LEVA_DISPARO_RETRAIDO": {
+      "centrador": 2,
+      "estado": "RETRAIDO",
+      "pieza": "LEVA_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 750.000000000001,
+      "masa_kg": 0.005887500000000007,
+      "cg_mm": [
+        -783.3212212351713,
+        -129.76551451308086,
+        744.0000000000001
+      ]
+    },
+    "R061_RET_2_SOPORTE_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "SOPORTE_RETENCION",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 26400.000000000007,
+      "masa_kg": 0.20724000000000004,
+      "cg_mm": [
+        -730.2349488585525,
+        -128.76012374002897,
+        790.0000000000001
+      ]
+    },
+    "R061_K2M_2_TOPE_RETENCION_FIJO": {
+      "centrador": 2,
+      "estado": "FIJO",
+      "pieza": "TOPE_RETENCION",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 259999.99999999983,
+      "masa_kg": 2.0409999999999986,
+      "cg_mm": [
+        -719.0611685839905,
+        -126.78988480111558,
+        856.7307692307693
+      ]
+    },
+    "R061_K2M_3_CONTRAPLACA_INFERIOR_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "CONTRAPLACA_INFERIOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 404661.4896522757,
+      "masa_kg": 3.176592693770364,
+      "cg_mm": [
+        388.00000000000006,
+        -574.1750000000001,
+        650.0700000000002
+      ]
+    },
+    "R061_K2M_3_COLLAR_ALMA_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "COLLAR_ALMA_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 579171.1685441484,
+      "masa_kg": 4.546493673071565,
+      "cg_mm": [
+        388.0000000000002,
+        -550.1046073924928,
+        705.452445363354
+      ]
+    },
+    "R061_K2M_3_TALON_INTERIOR_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "TALON_INTERIOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 10048.240000000022,
+      "masa_kg": 0.07887868400000016,
+      "cg_mm": [
+        388.00000000000017,
+        -490.175,
+        657.8705000000001
+      ]
+    },
+    "R061_K2M_3_CARTELA_MORDAZA_1_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "CARTELA_MORDAZA_1_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4368.0,
+      "masa_kg": 0.034288799999999994,
+      "cg_mm": [
+        330.0000000000001,
+        -549.5083333333333,
+        686.9999999999999
+      ]
+    },
+    "R061_K2M_3_CARTELA_MORDAZA_1_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "CARTELA_MORDAZA_1_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4368.0,
+      "masa_kg": 0.034288799999999994,
+      "cg_mm": [
+        446.0000000000001,
+        -549.5083333333333,
+        686.9999999999999
+      ]
+    },
+    "R061_K2M_3_COLLAR_ALMA_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "COLLAR_ALMA_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 579171.1685441486,
+      "masa_kg": 4.5464936730715655,
+      "cg_mm": [
+        388.00000000000017,
+        -598.2453926075076,
+        705.4524453633537
+      ]
+    },
+    "R061_K2M_3_TALON_EXTERIOR_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "TALON_EXTERIOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 10048.240000000023,
+      "masa_kg": 0.07887868400000017,
+      "cg_mm": [
+        388.0000000000001,
+        -658.1750000000001,
+        657.8705
+      ]
+    },
+    "R061_K2M_3_CARTELA_MORDAZA_2_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "CARTELA_MORDAZA_2_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4368.0,
+      "masa_kg": 0.034288799999999994,
+      "cg_mm": [
+        330.00000000000006,
+        -598.8416666666667,
+        687.0
+      ]
+    },
+    "R061_K2M_3_CARTELA_MORDAZA_2_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "CARTELA_MORDAZA_2_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 4368.0,
+      "masa_kg": 0.034288799999999994,
+      "cg_mm": [
+        446.0000000000001,
+        -598.8416666666667,
+        687.0
+      ]
+    },
+    "R061_K2M_3_PERNO_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "PERNO_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6672.742796224724,
+      "masa_kg": 0.05238103095036408,
+      "cg_mm": [
+        338.00000000000006,
+        -514.1749999999998,
+        658.0254237288135
+      ]
+    },
+    "R061_K2M_3_ARANDELA_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 659.3417581721576,
+      "masa_kg": 0.005175832801651437,
+      "cg_mm": [
+        338.0000000000002,
+        -514.175,
+        674.0000000000001
+      ]
+    },
+    "R061_K2M_3_TUERCA_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "TUERCA_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1758.1235014438298,
+      "masa_kg": 0.013801269486334063,
+      "cg_mm": [
+        338.0000000000002,
+        -514.1749999999998,
+        680.5000000000001
+      ]
+    },
+    "R061_K2M_3_PERNO_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "PERNO_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6672.742796224724,
+      "masa_kg": 0.05238103095036408,
+      "cg_mm": [
+        438.00000000000006,
+        -514.1749999999998,
+        658.0254237288135
+      ]
+    },
+    "R061_K2M_3_ARANDELA_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 659.3417581721576,
+      "masa_kg": 0.005175832801651437,
+      "cg_mm": [
+        438.00000000000017,
+        -514.175,
+        674.0000000000001
+      ]
+    },
+    "R061_K2M_3_TUERCA_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "TUERCA_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1758.1235014438298,
+      "masa_kg": 0.013801269486334063,
+      "cg_mm": [
+        438.00000000000017,
+        -514.1749999999998,
+        680.5000000000001
+      ]
+    },
+    "R061_K2M_3_PERNO_3_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "PERNO_3",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6672.742796224724,
+      "masa_kg": 0.05238103095036408,
+      "cg_mm": [
+        338.0000000000001,
+        -634.1750000000001,
+        658.0254237288137
+      ]
+    },
+    "R061_K2M_3_ARANDELA_3_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_3",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 659.341758172158,
+      "masa_kg": 0.0051758328016514405,
+      "cg_mm": [
+        338.00000000000006,
+        -634.175,
+        674.0
+      ]
+    },
+    "R061_K2M_3_TUERCA_3_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "TUERCA_3",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1758.1235014438291,
+      "masa_kg": 0.013801269486334058,
+      "cg_mm": [
+        338.0000000000001,
+        -634.1749999999997,
+        680.4999999999999
+      ]
+    },
+    "R061_K2M_3_PERNO_4_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "PERNO_4",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6672.742796224724,
+      "masa_kg": 0.05238103095036408,
+      "cg_mm": [
+        438.0000000000001,
+        -634.1750000000001,
+        658.0254237288137
+      ]
+    },
+    "R061_K2M_3_ARANDELA_4_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_4",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 659.341758172158,
+      "masa_kg": 0.0051758328016514405,
+      "cg_mm": [
+        438.00000000000006,
+        -634.175,
+        674.0
+      ]
+    },
+    "R061_K2M_3_TUERCA_4_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "TUERCA_4",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1758.123501443829,
+      "masa_kg": 0.013801269486334056,
+      "cg_mm": [
+        438.0000000000001,
+        -634.1750000000001,
+        680.5
+      ]
+    },
+    "R061_K2M_3_ARANDELA_TRANSVERSAL_A_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_TRANSVERSAL_A_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 799.1426312569034,
+      "masa_kg": 0.006273269655366691,
+      "cg_mm": [
+        298.0000000000001,
+        -556.925,
+        766.5000000000001
+      ]
+    },
+    "R061_K2M_3_ARANDELA_TRANSVERSAL_B_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_TRANSVERSAL_B_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 799.1426312569034,
+      "masa_kg": 0.006273269655366691,
+      "cg_mm": [
+        298.0000000000001,
+        -591.425,
+        766.5
+      ]
+    },
+    "R061_K2M_3_PERNO_TRANSVERSAL_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "PERNO_TRANSVERSAL_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 8324.795185303969,
+      "masa_kg": 0.06534964220463615,
+      "cg_mm": [
+        298.0000000000003,
+        -575.2752495994165,
+        766.5
+      ]
+    },
+    "R061_K2M_3_TUERCA_TRANSVERSAL_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "TUERCA_TRANSVERSAL_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1726.1576195993903,
+      "masa_kg": 0.013550337313855212,
+      "cg_mm": [
+        298.00000000000017,
+        -598.075,
+        766.5
+      ]
+    },
+    "R061_K2M_3_ARANDELA_TRANSVERSAL_A_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_TRANSVERSAL_A_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 799.1426312569034,
+      "masa_kg": 0.006273269655366691,
+      "cg_mm": [
+        478.00000000000017,
+        -556.925,
+        766.5000000000001
+      ]
+    },
+    "R061_K2M_3_ARANDELA_TRANSVERSAL_B_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ARANDELA_TRANSVERSAL_B_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 799.1426312569034,
+      "masa_kg": 0.006273269655366691,
+      "cg_mm": [
+        478.00000000000017,
+        -591.425,
+        766.5
+      ]
+    },
+    "R061_K2M_3_PERNO_TRANSVERSAL_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "PERNO_TRANSVERSAL_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 8324.79518530397,
+      "masa_kg": 0.06534964220463617,
+      "cg_mm": [
+        478.00000000000006,
+        -575.2752495994164,
+        766.4999999999997
+      ]
+    },
+    "R061_K2M_3_TUERCA_TRANSVERSAL_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "TUERCA_TRANSVERSAL_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1726.1576195993903,
+      "masa_kg": 0.013550337313855212,
+      "cg_mm": [
+        478.0,
+        -598.075,
+        766.5
+      ]
+    },
+    "R061_K2M_3_PLACA_SUPERIOR_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "PLACA_SUPERIOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 232229.42466428253,
+      "masa_kg": 1.8230009836146177,
+      "cg_mm": [
+        388.0000000000003,
+        -647.1829684434492,
+        763.1688415328266
+      ]
+    },
+    "R061_K2M_3_PLACA_INFERIOR_CAJA_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "PLACA_INFERIOR_CAJA",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 185791.07000508663,
+      "masa_kg": 1.4584598995399298,
+      "cg_mm": [
+        388.00000000000006,
+        -646.1053566683621,
+        709.9999999999999
+      ]
+    },
+    "R061_K2M_3_PARED_LATERAL_1_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "PARED_LATERAL_1",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 80509.46366887087,
+      "masa_kg": 0.6319992898006362,
+      "cg_mm": [
+        318.0000000000001,
+        -646.1053566683622,
+        737.5
+      ]
+    },
+    "R061_K2M_3_PARED_LATERAL_2_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "PARED_LATERAL_2",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 80509.46366887087,
+      "masa_kg": 0.6319992898006362,
+      "cg_mm": [
+        458.0000000000001,
+        -646.1053566683622,
+        737.5
+      ]
+    },
+    "R061_K2M_3_CIERRE_FRONTAL_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "CIERRE_FRONTAL",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 27600.0,
+      "masa_kg": 0.21666,
+      "cg_mm": [
+        388.00000000000006,
+        -704.0357133367245,
+        716.4999999999999
+      ]
+    },
+    "R061_K2M_3_ACUERDO_RAIZ_SUPERIOR_R6_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_RAIZ_SUPERIOR_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 957.9825985937864,
+      "masa_kg": 0.007520163398961222,
+      "cg_mm": [
+        388.0000000000001,
+        -591.5152076336744,
+        771.3402076336745
+      ]
+    },
+    "R061_K2M_3_ACUERDO_RAIZ_INFERIOR_R6_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_RAIZ_INFERIOR_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 957.9825985937863,
+      "masa_kg": 0.0075201633989612215,
+      "cg_mm": [
+        388.00000000000006,
+        -591.5152076336744,
+        756.6597923663256
+      ]
+    },
+    "R061_K2M_3_ACUERDO_TAPA_LATERAL_1_R6_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_TAPA_LATERAL_1_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 802.3931939848376,
+      "masa_kg": 0.006298786572780974,
+      "cg_mm": [
+        324.3402076336748,
+        -648.1053566683622,
+        756.6597923663256
+      ]
+    },
+    "R061_K2M_3_ACUERDO_FONDO_LATERAL_1_R6_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_FONDO_LATERAL_1_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 802.393193984838,
+      "masa_kg": 0.006298786572780978,
+      "cg_mm": [
+        324.3402076336746,
+        -648.1053566683622,
+        716.3402076336746
+      ]
+    },
+    "R061_K2M_3_ACUERDO_TAPA_LATERAL_2_R6_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_TAPA_LATERAL_2_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 802.3931939848384,
+      "masa_kg": 0.00629878657278098,
+      "cg_mm": [
+        451.6597923663256,
+        -648.1053566683621,
+        756.6597923663255
+      ]
+    },
+    "R061_K2M_3_ACUERDO_FONDO_LATERAL_2_R6_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ACUERDO_FONDO_LATERAL_2_R6",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 802.3931939848377,
+      "masa_kg": 0.006298786572780975,
+      "cg_mm": [
+        451.6597923663256,
+        -648.1053566683622,
+        716.3402076336746
+      ]
+    },
+    "R061_K2M_3_MONTANTE_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "MONTANTE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 83126.5416139859,
+      "masa_kg": 0.6525433516697893,
+      "cg_mm": [
+        388.00000000000006,
+        -672.0357133367244,
+        787.4999999999999
+      ]
+    },
+    "R061_K2M_3_BASE_ALOJAMIENTO_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "BASE_ALOJAMIENTO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 14046.892201923109,
+      "masa_kg": 0.1102681037850964,
+      "cg_mm": [
+        384.01135972323266,
+        -665.1271857242475,
+        808.0
+      ]
+    },
+    "R061_K2M_3_ALOJAMIENTO_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "ALOJAMIENTO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 98922.4694762354,
+      "masa_kg": 0.7765413853884479,
+      "cg_mm": [
+        388.0000000000001,
+        -672.0357133367244,
+        872.4999999999999
+      ]
+    },
+    "R061_K2M_3_CASQUILLO_INF_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "CASQUILLO_INF",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 2638.3095104847043,
+      "masa_kg": 0.020710729657304926,
+      "cg_mm": [
+        388.00000000000017,
+        -672.0357133367245,
+        827.0000000000003
+      ]
+    },
+    "R061_K2M_3_CASQUILLO_SUP_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "CASQUILLO_SUP",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 2638.3095104847043,
+      "masa_kg": 0.020710729657304926,
+      "cg_mm": [
+        388.00000000000017,
+        -672.0357133367245,
+        919.9999999999998
+      ]
+    },
+    "R061_K2M_3_RETEN_INF_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "RETEN_INF",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 502.15216974979387,
+      "masa_kg": 0.0004770445612623042,
+      "cg_mm": [
+        388.00000000000006,
+        -672.0357133367244,
+        812.9999999999994
+      ]
+    },
+    "R061_K2M_3_RETEN_SUP_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "RETEN_SUP",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 1520.0281895128874,
+      "masa_kg": 0.001444026780037243,
+      "cg_mm": [
+        387.99999999999994,
+        -672.0357133367243,
+        935.9999999999998
+      ]
+    },
+    "R061_K2M_3_EJE_PIVOTE_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "EJE_PIVOTE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 68800.87911361648,
+      "masa_kg": 0.5400869010418893,
+      "cg_mm": [
+        388.00000000000017,
+        -672.0357133367245,
+        837.5000000000001
+      ]
+    },
+    "R061_K2M_3_VARILLA_SERIE_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "VARILLA_SERIE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 933.053018116167,
+      "masa_kg": 0.00732446619221191,
+      "cg_mm": [
+        409.75000000000017,
+        -709.7078184013474,
+        744.0
+      ]
+    },
+    "R061_K2M_3_CARTUCHO_SERIE_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "CARTUCHO_SERIE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 3664.353671147119,
+      "masa_kg": 0.02876517631850488,
+      "cg_mm": [
+        415.5000000000001,
+        -719.6671105448686,
+        744.0000000000001
+      ]
+    },
+    "R061_K2M_3_RESORTE_SERIE_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "RESORTE_SERIE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 592.1762640653611,
+      "masa_kg": 0.004648583672913084,
+      "cg_mm": [
+        413.75000000000006,
+        -716.6360216316227,
+        744.0
+      ]
+    },
+    "R061_K2M_3_SOPORTE_LIMITADOR_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "SOPORTE_LIMITADOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 11996.644950727643,
+      "masa_kg": 0.094173662863212,
+      "cg_mm": [
+        417.5645595233119,
+        -706.4809967703749,
+        757.5000000000001
+      ]
+    },
+    "R061_K2M_3_SOPORTE_LIMITADOR_COLGANTE_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "SOPORTE_LIMITADOR_COLGANTE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 8447.999999999989,
+      "masa_kg": 0.06631679999999991,
+      "cg_mm": [
+        423.1243556529823,
+        -704.8728819108087,
+        753.5000000000001
+      ]
+    },
+    "R061_K2M_3_GATILLO_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "GATILLO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1050.0000000000005,
+      "masa_kg": 0.008242500000000003,
+      "cg_mm": [
+        405.86121593216774,
+        -685.9722468161974,
+        747.4999999999999
+      ]
+    },
+    "R061_K2M_3_RESORTE_RETORNO_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "RESORTE_RETORNO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 246.74011002723557,
+      "masa_kg": 0.0019369098637137992,
+      "cg_mm": [
+        388.0000000000001,
+        -672.0357133367244,
+        731.0
+      ]
+    },
+    "R061_K2M_3_RECEPTOR_PASADOR_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "RECEPTOR_PASADOR",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1662.474356792009,
+      "masa_kg": 0.01305042370081727,
+      "cg_mm": [
+        365.540799340489,
+        -678.170817032703,
+        929.9999999999999
+      ]
+    },
+    "R061_K2M_3_PASADOR_CAUTIVO_RETRAIDO": {
+      "centrador": 3,
+      "estado": "RETRAIDO",
+      "pieza": "PASADOR_CAUTIVO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 961.3273519984753,
+      "masa_kg": 0.00754641971318803,
+      "cg_mm": [
+        363.8835960417204,
+        -678.6235096390603,
+        942.9999999999998
+      ]
+    },
+    "R061_K2M_3_DATUM_AJUSTABLE_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "DATUM_AJUSTABLE",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 1500.0000000000216,
+      "masa_kg": 0.011775000000000169,
+      "cg_mm": [
+        393.19079405380194,
+        -652.1785821972315,
+        938.5000000000001
+      ]
+    },
+    "R061_K2M_3_BRAZO_ACTIVO": {
+      "centrador": 3,
+      "estado": "ACTIVO",
+      "pieza": "BRAZO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13789.584825066295,
+      "masa_kg": 0.1082482408767704,
+      "cg_mm": [
+        396.2983753757847,
+        -664.7523122859855,
+        944.9999999999999
+      ]
+    },
+    "R061_K2M_3_HORQUILLA_ACTIVO": {
+      "centrador": 3,
+      "estado": "ACTIVO",
+      "pieza": "HORQUILLA",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13604.941642090245,
+      "masa_kg": 0.10679879189040842,
+      "cg_mm": [
+        420.2761015206071,
+        -627.1553818156494,
+        955.0
+      ]
+    },
+    "R061_K2M_3_RODILLO_ACTIVO": {
+      "centrador": 3,
+      "estado": "ACTIVO",
+      "pieza": "RODILLO",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 75398.22368615502,
+      "masa_kg": 0.07162831250184727,
+      "cg_mm": [
+        409.1677699025847,
+        -610.5790170591728,
+        955.0
+      ]
+    },
+    "R061_K2M_3_PASADOR_RODILLO_ACTIVO": {
+      "centrador": 3,
+      "estado": "ACTIVO",
+      "pieza": "PASADOR_RODILLO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 3691.4970316741565,
+      "masa_kg": 0.028978251698642127,
+      "cg_mm": [
+        409.1677699025847,
+        -610.5790170591728,
+        954.9999999999999
+      ]
+    },
+    "R061_K2M_3_COLLAR_DISPARO_ACTIVO": {
+      "centrador": 3,
+      "estado": "ACTIVO",
+      "pieza": "COLLAR_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6031.857894892406,
+      "masa_kg": 0.047350084474905386,
+      "cg_mm": [
+        388.0000000000002,
+        -672.0357133367244,
+        745.0
+      ]
+    },
+    "R061_K2M_3_LEVA_DISPARO_ACTIVO": {
+      "centrador": 3,
+      "estado": "ACTIVO",
+      "pieza": "LEVA_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 749.9999999999989,
+      "masa_kg": 0.005887499999999991,
+      "cg_mm": [
+        397.8750000000001,
+        -689.139715061467,
+        743.9999999999999
+      ]
+    },
+    "R061_K2M_3_BRAZO_RETRAIDO": {
+      "centrador": 3,
+      "estado": "RETRAIDO",
+      "pieza": "BRAZO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13789.584825066308,
+      "masa_kg": 0.1082482408767705,
+      "cg_mm": [
+        398.6510868310248,
+        -669.1261920597266,
+        944.9999999999999
+      ]
+    },
+    "R061_K2M_3_HORQUILLA_RETRAIDO": {
+      "centrador": 3,
+      "estado": "RETRAIDO",
+      "pieza": "HORQUILLA",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13604.94164209027,
+      "masa_kg": 0.10679879189040861,
+      "cg_mm": [
+        436.6813214932805,
+        -645.8418242692724,
+        955.0000000000001
+      ]
+    },
+    "R061_K2M_3_RODILLO_RETRAIDO": {
+      "centrador": 3,
+      "estado": "RETRAIDO",
+      "pieza": "RODILLO",
+      "material_hipotesis": "POLIMERO",
+      "volumen_mm3": 75398.22368615503,
+      "masa_kg": 0.07162831250184729,
+      "cg_mm": [
+        433.9619407771256,
+        -626.0737725595989,
+        955.0
+      ]
+    },
+    "R061_K2M_3_PASADOR_RODILLO_RETRAIDO": {
+      "centrador": 3,
+      "estado": "RETRAIDO",
+      "pieza": "PASADOR_RODILLO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 3691.4970316741556,
+      "masa_kg": 0.02897825169864212,
+      "cg_mm": [
+        433.9619407771256,
+        -626.0737725595986,
+        955.0
+      ]
+    },
+    "R061_K2M_3_COLLAR_DISPARO_RETRAIDO": {
+      "centrador": 3,
+      "estado": "RETRAIDO",
+      "pieza": "COLLAR_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 6031.857894892417,
+      "masa_kg": 0.04735008447490547,
+      "cg_mm": [
+        388.0000000000001,
+        -672.0357133367245,
+        745.0000000000001
+      ]
+    },
+    "R061_K2M_3_LEVA_DISPARO_RETRAIDO": {
+      "centrador": 3,
+      "estado": "RETRAIDO",
+      "pieza": "LEVA_DISPARO",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 750.0000000000002,
+      "masa_kg": 0.005887500000000001,
+      "cg_mm": [
+        389.37956247255016,
+        -691.7374723288633,
+        743.9999999999999
+      ]
+    },
+    "R061_RET_3_SOPORTE_FIJO": {
+      "centrador": 3,
+      "estado": "FIJO",
+      "pieza": "SOPORTE_RETENCION",
+      "material_hipotesis": "ACERO",
+      "volumen_mm3": 13200.000000000011,
+      "masa_kg": 0.10362000000000007,
+      "cg_mm": [
+        362.08974596215563,
+        -647.1578369061612,
+        789.9999999999999
+      ]
+    }
+  },
+  "totales_hipotesis": {
+    "ACTIVO": {
+      "masa_kg": 67.56371817647549,
+      "cg_mm": [
+        -105.02621263226938,
+        -11.989383305186216,
+        736.4433597264956
+      ],
+      "objetos": 175
+    },
+    "RETRAIDO": {
+      "masa_kg": 67.58635743561506,
+      "cg_mm": [
+        -104.98444656988393,
+        -12.01360427514315,
+        736.5125495672205
+      ],
+      "objetos": 178
+    }
+  },
+  "fallos_geometricos_previos_al_guardado": [],
+  "contacto_rodillo_activo_OD": {
+    "1": {
+      "radio_centro_nominal_mm": 735.0,
+      "dist_mm": 5.684341886080802e-14,
+      "vol_comun_mm3": 0.0
+    },
+    "2": {
+      "radio_centro_nominal_mm": 734.9999999999999,
+      "dist_mm": 3.6392092191789695e-08,
+      "vol_comun_mm3": 0.0
+    },
+    "3": {
+      "radio_centro_nominal_mm": 735.0,
+      "dist_mm": 2.2737367544323206e-13,
+      "vol_comun_mm3": 0.0
+    }
+  }
+}

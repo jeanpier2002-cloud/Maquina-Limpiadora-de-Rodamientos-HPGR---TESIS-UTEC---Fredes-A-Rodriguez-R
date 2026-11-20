@@ -1,0 +1,29 @@
+{
+ "parches": {
+  "186_920": {
+   "sin": 12,
+   "completo": 10,
+   "sin_tope_02": 10,
+   "solo_tope_02": 10
+  },
+  "188_920": {
+   "sin": 12,
+   "completo": 0,
+   "sin_tope_02": 8,
+   "solo_tope_02": 0
+  },
+  "190_920": {
+   "sin": 12,
+   "completo": 0,
+   "sin_tope_02": 8,
+   "solo_tope_02": 0
+  },
+  "192_920": {
+   "sin": 12,
+   "completo": 10,
+   "sin_tope_02": 10,
+   "solo_tope_02": 10
+  }
+ },
+ "nota": "impactos = exposiciones distintas (fase, boquilla) por parche; visibilidad geométrica"
+}

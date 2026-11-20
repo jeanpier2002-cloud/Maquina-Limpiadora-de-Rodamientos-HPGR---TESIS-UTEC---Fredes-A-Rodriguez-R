@@ -1,0 +1,6 @@
+analisis 0  areas 2768  nudos 2859
+barras 0.0 kg; chapa 1351.0 kg
+f1..f3 Hz 0.44 0.95 1.06
+PAND_U2 1.413
+PAND_U3X 1.405
+PAND_U3Y 1.410

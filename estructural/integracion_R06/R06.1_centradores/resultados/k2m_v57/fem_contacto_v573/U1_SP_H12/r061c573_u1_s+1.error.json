@@ -1,0 +1,5 @@
+{
+  "estado": "NO_CERRADO",
+  "error": "Cobertura de proyeccion insuficiente en un par: 41.9 %",
+  "traza": "Traceback (most recent call last):\n  File \"<string>\", line 939, in <module>\n  File \"<string>\", line 856, in run\n  File \"<string>\", line 739, in geometric_pair\n  File \"<string>\", line 85, in fail\nRuntimeError: Cobertura de proyeccion insuficiente en un par: 41.9 %\n"
+}

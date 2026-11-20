@@ -1,0 +1,50 @@
+{
+ "cateto_6_placa_silla_sup": {},
+ "cateto_6_placa_silla_inf": {
+  "TUERCA_APRIETE_3": [
+   0.0,
+   1.6
+  ],
+  "TUERCA_APRIETE_4": [
+   0.0,
+   1.6
+  ]
+ },
+ "cateto_6_limitador_sup": {},
+ "cateto_6_limitador_inf": {
+  "VARILLA_SERIE": [
+   2.0,
+   0.0
+  ],
+  "CARTUCHO_SERIE": [
+   0.0,
+   79.1
+  ],
+  "RESORTE_SERIE": [
+   0.0,
+   0.0
+  ]
+ },
+ "cateto_4_placa_silla_sup": {},
+ "cateto_4_placa_silla_inf": {
+  "TUERCA_APRIETE_3": [
+   0.608,
+   0.0
+  ],
+  "TUERCA_APRIETE_4": [
+   0.608,
+   0.0
+  ]
+ },
+ "cateto_4_limitador_sup": {},
+ "cateto_4_limitador_inf": {
+  "CARTUCHO_SERIE": [
+   0.0,
+   15.0
+  ],
+  "RESORTE_SERIE": [
+   2.606,
+   0.0
+  ]
+ }
+}

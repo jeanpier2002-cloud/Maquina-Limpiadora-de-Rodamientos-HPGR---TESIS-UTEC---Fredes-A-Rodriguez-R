@@ -1,0 +1,99 @@
+﻿Frame;DesignSect;DesignType;Status;Ratio;RatioType;Combo;Location;ErrMsg;WarnMsg
+1;COL;Column;No Messages;0,093568;PMM;U3_AXN;0;No Messages;No Messages
+2;COL;Column;No Messages;0,08024;PMM;U3_AXN;0;No Messages;No Messages
+3;COL;Column;No Messages;0,122595;PMM;U3_AYP;1220;No Messages;No Messages
+4;COL;Column;No Messages;0,130738;PMM;U3_AYP;100;No Messages;No Messages
+5;COL;Column;No Messages;0,092925;PMM;U3_AXN;0;No Messages;No Messages
+6;COL;Column;No Messages;0,080143;PMM;U3_AXN;0;No Messages;No Messages
+7;COL;Column;No Messages;0,122482;PMM;U3_AYN;1220;No Messages;No Messages
+8;COL;Column;No Messages;0,13091;PMM;U3_AYN;100;No Messages;No Messages
+9;COL;Column;No Messages;0,092497;PMM;U3_AXP;0;No Messages;No Messages
+10;COL;Column;No Messages;0,079553;PMM;U3_AXP;0;No Messages;No Messages
+11;COL;Column;No Messages;0,1238;PMM;U3_AYP;1220;No Messages;No Messages
+12;COL;Column;No Messages;0,132286;PMM;U3_AYP;100;No Messages;No Messages
+13;COL;Column;No Messages;0,093138;PMM;U3_AXP;0;No Messages;No Messages
+14;COL;Column;No Messages;0,079648;PMM;U3_AXP;0;No Messages;No Messages
+15;COL;Column;No Messages;0,123914;PMM;U3_AYN;1220;No Messages;No Messages
+16;COL;Column;No Messages;0,132115;PMM;U3_AYN;100;No Messages;No Messages
+17;LAC;Brace;No Messages;0,030206;PMM;U3_AYN;724,98;No Messages;No Messages
+18;LAC;Brace;No Messages;0,030058;PMM;U3_AYN;0;No Messages;No Messages
+19;LAC;Brace;No Messages;0,03049;PMM;U3_AYP;724,98;No Messages;No Messages
+20;LAC;Brace;No Messages;0,030792;PMM;U3_AYP;0;No Messages;No Messages
+21;LAC;Brace;No Messages;0,008775;PMM;U3_AYP;679,78;No Messages;No Messages
+22;LAC;Brace;No Messages;0,007822;PMM;U3_AYN;0;No Messages;No Messages
+23;LAC;Brace;No Messages;0,008059;PMM;U3_AYN;679,78;No Messages;No Messages
+24;LAC;Brace;No Messages;0,008273;PMM;U3_AYN;0;No Messages;No Messages
+25;LAC;Beam;No Messages;0,006974;PMM;U1;300;No Messages;No Messages
+26;LAC;Brace;No Messages;0,031025;PMM;U3_AYN;724,98;No Messages;No Messages
+27;LAC;Brace;No Messages;0,031338;PMM;U3_AYN;0;No Messages;No Messages
+28;LAC;Brace;No Messages;0,030755;PMM;U3_AYP;724,98;No Messages;No Messages
+29;LAC;Brace;No Messages;0,030593;PMM;U3_AYP;0;No Messages;No Messages
+30;LAC;Brace;No Messages;0,008199;PMM;U3_AYP;679,78;No Messages;No Messages
+31;LAC;Brace;No Messages;0,008455;PMM;U3_AYP;0;No Messages;No Messages
+32;LAC;Brace;No Messages;0,008992;PMM;U3_AYN;679,78;No Messages;No Messages
+33;LAC;Brace;No Messages;0,008006;PMM;U3_AYP;0;No Messages;No Messages
+34;LAC;Beam;No Messages;0,00722;PMM;U1;300;No Messages;No Messages
+35;VIGA;Beam;No Messages;0,053613;PMM;U3_AXN;0;No Messages;No Messages
+36;VIGA;Beam;No Messages;0,040639;PMM;U3_AXN;0;No Messages;No Messages
+37;VIGA;Beam;No Messages;0,027865;PMM;U3_AXN;0;No Messages;No Messages
+38;VIGA;Beam;No Messages;0,038742;PMM;U3_AXP;135,71;No Messages;No Messages
+39;VIGA;Beam;No Messages;0,051707;PMM;U3_AXP;135,71;No Messages;No Messages
+40;VIGA;Beam;No Messages;0,064526;PMM;U3_AXP;135,71;No Messages;No Messages
+41;VIGA;Beam;No Messages;0,077197;PMM;U3_AXP;135,71;No Messages;No Messages
+42;VIGA;Beam;No Messages;0,090114;PMM;U3_AXP;140;No Messages;No Messages
+43;VIGA;Beam;No Messages;0,103289;PMM;U3_AYP;140;No Messages;No Messages
+44;VIGA;Beam;No Messages;0,118702;PMM;U3_AYP;140;No Messages;No Messages
+45;VIGA;Beam;No Messages;0,133959;PMM;U3_AYP;140;No Messages;No Messages
+46;VIGA;Beam;No Messages;0,149058;PMM;U3_AYP;140;No Messages;No Messages
+47;VIGA;Beam;No Messages;0,164001;PMM;U3_AYP;140;No Messages;No Messages
+48;VIGA;Beam;No Messages;0,000311;Major Shear;U1;0;No Messages;No Messages
+49;VIGA;Beam;No Messages;0,000156;Major Shear;U1;0;No Messages;No Messages
+50;VIGA;Beam;No Messages;0,000156;Major Shear;U1;115;No Messages;No Messages
+51;VIGA;Beam;No Messages;0,000311;Major Shear;U1;115;No Messages;No Messages
+52;VIGA;Beam;No Messages;0,179401;PMM;U3_AYP;0;No Messages;No Messages
+53;VIGA;Beam;No Messages;0,163225;PMM;U3_AYP;0;No Messages;No Messages
+54;VIGA;Beam;No Messages;0,146893;PMM;U3_AYP;0;No Messages;No Messages
+55;VIGA;Beam;No Messages;0,130405;PMM;U3_AYP;0;No Messages;No Messages
+56;VIGA;Beam;No Messages;0,113759;PMM;U3_AYP;0;No Messages;No Messages
+57;VIGA;Beam;No Messages;0,099329;PMM;U3_AXN;0;No Messages;No Messages
+58;VIGA;Beam;No Messages;0,085182;PMM;U3_AXN;0;No Messages;No Messages
+59;VIGA;Beam;No Messages;0,071318;PMM;U3_AXN;0;No Messages;No Messages
+60;VIGA;Beam;No Messages;0,057307;PMM;U3_AXN;0;No Messages;No Messages
+61;VIGA;Beam;No Messages;0,043149;PMM;U3_AXN;0;No Messages;No Messages
+62;VIGA;Beam;No Messages;0,028844;PMM;U3_AXN;0;No Messages;No Messages
+63;VIGA;Beam;No Messages;0,040018;PMM;U3_AXP;135,71;No Messages;No Messages
+64;VIGA;Beam;No Messages;0,054169;PMM;U3_AXP;135,71;No Messages;No Messages
+65;VIGA;Beam;No Messages;0,053699;PMM;U3_AXN;0;No Messages;No Messages
+66;VIGA;Beam;No Messages;0,040722;PMM;U3_AXN;0;No Messages;No Messages
+67;VIGA;Beam;No Messages;0,027996;PMM;U3_AXN;0;No Messages;No Messages
+68;VIGA;Beam;No Messages;0,038897;PMM;U3_AXP;135,71;No Messages;No Messages
+69;VIGA;Beam;No Messages;0,051882;PMM;U3_AXP;135,71;No Messages;No Messages
+70;VIGA;Beam;No Messages;0,06472;PMM;U3_AXP;135,71;No Messages;No Messages
+71;VIGA;Beam;No Messages;0,077411;PMM;U3_AXP;135,71;No Messages;No Messages
+72;VIGA;Beam;No Messages;0,090349;PMM;U3_AXP;140;No Messages;No Messages
+73;VIGA;Beam;No Messages;0,103569;PMM;U3_AYN;140;No Messages;No Messages
+74;VIGA;Beam;No Messages;0,119005;PMM;U3_AYN;140;No Messages;No Messages
+75;VIGA;Beam;No Messages;0,134284;PMM;U3_AYN;140;No Messages;No Messages
+76;VIGA;Beam;No Messages;0,149406;PMM;U3_AYN;140;No Messages;No Messages
+77;VIGA;Beam;No Messages;0,164372;PMM;U3_AYN;140;No Messages;No Messages
+78;VIGA;Beam;No Messages;0,000311;Major Shear;U1;0;No Messages;No Messages
+79;VIGA;Beam;No Messages;0,000156;Major Shear;U1;0;No Messages;No Messages
+80;VIGA;Beam;No Messages;0,000156;Major Shear;U1;115;No Messages;No Messages
+81;VIGA;Beam;No Messages;0,000311;Major Shear;U1;115;No Messages;No Messages
+82;VIGA;Beam;No Messages;0,179031;PMM;U3_AYN;0;No Messages;No Messages
+83;VIGA;Beam;No Messages;0,162878;PMM;U3_AYN;0;No Messages;No Messages
+84;VIGA;Beam;No Messages;0,146568;PMM;U3_AYN;0;No Messages;No Messages
+85;VIGA;Beam;No Messages;0,130102;PMM;U3_AYN;0;No Messages;No Messages
+86;VIGA;Beam;No Messages;0,113479;PMM;U3_AYN;0;No Messages;No Messages
+87;VIGA;Beam;No Messages;0,099094;PMM;U3_AXN;0;No Messages;No Messages
+88;VIGA;Beam;No Messages;0,084967;PMM;U3_AXN;0;No Messages;No Messages
+89;VIGA;Beam;No Messages;0,071123;PMM;U3_AXN;0;No Messages;No Messages
+90;VIGA;Beam;No Messages;0,057132;PMM;U3_AXN;0;No Messages;No Messages
+91;VIGA;Beam;No Messages;0,042993;PMM;U3_AXN;0;No Messages;No Messages
+92;VIGA;Beam;No Messages;0,028708;PMM;U3_AXN;0;No Messages;No Messages
+93;VIGA;Beam;No Messages;0,039937;PMM;U3_AXP;135,71;No Messages;No Messages
+94;VIGA;Beam;No Messages;0,054084;PMM;U3_AXP;135,71;No Messages;No Messages
+95;LAC;Beam;See WarnMsg;0,11717;PMM;U3_AYN;943,94;No Messages;kl/r > 200 (AISC E2)
+96;LAC;Beam;See WarnMsg;0,112551;PMM;U3_AYP;943,94;No Messages;kl/r > 200 (AISC E2)
+97;LAC;Beam;See WarnMsg;0,116159;PMM;U3_AYP;943,94;No Messages;kl/r > 200 (AISC E2)
+98;LAC;Beam;See WarnMsg;0,11154;PMM;U3_AYN;943,94;No Messages;kl/r > 200 (AISC E2)

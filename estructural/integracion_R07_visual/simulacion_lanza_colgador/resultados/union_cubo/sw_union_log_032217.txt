@@ -1,0 +1,87 @@
+SolidWorks 32.5.0 | guardado True: C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R07_visual\simulacion_lanza_colgador\modelo\UNION_CUBO_SW_032217.SLDPRT
+cuerpos identificados 15 de 15
+cara de empotramiento True; cara de la brida A True
+=== FUERA_h2 (U_GOLPE_FUERA_PLANO, malla fina 2 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 2 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 393412, elementos 237123 (7.1556 s)
+RunAnalysis err=0 (34.1878 s)
+TRANSV_FINO: von Mises máx 312.4205 MPa en (-200.4771; 1768.2372; -10.5678) SW
+W5_POS_FINO: von Mises máx 662.5799 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 603.1391 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 126.684 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 184.2552 MPa en (-166.5471; 1767.383; -12.6173) SW
+tubo, superficie exterior, máximo por distancia al fin del contacto (MPa): x+1.108: 312.4205  x+2.77: 205.7942  x+5: 163.4514  x+10: 125.4669  x+20: 114.3481  x+40: 113.0649  
+punto caliente IIW (1,67·σ(0,4t) − 0,67·σ(1,0t)): 383.8602 MPa (tolerancia de búsqueda ±1 mm)
+sonda de viga en x = 240: 114.397 MPa
+imagen True
+=== FUERA_h1 (U_GOLPE_FUERA_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 1 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 793428, elementos 497157 (9.9695 s)
+RunAnalysis err=0 (76.688 s)
+TRANSV_FINO: von Mises máx 422.3505 MPa en (-199.7276; 1768.386; -10.1615) SW
+W5_POS_FINO: von Mises máx 701.0808 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 689.439 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 122.088 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 185.5277 MPa en (-166.5471; 1767.383; -12.6173) SW
+tubo, superficie exterior, máximo por distancia al fin del contacto (MPa): x+1.108: 304.7408  x+2.77: 188.3363  x+5: 153.9964  x+10: 122.6399  x+20: 114.5615  x+40: 112.9785  
+punto caliente IIW (1,67·σ(0,4t) − 0,67·σ(1,0t)): 382.7317 MPa (tolerancia de búsqueda ±0.5 mm)
+sonda de viga en x = 240: 114.1413 MPa
+imagen True
+=== FUERA_h0p6 (U_GOLPE_FUERA_PLANO, malla fina 0.6 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 0.6 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 2407236, elementos 1615551 (40.3074 s)
+RunAnalysis err=0 (333.6724 s)
+TRANSV_FINO: von Mises máx 786.2157 MPa en (-199.9944; 1770.0479; -1.5029) SW
+W5_POS_FINO: von Mises máx 910.7366 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 929.4456 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 119.5221 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 184.5243 MPa en (-166.5471; 1767.383; -12.6173) SW
+tubo, superficie exterior, máximo por distancia al fin del contacto (MPa): x+1.108: 240.7681  x+2.77: 184.1042  x+5: 151.3389  x+10: 120.861  x+20: 114.4026  x+40: 112.765  
+punto caliente IIW (1,67·σ(0,4t) − 0,67·σ(1,0t)): 278.7328 MPa (tolerancia de búsqueda ±0.3 mm)
+sonda de viga en x = 240: 114.0108 MPa
+imagen True
+=== EN_h2 (U_GOLPE_EN_PLANO, malla fina 2 mm)
+carga remota en (-900; 1400; 0) F (1000; 0; 0) EndEdit=0
+  control de malla 2 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 393412, elementos 237123 (5.3596 s)
+RunAnalysis err=0 (34.5591 s)
+TRANSV_FINO: von Mises máx 169.1215 MPa en (-200.4771; 1769.262; -7.2635) SW
+W5_POS_FINO: von Mises máx 302.7168 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 269.6818 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 40.0693 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 36.6141 MPa en (-170; 1710.0878; 3.7788) SW
+tubo, superficie exterior, máximo por distancia al fin del contacto (MPa): x+1.108: 169.1215  x+2.77: 123.1473  x+5: 96.8155  x+10: 72.6906  x+20: 60.2132  x+40: 49.4567  
+punto caliente IIW (1,67·σ(0,4t) − 0,67·σ(1,0t)): 199.9242 MPa (tolerancia de búsqueda ±1 mm)
+sonda de viga en x = 240: 53.2768 MPa
+imagen True
+=== EN_h1 (U_GOLPE_EN_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (1000; 0; 0) EndEdit=0
+  control de malla 1 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 793428, elementos 497157 (9.8919 s)
+RunAnalysis err=0 (73.5816 s)
+TRANSV_FINO: von Mises máx 216.7683 MPa en (-199.7276; 1768.386; -10.1615) SW
+W5_POS_FINO: von Mises máx 361.7223 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 357.4592 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 36.1057 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 36.558 MPa en (-170; 1710.1378; -4.1562) SW
+tubo, superficie exterior, máximo por distancia al fin del contacto (MPa): x+1.108: 167.378  x+2.77: 112.4214  x+5: 91.9524  x+10: 70.4925  x+20: 59.8802  x+40: 49.4442  
+punto caliente IIW (1,67·σ(0,4t) − 0,67·σ(1,0t)): 204.1988 MPa (tolerancia de búsqueda ±0.5 mm)
+sonda de viga en x = 240: 53.4548 MPa
+imagen True
+=== EN_h0p6 (U_GOLPE_EN_PLANO, malla fina 0.6 mm)
+carga remota en (-900; 1400; 0) F (1000; 0; 0) EndEdit=0
+  control de malla 0.6 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 2407236, elementos 1615551 (39.4826 s)
+RunAnalysis err=0 (309.6455 s)
+TRANSV_FINO: von Mises máx 348.169 MPa en (-199.9944; 1770.0479; -1.5029) SW
+W5_POS_FINO: von Mises máx 498.7152 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 518.7657 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 34.429 MPa en (-199.9592; 1770; -4.037) SW
+TRANSV_CENTRO: von Mises máx 36.6499 MPa en (-170; 1710.1378; -4.1562) SW
+tubo, superficie exterior, máximo por distancia al fin del contacto (MPa): x+1.108: 140.6409  x+2.77: 109.1659  x+5: 91.5228  x+10: 70.1803  x+20: 59.626  x+40: 49.2684  
+punto caliente IIW (1,67·σ(0,4t) − 0,67·σ(1,0t)): 161.7292 MPa (tolerancia de búsqueda ±0.3 mm)
+sonda de viga en x = 240: 53.4943 MPa
+imagen True

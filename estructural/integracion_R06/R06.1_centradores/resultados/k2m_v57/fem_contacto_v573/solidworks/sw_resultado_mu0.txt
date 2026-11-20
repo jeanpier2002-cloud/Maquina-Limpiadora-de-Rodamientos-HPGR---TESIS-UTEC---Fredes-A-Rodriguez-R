@@ -1,0 +1,60 @@
+SolidWorks 32.5.0
+LoadAddIn=0
+importado y guardado: True (0/0) C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\solidworks\U1_CONJUNTO_SW_000234.SLDPRT
+cuerpos: 4
+  Open CASCADE STEP translator 7.8 1[1]: vol 1353135.337991 mm3, cdg (388; 574.175; 730.03672)
+  Open CASCADE STEP translator 7.8 1[2]: vol 597955.408544 mm3, cdg (388; 549.088819; 704.383276)
+  Open CASCADE STEP translator 7.8 1[3]: vol 1332190.60771 mm3, cdg (388.226121; 631.562182; 737.679299)
+  Open CASCADE STEP translator 7.8 1[4]: vol 404661.489652 mm3, cdg (388; 574.175; 650.07)
+CreateNewStudy3 err=0
+material asignado a 4 cuerpos
+contacto global sin penetración, mu = 0, resortes blandos
+FindTouchingFacePairs: El servidor lanzó una excepción. (Excepción de HRESULT: 0x80010105 (RPC_E_SERVERFAULT))
+FindTouchingFacePairs: 0 pares
+  par coplanar cuerpos 0-1 en (-12; 572.016; 660.601)-(788; 572.016; 799.539) err=0
+  par coplanar cuerpos 0-1 en (-12; 524.137; 660.601)-(788; 572.016; 660.601) err=0
+  par coplanar cuerpos 0-2 en (-12; 576.334; 660.601)-(788; 576.334; 799.539) err=0
+  par coplanar cuerpos 0-2 en (-12; 576.334; 660.601)-(788; 624.213; 660.601) err=0
+  par coplanar cuerpos 0-3 en (-12; 524.137; 655.14)-(788; 624.213; 655.14) err=0
+  par coplanar cuerpos 1-3 en (273; 486.175; 655.14)-(503; 494.175; 655.14) err=0
+  par coplanar cuerpos 2-3 en (273; 654.175; 655.14)-(503; 662.175; 655.14) err=0
+contactos locales: 7
+apoyos fijos en 2 caras, err=0
+perno V1 -> Refrentado con tuerca-1 EndEdit=0
+perno V2 -> Refrentado con tuerca-2 EndEdit=0
+perno V3 -> Refrentado con tuerca-3 EndEdit=0
+perno V4 -> Refrentado con tuerca-4 EndEdit=0
+perno T1 -> Refrentado con tuerca-5 EndEdit=0
+perno T2 -> Refrentado con tuerca-6 EndEdit=0
+carga: F = (544.097483; 2050.222897) N en (388; 672.035713; 955); Mz = -124073.543733 N·mm
+caras de casquillo: 2
+AddRemoteLoad fuerza err=0
+RemoteLoadEndEdit fuerza=0
+caras del limitador: 12
+AddRemoteLoad par err=0
+RemoteLoadEndEdit par=0
+CreateMesh(8 mm) err=0 | nodos 123632, elementos 67827
+RunAnalysis err=0 (38.388216 min)
+  [solver] N.º de GDL          = 371304
+  [solver] Tiempo total de solución = 00:38:19
+  [solver] Mensaje del solver de decisión=Se calcularon demasiados desplazamientos en este modelo. Si el sistema está correctamente restringido, utilice la opción Grandes desplazamientos para mejorar la precisión de los cálculos. De lo contrario, utilice la configuración actual y revise las causas de dichos desplazamientos.Haga clic en 'Sí' para solucionar con la indicación de grandes desplazamientos activada.Haga clic en 'No' para solucionar con pequeños desplazamientos.Haga clic en Cancelar para finalizar la solución. "Opción seleccionada para cierre automático No"
+  cara de alojamiento r = 10.1 mm, z 817-837
+  cara de alojamiento r = 12 mm, z 811-817
+  cara de alojamiento r = 10.2 mm, z 805-811
+  cara de alojamiento r = 12 mm, z 770-805
+  cara de alojamiento r = 12 mm, z 837-910
+  cara de alojamiento r = 10.1 mm, z 910-930
+  cara de alojamiento r = 12 mm, z 930-934
+  cara de alojamiento r = 20 mm, z 811-934
+  cara de alojamiento r = 16 mm, z 750-770
+  cara de alojamiento r = 15 mm, z 755-760
+caras cilíndricas del alojamiento: 10
+GetDisplacementForEntities: 4424 valores, err=0 | primeros: 12903, 1346196.625, 12904, 1346196.625
+u_radial base 593779.247976 mm (z 817.935588, n 180); cabeza 593779.565827 mm (z 927.230267, n 198); giro 2.908195 mrad
+u_radial_Z955 = 593779.646586 mm
+perno Refrentado con tuerca-1: -11.311004; 214.995641; 0; 215.292969; 0; 0; -27140.271484; 27140.271484; -6.180073; -0.099118; 0; 6.180867; 0; 0; 0; 0
+perno Refrentado con tuerca-2: -5.453123; 218.743942; 0; 218.811905; 0; 0; -27096.517578; 27096.517578; -6.411981; -0.071611; 0; 6.412381; 0; 0; 0; 0
+perno Refrentado con tuerca-3: -44.346211; 61.93678; 0; 76.175789; 0; 0; -27116.117188; 27116.117188; 2.430783; -0.515704; 0; 2.484885; 0; 0; 0; 0
+perno Refrentado con tuerca-4: -41.109466; 29.117439; 0; 50.376717; 0; 0; -27147.042969; 27147.042969; 3.052189; -0.635209; 0; 3.117587; 0; 0; 0; 0
+perno Refrentado con tuerca-5: -209.920595; 0; -87.935669; 227.594681; 0; -26118.712891; 0; 26118.712891; -1.438904; 0; 3.171046; 3.482237; 0; 0; 0; 0
+perno Refrentado con tuerca-6: 66.738395; 0; -72.156797; 98.288437; 0; -26107.796875; 0; 26107.796875; -1.186262; 0; -0.894017; 1.485423; 0; 0; 0; 0

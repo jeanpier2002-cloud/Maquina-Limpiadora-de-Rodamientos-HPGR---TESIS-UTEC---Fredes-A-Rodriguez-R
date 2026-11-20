@@ -1,0 +1,17 @@
+documento: EJE_SF47_D25_SW_033615
+estudio CON_LIMITADOR
+  unidad 0: Desplazamientos3 -> 19 0 5797 357824.2 
+  unidad 1: Desplazamientos3 -> 19 0 5797 35782.42 
+  unidad 2: Desplazamientos3 -> 19 0 5797 35.78242 
+  unidad 3: Desplazamientos3 -> 19 0 5797 0.03578242 
+  imagen DESPL_CON_LIMITADOR_iso_mm.jpg: True
+  unidad mm = 3
+estudio ATASCO_SIN_LIMITADOR
+  unidad 0: Desplazamientos3 -> 19 0 5797 2254517 
+  unidad 1: Desplazamientos3 -> 19 0 5797 225451.7 
+  unidad 2: Desplazamientos3 -> 19 0 5797 225.4517 
+  unidad 3: Desplazamientos3 -> 19 0 5797 0.2254517 
+  imagen DESPL_ATASCO_SIN_LIMITADOR_iso_mm.jpg: True
+  unidad mm = 3
+activo: Tensiones1
+

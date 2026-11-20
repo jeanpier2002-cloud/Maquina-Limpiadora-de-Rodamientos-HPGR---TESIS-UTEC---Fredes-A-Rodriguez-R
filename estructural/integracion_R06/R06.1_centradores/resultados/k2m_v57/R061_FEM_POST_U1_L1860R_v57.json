@@ -1,0 +1,66 @@
+{
+ "unidad": 1,
+ "PIV": 776.0,
+ "direccion_radial_contacto": [
+  0.44107898617644004,
+  0.897468287993266
+ ],
+ "ventana_local_mm": 250.0,
+ "clasificacion": "seccion real W6x9 (rev. K1)",
+ "casos": [
+  {
+   "caso": "malla_1\\F2080_s+1\\F2080_s+1.frd",
+   "nodos": 289012,
+   "u_radial_alojamiento_medio_mm": 1.2245880733055605,
+   "u_radial_base_mm": 0.8153969912318233,
+   "u_radial_cabeza_mm": 1.6267967552822529,
+   "giro_alojamiento_mrad": 7.3523588794627805,
+   "z_base_mm": 817.6236032786885,
+   "z_cabeza_mm": 927.982710791367,
+   "u_radial_Z955_mm": 1.8254375614943594,
+   "u_total_alojamiento_max_mm": 2.010373027858514,
+   "W_p99_MPa": 63.684652698289135,
+   "W_p999_MPa": 103.33170217718009,
+   "W_max_MPa": 205.58561219723038,
+   "W_nodos_mayor_150MPa": 26,
+   "W_caja_mayor_150MPa_mm": [
+    [
+     435.779,
+     460.005
+    ],
+    [
+     572.016,
+     576.334
+    ],
+    [
+     788.984,
+     792.615
+    ]
+   ],
+   "W_local_p99_MPa": 61.45242089525282,
+   "W_local_p999_MPa": 93.0701504702292,
+   "W_local_max_MPa": 205.58561219723038,
+   "soporte_p99_MPa": 30.704281473148008,
+   "soporte_p999_MPa": 53.39708144329519,
+   "soporte_max_MPa": 183.67329491025635,
+   "soporte_nodos_mayor_150MPa": 7,
+   "soporte_caja_mayor_150MPa_mm": [
+    [
+     455.998,
+     458.0
+    ],
+    [
+     569.709,
+     578.641
+    ],
+    [
+     788.095,
+     790.0
+    ]
+   ],
+   "soporte_nodos": 125223,
+   "W_nodos": 163789,
+   "W_local_nodos": 100596
+  }
+ ]
+}

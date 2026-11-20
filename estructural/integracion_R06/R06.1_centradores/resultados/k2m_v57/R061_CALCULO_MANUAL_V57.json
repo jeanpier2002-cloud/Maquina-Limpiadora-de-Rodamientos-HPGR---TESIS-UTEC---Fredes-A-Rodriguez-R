@@ -1,0 +1,699 @@
+{
+ "script": "r061_calculo_manual_v57.py",
+ "estado": "CRIBADO_MANUAL_HIPOTESIS",
+ "phi_Rn_filete_N_mm": 921.23514,
+ "hipotesis": [
+  "ISO 8.8 asimilado a A325-N; M10 pretensado a 10 kN (par controlado, a especificar)",
+  "rozamiento 0,20 en lavado (sin clase de superficie certificada); phi 0,70 = reduccion adoptada (no categoria AISC)",
+  "MORDAZA v5.7 SIN TALON: la zapata exterior no equilibra el vuelco (mecanismo); pernos y deslizamiento solo como referencia",
+  "vuelco: palancas 60 mm (giro sobre el alma) y 100 mm (entre estaciones), sin reparto con el alma",
+  "cordones E70 de 6 mm; A36 Fy 250 / Fu 400 no certificado",
+  "carga en Z955 con |F| = 1,0198 x normal (rozamiento del rodillo 0,20)"
+ ],
+ "casos": [
+  {
+   "unidad": 1,
+   "caso": "F2080_s-1",
+   "F_normal_N": 1400.0,
+   "F_N": [
+    868.8017012851305,
+    1132.9534870611692,
+    0.0
+   ],
+   "|F|_N": 1427.7254638059799,
+   "P_mm": [
+    324.19305483968344,
+    659.6391916750505,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": -336.48718565716723,
+    "My_Nm": 258.03410528168376,
+    "Mz_Nm": -146.54173614434382,
+    "Tu_N": 4094.2304068848125,
+    "V_rozamiento_N": 821.0168543305128,
+    "DC_traccion_J3_7": 0.11584302354006397,
+    "DC_cortante": 0.03871670836398806,
+    "ksc": 0.6376787250544413,
+    "DC_deslizamiento": 0.4069243421246776,
+    "DC_descompresion": 0.40942304068848123
+   },
+   "contraplaca_voladizo_MPa": 117.04832539992643,
+   "labio_voladizo_MPa": 78.28306022307979,
+   "labio_raiz_MPa": 89.06582262591239,
+   "placa_vertical_base_MPa": 76.89295646433699,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 333.5403736373212,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 42.54664801015452,
+    "DC": 0.04618435203215818,
+    "DC_metal_base_10mm_cortante": 0.02836443200676968,
+    "DC_metal_base_10mm_traccion": 0.017933045133318382
+   },
+   "caja_nominal": {
+    "sigma_MPa": 5.421970081497818,
+    "tau_Bredt_MPa": 1.5906091753326255,
+    "von_Mises_MPa": 6.0817655504478685
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.10962555960728532,
+   "cordon_pedestal_base_Z805_DC": 0.09044108667601039,
+   "cordon_alojamiento_base_Z811_DC": 0.1899262820196218,
+   "alojamiento_flexion_MPa": 37.59312655305175,
+   "pedestal_flexion_MPa": 12.782785840307353
+  },
+  {
+   "unidad": 1,
+   "caso": "F2080_s-1",
+   "F_normal_N": 2000.0,
+   "F_N": [
+    1241.1452875501864,
+    1618.5049815159557,
+    0.0
+   ],
+   "|F|_N": 2039.6078054371137,
+   "P_mm": [
+    324.19305483968344,
+    659.6391916750505,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": -480.6959795102389,
+    "My_Nm": 368.62015040240533,
+    "Mz_Nm": -209.3453373490626,
+    "Tu_N": 5848.900581264017,
+    "V_rozamiento_N": 1172.8812204721612,
+    "DC_traccion_J3_7": 0.1654900336286628,
+    "DC_cortante": 0.0553095833771258,
+    "ksc": 0.482398178649202,
+    "DC_deslizamiento": 0.7684434239611827,
+    "DC_descompresion": 0.5848900581264017
+   },
+   "contraplaca_voladizo_MPa": 131.62033107963754,
+   "labio_voladizo_MPa": 88.02895957104776,
+   "labio_raiz_MPa": 127.2368894655891,
+   "placa_vertical_base_MPa": 109.84708066333853,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 476.4862480533159,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 60.78092572879215,
+    "DC": 0.06597764576022594,
+    "DC_metal_base_10mm_cortante": 0.040520617152528096,
+    "DC_metal_base_10mm_traccion": 0.025618635904740537
+   },
+   "caja_nominal": {
+    "sigma_MPa": 7.745671544996881,
+    "tau_Bredt_MPa": 2.2722988219037505,
+    "von_Mises_MPa": 8.68823650063981
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.15660794229612182,
+   "cordon_pedestal_base_Z805_DC": 0.12920155239430053,
+   "cordon_alojamiento_base_Z811_DC": 0.2713232600280311,
+   "alojamiento_flexion_MPa": 53.70446650435964,
+   "pedestal_flexion_MPa": 18.2611226290105
+  },
+  {
+   "unidad": 1,
+   "caso": "F2080_s-1",
+   "F_normal_N": 2080.0,
+   "F_N": [
+    1290.7910990521939,
+    1683.245180776594,
+    0.0
+   ],
+   "|F|_N": 2121.1921176545984,
+   "P_mm": [
+    324.19305483968344,
+    659.6391916750505,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": -499.92381869064843,
+    "My_Nm": 383.36495641850155,
+    "Mz_Nm": -217.7191508430251,
+    "Tu_N": 6082.856604514578,
+    "V_rozamiento_N": 1219.7964692910475,
+    "DC_traccion_J3_7": 0.1721096349738093,
+    "DC_cortante": 0.057521966712210826,
+    "ksc": 0.46169410579517,
+    "DC_deslizamiento": 0.835019402672256,
+    "DC_descompresion": 0.6082856604514578
+   },
+   "contraplaca_voladizo_MPa": 133.5632651702657,
+   "labio_voladizo_MPa": 89.3284128174435,
+   "labio_raiz_MPa": 132.32636504421265,
+   "placa_vertical_base_MPa": 114.24096388987208,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 495.5456979754485,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 63.21216275794384,
+    "DC": 0.06861675159063498,
+    "DC_metal_base_10mm_cortante": 0.04214144183862922,
+    "DC_metal_base_10mm_traccion": 0.02664338134093016
+   },
+   "caja_nominal": {
+    "sigma_MPa": 8.055498406796758,
+    "tau_Bredt_MPa": 2.3631907747799,
+    "von_Mises_MPa": 9.035765960665405
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.16287225998796673,
+   "cordon_pedestal_base_Z805_DC": 0.13436961449007256,
+   "cordon_alojamiento_base_Z811_DC": 0.2821761904291523,
+   "alojamiento_flexion_MPa": 55.852645164534025,
+   "pedestal_flexion_MPa": 18.991567534170922
+  },
+  {
+   "unidad": 1,
+   "caso": "F2080_s+1",
+   "F_normal_N": 1400.0,
+   "F_N": [
+    366.2194600089016,
+    1379.9577193199757,
+    0.0
+   ],
+   "|F|_N": 1427.7254638059799,
+   "P_mm": [
+    324.19305483968344,
+    659.6391916750505,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": -409.84744263803276,
+    "My_Nm": 108.76717962264377,
+    "Mz_Nm": -119.34953664553947,
+    "Tu_N": 3959.2312534301586,
+    "V_rozamiento_N": 704.1537916510948,
+    "DC_traccion_J3_7": 0.11202332885819205,
+    "DC_cortante": 0.03320579455945847,
+    "ksc": 0.6496255527937912,
+    "DC_deslizamiento": 0.3425846879262614,
+    "DC_descompresion": 0.3959231253430159
+   },
+   "contraplaca_voladizo_MPa": 115.92719821624166,
+   "labio_voladizo_MPa": 77.53323944146456,
+   "labio_raiz_MPa": 108.48377348572976,
+   "placa_vertical_base_MPa": 89.3410099272045,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 406.2581726100815,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 45.68681584717609,
+    "DC": 0.049593001681607685,
+    "DC_metal_base_10mm_cortante": 0.030457877231450728,
+    "DC_metal_base_10mm_traccion": 0.020147216341701447
+   },
+   "caja_nominal": {
+    "sigma_MPa": 6.104162918961866,
+    "tau_Bredt_MPa": 0.6704775467334687,
+    "von_Mises_MPa": 6.213648313450822
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.10962555960728532,
+   "cordon_pedestal_base_Z805_DC": 0.09044108667601039,
+   "cordon_alojamiento_base_Z811_DC": 0.1899262820196218,
+   "alojamiento_flexion_MPa": 37.59312655305175,
+   "pedestal_flexion_MPa": 12.782785840307353
+  },
+  {
+   "unidad": 1,
+   "caso": "F2080_s+1",
+   "F_normal_N": 2000.0,
+   "F_N": [
+    523.1706571555737,
+    1971.3681704571081,
+    0.0
+   ],
+   "|F|_N": 2039.6078054371142,
+   "P_mm": [
+    324.19305483968344,
+    659.6391916750505,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": -585.4963466257611,
+    "My_Nm": 155.3816851752054,
+    "Mz_Nm": -170.4993380650564,
+    "Tu_N": 5656.04464775737,
+    "V_rozamiento_N": 1005.9339880729925,
+    "DC_traccion_J3_7": 0.16003332694027436,
+    "DC_cortante": 0.04743684937065495,
+    "ksc": 0.49946507541970175,
+    "DC_deslizamiento": 0.636543197413396,
+    "DC_descompresion": 0.565604464775737
+   },
+   "contraplaca_voladizo_MPa": 130.01872081723076,
+   "labio_voladizo_MPa": 86.95778702588315,
+   "labio_raiz_MPa": 154.97681926532823,
+   "placa_vertical_base_MPa": 127.63001418172071,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 580.3688180144022,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 65.26687978168015,
+    "DC": 0.07084714525943957,
+    "DC_metal_base_10mm_cortante": 0.043511253187786765,
+    "DC_metal_base_10mm_traccion": 0.02878173763100207
+   },
+   "caja_nominal": {
+    "sigma_MPa": 8.720232741374096,
+    "tau_Bredt_MPa": 0.9578250667620983,
+    "von_Mises_MPa": 8.87664044778689
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.1566079422961219,
+   "cordon_pedestal_base_Z805_DC": 0.12920155239430056,
+   "cordon_alojamiento_base_Z811_DC": 0.27132326002803114,
+   "alojamiento_flexion_MPa": 53.704466504359644,
+   "pedestal_flexion_MPa": 18.261122629010504
+  },
+  {
+   "unidad": 1,
+   "caso": "F2080_s+1",
+   "F_normal_N": 2080.0,
+   "F_N": [
+    544.0974834417966,
+    2050.2228972753924,
+    0.0
+   ],
+   "|F|_N": 2121.1921176545984,
+   "P_mm": [
+    324.19305483968344,
+    659.6391916750505,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": -608.9162004907915,
+    "My_Nm": 161.5969525822136,
+    "Mz_Nm": -177.31931158765863,
+    "Tu_N": 5882.286433667665,
+    "V_rozamiento_N": 1046.1713475959123,
+    "DC_traccion_J3_7": 0.16643466001788534,
+    "DC_cortante": 0.04933432334548115,
+    "ksc": 0.4794436784364897,
+    "DC_deslizamiento": 0.6896500148388943,
+    "DC_descompresion": 0.5882286433667665
+   },
+   "contraplaca_voladizo_MPa": 131.89759049736264,
+   "labio_voladizo_MPa": 88.21439337047231,
+   "labio_raiz_MPa": 161.17589203594133,
+   "placa_vertical_base_MPa": 132.7352147489895,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 603.5835707349781,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 67.87755497294735,
+    "DC": 0.07368103106981715,
+    "DC_metal_base_10mm_cortante": 0.045251703315298236,
+    "DC_metal_base_10mm_traccion": 0.029933007136242154
+   },
+   "caja_nominal": {
+    "sigma_MPa": 9.069042051029058,
+    "tau_Bredt_MPa": 0.9961380694325822,
+    "von_Mises_MPa": 9.231706065698363
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.16287225998796673,
+   "cordon_pedestal_base_Z805_DC": 0.13436961449007256,
+   "cordon_alojamiento_base_Z811_DC": 0.2821761904291523,
+   "alojamiento_flexion_MPa": 55.852645164534025,
+   "pedestal_flexion_MPa": 18.991567534170922
+  },
+  {
+   "unidad": 3,
+   "caso": "F2080_s-1",
+   "F_normal_N": 1400.0,
+   "F_N": [
+    546.7656504585718,
+    -1318.8810876946472,
+    0.0
+   ],
+   "|F|_N": 1427.72546380598,
+   "P_mm": [
+    409.1677699025847,
+    -610.5790170591728,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": 391.70768304531026,
+    "My_Nm": 162.38939818619585,
+    "Mz_Nm": -8.013305326527389,
+    "Tu_N": 4076.177682975231,
+    "V_rozamiento_N": 379.8333429662995,
+    "DC_traccion_J3_7": 0.11533223594068918,
+    "DC_cortante": 0.01791180861754245,
+    "ksc": 0.6392763112411299,
+    "DC_deslizamiento": 0.18778807034802358,
+    "DC_descompresion": 0.4076177682975231
+   },
+   "contraplaca_voladizo_MPa": 116.89840298192112,
+   "labio_voladizo_MPa": 78.18279064948787,
+   "labio_raiz_MPa": 103.68230502205927,
+   "placa_vertical_base_MPa": 86.61395993574823,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 388.27727333621647,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 37.033824608071626,
+    "DC": 0.04020018668422877,
+    "DC_metal_base_10mm_cortante": 0.024689216405381083,
+    "DC_metal_base_10mm_traccion": 0.016020745607532975
+   },
+   "caja_nominal": {
+    "sigma_MPa": 4.880302062902118,
+    "tau_Bredt_MPa": 1.0010229711678398,
+    "von_Mises_MPa": 5.179139811936316
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.10962555960728533,
+   "cordon_pedestal_base_Z805_DC": 0.09044108667601039,
+   "cordon_alojamiento_base_Z811_DC": 0.1899262820196218,
+   "alojamiento_flexion_MPa": 37.59312655305176,
+   "pedestal_flexion_MPa": 12.782785840307357
+  },
+  {
+   "unidad": 3,
+   "caso": "F2080_s-1",
+   "F_normal_N": 2000.0,
+   "F_N": [
+    781.0937863693882,
+    -1884.1158395637815,
+    0.0
+   ],
+   "|F|_N": 2039.6078054371142,
+   "P_mm": [
+    409.1677699025847,
+    -610.5790170591728,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": 559.5824043504432,
+    "My_Nm": 231.9848545517083,
+    "Mz_Nm": -11.447579037896263,
+    "Tu_N": 5823.110975678901,
+    "V_rozamiento_N": 542.6190613804278,
+    "DC_traccion_J3_7": 0.1647603370581274,
+    "DC_cortante": 0.025588298025060636,
+    "ksc": 0.48468044463018567,
+    "DC_deslizamiento": 0.3538368607817527,
+    "DC_descompresion": 0.5823110975678901
+   },
+   "contraplaca_voladizo_MPa": 131.40615619677288,
+   "labio_voladizo_MPa": 87.88571732305934,
+   "labio_raiz_MPa": 148.11757860294182,
+   "placa_vertical_base_MPa": 123.7342284796403,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 554.6818190517376,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 52.90546372581659,
+    "DC": 0.05742883812032679,
+    "DC_metal_base_10mm_cortante": 0.03527030915054439,
+    "DC_metal_base_10mm_traccion": 0.022886779439332813
+   },
+   "caja_nominal": {
+    "sigma_MPa": 6.971860089860168,
+    "tau_Bredt_MPa": 1.4300328159540565,
+    "von_Mises_MPa": 7.398771159909021
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.1566079422961219,
+   "cordon_pedestal_base_Z805_DC": 0.12920155239430056,
+   "cordon_alojamiento_base_Z811_DC": 0.27132326002803114,
+   "alojamiento_flexion_MPa": 53.704466504359644,
+   "pedestal_flexion_MPa": 18.261122629010504
+  },
+  {
+   "unidad": 3,
+   "caso": "F2080_s-1",
+   "F_normal_N": 2080.0,
+   "F_N": [
+    812.3375378241637,
+    -1959.4804731463328,
+    0.0
+   ],
+   "|F|_N": 2121.192117654599,
+   "P_mm": [
+    409.1677699025847,
+    -610.5790170591728,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": 581.9657005244609,
+    "My_Nm": 241.2642487337766,
+    "Mz_Nm": -11.905482199412116,
+    "Tu_N": 6056.035414706057,
+    "V_rozamiento_N": 564.3238238356448,
+    "DC_traccion_J3_7": 0.17135075054045248,
+    "DC_cortante": 0.026611829946063058,
+    "ksc": 0.4640676624153931,
+    "DC_deslizamiento": 0.3843355909833006,
+    "DC_descompresion": 0.6056035414706057
+   },
+   "contraplaca_voladizo_MPa": 133.34052329208643,
+   "labio_voladizo_MPa": 89.17944087953553,
+   "labio_raiz_MPa": 154.04228174705946,
+   "placa_vertical_base_MPa": 128.6835976188259,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 576.8690918138072,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 55.02168227484926,
+    "DC": 0.05972599164513987,
+    "DC_metal_base_10mm_cortante": 0.036681121516566176,
+    "DC_metal_base_10mm_traccion": 0.023802250616906127
+   },
+   "caja_nominal": {
+    "sigma_MPa": 7.2507344934545745,
+    "tau_Bredt_MPa": 1.487234128592219,
+    "von_Mises_MPa": 7.6947220063053825
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.16287225998796678,
+   "cordon_pedestal_base_Z805_DC": 0.13436961449007256,
+   "cordon_alojamiento_base_Z811_DC": 0.2821761904291524,
+   "alojamiento_flexion_MPa": 55.85264516453404,
+   "pedestal_flexion_MPa": 18.99156753417093
+  },
+  {
+   "unidad": 3,
+   "caso": "F2080_s+1",
+   "F_normal_N": 1400.0,
+   "F_N": [
+    1011.9687110750846,
+    -1007.1342153879159,
+    0.0
+   ],
+   "|F|_N": 1427.72546380598,
+   "P_mm": [
+    409.1677699025847,
+    -610.5790170591728,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": 299.118861970211,
+    "My_Nm": 300.5547071893001,
+    "Mz_Nm": 15.520940888974899,
+    "Tu_N": 3995.4307190315926,
+    "V_rozamiento_N": 406.44287923184896,
+    "DC_traccion_J3_7": 0.11304756421601486,
+    "DC_cortante": 0.019166635056074376,
+    "ksc": 0.6464220602626909,
+    "DC_deslizamiento": 0.19872242369229381,
+    "DC_descompresion": 0.39954307190315924
+   },
+   "contraplaca_voladizo_MPa": 116.22782384152947,
+   "labio_voladizo_MPa": 77.73430078812285,
+   "labio_raiz_MPa": 79.17468670396042,
+   "placa_vertical_base_MPa": 69.84837643116036,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 296.49930587598703,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 30.866650529062632,
+    "DC": 0.033505724205290986,
+    "DC_metal_base_10mm_cortante": 0.02057776701937509,
+    "DC_metal_base_10mm_traccion": 0.011806054363397765
+   },
+   "caja_nominal": {
+    "sigma_MPa": 3.6005981154656888,
+    "tau_Bredt_MPa": 1.852720493761203,
+    "von_Mises_MPa": 4.823072306435322
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.10962555960728533,
+   "cordon_pedestal_base_Z805_DC": 0.09044108667601039,
+   "cordon_alojamiento_base_Z811_DC": 0.1899262820196218,
+   "alojamiento_flexion_MPa": 37.59312655305176,
+   "pedestal_flexion_MPa": 12.782785840307357
+  },
+  {
+   "unidad": 3,
+   "caso": "F2080_s+1",
+   "F_normal_N": 2000.0,
+   "F_N": [
+    1445.6695872501207,
+    -1438.76316483988,
+    0.0
+   ],
+   "|F|_N": 2039.6078054371144,
+   "P_mm": [
+    409.1677699025847,
+    -610.5790170591728,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": 427.31265995744434,
+    "My_Nm": 429.36386741328585,
+    "Mz_Nm": 22.172772698535567,
+    "Tu_N": 5707.758170045132,
+    "V_rozamiento_N": 580.6326846169271,
+    "DC_traccion_J3_7": 0.16149652030859263,
+    "DC_cortante": 0.027380907222963394,
+    "ksc": 0.4948886575181298,
+    "DC_deslizamiento": 0.3708151797439176,
+    "DC_descompresion": 0.5707758170045132
+   },
+   "contraplaca_voladizo_MPa": 130.4481859962133,
+   "labio_voladizo_MPa": 87.24501752110928,
+   "labio_raiz_MPa": 113.10669529137203,
+   "placa_vertical_base_MPa": 99.78339490165766,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 423.5704369656958,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 44.09521504151805,
+    "DC": 0.047865320293272846,
+    "DC_metal_base_10mm_cortante": 0.029396810027678702,
+    "DC_metal_base_10mm_traccion": 0.016865791947711095
+   },
+   "caja_nominal": {
+    "sigma_MPa": 5.143711593522412,
+    "tau_Bredt_MPa": 2.646743562516004,
+    "von_Mises_MPa": 6.890103294907602
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.1566079422961219,
+   "cordon_pedestal_base_Z805_DC": 0.12920155239430056,
+   "cordon_alojamiento_base_Z811_DC": 0.2713232600280312,
+   "alojamiento_flexion_MPa": 53.70446650435966,
+   "pedestal_flexion_MPa": 18.261122629010508
+  },
+  {
+   "unidad": 3,
+   "caso": "F2080_s+1",
+   "F_normal_N": 2080.0,
+   "F_N": [
+    1503.4963707401255,
+    -1496.313691433475,
+    0.0
+   ],
+   "|F|_N": 2121.192117654599,
+   "P_mm": [
+    409.1677699025847,
+    -610.5790170591728,
+    955.0
+   ],
+   "pernos": {
+    "Mx_Nm": 444.4051663557421,
+    "My_Nm": 446.53842210981725,
+    "Mz_Nm": 23.059683606476984,
+    "Tu_N": 5936.068496846938,
+    "V_rozamiento_N": 603.8579920016041,
+    "DC_traccion_J3_7": 0.16795638112093636,
+    "DC_cortante": 0.028476143511881925,
+    "ksc": 0.474684203818855,
+    "DC_deslizamiento": 0.40206249547599315,
+    "DC_descompresion": 0.5936068496846938
+   },
+   "contraplaca_voladizo_MPa": 132.34423428350453,
+   "labio_voladizo_MPa": 88.51311308550748,
+   "labio_raiz_MPa": 117.63096310302693,
+   "placa_vertical_base_MPa": 103.77473069772395,
+   "zapata_exterior_sin_talon": {
+    "M_vuelco_Nm": 440.5132544443236,
+    "M_resistente_Nm": 0.0,
+    "estado": "MECANISMO: no equilibra sin talon o calzo (v5.7.1)"
+   },
+   "perno_e2_mm": 8.0,
+   "perno_e2_minimo_EN_mm": 13.2,
+   "desgarro_J3_10_phiRn_N": 9126.0,
+   "soldadura_raiz_caja": {
+    "f_N_mm": 45.85902364317876,
+    "DC": 0.04977993310500375,
+    "DC_metal_base_10mm_cortante": 0.03057268242878584,
+    "DC_metal_base_10mm_traccion": 0.017540423625619535
+   },
+   "caja_nominal": {
+    "sigma_MPa": 5.349460057263308,
+    "tau_Bredt_MPa": 2.7526133050166437,
+    "von_Mises_MPa": 7.165707426703906
+   },
+   "zapata_placa_labio": "filete por un lado NO valido; una pieza o penetracion completa (ver placa_vertical_base_MPa)",
+   "cordon_pedestal_placa_Z770_DC": 0.16287225998796678,
+   "cordon_pedestal_base_Z805_DC": 0.13436961449007256,
+   "cordon_alojamiento_base_Z811_DC": 0.2821761904291524,
+   "alojamiento_flexion_MPa": 55.85264516453404,
+   "pedestal_flexion_MPa": 18.99156753417093
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+﻿tabla;archivo;registros
+Combination Definitions;Combination_Definitions.csv;41
+Connectivity - Frame;Connectivity_Frame.csv;74
+Constraint Definitions - Body;Constraint_Definitions_Body.csv;1
+Frame Release Assignments 1 - General;Frame_Release_Assignments_1_General.csv;22
+Frame Section Assignments;Frame_Section_Assignments.csv;74
+Frame Section Properties 01 - General;Frame_Section_Properties_01_General.csv;4
+Joint Constraint Assignments;Joint_Constraint_Assignments.csv;11
+Joint Coordinates;Joint_Coordinates.csv;65
+Joint Loads - Force;Joint_Loads_Force.csv;11
+Joint Restraint Assignments;Joint_Restraint_Assignments.csv;4
+Load Case Definitions;Load_Case_Definitions.csv;11
+Load Pattern Definitions;Load_Pattern_Definitions.csv;7
+Mass Source;Mass_Source.csv;2
+Material Properties 02 - Basic Mechanical Properties;Material_Properties_02_Basic_Mechanical_Properties.csv;6
+Preferences - Steel Design - AISC 360-16;Preferences_Steel_Design_AISC_360_16.csv;1
+Program Control;Program_Control.csv;1
+Base Reactions;Base_Reactions.csv;48
+Buckling Factors;Buckling_Factors.csv;18
+Element Forces - Frames;Element_Forces_Frames.csv;9120
+Joint Displacements;Joint_Displacements.csv;3120
+Joint Reactions;Joint_Reactions.csv;192
+Modal Participating Mass Ratios;Modal_Participating_Mass_Ratios.csv;12
+Modal Periods And Frequencies;Modal_Periods_And_Frequencies.csv;12
+Steel Design 1 - Summary Data - AISC 360-16;Steel_Design_1_Summary_Data_AISC_360_16.csv;74

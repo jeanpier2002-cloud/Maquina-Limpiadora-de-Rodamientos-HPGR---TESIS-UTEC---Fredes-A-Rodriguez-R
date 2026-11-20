@@ -1,0 +1,229 @@
+{
+ "fuente_reacciones": "anexo_sap/tablas_sap/K34_K32_SISMO_E030_api/Joint_Reactions.csv",
+ "bases": [
+  "1",
+  "6",
+  "11",
+  "16"
+ ],
+ "Om0": 3.0,
+ "vertical_sismico": 0.197,
+ "opciones_anclaje": [
+  {
+   "d": 12,
+   "hef": 100,
+   "placa_mm": 200,
+   "s_mm": 130,
+   "t_placa_mm": 12,
+   "cap_kN": {
+    "Nsa": 59.01,
+    "Vsa": 28.32,
+    "fila": 8.99,
+    "uno": 5.28,
+    "grupo": 15.32,
+    "Vcp": 30.65,
+    "cNa": 92.34
+   },
+   "peor": {
+    "DC": 3.975,
+    "DC_N": 3.975,
+    "DC_V": 0.131,
+    "interaccion": 3.975,
+    "base": "6",
+    "combo": "U4O_SXN",
+    "N_kN": -3.22,
+    "Mx_kNm": 0.023,
+    "My_kNm": 2.535,
+    "V_kN": 1.96,
+    "T_esquina_kN": 7.45
+   },
+   "placa": {
+    "T_max_anclaje_kN": 7.45,
+    "voladizo_mm": 25.0,
+    "b_ef_mm": 50.0,
+    "t_req_mm": 8.1,
+    "cumple": true
+   },
+   "tau_cr_requerido_MPa": 5.56,
+   "con_tau_requerido": {
+    "DC": 1.0,
+    "gobierna": "U4O_SXN",
+    "DC_N": 1.0
+   }
+  },
+  {
+   "d": 12,
+   "hef": 110,
+   "placa_mm": 220,
+   "s_mm": 150,
+   "t_placa_mm": 12,
+   "cap_kN": {
+    "Nsa": 59.01,
+    "Vsa": 28.32,
+    "fila": 10.52,
+    "uno": 5.81,
+    "grupo": 19.07,
+    "Vcp": 38.13,
+    "cNa": 92.34
+   },
+   "peor": {
+    "DC": 2.986,
+    "DC_N": 2.986,
+    "DC_V": 0.106,
+    "interaccion": 2.986,
+    "base": "6",
+    "combo": "U4O_SXN",
+    "N_kN": -3.22,
+    "Mx_kNm": 0.023,
+    "My_kNm": 2.535,
+    "V_kN": 1.96,
+    "T_esquina_kN": 6.55
+   },
+   "placa": {
+    "T_max_anclaje_kN": 6.55,
+    "voladizo_mm": 35.0,
+    "b_ef_mm": 70.0,
+    "t_req_mm": 7.6,
+    "cumple": true
+   },
+   "tau_cr_requerido_MPa": 4.18,
+   "con_tau_requerido": {
+    "DC": 1.0,
+    "gobierna": "U4O_SXN",
+    "DC_N": 1.0
+   }
+  },
+  {
+   "d": 12,
+   "hef": 110,
+   "placa_mm": 250,
+   "s_mm": 170,
+   "t_placa_mm": 12,
+   "cap_kN": {
+    "Nsa": 59.01,
+    "Vsa": 28.32,
+    "fila": 11.15,
+    "uno": 5.81,
+    "grupo": 21.41,
+    "Vcp": 42.83,
+    "cNa": 92.34
+   },
+   "peor": {
+    "DC": 2.441,
+    "DC_N": 2.441,
+    "DC_V": 0.094,
+    "interaccion": 2.441,
+    "base": "6",
+    "combo": "U4O_SXN",
+    "N_kN": -3.22,
+    "Mx_kNm": 0.023,
+    "My_kNm": 2.535,
+    "V_kN": 1.96,
+    "T_esquina_kN": 5.67
+   },
+   "placa": {
+    "T_max_anclaje_kN": 5.67,
+    "voladizo_mm": 45.0,
+    "b_ef_mm": 90.0,
+    "t_req_mm": 7.1,
+    "cumple": true
+   },
+   "tau_cr_requerido_MPa": 3.42,
+   "con_tau_requerido": {
+    "DC": 1.0,
+    "gobierna": "U4O_SXN",
+    "DC_N": 1.0
+   }
+  },
+  {
+   "d": 16,
+   "hef": 125,
+   "placa_mm": 250,
+   "s_mm": 170,
+   "t_placa_mm": 12,
+   "cap_kN": {
+    "Nsa": 109.9,
+    "Vsa": 52.75,
+    "fila": 14.87,
+    "uno": 8.8,
+    "grupo": 25.14,
+    "Vcp": 50.27,
+    "cNa": 123.12
+   },
+   "peor": {
+    "DC": 1.83,
+    "DC_N": 1.83,
+    "DC_V": 0.08,
+    "interaccion": 1.83,
+    "base": "6",
+    "combo": "U4O_SXN",
+    "N_kN": -3.22,
+    "Mx_kNm": 0.023,
+    "My_kNm": 2.535,
+    "V_kN": 1.96,
+    "T_esquina_kN": 5.67
+   },
+   "placa": {
+    "T_max_anclaje_kN": 5.67,
+    "voladizo_mm": 45.0,
+    "b_ef_mm": 90.0,
+    "t_req_mm": 7.1,
+    "cumple": true
+   },
+   "tau_cr_requerido_MPa": 2.56,
+   "con_tau_requerido": {
+    "DC": 1.0,
+    "gobierna": "U4O_SXN",
+    "DC_N": 1.0
+   }
+  },
+  {
+   "d": 16,
+   "hef": 150,
+   "placa_mm": 250,
+   "s_mm": 170,
+   "t_placa_mm": 12,
+   "cap_kN": {
+    "Nsa": 109.9,
+    "Vsa": 52.75,
+    "fila": 17.84,
+    "uno": 10.56,
+    "grupo": 30.16,
+    "Vcp": 60.32,
+    "cNa": 123.12
+   },
+   "peor": {
+    "DC": 1.525,
+    "DC_N": 1.525,
+    "DC_V": 0.067,
+    "interaccion": 1.525,
+    "base": "6",
+    "combo": "U4O_SXN",
+    "N_kN": -3.22,
+    "Mx_kNm": 0.023,
+    "My_kNm": 2.535,
+    "V_kN": 1.96,
+    "T_esquina_kN": 5.67
+   },
+   "placa": {
+    "T_max_anclaje_kN": 5.67,
+    "voladizo_mm": 45.0,
+    "b_ef_mm": 90.0,
+    "t_req_mm": 7.1,
+    "cumple": true
+   },
+   "tau_cr_requerido_MPa": 2.13,
+   "con_tau_requerido": {
+    "DC": 1.0,
+    "gobierna": "U4O_SXN",
+    "DC_N": 1.0
+   }
+  }
+ ],
+ "soldadura": {
+  "filete_mm": 3.0,
+  "esfuerzo_max_MPa": 65.7,
+  "phiRn_MPa": 216.9,
+  "DC": 0.303
+ }
+}

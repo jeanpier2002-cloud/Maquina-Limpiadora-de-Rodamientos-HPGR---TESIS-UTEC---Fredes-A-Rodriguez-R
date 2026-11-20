@@ -1,0 +1,328 @@
+﻿freecadcmd.exe : <TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+En C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\scripts\r061_lote_f
+em_contacto_v573.ps1: 24 Carácter: 5
++     & "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" -c "exec(open ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (<TopoShape> Top...hasher mismatch:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+<TopoShape> TopoShapeExpansion.cpp(983): hasher mismatch
+Importing project files......
+						(0 %)	
+						(1 %)	
+						(2 %)	
+						(3 %)	
+						(4 %)	
+						(5 %)	
+						(6 %)	
+						(7 %)	
+						(8 %)	
+						(9 %)	
+						(10 %)	
+						(11 %)	
+						(12 %)	
+						(13 %)	
+						(14 %)	
+						(15 %)	
+						(16 %)	
+						(17 %)	
+						(18 %)	
+						(19 %)	
+						(20 %)	
+						(21 %)	
+						(22 %)	
+						(23 %)	
+						(24 %)	
+						(25 %)	
+						(26 %)	
+						(27 %)	
+						(28 %)	
+						(29 %)	
+						(30 %)	
+						(31 %)	
+						(32 %)	
+						(33 %)	
+						(34 %)	
+						(35 %)	
+						(36 %)	
+						(37 %)	
+						(38 %)	
+						(39 %)	
+						(40 %)	
+						(41 %)	
+						(42 %)	
+						(43 %)	
+						(44 %)	
+						(45 %)	
+						(46 %)	
+						(47 %)	
+						(48 %)	
+						(49 %)	
+						(50 %)	
+						(51 %)	
+						(52 %)	
+						(53 %)	
+						(54 %)	
+						(55 %)	
+						(56 %)	
+						(57 %)	
+						(58 %)	
+						(59 %)	
+						(60 %)	
+						(61 %)	
+						(62 %)	
+						(63 %)	
+						(64 %)	
+						(65 %)	
+						(66 %)	
+						(67 %)	
+						(68 %)	
+						(69 %)	
+						(70 %)	
+						(71 %)	
+						(72 %)	
+						(73 %)	
+						(74 %)	
+						(75 %)	
+						(76 %)	
+						(77 %)	
+						(78 %)	
+						(79 %)	
+						(80 %)	
+						(81 %)	
+						(82 %)	
+						(83 %)	
+						(84 %)	
+						(85 %)	
+						(86 %)	
+						(87 %)	
+						(88 %)	
+						(89 %)	
+						(90 %)	
+						(91 %)	
+						(92 %)	
+						(93 %)	
+						(94 %)	
+						(95 %)	
+						(96 %)	
+						(97 %)	
+						(98 %)	
+						(99 %)	
+						(100 %)	
+								
+Postprocessing......
+						(100 %)	
+								
+Recompute......
+						(33 %)	
+						(66 %)	
+						(100 %)	
+								
+  ElementDimension: 3
+  C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\U1_SP_H9\gmsh_W\Cuerpo_W_Geometry.brep
+  C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\U1_SP_H9\gmsh_W\Cuerpo_W_Mesh.unv
+  C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\U1_SP_H9\gmsh_W\shape2mesh.geo
+  C:\Program Files\FreeCAD 1.1\bin\gmsh.EXE
+Recompute......
+						(16 %)	
+						(33 %)	
+						(50 %)	
+						(66 %)	
+						(83 %)	
+						(100 %)	
+								
+  ElementDimension: 3
+  C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\U1_SP_H9\gmsh_A\Cuerpo_A_Geometry.brep
+  C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\U1_SP_H9\gmsh_A\Cuerpo_A_Mesh.unv
+  C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\U1_SP_H9\gmsh_A\shape2mesh.geo
+  C:\Program Files\FreeCAD 1.1\bin\gmsh.EXE
+Recompute......
+						(11 %)	
+						(22 %)	
+						(33 %)	
+						(44 %)	
+						(55 %)	
+						(66 %)	
+						(77 %)	
+						(88 %)	
+						(100 %)	
+								
+  ElementDimension: 3
+  C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\U1_SP_H9\gmsh_B\Cuerpo_B_Geometry.brep
+  C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\U1_SP_H9\gmsh_B\Cuerpo_B_Mesh.unv
+  C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\U1_SP_H9\gmsh_B\shape2mesh.geo
+  C:\Program Files\FreeCAD 1.1\bin\gmsh.EXE
+Recompute......
+						(8 %)	
+						(16 %)	
+						(25 %)	
+						(33 %)	
+						(41 %)	
+						(50 %)	
+						(58 %)	
+						(66 %)	
+						(75 %)	
+						(83 %)	
+						(91 %)	
+						(100 %)	
+								
+  ElementDimension: 3
+  C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R06\R06.1_centradores\resultados\k2m_v57\fem_contacto_v573\U1_SP_H9\gmsh_C\Cuerpo_C_Geometry.brep

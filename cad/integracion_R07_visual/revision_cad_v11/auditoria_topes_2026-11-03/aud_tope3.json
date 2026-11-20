@@ -1,0 +1,356 @@
+{
+ "cartelas": {
+  "r660_-": {
+   "vol": 16000.0,
+   "choques": [
+    {
+     "o": "CTX_M06_W6X9",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": false,
+     "grupos": [
+      "NO_VIGENTE_V16"
+     ]
+    },
+    {
+     "o": "CTX_LOCATOR_01_FIXED_GUIDE",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": false,
+     "grupos": [
+      "G_R061_SUPERADOS_H9"
+     ]
+    },
+    {
+     "o": "CTX_BEARING_RETENTION_STOP_01",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": true,
+     "grupos": [
+      "G00_CONTEXTO_MESA_R05"
+     ]
+    },
+    {
+     "o": "R07_V16_M06_W6X9",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": true,
+     "grupos": [
+      "R07_V16_BASTIDOR_UNIONES"
+     ]
+    }
+   ]
+  },
+  "r660_+": {
+   "vol": 16000.0,
+   "choques": [
+    {
+     "o": "CTX_M06_W6X9",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": false,
+     "grupos": [
+      "NO_VIGENTE_V16"
+     ]
+    },
+    {
+     "o": "CTX_LOCATOR_01_FIXED_GUIDE",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": false,
+     "grupos": [
+      "G_R061_SUPERADOS_H9"
+     ]
+    },
+    {
+     "o": "CTX_BEARING_RETENTION_STOP_01",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": true,
+     "grupos": [
+      "G00_CONTEXTO_MESA_R05"
+     ]
+    },
+    {
+     "o": "R07_V16_M06_W6X9",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": true,
+     "grupos": [
+      "R07_V16_BASTIDOR_UNIONES"
+     ]
+    }
+   ]
+  },
+  "r640_-": {
+   "vol": 22400.0,
+   "choques": [
+    {
+     "o": "CTX_M06_W6X9",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": false,
+     "grupos": [
+      "NO_VIGENTE_V16"
+     ]
+    },
+    {
+     "o": "CTX_LOCATOR_01_FIXED_GUIDE",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": false,
+     "grupos": [
+      "G_R061_SUPERADOS_H9"
+     ]
+    },
+    {
+     "o": "CTX_BEARING_RETENTION_STOP_01",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": true,
+     "grupos": [
+      "G00_CONTEXTO_MESA_R05"
+     ]
+    },
+    {
+     "o": "R07_V16_M06_W6X9",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": true,
+     "grupos": [
+      "R07_V16_BASTIDOR_UNIONES"
+     ]
+    }
+   ]
+  },
+  "r640_+": {
+   "vol": 22400.0,
+   "choques": [
+    {
+     "o": "CTX_M06_W6X9",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": false,
+     "grupos": [
+      "NO_VIGENTE_V16"
+     ]
+    },
+    {
+     "o": "CTX_LOCATOR_01_FIXED_GUIDE",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": false,
+     "grupos": [
+      "G_R061_SUPERADOS_H9"
+     ]
+    },
+    {
+     "o": "CTX_BEARING_RETENTION_STOP_01",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": true,
+     "grupos": [
+      "G00_CONTEXTO_MESA_R05"
+     ]
+    },
+    {
+     "o": "R07_V16_M06_W6X9",
+     "comun": 0.0,
+     "dist": 0.0,
+     "vis": true,
+     "grupos": [
+      "R07_V16_BASTIDOR_UNIONES"
+     ]
+    }
+   ]
+  }
+ },
+ "franja_interior": [
+  {
+   "o": "CTX_BEARING_RETENTION_STOP_01",
+   "comun": 13600.0,
+   "vis": true
+  },
+  {
+   "o": "CTX_LOCATOR_01_CARRIAGE_WASH001",
+   "comun": 31620.0,
+   "vis": false
+  }
+ ],
+ "boquillas": [
+  {
+   "o": "R07_V3_BOQUILLA_RES_1_4IN",
+   "r": 3271.0,
+   "ang": 91.1,
+   "z": 270.0
+  },
+  {
+   "o": "R07_V3_BOQUILLA_RES_2_4IN",
+   "r": 3276.0,
+   "ang": 86.7,
+   "z": 270.0
+  },
+  {
+   "o": "R07_V3_BOQUILLA_RES_3_4IN",
+   "r": 3300.0,
+   "ang": 82.3,
+   "z": 270.0
+  },
+  {
+   "o": "BOQUILLA_22_INF_INT",
+   "r": 385.0,
+   "ang": 90.0,
+   "z": 842.0
+  },
+  {
+   "o": "R063 B-MEC A | O7+C2",
+   "r": 870.0,
+   "ang": 1.9,
+   "z": 843.0
+  },
+  {
+   "o": "R063 B-MEC B | O7+C2",
+   "r": 870.0,
+   "ang": 181.9,
+   "z": 843.0
+  },
+  {
+   "o": "R063 INF_EXT A | 1520 15 deg",
+   "r": 851.0,
+   "ang": 0.0,
+   "z": 850.0
+  },
+  {
+   "o": "R063 INF_EXT B | 1520 15 deg",
+   "r": 851.0,
+   "ang": 180.0,
+   "z": 850.0
+  },
+  {
+   "o": "BOQUILLA_C2_A",
+   "r": 854.0,
+   "ang": 4.0,
+   "z": 852.0
+  },
+  {
+   "o": "BOQUILLA_C2_B",
+   "r": 854.0,
+   "ang": 184.0,
+   "z": 852.0
+  },
+  {
+   "o": "BOQUILLA_17_INT_1",
+   "r": 291.0,
+   "ang": 90.0,
+   "z": 957.0
+  },
+  {
+   "o": "BOQUILLA_07_LAT_A5",
+   "r": 850.0,
+   "ang": 0.0,
+   "z": 1049.0
+  },
+  {
+   "o": "BOQUILLA_15_LAT_B5",
+   "r": 850.0,
+   "ang": 180.0,
+   "z": 1049.0
+  },
+  {
+   "o": "BOQUILLA_18_INT_2",
+   "r": 291.0,
+   "ang": 90.0,
+   "z": 1052.0
+  },
+  {
+   "o": "BOQUILLA_03_LAT_A1",
+   "r": 852.0,
+   "ang": 0.0,
+   "z": 1101.0
+  },
+  {
+   "o": "BOQUILLA_11_LAT_B1",
+   "r": 852.0,
+   "ang": 180.0,
+   "z": 1101.0
+  },
+  {
+   "o": "BOQUILLA_19_INT_3",
+   "r": 291.0,
+   "ang": 90.0,
+   "z": 1148.0
+  },
+  {
+   "o": "BOQUILLA_04_LAT_A2",
+   "r": 852.0,
+   "ang": 0.0,
+   "z": 1182.0
+  },
+  {
+   "o": "BOQUILLA_12_LAT_B2",
+   "r": 852.0,
+   "ang": 180.0,
+   "z": 1182.0
+  },
+  {
+   "o": "BOQUILLA_20_INT_4",
+   "r": 291.0,
+   "ang": 90.0,
+   "z": 1243.0
+  },
+  {
+   "o": "BOQUILLA_05_LAT_A3",
+   "r": 852.0,
+   "ang": 0.0,
+   "z": 1264.0
+  },
+  {
+   "o": "BOQUILLA_13_LAT_B3",
+   "r": 852.0,
+   "ang": 180.0,
+   "z": 1264.0
+  },
+  {
+   "o": "BOQUILLA_21_INT_5",
+   "r": 291.0,
+   "ang": 90.0,
+   "z": 1338.0
+  },
+  {
+   "o": "BOQUILLA_06_LAT_A4",
+   "r": 852.0,
+   "ang": 0.0,
+   "z": 1346.0
+  },
+  {
+   "o": "BOQUILLA_14_LAT_B4",
+   "r": 852.0,
+   "ang": 180.0,
+   "z": 1346.0
+  },
+  {
+   "o": "BOQUILLA_01_SUP_A1",
+   "r": 536.0,
+   "ang": 0.0,
+   "z": 1606.0
+  },
+  {
+   "o": "BOQUILLA_02_SUP_A2",
+   "r": 624.0,
+   "ang": 0.0,
+   "z": 1606.0
+  },
+  {
+   "o": "BOQUILLA_09_SUP_B1",
+   "r": 536.0,
+   "ang": 180.0,
+   "z": 1606.0
+  },
+  {
+   "o": "BOQUILLA_10_SUP_B2",
+   "r": 624.0,
+   "ang": 180.0,
+   "z": 1606.0
+  }
+ ]
+}

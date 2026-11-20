@@ -1,0 +1,104 @@
+{
+ "local_mm": {
+  "U1_SP": 0.3527889095003346,
+  "U1_SM": 0.3325321314988188,
+  "U3_SP": 0.3191881621312749,
+  "U3_SM": 0.34140772661456287
+ },
+ "fem800_mm": {
+  "U1_SP": 0.6405605667303863,
+  "U1_SM": 0.5710762411598792,
+  "U3_SP": 0.5119482853536772,
+  "U3_SM": 0.5922552394345434
+ },
+ "tabla": [
+  {
+   "caso": "ENV208_MMM_RIG",
+   "U1_LIBRE_global": 0.564,
+   "U1_LIBRE_total": 0.897,
+   "U1_IMPEDIDO_global": 0.225,
+   "U1_IMPEDIDO_total": 0.557,
+   "U3_LIBRE_global": 0.972,
+   "U3_LIBRE_total": 1.313,
+   "U3_IMPEDIDO_global": 0.61,
+   "U3_IMPEDIDO_total": 0.951
+  },
+  {
+   "caso": "ENV208_MMP_RIG",
+   "U1_LIBRE_global": 0.869,
+   "U1_LIBRE_total": 1.202,
+   "U1_IMPEDIDO_global": 0.534,
+   "U1_IMPEDIDO_total": 0.866,
+   "U3_LIBRE_global": 0.498,
+   "U3_LIBRE_total": 0.817,
+   "U3_IMPEDIDO_global": 0.217,
+   "U3_IMPEDIDO_total": 0.536
+  },
+  {
+   "caso": "ENV208_MPM_RIG",
+   "U1_LIBRE_global": 0.592,
+   "U1_LIBRE_total": 0.924,
+   "U1_IMPEDIDO_global": 0.252,
+   "U1_IMPEDIDO_total": 0.585,
+   "U3_LIBRE_global": 0.951,
+   "U3_LIBRE_total": 1.292,
+   "U3_IMPEDIDO_global": 0.589,
+   "U3_IMPEDIDO_total": 0.93
+  },
+  {
+   "caso": "ENV208_MPP_RIG",
+   "U1_LIBRE_global": 0.897,
+   "U1_LIBRE_total": 1.229,
+   "U1_IMPEDIDO_global": 0.561,
+   "U1_IMPEDIDO_total": 0.894,
+   "U3_LIBRE_global": 0.477,
+   "U3_LIBRE_total": 0.796,
+   "U3_IMPEDIDO_global": 0.196,
+   "U3_IMPEDIDO_total": 0.515
+  },
+  {
+   "caso": "ENV208_PMM_RIG",
+   "U1_LIBRE_global": 0.952,
+   "U1_LIBRE_total": 1.304,
+   "U1_IMPEDIDO_global": 0.543,
+   "U1_IMPEDIDO_total": 0.895,
+   "U3_LIBRE_global": 0.731,
+   "U3_LIBRE_total": 1.072,
+   "U3_IMPEDIDO_global": 0.367,
+   "U3_IMPEDIDO_total": 0.708
+  },
+  {
+   "caso": "ENV208_PMP_RIG",
+   "U1_LIBRE_global": 1.257,
+   "U1_LIBRE_total": 1.61,
+   "U1_IMPEDIDO_global": 0.852,
+   "U1_IMPEDIDO_total": 1.204,
+   "U3_LIBRE_global": 0.257,
+   "U3_LIBRE_total": 0.576,
+   "U3_IMPEDIDO_global": -0.026,
+   "U3_IMPEDIDO_total": 0.293
+  },
+  {
+   "caso": "ENV208_PPM_RIG",
+   "U1_LIBRE_global": 0.979,
+   "U1_LIBRE_total": 1.332,
+   "U1_IMPEDIDO_global": 0.57,
+   "U1_IMPEDIDO_total": 0.923,
+   "U3_LIBRE_global": 0.71,
+   "U3_LIBRE_total": 1.051,
+   "U3_IMPEDIDO_global": 0.346,
+   "U3_IMPEDIDO_total": 0.687
+  },
+  {
+   "caso": "ENV208_PPP_RIG",
+   "U1_LIBRE_global": 1.284,
+   "U1_LIBRE_total": 1.637,
+   "U1_IMPEDIDO_global": 0.879,
+   "U1_IMPEDIDO_total": 1.232,
+   "U3_LIBRE_global": 0.236,
+   "U3_LIBRE_total": 0.555,
+   "U3_IMPEDIDO_global": -0.047,
+   "U3_IMPEDIDO_total": 0.272
+  }
+ ]
+}

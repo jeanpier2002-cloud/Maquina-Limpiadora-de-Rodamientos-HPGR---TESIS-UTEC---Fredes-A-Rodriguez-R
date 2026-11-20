@@ -1,0 +1,75 @@
+{
+ "modelo_s2k": "C:\\Users\\<usuario>\\Documents\\Codex\\2026-07-06\\ho\\01_DISENO_VIGENTE\\integracion_R06\\R06.1_centradores\\resultados\\codex_desktop_v571\\sap_n3_k2m_preliminar\\N3_K2M_CAL2_M06_U1_SP.s2k",
+ "inp": "C:\\Users\\<usuario>\\AppData\\Local\\Temp\\claude\\C--Users-enriq-Documents-Codex-2026-07-06-ho\\7cc8ba95-012d-479a-9d89-b713f0aefa81\\scratchpad\\r06\\n3_ccx\\cal\\N3_K2M_CAL2_M06_U1_SP.inp",
+ "ccx": "2.22 (FreeCAD 1.1)",
+ "jmod_M05_M06": 1.0,
+ "formulacion": "U1 Euler-Bernoulli (flexion) + cadena U1 paralela con I11=I22=J/2 (torsion G*J); sin deformacion por cortante; torsion de Saint-Venant",
+ "peso_propio_total_N": 212.0096596294292,
+ "barras": {
+  "15": {
+   "I": 4,
+   "J": 8,
+   "L": 598.5,
+   "n": 12,
+   "eje": 4,
+   "GJ": 1296383694.820477
+  },
+  "16": {
+   "I": 8,
+   "J": 18,
+   "L": 719.5,
+   "n": 15,
+   "eje": 4,
+   "GJ": 1296383694.820477
+  },
+  "22": {
+   "I": 18,
+   "J": 11,
+   "L": 275.0,
+   "n": 6,
+   "eje": 4,
+   "GJ": 1296383694.820477
+  }
+ },
+ "casos": {
+  "CAL2_U1_SP": {
+   "U_juntas": {
+    "4": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "8": [
+     0.0001626075,
+     0.07439257,
+     0.002385259,
+     -0.03675354,
+     -5.091265e-06,
+     0.0001627818
+    ],
+    "11": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "18": [
+     0.0003580897,
+     0.06133895,
+     0.001519573,
+     -0.08093761,
+     1.165924e-05,
+     -0.0003230886
+    ]
+   },
+   "delta_Z955_SaintVenant_mm": {
+    "U1": 16.42592219834807
+   }
+  }
+ }
+}

@@ -1,0 +1,106 @@
+SolidWorks 32.5.0 | variantes BASE,S40,S80,LENG,CART | estudios FUERA:1,FUERA:0.6,EN:1
+##### BASE | guardado True: C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R07_visual\simulacion_lanza_colgador\modelo\UNION_W5_BASE_080019.SLDPRT
+cuerpos identificados 15 de 15
+cara de empotramiento True; cara de la brida A True
+=== BASE FUERA_h1 (U_GOLPE_FUERA_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 1 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 922986, elementos 580929 (12.3164 s)
+RunAnalysis err=0 (89.6674 s)
+TRANSV_FINO: von Mises máx 467.0144 MPa en (-199.9774; 1768.5289; -9.7531) SW
+W5_POS_FINO: von Mises máx 700.1066 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 849.2586 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 122.0977 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 185.6053 MPa en (-166.5471; 1767.383; -12.6173) SW
+TRANSV_EXT: von Mises máx 158.8269 MPa en (-272; 1726.3744; -26.8955) SW
+nodos de la superficie del tubo fino: 173316 -> nodos_BASE_FUERA_h1.csv
+imagen True
+=== BASE FUERA_h0p6 (U_GOLPE_FUERA_PLANO, malla fina 0.6 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 0.6 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 2970076, elementos 2001241 (51.6935 s)
+RunAnalysis err=0 (399.7394 s)
+TRANSV_FINO: von Mises máx 771.5452 MPa en (-199.9944; 1770.0479; -1.5029) SW
+W5_POS_FINO: von Mises máx 912.4935 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 929.0995 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 119.5088 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 184.5249 MPa en (-166.5471; 1767.383; -12.6173) SW
+TRANSV_EXT: von Mises máx 158.1547 MPa en (-272; 1726.3744; -26.8955) SW
+nodos de la superficie del tubo fino: 482252 -> nodos_BASE_FUERA_h0p6.csv
+imagen True
+=== BASE EN_h1 (U_GOLPE_EN_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (1000; 0; 0) EndEdit=0
+  control de malla 1 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 922986, elementos 580929 (12.6549 s)
+RunAnalysis err=0 (87.7944 s)
+TRANSV_FINO: von Mises máx 228.3901 MPa en (-199.9774; 1768.5289; -9.7531) SW
+W5_POS_FINO: von Mises máx 369.687 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 420.5008 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 36.0797 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 36.5973 MPa en (-170; 1710.1378; -4.1562) SW
+TRANSV_EXT: von Mises máx 83.0805 MPa en (-275.0073; 1710.023; -3.2256) SW
+nodos de la superficie del tubo fino: 173316 -> nodos_BASE_EN_h1.csv
+imagen True
+##### S40 | guardado True: C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R07_visual\simulacion_lanza_colgador\modelo\UNION_W5_S40_080019.SLDPRT
+cuerpos identificados 15 de 15
+cara de empotramiento True; cara de la brida A True
+=== S40 FUERA_h1 (U_GOLPE_FUERA_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 1 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 1099233, elementos 714446 (16.2791 s)
+RunAnalysis err=0 (133.2137 s)
+TRANSV_FINO: von Mises máx 379.4746 MPa en (-199.9774; 1768.5289; -9.7531) SW
+W5_POS_FINO: von Mises máx 669.9742 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 782.1005 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 106.4947 MPa en (-200; 1770; 0) SW
+TRANSV_CENTRO: von Mises máx 129.2565 MPa en (-170; 1766.5145; -14.3527) SW
+TRANSV_EXT: von Mises máx 116.6396 MPa en (-275.0264; 1732.0886; -29.0935) SW
+nodos de la superficie del tubo fino: 171684 -> nodos_S40_FUERA_h1.csv
+imagen True
+=== S40 FUERA_h0p6 (U_GOLPE_FUERA_PLANO, malla fina 0.6 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 0.6 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 3813966, elementos 2637485 (69.6362 s)
+RunAnalysis err=0 (472.8806 s)
+TRANSV_FINO: von Mises máx 658.8023 MPa en (-199.9944; 1770.0479; -1.5029) SW
+W5_POS_FINO: von Mises máx 862.82 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 879.6258 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 105.4812 MPa en (-200; 1770; 0) SW
+TRANSV_CENTRO: von Mises máx 128.1333 MPa en (-158.6011; 1766.1221; -15.0552) SW
+TRANSV_EXT: von Mises máx 115.9757 MPa en (-275.0264; 1732.0886; -29.0935) SW
+nodos de la superficie del tubo fino: 478532 -> nodos_S40_FUERA_h0p6.csv
+imagen True
+=== S40 EN_h1 (U_GOLPE_EN_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (1000; 0; 0) EndEdit=0
+  control de malla 1 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 1099233, elementos 714446 (16.5085 s)
+RunAnalysis err=0 (129.7996 s)
+TRANSV_FINO: von Mises máx 173.4846 MPa en (-200.2273; 1768.6659; -9.3427) SW
+W5_POS_FINO: von Mises máx 288.6655 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 332.6221 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 30.562 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 28.0109 MPa en (-170; 1709.8503; -0.1433) SW
+TRANSV_EXT: von Mises máx 64.5573 MPa en (-275.0127; 1709.8606; 0.7979) SW
+nodos de la superficie del tubo fino: 171684 -> nodos_S40_EN_h1.csv
+imagen True
+##### S80 | guardado True: C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R07_visual\simulacion_lanza_colgador\modelo\UNION_W5_S80_080019.SLDPRT
+cuerpos identificados 15 de 15
+cara de empotramiento True; cara de la brida A True
+=== S80 FUERA_h1 (U_GOLPE_FUERA_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 1 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 1375013, elementos 923312 (19.3182 s)
+RunAnalysis err=0 (156.9543 s)
+TRANSV_FINO: von Mises máx 332.6553 MPa en (-199.9774; 1768.5289; -9.7531) SW
+W5_POS_FINO: von Mises máx 636.5402 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 737.9753 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 85.4063 MPa en (-200; 1770; 0) SW
+TRANSV_CENTRO: von Mises máx 95.8085 MPa en (-170; 1766.5145; -14.3527) SW
+TRANSV_EXT: von Mises máx 93.0346 MPa en (-275.4625; 1737.3861; 30.0365) SW
+nodos de la superficie del tubo fino: 169332 -> nodos_S80_FUERA_h1.csv
+imagen True
+=== S80 FUERA_h0p6 (U_GOLPE_FUERA_PLANO, malla fina 0.6 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 0.6 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 4715562, elementos 3317836 (84.4586 s)
+RunAnalysis err=0 (660.88 s)

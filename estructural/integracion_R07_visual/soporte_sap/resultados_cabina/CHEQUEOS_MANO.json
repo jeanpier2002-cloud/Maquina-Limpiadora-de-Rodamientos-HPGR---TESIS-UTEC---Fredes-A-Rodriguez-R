@@ -1,0 +1,40 @@
+{
+ "fuente": "Timoshenko y Woinowsky-Krieger, Theory of Plates and Shells, tablas 8 y 23 (placa cuadrada apoyada, nu 0,3); EN 1993-1-5 §6.4",
+ "P_cartucho_N": 4771,
+ "techo_plano": {
+  "1.5": {
+   "w_carga_central_mm": 15241.5,
+   "w_peso_propio_mm": 2148.3
+  },
+  "3.0": {
+   "w_carga_central_mm": 1905.2,
+   "w_peso_propio_mm": 537.1
+  },
+  "6.0": {
+   "w_carga_central_mm": 238.1,
+   "w_peso_propio_mm": 134.3
+  }
+ },
+ "t_requerido_L1000_mm": 23.4,
+ "masa_techo_con_t_requerido_kg": 3124.0,
+ "muro_Fcr_borde_N": {
+  "1.5": 1348,
+  "2.0": 3194,
+  "3.0": 10781
+ },
+ "correas_techo": {
+  "luz_mm": 4040.0,
+  "separacion_mm": 800.0,
+  "q_lineal_N_mm": 0.414,
+  "I_requerido_mm4": 368503,
+  "M_Ed_Nmm": 1774386,
+  "seccion": "RHS 80x40x3 inox 304",
+  "I_mm4": 558532,
+  "sigma_MPa": 127.1,
+  "D_C_flexion": 0.68,
+  "cantidad": 5,
+  "masa_kg": 109.6,
+  "fuente": "EN 1991-1-1 tabla 6.10 (cubierta H, valores recomendados); EN 1993-1-4 (inox); flecha L/200 [HIPOTESIS]"
+ },
+ "nota": "Lineal: con grandes desplazamientos la membrana reduce la flecha, pero el techo plano sigue sin servir de apoyo."
+}

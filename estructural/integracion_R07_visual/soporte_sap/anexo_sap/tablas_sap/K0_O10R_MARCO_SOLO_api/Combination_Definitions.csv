@@ -1,0 +1,42 @@
+﻿ComboName;ComboType;AutoDesign;CaseType;CaseName;ScaleFactor;SteelDesign;ConcDesign;AlumDesign;ColdDesign;GUID;Notes
+U1;Linear Add;No;Linear Static;DEAD;1,4;Strength;None;None;None;8d993d11-46dd-49d1-b17e-a329797db3fd;
+U2;Linear Add;No;Linear Static;DEAD;1,2;Strength;None;None;None;c7f8f940-818e-4a3f-8fa9-6af08080f6ad;
+U2;;;Linear Static;BELT;1,6;;;;;;
+U2;;;Linear Static;TORQ;1,6;;;;;;
+U3_AXP;Linear Add;No;Linear Static;DEAD;1,2;Strength;None;None;None;858d7f6b-23b6-4fbd-b342-a5dacb565c54;
+U3_AXP;;;Linear Static;BELT;1;;;;;;
+U3_AXP;;;Linear Static;TORQ;1;;;;;;
+U3_AXP;;;Linear Static;AXP;1;;;;;;
+U3_AXN;Linear Add;No;Linear Static;DEAD;1,2;Strength;None;None;None;14cb9022-13e0-49e8-b48c-49476c28017d;
+U3_AXN;;;Linear Static;BELT;1;;;;;;
+U3_AXN;;;Linear Static;TORQ;1;;;;;;
+U3_AXN;;;Linear Static;AXN;1;;;;;;
+U3_AYP;Linear Add;No;Linear Static;DEAD;1,2;Strength;None;None;None;979da333-ec63-4aea-9515-dd54dab06810;
+U3_AYP;;;Linear Static;BELT;1;;;;;;
+U3_AYP;;;Linear Static;TORQ;1;;;;;;
+U3_AYP;;;Linear Static;AYP;1;;;;;;
+U3_AYN;Linear Add;No;Linear Static;DEAD;1,2;Strength;None;None;None;8e15eed7-935f-4bd9-9f93-90d0cdd918a4;
+U3_AYN;;;Linear Static;BELT;1;;;;;;
+U3_AYN;;;Linear Static;TORQ;1;;;;;;
+U3_AYN;;;Linear Static;AYN;1;;;;;;
+S1;Linear Add;No;Linear Static;DEAD;1;None;None;None;None;bd2f3062-67ec-4209-bad1-2843aec78b4a;
+S1;;;Linear Static;BELT;1;;;;;;
+S1;;;Linear Static;TORQ;1;;;;;;
+S2_AXP;Linear Add;No;Linear Static;DEAD;1;None;None;None;None;bf75bfc3-8720-4031-a049-a1a89217845f;
+S2_AXP;;;Linear Static;BELT;1;;;;;;
+S2_AXP;;;Linear Static;TORQ;1;;;;;;
+S2_AXP;;;Linear Static;AXP;1;;;;;;
+S2_AXN;Linear Add;No;Linear Static;DEAD;1;None;None;None;None;60be9f92-600c-4c97-ac8f-1385eeb5bdf5;
+S2_AXN;;;Linear Static;BELT;1;;;;;;
+S2_AXN;;;Linear Static;TORQ;1;;;;;;
+S2_AXN;;;Linear Static;AXN;1;;;;;;
+S2_AYP;Linear Add;No;Linear Static;DEAD;1;None;None;None;None;569c61dd-92ab-4cf7-a636-1b7281da8e7e;
+S2_AYP;;;Linear Static;BELT;1;;;;;;
+S2_AYP;;;Linear Static;TORQ;1;;;;;;
+S2_AYP;;;Linear Static;AYP;1;;;;;;
+S2_AYN;Linear Add;No;Linear Static;DEAD;1;None;None;None;None;a953dd02-bed5-4259-bbac-fc8a20ea9e12;
+S2_AYN;;;Linear Static;BELT;1;;;;;;
+S2_AYN;;;Linear Static;TORQ;1;;;;;;
+S2_AYN;;;Linear Static;AYN;1;;;;;;
+DSTL1;Linear Add;Yes;Linear Static;DEAD;1,4;Strength;None;None;None;9cd67ce8-cd06-4b2b-8e96-daad7015808b;Dead Only; Strength
+DSTL2;Linear Add;Yes;Linear Static;DEAD;1;Deflection;None;None;None;e2e85fae-39fd-4cb4-8da3-691438a6ce95;Dead Only; Deflection

@@ -1,0 +1,516 @@
+{
+ "mes900_total": 111,
+ "mes900_diferentes": [],
+ "mes900_no_visibles": [],
+ "mes900_grupos": [
+  "R07_V17_PEDESTALES_RIEL"
+ ],
+ "mes800_total": 68,
+ "mes800_diferentes": [],
+ "mes800_no_visibles": [
+  "R07_V14_EJE_VOLANTE",
+  "R07_V14_DISCO_BLOQUEO"
+ ],
+ "mes800_V18C_nuevos": [
+  {
+   "vol": 379959.7,
+   "caja": [
+    -2400.0,
+    -2240.0,
+    1840.0,
+    2000.0,
+    270.0,
+    980.0
+   ],
+   "vis": true,
+   "grupos": [],
+   "label": "R07_V18C_DISCO_BLOQUEO"
+  },
+  {
+   "vol": 156334.6,
+   "caja": [
+    -2400.0,
+    -2240.0,
+    1840.0,
+    2000.0,
+    922.0,
+    940.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V18C_DISCO_BLOQUEO"
+   ],
+   "label": "R07_V18C_DISCO_BLOQUEO_CON_CUBO"
+  },
+  {
+   "vol": 222494.0,
+   "caja": [
+    -2330.0,
+    -2310.0,
+    1910.0,
+    1930.0,
+    270.0,
+    980.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V18C_DISCO_BLOQUEO"
+   ],
+   "label": "R07_V18C_EJE_VOLANTE"
+  },
+  {
+   "vol": 1131.0,
+   "caja": [
+    -2323.0,
+    -2317.0,
+    1900.0,
+    1940.0,
+    932.0,
+    938.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V18C_DISCO_BLOQUEO"
+   ],
+   "label": "R07_V18C_PASADOR_DISCO_D6"
+  }
+ ],
+ "topes_en_V18C": [
+  {
+   "vol": 260000.0,
+   "caja": [
+    320.4,
+    421.2,
+    594.9,
+    693.5,
+    800.0,
+    920.0
+   ],
+   "vis": true,
+   "grupos": [
+    "G00_CONTEXTO_MESA_R05"
+   ],
+   "label": "CTX_BEARING_RETENTION_STOP_01"
+  },
+  {
+   "vol": 260000.0,
+   "caja": [
+    320.4,
+    421.2,
+    -693.5,
+    -594.9,
+    800.0,
+    920.0
+   ],
+   "vis": true,
+   "grupos": [
+    "G00_CONTEXTO_MESA_R05"
+   ],
+   "label": "CTX_BEARING_RETENTION_STOP_03"
+  },
+  {
+   "vol": 6300.0,
+   "caja": [
+    100.0,
+    121.0,
+    240.0,
+    260.0,
+    1590.0,
+    1605.0
+   ],
+   "vis": true,
+   "grupos": [
+    "A8_MASTIL_CARRO_SEGUROS"
+   ],
+   "label": "OREJETA_RETENCION"
+  },
+  {
+   "vol": 119105.5,
+   "caja": [
+    93.0,
+    135.0,
+    209.0,
+    265.0,
+    2200.0,
+    2455.0
+   ],
+   "vis": true,
+   "grupos": [
+    "A8_MASTIL_CARRO_SEGUROS"
+   ],
+   "label": "BARRA_RETENCION"
+  },
+  {
+   "vol": 281600.0,
+   "caja": [
+    -693.5,
+    -594.9,
+    320.4,
+    421.2,
+    800.0,
+    920.0
+   ],
+   "vis": false,
+   "grupos": [
+    "G_R061_SUPERADOS_H9"
+   ],
+   "label": "R06_LOCATOR_02_RETENTION_STOP_ACTIVO"
+  },
+  {
+   "vol": 281600.0,
+   "caja": [
+    -693.5,
+    -594.9,
+    320.4,
+    421.2,
+    800.0,
+    920.0
+   ],
+   "vis": false,
+   "grupos": [
+    "G_R061_SUPERADOS_H9"
+   ],
+   "label": "R06_LOCATOR_02_RETENTION_STOP_LAVADO"
+  },
+  {
+   "vol": 6300.0,
+   "caja": [
+    100.0,
+    121.0,
+    240.0,
+    260.0,
+    2230.0,
+    2245.0
+   ],
+   "vis": false,
+   "grupos": [
+    "R06_LANZA_GUARDADA"
+   ],
+   "label": "OREJETA_RETENCION_GUARDADA"
+  },
+  {
+   "vol": 260000.0,
+   "caja": [
+    -775.4,
+    -693.3,
+    -171.1,
+    -84.1,
+    800.0,
+    920.0
+   ],
+   "vis": true,
+   "grupos": [
+    "G_R061_K2M"
+   ],
+   "label": "R061_K2M_2_TOPE_RETENCION_FIJO"
+  },
+  {
+   "vol": 950331.8,
+   "caja": [
+    1357.1,
+    1457.1,
+    2365.0,
+    2475.0,
+    175.0,
+    285.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_B_HIDRAULICA"
+   ],
+   "label": "R07_B_RETENCION_2IN"
+  }
+ ],
+ "topes_V10": [
+  {
+   "vol": 260000.0,
+   "caja": [
+    320.4,
+    421.2,
+    594.9,
+    693.5,
+    800.0,
+    920.0
+   ],
+   "vis": true,
+   "grupos": [
+    "G00_CONTEXTO_MESA_R05"
+   ],
+   "label": "CTX_BEARING_RETENTION_STOP_01"
+  },
+  {
+   "vol": 260000.0,
+   "caja": [
+    320.4,
+    421.2,
+    -693.5,
+    -594.9,
+    800.0,
+    920.0
+   ],
+   "vis": true,
+   "grupos": [
+    "G00_CONTEXTO_MESA_R05"
+   ],
+   "label": "CTX_BEARING_RETENTION_STOP_03"
+  },
+  {
+   "vol": 281600.0,
+   "caja": [
+    -693.5,
+    -594.9,
+    320.4,
+    421.2,
+    800.0,
+    920.0
+   ],
+   "vis": true,
+   "grupos": [
+    "G_R061_SUPERADOS_H9"
+   ],
+   "label": "R06_LOCATOR_02_RETENTION_STOP_ACTIVO"
+  },
+  {
+   "vol": 281600.0,
+   "caja": [
+    -693.5,
+    -594.9,
+    320.4,
+    421.2,
+    800.0,
+    920.0
+   ],
+   "vis": true,
+   "grupos": [
+    "G_R061_SUPERADOS_H9"
+   ],
+   "label": "R06_LOCATOR_02_RETENTION_STOP_LAVADO"
+  }
+ ],
+ "vigas": [
+  {
+   "vol": 3364505.7,
+   "caja": [
+    -980.0,
+    -880.0,
+    -994.0,
+    994.0,
+    655.1,
+    805.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_M01_W6X9"
+  },
+  {
+   "vol": 3365741.8,
+   "caja": [
+    880.0,
+    980.0,
+    -994.0,
+    994.0,
+    655.1,
+    805.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_M02_W6X9"
+  },
+  {
+   "vol": 3036937.1,
+   "caja": [
+    -927.8,
+    927.8,
+    -1000.0,
+    -900.0,
+    655.1,
+    805.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_M03_W6X9"
+  },
+  {
+   "vol": 3036937.1,
+   "caja": [
+    -927.8,
+    927.8,
+    900.0,
+    1000.0,
+    655.1,
+    805.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_M04_W6X9"
+  },
+  {
+   "vol": 3035701.0,
+   "caja": [
+    -927.8,
+    927.8,
+    -624.2,
+    -524.1,
+    655.1,
+    805.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_M05_W6X9"
+  },
+  {
+   "vol": 3035701.0,
+   "caja": [
+    -927.8,
+    927.8,
+    524.1,
+    624.2,
+    655.1,
+    805.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_M06_W6X9"
+  },
+  {
+   "vol": 1832139.0,
+   "caja": [
+    613.0,
+    713.0,
+    -572.0,
+    572.0,
+    655.1,
+    805.0
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_M07_W6X9"
+  },
+  {
+   "vol": 37646.0,
+   "caja": [
+    -978.0,
+    -932.2,
+    -577.2,
+    -571.2,
+    660.6,
+    799.5
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_RIGIDIZADOR_N03_M01_M05"
+  },
+  {
+   "vol": 37646.0,
+   "caja": [
+    -978.0,
+    -932.2,
+    571.2,
+    577.2,
+    660.6,
+    799.5
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_RIGIDIZADOR_N04_M01_M06"
+  },
+  {
+   "vol": 37646.0,
+   "caja": [
+    932.2,
+    978.0,
+    -577.2,
+    -571.2,
+    660.6,
+    799.5
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_RIGIDIZADOR_N14_M02_M05"
+  },
+  {
+   "vol": 37646.0,
+   "caja": [
+    932.2,
+    978.0,
+    571.2,
+    577.2,
+    660.6,
+    799.5
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_RIGIDIZADOR_N15_M02_M06"
+  },
+  {
+   "vol": 37646.0,
+   "caja": [
+    -978.0,
+    -932.2,
+    947.0,
+    953.0,
+    660.6,
+    799.5
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_RIGIDIZADOR_N06_M01_M04"
+  },
+  {
+   "vol": 37646.0,
+   "caja": [
+    932.2,
+    978.0,
+    947.0,
+    953.0,
+    660.6,
+    799.5
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_RIGIDIZADOR_N17_M02_M04"
+  },
+  {
+   "vol": 37646.0,
+   "caja": [
+    660.0,
+    666.0,
+    -622.2,
+    -576.3,
+    660.6,
+    799.5
+   ],
+   "vis": true,
+   "grupos": [
+    "R07_V16_BASTIDOR_UNIONES"
+   ],
+   "label": "R07_V16_RIGIDIZADOR_N09_M05_M07"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "lanza_Z1450_CHORROS": {
+  "M_flexion_Nm": 8.626,
+  "sigma_MPa": 4.578,
+  "von_Mises_MPa": 4.578
+ },
+ "lanza_Z1450_GOLPE_LANZA_RADIAL": {
+  "M_flexion_Nm": 122.4,
+  "sigma_MPa": 64.86,
+  "von_Mises_MPa": 64.86
+ },
+ "lanza_Z1450_GOLPE_LANZA_TANG": {
+  "M_flexion_Nm": 122.4,
+  "sigma_MPa": 64.86,
+  "von_Mises_MPa": 64.86
+ },
+ "transversal_x240_U_GOLPE_FUERA_PLANO": {
+  "M_flexion_Nm": 660.0,
+  "T_Nm": 340.0,
+  "N_N": 0.0,
+  "von_Mises_MPa": 104.96
+ },
+ "transversal_x240_U_GOLPE_EN_PLANO": {
+  "M_flexion_Nm": 340.0,
+  "T_Nm": 0.0,
+  "N_N": -1000.0,
+  "von_Mises_MPa": 51.38
+ },
+ "nota": "Von Mises de viga (M/W, N/A, T/2W) en la fibra extrema; la sonda de SOLIDWORKS toma el máximo de los nodos de la sección ±6 mm, que en flexión pura debería coincidir dentro de pocos %."
+}

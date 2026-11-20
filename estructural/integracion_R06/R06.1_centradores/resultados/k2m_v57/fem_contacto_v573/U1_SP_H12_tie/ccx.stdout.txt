@@ -1,0 +1,2074 @@
+
+************************************************************
+
+CalculiX Version 2.22, Copyright(C) 1998-2024 Guido Dhondt
+CalculiX comes with ABSOLUTELY NO WARRANTY. This is free
+software, and you are welcome to redistribute it under
+certain conditions, see gpl.htm
+
+************************************************************
+
+You are using an executable made on Mon Aug  5 19:15:25 CEST 2024
+
+  The numbers below are estimated upper bounds
+
+  number of:
+
+   nodes:        26247
+   elements:        76551
+   one-dimensional elements:            0
+   two-dimensional elements:            0
+   integration points per element:            1
+   degrees of freedom per node:            3
+   layers per element:            1
+
+   distributed facial loads:            0
+   distributed volumetric loads:            0
+   concentrated loads:          208
+   single point constraints:         9948
+   multiple point constraints:         9589
+   terms in all multiple point constraints:        57385
+   tie constraints:            7
+   dependent nodes tied by cyclic constraints:            0
+   dependent nodes in pre-tension constraints:          400
+
+   sets:           34
+   terms in all sets:       112227
+
+   materials:            4
+   constants per material and temperature:            8
+   temperature points per material:            1
+   plastic data points per material:            3
+
+   orientations:            0
+   amplitudes:            2
+   data points in all amplitudes:            2
+   print requests:            4
+   transformations:            0
+   property cards:            0
+
+ *INFO reading *SURFACE BEHAVIOR: the tension
+       value at large clearances
+       (only relevant for node-to-surface contact)
+       must be strictly positive
+       the following default will be used:   2.8571428571428572     
+       the user is advised to analyze the results
+       carefully
+
+ STEP            1
+
+ Static analysis was selected
+
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6390
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6392
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6398
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6399
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6429
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6431
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6432
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6434
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6436
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6438
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6441
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6444
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6445
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6529
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6530
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6531
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6532
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6533
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6534
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6535
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6536
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6537
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6538
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6539
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6540
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6541
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6542
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6543
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6544
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6545
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6546
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6547
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6548
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6549
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6550
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6551
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6552
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6553
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6554
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6555
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6556
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6557
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6558
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6559
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6560
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6561
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6562
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6563
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6564
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6565
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7255
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7395
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7483
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7492
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7496
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7528
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8979
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8981
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8983
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8984
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9174
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9176
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9177
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9179
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9181
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9183
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9186
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9189
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9190
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9213
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9214
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9215
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9216
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9217
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9218
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9219
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9220
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9221
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9222
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9223
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9224
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9225
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9226
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9227
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9228
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9229
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9230
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9231
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9232
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9233
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9234
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9235
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9236
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9237
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9238
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9239
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9240
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9241
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9242
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9243
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9244
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9245
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9246
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9247
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9248
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9249
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        10668
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        10808
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        10896
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        10905
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        10909
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        10941
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6470
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6471
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6472
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6475
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6476
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6477
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6952
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6957
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7003
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7031
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7046
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7065
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7084
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7085
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7101
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         7108
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9282
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9283
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9284
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9306
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9307
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9308
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        11058
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        11079
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        11129
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        11150
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        11178
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        11179
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        11191
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        11193
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        11217
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        11220
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        16930
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        16931
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        16932
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        16933
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        16934
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        16935
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        16936
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        16937
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17015
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17016
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17017
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17018
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17019
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17020
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17021
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17022
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17241
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17242
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17252
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17253
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17254
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17255
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17272
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17274
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17284
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17285
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17293
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17294
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17319
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17320
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17336
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17339
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17342
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17345
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17346
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17347
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17384
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17395
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17396
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17404
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17407
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17411
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17420
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17421
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17426
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17427
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17428
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17440
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17441
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17443
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17463
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17464
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17479
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17482
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17483
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17535
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17545
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17546
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17554
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17556
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17558
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17559
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17572
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17573
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17574
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17580
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17581
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17602
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17603
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17608
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17629
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17644
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17650
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17651
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17691
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17710
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17711
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17720
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17721
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17733
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17771
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17772
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17811
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17812
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17825
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17826
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17828
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17836
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17837
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17841
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17842
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17852
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17877
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17896
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17897
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17910
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17911
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17923
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17925
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17933
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17934
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17943
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17944
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17957
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17959
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17961
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17970
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17971
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17991
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        17992
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18026
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18027
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18054
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18061
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18062
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18066
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18067
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18069
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18070
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18095
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18096
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18100
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18122
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18123
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18131
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18132
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18144
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18145
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18146
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18163
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18164
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18206
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18207
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18208
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18213
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18214
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18228
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18231
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18232
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18235
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18252
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18253
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18262
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18268
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18269
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18275
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18279
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18288
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18289
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18291
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18292
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18305
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18308
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18313
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18319
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18337
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18338
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18354
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18371
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18372
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18374
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18375
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18385
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18388
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18389
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18391
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18392
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18394
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18397
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18398
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18399
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18435
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18436
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18459
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18460
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18487
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18488
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18506
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18509
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18571
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18607
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18608
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18631
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18632
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18659
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18669
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18672
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18676
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18685
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18689
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18705
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18706
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18717
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18722
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18723
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18728
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18730
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18731
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18738
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18739
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18751
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18752
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18772
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18783
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18788
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18789
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18810
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18818
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18822
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18841
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18842
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18847
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18848
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18850
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18875
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18877
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18884
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18885
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18894
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18895
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18898
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18899
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18900
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18933
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18937
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18948
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18956
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18957
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18965
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18966
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18980
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18981
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18985
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        18986
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19001
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19024
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19030
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19031
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19046
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19047
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19063
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19066
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19067
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19077
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19078
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19079
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19087
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19088
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19133
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19134
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19144
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19148
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19149
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19150
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19151
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19157
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19158
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19161
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19178
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19187
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19188
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19200
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19221
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19227
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19228
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19230
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19231
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19256
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19257
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19290
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19307
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19308
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19318
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19319
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        19337
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6424
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6425
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6426
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6790
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6791
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6792
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6793
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6794
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6795
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6796
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6797
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6798
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6799
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6800
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6801
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6802
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6803
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6804
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6805
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6806
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6807
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6808
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6811
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6818
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6819
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6820
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         6826
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8496
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8497
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8501
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8502
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8507
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8508
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8509
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8510
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         8515
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9019
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9020
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9566
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9567
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9568
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9569
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9570
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9571
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9572
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9573
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9574
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9575
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9576
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9577
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9578
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9579
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9580
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9581
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9582
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9583
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9584
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9661
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9662
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9669
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9670
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9671
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node         9677
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        12325
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        12329
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        12330
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        12331
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        12336
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        12337
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        12338
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        12339
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *WARNING in gentiedmpc: no tied MPC
+          generated for node        12344
+          no opposite master face
+          found; in-face tolerance:    5.5134465075945716E-002
+ *INFO in gentiedmpc:
+       failed nodes are stored in file
+       r061c573_u1_s+1_WarnNodeMissTiedContact.nam
+       This file can be loaded into
+       an active cgx-session by typing
+       read r061c573_u1_s+1_WarnNodeMissTiedContact.nam inp
+
+ Decascading the MPC's
+
+ Determining the structure of the matrix:
+ Using up to 16 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 59892
+ number of nonzero lower triangular matrix elements
+ 1176639
+
+ Using up to 16 cpu(s) for the stress calculation.
+
+ Using up to 16 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 16 cpu(s) for the stress calculation.
+
+
+ STEP            2
+
+ Static analysis was selected
+
+ Determining the structure of the matrix:
+ Using up to 16 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 59892
+ number of nonzero lower triangular matrix elements
+ 1176639
+
+ Using up to 16 cpu(s) for the stress calculation.
+
+ Using up to 16 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 16 cpu(s) for the stress calculation.
+
+
+ Job finished
+

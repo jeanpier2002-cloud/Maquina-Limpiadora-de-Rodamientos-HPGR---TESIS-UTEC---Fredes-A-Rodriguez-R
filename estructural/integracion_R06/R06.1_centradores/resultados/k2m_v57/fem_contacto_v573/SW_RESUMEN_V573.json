@@ -1,0 +1,153 @@
+{
+  "solidworks": [
+    {
+      "log": "sw_log_170050.txt",
+      "variante": "contacto (rozamiento 0,20 + 6 pernos 26 kN)",
+      "malla_mm": 6.0,
+      "nodos": 263505,
+      "elementos": 154782,
+      "analisis": "error 24 (0.3 min)"
+    },
+    {
+      "log": "sw_log_170403.txt",
+      "variante": "contacto (rozamiento 0,20 + 6 pernos 26 kN)",
+      "malla_mm": 6.0,
+      "nodos": 263505,
+      "elementos": 154782,
+      "analisis": "sin terminar / detenido"
+    },
+    {
+      "log": "sw_log_232558.txt",
+      "variante": "contacto (rozamiento 0,20 + 6 pernos 26 kN)",
+      "malla_mm": 8.0,
+      "nodos": 123632,
+      "elementos": 67827,
+      "gdl": 371304,
+      "analisis": "error 24 (35.4 min)"
+    },
+    {
+      "log": "sw_log_mu0_000234.txt",
+      "variante": "contacto SIN rozamiento + 6 pernos (cota)",
+      "malla_mm": 8.0,
+      "nodos": 123632,
+      "elementos": 67827,
+      "gdl": 371304,
+      "analisis": "correcto (38.4 min); MECANISMO (desplazamientos excesivos: sin rozamiento la mordaza desliza a lo largo del W)",
+      "u_base_mm": 593779.247976,
+      "u_cabeza_mm": 593779.565827,
+      "giro_mrad": 2.908195,
+      "n_base": 180,
+      "n_cabeza": 198,
+      "u_Z955_mm": 593779.646586,
+      "pernos": [
+        [
+          "Refrentado con tuerca-1",
+          "-11.311004; 214.995641; 0; 215.292969; 0; 0; -27140.271484; 27140.271484; -6.180073; -0.099118; 0; 6.180867; 0; 0; 0; 0"
+        ],
+        [
+          "Refrentado con tuerca-2",
+          "-5.453123; 218.743942; 0; 218.811905; 0; 0; -27096.517578; 27096.517578; -6.411981; -0.071611; 0; 6.412381; 0; 0; 0; 0"
+        ],
+        [
+          "Refrentado con tuerca-3",
+          "-44.346211; 61.93678; 0; 76.175789; 0; 0; -27116.117188; 27116.117188; 2.430783; -0.515704; 0; 2.484885; 0; 0; 0; 0"
+        ],
+        [
+          "Refrentado con tuerca-4",
+          "-41.109466; 29.117439; 0; 50.376717; 0; 0; -27147.042969; 27147.042969; 3.052189; -0.635209; 0; 3.117587; 0; 0; 0; 0"
+        ],
+        [
+          "Refrentado con tuerca-5",
+          "-209.920595; 0; -87.935669; 227.594681; 0; -26118.712891; 0; 26118.712891; -1.438904; 0; 3.171046; 3.482237; 0; 0; 0; 0"
+        ],
+        [
+          "Refrentado con tuerca-6",
+          "66.738395; 0; -72.156797; 98.288437; 0; -26107.796875; 0; 26107.796875; -1.186262; 0; -0.894017; 1.485423; 0; 0; 0; 0"
+        ]
+      ],
+      "mecanismo": true
+    },
+    {
+      "log": "sw_log_pegado_231657.txt",
+      "variante": "pegado (bonded)",
+      "malla_mm": 6.0,
+      "nodos": 263119,
+      "elementos": 154550,
+      "gdl": 787263,
+      "analisis": "correcto (1.0 min)"
+    },
+    {
+      "log": "sw_log_pegado_231902.txt",
+      "variante": "pegado (bonded)",
+      "malla_mm": 6.0,
+      "nodos": 263119,
+      "elementos": 154550,
+      "gdl": 787263,
+      "analisis": "correcto (1.0 min)",
+      "u_base_mm": 0.197689,
+      "u_cabeza_mm": 0.499445,
+      "giro_mrad": 2.806827,
+      "n_base": 291,
+      "n_cabeza": 315,
+      "u_Z955_mm": 0.579519
+    },
+    {
+      "log": "sw_log_pegado_232049.txt",
+      "variante": "pegado (bonded)",
+      "malla_mm": 8.0,
+      "nodos": 124680,
+      "elementos": 68612,
+      "gdl": 372450,
+      "analisis": "correcto (0.5 min)",
+      "u_base_mm": 0.193194,
+      "u_cabeza_mm": 0.49707,
+      "giro_mrad": 2.78033,
+      "n_base": 180,
+      "n_cabeza": 198,
+      "u_Z955_mm": 0.574279
+    },
+    {
+      "log": "sw_log_pegado_232145.txt",
+      "variante": "pegado (bonded)",
+      "malla_mm": 4.0,
+      "nodos": 735326,
+      "elementos": 457105,
+      "gdl": 2202840,
+      "analisis": "correcto (2.7 min)",
+      "u_base_mm": 0.199993,
+      "u_cabeza_mm": 0.503798,
+      "giro_mrad": 2.833849,
+      "n_base": 714,
+      "n_cabeza": 666,
+      "u_Z955_mm": 0.585999
+    }
+  ],
+  "calculix_pegado_v572b_U1_SP": {
+    "caso": "malla_2\\F2080_s+1\\F2080_s+1.frd",
+    "nodos": 703542,
+    "u_radial_alojamiento_medio_mm": 0.35609977111226826,
+    "u_radial_base_mm": 0.19709350686627386,
+    "u_radial_cabeza_mm": 0.5135686517315782,
+    "giro_alojamiento_mrad": 2.8579246057464394,
+    "z_base_mm": 817.5214710365854,
+    "z_cabeza_mm": 928.2574730392157,
+    "u_radial_Z955_mm": 0.5899967775526411,
+    "u_total_alojamiento_max_mm": 0.6016927610646566,
+    "W_p99_MPa": 34.48378291739286,
+    "W_p999_MPa": 57.05309804163475,
+    "W_max_MPa": 105.68041831345624,
+    "W_nodos_mayor_150MPa": 0,
+    "W_caja_mayor_150MPa_mm": null,
+    "W_local_p99_MPa": 30.250575235297664,
+    "W_local_p999_MPa": 63.19690210883429,
+    "W_local_max_MPa": 105.68041831345624,
+    "soporte_p99_MPa": 34.447941638878184,
+    "soporte_p999_MPa": 60.16518379265007,
+    "soporte_max_MPa": 139.94301017131758,
+    "soporte_nodos_mayor_150MPa": 0,
+    "soporte_caja_mayor_150MPa_mm": null,
+    "soporte_nodos": 365345,
+    "W_nodos": 338197,
+    "W_local_nodos": 194006
+  }
+}

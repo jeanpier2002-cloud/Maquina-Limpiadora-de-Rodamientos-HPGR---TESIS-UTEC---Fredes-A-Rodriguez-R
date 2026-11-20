@@ -1,0 +1,275 @@
+[
+ {
+  "unidad": 1,
+  "a": "MONTANTE_FIJO",
+  "b": "R061_RET_1_SOPORTE_FIJO",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 3839.685
+ },
+ {
+  "unidad": 3,
+  "a": "MONTANTE_FIJO",
+  "b": "R061_RET_3_SOPORTE_FIJO",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 3839.685
+ },
+ {
+  "unidad": 1,
+  "a": "EJE_PIVOTE_FIJO",
+  "b": "U1:BRAZO_ACTIVO",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 2040.476
+ },
+ {
+  "unidad": 1,
+  "a": "EJE_PIVOTE_FIJO",
+  "b": "U1:BRAZO_RETRAIDO",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 2040.476
+ },
+ {
+  "unidad": 3,
+  "a": "EJE_PIVOTE_FIJO",
+  "b": "U3:BRAZO_ACTIVO",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 2040.476
+ },
+ {
+  "unidad": 3,
+  "a": "EJE_PIVOTE_FIJO",
+  "b": "U3:BRAZO_RETRAIDO",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 2040.476
+ },
+ {
+  "unidad": 1,
+  "a": "CONTRAPLACA_INFERIOR_FIJO",
+  "b": "CTX_M06_W6X9",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "COLLAR_ALMA_1_FIJO",
+  "b": "CTX_M06_W6X9",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "COLLAR_ALMA_2_FIJO",
+  "b": "CTX_M06_W6X9",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "MONTANTE_FIJO",
+  "b": "CTX_BEARING_RETENTION_STOP_01",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "EJE_PIVOTE_FIJO",
+  "b": "U1:COLLAR_DISPARO_ACTIVO",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "EJE_PIVOTE_FIJO",
+  "b": "U1:COLLAR_DISPARO_RETRAIDO",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "CONTRAPLACA_INFERIOR_FIJO",
+  "b": "CTX_M05_W6X9",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "COLLAR_ALMA_1_FIJO",
+  "b": "CTX_M05_W6X9",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "COLLAR_ALMA_2_FIJO",
+  "b": "CTX_M05_W6X9",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "MONTANTE_FIJO",
+  "b": "CTX_BEARING_RETENTION_STOP_03",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "EJE_PIVOTE_FIJO",
+  "b": "U3:COLLAR_DISPARO_ACTIVO",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "EJE_PIVOTE_FIJO",
+  "b": "U3:COLLAR_DISPARO_RETRAIDO",
+  "dist_mm": 0.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "RECEPTOR_PASADOR_FIJO",
+  "b": "U1:PASADOR_CAUTIVO_RETRAIDO",
+  "dist_mm": 0.1,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "RECEPTOR_PASADOR_FIJO",
+  "b": "U3:PASADOR_CAUTIVO_RETRAIDO",
+  "dist_mm": 0.1,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "PLACA_SUPERIOR_FIJO",
+  "b": "U1:LEVA_DISPARO_ACTIVO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "PLACA_SUPERIOR_FIJO",
+  "b": "U1:LEVA_DISPARO_RETRAIDO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "RETEN_SUP_FIJO",
+  "b": "U1:BRAZO_ACTIVO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "RETEN_SUP_FIJO",
+  "b": "U1:BRAZO_RETRAIDO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "VARILLA_SERIE_FIJO",
+  "b": "U1:LEVA_DISPARO_ACTIVO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "SOPORTE_LIMITADOR_FIJO",
+  "b": "U1:COLLAR_DISPARO_ACTIVO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "SOPORTE_LIMITADOR_FIJO",
+  "b": "U1:COLLAR_DISPARO_RETRAIDO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "PLACA_SUPERIOR_FIJO",
+  "b": "U3:LEVA_DISPARO_ACTIVO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "PLACA_SUPERIOR_FIJO",
+  "b": "U3:LEVA_DISPARO_RETRAIDO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "RETEN_SUP_FIJO",
+  "b": "U3:BRAZO_ACTIVO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "RETEN_SUP_FIJO",
+  "b": "U3:BRAZO_RETRAIDO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "VARILLA_SERIE_FIJO",
+  "b": "U3:LEVA_DISPARO_ACTIVO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "SOPORTE_LIMITADOR_FIJO",
+  "b": "U3:COLLAR_DISPARO_ACTIVO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "SOPORTE_LIMITADOR_FIJO",
+  "b": "U3:COLLAR_DISPARO_RETRAIDO",
+  "dist_mm": 1.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "DATUM_AJUSTABLE_FIJO",
+  "b": "U1:BRAZO_ACTIVO",
+  "dist_mm": 1.5,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "DATUM_AJUSTABLE_FIJO",
+  "b": "U3:BRAZO_ACTIVO",
+  "dist_mm": 1.5,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 1,
+  "a": "ALOJAMIENTO_FIJO",
+  "b": "U1:PASADOR_CAUTIVO_RETRAIDO",
+  "dist_mm": 2.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "PLACA_SUPERIOR_FIJO",
+  "b": "U3:COLLAR_DISPARO_RETRAIDO",
+  "dist_mm": 2.0,
+  "vol_comun_mm3": 0.0
+ },
+ {
+  "unidad": 3,
+  "a": "ALOJAMIENTO_FIJO",
+  "b": "U3:PASADOR_CAUTIVO_RETRAIDO",
+  "dist_mm": 2.0,
+  "vol_comun_mm3": 0.0
+ }
+]

@@ -1,0 +1,72 @@
+{
+ "60": {
+  "vol_mm3": 79895.0,
+  "masa_kg": 0.63,
+  "choques": [
+   {
+    "o": "CTX_BEARING_RETENTION_STOP_01",
+    "comun": 3865.1
+   },
+   {
+    "o": "R061_RET_1_SOPORTE_FIJO",
+    "comun": 5148.2
+   }
+  ],
+  "centro_montante_r_ang": [
+   776.0,
+   60.0
+  ],
+  "ret_z": [
+   780.0000000000002,
+   800.0000000000002
+  ]
+ },
+ "300": {
+  "vol_mm3": 79895.0,
+  "masa_kg": 0.63,
+  "choques": [
+   {
+    "o": "CTX_BEARING_RETENTION_STOP_03",
+    "comun": 3865.1
+   },
+   {
+    "o": "R061_RET_3_SOPORTE_FIJO",
+    "comun": 5148.2
+   }
+  ],
+  "centro_montante_r_ang": [
+   776.0,
+   300.0
+  ],
+  "ret_z": [
+   780.0000000000002,
+   800.0000000000002
+  ]
+ },
+ "190": {
+  "vol_mm3": 85321.0,
+  "masa_kg": 0.67,
+  "choques": [
+   {
+    "o": "R061_K2M_2_MONTANTE_FIJO",
+    "comun": 1820.0
+   },
+   {
+    "o": "R061_RET_2_SOPORTE_FIJO",
+    "comun": 10330.8
+   },
+   {
+    "o": "R061_K2M_2_TOPE_RETENCION_FIJO",
+    "comun": 7996.2
+   }
+  ],
+  "centro_montante_r_ang": [
+   776.0,
+   190.0
+  ],
+  "ret_z": [
+   778.0,
+   799.9999999999999
+  ]
+ }
+}

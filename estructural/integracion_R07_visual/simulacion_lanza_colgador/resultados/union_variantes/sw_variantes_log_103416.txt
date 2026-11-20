@@ -1,0 +1,17 @@
+SolidWorks 32.5.0 | variantes S80 | estudios EN:1
+##### S80 | guardado True: C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R07_visual\simulacion_lanza_colgador\modelo\UNION_W5_S80_103416.SLDPRT
+cuerpos identificados 15 de 15
+cara de empotramiento True; cara de la brida A True
+=== S80 EN_h1 (U_GOLPE_EN_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (1000; 0; 0) EndEdit=0
+  control de malla 1 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 1375013, elementos 923312 (41.6688 s)
+RunAnalysis err=0 (153.4819 s)
+TRANSV_FINO: von Mises máx 131.7906 MPa en (-199.9774; 1768.5289; -9.7531) SW
+W5_POS_FINO: von Mises máx 230.3761 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 266.7766 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 26.0605 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 21.3663 MPa en (-170; 1710.125; -4.0631) SW
+TRANSV_EXT: von Mises máx 52.1285 MPa en (-278.0145; 1710.302; -5.2011) SW
+nodos de la superficie del tubo fino: 169332 -> nodos_S80_EN_h1.csv
+imagen True

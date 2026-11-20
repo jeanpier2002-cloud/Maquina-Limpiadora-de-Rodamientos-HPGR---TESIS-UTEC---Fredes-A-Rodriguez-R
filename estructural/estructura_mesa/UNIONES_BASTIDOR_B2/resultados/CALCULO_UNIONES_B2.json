@@ -1,0 +1,619 @@
+{
+  "estado": "EJECUTADO (calculo); diseno CANDIDATO; uniones con continuidad de alas (modo CONTINUO de p23)",
+  "seccion": {
+    "A": 1729.03,
+    "S33": 91101.0,
+    "S22": 18300.0,
+    "omega_mm2": 3612.7,
+    "Cw_mm6": 4755313147.67524,
+    "Fy_MPa": 248.0,
+    "FEXX_MPa": 482.0,
+    "a_filete_mm": 3.0,
+    "L_filete_mm": 120.2
+  },
+  "rigidizador": {
+    "b_mm": 45.9,
+    "t_mm": 6.0,
+    "b_t": 7.6,
+    "limite_J10_8": 15.9
+  },
+  "fatiga": "AISC 360-16 Apendice 3, 3.1: no se evalua con menos de 20 000 ciclos de la carga variable [HIPOTESIS: ~2 rodamientos por semana x 50 semanas x 20 anos = 2 000 ciclos de centrado y traslado]",
+  "uniones": {
+    "1": {
+      "tipo": "esquina",
+      "barra_que_llega": "M03",
+      "barra_continua": "M01",
+      "ala_CJP": {
+        "sigma_MPa": 49.3,
+        "DC": 0.221,
+        "caso": "DESVIO_2_M",
+        "esfuerzos": {
+          "P": 2163.0,
+          "Vy": 8.0,
+          "Vz": 410.0,
+          "T": 23169.0,
+          "M33": 1120422.0,
+          "M22": 32807.0,
+          "B": 44703524.0
+        }
+      },
+      "ala_CJP_ASIM_D03_algebraico": {
+        "sigma_MPa": 6.7,
+        "DC": 0.03,
+        "caso": "CENTRADO_ASIM_D03_PPP"
+      },
+      "alma_filete": {
+        "V_kN": 1.04,
+        "phiRn_filete_kN": 156.5,
+        "phiVn_alma_kN": 77.3,
+        "DC": 0.013,
+        "caso": "DESVIO_2_P"
+      },
+      "linea_CJP_continua_termina": {
+        "sigma_vm_MPa": 43.9,
+        "DC": 0.197,
+        "caso": "CENTRADO_DISP_DAT_MPM"
+      }
+    },
+    "6": {
+      "tipo": "esquina",
+      "barra_que_llega": "M04",
+      "barra_continua": "M01",
+      "ala_CJP": {
+        "sigma_MPa": 49.3,
+        "DC": 0.221,
+        "caso": "DESVIO_5_M",
+        "esfuerzos": {
+          "P": 2163.0,
+          "Vy": 8.0,
+          "Vz": 410.0,
+          "T": 23173.0,
+          "M33": 1120435.0,
+          "M22": 32807.0,
+          "B": 44706728.0
+        }
+      },
+      "ala_CJP_ASIM_D03_algebraico": {
+        "sigma_MPa": 7.9,
+        "DC": 0.036,
+        "caso": "CENTRADO_ASIM_D03_MPP"
+      },
+      "alma_filete": {
+        "V_kN": 1.45,
+        "phiRn_filete_kN": 156.5,
+        "phiVn_alma_kN": 77.3,
+        "DC": 0.019,
+        "caso": "TIRO_M"
+      },
+      "linea_CJP_continua_termina": {
+        "sigma_vm_MPa": 62.0,
+        "DC": 0.278,
+        "caso": "TIRO_P"
+      }
+    },
+    "12": {
+      "tipo": "esquina",
+      "barra_que_llega": "M03",
+      "barra_continua": "M02",
+      "ala_CJP": {
+        "sigma_MPa": 46.7,
+        "DC": 0.209,
+        "caso": "DESVIO_13_P",
+        "esfuerzos": {
+          "P": 2163.0,
+          "Vy": 8.0,
+          "Vz": 389.0,
+          "T": 20895.0,
+          "M33": 1046565.0,
+          "M22": 47036.0,
+          "B": 41280724.0
+        }
+      },
+      "ala_CJP_ASIM_D03_algebraico": {
+        "sigma_MPa": 5.3,
+        "DC": 0.024,
+        "caso": "CENTRADO_ASIM_D03_PPP"
+      },
+      "alma_filete": {
+        "V_kN": 1.01,
+        "phiRn_filete_kN": 156.5,
+        "phiVn_alma_kN": 77.3,
+        "DC": 0.013,
+        "caso": "DESVIO_2_M"
+      },
+      "linea_CJP_continua_termina": {
+        "sigma_vm_MPa": 44.5,
+        "DC": 0.2,
+        "caso": "CENTRADO_DISP_DAT_MPM"
+      }
+    },
+    "17": {
+      "tipo": "esquina",
+      "barra_que_llega": "M04",
+      "barra_continua": "M02",
+      "ala_CJP": {
+        "sigma_MPa": 46.7,
+        "DC": 0.209,
+        "caso": "DESVIO_16_P",
+        "esfuerzos": {
+          "P": 2163.0,
+          "Vy": 8.0,
+          "Vz": 389.0,
+          "T": 20891.0,
+          "M33": 1046557.0,
+          "M22": 47036.0,
+          "B": 41278165.0
+        }
+      },
+      "ala_CJP_ASIM_D03_algebraico": {
+        "sigma_MPa": 6.1,
+        "DC": 0.027,
+        "caso": "CENTRADO_ASIM_D03_MPP"
+      },
+      "alma_filete": {
+        "V_kN": 1.44,
+        "phiRn_filete_kN": 156.5,
+        "phiVn_alma_kN": 77.3,
+        "DC": 0.019,
+        "caso": "TIRO_P"
+      },
+      "linea_CJP_continua_termina": {
+        "sigma_vm_MPa": 62.9,
+        "DC": 0.282,
+        "caso": "TIRO_M"
+      }
+    },
+    "3": {
+      "tipo": "T",
+      "barra_que_llega": "M05",
+      "barra_continua": "M01",
+      "ala_CJP": {
+        "sigma_MPa": 66.2,
+        "DC": 0.297,
+        "caso": "DESVIO_2_P",
+        "esfuerzos": {
+          "P": 4483.0,
+          "Vy": 52.0,
+          "Vz": 11255.0,
+          "T": 44636.0,
+          "M33": 1984761.0,
+          "M22": 68065.0,
+          "B": 50160007.0
+        }
+      },
+      "ala_CJP_ASIM_D03_algebraico": {
+        "sigma_MPa": 70.0,
+        "DC": 0.314,
+        "caso": "CENTRADO_ASIM_D03_PMM"
+      },
+      "alma_filete": {
+        "V_kN": 11.36,
+        "phiRn_filete_kN": 156.5,
+        "phiVn_alma_kN": 77.3,
+        "DC": 0.147,
+        "caso": "DESVIO_2_P"
+      }
+    },
+    "4": {
+      "tipo": "T",
+      "barra_que_llega": "M06",
+      "barra_continua": "M01",
+      "ala_CJP": {
+        "sigma_MPa": 66.2,
+        "DC": 0.297,
+        "caso": "DESVIO_5_P",
+        "esfuerzos": {
+          "P": 4483.0,
+          "Vy": 52.0,
+          "Vz": 11255.0,
+          "T": 44621.0,
+          "M33": 1984784.0,
+          "M22": 68065.0,
+          "B": 50155373.0
+        }
+      },
+      "ala_CJP_ASIM_D03_algebraico": {
+        "sigma_MPa": 83.4,
+        "DC": 0.374,
+        "caso": "CENTRADO_ASIM_D03_PPM"
+      },
+      "alma_filete": {
+        "V_kN": 11.36,
+        "phiRn_filete_kN": 156.5,
+        "phiVn_alma_kN": 77.3,
+        "DC": 0.147,
+        "caso": "DESVIO_5_P"
+      }
+    },
+    "14": {
+      "tipo": "T",
+      "barra_que_llega": "M05",
+      "barra_continua": "M02",
+      "ala_CJP": {
+        "sigma_MPa": 129.9,
+        "DC": 0.582,
+        "caso": "DESVIO_13_M",
+        "esfuerzos": {
+          "P": 4450.0,
+          "Vy": 451.0,
+          "Vz": 11869.0,
+          "T": 586255.0,
+          "M33": 2131775.0,
+          "M22": 123378.0,
+          "B": 127962028.0
+        }
+      },
+      "ala_CJP_ASIM_D03_algebraico": {
+        "sigma_MPa": 12.9,
+        "DC": 0.058,
+        "caso": "CENTRADO_ASIM_D03_PMM"
+      },
+      "alma_filete": {
+        "V_kN": 11.97,
+        "phiRn_filete_kN": 156.5,
+        "phiVn_alma_kN": 77.3,
+        "DC": 0.155,
+        "caso": "DESVIO_13_M"
+      }
+    },
+    "15": {
+      "tipo": "T",
+      "barra_que_llega": "M06",
+      "barra_continua": "M02",
+      "ala_CJP": {
+        "sigma_MPa": 129.9,
+        "DC": 0.582,
+        "caso": "DESVIO_16_M",
+        "esfuerzos": {
+          "P": 4450.0,
+          "Vy": 451.0,
+          "Vz": 11869.0,
+          "T": 586343.0,
+          "M33": 2131763.0,
+          "M22": 123378.0,
+          "B": 127964486.0
+        }
+      },
+      "ala_CJP_ASIM_D03_algebraico": {
+        "sigma_MPa": 8.9,
+        "DC": 0.04,
+        "caso": "CENTRADO_ASIM_D03_PPM"
+      },
+      "alma_filete": {
+        "V_kN": 11.97,
+        "phiRn_filete_kN": 156.5,
+        "phiVn_alma_kN": 77.3,
+        "DC": 0.155,
+        "caso": "DESVIO_16_M"
+      }
+    },
+    "9": {
+      "tipo": "T",
+      "barra_que_llega": "M07",
+      "barra_continua": "M05",
+      "ala_CJP": {
+        "sigma_MPa": 31.1,
+        "DC": 0.139,
+        "caso": "CENTRADO_DISP_DAT_MPM",
+        "esfuerzos": {
+          "P": 3298.0,
+          "Vy": 210.0,
+          "Vz": 121.0,
+          "T": 5106.0,
+          "M33": 680732.0,
+          "M22": 175967.0,
+          "B": 15977202.0
+        }
+      },
+      "ala_CJP_ASIM_D03_algebraico": {
+        "sigma_MPa": 46.1,
+        "DC": 0.207,
+        "caso": "CENTRADO_ASIM_D03_PMM"
+      },
+      "alma_filete": {
+        "V_kN": 7.19,
+        "phiRn_filete_kN": 156.5,
+        "phiVn_alma_kN": 77.3,
+        "DC": 0.093,
+        "caso": "DESVIO_13_M"
+      }
+    },
+    "11": {
+      "tipo": "T",
+      "barra_que_llega": "M07",
+      "barra_continua": "M06",
+      "ala_CJP": {
+        "sigma_MPa": 31.1,
+        "DC": 0.139,
+        "caso": "CENTRADO_DISP_U2_P",
+        "esfuerzos": {
+          "P": 3220.0,
+          "Vy": 279.0,
+          "Vz": 369.0,
+          "T": 11870.0,
+          "M33": 795194.0,
+          "M22": 109530.0,
+          "B": 19125619.0
+        }
+      },
+      "ala_CJP_ASIM_D03_algebraico": {
+        "sigma_MPa": 54.9,
+        "DC": 0.246,
+        "caso": "CENTRADO_ASIM_D03_PMM"
+      },
+      "alma_filete": {
+        "V_kN": 7.19,
+        "phiRn_filete_kN": 156.5,
+        "phiVn_alma_kN": 77.3,
+        "DC": 0.093,
+        "caso": "DESVIO_13_P"
+      }
+    }
+  },
+  "barras_envolvente": {
+    "M01": {
+      "BASE": {
+        "sigma_MPa": 36.5,
+        "DC_fluencia": 0.163,
+        "caso": "BASE_R05",
+        "tau_sv_MPa": 3.7,
+        "DC_corte_DG9": 0.028
+      },
+      "CENTRADO": {
+        "sigma_MPa": 102.5,
+        "DC_fluencia": 0.459,
+        "caso": "CENTRADO_DISP_U2_M",
+        "tau_sv_MPa": 5.9,
+        "DC_corte_DG9": 0.044
+      },
+      "DESVIO": {
+        "sigma_MPa": 182.3,
+        "DC_fluencia": 0.817,
+        "caso": "DESVIO_2_M",
+        "tau_sv_MPa": 10.1,
+        "DC_corte_DG9": 0.075
+      },
+      "RET": {
+        "sigma_MPa": 36.0,
+        "DC_fluencia": 0.161,
+        "caso": "RET_JET_YP",
+        "tau_sv_MPa": 3.8,
+        "DC_corte_DG9": 0.028
+      },
+      "TIRO": {
+        "sigma_MPa": 69.0,
+        "DC_fluencia": 0.309,
+        "caso": "TIRO_P",
+        "tau_sv_MPa": 3.6,
+        "DC_corte_DG9": 0.027
+      }
+    },
+    "M02": {
+      "BASE": {
+        "sigma_MPa": 47.9,
+        "DC_fluencia": 0.215,
+        "caso": "BASE_R05",
+        "tau_sv_MPa": 3.7,
+        "DC_corte_DG9": 0.028
+      },
+      "CENTRADO": {
+        "sigma_MPa": 45.9,
+        "DC_fluencia": 0.206,
+        "caso": "CENTRADO_DISP_DAT_MPM",
+        "tau_sv_MPa": 2.1,
+        "DC_corte_DG9": 0.015
+      },
+      "DESVIO": {
+        "sigma_MPa": 171.6,
+        "DC_fluencia": 0.769,
+        "caso": "DESVIO_16_P",
+        "tau_sv_MPa": 9.4,
+        "DC_corte_DG9": 0.07
+      },
+      "RET": {
+        "sigma_MPa": 49.1,
+        "DC_fluencia": 0.22,
+        "caso": "RET_JET_YP",
+        "tau_sv_MPa": 3.8,
+        "DC_corte_DG9": 0.028
+      },
+      "TIRO": {
+        "sigma_MPa": 70.0,
+        "DC_fluencia": 0.314,
+        "caso": "TIRO_M",
+        "tau_sv_MPa": 3.8,
+        "DC_corte_DG9": 0.028
+      }
+    },
+    "M03": {
+      "BASE": {
+        "sigma_MPa": 10.4,
+        "DC_fluencia": 0.047,
+        "caso": "BASE_R05",
+        "tau_sv_MPa": 3.5,
+        "DC_corte_DG9": 0.026
+      },
+      "CENTRADO": {
+        "sigma_MPa": 57.0,
+        "DC_fluencia": 0.255,
+        "caso": "CENTRADO_DISP_DAT_MPM",
+        "tau_sv_MPa": 5.5,
+        "DC_corte_DG9": 0.041
+      },
+      "DESVIO": {
+        "sigma_MPa": 49.3,
+        "DC_fluencia": 0.221,
+        "caso": "DESVIO_2_M",
+        "tau_sv_MPa": 9.7,
+        "DC_corte_DG9": 0.072
+      },
+      "RET": {
+        "sigma_MPa": 12.1,
+        "DC_fluencia": 0.054,
+        "caso": "RET_JET_YP",
+        "tau_sv_MPa": 3.6,
+        "DC_corte_DG9": 0.027
+      },
+      "TIRO": {
+        "sigma_MPa": 10.8,
+        "DC_fluencia": 0.048,
+        "caso": "TIRO_M",
+        "tau_sv_MPa": 3.5,
+        "DC_corte_DG9": 0.026
+      }
+    },
+    "M04": {
+      "BASE": {
+        "sigma_MPa": 10.4,
+        "DC_fluencia": 0.047,
+        "caso": "BASE_R05",
+        "tau_sv_MPa": 3.5,
+        "DC_corte_DG9": 0.026
+      },
+      "CENTRADO": {
+        "sigma_MPa": 7.6,
+        "DC_fluencia": 0.034,
+        "caso": "CENTRADO_DISP_U2_P",
+        "tau_sv_MPa": 0.4,
+        "DC_corte_DG9": 0.003
+      },
+      "DESVIO": {
+        "sigma_MPa": 49.3,
+        "DC_fluencia": 0.221,
+        "caso": "DESVIO_5_M",
+        "tau_sv_MPa": 9.7,
+        "DC_corte_DG9": 0.072
+      },
+      "RET": {
+        "sigma_MPa": 10.8,
+        "DC_fluencia": 0.048,
+        "caso": "RET_JET_XP",
+        "tau_sv_MPa": 3.6,
+        "DC_corte_DG9": 0.027
+      },
+      "TIRO": {
+        "sigma_MPa": 17.1,
+        "DC_fluencia": 0.077,
+        "caso": "TIRO_M",
+        "tau_sv_MPa": 3.6,
+        "DC_corte_DG9": 0.027
+      }
+    },
+    "M05": {
+      "BASE": {
+        "sigma_MPa": 71.6,
+        "DC_fluencia": 0.321,
+        "caso": "BASE_R05",
+        "tau_sv_MPa": 2.3,
+        "DC_corte_DG9": 0.017
+      },
+      "CENTRADO": {
+        "sigma_MPa": 86.3,
+        "DC_fluencia": 0.386,
+        "caso": "CENTRADO_DISP_DAT_PPM",
+        "tau_sv_MPa": 5.8,
+        "DC_corte_DG9": 0.043
+      },
+      "DESVIO": {
+        "sigma_MPa": 129.9,
+        "DC_fluencia": 0.582,
+        "caso": "DESVIO_13_M",
+        "tau_sv_MPa": 8.0,
+        "DC_corte_DG9": 0.059
+      },
+      "RET": {
+        "sigma_MPa": 72.5,
+        "DC_fluencia": 0.325,
+        "caso": "RET_JET_XP",
+        "tau_sv_MPa": 2.4,
+        "DC_corte_DG9": 0.018
+      },
+      "TIRO": {
+        "sigma_MPa": 70.2,
+        "DC_fluencia": 0.314,
+        "caso": "TIRO_P",
+        "tau_sv_MPa": 2.4,
+        "DC_corte_DG9": 0.018
+      }
+    },
+    "M06": {
+      "BASE": {
+        "sigma_MPa": 71.6,
+        "DC_fluencia": 0.321,
+        "caso": "BASE_R05",
+        "tau_sv_MPa": 2.3,
+        "DC_corte_DG9": 0.017
+      },
+      "CENTRADO": {
+        "sigma_MPa": 85.5,
+        "DC_fluencia": 0.383,
+        "caso": "CENTRADO_DISP_DAT_PMM",
+        "tau_sv_MPa": 6.4,
+        "DC_corte_DG9": 0.047
+      },
+      "DESVIO": {
+        "sigma_MPa": 129.9,
+        "DC_fluencia": 0.582,
+        "caso": "DESVIO_16_M",
+        "tau_sv_MPa": 8.0,
+        "DC_corte_DG9": 0.059
+      },
+      "RET": {
+        "sigma_MPa": 72.6,
+        "DC_fluencia": 0.325,
+        "caso": "RET_JET_XP",
+        "tau_sv_MPa": 2.4,
+        "DC_corte_DG9": 0.018
+      },
+      "TIRO": {
+        "sigma_MPa": 70.7,
+        "DC_fluencia": 0.317,
+        "caso": "TIRO_P",
+        "tau_sv_MPa": 2.4,
+        "DC_corte_DG9": 0.018
+      }
+    },
+    "M07": {
+      "BASE": {
+        "sigma_MPa": 42.9,
+        "DC_fluencia": 0.192,
+        "caso": "BASE_R05",
+        "tau_sv_MPa": 0.4,
+        "DC_corte_DG9": 0.003
+      },
+      "CENTRADO": {
+        "sigma_MPa": 31.1,
+        "DC_fluencia": 0.139,
+        "caso": "CENTRADO_DISP_DAT_MPM",
+        "tau_sv_MPa": 3.3,
+        "DC_corte_DG9": 0.024
+      },
+      "DESVIO": {
+        "sigma_MPa": 43.0,
+        "DC_fluencia": 0.193,
+        "caso": "DESVIO_13_P",
+        "tau_sv_MPa": 1.3,
+        "DC_corte_DG9": 0.009
+      },
+      "RET": {
+        "sigma_MPa": 42.6,
+        "DC_fluencia": 0.191,
+        "caso": "RET_JET_XN",
+        "tau_sv_MPa": 0.3,
+        "DC_corte_DG9": 0.002
+      },
+      "TIRO": {
+        "sigma_MPa": 42.0,
+        "DC_fluencia": 0.188,
+        "caso": "TIRO_M",
+        "tau_sv_MPa": 0.8,
+        "DC_corte_DG9": 0.006
+      }
+    }
+  },
+  "validacion_BASE_R05_nudo3_barra12": {
+    "M33_max_M07_vlasov_SV_kNm": 4.008,
+    "M33_max_M07_SAP_kNm": 4.014,
+    "dif_pct": -0.1
+  }
+}

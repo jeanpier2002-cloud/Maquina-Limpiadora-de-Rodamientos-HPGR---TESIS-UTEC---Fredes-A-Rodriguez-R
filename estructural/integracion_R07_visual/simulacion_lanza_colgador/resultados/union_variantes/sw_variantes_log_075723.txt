@@ -1,0 +1,17 @@
+SolidWorks 32.5.0 | variantes BASE | estudios FUERA:2
+##### BASE | guardado True: C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R07_visual\simulacion_lanza_colgador\modelo\UNION_W5_BASE_075723.SLDPRT
+cuerpos identificados 15 de 15
+cara de empotramiento True; cara de la brida A True
+=== BASE FUERA_h2 (U_GOLPE_FUERA_PLANO, malla fina 2 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 2 mm en 16 caras (EndEdit=0)
+CreateMesh err=0 | nodos 416596, elementos 251239 (5.4622 s)
+RunAnalysis err=0 (35.7852 s)
+TRANSV_FINO: von Mises máx 319.9896 MPa en (-200.4771; 1768.797; -8.9303) SW
+W5_POS_FINO: von Mises máx 662.3904 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 614.8121 MPa en (-199.7332; 1768.3264; -10.3264) SW
+CUBO: von Mises máx 126.6091 MPa en (-199.9603; 1770; 3.9867) SW
+TRANSV_CENTRO: von Mises máx 184.0038 MPa en (-166.5471; 1767.383; -12.6173) SW
+TRANSV_EXT: von Mises máx 159.3947 MPa en (-272; 1726.3744; -26.8955) SW
+nodos de la superficie del tubo fino: 43256 -> nodos_BASE_FUERA_h2.csv
+imagen True

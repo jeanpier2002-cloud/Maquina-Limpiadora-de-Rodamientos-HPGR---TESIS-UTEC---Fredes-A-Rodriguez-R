@@ -1,0 +1,844 @@
+{
+ "log": "sw_log_015836.txt",
+ "fluencia_MPa": 153.0,
+ "estudios": {
+  "CHORROS": {
+   "grupos": {
+    "LANZA": {
+     "MPa": 7.5753,
+     "pos_sw": "-2.9448; 1586.7525; 266.4383",
+     "fraccion_fluencia": 0.05
+    },
+    "CARRO": {
+     "MPa": 6.2526,
+     "pos_sw": "1.3416; 1590; 233.354",
+     "fraccion_fluencia": 0.041
+    },
+    "VARILLA_": {
+     "MPa": 2.0522,
+     "pos_sw": "67.75; 1588.3088; 239.8173",
+     "fraccion_fluencia": 0.013
+    },
+    "COLGADOR_": {
+     "MPa": 2.7366,
+     "pos_sw": "55; 1770; 155",
+     "fraccion_fluencia": 0.018
+    },
+    "PUENTE_INF": {
+     "MPa": 2.8269,
+     "pos_sw": "75.9353; 1575; 237.535",
+     "fraccion_fluencia": 0.018
+    },
+    "PUENTE_SUP": {
+     "MPa": 2.4018,
+     "pos_sw": "-74.0647; 2440.0001; 237.535",
+     "fraccion_fluencia": 0.016
+    },
+    "PLACA_BLOQUEO": {
+     "MPa": 1.0879,
+     "pos_sw": "215; 1575; 225",
+     "fraccion_fluencia": 0.007
+    },
+    "ABRAZADERA|BRAZO_ABRAZADERA": {
+     "MPa": 1.9023,
+     "pos_sw": "-20.9057; 2454.9999; 87.5383",
+     "fraccion_fluencia": 0.012
+    },
+    "CUBO": {
+     "MPa": 1.0335,
+     "pos_sw": "47.5349; 1770; 188.8828",
+     "fraccion_fluencia": 0.007
+    },
+    "TRANSVERSAL": {
+     "MPa": 0.0732,
+     "pos_sw": "-169.6243; 1769.0405; 8.104",
+     "fraccion_fluencia": 0.0
+    },
+    "BRIDA_": {
+     "MPa": 0.0045,
+     "pos_sw": "279.25; 1768.7831; 8.9752",
+     "fraccion_fluencia": 0.0
+    },
+    "EJE": {
+     "MPa": 1.0626,
+     "pos_sw": "-3.6775; 2477.7608; 57.0316",
+     "fraccion_fluencia": 0.007
+    },
+    "CUELLO_|CODO_LANZA_SUP|RACOR": {
+     "MPa": 0.026,
+     "pos_sw": "13.3918; 1661.9999; 253.8346",
+     "fraccion_fluencia": 0.0
+    },
+    "COPLA_": {
+     "MPa": 4.7795,
+     "pos_sw": "-4.6857; 1328.2259; 266.0292",
+     "fraccion_fluencia": 0.031
+    },
+    "PIE_": {
+     "MPa": 0.2934,
+     "pos_sw": "-13.8161; 846.2865; 258.558",
+     "fraccion_fluencia": 0.002
+    }
+   },
+   "nodos": 985629,
+   "elementos": 607139,
+   "run_err": 0,
+   "run_s": 117.4826,
+   "vm_max_global": 7.5753,
+   "vm_max_global_pos_sw": "-2.9448; 1586.7525; 266.4383",
+   "sonda_lanza_Z1450": 4.6456,
+   "sonda_transversal_x240": 0.0073,
+   "despl_boquillas_mm": 0.4994,
+   "despl_pie_mm": 0.4986,
+   "despl_racor_mm": 0.0745
+  },
+  "GIRO": {
+   "grupos": {
+    "LANZA": {
+     "MPa": 0.0285,
+     "pos_sw": "-15.9495; 1588.2576; 254.95",
+     "fraccion_fluencia": 0.0
+    },
+    "CARRO": {
+     "MPa": 0.022,
+     "pos_sw": "2.0931; 1650; 266.5683",
+     "fraccion_fluencia": 0.0
+    },
+    "VARILLA_": {
+     "MPa": 0.027,
+     "pos_sw": "85.1574; 2438.6811; 242.7146",
+     "fraccion_fluencia": 0.0
+    },
+    "COLGADOR_": {
+     "MPa": 0.1666,
+     "pos_sw": "45; 1575; 190",
+     "fraccion_fluencia": 0.001
+    },
+    "PUENTE_INF": {
+     "MPa": 0.0593,
+     "pos_sw": "-43.7137; 1575; 185.2433",
+     "fraccion_fluencia": 0.0
+    },
+    "PUENTE_SUP": {
+     "MPa": 0.0377,
+     "pos_sw": "81.4809; 2440.0001; 239.3113",
+     "fraccion_fluencia": 0.0
+    },
+    "PLACA_BLOQUEO": {
+     "MPa": 0.0509,
+     "pos_sw": "215; 2440.0001; 225",
+     "fraccion_fluencia": 0.0
+    },
+    "ABRAZADERA|BRAZO_ABRAZADERA": {
+     "MPa": 0.0427,
+     "pos_sw": "40; 2451.2501; 155",
+     "fraccion_fluencia": 0.0
+    },
+    "CUBO": {
+     "MPa": 0.0524,
+     "pos_sw": "47.5349; 1770; 188.8828",
+     "fraccion_fluencia": 0.0
+    },
+    "TRANSVERSAL": {
+     "MPa": 0.008,
+     "pos_sw": "-200; 1770.075; 0",
+     "fraccion_fluencia": 0.0
+    },
+    "BRIDA_": {
+     "MPa": 0.0012,
+     "pos_sw": "279.25; 1714.8862; -16.6829",
+     "fraccion_fluencia": 0.0
+    },
+    "EJE": {
+     "MPa": 0.0272,
+     "pos_sw": "55.1069; 2839.9999; -15.1445",
+     "fraccion_fluencia": 0.0
+    },
+    "CUELLO_|CODO_LANZA_SUP|RACOR": {
+     "MPa": 0.0294,
+     "pos_sw": "-13.0688; 1689.109; 282.8008",
+     "fraccion_fluencia": 0.0
+    },
+    "COPLA_": {
+     "MPa": 0.0103,
+     "pos_sw": "-7.8766; 1345.8565; 264.7258",
+     "fraccion_fluencia": 0.0
+    },
+    "PIE_": {
+     "MPa": 0.0011,
+     "pos_sw": "11.0488; 850.6591; 263.6812",
+     "fraccion_fluencia": 0.0
+    }
+   },
+   "nodos": 985629,
+   "elementos": 607139,
+   "run_err": 0,
+   "run_s": 83.4733,
+   "vm_max_global": 0.1666,
+   "vm_max_global_pos_sw": "45; 1575; 190",
+   "sonda_lanza_Z1450": 0.016,
+   "sonda_transversal_x240": 0.0022,
+   "despl_boquillas_mm": 0.0047,
+   "despl_pie_mm": 0.0043,
+   "despl_racor_mm": 0.0039
+  },
+  "PESO": {
+   "grupos": {
+    "LANZA": {
+     "MPa": 3.8644,
+     "pos_sw": "4.9777; 1651.539; 234.0591",
+     "fraccion_fluencia": 0.025
+    },
+    "CARRO": {
+     "MPa": 3.5626,
+     "pos_sw": "7.2243; 1650; 234.9434",
+     "fraccion_fluencia": 0.023
+    },
+    "VARILLA_": {
+     "MPa": 2.9042,
+     "pos_sw": "69.4786; 2436.801; 238.7855",
+     "fraccion_fluencia": 0.019
+    },
+    "COLGADOR_": {
+     "MPa": 3.3133,
+     "pos_sw": "55; 1770; 190",
+     "fraccion_fluencia": 0.022
+    },
+    "PUENTE_INF": {
+     "MPa": 4.0748,
+     "pos_sw": "70.1865; 1575; 238.464",
+     "fraccion_fluencia": 0.027
+    },
+    "PUENTE_SUP": {
+     "MPa": 4.3419,
+     "pos_sw": "70.1862; 2440.0001; 238.4641",
+     "fraccion_fluencia": 0.028
+    },
+    "PLACA_BLOQUEO": {
+     "MPa": 3.3154,
+     "pos_sw": "203; 2440.0001; 228.125",
+     "fraccion_fluencia": 0.022
+    },
+    "ABRAZADERA|BRAZO_ABRAZADERA": {
+     "MPa": 6.4214,
+     "pos_sw": "28.5985; 2440.0001; 87.9357",
+     "fraccion_fluencia": 0.042
+    },
+    "CUBO": {
+     "MPa": 4.0218,
+     "pos_sw": "13.3315; 1860; 58.1099",
+     "fraccion_fluencia": 0.026
+    },
+    "TRANSVERSAL": {
+     "MPa": 2.4291,
+     "pos_sw": "-199.9943; 1770.1125; -1.5038",
+     "fraccion_fluencia": 0.016
+    },
+    "BRIDA_": {
+     "MPa": 0.3024,
+     "pos_sw": "279.25; 1740.6969; -30.1419",
+     "fraccion_fluencia": 0.002
+    },
+    "EJE": {
+     "MPa": 5.3037,
+     "pos_sw": "26.4243; 1860; 50.6742",
+     "fraccion_fluencia": 0.035
+    },
+    "CUELLO_|CODO_LANZA_SUP|RACOR": {
+     "MPa": 4.8711,
+     "pos_sw": "-11.0481; 1674.6833; 265.9047",
+     "fraccion_fluencia": 0.032
+    },
+    "COPLA_": {
+     "MPa": 0.2685,
+     "pos_sw": "-4.6857; 1328.2259; 266.0292",
+     "fraccion_fluencia": 0.002
+    },
+    "PIE_": {
+     "MPa": 0.2018,
+     "pos_sw": "0; 856.7371; 269.5537",
+     "fraccion_fluencia": 0.001
+    }
+   },
+   "nodos": 985629,
+   "elementos": 607139,
+   "run_err": 0,
+   "run_s": 82.3644,
+   "UY_pie_gravedad_mm": 0.0388,
+   "vm_max_global": 6.4214,
+   "vm_max_global_pos_sw": "28.5985; 2440.0001; 87.9357",
+   "sonda_lanza_Z1450": 0.1779,
+   "sonda_transversal_x240": 0.5697,
+   "despl_boquillas_mm": 0.2177,
+   "despl_pie_mm": 0.2164,
+   "despl_racor_mm": 0.1854
+  },
+  "SERVICIO": {
+   "grupos": {
+    "LANZA": {
+     "MPa": 7.3644,
+     "pos_sw": "-2.9448; 1586.7525; 266.4383",
+     "fraccion_fluencia": 0.048
+    },
+    "CARRO": {
+     "MPa": 6.2254,
+     "pos_sw": "1.3416; 1590; 233.354",
+     "fraccion_fluencia": 0.041
+    },
+    "VARILLA_": {
+     "MPa": 4.4143,
+     "pos_sw": "72.4882; 1578.1865; 237.755",
+     "fraccion_fluencia": 0.029
+    },
+    "COLGADOR_": {
+     "MPa": 2.7959,
+     "pos_sw": "55; 1575; 190",
+     "fraccion_fluencia": 0.018
+    },
+    "PUENTE_INF": {
+     "MPa": 6.5046,
+     "pos_sw": "70.1865; 1575; 238.464",
+     "fraccion_fluencia": 0.043
+    },
+    "PUENTE_SUP": {
+     "MPa": 3.5287,
+     "pos_sw": "42.3558; 2454.9999; 155",
+     "fraccion_fluencia": 0.023
+    },
+    "PLACA_BLOQUEO": {
+     "MPa": 3.0028,
+     "pos_sw": "203; 2440.0001; 228.125",
+     "fraccion_fluencia": 0.02
+    },
+    "ABRAZADERA|BRAZO_ABRAZADERA": {
+     "MPa": 4.7682,
+     "pos_sw": "40; 2440.0001; 155",
+     "fraccion_fluencia": 0.031
+    },
+    "CUBO": {
+     "MPa": 4.0698,
+     "pos_sw": "13.3315; 1860; 58.1099",
+     "fraccion_fluencia": 0.027
+    },
+    "TRANSVERSAL": {
+     "MPa": 2.4199,
+     "pos_sw": "-199.9943; 1770.1125; -1.5038",
+     "fraccion_fluencia": 0.016
+    },
+    "BRIDA_": {
+     "MPa": 0.3056,
+     "pos_sw": "279.25; 1740.6969; -30.1419",
+     "fraccion_fluencia": 0.002
+    },
+    "EJE": {
+     "MPa": 5.4017,
+     "pos_sw": "26.4243; 1860; 50.6742",
+     "fraccion_fluencia": 0.035
+    },
+    "CUELLO_|CODO_LANZA_SUP|RACOR": {
+     "MPa": 4.8753,
+     "pos_sw": "-11.0481; 1674.6833; 265.9047",
+     "fraccion_fluencia": 0.032
+    },
+    "COPLA_": {
+     "MPa": 4.5176,
+     "pos_sw": "-4.6857; 1328.2259; 266.0292",
+     "fraccion_fluencia": 0.03
+    },
+    "PIE_": {
+     "MPa": 0.105,
+     "pos_sw": "11.9404; 817.7116; 299.4368",
+     "fraccion_fluencia": 0.001
+    }
+   },
+   "nodos": 985629,
+   "elementos": 607139,
+   "run_err": 0,
+   "run_s": 95.4451,
+   "vm_max_global": 7.3644,
+   "vm_max_global_pos_sw": "-2.9448; 1586.7525; 266.4383",
+   "sonda_lanza_Z1450": 4.5523,
+   "sonda_transversal_x240": 0.5736,
+   "despl_boquillas_mm": 0.288,
+   "despl_pie_mm": 0.2909,
+   "despl_racor_mm": 0.1116
+  },
+  "GOLPE_LANZA_RADIAL": {
+   "grupos": {
+    "LANZA": {
+     "MPa": 94.937,
+     "pos_sw": "-2.9448; 1586.7525; 266.4383",
+     "fraccion_fluencia": 0.621
+    },
+    "CARRO": {
+     "MPa": 78.3169,
+     "pos_sw": "1.3416; 1590; 233.354",
+     "fraccion_fluencia": 0.512
+    },
+    "VARILLA_": {
+     "MPa": 25.8414,
+     "pos_sw": "75.581; 1578.1865; 237.5135",
+     "fraccion_fluencia": 0.169
+    },
+    "COLGADOR_": {
+     "MPa": 28.8215,
+     "pos_sw": "55; 1770; 155",
+     "fraccion_fluencia": 0.188
+    },
+    "PUENTE_INF": {
+     "MPa": 38.1009,
+     "pos_sw": "75.9353; 1575; 237.535",
+     "fraccion_fluencia": 0.249
+    },
+    "PUENTE_SUP": {
+     "MPa": 28.8417,
+     "pos_sw": "-74.0647; 2440.0001; 237.535",
+     "fraccion_fluencia": 0.189
+    },
+    "PLACA_BLOQUEO": {
+     "MPa": 12.6171,
+     "pos_sw": "215; 1575; 225",
+     "fraccion_fluencia": 0.082
+    },
+    "ABRAZADERA|BRAZO_ABRAZADERA": {
+     "MPa": 20.9989,
+     "pos_sw": "-20.9057; 2454.9999; 87.5383",
+     "fraccion_fluencia": 0.137
+    },
+    "CUBO": {
+     "MPa": 10.8344,
+     "pos_sw": "47.5349; 1770; 188.8828",
+     "fraccion_fluencia": 0.071
+    },
+    "TRANSVERSAL": {
+     "MPa": 0.7763,
+     "pos_sw": "-175.6949; 1769.0405; 8.104",
+     "fraccion_fluencia": 0.005
+    },
+    "BRIDA_": {
+     "MPa": 0.049,
+     "pos_sw": "279.25; 1768.7831; 8.9752",
+     "fraccion_fluencia": 0.0
+    },
+    "EJE": {
+     "MPa": 10.7357,
+     "pos_sw": "-3.6775; 2477.7608; 57.0316",
+     "fraccion_fluencia": 0.07
+    },
+    "CUELLO_|CODO_LANZA_SUP|RACOR": {
+     "MPa": 0.3245,
+     "pos_sw": "13.3918; 1661.9999; 253.8346",
+     "fraccion_fluencia": 0.002
+    },
+    "COPLA_": {
+     "MPa": 86.3396,
+     "pos_sw": "-4.6857; 1328.2259; 266.0292",
+     "fraccion_fluencia": 0.564
+    },
+    "PIE_": {
+     "MPa": 4.2271,
+     "pos_sw": "10.7346; 867.3871; 262.7929",
+     "fraccion_fluencia": 0.028
+    }
+   },
+   "nodos": 985629,
+   "elementos": 607139,
+   "run_err": 0,
+   "run_s": 92.9235,
+   "vm_max_global": 94.937,
+   "vm_max_global_pos_sw": "-2.9448; 1586.7525; 266.4383",
+   "sonda_lanza_Z1450": 65.3934,
+   "sonda_transversal_x240": 0.0792,
+   "despl_boquillas_mm": 7.0157,
+   "despl_pie_mm": 6.9979,
+   "despl_racor_mm": 0.8231
+  },
+  "GOLPE_LANZA_TANG": {
+   "grupos": {
+    "LANZA": {
+     "MPa": 98.8555,
+     "pos_sw": "-16.6989; 1588.2576; 249.8122",
+     "fraccion_fluencia": 0.646
+    },
+    "CARRO": {
+     "MPa": 67.0356,
+     "pos_sw": "16.6957; 1590; 249.6223",
+     "fraccion_fluencia": 0.438
+    },
+    "VARILLA_": {
+     "MPa": 20.3926,
+     "pos_sw": "-74.419; 1578.1865; 237.5135",
+     "fraccion_fluencia": 0.133
+    },
+    "COLGADOR_": {
+     "MPa": 34.4332,
+     "pos_sw": "-45; 1578.0469; 190",
+     "fraccion_fluencia": 0.225
+    },
+    "PUENTE_INF": {
+     "MPa": 28.6646,
+     "pos_sw": "-74.0647; 1575; 237.535",
+     "fraccion_fluencia": 0.187
+    },
+    "PUENTE_SUP": {
+     "MPa": 11.1205,
+     "pos_sw": "33.2692; 2454.9999; 155",
+     "fraccion_fluencia": 0.073
+    },
+    "PLACA_BLOQUEO": {
+     "MPa": 4.2149,
+     "pos_sw": "203; 2440.0001; 228.125",
+     "fraccion_fluencia": 0.028
+    },
+    "ABRAZADERA|BRAZO_ABRAZADERA": {
+     "MPa": 15.9145,
+     "pos_sw": "40; 2440.0001; 155",
+     "fraccion_fluencia": 0.104
+    },
+    "CUBO": {
+     "MPa": 11.9341,
+     "pos_sw": "-54.8753; 1770; 167.5153",
+     "fraccion_fluencia": 0.078
+    },
+    "TRANSVERSAL": {
+     "MPa": 0.4881,
+     "pos_sw": "-14.1983; 1770; 26.5976",
+     "fraccion_fluencia": 0.003
+    },
+    "BRIDA_": {
+     "MPa": 0.0157,
+     "pos_sw": "279.25; 1757.7053; -24.4038",
+     "fraccion_fluencia": 0.0
+    },
+    "EJE": {
+     "MPa": 11.5167,
+     "pos_sw": "55.1069; 1860; -15.1445",
+     "fraccion_fluencia": 0.075
+    },
+    "CUELLO_|CODO_LANZA_SUP|RACOR": {
+     "MPa": 0.3291,
+     "pos_sw": "10.5376; 1661.9999; 259.1106",
+     "fraccion_fluencia": 0.002
+    },
+    "COPLA_": {
+     "MPa": 34.7057,
+     "pos_sw": "-7.8766; 1345.8565; 264.7258",
+     "fraccion_fluencia": 0.227
+    },
+    "PIE_": {
+     "MPa": 3.9241,
+     "pos_sw": "-16.4463; 867.3871; 252.8999",
+     "fraccion_fluencia": 0.026
+    }
+   },
+   "nodos": 985629,
+   "elementos": 607139,
+   "run_err": 0,
+   "run_s": 92.4737,
+   "vm_max_global": 98.8555,
+   "vm_max_global_pos_sw": "-16.6989; 1588.2576; 249.8122",
+   "sonda_lanza_Z1450": 65.4209,
+   "sonda_transversal_x240": 0.0256,
+   "despl_boquillas_mm": 6.2738,
+   "despl_pie_mm": 6.3687,
+   "despl_racor_mm": 0.6611
+  },
+  "MANGUERA_100N": {
+   "grupos": {
+    "LANZA": {
+     "MPa": 26.3482,
+     "pos_sw": "4.9777; 1651.539; 234.0591",
+     "fraccion_fluencia": 0.172
+    },
+    "CARRO": {
+     "MPa": 24.1935,
+     "pos_sw": "7.2243; 1650; 234.9434",
+     "fraccion_fluencia": 0.158
+    },
+    "VARILLA_": {
+     "MPa": 5.4415,
+     "pos_sw": "75.581; 1578.1865; 237.5135",
+     "fraccion_fluencia": 0.036
+    },
+    "COLGADOR_": {
+     "MPa": 5.4755,
+     "pos_sw": "-55; 1575; 190",
+     "fraccion_fluencia": 0.036
+    },
+    "PUENTE_INF": {
+     "MPa": 8.2294,
+     "pos_sw": "75.9353; 1575; 237.535",
+     "fraccion_fluencia": 0.054
+    },
+    "PUENTE_SUP": {
+     "MPa": 6.547,
+     "pos_sw": "-74.0647; 2440.0001; 237.535",
+     "fraccion_fluencia": 0.043
+    },
+    "PLACA_BLOQUEO": {
+     "MPa": 2.4024,
+     "pos_sw": "215; 1575; 225",
+     "fraccion_fluencia": 0.016
+    },
+    "ABRAZADERA|BRAZO_ABRAZADERA": {
+     "MPa": 5.1827,
+     "pos_sw": "-28.5949; 2440.0001; 87.9359",
+     "fraccion_fluencia": 0.034
+    },
+    "CUBO": {
+     "MPa": 1.6037,
+     "pos_sw": "51.4629; 1770; 154.4407",
+     "fraccion_fluencia": 0.01
+    },
+    "TRANSVERSAL": {
+     "MPa": 0.0955,
+     "pos_sw": "172.6596; 1769.0405; 8.104",
+     "fraccion_fluencia": 0.001
+    },
+    "BRIDA_": {
+     "MPa": 0.0053,
+     "pos_sw": "-279.25; 1768.7831; 8.9752",
+     "fraccion_fluencia": 0.0
+    },
+    "EJE": {
+     "MPa": 1.9361,
+     "pos_sw": "-3.6775; 2477.7608; 57.0316",
+     "fraccion_fluencia": 0.013
+    },
+    "CUELLO_|CODO_LANZA_SUP|RACOR": {
+     "MPa": 33.0495,
+     "pos_sw": "13.622; 1689.4318; 266.123",
+     "fraccion_fluencia": 0.216
+    },
+    "COPLA_": {
+     "MPa": 0.0001,
+     "pos_sw": "10.7801; 834.9307; 362.5056",
+     "fraccion_fluencia": 0.0
+    },
+    "PIE_": {
+     "MPa": 0.0001,
+     "pos_sw": "-0.5943; 827.3177; 366.0556",
+     "fraccion_fluencia": 0.0
+    }
+   },
+   "nodos": 985629,
+   "elementos": 607139,
+   "run_err": 0,
+   "run_s": 95.4658,
+   "vm_max_global": 33.0495,
+   "vm_max_global_pos_sw": "13.622; 1689.4318; 266.123",
+   "sonda_lanza_Z1450": 0.0005,
+   "sonda_transversal_x240": 0.0095,
+   "despl_boquillas_mm": 0.3372,
+   "despl_pie_mm": 0.3367,
+   "despl_racor_mm": 0.7648
+  },
+  "U_GOLPE_FUERA_PLANO": {
+   "grupos": {
+    "LANZA": {
+     "MPa": 0.3054,
+     "pos_sw": "-5.7152; 1592.6927; 262.7036",
+     "fraccion_fluencia": 0.002
+    },
+    "CARRO": {
+     "MPa": 5.3273,
+     "pos_sw": "-78.9305; 1760; 238.134",
+     "fraccion_fluencia": 0.035
+    },
+    "VARILLA_": {
+     "MPa": 7.0804,
+     "pos_sw": "-67.1181; 2439.2664; 240.2982",
+     "fraccion_fluencia": 0.046
+    },
+    "COLGADOR_": {
+     "MPa": 25.185,
+     "pos_sw": "-45; 1770; 190",
+     "fraccion_fluencia": 0.165
+    },
+    "PUENTE_INF": {
+     "MPa": 10.9608,
+     "pos_sw": "57; 1575; 212.8313",
+     "fraccion_fluencia": 0.072
+    },
+    "PUENTE_SUP": {
+     "MPa": 15.6465,
+     "pos_sw": "190; 2454.9999; 212.9546",
+     "fraccion_fluencia": 0.102
+    },
+    "PLACA_BLOQUEO": {
+     "MPa": 15.2378,
+     "pos_sw": "215; 2440.0001; 225",
+     "fraccion_fluencia": 0.1
+    },
+    "ABRAZADERA|BRAZO_ABRAZADERA": {
+     "MPa": 28.9907,
+     "pos_sw": "14.1764; 2474.9999; 55.3638",
+     "fraccion_fluencia": 0.189
+    },
+    "CUBO": {
+     "MPa": 211.0222,
+     "pos_sw": "-200; 1770; 0",
+     "fraccion_fluencia": 1.379
+    },
+    "TRANSVERSAL": {
+     "MPa": 212.0011,
+     "pos_sw": "-194.5772; 1765.4437; -10.1136",
+     "fraccion_fluencia": 1.386
+    },
+    "BRIDA_": {
+     "MPa": 106.0374,
+     "pos_sw": "-279.25; 1729.8443; 28.3881",
+     "fraccion_fluencia": 0.693
+    },
+    "EJE": {
+     "MPa": 32.4058,
+     "pos_sw": "-9.1175; 1860; -56.418",
+     "fraccion_fluencia": 0.212
+    },
+    "CUELLO_|CODO_LANZA_SUP|RACOR": {
+     "MPa": 0.0498,
+     "pos_sw": "-71.5328; 1692.4409; 388.2994",
+     "fraccion_fluencia": 0.0
+    },
+    "COPLA_": {
+     "MPa": 0.0037,
+     "pos_sw": "-8.5497; 1338.2469; 282.5995",
+     "fraccion_fluencia": 0.0
+    },
+    "PIE_": {
+     "MPa": 0.0025,
+     "pos_sw": "-6.8802; 841.9238; 283.3316",
+     "fraccion_fluencia": 0.0
+    }
+   },
+   "nodos": 985629,
+   "elementos": 607139,
+   "run_err": 0,
+   "run_s": 83.9727,
+   "vm_max_global": 212.0011,
+   "vm_max_global_pos_sw": "-194.5772; 1765.4437; -10.1136",
+   "sonda_lanza_Z1450": 0.0004,
+   "sonda_transversal_x240": 113.3343,
+   "despl_boquillas_mm": 1.6787,
+   "despl_pie_mm": 1.6472,
+   "despl_racor_mm": 1.4966
+  },
+  "U_GOLPE_EN_PLANO": {
+   "grupos": {
+    "LANZA": {
+     "MPa": 0.7718,
+     "pos_sw": "10.2067; 1592.7724; 240.5201",
+     "fraccion_fluencia": 0.005
+    },
+    "CARRO": {
+     "MPa": 6.3032,
+     "pos_sw": "-78.9297; 1590; 238.1338",
+     "fraccion_fluencia": 0.041
+    },
+    "VARILLA_": {
+     "MPa": 8.4318,
+     "pos_sw": "-77.5118; 1578.1865; 237.755",
+     "fraccion_fluencia": 0.055
+    },
+    "COLGADOR_": {
+     "MPa": 14.8799,
+     "pos_sw": "-55; 1575; 190",
+     "fraccion_fluencia": 0.097
+    },
+    "PUENTE_INF": {
+     "MPa": 11.7846,
+     "pos_sw": "-79.8135; 1575; 238.464",
+     "fraccion_fluencia": 0.077
+    },
+    "PUENTE_SUP": {
+     "MPa": 13.9015,
+     "pos_sw": "42.3558; 2454.9999; 155",
+     "fraccion_fluencia": 0.091
+    },
+    "PLACA_BLOQUEO": {
+     "MPa": 4.5498,
+     "pos_sw": "212; 2440.0001; 225",
+     "fraccion_fluencia": 0.03
+    },
+    "ABRAZADERA|BRAZO_ABRAZADERA": {
+     "MPa": 20.0867,
+     "pos_sw": "56.5115; 2474.9999; -8.5188",
+     "fraccion_fluencia": 0.131
+    },
+    "CUBO": {
+     "MPa": 80.7534,
+     "pos_sw": "-199.9774; 1770; 3.0038",
+     "fraccion_fluencia": 0.528
+    },
+    "TRANSVERSAL": {
+     "MPa": 168.8607,
+     "pos_sw": "-199.9943; 1770.1125; -1.5038",
+     "fraccion_fluencia": 1.104
+    },
+    "BRIDA_": {
+     "MPa": 66.1845,
+     "pos_sw": "-279.25; 1709.855; 0.548",
+     "fraccion_fluencia": 0.433
+    },
+    "EJE": {
+     "MPa": 30.2553,
+     "pos_sw": "55.1069; 1860; -15.1445",
+     "fraccion_fluencia": 0.198
+    },
+    "CUELLO_|CODO_LANZA_SUP|RACOR": {
+     "MPa": 0.1395,
+     "pos_sw": "10.5376; 1661.9999; 259.1106",
+     "fraccion_fluencia": 0.001
+    },
+    "COPLA_": {
+     "MPa": 0.0035,
+     "pos_sw": "-1.5992; 1043.7618; 285.35",
+     "fraccion_fluencia": 0.0
+    },
+    "PIE_": {
+     "MPa": 0.0011,
+     "pos_sw": "-6.8802; 841.9238; 283.3316",
+     "fraccion_fluencia": 0.0
+    }
+   },
+   "nodos": 985629,
+   "elementos": 607139,
+   "run_err": 0,
+   "run_s": 100.3963,
+   "vm_max_global": 168.8607,
+   "vm_max_global_pos_sw": "-199.9943; 1770.1125; -1.5038",
+   "sonda_lanza_Z1450": 0.0015,
+   "sonda_transversal_x240": 55.6087,
+   "despl_boquillas_mm": 2.1621,
+   "despl_pie_mm": 2.1678,
+   "despl_racor_mm": 1.274
+  }
+ },
+ "controles": {
+  "lanza_Z1450_CHORROS": {
+   "a_mano_MPa": 4.578,
+   "SW_MPa": 4.6456,
+   "diferencia_pct": 1.5
+  },
+  "lanza_Z1450_GOLPE_LANZA_RADIAL": {
+   "a_mano_MPa": 64.86,
+   "SW_MPa": 65.3934,
+   "diferencia_pct": 0.8
+  },
+  "lanza_Z1450_GOLPE_LANZA_TANG": {
+   "a_mano_MPa": 64.86,
+   "SW_MPa": 65.4209,
+   "diferencia_pct": 0.9
+  },
+  "transversal_x240_U_GOLPE_FUERA_PLANO": {
+   "a_mano_MPa": 104.96,
+   "SW_MPa": 113.3343,
+   "diferencia_pct": 8.0
+  },
+  "transversal_x240_U_GOLPE_EN_PLANO": {
+   "a_mano_MPa": 51.38,
+   "SW_MPa": 55.6087,
+   "diferencia_pct": 8.2
+  }
+ }
+}

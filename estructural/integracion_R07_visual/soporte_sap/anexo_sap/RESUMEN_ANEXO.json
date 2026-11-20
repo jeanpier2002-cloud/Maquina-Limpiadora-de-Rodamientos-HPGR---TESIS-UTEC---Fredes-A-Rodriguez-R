@@ -1,0 +1,134 @@
+{
+ "K32_M_80x4_150x100x3": {
+  "dc": [
+   "D/C máximo AISC 360-16",
+   0.179,
+   0.183,
+   "≤ 0,9",
+   "sí"
+  ],
+  "lat": [
+   "Lateral del cojinete superior en S2 (mm)",
+   2.819,
+   2.258,
+   "≤ 5,0 (holgura de 22,9 mm en el techo)",
+   "sí"
+  ],
+  "f1": [
+   "Primera frecuencia (Hz)",
+   3.35,
+   3.74,
+   "≥ 3,0 nominal; sin modos en 17,6–26,4 Hz",
+   "sí"
+  ],
+  "fl": [
+   "Flecha de la viga en S1 (mm), L = 4040",
+   2.474,
+   1.987,
+   "≤ L/1000 = 4.04",
+   "sí"
+  ],
+  "pd": [
+   "Primer factor de pandeo lineal (U2/U3)",
+   98.4,
+   123.371,
+   "—",
+   "—"
+  ],
+  "mb": [
+   "Masa de barras (kg)",
+   247.1,
+   247.1,
+   "—",
+   "—"
+  ]
+ },
+ "K0_O10R_MARCO_SOLO": {
+  "dc": [
+   "D/C máximo AISC 360-16",
+   0.119,
+   0.12,
+   "≤ 0,9",
+   "sí"
+  ],
+  "lat": [
+   "Lateral del cojinete superior en S2 (mm)",
+   1.233,
+   0.988,
+   "≤ 5,0 (holgura de 22,9 mm en el techo)",
+   "sí"
+  ],
+  "f1": [
+   "Primera frecuencia (Hz)",
+   4.65,
+   5.2,
+   "≥ 3,0 nominal; sin modos en 17,6–26,4 Hz",
+   "sí"
+  ],
+  "fl": [
+   "Flecha de la viga en S1 (mm), L = 4040",
+   1.455,
+   1.169,
+   "≤ L/1000 = 4.04",
+   "sí"
+  ],
+  "pd": [
+   "Primer factor de pandeo lineal (U2/U3)",
+   131.6,
+   164.783,
+   "—",
+   "—"
+  ],
+  "mb": [
+   "Masa de barras (kg)",
+   360.0,
+   360.0,
+   "—",
+   "—"
+  ]
+ },
+ "K16_ANGOSTO_X1150_MISMOS": {
+  "dc": [
+   "D/C máximo AISC 360-16",
+   0.076,
+   0.077,
+   "≤ 0,9",
+   "sí"
+  ],
+  "lat": [
+   "Lateral del cojinete superior en S2 (mm)",
+   1.148,
+   0.92,
+   "≤ 5,0 (holgura de 22,9 mm en el techo)",
+   "sí"
+  ],
+  "f1": [
+   "Primera frecuencia (Hz)",
+   5.23,
+   5.84,
+   "≥ 3,0 nominal; sin modos en 17,6–26,4 Hz",
+   "sí"
+  ],
+  "fl": [
+   "Flecha de la viga en S1 (mm), L = 2300",
+   0.224,
+   0.181,
+   "≤ L/1000 = 2.30",
+   "sí"
+  ],
+  "pd": [
+   "Primer factor de pandeo lineal (U2/U3)",
+   142.0,
+   177.73,
+   "—",
+   "—"
+  ],
+  "mb": [
+   "Masa de barras (kg)",
+   289.7,
+   289.7,
+   "—",
+   "—"
+  ]
+ }
+}

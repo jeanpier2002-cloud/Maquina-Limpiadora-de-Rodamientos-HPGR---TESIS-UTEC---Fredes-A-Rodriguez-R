@@ -1,0 +1,79 @@
+{
+  "filas": [
+    {
+      "caso": "U1_SP_H12",
+      "nodos": 23039,
+      "u_contacto_mm": 0.46351115891991806,
+      "u_pegado_tie_mm": 0.43702806068053257,
+      "cociente": 1.0605981643333073,
+      "giro_contacto_mrad": 2.240512049126095,
+      "giro_pegado_mrad": 2.1047925343170513
+    },
+    {
+      "caso": "U1_SP_H9",
+      "nodos": 32497,
+      "u_contacto_mm": 0.48227492688517654,
+      "u_pegado_tie_mm": 0.451095467829609,
+      "cociente": 1.0691194243329105,
+      "giro_contacto_mrad": 2.3159395643841645,
+      "giro_pegado_mrad": 2.159535433721015
+    },
+    {
+      "caso": "U1_SP_H7",
+      "nodos": 54533,
+      "u_contacto_mm": 0.5112279495048874,
+      "u_pegado_tie_mm": 0.474043465467374,
+      "cociente": 1.0784410855676536,
+      "giro_contacto_mrad": 2.4519893323408035,
+      "giro_pegado_mrad": 2.269097443720339
+    },
+    {
+      "caso": "U3_SM_H9",
+      "nodos": 32075,
+      "u_contacto_mm": 0.446890531683898,
+      "u_pegado_tie_mm": 0.42168351656541153,
+      "cociente": 1.059777093787768,
+      "giro_contacto_mrad": 2.1909432528383253,
+      "giro_pegado_mrad": 2.0582182528048842
+    }
+  ],
+  "cociente_extrapolado": 1.1279363248462158,
+  "cociente_adoptado": 1.13,
+  "pegado_v572b_mm": {
+    "U1_SP": 0.5899967775526411,
+    "U1_SM": 0.5284435551818988,
+    "U3_SP": 0.47633224856093187,
+    "U3_SM": 0.5472133195576179
+  },
+  "fem800_contacto_mm": {
+    "U1_SP": 0.6666963586344844,
+    "U1_SM": 0.5971412173555456,
+    "U3_SP": 0.5382554408738529,
+    "U3_SM": 0.6183510511001081
+  },
+  "viga_vlasov800_mm": {
+    "U1_SP": 0.2877716572300517,
+    "U1_SM": 0.23854410966106043,
+    "U3_SP": 0.19276012322240232,
+    "U3_SM": 0.2508475128199805
+  },
+  "local_v571_mm": {
+    "U1_SP": 0.3527889095003346,
+    "U1_SM": 0.3325321314988188,
+    "U3_SP": 0.3191881621312749,
+    "U3_SM": 0.34140772661456287
+  },
+  "local_propuesto_mm": {
+    "U1_SP": 0.3789247014044327,
+    "U1_SM": 0.35859710769448516,
+    "U3_SP": 0.3454953176514506,
+    "U3_SM": 0.3675035382801276,
+    "fuente": "FEM de contacto v5.7.3 (CalculiX): cociente contacto/pegado 1.13 (extrapolado 1.128; malla 7 mm 1.078) × FEM pegado v5.7.2b de 800 mm (malla 2 mm) − viga de Vlasov de 800 mm impedida (DELTA_TOTAL_v571_pegado.json). HIPÓTESIS de cribado."
+  },
+  "solidworks": {
+    "log": "sw_log_pegado_232145.txt",
+    "malla_mm": 4.0,
+    "nodos": 735326,
+    "u_Z955_total_mm": 0.585999
+  }
+}

@@ -1,0 +1,19 @@
+ 0- 1 distancia 0.600 mm, solape 0.00 mm3
+ 0- 2 distancia 0.000 mm, solape 0.00 mm3
+ 0- 8 distancia 0.000 mm, solape 0.00 mm3
+ 0- 9 distancia 0.000 mm, solape 0.00 mm3
+ 2- 3 distancia 0.000 mm, solape 0.00 mm3
+ 3- 4 distancia 0.000 mm, solape 0.00 mm3
+ 3-14 distancia 0.000 mm, solape 0.00 mm3
+ 3-15 distancia 0.000 mm, solape 0.00 mm3
+ 3-16 distancia 0.000 mm, solape 0.00 mm3
+ 3-17 distancia 0.000 mm, solape 0.00 mm3
+ 3-18 distancia 0.000 mm, solape 0.00 mm3
+ 4- 5 distancia 0.000 mm, solape 0.00 mm3
+ 5- 6 distancia 0.000 mm, solape 0.00 mm3
+ 5- 7 distancia 0.091 mm, solape 0.00 mm3
+ 6- 7 distancia 0.000 mm, solape 1573.55 mm3
+ 8-10 distancia 0.000 mm, solape 0.00 mm3
+ 9-11 distancia 0.000 mm, solape 0.00 mm3
+10-12 distancia 0.000 mm, solape 0.00 mm3
+11-13 distancia 0.000 mm, solape 0.00 mm3

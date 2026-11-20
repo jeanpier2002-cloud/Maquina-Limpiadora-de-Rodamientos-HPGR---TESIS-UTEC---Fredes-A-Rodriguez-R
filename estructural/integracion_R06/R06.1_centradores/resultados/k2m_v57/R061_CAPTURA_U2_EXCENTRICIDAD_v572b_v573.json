@@ -1,0 +1,212 @@
+{
+ "v5.7.2b": {
+  "PHI_ACT": 49.005444386709144,
+  "L": 65.0,
+  "casos": [
+   {
+    "e_mm": 0.0,
+    "psi_deg": null,
+    "phi_contacto": 49.005,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 13.32,
+    "PASADOR_RODILLO_mm": 20.2,
+    "BRAZO_mm": 50.56,
+    "recorrido_radial_hasta_tope_mm": 19.734,
+    "recorrido_angular_hasta_tope_deg": 29.005
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 0,
+    "phi_contacto": 44.885,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.722,
+    "PASADOR_RODILLO_mm": 19.915,
+    "BRAZO_mm": 51.799,
+    "recorrido_radial_hasta_tope_mm": 16.12,
+    "recorrido_angular_hasta_tope_deg": 24.885
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 45,
+    "phi_contacto": 45.293,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.8,
+    "PASADOR_RODILLO_mm": 19.997,
+    "BRAZO_mm": 51.572,
+    "recorrido_radial_hasta_tope_mm": 16.468,
+    "recorrido_angular_hasta_tope_deg": 25.293
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 90,
+    "phi_contacto": 47.768,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 13.064,
+    "PASADOR_RODILLO_mm": 20.2,
+    "BRAZO_mm": 50.667,
+    "recorrido_radial_hasta_tope_mm": 18.625,
+    "recorrido_angular_hasta_tope_deg": 27.768
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 135,
+    "phi_contacto": 53.205,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.688,
+    "PASADOR_RODILLO_mm": 19.88,
+    "BRAZO_mm": 51.747,
+    "recorrido_radial_hasta_tope_mm": 23.638,
+    "recorrido_angular_hasta_tope_deg": 33.205
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 180,
+    "phi_contacto": 56.615,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.297,
+    "PASADOR_RODILLO_mm": 19.455,
+    "BRAZO_mm": 52.555,
+    "recorrido_radial_hasta_tope_mm": 26.954,
+    "recorrido_angular_hasta_tope_deg": 36.615
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 225,
+    "phi_contacto": 55.651,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.455,
+    "PASADOR_RODILLO_mm": 19.629,
+    "BRAZO_mm": 52.266,
+    "recorrido_radial_hasta_tope_mm": 26.005,
+    "recorrido_angular_hasta_tope_deg": 35.651
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 270,
+    "phi_contacto": 50.469,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 13.03,
+    "PASADOR_RODILLO_mm": 20.2,
+    "BRAZO_mm": 50.688,
+    "recorrido_radial_hasta_tope_mm": 21.071,
+    "recorrido_angular_hasta_tope_deg": 30.469
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 315,
+    "phi_contacto": 46.804,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.911,
+    "PASADOR_RODILLO_mm": 20.111,
+    "BRAZO_mm": 51.224,
+    "recorrido_radial_hasta_tope_mm": 17.775,
+    "recorrido_angular_hasta_tope_deg": 26.804
+   }
+  ]
+ },
+ "v5.7.3": {
+  "PHI_ACT": 50.37870960588226,
+  "L": 67.15,
+  "casos": [
+   {
+    "e_mm": 0.0,
+    "psi_deg": null,
+    "phi_contacto": 50.379,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 13.32,
+    "PASADOR_RODILLO_mm": 20.2,
+    "BRAZO_mm": 50.551,
+    "recorrido_radial_hasta_tope_mm": 21.731,
+    "recorrido_angular_hasta_tope_deg": 30.379
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 0,
+    "phi_contacto": 46.424,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.741,
+    "PASADOR_RODILLO_mm": 19.935,
+    "BRAZO_mm": 51.731,
+    "recorrido_radial_hasta_tope_mm": 18.063,
+    "recorrido_angular_hasta_tope_deg": 26.424
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 45,
+    "phi_contacto": 46.804,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.816,
+    "PASADOR_RODILLO_mm": 20.013,
+    "BRAZO_mm": 51.512,
+    "recorrido_radial_hasta_tope_mm": 18.406,
+    "recorrido_angular_hasta_tope_deg": 26.804
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 90,
+    "phi_contacto": 49.178,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 13.071,
+    "PASADOR_RODILLO_mm": 20.2,
+    "BRAZO_mm": 50.648,
+    "recorrido_radial_hasta_tope_mm": 20.595,
+    "recorrido_angular_hasta_tope_deg": 29.178
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 135,
+    "phi_contacto": 54.246,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.727,
+    "PASADOR_RODILLO_mm": 19.92,
+    "BRAZO_mm": 51.647,
+    "recorrido_radial_hasta_tope_mm": 25.507,
+    "recorrido_angular_hasta_tope_deg": 34.246
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 180,
+    "phi_contacto": 57.471,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.363,
+    "PASADOR_RODILLO_mm": 19.529,
+    "BRAZO_mm": 52.43,
+    "recorrido_radial_hasta_tope_mm": 28.785,
+    "recorrido_angular_hasta_tope_deg": 37.471
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 225,
+    "phi_contacto": 56.576,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.511,
+    "PASADOR_RODILLO_mm": 19.69,
+    "BRAZO_mm": 52.15,
+    "recorrido_radial_hasta_tope_mm": 27.864,
+    "recorrido_angular_hasta_tope_deg": 36.576
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 270,
+    "phi_contacto": 51.765,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 13.04,
+    "PASADOR_RODILLO_mm": 20.2,
+    "BRAZO_mm": 50.662,
+    "recorrido_radial_hasta_tope_mm": 23.064,
+    "recorrido_angular_hasta_tope_deg": 31.765
+   },
+   {
+    "e_mm": 5.0,
+    "psi_deg": 315,
+    "phi_contacto": 48.274,
+    "piezas_no_rodillo_antes": [],
+    "HORQUILLA_mm": 12.922,
+    "PASADOR_RODILLO_mm": 20.121,
+    "BRAZO_mm": 51.178,
+    "recorrido_radial_hasta_tope_mm": 19.752,
+    "recorrido_angular_hasta_tope_deg": 28.274
+   }
+  ]
+ }
+}

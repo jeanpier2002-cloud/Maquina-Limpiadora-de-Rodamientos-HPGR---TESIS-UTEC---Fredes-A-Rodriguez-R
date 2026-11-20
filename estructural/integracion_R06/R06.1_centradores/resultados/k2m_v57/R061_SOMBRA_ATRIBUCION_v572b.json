@@ -1,0 +1,77 @@
+{
+ "parches": {
+  "188_890": {
+   "sin": 4,
+   "completo": 0,
+   "sin_tope_02": 4,
+   "solo_tope_02": 0
+  },
+  "188_900": {
+   "sin": 4,
+   "completo": 0,
+   "sin_tope_02": 4,
+   "solo_tope_02": 0
+  },
+  "188_910": {
+   "sin": 4,
+   "completo": 0,
+   "sin_tope_02": 4,
+   "solo_tope_02": 0
+  },
+  "188_920": {
+   "sin": 4,
+   "completo": 2,
+   "sin_tope_02": 4,
+   "solo_tope_02": 2
+  },
+  "190_890": {
+   "sin": 4,
+   "completo": 0,
+   "sin_tope_02": 2,
+   "solo_tope_02": 0
+  },
+  "190_900": {
+   "sin": 4,
+   "completo": 0,
+   "sin_tope_02": 2,
+   "solo_tope_02": 0
+  },
+  "190_910": {
+   "sin": 4,
+   "completo": 0,
+   "sin_tope_02": 2,
+   "solo_tope_02": 0
+  },
+  "190_920": {
+   "sin": 4,
+   "completo": 2,
+   "sin_tope_02": 2,
+   "solo_tope_02": 2
+  },
+  "192_890": {
+   "sin": 6,
+   "completo": 1,
+   "sin_tope_02": 5,
+   "solo_tope_02": 2
+  },
+  "192_900": {
+   "sin": 6,
+   "completo": 1,
+   "sin_tope_02": 5,
+   "solo_tope_02": 2
+  },
+  "192_910": {
+   "sin": 6,
+   "completo": 1,
+   "sin_tope_02": 5,
+   "solo_tope_02": 2
+  },
+  "192_920": {
+   "sin": 6,
+   "completo": 3,
+   "sin_tope_02": 5,
+   "solo_tope_02": 4
+  }
+ },
+ "nota": "impactos = exposiciones distintas (fase, boquilla) por parche; visibilidad geométrica"
+}

@@ -1,0 +1,72 @@
+{
+ "J_cajon": 2564689.811426386,
+ "tp": 6.0,
+ "res": {
+  "base": {
+   "LIBRE": {
+    "U1": [
+     1.637,
+     "ENV208_PPP_RIG"
+    ],
+    "U3": [
+     1.313,
+     "ENV208_MMM_RIG"
+    ]
+   },
+   "IMPEDIDO": {
+    "U1": [
+     1.232,
+     "ENV208_PPP_RIG"
+    ],
+    "U3": [
+     0.951,
+     "ENV208_MMM_RIG"
+    ]
+   }
+  },
+  "cajon X388-663 (barras 22/21)": {
+   "LIBRE": {
+    "U1": [
+     0.994,
+     "ENV208_PPP_RIG"
+    ],
+    "U3": [
+     0.742,
+     "ENV208_MMM_RIG"
+    ]
+   },
+   "IMPEDIDO": {
+    "U1": [
+     0.957,
+     "ENV208_PPP_RIG"
+    ],
+    "U3": [
+     0.708,
+     "ENV208_MMM_RIG"
+    ]
+   }
+  },
+  "cajon X-331.5-663 (barras 16,22/13,21)": {
+   "LIBRE": {
+    "U1": [
+     0.982,
+     "ENV208_PPP_RIG"
+    ],
+    "U3": [
+     0.732,
+     "ENV208_MMM_RIG"
+    ]
+   },
+   "IMPEDIDO": {
+    "U1": [
+     0.946,
+     "ENV208_PPP_RIG"
+    ],
+    "U3": [
+     0.698,
+     "ENV208_MMM_RIG"
+    ]
+   }
+  }
+ }
+}

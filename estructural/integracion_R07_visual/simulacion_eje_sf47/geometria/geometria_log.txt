@@ -1,0 +1,2 @@
+volumen 64601.2 mm3, caras 20, radio de fondo 0.40 mm en 5 aristas, filete del resalte en 1 arista(s)
+bbox BoundBox (-25, -25, -30, 25, 25, 50)

@@ -1,0 +1,71 @@
+SolidWorks 32.5.0 | variantes LENG,CART | estudios FUERA:1,EN:1
+##### LENG | guardado True: C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R07_visual\simulacion_lanza_colgador\modelo\UNION_W5_LENG_120814.SLDPRT
+cuerpos identificados 18 de 18
+cara de empotramiento True; cara de la brida A True
+=== LENG FUERA_h1 (U_GOLPE_FUERA_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 1 mm en 26 caras (EndEdit=0)
+CreateMesh err=0 | nodos 940987, elementos 590257 (17.6518 s)
+RunAnalysis err=0 (97.2183 s)
+TRANSV_FINO: von Mises máx 471.6981 MPa en (-255.2635; 1768.3808; -10.1761) SW
+W5_POS_FINO: von Mises máx 214.7158 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 221.274 MPa en (-199.7332; 1768.3264; -10.3264) SW
+WR_POS: von Mises máx 967.598 MPa en (-255; 1768.3264; 10.3264) SW
+WR_NEG: von Mises máx 1063.2462 MPa en (-255; 1768.3264; -10.3264) SW
+LENGUETA: von Mises máx 107.9398 MPa en (-255; 1770; 0) SW
+CUBO: von Mises máx 51.3714 MPa en (16.7101; 1770; -21.6896) SW
+TRANSV_CENTRO: von Mises máx 147.7085 MPa en (-166.5471; 1767.383; -12.6173) SW
+TRANSV_EXT: von Mises máx 168.1379 MPa en (-275.2093; 1740.495; -30.1459) SW
+nodos de la superficie del tubo fino: 173648 -> nodos_LENG_FUERA_h1.csv
+imagen True
+=== LENG EN_h1 (U_GOLPE_EN_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (1000; 0; 0) EndEdit=0
+  control de malla 1 mm en 26 caras (EndEdit=0)
+CreateMesh err=0 | nodos 940987, elementos 590257 (20.1547 s)
+RunAnalysis err=0 (112.6534 s)
+TRANSV_FINO: von Mises máx 174.8792 MPa en (-255.25; 1768.6645; -9.3473) SW
+W5_POS_FINO: von Mises máx 32.449 MPa en (-191.3088; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 31.5952 MPa en (-195.2733; 1768.3264; -10.3264) SW
+WR_POS: von Mises máx 357.7558 MPa en (-255; 1769.8265; 4.405) SW
+WR_NEG: von Mises máx 326.1365 MPa en (-255; 1768.3264; -10.3264) SW
+LENGUETA: von Mises máx 34.4061 MPa en (-199.8382; 1778; -8.0429) SW
+CUBO: von Mises máx 24.1576 MPa en (-60.8144; 1860; 4.0378) SW
+TRANSV_CENTRO: von Mises máx 28.0654 MPa en (-170; 1710.1378; -4.1562) SW
+TRANSV_EXT: von Mises máx 74.1022 MPa en (-275.188; 1711.1611; 8.7943) SW
+nodos de la superficie del tubo fino: 173648 -> nodos_LENG_EN_h1.csv
+imagen True
+##### CART | guardado True: C:\Users\<usuario>\Documents\Codex\2026-07-06\ho\01_DISENO_VIGENTE\integracion_R07_visual\simulacion_lanza_colgador\modelo\UNION_W5_CART_120814.SLDPRT
+cuerpos identificados 18 de 18
+cara de empotramiento True; cara de la brida A True
+=== CART FUERA_h1 (U_GOLPE_FUERA_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (0; 0; -1000) EndEdit=0
+  control de malla 1 mm en 26 caras (EndEdit=0)
+CreateMesh err=0 | nodos 970852, elementos 610181 (24.9061 s)
+RunAnalysis err=0 (119.1176 s)
+TRANSV_FINO: von Mises máx 387.2874 MPa en (-199.7276; 1768.386; -10.1615) SW
+W5_POS_FINO: von Mises máx 728.5267 MPa en (-199.7332; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 853.098 MPa en (-199.7332; 1768.3264; -10.3264) SW
+WR_POS: von Mises máx 353.4289 MPa en (-200; 1768.3842; 10.1666) SW
+WR_NEG: von Mises máx 340.4294 MPa en (-200; 1768.699; -9.2405) SW
+CARTELA: von Mises máx 194.5308 MPa en (-199.96; 1774.2858; 4) SW
+CUBO: von Mises máx 108.2487 MPa en (-199.837; 1770; -8.0724) SW
+TRANSV_CENTRO: von Mises máx 171.1239 MPa en (-166.5471; 1767.383; -12.6173) SW
+TRANSV_EXT: von Mises máx 158.6533 MPa en (-272; 1726.3744; -26.8955) SW
+nodos de la superficie del tubo fino: 173316 -> nodos_CART_FUERA_h1.csv
+imagen True
+=== CART EN_h1 (U_GOLPE_EN_PLANO, malla fina 1 mm)
+carga remota en (-900; 1400; 0) F (1000; 0; 0) EndEdit=0
+  control de malla 1 mm en 26 caras (EndEdit=0)
+CreateMesh err=0 | nodos 970852, elementos 610181 (18.266 s)
+RunAnalysis err=0 (109.1201 s)
+TRANSV_FINO: von Mises máx 187.8947 MPa en (-266.3436; 1769.9149; -3.7584) SW
+W5_POS_FINO: von Mises máx 22.1707 MPa en (-178.4244; 1768.3264; 10.3264) SW
+W5_NEG_FINO: von Mises máx 23.417 MPa en (-199.7332; 1768.3264; -10.3264) SW
+WR_POS: von Mises máx 136.3538 MPa en (-266; 1768.0395; 11.0819) SW
+WR_NEG: von Mises máx 174.6946 MPa en (-266; 1768.0395; -11.0819) SW
+CARTELA: von Mises máx 39.6739 MPa en (-261.875; 1770.1499; 0) SW
+CUBO: von Mises máx 24.405 MPa en (-60.8144; 1860; 4.0378) SW
+TRANSV_CENTRO: von Mises máx 25.6265 MPa en (-170; 1712.62; 0) SW
+TRANSV_EXT: von Mises máx 70.4859 MPa en (-275.188; 1711.1611; 8.7943) SW
+nodos de la superficie del tubo fino: 173316 -> nodos_CART_EN_h1.csv
+imagen True

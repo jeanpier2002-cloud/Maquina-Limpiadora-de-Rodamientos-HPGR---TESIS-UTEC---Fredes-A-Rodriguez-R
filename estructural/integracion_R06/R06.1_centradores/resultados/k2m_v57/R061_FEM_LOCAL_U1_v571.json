@@ -1,0 +1,526 @@
+{
+  "unidad": 1,
+  "perfil": "M06",
+  "entrada": "C:\\Users\\<usuario>\\AppData\\Local\\Temp\\claude\\C--Users-enriq-Documents-Codex-2026-07-06-ho\\7cc8ba95-012d-479a-9d89-b713f0aefa81\\scratchpad\\r06\\fem_v571\\R061_K2M_CANDIDATO.FCStd",
+  "estado": "NO_CERRADO",
+  "hipotesis": [
+    "Union pegada lineal por apriete; no representa contacto ni pretension.",
+    "Acero uniforme E=200000 MPa, nu=0.30, Fy=250 MPa no certificado.",
+    "Ambos extremos del tramo de 800 mm empotrados (X -12.0 a 788.0).",
+    "Fallo 2080 N condicionado a disparo independiente 1600 N +30%.",
+    "Rozamiento rodillo 0.20; ambos signos completos.",
+    "Pernos y soldaduras requieren comprobacion manual separada."
+  ],
+  "casos": [
+    {
+      "clave": "F2080_s-1",
+      "malla": {
+        "nivel": 1,
+        "h_general_mm": 12.0,
+        "h_local_mm": 5.0,
+        "orden": 2,
+        "nodos": 339340,
+        "elementos_volumen": 187929,
+        "caras_refinadas": 77,
+        "tiempo_malla_s": 57.43997529999615
+      },
+      "carga": {
+        "F_rodillo_N": [
+          1290.7910990521939,
+          1683.245180776594,
+          0.0
+        ],
+        "par_pivote_Nmm": -91401.4131210831,
+        "contacto_global_mm": [
+          324.19305483968344,
+          659.6391916750505,
+          955.0
+        ],
+        "nodos_casquillo_inf": 170,
+        "nodos_casquillo_sup": 170,
+        "nodos_par": [
+          8,
+          8
+        ]
+      },
+      "aplicada": {
+        "F_N": [
+          1290.7910990522041,
+          1683.2451807765829,
+          0.0
+        ],
+        "M_Nmm": [
+          -281226.69301957445,
+          217285.12856542467,
+          -215743.11504434264
+        ]
+      },
+      "reaccion_extremos": {
+        "F_N": [
+          -1290.0652725925997,
+          -1692.981835818098,
+          -1.4640303027905106
+        ],
+        "M_Nmm": [
+          280192.0750667355,
+          -217147.32464985427,
+          215609.15994577913
+        ],
+        "nodos": 1398,
+        "cabecera_dat": [
+          " forces (fx,fy,fz) for set EXTREMOS and time  0.1000000E+01",
+          "",
+          "        26 -4.454353E-01  5.971932E-01  5.548446E-02",
+          "        27 -6.545952E+00  3.896842E+00  8.081523E+00",
+          "        32  1.069629E+01  6.186306E+00  1.286556E+01",
+          "        33  2.130972E+00  1.307261E-01 -4.669315E-01",
+          "        34  5.969222E+00  3.728063E+00 -7.421759E+00",
+          "        35  4.257564E+00  1.866792E+00  3.679697E+00"
+        ]
+      },
+      "equilibrio": {
+        "error_relativo_F": 0.0046543753599441635,
+        "error_relativo_M": 0.002531138381672486,
+        "acepta": true
+      },
+      "tensiones": {
+        "ala": {
+          "n": 7300,
+          "media_MPa": 10.637603149335048,
+          "p99_MPa": 25.478213721078827,
+          "punto_alejado": {
+            "nodo": 317015,
+            "xyz_mm": [
+              387.7819421423047,
+              593.7180736975249,
+              802.2695
+            ],
+            "von_mises_MPa": 11.232487165436542
+          }
+        },
+        "alma": {
+          "n": 4005,
+          "media_MPa": 7.27764150457805,
+          "p99_MPa": 60.350915667128824,
+          "punto_alejado": {
+            "nodo": 199936,
+            "xyz_mm": [
+              388.51359861929745,
+              574.3412005670618,
+              749.2266755533346
+            ],
+            "von_mises_MPa": 2.451845850980106
+          }
+        },
+        "maximo_bruto_W_MPa": 81.65972611827617,
+        "maximo_bruto_todo_MPa": 98.05900914212421,
+        "desplazamiento_maximo_mm": 0.5540946051623314
+      },
+      "tiempo_caso_s": 1463.5396370000017
+    },
+    {
+      "clave": "F2080_s+1",
+      "malla": {
+        "nivel": 1,
+        "h_general_mm": 12.0,
+        "h_local_mm": 5.0,
+        "orden": 2,
+        "nodos": 339340,
+        "elementos_volumen": 187929,
+        "caras_refinadas": 77,
+        "tiempo_malla_s": 57.43997529999615
+      },
+      "carga": {
+        "F_rodillo_N": [
+          544.0974834417966,
+          2050.2228972753924,
+          0.0
+        ],
+        "par_pivote_Nmm": -124073.54373332804,
+        "contacto_global_mm": [
+          324.19305483968344,
+          659.6391916750505,
+          955.0
+        ],
+        "nodos_casquillo_inf": 170,
+        "nodos_casquillo_sup": 170,
+        "nodos_par": [
+          8,
+          8
+        ]
+      },
+      "aplicada": {
+        "F_N": [
+          544.097483441788,
+          2050.222897275406,
+          0.0
+        ],
+        "M_Nmm": [
+          -342448.36192731286,
+          92646.26700347583,
+          -174912.46445299138
+        ]
+      },
+      "reaccion_extremos": {
+        "F_N": [
+          -542.4985938907006,
+          -2064.0956878368193,
+          1.3819359235800417
+        ],
+        "M_Nmm": [
+          341035.14632668643,
+          -92342.06545727828,
+          175895.453161129
+        ],
+        "nodos": 1398,
+        "cabecera_dat": [
+          " forces (fx,fy,fz) for set EXTREMOS and time  0.1000000E+01",
+          "",
+          "        26 -1.031277E+00  5.040254E-01 -7.158683E-02",
+          "        27 -8.893882E+00  5.271717E+00  1.100124E+01",
+          "        32  1.210983E+01  7.007751E+00  1.453537E+01",
+          "        33  2.145774E+00  3.949580E-01 -4.760900E-01",
+          "        34  8.591541E+00  5.179615E+00 -1.049802E+01",
+          "        35  6.374541E+00  2.872926E+00  5.670863E+00"
+        ]
+      },
+      "equilibrio": {
+        "error_relativo_F": 0.0066155426590959856,
+        "error_relativo_M": 0.0044196685683255315,
+        "acepta": true
+      },
+      "tensiones": {
+        "ala": {
+          "n": 7300,
+          "media_MPa": 12.881120018016155,
+          "p99_MPa": 30.99171600950676,
+          "punto_alejado": {
+            "nodo": 317015,
+            "xyz_mm": [
+              387.7819421423047,
+              593.7180736975249,
+              802.2695
+            ],
+            "von_mises_MPa": 13.62425691391164
+          }
+        },
+        "alma": {
+          "n": 4005,
+          "media_MPa": 8.515772005297503,
+          "p99_MPa": 73.00011180165423,
+          "punto_alejado": {
+            "nodo": 199936,
+            "xyz_mm": [
+              388.51359861929745,
+              574.3412005670618,
+              749.2266755533346
+            ],
+            "von_mises_MPa": 2.884723325341853
+          }
+        },
+        "maximo_bruto_W_MPa": 101.14064436145244,
+        "maximo_bruto_todo_MPa": 121.6722064836777,
+        "desplazamiento_maximo_mm": 0.6557787775050364
+      },
+      "tiempo_caso_s": 849.8704008000059
+    },
+    {
+      "clave": "F2080_s-1",
+      "malla": {
+        "nivel": 2,
+        "h_general_mm": 9.0,
+        "h_local_mm": 3.5,
+        "orden": 2,
+        "nodos": 662373,
+        "elementos_volumen": 371901,
+        "caras_refinadas": 77,
+        "tiempo_malla_s": 71.75176009999996
+      },
+      "carga": {
+        "F_rodillo_N": [
+          1290.7910990521939,
+          1683.245180776594,
+          0.0
+        ],
+        "par_pivote_Nmm": -91401.4131210831,
+        "contacto_global_mm": [
+          324.19305483968344,
+          659.6391916750505,
+          955.0
+        ],
+        "nodos_casquillo_inf": 174,
+        "nodos_casquillo_sup": 170,
+        "nodos_par": [
+          8,
+          8
+        ]
+      },
+      "aplicada": {
+        "F_N": [
+          1290.7910990521948,
+          1683.2451807766079,
+          0.0
+        ],
+        "M_Nmm": [
+          -281840.4406858454,
+          215907.22393272107,
+          -215760.4082931885
+        ]
+      },
+      "reaccion_extremos": {
+        "F_N": [
+          -1284.0076391046675,
+          -1699.1401793509604,
+          -3.160632922428979
+        ],
+        "M_Nmm": [
+          279798.5172694242,
+          -218051.5963378404,
+          216589.24262334534
+        ],
+        "nodos": 1990,
+        "cabecera_dat": [
+          " forces (fx,fy,fz) for set EXTREMOS and time  0.1000000E+01",
+          "",
+          "        26 -1.805266E-01  2.844590E-01 -1.216228E-02",
+          "        27 -6.291346E+00  3.816720E+00  4.249809E+00",
+          "        32  1.036589E+01  6.133764E+00  7.366319E+00",
+          "        33  1.032796E+00  1.174983E-01 -1.989728E-01",
+          "        34  5.672380E+00  3.325063E+00 -4.199884E+00",
+          "        35  3.569961E+00  1.746704E+00  2.943943E+00"
+        ]
+      },
+      "equilibrio": {
+        "error_relativo_F": 0.008282420829549275,
+        "error_relativo_M": 0.007401188684392468,
+        "acepta": true
+      },
+      "tensiones": {
+        "ala": {
+          "n": 15712,
+          "media_MPa": 10.44666774543598,
+          "p99_MPa": 25.463036585911667,
+          "punto_alejado": {
+            "nodo": 555835,
+            "xyz_mm": [
+              387.25743821172415,
+              594.0470017977343,
+              802.2695
+            ],
+            "von_mises_MPa": 11.451045620063045
+          }
+        },
+        "alma": {
+          "n": 8664,
+          "media_MPa": 6.235038488933221,
+          "p99_MPa": 57.90957593047109,
+          "punto_alejado": {
+            "nodo": 465622,
+            "xyz_mm": [
+              389.07121071125613,
+              574.5345249037453,
+              749.2163858921417
+            ],
+            "von_mises_MPa": 2.4590705602438168
+          }
+        },
+        "maximo_bruto_W_MPa": 83.7307920158622,
+        "maximo_bruto_todo_MPa": 107.91457943483587,
+        "desplazamiento_maximo_mm": 0.5553602622487497
+      },
+      "tiempo_caso_s": 1490.857701300003
+    },
+    {
+      "clave": "F2080_s+1",
+      "malla": {
+        "nivel": 2,
+        "h_general_mm": 9.0,
+        "h_local_mm": 3.5,
+        "orden": 2,
+        "nodos": 662373,
+        "elementos_volumen": 371901,
+        "caras_refinadas": 77,
+        "tiempo_malla_s": 71.75176009999996
+      },
+      "carga": {
+        "F_rodillo_N": [
+          544.0974834417966,
+          2050.2228972753924,
+          0.0
+        ],
+        "par_pivote_Nmm": -124073.54373332804,
+        "contacto_global_mm": [
+          324.19305483968344,
+          659.6391916750505,
+          955.0
+        ],
+        "nodos_casquillo_inf": 174,
+        "nodos_casquillo_sup": 170,
+        "nodos_par": [
+          8,
+          8
+        ]
+      },
+      "aplicada": {
+        "F_N": [
+          544.0974834417971,
+          2050.2228972754233,
+          0.0
+        ],
+        "M_Nmm": [
+          -343299.0678382064,
+          90866.25284607915,
+          -174950.41748454177
+        ]
+      },
+      "reaccion_extremos": {
+        "F_N": [
+          -525.7525143216379,
+          -2065.782520343762,
+          -4.402053448887809
+        ],
+        "M_Nmm": [
+          341643.88719478354,
+          -94181.16903957963,
+          174855.8575926177
+        ],
+        "nodos": 1990,
+        "cabecera_dat": [
+          " forces (fx,fy,fz) for set EXTREMOS and time  0.1000000E+01",
+          "",
+          "        26 -4.594443E-01  2.200199E-01 -3.949162E-02",
+          "        27 -8.573632E+00  5.185129E+00  5.810706E+00",
+          "        32  1.172459E+01  6.941245E+00  8.315983E+00",
+          "        33  1.007072E+00  2.461661E-01 -2.055789E-01",
+          "        34  8.070950E+00  4.628364E+00 -5.947626E+00",
+          "        35  5.527094E+00  2.716774E+00  4.444478E+00"
+        ]
+      },
+      "equilibrio": {
+        "error_relativo_F": 0.011528613090601846,
+        "error_relativo_M": 0.009362447820028593,
+        "acepta": false
+      },
+      "tensiones": {
+        "ala": {
+          "n": 15712,
+          "media_MPa": 12.657951833527477,
+          "p99_MPa": 30.98099864675026,
+          "punto_alejado": {
+            "nodo": 555835,
+            "xyz_mm": [
+              387.25743821172415,
+              594.0470017977343,
+              802.2695
+            ],
+            "von_mises_MPa": 13.880863634894475
+          }
+        },
+        "alma": {
+          "n": 8664,
+          "media_MPa": 7.260694946888054,
+          "p99_MPa": 70.37679842867126,
+          "punto_alejado": {
+            "nodo": 465622,
+            "xyz_mm": [
+              389.07121071125613,
+              574.5345249037453,
+              749.2163858921417
+            ],
+            "von_mises_MPa": 2.8825565898791994
+          }
+        },
+        "maximo_bruto_W_MPa": 104.66913110608706,
+        "maximo_bruto_todo_MPa": 140.4758741708038,
+        "desplazamiento_maximo_mm": 0.6574934124646497
+      },
+      "tiempo_caso_s": 1553.1019931000046
+    }
+  ],
+  "convergencia": {
+    "F2080_s-1": {
+      "ala": {
+        "p99_MPa": [
+          25.478213721078827,
+          25.463036585911667
+        ],
+        "cambios": [
+          0.0005960457668099908
+        ],
+        "converge_5pct": true
+      },
+      "alma": {
+        "p99_MPa": [
+          60.350915667128824,
+          57.90957593047109
+        ],
+        "cambios": [
+          0.042157789923879196
+        ],
+        "converge_5pct": true
+      }
+    },
+    "F2080_s+1": {
+      "ala": {
+        "p99_MPa": [
+          30.99171600950676,
+          30.98099864675026
+        ],
+        "cambios": [
+          0.0003459334180509384
+        ],
+        "converge_5pct": true
+      },
+      "alma": {
+        "p99_MPa": [
+          73.00011180165423,
+          70.37679842867126
+        ],
+        "cambios": [
+          0.03727525877213298
+        ],
+        "converge_5pct": true
+      }
+    }
+  },
+  "solape_tramo_con_CTX_W": 1.0,
+  "piezas_fijas": [
+    "R061_K2M_1_ACUERDO_FONDO_LATERAL_1_R6_FIJO",
+    "R061_K2M_1_ACUERDO_FONDO_LATERAL_2_R6_FIJO",
+    "R061_K2M_1_ACUERDO_RAIZ_INFERIOR_R6_FIJO",
+    "R061_K2M_1_ACUERDO_RAIZ_SUPERIOR_R6_FIJO",
+    "R061_K2M_1_ACUERDO_TAPA_LATERAL_1_R6_FIJO",
+    "R061_K2M_1_ACUERDO_TAPA_LATERAL_2_R6_FIJO",
+    "R061_K2M_1_ALOJAMIENTO_FIJO",
+    "R061_K2M_1_BASE_ALOJAMIENTO_FIJO",
+    "R061_K2M_1_CARTELA_MORDAZA_1_1_FIJO",
+    "R061_K2M_1_CARTELA_MORDAZA_1_2_FIJO",
+    "R061_K2M_1_CARTELA_MORDAZA_2_1_FIJO",
+    "R061_K2M_1_CARTELA_MORDAZA_2_2_FIJO",
+    "R061_K2M_1_CASQUILLO_INF_FIJO",
+    "R061_K2M_1_CASQUILLO_SUP_FIJO",
+    "R061_K2M_1_CIERRE_FRONTAL_FIJO",
+    "R061_K2M_1_COLLAR_ALMA_1_FIJO",
+    "R061_K2M_1_COLLAR_ALMA_2_FIJO",
+    "R061_K2M_1_CONTRAPLACA_INFERIOR_FIJO",
+    "R061_K2M_1_MONTANTE_FIJO",
+    "R061_K2M_1_PARED_LATERAL_1_FIJO",
+    "R061_K2M_1_PARED_LATERAL_2_FIJO",
+    "R061_K2M_1_PLACA_INFERIOR_CAJA_FIJO",
+    "R061_K2M_1_PLACA_SUPERIOR_FIJO",
+    "R061_K2M_1_SOPORTE_LIMITADOR_COLGANTE_FIJO",
+    "R061_K2M_1_SOPORTE_LIMITADOR_FIJO",
+    "R061_K2M_1_TALON_EXTERIOR_FIJO",
+    "R061_K2M_1_TALON_INTERIOR_FIJO"
+  ],
+  "geometria": {
+    "d_mm": 149.86,
+    "bf_mm": 100.076,
+    "tf_mm": 5.461,
+    "tw_mm": 4.318,
+    "longitud_mm": 800.0,
+    "volumen_union_mm3": 3139215.0786351566,
+    "solidos_union": 1
+  },
+  "tiempo_total_s": 5487.231658900004
+}

@@ -1,0 +1,248 @@
+{
+ "vecinos": [
+  "A3_PIES_EXTERIORES",
+  "CTX_M01_W6X9",
+  "G00_CONTEXTO_CABINA_R05",
+  "G00_CONTEXTO_MESA_R05",
+  "G06_SOPORTE_COMPACTO",
+  "G_R061_K2M",
+  "G_R061_SUPERADOS_H9",
+  "R04_SOP_ARRIOSTRAMIENTO_L50x5",
+  "R04_SOP_COLUMNAS_SHS150x6",
+  "R061_K2M_2_ALOJAMIENTO_FIJO",
+  "R061_K2M_2_APRIETE_ALMA_3_FIJO",
+  "R061_K2M_2_CARTUCHO_SERIE_FIJO",
+  "R061_K2M_2_CASQUILLO_INF_FIJO",
+  "R061_K2M_2_COLLAR_DISPARO_ACTIVO",
+  "R061_K2M_2_COLLAR_DISPARO_RETRAIDO",
+  "R061_K2M_2_EJE_PIVOTE_FIJO",
+  "R061_K2M_2_LEVA_DISPARO_ACTIVO",
+  "R061_K2M_2_LEVA_DISPARO_RETRAIDO",
+  "R061_K2M_2_RESORTE_RETORNO_FIJO",
+  "R061_K2M_2_RESORTE_SERIE_FIJO",
+  "R061_K2M_2_RETEN_INF_FIJO",
+  "R061_K2M_2_TIRANTE_3_FIJO",
+  "R061_K2M_2_TOPE_RETENCION_FIJO",
+  "R061_K2M_2_TUERCA_APRIETE_3_FIJO",
+  "R061_K2M_2_VARILLA_SERIE_FIJO",
+  "R061_RET_2_SOPORTE_FIJO"
+ ],
+ "discos": {
+  "R32": {
+   "G_R061_K2M": {
+    "dist_mm": 0.0,
+    "comun_mm3": 3386.7
+   },
+   "R061_K2M_2_EJE_PIVOTE_FIJO": {
+    "dist_mm": 6.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_VARILLA_SERIE_FIJO": {
+    "dist_mm": 3.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_CARTUCHO_SERIE_FIJO": {
+    "dist_mm": 3.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_COLLAR_DISPARO_ACTIVO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_LEVA_DISPARO_ACTIVO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_COLLAR_DISPARO_RETRAIDO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_LEVA_DISPARO_RETRAIDO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_RET_2_SOPORTE_FIJO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   }
+  },
+  "R34": {
+   "G_R061_K2M": {
+    "dist_mm": 0.0,
+    "comun_mm3": 1706.6
+   },
+   "R061_K2M_2_EJE_PIVOTE_FIJO": {
+    "dist_mm": 6.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_VARILLA_SERIE_FIJO": {
+    "dist_mm": 3.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_CARTUCHO_SERIE_FIJO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_RESORTE_SERIE_FIJO": {
+    "dist_mm": 4.099,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_COLLAR_DISPARO_ACTIVO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_LEVA_DISPARO_ACTIVO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_COLLAR_DISPARO_RETRAIDO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_LEVA_DISPARO_RETRAIDO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_RET_2_SOPORTE_FIJO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   }
+  },
+  "R36": {
+   "G_R061_K2M": {
+    "dist_mm": 0.0,
+    "comun_mm3": 1899.4
+   },
+   "R061_K2M_2_EJE_PIVOTE_FIJO": {
+    "dist_mm": 6.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_VARILLA_SERIE_FIJO": {
+    "dist_mm": 3.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_CARTUCHO_SERIE_FIJO": {
+    "dist_mm": 0.0,
+    "comun_mm3": 18.0
+   },
+   "R061_K2M_2_RESORTE_SERIE_FIJO": {
+    "dist_mm": 2.162,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_COLLAR_DISPARO_ACTIVO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_LEVA_DISPARO_ACTIVO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_COLLAR_DISPARO_RETRAIDO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_LEVA_DISPARO_RETRAIDO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_RET_2_SOPORTE_FIJO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   }
+  },
+  "R38": {
+   "G_R061_K2M": {
+    "dist_mm": 0.0,
+    "comun_mm3": 2115.4
+   },
+   "R061_K2M_2_EJE_PIVOTE_FIJO": {
+    "dist_mm": 6.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_VARILLA_SERIE_FIJO": {
+    "dist_mm": 3.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_CARTUCHO_SERIE_FIJO": {
+    "dist_mm": 0.0,
+    "comun_mm3": 61.0
+   },
+   "R061_K2M_2_RESORTE_SERIE_FIJO": {
+    "dist_mm": 0.414,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_COLLAR_DISPARO_ACTIVO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_LEVA_DISPARO_ACTIVO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_COLLAR_DISPARO_RETRAIDO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_LEVA_DISPARO_RETRAIDO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_RET_2_SOPORTE_FIJO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   }
+  },
+  "R40": {
+   "G_R061_K2M": {
+    "dist_mm": 0.0,
+    "comun_mm3": 2329.9
+   },
+   "R061_K2M_2_EJE_PIVOTE_FIJO": {
+    "dist_mm": 6.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_VARILLA_SERIE_FIJO": {
+    "dist_mm": 3.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_CARTUCHO_SERIE_FIJO": {
+    "dist_mm": 0.0,
+    "comun_mm3": 103.9
+   },
+   "R061_K2M_2_RESORTE_SERIE_FIJO": {
+    "dist_mm": 0.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_COLLAR_DISPARO_ACTIVO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_LEVA_DISPARO_ACTIVO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_COLLAR_DISPARO_RETRAIDO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   },
+   "R061_K2M_2_LEVA_DISPARO_RETRAIDO": {
+    "dist_mm": 1.0,
+    "comun_mm3": 0.0
+   },
+   "R061_RET_2_SOPORTE_FIJO": {
+    "dist_mm": 2.0,
+    "comun_mm3": 0.0
+   }
+  }
+ },
+ "cordon": {
+  "G_R061_K2M": {
+   "dist_mm": 0.0,
+   "comun_mm3": 0.0
+  },
+  "R061_RET_2_SOPORTE_FIJO": {
+   "dist_mm": 0.0,
+   "comun_mm3": 347.2
+  }
+ }
+}

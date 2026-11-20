@@ -1,0 +1,26 @@
+entrada BRAZO_V15B.step: 19 sólidos, volumen 1050932 mm3
+   0 vol  259775.2 caja x 3.0..523.2 y -30.2..30.1 z -30.1..30.1
+   1 vol  347880.3 caja x 0.0..20.0 y -82.5..82.5 z -82.5..82.5
+   2 vol   53533.2 caja x 523.2..624.0 y -76.0..30.2 z -30.2..36.7
+   3 vol  283506.3 caja x 568.7..623.4 y -796.0..-76.0 z -24.1..24.2
+   4 vol   16166.8 caja x 575.1..623.4 y -860.0..-796.0 z -24.1..24.2
+   5 vol    3859.2 caja x 580.4..614.0 y -897.7..-860.0 z -10.6..10.7
+   6 vol    2442.4 caja x 564.5..595.5 y -910.8..-879.8 z -10.9..10.9
+   7 vol   29997.6 caja x 548.1..589.0 y -916.2..-878.6 z -71.0..14.0
+   8 vol    3891.8 caja x 224.4..246.4 y -49.2..-28.1 z -11.0..11.0
+   9 vol    3891.8 caja x 312.1..334.1 y -49.1..-28.1 z -11.0..11.0
+  10 vol    6815.6 caja x 226.9..244.0 y -101.7..-38.2 z -8.5..8.6
+  11 vol    6815.6 caja x 314.5..331.6 y -101.7..-38.2 z -8.5..8.6
+  12 vol    5718.0 caja x 224.4..246.4 y -128.8..-90.8 z -11.0..11.0
+  13 vol    5718.0 caja x 312.1..334.1 y -128.8..-90.8 z -11.0..11.0
+  14 vol    3847.2 caja x 556.5..577.8 y -568.9..-546.9 z -11.0..11.0
+  15 vol    3847.2 caja x 556.4..577.8 y -486.8..-464.8 z -11.0..11.0
+  16 vol    3847.2 caja x 556.4..577.8 y -404.7..-382.7 z -11.0..11.0
+  17 vol    3820.7 caja x 555.6..578.4 y -649.5..-626.0 z -11.0..11.0
+  18 vol    5557.4 caja x 547.9..586.3 y -698.6..-663.5 z -11.0..11.0
+arreglo 1: anillo de soldadura W1 de 1951.5 mm3 (toca tubo 0.0000 mm y brida 0.0000 mm)
+arreglo 2: bloque B-MEC recortado con el tubo DN15 (solape antes 1573.5 mm3, después 0.000 mm3)
+solape antes de recortar con las piezas: [(3, 59.46)]
+placa: largo entre ejes 230.3 mm, ángulo -55.6°, volumen 36225.3 mm3 (0.288 kg de acero)
+solape máximo de la placa con las piezas: 0.000 mm3
+piezas que toca la placa (distancia < 0,01 mm): [0, 3]

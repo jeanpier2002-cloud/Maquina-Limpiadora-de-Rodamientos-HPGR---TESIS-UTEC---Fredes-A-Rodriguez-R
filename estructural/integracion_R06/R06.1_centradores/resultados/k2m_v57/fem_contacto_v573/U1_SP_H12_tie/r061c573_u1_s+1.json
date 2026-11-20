@@ -1,0 +1,470 @@
+{
+  "estado": "NO_CERRADO_EQUILIBRIO",
+  "entrada": "C:\\Users\\<usuario>\\Documents\\Codex\\2026-07-06\\ho\\01_DISENO_VIGENTE\\integracion_R06\\R06.1_centradores\\resultados\\k2m_v57\\fem_contacto_v573\\R061_K2M_V573_COPIA.FCStd",
+  "unidad": 1,
+  "signo": 1,
+  "hipotesis": [
+    "C3D4; verificar convergencia con malla mas fina",
+    "Talones, cartelas, caja y soportes en sus cuerpos por fusion CAD",
+    "Arandela y cabeza sustituidas por acoplamientos cinematicos",
+    "Perno = resorte axial no lineal con precarga P0 y rigidez E*As/(agarre+0,8d), As M12 = 84,3 mm2; sin contacto perno-agujero",
+    "Acero E=200000 MPa, nu=0.30 no certificado",
+    "Ambos extremos de W6x9 empotrados",
+    "Rozamiento del rodillo fijo en 0.20",
+    "Gap positivo interpolado geometricamente; COPEN lo anula"
+  ],
+  "parametros": {
+    "H_mm": 12.0,
+    "H_local_mm": 2.5,
+    "L_mm": 800.0,
+    "mu_mordaza": 0.2,
+    "pretension_N_por_perno": 26000.0,
+    "k_perno_vertical_N_mm": 448404.25531914894,
+    "k_perno_transversal_N_mm": 361802.5751072961,
+    "K_contacto_N_mm3": 80000.0
+  },
+  "geometria": {
+    "coincidencia_W_CTX": 1.0,
+    "piezas_por_cuerpo": {
+      "A": [
+        "COLLAR_ALMA_1",
+        "TALON_INTERIOR",
+        "CARTELA_MORDAZA_1_1",
+        "CARTELA_MORDAZA_1_2"
+      ],
+      "B": [
+        "COLLAR_ALMA_2",
+        "TALON_EXTERIOR",
+        "PLACA_SUPERIOR",
+        "PLACA_INFERIOR_CAJA",
+        "PARED_LATERAL_1",
+        "PARED_LATERAL_2",
+        "CIERRE_FRONTAL",
+        "MONTANTE",
+        "BASE_ALOJAMIENTO",
+        "ALOJAMIENTO",
+        "ACUERDO_FONDO_LATERAL_1_R6",
+        "ACUERDO_FONDO_LATERAL_2_R6",
+        "ACUERDO_RAIZ_INFERIOR_R6",
+        "ACUERDO_RAIZ_SUPERIOR_R6",
+        "ACUERDO_TAPA_LATERAL_1_R6",
+        "ACUERDO_TAPA_LATERAL_2_R6",
+        "CARTELA_MORDAZA_2_1",
+        "CARTELA_MORDAZA_2_2",
+        "CASQUILLO_INF",
+        "CASQUILLO_SUP",
+        "SOPORTE_LIMITADOR",
+        "SOPORTE_LIMITADOR_COLGANTE"
+      ],
+      "C": [
+        "CONTRAPLACA_INFERIOR"
+      ]
+    },
+    "nodos_por_cuerpo": {
+      "W": 6389,
+      "A": 2579,
+      "B": 7942,
+      "C": 6129
+    },
+    "elementos_por_cuerpo": {
+      "W": 18907,
+      "A": 8152,
+      "B": 26929,
+      "C": 22557
+    },
+    "caras_por_superficie": {
+      "SA_WEB": 906,
+      "MA_WEB": 1047,
+      "SB_WEB": 906,
+      "MB_WEB": 1047,
+      "SA_LIP": 207,
+      "MA_LIP": 100,
+      "SB_LIP": 207,
+      "MB_LIP": 106,
+      "SC_FLANGE": 3157,
+      "MC_FLANGE": 330,
+      "SA_TALON": 80,
+      "MA_TALON": 16,
+      "SB_TALON": 80,
+      "MB_TALON": 16,
+      "WASH1": 36,
+      "HEAD1": 18,
+      "WASH2": 50,
+      "HEAD2": 7,
+      "WASH3": 36,
+      "HEAD3": 18,
+      "WASH4": 50,
+      "HEAD4": 7,
+      "TWA1": 46,
+      "TWB1": 42,
+      "TWA2": 46,
+      "TWB2": 42
+    },
+    "area_por_superficie_mm2": {
+      "SA_WEB": 25686.96575193391,
+      "MA_WEB": 23379.724657357823,
+      "SB_WEB": 25686.96575193392,
+      "MB_WEB": 23379.72465735781,
+      "SA_LIP": 5132.579563071556,
+      "MA_LIP": 5885.7881339858195,
+      "SB_LIP": 5132.579563071564,
+      "MB_LIP": 5950.490332455568,
+      "SC_FLANGE": 21473.119085299142,
+      "MC_FLANGE": 17659.17233612992,
+      "SA_TALON": 1840.0,
+      "MA_TALON": 582.5961353758712,
+      "SB_TALON": 1840.0,
+      "MB_TALON": 585.0582990101246,
+      "WASH1": 155.08325410984818,
+      "HEAD1": 44.848647114349085,
+      "WASH2": 184.62845037887243,
+      "HEAD2": 19.20891321869755,
+      "WASH3": 155.08325410984517,
+      "HEAD3": 45.16218061396197,
+      "WASH4": 184.90945582413906,
+      "HEAD4": 19.20891321869835,
+      "TWA1": 186.23398300226418,
+      "TWB1": 183.15141140474884,
+      "TWA2": 185.4821670982277,
+      "TWB2": 183.1514114047442
+    }
+  },
+  "carga": {
+    "F_rodillo_N": [
+      544.0974834417966,
+      2050.2228972753924,
+      0.0
+    ],
+    "par_pivote_Nmm": -124073.54373332804,
+    "contacto_global_mm": [
+      324.19305483968344,
+      659.6391916750505,
+      955.0
+    ],
+    "pivote_mm": [
+      388.0000000000001,
+      672.0357133367244,
+      0.0
+    ],
+    "nodos_casquillos": [
+      44,
+      44
+    ],
+    "nodos_par": [
+      8,
+      8
+    ]
+  },
+  "fuerza_aplicada_N": [
+    544.0974834417965,
+    2050.2228972753906,
+    0.0
+  ],
+  "momento_aplicado_Nmm": [
+    -342986.66884383623,
+    91713.89207399188,
+    -175349.39589849504
+  ],
+  "reaccion_extremos_N": [
+    -544.1016200000015,
+    -2050.226078,
+    -0.00041399999985758384
+  ],
+  "momento_extremos_Nmm": [
+    338470.7991699916,
+    -91689.45559406298,
+    175295.44063305174
+  ],
+  "equilibrio": {
+    "error_relativo_fuerza": 2.4676948993475206e-06,
+    "error_relativo_momento": 0.011405321175450654,
+    "cumple_1pct": false
+  },
+  "pares_contacto": {
+    "A_WEB": {
+      "apertura_geometrica": {
+        "n_interpolados": 445,
+        "n_sin_proyeccion": 54,
+        "cobertura_pct": 89.17835671342685,
+        "apertura_max_mm": 3.806966401498357e-05,
+        "apertura_p99_mm": 3.969919430346645e-06,
+        "penetracion_max_mm": 0.0021280213197769626,
+        "deslizamiento_geometrico_max_mm": 0.00044654258941440327,
+        "deslizamiento_geometrico_p99_mm": 1.4949882256578916e-06
+      },
+      "frd_contacto": {
+        "n_registros_frd": 0,
+        "presion_max_MPa": 0.0,
+        "presion_p99_MPa": null,
+        "n_presion_positiva": 0,
+        "deslizamiento_CSLIP_max_mm": null,
+        "nota_apertura_COPEN": "COPEN de CalculiX anula las holguras positivas; usar apertura_geometrica"
+      }
+    },
+    "B_WEB": {
+      "apertura_geometrica": {
+        "n_interpolados": 445,
+        "n_sin_proyeccion": 54,
+        "cobertura_pct": 89.17835671342685,
+        "apertura_max_mm": 0.0024300604209201992,
+        "apertura_p99_mm": 1.3648950653077964e-06,
+        "penetracion_max_mm": 3.772513048261317e-05,
+        "deslizamiento_geometrico_max_mm": 0.0007279990816946089,
+        "deslizamiento_geometrico_p99_mm": 1.8809163388249589e-06
+      },
+      "frd_contacto": {
+        "n_registros_frd": 0,
+        "presion_max_MPa": 0.0,
+        "presion_p99_MPa": null,
+        "n_presion_positiva": 0,
+        "deslizamiento_CSLIP_max_mm": null,
+        "nota_apertura_COPEN": "COPEN de CalculiX anula las holguras positivas; usar apertura_geometrica"
+      }
+    },
+    "A_LIP": {
+      "apertura_geometrica": {
+        "n_interpolados": 125,
+        "n_sin_proyeccion": 16,
+        "cobertura_pct": 88.65248226950355,
+        "apertura_max_mm": 2.5057693164853845e-06,
+        "apertura_p99_mm": 7.689488938922299e-08,
+        "penetracion_max_mm": 5.3557796718450845e-05,
+        "deslizamiento_geometrico_max_mm": 1.701450877019862e-05,
+        "deslizamiento_geometrico_p99_mm": 4.470479307148749e-06
+      },
+      "frd_contacto": {
+        "n_registros_frd": 0,
+        "presion_max_MPa": 0.0,
+        "presion_p99_MPa": null,
+        "n_presion_positiva": 0,
+        "deslizamiento_CSLIP_max_mm": null,
+        "nota_apertura_COPEN": "COPEN de CalculiX anula las holguras positivas; usar apertura_geometrica"
+      }
+    },
+    "B_LIP": {
+      "apertura_geometrica": {
+        "n_interpolados": 125,
+        "n_sin_proyeccion": 16,
+        "cobertura_pct": 88.65248226950355,
+        "apertura_max_mm": 8.634351274849905e-06,
+        "apertura_p99_mm": 4.093015504622627e-06,
+        "penetracion_max_mm": 8.617271987532149e-06,
+        "deslizamiento_geometrico_max_mm": 8.37003470114443e-06,
+        "deslizamiento_geometrico_p99_mm": 5.4984000457494046e-06
+      },
+      "frd_contacto": {
+        "n_registros_frd": 0,
+        "presion_max_MPa": 0.0,
+        "presion_p99_MPa": null,
+        "n_presion_positiva": 0,
+        "deslizamiento_CSLIP_max_mm": null,
+        "nota_apertura_COPEN": "COPEN de CalculiX anula las holguras positivas; usar apertura_geometrica"
+      }
+    },
+    "C_FLANGE": {
+      "apertura_geometrica": {
+        "n_interpolados": 1375,
+        "n_sin_proyeccion": 269,
+        "cobertura_pct": 83.63746958637469,
+        "apertura_max_mm": 3.8479292129522946e-05,
+        "apertura_p99_mm": 2.4164696856132545e-06,
+        "penetracion_max_mm": 0.003326187132756786,
+        "deslizamiento_geometrico_max_mm": 0.0006130516635434133,
+        "deslizamiento_geometrico_p99_mm": 4.245357789097038e-06
+      },
+      "frd_contacto": {
+        "n_registros_frd": 0,
+        "presion_max_MPa": 0.0,
+        "presion_p99_MPa": null,
+        "n_presion_positiva": 0,
+        "deslizamiento_CSLIP_max_mm": null,
+        "nota_apertura_COPEN": "COPEN de CalculiX anula las holguras positivas; usar apertura_geometrica"
+      }
+    },
+    "A_TALON": {
+      "apertura_geometrica": {
+        "n_interpolados": 26,
+        "n_sin_proyeccion": 36,
+        "cobertura_pct": 41.935483870967744,
+        "apertura_max_mm": 4.834123501495924e-08,
+        "apertura_p99_mm": 4.424839517014334e-08,
+        "penetracion_max_mm": 7.318817552004475e-08,
+        "deslizamiento_geometrico_max_mm": 5.973098980056642e-08,
+        "deslizamiento_geometrico_p99_mm": 5.7924469729750466e-08
+      },
+      "frd_contacto": {
+        "n_registros_frd": 0,
+        "presion_max_MPa": 0.0,
+        "presion_p99_MPa": null,
+        "n_presion_positiva": 0,
+        "deslizamiento_CSLIP_max_mm": null,
+        "nota_apertura_COPEN": "COPEN de CalculiX anula las holguras positivas; usar apertura_geometrica"
+      }
+    },
+    "B_TALON": {
+      "apertura_geometrica": {
+        "n_interpolados": 26,
+        "n_sin_proyeccion": 36,
+        "cobertura_pct": 41.935483870967744,
+        "apertura_max_mm": 6.348000169964507e-08,
+        "apertura_p99_mm": 6.213414849298715e-08,
+        "penetracion_max_mm": 6.127265805844218e-08,
+        "deslizamiento_geometrico_max_mm": 6.820770041736426e-08,
+        "deslizamiento_geometrico_p99_mm": 6.572364468768078e-08
+      },
+      "frd_contacto": {
+        "n_registros_frd": 0,
+        "presion_max_MPa": 0.0,
+        "presion_p99_MPa": null,
+        "n_presion_positiva": 0,
+        "deslizamiento_CSLIP_max_mm": null,
+        "nota_apertura_COPEN": "COPEN de CalculiX anula las holguras positivas; usar apertura_geometrica"
+      }
+    }
+  },
+  "pernos": {
+    "1": {
+      "tipo": "vertical",
+      "k_N_mm": 448404.25531914894,
+      "precarga_objetivo_N": 26000.0,
+      "valor_inicial_resorte_N": 40945.0,
+      "fin_paso1_precarga": {
+        "elongacion_mm": -0.030660641062254967,
+        "axial_N": 27196.63807687184
+      },
+      "fin_paso2_carga": {
+        "elongacion_mm": -0.030673999533675556,
+        "axial_N": 27190.64808144229
+      }
+    },
+    "2": {
+      "tipo": "vertical",
+      "k_N_mm": 448404.25531914894,
+      "precarga_objetivo_N": 26000.0,
+      "valor_inicial_resorte_N": 40945.0,
+      "fin_paso1_precarga": {
+        "elongacion_mm": -0.03012768378318853,
+        "axial_N": 27435.618388708546
+      },
+      "fin_paso2_carga": {
+        "elongacion_mm": -0.03016209039109441,
+        "axial_N": 27420.190319312453
+      }
+    },
+    "3": {
+      "tipo": "vertical",
+      "k_N_mm": 448404.25531914894,
+      "precarga_objetivo_N": 26000.0,
+      "valor_inicial_resorte_N": 40945.0,
+      "fin_paso1_precarga": {
+        "elongacion_mm": -0.030867491538241865,
+        "axial_N": 27103.885443224528
+      },
+      "fin_paso2_carga": {
+        "elongacion_mm": -0.030823682486591508,
+        "axial_N": 27123.52960840604
+      }
+    },
+    "4": {
+      "tipo": "vertical",
+      "k_N_mm": 448404.25531914894,
+      "precarga_objetivo_N": 26000.0,
+      "valor_inicial_resorte_N": 40945.0,
+      "fin_paso1_precarga": {
+        "elongacion_mm": -0.030324622686869418,
+        "axial_N": 27347.310146260148
+      },
+      "fin_paso2_carga": {
+        "elongacion_mm": -0.030266145998766092,
+        "axial_N": 27373.531342042654
+      }
+    },
+    "5": {
+      "tipo": "transversal",
+      "k_N_mm": 361802.5751072961,
+      "precarga_objetivo_N": 26000.0,
+      "valor_inicial_resorte_N": 28509.0,
+      "fin_paso1_precarga": {
+        "elongacion_mm": -0.006316093365722253,
+        "axial_N": 26223.82115566358
+      },
+      "fin_paso2_carga": {
+        "elongacion_mm": -0.006243321983369299,
+        "axial_N": 26250.150029192995
+      }
+    },
+    "6": {
+      "tipo": "transversal",
+      "k_N_mm": 361802.5751072961,
+      "precarga_objetivo_N": 26000.0,
+      "valor_inicial_resorte_N": 28509.0,
+      "fin_paso1_precarga": {
+        "elongacion_mm": -0.006324470121892745,
+        "axial_N": 26220.790423710052
+      },
+      "fin_paso2_carga": {
+        "elongacion_mm": -0.006253151658871303,
+        "axial_N": 26246.593627283903
+      }
+    }
+  },
+  "alojamiento": {
+    "direccion_radial": [
+      0.44107898617644004,
+      0.897468287993266
+    ],
+    "u_radial_base_mm": 0.1436777711902934,
+    "u_radial_cabeza_mm": 0.37972306540692063,
+    "z_base_mm": 815.9640143152784,
+    "z_cabeza_mm": 928.4266049297595,
+    "giro_radial_mrad": 2.0988783285793633,
+    "u_radial_Z955_mm": 0.4354973884366261
+  },
+  "von_mises_por_cuerpo": {
+    "W": {
+      "n": 6389,
+      "p99_MPa": 38.602240058605595,
+      "p999_MPa": 48.0306250235258,
+      "max_MPa": 53.473149960907584,
+      "nodos_mayor_150MPa": 0,
+      "caja_mayor_150MPa_mm": null
+    },
+    "A": {
+      "n": 2579,
+      "p99_MPa": 63.605906522347496,
+      "p999_MPa": 77.35221701166569,
+      "max_MPa": 85.46801782535499,
+      "nodos_mayor_150MPa": 0,
+      "caja_mayor_150MPa_mm": null
+    },
+    "B": {
+      "n": 7942,
+      "p99_MPa": 52.26343762812711,
+      "p999_MPa": 67.78349773011851,
+      "max_MPa": 86.68103682474212,
+      "nodos_mayor_150MPa": 0,
+      "caja_mayor_150MPa_mm": null
+    },
+    "C": {
+      "n": 6129,
+      "p99_MPa": 127.52154698868384,
+      "p999_MPa": 150.89050500068026,
+      "max_MPa": 189.51742653265427,
+      "nodos_mayor_150MPa": 9,
+      "caja_mayor_150MPa_mm": [
+        [
+          432.26103433382525,
+          441.09122126821376
+        ],
+        [
+          508.13264778335326,
+          630.6215829005778
+        ],
+        [
+          645.0,
+          645.0
+        ]
+      ]
+    }
+  }
+}

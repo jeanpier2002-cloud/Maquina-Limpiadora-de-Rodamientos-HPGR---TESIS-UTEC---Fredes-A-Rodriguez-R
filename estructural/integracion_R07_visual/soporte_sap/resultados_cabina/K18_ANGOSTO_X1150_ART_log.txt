@@ -1,0 +1,7 @@
+analisis 0  areas 0  nudos 65
+barras 196.4 kg; chapa 0.0 kg
+f1..f3 Hz 1.94 12.59 18.95
+PAND_U2 35.153
+PAND_U3X 35.129
+PAND_U3Y 35.140
+D/C max 0.166 en VIGA U3_AYP

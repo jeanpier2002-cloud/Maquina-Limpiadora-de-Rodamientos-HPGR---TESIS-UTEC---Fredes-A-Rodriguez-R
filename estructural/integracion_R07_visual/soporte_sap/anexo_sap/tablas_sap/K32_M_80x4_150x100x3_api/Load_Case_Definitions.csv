@@ -1,0 +1,12 @@
+﻿Case;Type;InitialCond;ModalCase;BaseCase;MassSource;DesTypeOpt;DesignType;DesActOpt;DesignAct;AutoType;RunCase;CaseStatus;GUID;Notes
+DEAD;LinStatic;Zero;;;;Prog Det;Dead;Prog Det;Non-Composite;None;Yes;Finished;a939a12e-fc1c-4e60-b8e5-e1733d0bfc24;
+MODAL;LinModal;Zero;;;;Prog Det;Other;Prog Det;Other;None;Yes;Finished;0ff90b33-0011-4dcd-bcde-3bb6182edfe1;
+BELT;LinStatic;Zero;;;;Prog Det;Other;Prog Det;Other;None;Yes;Finished;492927e7-3ad4-43be-a100-cb984b597c0e;
+TORQ;LinStatic;Zero;;;;Prog Det;Other;Prog Det;Other;None;Yes;Finished;f8e6b81b-9c65-4488-bea0-392833e6e99b;
+AXP;LinStatic;Zero;;;;Prog Det;Other;Prog Det;Other;None;Yes;Finished;eba4b52a-816b-4aab-a269-efc5044c337a;
+AXN;LinStatic;Zero;;;;Prog Det;Other;Prog Det;Other;None;Yes;Finished;cba8d14c-e82c-4aed-90e7-b8d7935c7d77;
+AYP;LinStatic;Zero;;;;Prog Det;Other;Prog Det;Other;None;Yes;Finished;335045b7-682f-4ee8-8e82-8da03bc1a87d;
+AYN;LinStatic;Zero;;;;Prog Det;Other;Prog Det;Other;None;Yes;Finished;a1269436-d12e-404f-850f-201b955fef82;
+PAND_U2;LinBuckling;Zero;;;;Prog Det;Other;Prog Det;Other;None;Yes;Finished;d013207d-b7e2-4443-b441-4acaae5df0b7;
+PAND_U3X;LinBuckling;Zero;;;;Prog Det;Other;Prog Det;Other;None;Yes;Finished;5d81509d-5c2d-434e-9bb2-31cab1154695;
+PAND_U3Y;LinBuckling;Zero;;;;Prog Det;Other;Prog Det;Other;None;Yes;Finished;cc30f376-66c8-4875-9c10-4afe5b6ebe98;

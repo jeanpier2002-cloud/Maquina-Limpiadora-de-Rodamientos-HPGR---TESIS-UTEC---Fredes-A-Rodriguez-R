@@ -1,0 +1,1192 @@
+{
+ "estado": "EJECUTADO (calculo); estimacion de clase 4; precios de referencia y HIPOTESIS; sin IGV",
+ "tipo_cambio": {
+  "USD": [
+   3.448,
+   "SUNAT venta 13/10/2026 (tucambista.pe/noticias/dolares-a-soles-13-octubre-2026)"
+  ],
+  "EUR": [
+   3.91,
+   "P2, base de precios (global66.com, 9/10/2026)"
+  ]
+ },
+ "factor_importacion": 1.2,
+ "tarifa_taller_PEN_h": 50.5,
+ "horas_por_kg": {
+  "estructura": 0.15,
+  "mecanizado": 0.4,
+  "precision": 0.6,
+  "inox_chapa": 0.25,
+  "inox_tuberia": 0.35
+ },
+ "cargas_sociales": 1.5,
+ "gastos_utilidad": 2.0,
+ "partidas": {
+  "A. Mesa, centrado y traslado": {
+   "total_PEN": 60119,
+   "min_PEN": 42696,
+   "max_PEN": 88955
+  },
+  "B. Aspersion y accionamiento": {
+   "total_PEN": 32716,
+   "min_PEN": 23440,
+   "max_PEN": 47999
+  },
+  "C. Hidraulica y filtrado": {
+   "total_PEN": 40100,
+   "min_PEN": 29441,
+   "max_PEN": 57407
+  },
+  "D. Tanques y calentamiento": {
+   "total_PEN": 32778,
+   "min_PEN": 25190,
+   "max_PEN": 44675
+  },
+  "E. Cabina hermetica": {
+   "total_PEN": 42856,
+   "min_PEN": 30759,
+   "max_PEN": 62763
+  },
+  "F. Drenaje": {
+   "total_PEN": 5689,
+   "min_PEN": 3983,
+   "max_PEN": 8534
+  },
+  "G. Tablero electrico y control": {
+   "total_PEN": 26364,
+   "min_PEN": 20014,
+   "max_PEN": 36429
+  },
+  "H. Obra civil, montaje y puesta en marcha": {
+   "total_PEN": 20615,
+   "min_PEN": 14430,
+   "max_PEN": 30922
+  }
+ },
+ "subtotal_PEN": 261237,
+ "ingenieria_gestion_5pct_PEN": 13062,
+ "contingencia_15pct_PEN": 41145,
+ "total_sin_IGV_PEN": 315444,
+ "rango_PEN": [
+  244160,
+  431891
+ ],
+ "IGV_18pct_PEN": 56780,
+ "fraccion_con_fuente": 0.181,
+ "fabricado_PEN": 95164,
+ "mano_obra_taller_PEN": 41062,
+ "P2_total_PEN": 33855,
+ "fraccion_equilibrio_pct_n_4_12_24_48": {
+  "4": 2351,
+  "12": 784,
+  "24": 392,
+  "48": 196
+ },
+ "beneficio_requerido_PEN_por_rodamiento_min_base_max": {
+  "4": [
+   16102,
+   20803,
+   28483
+  ],
+  "12": [
+   5367,
+   6934,
+   9494
+  ],
+  "24": [
+   2684,
+   3467,
+   4747
+  ],
+  "48": [
+   1342,
+   1734,
+   2374
+  ]
+ },
+ "factor_anualidad_5a_10pct": 3.791,
+ "precios": {
+  "acero_A36_kg": {
+   "valor": 3.16,
+   "moneda": "USD",
+   "fuente": "P2, base de precios: rango internacional 2026 1,81-3,16 US$/kg, se adopta el maximo (es.accio.com)",
+   "estado": "FUENTE"
+  },
+  "inox_kg": {
+   "valor": 5.62,
+   "moneda": "USD",
+   "fuente": "P2, base de precios: 316L 4,52-5,62 US$/kg (mwalloys.com, mayo 2026), maximo; se aplica tambien al 304",
+   "estado": "FUENTE"
+  },
+  "uhmw_plancha": {
+   "valor": 198.25,
+   "moneda": "EUR",
+   "fuente": "P2, base de precios: plancha 2013 x 1003 x 8 mm (klefinghaus.de)",
+   "estado": "FUENTE"
+  },
+  "sueldo_soldador_mes": {
+   "valor": 3500.0,
+   "moneda": "PEN",
+   "fuente": "Aviso de soldador homologado en SJL, Lima, 2026 (cazvid.com)",
+   "estado": "FUENTE"
+  },
+  "bomba_CRN15_3": {
+   "valor": 3705.8839999999996,
+   "moneda": "EUR",
+   "fuente": "CR 10-06 con motor EUR 2647,06 (P2, sparepartsnow.de) x 1,4 por 316 y tamaño 15 [HIPOTESIS]; sin precio publicado de la CRN 15-3 (lenntech: a pedido)",
+   "estado": "HIPOTESIS"
+  },
+  "motorreductor_SF47": {
+   "valor": 1500.0,
+   "moneda": "USD",
+   "fuente": "S37 con freno US$ 1226,14 (P2, mrosupply.com); el SF47 es un tamaño mayor [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "roba_slip_T1": {
+   "valor": 350.0,
+   "moneda": "USD",
+   "fuente": "Sin precio publicado [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "transmision_HTD": {
+   "valor": 250.0,
+   "moneda": "USD",
+   "fuente": "2 poleas HTD 8M con bujes y correa [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "union_rotativa": {
+   "valor": 476.0,
+   "moneda": "USD",
+   "fuente": "Deublin 555-000-001 (P2, allworldmachinery.com)",
+   "estado": "FUENTE"
+  },
+  "boquilla_veejet": {
+   "valor": 16.26,
+   "moneda": "USD",
+   "fuente": "VeeJet 50 grados inox, 1/4 in (P2, northstarhotsy.com); la de 3/8 se cotiza a pedido",
+   "estado": "FUENTE"
+  },
+  "rueda_SPKVS200K": {
+   "valor": 450.0,
+   "moneda": "USD",
+   "fuente": "Sin precio publicado de la SPKVS 200K; la P2 uso la LE-ALST 200K-14 (US$ 220), otro producto [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "riel_kg": {
+   "valor": 3.16,
+   "moneda": "USD",
+   "fuente": "P2: precio del acero A36 por kg; riel A45 de 22,1 kg/m (ArcelorMittal)",
+   "estado": "FUENTE"
+  },
+  "clip_gantrex_par": {
+   "valor": 40.0,
+   "moneda": "USD",
+   "fuente": "Gantrex BG10/BJ, par [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "anclaje_M16_A4": {
+   "valor": 6.0,
+   "moneda": "USD",
+   "fuente": "Varilla roscada M16 A4-70 de 220 mm con tuerca y arandela [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "adhesivo_500ml": {
+   "valor": 35.0,
+   "moneda": "EUR",
+   "fuente": "Hilti HIT-RE 500 V4 500 ml: EUR 23,50 en reventa (ebay.de); se adopta 35 por compra en distribuidor [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "grout_bolsa": {
+   "valor": 100.0,
+   "moneda": "PEN",
+   "fuente": "Grout sin retraccion, bolsa de 25 kg [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "traslado_D071": {
+   "valor": 1664.0,
+   "moneda": "USD",
+   "fuente": "CALCULO_V14_TRASLADO_CADENA.md §5: cadena Tyma 30,66 EUR/m y partidas [HIP]",
+   "estado": "MIXTO"
+  },
+  "rodamiento_110": {
+   "valor": 150.0,
+   "moneda": "USD",
+   "fuente": "Rodamiento de 110 mm del cartucho [HIPOTESIS; seleccion pendiente, P1-32]",
+   "estado": "HIPOTESIS"
+  },
+  "filtro_ES2": {
+   "valor": 2208.45,
+   "moneda": "USD",
+   "fuente": "Carcasa de filtro de bolsa inox 2 in NPT, 90 gpm, 150 psi (Grainger, punchout.acklandsgrainger.com)",
+   "estado": "FUENTE"
+  },
+  "colador_Y_2in": {
+   "valor": 150.0,
+   "moneda": "USD",
+   "fuente": "Colador en Y 2 in CF8M malla 40 [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "valvula_3vias_2in": {
+   "valor": 800.0,
+   "moneda": "USD",
+   "fuente": "Bola de 3 vias 2 in con actuador de 24 V [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "valvulas_menores": {
+   "valor": 600.0,
+   "moneda": "USD",
+   "fuente": "Retencion 2 in, bola 2 in, aislamiento y venteo de la lanza, purgas [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "resistencia_12kW": {
+   "valor": 1200.0,
+   "moneda": "PEN",
+   "fuente": "Resistencia de inmersion de 12 kW fabricada en Lima [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "FTL31": {
+   "valor": 189.88,
+   "moneda": "EUR",
+   "fuente": "Liquiphant FTL31 (RS Components, de.rs-online.com)",
+   "estado": "FUENTE"
+  },
+  "TM131": {
+   "valor": 350.0,
+   "moneda": "EUR",
+   "fuente": "Sonda de temperatura TM131 [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "PMP21": {
+   "valor": 450.0,
+   "moneda": "EUR",
+   "fuente": "Transmisor de presion PMP21 [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "LT_nivel": {
+   "valor": 600.0,
+   "moneda": "USD",
+   "fuente": "Transmisor de nivel del tanque 1 [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "manometro": {
+   "valor": 80.0,
+   "moneda": "USD",
+   "fuente": "WIKA 233.50 [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "DDA": {
+   "valor": 1079.17,
+   "moneda": "EUR",
+   "fuente": "Grundfos DDA 7.5-16 (hellopro.fr, listado descontinuado: referencia)",
+   "estado": "FUENTE"
+  },
+  "rittal_AE": {
+   "valor": 900.0,
+   "moneda": "USD",
+   "fuente": "Rittal AE 1260.500 IP66 [HIPOTESIS: sin precio publicado de lista]",
+   "estado": "HIPOTESIS"
+  },
+  "cpu_1214C": {
+   "valor": 745.0,
+   "moneda": "USD",
+   "fuente": "Siemens 6ES7214-1AG40-0XB0 (Steiner Electric, distribuidor)",
+   "estado": "FUENTE"
+  },
+  "ktp700": {
+   "valor": 744.6218487394958,
+   "moneda": "EUR",
+   "fuente": "Siemens KTP700 Basic 6AV2123-2GB03-0AX0: EUR 886 con IVA (buerklin.com)",
+   "estado": "FUENTE"
+  },
+  "atv320": {
+   "valor": 922.48,
+   "moneda": "USD",
+   "fuente": "Schneider ATV320U55N4C (standardelectricsupply.com)",
+   "estado": "FUENTE"
+  },
+  "cfw300": {
+   "valor": 200.0,
+   "moneda": "USD",
+   "fuente": "WEG CFW300 0,37 kW 400 V [HIPOTESIS a partir de GBP 134 en inverterdrive.com]",
+   "estado": "HIPOTESIS"
+  },
+  "aparamenta": {
+   "valor": 1500.0,
+   "moneda": "USD",
+   "fuente": "Seccionador, interruptores, guardamotores, contactores, rele de seguridad, fuente 24 V, borneras [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "emergencia": {
+   "valor": 60.0,
+   "moneda": "USD",
+   "fuente": "Pulsador de emergencia Schneider XALK [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "cableado": {
+   "valor": 800.0,
+   "moneda": "USD",
+   "fuente": "Cables de fuerza y control, prensaestopas [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "bandeja_m": {
+   "valor": 25.0,
+   "moneda": "USD",
+   "fuente": "Bandeja portacables de 200 mm, por metro [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "motor_puerta": {
+   "valor": 1226.14,
+   "moneda": "USD",
+   "fuente": "Motorreductor con freno para la puerta: S37 (P2, mrosupply.com)",
+   "estado": "FUENTE"
+  },
+  "extractor_niebla": {
+   "valor": 1500.0,
+   "moneda": "USD",
+   "fuente": "Ventilador en linea de 600-900 m3/h y eliminador de niebla [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "luminaria_IP65": {
+   "valor": 80.0,
+   "moneda": "USD",
+   "fuente": "Luminaria IP65 de 1200 mm [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "menores_cabina": {
+   "valor": 300.0,
+   "moneda": "USD",
+   "fuente": "Sello EPDM, cepillos, mirilla de policarbonato, persiana [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "lana_mineral_m3": {
+   "valor": 150.0,
+   "moneda": "USD",
+   "fuente": "Lana mineral con forro, por m3 [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "bomba_hidrostal": {
+   "valor": 1000.0,
+   "moneda": "USD",
+   "fuente": "Hidrostal A02Q-S (fabricada en Peru) [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "drenaje_menores": {
+   "valor": 650.0,
+   "moneda": "USD",
+   "fuente": "Desviadora motorizada, flotador, IBC de 1000 L, tuberia DN100 [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "detergente_balde": {
+   "valor": 525.29,
+   "moneda": "USD",
+   "fuente": "Zep 36342, balde de 56,7 kg (P2)",
+   "estado": "FUENTE"
+  },
+  "inhibidor_bidon": {
+   "valor": 300.0,
+   "moneda": "USD",
+   "fuente": "Inhibidor multimetal, bidon de 60 L [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  },
+  "obra_civil": {
+   "valor": 8500.0,
+   "moneda": "PEN",
+   "fuente": "Pozo de bombeo (S/ 2 500), piso humedo con pendiente, colector y bordillos (S/ 6 000) [HIPOTESIS]",
+   "estado": "HIPOTESIS"
+  }
+ },
+ "lineas": [
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Bastidor N3 W6X9 con uniones soldadas (HPGR-MES-100)",
+   "cantidad": 168.3,
+   "unidad": "kg",
+   "material_PEN": 1834,
+   "mano_obra_PEN": 1275,
+   "total_PEN": 3109,
+   "fuente": "CAD V18, grupo R07_V16_BASTIDOR_UNIONES; mano de obra 0.15 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 2176,
+   "max_PEN": 4664
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Apoyos, horquillas y ejes de rueda, topes, manillar y bloqueo LOAD",
+   "cantidad": 196.9,
+   "unidad": "kg",
+   "material_PEN": 2145,
+   "mano_obra_PEN": 3975,
+   "total_PEN": 6120,
+   "fuente": "CAD V18: PAD (base y tapa), FORK, AXLE, topes, manillar, bloqueo y patas de receptores; mano de obra 0.40 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 4284,
+   "max_PEN": 9180
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Centradores K2-M (3), con ajustes H7/g6",
+   "cantidad": 70.7,
+   "unidad": "kg",
+   "material_PEN": 770,
+   "mano_obra_PEN": 2141,
+   "total_PEN": 2911,
+   "fuente": "CAD V18, grupos G_R061_K2M y R07_V13 (rodillos polimericos tratados como acero: cota alta); mano de obra 0.60 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 2038,
+   "max_PEN": 4366
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Plancha UHMW-PE de 8 mm para los PAD",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "EUR 198.25",
+   "total_PEN": 930,
+   "fuente": "P2, base de precios: plancha 2013 x 1003 x 8 mm (klefinghaus.de) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 790,
+   "max_PEN": 1116
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Ruedas Blickle SPKVS 200K",
+   "cantidad": 4,
+   "unidad": "u",
+   "precio_unitario": "USD 450.00",
+   "total_PEN": 7448,
+   "fuente": "Sin precio publicado de la SPKVS 200K; la P2 uso la LE-ALST 200K-14 (US$ 220), otro producto [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 5214,
+   "max_PEN": 11172
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Rieles A45 (2 x 6,54 m)",
+   "cantidad": 289.1,
+   "unidad": "kg",
+   "precio_unitario": "USD 3.16",
+   "total_PEN": 3150,
+   "fuente": "P2: precio del acero A36 por kg; riel A45 de 22,1 kg/m (ArcelorMittal)",
+   "estado": "FUENTE",
+   "importado": false,
+   "min_PEN": 2678,
+   "max_PEN": 3780
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Clips Gantrex BG10/BJ",
+   "cantidad": 24,
+   "unidad": "par",
+   "precio_unitario": "USD 40.00",
+   "total_PEN": 3972,
+   "fuente": "Gantrex BG10/BJ, par [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 2780,
+   "max_PEN": 5958
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Pedestales del riel en inox 304 (24; HPGR D-073)",
+   "cantidad": 700.6,
+   "unidad": "kg",
+   "material_PEN": 13576,
+   "mano_obra_PEN": 8842,
+   "total_PEN": 22418,
+   "fuente": "CAD V18, grupo R07_V17_PEDESTALES_RIEL: placas, columna SHS 120x5 y faldones (D-073); mano de obra 0.25 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 15693,
+   "max_PEN": 33627
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Anclajes M16 A4-70 (96)",
+   "cantidad": 96,
+   "unidad": "u",
+   "precio_unitario": "USD 6.00",
+   "total_PEN": 2383,
+   "fuente": "Varilla roscada M16 A4-70 de 220 mm con tuerca y arandela [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 1668,
+   "max_PEN": 3574
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Adhesivo HIT-RE 500 V4, cartuchos de 500 ml (96 anclajes, ~12 ml c/u)",
+   "cantidad": 3,
+   "unidad": "u",
+   "precio_unitario": "EUR 35.00",
+   "total_PEN": 493,
+   "fuente": "Hilti HIT-RE 500 V4 500 ml: EUR 23,50 en reventa (ebay.de); se adopta 35 por compra en distribuidor [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 345,
+   "max_PEN": 740
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Grout sin retraccion (24 x 0,3 x 0,28 x 0,03 m)",
+   "cantidad": 3,
+   "unidad": "bolsa",
+   "precio_unitario": "PEN 100.00",
+   "total_PEN": 300,
+   "fuente": "Grout sin retraccion, bolsa de 25 kg [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": false,
+   "min_PEN": 210,
+   "max_PEN": 450
+  },
+  {
+   "partida": "A. Mesa, centrado y traslado",
+   "descripcion": "Traslado por doble cadena con volante (HPGR D-071)",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 1664.00",
+   "total_PEN": 6885,
+   "fuente": "CALCULO_V14_TRASLADO_CADENA.md §5: cadena Tyma 30,66 EUR/m y partidas [HIP] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": true,
+   "min_PEN": 4820,
+   "max_PEN": 10328
+  },
+  {
+   "partida": "B. Aspersion y accionamiento",
+   "descripcion": "Rotor: eje, cubo, U con bridas, lanza, red, mastil y carro (316L)",
+   "cantidad": 166.7,
+   "unidad": "kg",
+   "material_PEN": 3229,
+   "mano_obra_PEN": 2944,
+   "total_PEN": 6174,
+   "fuente": "CAD V18, grupos A0-A8, R07_V15_U_BRIDAS y B-MEC sin los comerciales; mano de obra 0.35 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 4322,
+   "max_PEN": 9261
+  },
+  {
+   "partida": "B. Aspersion y accionamiento",
+   "descripcion": "Boquillas VeeJet 3/8 (24)",
+   "cantidad": 24,
+   "unidad": "u",
+   "precio_unitario": "USD 16.26",
+   "total_PEN": 1615,
+   "fuente": "VeeJet 50 grados inox, 1/4 in (P2, northstarhotsy.com); la de 3/8 se cotiza a pedido x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 1373,
+   "max_PEN": 1938
+  },
+  {
+   "partida": "B. Aspersion y accionamiento",
+   "descripcion": "Union rotativa 1-1/2 in",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 476.00",
+   "total_PEN": 1969,
+   "fuente": "Deublin 555-000-001 (P2, allworldmachinery.com) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 1674,
+   "max_PEN": 2363
+  },
+  {
+   "partida": "B. Aspersion y accionamiento",
+   "descripcion": "Motorreductor SEW SF47R17DRN63MS4 con brida",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 1500.00",
+   "total_PEN": 6206,
+   "fuente": "S37 con freno US$ 1226,14 (P2, mrosupply.com); el SF47 es un tamaño mayor [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 4344,
+   "max_PEN": 9309
+  },
+  {
+   "partida": "B. Aspersion y accionamiento",
+   "descripcion": "Limitador Mayr ROBA-slip hub T1",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 350.00",
+   "total_PEN": 1448,
+   "fuente": "Sin precio publicado [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 1014,
+   "max_PEN": 2172
+  },
+  {
+   "partida": "B. Aspersion y accionamiento",
+   "descripcion": "Transmision HTD 8M 2:1",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 250.00",
+   "total_PEN": 1034,
+   "fuente": "2 poleas HTD 8M con bujes y correa [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 724,
+   "max_PEN": 1551
+  },
+  {
+   "partida": "B. Aspersion y accionamiento",
+   "descripcion": "Rodamientos del cartucho (110 mm)",
+   "cantidad": 2,
+   "unidad": "u",
+   "precio_unitario": "USD 150.00",
+   "total_PEN": 1241,
+   "fuente": "Rodamiento de 110 mm del cartucho [HIPOTESIS; seleccion pendiente, P1-32] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 869,
+   "max_PEN": 1862
+  },
+  {
+   "partida": "B. Aspersion y accionamiento",
+   "descripcion": "Manguera de 1 in, cadena portamangueras, valvulas y purgas de la lanza",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 600.00",
+   "total_PEN": 2483,
+   "fuente": "Retencion 2 in, bola 2 in, aislamiento y venteo de la lanza, purgas [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 1738,
+   "max_PEN": 3724
+  },
+  {
+   "partida": "B. Aspersion y accionamiento",
+   "descripcion": "Soporte superior aligerado K32 (HPGR D-080), cartucho, alojamientos, mensula y guarda",
+   "cantidad": 571.1,
+   "unidad": "kg",
+   "material_PEN": 6222,
+   "mano_obra_PEN": 4324,
+   "total_PEN": 10546,
+   "fuente": "CAD V18: R07_V12_SOPORTE_MARCO_CABINA, G06, G07 sin polea ni correa, bancada, mensula y guarda; mano de obra 0.15 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 7382,
+   "max_PEN": 15819
+  },
+  {
+   "partida": "C. Hidraulica y filtrado",
+   "descripcion": "Bomba Grundfos CRN 15-3 en 316 con motor de 3 kW",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "EUR 3705.88",
+   "total_PEN": 17388,
+   "fuente": "CR 10-06 con motor EUR 2647,06 (P2, sparepartsnow.de) x 1,4 por 316 y tamaño 15 [HIPOTESIS]; sin precio publicado de la CRN 15-3 (lenntech: a pedido) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 12172,
+   "max_PEN": 26082
+  },
+  {
+   "partida": "C. Hidraulica y filtrado",
+   "descripcion": "Filtro de bolsa Pentair ES2 316L",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 2208.45",
+   "total_PEN": 9138,
+   "fuente": "Carcasa de filtro de bolsa inox 2 in NPT, 90 gpm, 150 psi (Grainger, punchout.acklandsgrainger.com) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 7767,
+   "max_PEN": 10966
+  },
+  {
+   "partida": "C. Hidraulica y filtrado",
+   "descripcion": "Colador en Y de 2 in",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 150.00",
+   "total_PEN": 621,
+   "fuente": "Colador en Y 2 in CF8M malla 40 [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 435,
+   "max_PEN": 932
+  },
+  {
+   "partida": "C. Hidraulica y filtrado",
+   "descripcion": "Valvula de 3 vias de 2 in con actuador (lavado / enjuague)",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 800.00",
+   "total_PEN": 3310,
+   "fuente": "Bola de 3 vias 2 in con actuador de 24 V [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 2317,
+   "max_PEN": 4965
+  },
+  {
+   "partida": "C. Hidraulica y filtrado",
+   "descripcion": "Retencion, bola de impulsion, bypass y purgas",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 600.00",
+   "total_PEN": 2483,
+   "fuente": "Retencion 2 in, bola 2 in, aislamiento y venteo de la lanza, purgas [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 1738,
+   "max_PEN": 3724
+  },
+  {
+   "partida": "C. Hidraulica y filtrado",
+   "descripcion": "Tuberia fija 316L (impulsion DN50 de 9,5 m, drenaje 2 in, purga)",
+   "cantidad": 66.8,
+   "unidad": "kg",
+   "material_PEN": 1294,
+   "mano_obra_PEN": 1180,
+   "total_PEN": 2475,
+   "fuente": "Largos: linea de 9,5 m (INFORME_BLOQUES_G_H), drenaje 2 in de ~6 m y purga de 1,2 m [HIPOTESIS]; DN50 Sch 10S 4,0 kg/m; mano de obra 0.35 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 1732,
+   "max_PEN": 3712
+  },
+  {
+   "partida": "C. Hidraulica y filtrado",
+   "descripcion": "Pedestal de la bomba y postes de apoyo",
+   "cantidad": 121.4,
+   "unidad": "kg",
+   "material_PEN": 1323,
+   "mano_obra_PEN": 920,
+   "total_PEN": 2243,
+   "fuente": "CAD V18; mano de obra 0.15 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 1570,
+   "max_PEN": 3364
+  },
+  {
+   "partida": "C. Hidraulica y filtrado",
+   "descripcion": "Transmisor de presion PMP21",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "EUR 450.00",
+   "total_PEN": 2111,
+   "fuente": "Transmisor de presion PMP21 [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 1478,
+   "max_PEN": 3166
+  },
+  {
+   "partida": "C. Hidraulica y filtrado",
+   "descripcion": "Manometro WIKA 233.50",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 80.00",
+   "total_PEN": 331,
+   "fuente": "WIKA 233.50 [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 232,
+   "max_PEN": 496
+  },
+  {
+   "partida": "D. Tanques y calentamiento",
+   "descripcion": "Tanque 1 de 600 L en inox 304 con tabique, tapas, cesto, separador y tubuladuras",
+   "cantidad": 213.8,
+   "unidad": "kg",
+   "material_PEN": 4144,
+   "mano_obra_PEN": 2699,
+   "total_PEN": 6842,
+   "fuente": "CAD V18: R07_V9_TANQUE_CUERPO y grupo R07_E_TANQUE; mano de obra 0.25 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 4789,
+   "max_PEN": 10263
+  },
+  {
+   "partida": "D. Tanques y calentamiento",
+   "descripcion": "Tanque de enjuague de 204 L en inox 304",
+   "cantidad": 60.0,
+   "unidad": "kg",
+   "material_PEN": 1162,
+   "mano_obra_PEN": 757,
+   "total_PEN": 1919,
+   "fuente": "CAD V18: R07_V9_TANQUE_ENJUAGUE, tapa y patas; mano de obra 0.25 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 1343,
+   "max_PEN": 2878
+  },
+  {
+   "partida": "D. Tanques y calentamiento",
+   "descripcion": "Aislamiento de lana mineral de 50 mm con forro",
+   "cantidad": 0.15,
+   "unidad": "m3",
+   "precio_unitario": "USD 150.00",
+   "total_PEN": 78,
+   "fuente": "Lana mineral con forro, por m3 [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": false,
+   "min_PEN": 55,
+   "max_PEN": 117
+  },
+  {
+   "partida": "D. Tanques y calentamiento",
+   "descripcion": "Resistencias de inmersion de 12 kW (3)",
+   "cantidad": 3,
+   "unidad": "u",
+   "precio_unitario": "PEN 1200.00",
+   "total_PEN": 3600,
+   "fuente": "Resistencia de inmersion de 12 kW fabricada en Lima [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": false,
+   "min_PEN": 2520,
+   "max_PEN": 5400
+  },
+  {
+   "partida": "D. Tanques y calentamiento",
+   "descripcion": "Interruptores de nivel FTL31 (3)",
+   "cantidad": 3,
+   "unidad": "u",
+   "precio_unitario": "EUR 189.88",
+   "total_PEN": 2673,
+   "fuente": "Liquiphant FTL31 (RS Components, de.rs-online.com) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 2272,
+   "max_PEN": 3208
+  },
+  {
+   "partida": "D. Tanques y calentamiento",
+   "descripcion": "Sonda de temperatura TM131",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "EUR 350.00",
+   "total_PEN": 1642,
+   "fuente": "Sonda de temperatura TM131 [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 1149,
+   "max_PEN": 2463
+  },
+  {
+   "partida": "D. Tanques y calentamiento",
+   "descripcion": "Transmisor de nivel del tanque 1",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 600.00",
+   "total_PEN": 2483,
+   "fuente": "Transmisor de nivel del tanque 1 [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 1738,
+   "max_PEN": 3724
+  },
+  {
+   "partida": "D. Tanques y calentamiento",
+   "descripcion": "Dosificadoras Grundfos DDA (detergente e inhibidor)",
+   "cantidad": 2,
+   "unidad": "u",
+   "precio_unitario": "EUR 1079.17",
+   "total_PEN": 10127,
+   "fuente": "Grundfos DDA 7.5-16 (hellopro.fr, listado descontinuado: referencia) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 8608,
+   "max_PEN": 12152
+  },
+  {
+   "partida": "D. Tanques y calentamiento",
+   "descripcion": "Detergente inicial (balde de 56,7 kg)",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 525.29",
+   "total_PEN": 2173,
+   "fuente": "Zep 36342, balde de 56,7 kg (P2) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 1847,
+   "max_PEN": 2608
+  },
+  {
+   "partida": "D. Tanques y calentamiento",
+   "descripcion": "Inhibidor inicial (bidon de 60 L)",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 300.00",
+   "total_PEN": 1241,
+   "fuente": "Inhibidor multimetal, bidon de 60 L [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 869,
+   "max_PEN": 1862
+  },
+  {
+   "partida": "E. Cabina hermetica",
+   "descripcion": "Paneles de inox 304 de 1,5 mm (53.8 m2, +20 % de juntas y refuerzos)",
+   "cantidad": 767.9,
+   "unidad": "kg",
+   "material_PEN": 14881,
+   "mano_obra_PEN": 9692,
+   "total_PEN": 24572,
+   "fuente": "Area de los muros y el techo de CTX_CABIN (CAD); espesor y +20 %% [HIPOTESIS]; mano de obra 0.25 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 17200,
+   "max_PEN": 36858
+  },
+  {
+   "partida": "E. Cabina hermetica",
+   "descripcion": "Puerta de guillotina: hoja (piel de 2 mm y marco), guias y dintel",
+   "cantidad": 159.5,
+   "unidad": "kg",
+   "material_PEN": 3090,
+   "mano_obra_PEN": 2012,
+   "total_PEN": 5102,
+   "fuente": "INFORME_BLOQUES_G_H: piel de 2 mm y marco 40x40; guias en U y dintel en cajon [HIPOTESIS de seccion]; mano de obra 0.25 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 3571,
+   "max_PEN": 7653
+  },
+  {
+   "partida": "E. Cabina hermetica",
+   "descripcion": "Motorreductor de la puerta con freno y contrapeso",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 1226.14",
+   "total_PEN": 5073,
+   "fuente": "Motorreductor con freno para la puerta: S37 (P2, mrosupply.com) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 4312,
+   "max_PEN": 6088
+  },
+  {
+   "partida": "E. Cabina hermetica",
+   "descripcion": "Extractor y eliminador de niebla",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 1500.00",
+   "total_PEN": 6206,
+   "fuente": "Ventilador en linea de 600-900 m3/h y eliminador de niebla [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 4344,
+   "max_PEN": 9309
+  },
+  {
+   "partida": "E. Cabina hermetica",
+   "descripcion": "Luminarias IP65 (2)",
+   "cantidad": 2,
+   "unidad": "u",
+   "precio_unitario": "USD 80.00",
+   "total_PEN": 662,
+   "fuente": "Luminaria IP65 de 1200 mm [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 463,
+   "max_PEN": 993
+  },
+  {
+   "partida": "E. Cabina hermetica",
+   "descripcion": "Sellos EPDM, cepillos, mirilla y persiana",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 300.00",
+   "total_PEN": 1241,
+   "fuente": "Sello EPDM, cepillos, mirilla de policarbonato, persiana [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 869,
+   "max_PEN": 1862
+  },
+  {
+   "partida": "F. Drenaje",
+   "descripcion": "Bomba de drenaje Hidrostal A02Q-S",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 1000.00",
+   "total_PEN": 3448,
+   "fuente": "Hidrostal A02Q-S (fabricada en Peru) [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": false,
+   "min_PEN": 2414,
+   "max_PEN": 5172
+  },
+  {
+   "partida": "F. Drenaje",
+   "descripcion": "Desviadora, flotador, IBC de 1000 L y tuberia DN100",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 650.00",
+   "total_PEN": 2241,
+   "fuente": "Desviadora motorizada, flotador, IBC de 1000 L, tuberia DN100 [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": false,
+   "min_PEN": 1569,
+   "max_PEN": 3362
+  },
+  {
+   "partida": "G. Tablero electrico y control",
+   "descripcion": "Gabinete Rittal AE 1260.500 IP66",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 900.00",
+   "total_PEN": 3724,
+   "fuente": "Rittal AE 1260.500 IP66 [HIPOTESIS: sin precio publicado de lista] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 2607,
+   "max_PEN": 5586
+  },
+  {
+   "partida": "G. Tablero electrico y control",
+   "descripcion": "PLC Siemens S7-1200 CPU 1214C",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 745.00",
+   "total_PEN": 3083,
+   "fuente": "Siemens 6ES7214-1AG40-0XB0 (Steiner Electric, distribuidor) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 2621,
+   "max_PEN": 3700
+  },
+  {
+   "partida": "G. Tablero electrico y control",
+   "descripcion": "HMI Siemens KTP700 Basic",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "EUR 744.62",
+   "total_PEN": 3494,
+   "fuente": "Siemens KTP700 Basic 6AV2123-2GB03-0AX0: EUR 886 con IVA (buerklin.com) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 2970,
+   "max_PEN": 4193
+  },
+  {
+   "partida": "G. Tablero electrico y control",
+   "descripcion": "Variador de la bomba ATV320U55N4C",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 922.48",
+   "total_PEN": 3817,
+   "fuente": "Schneider ATV320U55N4C (standardelectricsupply.com) x 1.20 de importacion [HIPOTESIS]",
+   "estado": "FUENTE",
+   "importado": true,
+   "min_PEN": 3244,
+   "max_PEN": 4580
+  },
+  {
+   "partida": "G. Tablero electrico y control",
+   "descripcion": "Variador del rotor WEG CFW300",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 200.00",
+   "total_PEN": 828,
+   "fuente": "WEG CFW300 0,37 kW 400 V [HIPOTESIS a partir de GBP 134 en inverterdrive.com] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 580,
+   "max_PEN": 1242
+  },
+  {
+   "partida": "G. Tablero electrico y control",
+   "descripcion": "Aparamenta, protecciones, rele de seguridad y fuente",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 1500.00",
+   "total_PEN": 6206,
+   "fuente": "Seccionador, interruptores, guardamotores, contactores, rele de seguridad, fuente 24 V, borneras [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 4344,
+   "max_PEN": 9309
+  },
+  {
+   "partida": "G. Tablero electrico y control",
+   "descripcion": "Pulsadores de emergencia (2)",
+   "cantidad": 2,
+   "unidad": "u",
+   "precio_unitario": "USD 60.00",
+   "total_PEN": 497,
+   "fuente": "Pulsador de emergencia Schneider XALK [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 348,
+   "max_PEN": 746
+  },
+  {
+   "partida": "G. Tablero electrico y control",
+   "descripcion": "Cables y prensaestopas",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "USD 800.00",
+   "total_PEN": 3310,
+   "fuente": "Cables de fuerza y control, prensaestopas [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 2317,
+   "max_PEN": 4965
+  },
+  {
+   "partida": "G. Tablero electrico y control",
+   "descripcion": "Bandejas portacables (~6,5 m)",
+   "cantidad": 6.5,
+   "unidad": "m",
+   "precio_unitario": "USD 25.00",
+   "total_PEN": 672,
+   "fuente": "Bandeja portacables de 200 mm, por metro [HIPOTESIS] x 1.20 de importacion [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": true,
+   "min_PEN": 470,
+   "max_PEN": 1008
+  },
+  {
+   "partida": "G. Tablero electrico y control",
+   "descripcion": "Soportes del tablero y mensulas de bandeja",
+   "cantidad": 39.7,
+   "unidad": "kg",
+   "material_PEN": 432,
+   "mano_obra_PEN": 301,
+   "total_PEN": 733,
+   "fuente": "CAD V18; mano de obra 0.15 h/kg x S/ 50.5/h [HIPOTESIS]",
+   "estado": "MIXTO",
+   "importado": false,
+   "min_PEN": 513,
+   "max_PEN": 1100
+  },
+  {
+   "partida": "H. Obra civil, montaje y puesta en marcha",
+   "descripcion": "Obra civil: pozo de bombeo, piso humedo, colector y bordillos",
+   "cantidad": 1,
+   "unidad": "u",
+   "precio_unitario": "PEN 8500.00",
+   "total_PEN": 8500,
+   "fuente": "Pozo de bombeo (S/ 2 500), piso humedo con pendiente, colector y bordillos (S/ 6 000) [HIPOTESIS]",
+   "estado": "HIPOTESIS",
+   "importado": false,
+   "min_PEN": 5950,
+   "max_PEN": 12750
+  },
+  {
+   "partida": "H. Obra civil, montaje y puesta en marcha",
+   "descripcion": "Montaje mecanico y electrico, pruebas y puesta en marcha (2 tecnicos x 15 dias)",
+   "cantidad": 240,
+   "unidad": "h",
+   "total_PEN": 12115,
+   "fuente": "Tarifa de taller S/ 50.5/h [HIPOTESIS de duracion]",
+   "estado": "HIPOTESIS",
+   "importado": false,
+   "min_PEN": 8480,
+   "max_PEN": 18172
+  }
+ ]
+}

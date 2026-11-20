@@ -1,0 +1,51 @@
+{
+    "estado":  "NO_CERRADO",
+    "clase":  "DIAGNOSTICO_SIN_SOLUCION",
+    "unidad":  1,
+    "signo":  1,
+    "mu_mordaza":  0,
+    "H_mm":  "9/2",
+    "nota":  "Cuatro lanzamientos; ninguno produjo una solucion de contacto. No hay apertura, fuerza de pernos, deslizamiento, desplazamiento ni tensiones validos.",
+    "intentos":  [
+                     {
+                         "numero":  1,
+                         "archivo":  "fem_contacto/intento1_u1_mu0/r061_u1_s+1.error.json",
+                         "fase":  "ensamblaje de mallas",
+                         "error":  "FreeCAD FemMesh no tiene VolumeElements; API local expone Volumes"
+                     },
+                     {
+                         "numero":  2,
+                         "archivo":  "fem_contacto/intento2_consola.txt",
+                         "fase":  "lectura del guion",
+                         "error":  "BOM U+FEFF en copia de scratch; FreeCAD no leyo el guion; no se creo malla ni INP"
+                     },
+                     {
+                         "numero":  3,
+                         "archivo":  "fem_contacto/intento3_u1_mu0/r061_u1_s+1.error.json",
+                         "fase":  "lectura CalculiX paso 1",
+                         "error":  "B31 lineal con BEAM SECTION circular: CalculiX exige viga cuadratica"
+                     },
+                     {
+                         "numero":  4,
+                         "archivo":  "fem_contacto/intento4_u1_mu0/r061_u1_s+1.error.json",
+                         "fase":  "lectura CalculiX paso 1",
+                         "error":  "B32 cuadratica con PRE-TENSION SECTION: CalculiX exige viga lineal"
+                     }
+                 ],
+    "sta_cvg_dat":  "Intentos 3 y 4: .sta/.cvg solo cabeceras; .dat vacio; sin iteraciones convergidas.",
+    "magnitudes":  {
+                       "tensiones_por_cuerpo_MPa":  null,
+                       "apertura_B_LIP_mm":  null,
+                       "equilibrio":  null,
+                       "deslizamiento_mm":  null,
+                       "apertura_B_WEB_mm":  null,
+                       "desplazamiento_Z955_mm":  null,
+                       "fuerzas_pernos_N":  null
+                   },
+    "siguiente_paso":  "Reformular el modelo de perno dentro de FreeCAD FEM + gmsh + CalculiX y revisar MPC; no ejecutado por el tope de cuatro intentos.",
+    "fuentes":  [
+                    "scripts/r061_fem_contacto_v571.py",
+                    "C:\\Users\\<usuario>\\AppData\\Local\\Temp\\claude\\C--Users-enriq-Documents-Codex-2026-07-06-ho\\7cc8ba95-012d-479a-9d89-b713f0aefa81\\scratchpad\\r06\\fem_contacto\\intento3_u1_mu0\\ccx.stdout.txt",
+                    "C:\\Users\\<usuario>\\AppData\\Local\\Temp\\claude\\C--Users-enriq-Documents-Codex-2026-07-06-ho\\7cc8ba95-012d-479a-9d89-b713f0aefa81\\scratchpad\\r06\\fem_contacto\\intento4_u1_mu0\\ccx.stdout.txt"
+                ]
+}

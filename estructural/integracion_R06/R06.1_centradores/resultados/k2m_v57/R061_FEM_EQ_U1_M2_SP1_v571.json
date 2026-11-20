@@ -1,0 +1,35 @@
+{
+ "caso": "C:\\Users\\<usuario>\\AppData\\Local\\Temp\\claude\\C--Users-enriq-Documents-Codex-2026-07-06-ho\\7cc8ba95-012d-479a-9d89-b713f0aefa81\\scratchpad\\r06\\fem_v571\\R061_FEM_LOCAL_U1\\malla_2\\F2080_s+1\\F2080_s+1",
+ "nodos_carga": 360,
+ "nodos_reaccion": 1990,
+ "aplicada": {
+  "F_N": [
+   544.0974834420883,
+   2050.2228972753505,
+   0.0
+  ],
+  "M_Nmm": [
+   -343298.8913722655,
+   90866.55863304624,
+   -174950.77363430668
+  ]
+ },
+ "reaccion": {
+  "F_N": [
+   -525.7525143216379,
+   -2065.782520343762,
+   -4.402053448887809
+  ],
+  "M_Nmm": [
+   341643.7767818243,
+   -94181.16420493895,
+   174855.93470639427
+  ]
+ },
+ "error_relativo_F": 0.011528613090726654,
+ "error_relativo_M": 0.009361687788450467,
+ "residuo_F_N": 24.454403215539394,
+ "residuo_M_Nmm": 3706.0772829180446,
+ "denominador_M_Nmm": 395877.04339918704,
+ "acepta_1pct": false
+}

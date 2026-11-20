@@ -1,0 +1,40 @@
+{
+ "unidad": 3,
+ "PIV": 776.0,
+ "direccion_radial_contacto": [
+  0.5566908434048771,
+  -0.8307197511009152
+ ],
+ "ventana_local_mm": 250.0,
+ "clasificacion": "seccion real W6x9 (rev. K1)",
+ "casos": [
+  {
+   "caso": "malla_1\\F2080_s-1\\F2080_s-1.frd",
+   "nodos": 274573,
+   "u_radial_alojamiento_medio_mm": 0.3080053356646111,
+   "u_radial_base_mm": 0.1703097236292969,
+   "u_radial_cabeza_mm": 0.44986011778079726,
+   "giro_alojamiento_mrad": 2.5309647091068794,
+   "z_base_mm": 817.5999617940199,
+   "z_cabeza_mm": 928.0520724637682,
+   "u_radial_Z955_mm": 0.5180643713585693,
+   "u_total_alojamiento_max_mm": 0.5613179324859398,
+   "W_p99_MPa": 33.98245190929592,
+   "W_p999_MPa": 49.30812613084458,
+   "W_max_MPa": 79.54379539759213,
+   "W_nodos_mayor_150MPa": 0,
+   "W_caja_mayor_150MPa_mm": null,
+   "W_local_p99_MPa": 32.96408449947187,
+   "W_local_p999_MPa": 51.41813269663152,
+   "W_local_max_MPa": 79.54379539759213,
+   "soporte_p99_MPa": 29.45435171938958,
+   "soporte_p999_MPa": 47.662555966723765,
+   "soporte_max_MPa": 67.58747263446534,
+   "soporte_nodos_mayor_150MPa": 0,
+   "soporte_caja_mayor_150MPa_mm": null,
+   "soporte_nodos": 101342,
+   "W_nodos": 173231,
+   "W_local_nodos": 102296
+  }
+ ]
+}

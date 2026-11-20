@@ -1,0 +1,335 @@
+{
+  "revision": "R061_K2M_CANDIDATO_SELECCIONADO_PARA_MODELADO_NO_VALIDADO",
+  "entrada_fcstd": "C:\\Users\\<usuario>\\AppData\\Local\\Temp\\claude\\C--Users-enriq-Documents-Codex-2026-07-06-ho\\7cc8ba95-012d-479a-9d89-b713f0aefa81\\scratchpad\\r06\\run9\\R061_K2M_CANDIDATO.FCStd",
+  "parametros": {
+    "STEP_Y_mm": 10.0,
+    "STEP_DEG": 2.0,
+    "STEP_Z_mm": 10.0,
+    "STEP_CARRO_mm": 5.0,
+    "TRAVEL_Y_mm": 3320.038,
+    "prefiltro_cajas_mm": 25.0,
+    "umbral_contacto_volumen_mm3": 0.01
+  },
+  "casos": {
+    "C1_TRASLADO": {
+      "definicion": "Mesa Y=0 a -3320.038; rotor 0°; lanza s=640; K2-M ACTIVO y RETRAIDO (unión conservadora)",
+      "muestras": 334,
+      "minimo_global_mm": 0.0,
+      "minimo_acotado": null,
+      "pares_prefiltro": 316,
+      "pares_en_contacto": [],
+      "pares_menores_10_mm": [
+        "CTX_TABLE_LOCK_BODY | LOCK_RECEIVER_LOAD",
+        "CTX_TABLE_LOCK_BODY | LOCK_RECEIVER_WASH",
+        "CTX_WHEEL_01 | RAIL_A45_L",
+        "CTX_WHEEL_02 | RAIL_A45_L",
+        "CTX_WHEEL_03 | RAIL_A45_R",
+        "CTX_WHEEL_04 | RAIL_A45_R"
+      ],
+      "segundos": 1251.315504600003
+    },
+    "C2_GIRO_E1": {
+      "definicion": "Rotor y lanza de trabajo 0..360°; mesa WASH",
+      "muestras": 181,
+      "minimo_global_mm": 0.0,
+      "minimo_acotado": null,
+      "pares_prefiltro": 364,
+      "pares_en_contacto": [
+        "POLEA_CONDUCIDA | R04_CORREA_ENVOLVENTE",
+        "RESALTE_AXIAL | R04_ALOJAMIENTO_APOYO_INFERIOR"
+      ],
+      "pares_menores_10_mm": [
+        "DISCO_ESTACIONAMIENTO | R04_PASADOR_ESTACIONAMIENTO_ROTOR",
+        "EJE_ROTOR | R04_ALOJAMIENTO_APOYO_INFERIOR",
+        "EJE_ROTOR | R04_ALOJAMIENTO_APOYO_SUPERIOR",
+        "POLEA_CONDUCIDA | R04_CORREA_ENVOLVENTE",
+        "RESALTE_AXIAL | R04_ALOJAMIENTO_APOYO_INFERIOR",
+        "UNION_ROTATIVA_ROTOR | R04_UNION_ESTATOR"
+      ],
+      "segundos": 1586.7291968999925
+    },
+    "C3_GIRO_E2": {
+      "estado": "NO_EVALUABLE",
+      "definicion": "Faltan geometría de elementos desmontados, útiles y estado E2",
+      "propuesta_minima": "Aportar sólidos y posición de útiles E2; entonces girar las piezas etiquetadas rotor/lanza 0..360° frente a esos sólidos y los fijos.",
+      "minimo_global_mm": null,
+      "pares_en_contacto": [],
+      "pares_menores_10_mm": [],
+      "segundos": 0.0
+    },
+    "C4_RETIRADA_LANZA": {
+      "definicion": "HIPÓTESIS: lanza rígida s=0..640; rotor 0°; mesa WASH",
+      "muestras": 65,
+      "minimo_global_mm": 0.0,
+      "minimo_acotado": null,
+      "pares_prefiltro": 103,
+      "pares_en_contacto": [
+        "EMBOLO_PASADOR | PLACA_BLOQUEO",
+        "OREJETA_RETENCION | MANETA_V_AIS_BARRIDO",
+        "OREJETA_RETENCION | UNERA_GUARDADO"
+      ],
+      "pares_menores_10_mm": [
+        "CARRO_LANZA | HUSILLO_TR20x4",
+        "CARRO_LANZA | MANETA_V_AIS_BARRIDO",
+        "CARRO_LANZA | MASTIL_VARILLAS",
+        "EMBOLO_INDEXADOR | PLACA_BLOQUEO",
+        "EMBOLO_PASADOR | PLACA_BLOQUEO",
+        "OREJETA_RETENCION | BARRA_RETENCION",
+        "OREJETA_RETENCION | MANETA_V_AIS_BARRIDO",
+        "OREJETA_RETENCION | UNERA_GUARDADO"
+      ],
+      "segundos": 264.85022089999984,
+      "excluidos": [
+        "Flexible y cadena: requieren geometría intermedia, no traslación rígida"
+      ]
+    },
+    "C5_ACCIONAMIENTO": {
+      "definicion": "Brazos K2-M phi 75°->49.01°; rotor cada 10°; lanza guardada",
+      "muestras": 504,
+      "minimo_global_mm": null,
+      "minimo_acotado": "mayor o igual a 25 mm",
+      "pares_prefiltro": 0,
+      "pares_en_contacto": [],
+      "pares_menores_10_mm": [],
+      "segundos": 105.14467510000395,
+      "angulos_permitidos_deg": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200,
+        210,
+        220,
+        230,
+        240,
+        250,
+        260,
+        270,
+        280,
+        290,
+        300,
+        310,
+        320,
+        330,
+        340,
+        350
+      ],
+      "detalle_por_angulo": {
+        "0": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "10": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "20": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "30": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "40": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "50": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "60": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "70": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "80": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "90": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "100": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "110": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "120": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "130": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "140": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "150": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "160": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "170": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "180": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "190": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "200": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "210": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "220": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "230": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "240": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "250": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "260": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "270": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "280": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "290": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "300": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "310": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "320": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "330": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "340": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        },
+        "350": {
+          "dist_min_mm": null,
+          "cota_si_sin_prefiltro": ">=25 mm",
+          "sin_contacto_geometrico": true
+        }
+      }
+    },
+    "C5_RODAMIENTO": {
+      "definicion": "K2-M phi 75°->activo frente al rodamiento; solo el rodillo debe llegar a contacto",
+      "muestras": 252,
+      "minimo_global_mm": 5.684341886080802e-14,
+      "minimo_acotado": null,
+      "pares_prefiltro": 11,
+      "pares_en_contacto": [],
+      "pares_menores_10_mm": [
+        "R061_K2M_1_RODILLO_ACTIVO | CTX_BEARING_REFERENCE",
+        "R061_K2M_2_RODILLO_ACTIVO | CTX_BEARING_REFERENCE",
+        "R061_K2M_3_RODILLO_ACTIVO | CTX_BEARING_REFERENCE"
+      ],
+      "segundos": 5.13666689999809
+    }
+  },
+  "pares_csv": 794,
+  "errores_por_objeto": [],
+  "segundos_totales": 3214.956766400006,
+  "limite": "Barridos discretos: un mínimo positivo entre muestras no demuestra holgura continua ni tolerancias."
+}

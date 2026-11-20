@@ -1,0 +1,39 @@
+{
+ "pasos": 84,
+ "moviles": 292,
+ "fijos": 323,
+ "pares_con_cajas_cruzadas": 1115,
+ "lanza_sustituida_por_guardada": 39,
+ "lanza_sin_copia_guardada": [],
+ "choques": [
+  {
+   "movil": "CTX_TABLE_LOCK_PIN",
+   "fijo": "Fixed double-ear lock receiver WASH",
+   "dy_min": -40,
+   "dy_max": -40,
+   "n_pasos": 1,
+   "max_mm3": 53977.9,
+   "en_dy0_mm3": 0.0
+  },
+  {
+   "movil": "CTX_TABLE_LOCK_PIN",
+   "fijo": "Fixed double-ear lock receiver LOAD",
+   "dy_min": -3280,
+   "dy_max": -3280,
+   "n_pasos": 1,
+   "max_mm3": 53911.6,
+   "en_dy0_mm3": 0.0
+  },
+  {
+   "movil": "CTX_TABLE_LOCK_BODY",
+   "fijo": "R07_V12_BUJES_D050_D32_D25",
+   "dy_min": -40,
+   "dy_max": -40,
+   "n_pasos": 1,
+   "max_mm3": 6267.5,
+   "en_dy0_mm3": 0.0
+  }
+ ],
+ "solapes_estaticos_en_dy0": [],
+ "esperados_rueda_riel_y_enganche": []
+}

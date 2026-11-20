@@ -1,0 +1,1730 @@
+{
+"objetos": [
+{
+"nombre": "TUBO_ALIMENTACION_DN40",
+"etiqueta": "TUBO_ALIMENTACION_DN40",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 665636.0,
+"caja": [
+-24.15,
+24.15,
+-24.15,
+24.15,
+1860.0,
+3540.0
+]
+},
+{
+"nombre": "EJE_ROTOR",
+"etiqueta": "EJE_ROTOR",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 4434873.0,
+"caja": [
+-57.15,
+57.15,
+-57.15,
+57.15,
+1860.0,
+3520.0
+]
+},
+{
+"nombre": "R04_ALOJAMIENTO_APOYO_SUPERIOR",
+"etiqueta": "R04_ALOJAMIENTO_APOYO_SUPERIOR",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3754408.0,
+"caja": [
+-115.0,
+115.0,
+-115.0,
+115.0,
+3390.0,
+3510.0
+]
+},
+{
+"nombre": "R04_ALOJAMIENTO_APOYO_INFERIOR",
+"etiqueta": "R04_ALOJAMIENTO_APOYO_INFERIOR",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3128674.0,
+"caja": [
+-115.0,
+115.0,
+-115.0,
+115.0,
+2790.0,
+2890.0
+]
+},
+{
+"nombre": "R04_PASADOR_ESTACIONAMIENTO_ROTOR",
+"etiqueta": "R04_PASADOR_ESTACIONAMIENTO_ROTOR",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 135000.0,
+"caja": [
+150.0,
+180.0,
+-15.0,
+15.0,
+2740.0,
+2890.0
+]
+},
+{
+"nombre": "RESALTE_AXIAL",
+"etiqueta": "RESALTE_AXIAL",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 92394.0,
+"caja": [
+-70.0,
+70.0,
+-70.0,
+70.0,
+2812.0,
+2830.0
+]
+},
+{
+"nombre": "R07_H_LABERINTO_FIJO",
+"etiqueta": "R07_H_LABERINTO_FIJO",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 123700.0,
+"caja": [
+-115.0,
+115.0,
+-115.0,
+115.0,
+2660.0,
+2695.0
+]
+},
+{
+"nombre": "HUSILLO_TR20x4",
+"etiqueta": "HUSILLO_TR20x4",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 295310.0,
+"caja": [
+-150.0,
+-130.0,
+240.0,
+260.0,
+1545.0,
+2485.0
+]
+},
+{
+"nombre": "HUSILLO_APOYO_AXIAL_SUP",
+"etiqueta": "HUSILLO_APOYO_AXIAL_SUP",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 74432.0,
+"caja": [
+-170.0,
+-110.0,
+220.0,
+280.0,
+2455.0,
+2485.0
+]
+},
+{
+"nombre": "MASTIL_ABRAZADERA_EJE",
+"etiqueta": "MASTIL_ABRAZADERA_EJE",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 759304.0,
+"caja": [
+-90.0,
+90.0,
+-90.0,
+90.0,
+2425.0,
+2475.0
+]
+},
+{
+"nombre": "MASTIL_PUENTE_SUPERIOR",
+"etiqueta": "MASTIL_PUENTE_SUPERIOR",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 380319.0,
+"caja": [
+-215.0,
+100.0,
+155.0,
+275.0,
+2440.0,
+2455.0
+]
+},
+{
+"nombre": "MASTIL_BRAZO_ABRAZADERA",
+"etiqueta": "MASTIL_BRAZO_ABRAZADERA",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 81025.0,
+"caja": [
+-40.0,
+40.0,
+85.0,
+155.0,
+2440.0,
+2455.0
+]
+},
+{
+"nombre": "MASTIL_VARILLAS",
+"etiqueta": "MASTIL_VARILLAS",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 2,
+"vol_mm3": 878664.0,
+"caja": [
+-87.5,
+87.5,
+237.5,
+262.5,
+1560.0,
+2455.0
+]
+},
+{
+"nombre": "BARRA_RETENCION",
+"etiqueta": "BARRA_RETENCION",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 119105.0,
+"caja": [
+93.0,
+135.0,
+209.0,
+265.0,
+2200.0,
+2455.0
+]
+},
+{
+"nombre": "PLACA_BLOQUEO",
+"etiqueta": "PLACA_BLOQUEO",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 513552.0,
+"caja": [
+-215.0,
+-203.0,
+225.0,
+275.0,
+1575.0,
+2440.0
+]
+},
+{
+"nombre": "UNERA_GUARDADO",
+"etiqueta": "UNERA_GUARDADO",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3600.0,
+"caja": [
+113.0,
+123.0,
+240.0,
+260.0,
+2210.0,
+2228.0
+]
+},
+{
+"nombre": "MANETA_V_AIS",
+"etiqueta": "MANETA_V_AIS",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 52208.0,
+"caja": [
+110.0,
+310.0,
+290.0,
+310.0,
+1845.4,
+1872.0
+]
+},
+{
+"nombre": "MANETA_V_AIS_BARRIDO",
+"etiqueta": "MANETA_V_AIS_BARRIDO",
+"tipo": "Part::Feature",
+"visible": false,
+"solidos": 1,
+"vol_mm3": 431216.0,
+"caja": [
+100.0,
+311.0,
+100.0,
+311.0,
+1860.0,
+1872.0
+]
+},
+{
+"nombre": "TUBO_TOMA_CUBO_DN25",
+"etiqueta": "TUBO_TOMA_CUBO_DN25",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 34852.0,
+"caja": [
+133.3,
+166.7,
+110.5,
+262.0,
+1798.27,
+1831.7
+]
+},
+{
+"nombre": "CODO_FIJA_1",
+"etiqueta": "CODO_FIJA_1",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 15910.0,
+"caja": [
+128.79,
+188.0,
+262.0,
+321.21,
+1798.3,
+1831.7
+]
+},
+{
+"nombre": "TUBO_FIJA_1A",
+"etiqueta": "TUBO_FIJA_1A",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 11195.0,
+"caja": [
+188.0,
+230.0,
+283.3,
+316.7,
+1798.3,
+1831.7
+]
+},
+{
+"nombre": "R07_V15_BRIDA_A_CENTRO",
+"etiqueta": "R07_V15_BRIDA_A_CENTRO",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 347880.0,
+"caja": [
+279.25,
+299.25,
+-82.5,
+82.5,
+1657.5,
+1822.5
+]
+},
+{
+"nombre": "R07_V15_BRIDA_A_BRAZO",
+"etiqueta": "R07_V15_BRIDA_A_BRAZO",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 347880.0,
+"caja": [
+300.75,
+320.75,
+-82.5,
+82.5,
+1657.5,
+1822.5
+]
+},
+{
+"nombre": "R07_V15_BRIDA_B_CENTRO",
+"etiqueta": "R07_V15_BRIDA_B_CENTRO",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 347880.0,
+"caja": [
+-299.25,
+-279.25,
+-82.5,
+82.5,
+1657.5,
+1822.5
+]
+},
+{
+"nombre": "R07_V15_BRIDA_B_BRAZO",
+"etiqueta": "R07_V15_BRIDA_B_BRAZO",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 347880.0,
+"caja": [
+-320.75,
+-300.75,
+-82.5,
+82.5,
+1657.5,
+1822.5
+]
+},
+{
+"nombre": "R07_V15_ARANDELAS_A",
+"etiqueta": "R07_V15_ARANDELAS_A",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 8,
+"vol_mm3": 11517.0,
+"caja": [
+276.25,
+323.75,
+-59.19,
+59.19,
+1680.81,
+1799.19
+]
+},
+{
+"nombre": "R07_V15_ARANDELAS_B",
+"etiqueta": "R07_V15_ARANDELAS_B",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 8,
+"vol_mm3": 11517.0,
+"caja": [
+-323.75,
+-276.25,
+-59.19,
+59.19,
+1680.81,
+1799.19
+]
+},
+{
+"nombre": "R07_V15_EMPAQUETADURA_A",
+"etiqueta": "R07_V15_EMPAQUETADURA_A",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 9104.0,
+"caja": [
+299.25,
+300.75,
+-53.5,
+53.5,
+1686.5,
+1793.5
+]
+},
+{
+"nombre": "R07_V15_EMPAQUETADURA_B",
+"etiqueta": "R07_V15_EMPAQUETADURA_B",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 9104.0,
+"caja": [
+-300.75,
+-299.25,
+-53.5,
+53.5,
+1686.5,
+1793.5
+]
+},
+{
+"nombre": "R07_V15_TRANSVERSAL_CENTRO_DN50",
+"etiqueta": "R07_V15_TRANSVERSAL_CENTRO_DN50",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 293093.0,
+"caja": [
+-296.25,
+296.25,
+-30.15,
+30.15,
+1709.85,
+1770.15
+]
+},
+{
+"nombre": "MASTIL_COLGADOR_CUBO",
+"etiqueta": "MASTIL_COLGADOR_CUBO",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 2,
+"vol_mm3": 136500.0,
+"caja": [
+-55.0,
+55.0,
+155.0,
+190.0,
+1575.0,
+1770.0
+]
+},
+{
+"nombre": "CARRO_LANZA",
+"etiqueta": "CARRO_LANZA",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 1058830.0,
+"caja": [
+-165.0,
+100.0,
+225.0,
+275.0,
+1590.0,
+1760.0
+]
+},
+{
+"nombre": "CODO_LANZA_SUP",
+"etiqueta": "CODO_LANZA_SUP",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 15910.0,
+"caja": [
+-16.7,
+16.7,
+228.79,
+288.0,
+1662.0,
+1721.21
+]
+},
+{
+"nombre": "CODO_CUELLO_2",
+"etiqueta": "CODO_CUELLO_2",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 15910.0,
+"caja": [
+112.0,
+171.21,
+383.3,
+416.7,
+1662.0,
+1721.21
+]
+},
+{
+"nombre": "CODO_CUELLO_1",
+"etiqueta": "CODO_CUELLO_1",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 15910.0,
+"caja": [
+-21.21,
+38.0,
+362.0,
+421.21,
+1683.3,
+1716.7
+]
+},
+{
+"nombre": "TUBO_CUELLO_1",
+"etiqueta": "TUBO_CUELLO_1",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 19725.0,
+"caja": [
+-16.7,
+16.7,
+288.0,
+362.0,
+1683.3,
+1716.7
+]
+},
+{
+"nombre": "TUBO_CUELLO_2",
+"etiqueta": "TUBO_CUELLO_2",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 19725.0,
+"caja": [
+38.0,
+112.0,
+383.3,
+416.7,
+1683.3,
+1716.7
+]
+},
+{
+"nombre": "EMBOLO_INDEXADOR",
+"etiqueta": "EMBOLO_INDEXADOR",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 21206.0,
+"caja": [
+-195.0,
+-165.0,
+235.0,
+265.0,
+1685.0,
+1715.0
+]
+},
+{
+"nombre": "EMBOLO_PASADOR",
+"etiqueta": "EMBOLO_PASADOR",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 4423.0,
+"caja": [
+-217.0,
+-195.0,
+242.0,
+258.0,
+1692.0,
+1708.0
+]
+},
+{
+"nombre": "TUBO_CUELLO_3",
+"etiqueta": "TUBO_CUELLO_3",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 41049.0,
+"caja": [
+133.3,
+166.7,
+383.3,
+416.7,
+1508.0,
+1662.0
+]
+},
+{
+"nombre": "TUBO_LANZA_VERTICAL_DN25",
+"etiqueta": "TUBO_LANZA_VERTICAL_DN25",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 210071.0,
+"caja": [
+-16.7,
+16.7,
+233.3,
+266.71,
+867.39,
+1662.0
+]
+},
+{
+"nombre": "OREJETA_RETENCION",
+"etiqueta": "OREJETA_RETENCION",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 6300.0,
+"caja": [
+100.0,
+121.0,
+240.0,
+260.0,
+1590.0,
+1605.0
+]
+},
+{
+"nombre": "SOPORTE_CADENA_MOVIL",
+"etiqueta": "SOPORTE_CADENA_MOVIL",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 96571.0,
+"caja": [
+105.0,
+195.0,
+455.0,
+545.0,
+1585.0,
+1600.0
+]
+},
+{
+"nombre": "RACOR_MANGUERA_MOVIL",
+"etiqueta": "RACOR_MANGUERA_MOVIL",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 93227.0,
+"caja": [
+127.5,
+172.5,
+477.5,
+522.5,
+1517.0,
+1600.0
+]
+},
+{
+"nombre": "MASTIL_PUENTE_INFERIOR",
+"etiqueta": "MASTIL_PUENTE_INFERIOR",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 380319.0,
+"caja": [
+-215.0,
+100.0,
+155.0,
+275.0,
+1560.0,
+1575.0
+]
+},
+{
+"nombre": "HUSILLO_APOYO_RADIAL_INF",
+"etiqueta": "HUSILLO_APOYO_RADIAL_INF",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 47734.0,
+"caja": [
+-170.0,
+-110.0,
+220.0,
+280.0,
+1545.0,
+1575.0
+]
+},
+{
+"nombre": "HUSILLO_HEXAGONO",
+"etiqueta": "HUSILLO_HEXAGONO",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 11691.0,
+"caja": [
+-155.0,
+-125.0,
+237.01,
+262.99,
+1525.0,
+1545.0
+]
+},
+{
+"nombre": "TUBO_CUELLO_5",
+"etiqueta": "TUBO_CUELLO_5",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 2399.0,
+"caja": [
+133.3,
+166.7,
+483.3,
+516.7,
+1508.0,
+1517.0
+]
+},
+{
+"nombre": "CODO_CUELLO_3",
+"etiqueta": "CODO_CUELLO_3",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 15910.0,
+"caja": [
+133.3,
+166.7,
+378.79,
+438.0,
+1448.79,
+1508.0
+]
+},
+{
+"nombre": "CODO_CUELLO_4",
+"etiqueta": "CODO_CUELLO_4",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 15910.0,
+"caja": [
+133.3,
+166.7,
+462.0,
+521.21,
+1448.79,
+1508.0
+]
+},
+{
+"nombre": "TUBO_CUELLO_4",
+"etiqueta": "TUBO_CUELLO_4",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 6182.0,
+"caja": [
+133.3,
+166.7,
+438.0,
+462.0,
+1453.3,
+1486.7
+]
+},
+{
+"nombre": "PURGA_VD2",
+"etiqueta": "PURGA_VD2",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 12535.0,
+"caja": [
+172.42,
+207.0,
+438.0,
+462.0,
+1450.9,
+1474.9
+]
+},
+{
+"nombre": "COPLA_1_4_VD2",
+"etiqueta": "COPLA_1_4_VD2",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3261.0,
+"caja": [
+151.81,
+182.62,
+440.49,
+459.51,
+1453.4,
+1472.4
+]
+},
+{
+"nombre": "COPLA_21_INT_5",
+"etiqueta": "COPLA_21_INT_5",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3957.0,
+"caja": [
+-11.0,
+11.0,
+262.57,
+285.35,
+1327.18,
+1349.18
+]
+},
+{
+"nombre": "BOQUILLA_21_INT_5",
+"etiqueta": "BOQUILLA_21_INT_5",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 4432.0,
+"caja": [
+-8.73,
+8.73,
+274.95,
+306.7,
+1328.1,
+1348.26
+]
+},
+{
+"nombre": "COPLA_20_INT_4",
+"etiqueta": "COPLA_20_INT_4",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3957.0,
+"caja": [
+-11.0,
+11.0,
+262.57,
+285.35,
+1231.84,
+1253.84
+]
+},
+{
+"nombre": "BOQUILLA_20_INT_4",
+"etiqueta": "BOQUILLA_20_INT_4",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 4432.0,
+"caja": [
+-8.73,
+8.73,
+274.95,
+306.7,
+1232.76,
+1252.92
+]
+},
+{
+"nombre": "COPLA_19_INT_3",
+"etiqueta": "COPLA_19_INT_3",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3957.0,
+"caja": [
+-11.0,
+11.0,
+262.57,
+285.35,
+1136.5,
+1158.5
+]
+},
+{
+"nombre": "BOQUILLA_19_INT_3",
+"etiqueta": "BOQUILLA_19_INT_3",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 4432.0,
+"caja": [
+-8.73,
+8.73,
+274.95,
+306.7,
+1137.42,
+1157.58
+]
+},
+{
+"nombre": "COPLA_18_INT_2",
+"etiqueta": "COPLA_18_INT_2",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3957.0,
+"caja": [
+-11.0,
+11.0,
+262.57,
+285.35,
+1041.16,
+1063.16
+]
+},
+{
+"nombre": "BOQUILLA_18_INT_2",
+"etiqueta": "BOQUILLA_18_INT_2",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 4432.0,
+"caja": [
+-8.73,
+8.73,
+274.95,
+306.7,
+1042.08,
+1062.24
+]
+},
+{
+"nombre": "COPLA_17_INT_1",
+"etiqueta": "COPLA_17_INT_1",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3957.0,
+"caja": [
+-11.0,
+11.0,
+262.57,
+285.35,
+945.82,
+967.82
+]
+},
+{
+"nombre": "BOQUILLA_17_INT_1",
+"etiqueta": "BOQUILLA_17_INT_1",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 4432.0,
+"caja": [
+-8.73,
+8.73,
+274.95,
+306.7,
+946.74,
+966.9
+]
+},
+{
+"nombre": "CODO_LANZA_PIE_90",
+"etiqueta": "CODO_LANZA_PIE_90",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 15910.0,
+"caja": [
+-16.7,
+16.7,
+228.79,
+288.0,
+808.18,
+867.39
+]
+},
+{
+"nombre": "BOQUILLA_22_INF_INT",
+"etiqueta": "BOQUILLA_22_INF_INT",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 4432.0,
+"caja": [
+-8.73,
+8.73,
+367.61,
+402.68,
+828.83,
+855.76
+]
+},
+{
+"nombre": "COPLA_22_INF_INT",
+"etiqueta": "COPLA_22_INF_INT",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3718.0,
+"caja": [
+-11.0,
+11.0,
+358.78,
+385.3,
+822.98,
+850.95
+]
+},
+{
+"nombre": "CODO_LANZA_PIE_25",
+"etiqueta": "CODO_LANZA_PIE_25",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 4420.0,
+"caja": [
+-16.7,
+16.7,
+347.37,
+372.39,
+808.18,
+848.08
+]
+},
+{
+"nombre": "TUBO_LANZA_PIE_DN25",
+"etiqueta": "TUBO_LANZA_PIE_DN25",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 15609.0,
+"caja": [
+-16.7,
+16.7,
+288.0,
+347.37,
+812.69,
+846.09
+]
+},
+{
+"nombre": "TAPA_LANZA_PIE",
+"etiqueta": "TAPA_LANZA_PIE",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 1464.0,
+"caja": [
+-13.94,
+13.93,
+354.74,
+369.36,
+817.86,
+845.57
+]
+},
+{
+"nombre": "PURGA_VD1",
+"etiqueta": "PURGA_VD1",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 12535.0,
+"caja": [
+-57.0,
+-22.42,
+288.0,
+312.0,
+810.29,
+834.29
+]
+},
+{
+"nombre": "COPLA_1_4_VD1",
+"etiqueta": "COPLA_1_4_VD1",
+"tipo": "Part::Feature",
+"visible": true,
+"solidos": 1,
+"vol_mm3": 3258.0,
+"caja": [
+-32.62,
+-1.82,
+290.49,
+309.51,
+812.79,
+831.79
+]
+}
+],
+"pares": [
+[
+"TUBO_ALIMENTACION_DN40",
+"EJE_ROTOR",
+25.0,
+0.0
+],
+[
+"TUBO_ALIMENTACION_DN40",
+"R04_ALOJAMIENTO_APOYO_SUPERIOR",
+33.0,
+0.0
+],
+[
+"TUBO_ALIMENTACION_DN40",
+"R04_ALOJAMIENTO_APOYO_INFERIOR",
+33.0,
+0.0
+],
+[
+"TUBO_ALIMENTACION_DN40",
+"RESALTE_AXIAL",
+33.0,
+0.0
+],
+[
+"TUBO_ALIMENTACION_DN40",
+"R07_H_LABERINTO_FIJO",
+85.85,
+0.0
+],
+[
+"TUBO_ALIMENTACION_DN40",
+"MASTIL_ABRAZADERA_EJE",
+33.0,
+0.0
+],
+[
+"EJE_ROTOR",
+"R04_ALOJAMIENTO_APOYO_SUPERIOR",
+0.0,
+0.0
+],
+[
+"EJE_ROTOR",
+"R04_ALOJAMIENTO_APOYO_INFERIOR",
+0.0,
+0.0
+],
+[
+"EJE_ROTOR",
+"RESALTE_AXIAL",
+0.0,
+0.0
+],
+[
+"EJE_ROTOR",
+"R07_H_LABERINTO_FIJO",
+52.85,
+0.0
+],
+[
+"EJE_ROTOR",
+"MASTIL_ABRAZADERA_EJE",
+0.0,
+0.0
+],
+[
+"R04_ALOJAMIENTO_APOYO_INFERIOR",
+"RESALTE_AXIAL",
+0.0,
+92393.6
+],
+[
+"HUSILLO_TR20x4",
+"HUSILLO_APOYO_AXIAL_SUP",
+0.5,
+0.0
+],
+[
+"HUSILLO_TR20x4",
+"MASTIL_PUENTE_SUPERIOR",
+1.0,
+0.0
+],
+[
+"HUSILLO_TR20x4",
+"CARRO_LANZA",
+0.5,
+0.0
+],
+[
+"HUSILLO_TR20x4",
+"MASTIL_PUENTE_INFERIOR",
+1.0,
+0.0
+],
+[
+"HUSILLO_TR20x4",
+"HUSILLO_APOYO_RADIAL_INF",
+0.5,
+0.0
+],
+[
+"HUSILLO_TR20x4",
+"HUSILLO_HEXAGONO",
+0.0,
+0.0
+],
+[
+"HUSILLO_APOYO_AXIAL_SUP",
+"MASTIL_PUENTE_SUPERIOR",
+0.0,
+0.0
+],
+[
+"MASTIL_ABRAZADERA_EJE",
+"MASTIL_BRAZO_ABRAZADERA",
+0.0,
+0.0
+],
+[
+"MASTIL_PUENTE_SUPERIOR",
+"MASTIL_BRAZO_ABRAZADERA",
+0.0,
+0.0
+],
+[
+"MASTIL_PUENTE_SUPERIOR",
+"MASTIL_VARILLAS",
+0.0,
+0.0
+],
+[
+"MASTIL_PUENTE_SUPERIOR",
+"BARRA_RETENCION",
+0.0,
+0.0
+],
+[
+"MASTIL_PUENTE_SUPERIOR",
+"PLACA_BLOQUEO",
+0.0,
+0.0
+],
+[
+"MASTIL_VARILLAS",
+"CARRO_LANZA",
+0.0,
+0.0
+],
+[
+"MASTIL_VARILLAS",
+"CODO_LANZA_SUP",
+45.8,
+0.0
+],
+[
+"MASTIL_VARILLAS",
+"TUBO_LANZA_VERTICAL_DN25",
+45.8,
+0.0
+],
+[
+"MASTIL_VARILLAS",
+"MASTIL_PUENTE_INFERIOR",
+0.0,
+0.0
+],
+[
+"BARRA_RETENCION",
+"UNERA_GUARDADO",
+0.0,
+0.0
+],
+[
+"PLACA_BLOQUEO",
+"EMBOLO_PASADOR",
+0.5,
+0.0
+],
+[
+"PLACA_BLOQUEO",
+"MASTIL_PUENTE_INFERIOR",
+0.0,
+0.0
+],
+[
+"TUBO_TOMA_CUBO_DN25",
+"CODO_FIJA_1",
+0.0,
+0.0
+],
+[
+"CODO_FIJA_1",
+"TUBO_FIJA_1A",
+0.0,
+0.0
+],
+[
+"R07_V15_BRIDA_A_CENTRO",
+"R07_V15_BRIDA_A_BRAZO",
+1.5,
+0.0
+],
+[
+"R07_V15_BRIDA_A_CENTRO",
+"R07_V15_ARANDELAS_A",
+0.0,
+0.0
+],
+[
+"R07_V15_BRIDA_A_CENTRO",
+"R07_V15_EMPAQUETADURA_A",
+0.0,
+0.0
+],
+[
+"R07_V15_BRIDA_A_CENTRO",
+"R07_V15_TRANSVERSAL_CENTRO_DN50",
+0.6,
+0.0
+],
+[
+"R07_V15_BRIDA_A_BRAZO",
+"R07_V15_ARANDELAS_A",
+0.0,
+0.0
+],
+[
+"R07_V15_BRIDA_A_BRAZO",
+"R07_V15_EMPAQUETADURA_A",
+0.0,
+0.0
+],
+[
+"R07_V15_BRIDA_B_CENTRO",
+"R07_V15_BRIDA_B_BRAZO",
+1.5,
+0.0
+],
+[
+"R07_V15_BRIDA_B_CENTRO",
+"R07_V15_ARANDELAS_B",
+0.0,
+0.0
+],
+[
+"R07_V15_BRIDA_B_CENTRO",
+"R07_V15_EMPAQUETADURA_B",
+0.0,
+0.0
+],
+[
+"R07_V15_BRIDA_B_CENTRO",
+"R07_V15_TRANSVERSAL_CENTRO_DN50",
+0.6,
+0.0
+],
+[
+"R07_V15_BRIDA_B_BRAZO",
+"R07_V15_ARANDELAS_B",
+0.0,
+0.0
+],
+[
+"R07_V15_BRIDA_B_BRAZO",
+"R07_V15_EMPAQUETADURA_B",
+0.0,
+0.0
+],
+[
+"R07_V15_ARANDELAS_A",
+"R07_V15_EMPAQUETADURA_A",
+20.0,
+0.0
+],
+[
+"R07_V15_ARANDELAS_A",
+"R07_V15_TRANSVERSAL_CENTRO_DN50",
+17.35,
+0.0
+],
+[
+"R07_V15_ARANDELAS_B",
+"R07_V15_EMPAQUETADURA_B",
+20.0,
+0.0
+],
+[
+"R07_V15_ARANDELAS_B",
+"R07_V15_TRANSVERSAL_CENTRO_DN50",
+17.35,
+0.0
+],
+[
+"R07_V15_EMPAQUETADURA_A",
+"R07_V15_TRANSVERSAL_CENTRO_DN50",
+3.02,
+0.0
+],
+[
+"R07_V15_EMPAQUETADURA_B",
+"R07_V15_TRANSVERSAL_CENTRO_DN50",
+3.02,
+0.0
+],
+[
+"MASTIL_COLGADOR_CUBO",
+"MASTIL_PUENTE_INFERIOR",
+0.0,
+0.0
+],
+[
+"CARRO_LANZA",
+"CODO_LANZA_SUP",
+12.0,
+0.0
+],
+[
+"CARRO_LANZA",
+"EMBOLO_INDEXADOR",
+0.0,
+0.0
+],
+[
+"CARRO_LANZA",
+"TUBO_LANZA_VERTICAL_DN25",
+0.0,
+0.0
+],
+[
+"CARRO_LANZA",
+"OREJETA_RETENCION",
+0.0,
+0.0
+],
+[
+"CODO_LANZA_SUP",
+"TUBO_CUELLO_1",
+0.0,
+0.0
+],
+[
+"CODO_LANZA_SUP",
+"TUBO_LANZA_VERTICAL_DN25",
+0.0,
+0.0
+],
+[
+"CODO_CUELLO_2",
+"TUBO_CUELLO_2",
+0.0,
+0.0
+],
+[
+"CODO_CUELLO_2",
+"TUBO_CUELLO_3",
+0.0,
+0.0
+],
+[
+"CODO_CUELLO_1",
+"TUBO_CUELLO_1",
+0.0,
+0.0
+],
+[
+"CODO_CUELLO_1",
+"TUBO_CUELLO_2",
+0.0,
+0.0
+],
+[
+"EMBOLO_INDEXADOR",
+"EMBOLO_PASADOR",
+0.0,
+0.0
+],
+[
+"TUBO_CUELLO_3",
+"CODO_CUELLO_3",
+0.0,
+0.0
+],
+[
+"TUBO_LANZA_VERTICAL_DN25",
+"MASTIL_PUENTE_INFERIOR",
+23.3,
+0.0
+],
+[
+"TUBO_LANZA_VERTICAL_DN25",
+"COPLA_21_INT_5",
+0.0,
+0.0
+],
+[
+"TUBO_LANZA_VERTICAL_DN25",
+"COPLA_20_INT_4",
+0.0,
+0.0
+],
+[
+"TUBO_LANZA_VERTICAL_DN25",
+"COPLA_19_INT_3",
+0.0,
+0.0
+],
+[
+"TUBO_LANZA_VERTICAL_DN25",
+"COPLA_18_INT_2",
+0.0,
+0.0
+],
+[
+"TUBO_LANZA_VERTICAL_DN25",
+"COPLA_17_INT_1",
+0.0,
+0.0
+],
+[
+"TUBO_LANZA_VERTICAL_DN25",
+"CODO_LANZA_PIE_90",
+0.0,
+0.0
+],
+[
+"SOPORTE_CADENA_MOVIL",
+"RACOR_MANGUERA_MOVIL",
+0.5,
+0.0
+],
+[
+"RACOR_MANGUERA_MOVIL",
+"TUBO_CUELLO_5",
+0.0,
+0.0
+],
+[
+"MASTIL_PUENTE_INFERIOR",
+"HUSILLO_APOYO_RADIAL_INF",
+0.0,
+0.0
+],
+[
+"HUSILLO_APOYO_RADIAL_INF",
+"HUSILLO_HEXAGONO",
+0.0,
+0.0
+],
+[
+"TUBO_CUELLO_5",
+"CODO_CUELLO_4",
+0.0,
+0.0
+],
+[
+"CODO_CUELLO_3",
+"TUBO_CUELLO_4",
+0.0,
+0.0
+],
+[
+"CODO_CUELLO_3",
+"COPLA_1_4_VD2",
+2.5,
+0.0
+],
+[
+"CODO_CUELLO_4",
+"TUBO_CUELLO_4",
+0.0,
+0.0
+],
+[
+"CODO_CUELLO_4",
+"COPLA_1_4_VD2",
+2.5,
+0.0
+],
+[
+"TUBO_CUELLO_4",
+"COPLA_1_4_VD2",
+0.0,
+0.0
+],
+[
+"PURGA_VD2",
+"COPLA_1_4_VD2",
+0.0,
+0.0
+],
+[
+"COPLA_21_INT_5",
+"BOQUILLA_21_INT_5",
+0.0,
+0.0
+],
+[
+"COPLA_20_INT_4",
+"BOQUILLA_20_INT_4",
+0.0,
+0.0
+],
+[
+"COPLA_19_INT_3",
+"BOQUILLA_19_INT_3",
+0.0,
+0.0
+],
+[
+"COPLA_18_INT_2",
+"BOQUILLA_18_INT_2",
+0.0,
+0.0
+],
+[
+"COPLA_17_INT_1",
+"BOQUILLA_17_INT_1",
+0.0,
+0.0
+],
+[
+"CODO_LANZA_PIE_90",
+"TUBO_LANZA_PIE_DN25",
+0.0,
+0.0
+],
+[
+"CODO_LANZA_PIE_90",
+"COPLA_1_4_VD1",
+2.5,
+0.0
+],
+[
+"BOQUILLA_22_INF_INT",
+"COPLA_22_INF_INT",
+0.0,
+0.0
+],
+[
+"BOQUILLA_22_INF_INT",
+"CODO_LANZA_PIE_25",
+10.144,
+0.0
+],
+[
+"BOQUILLA_22_INF_INT",
+"TAPA_LANZA_PIE",
+8.6,
+0.0
+],
+[
+"COPLA_22_INF_INT",
+"CODO_LANZA_PIE_25",
+2.93,
+0.0
+],
+[
+"COPLA_22_INF_INT",
+"TAPA_LANZA_PIE",
+0.0,
+0.0
+],
+[
+"CODO_LANZA_PIE_25",
+"TUBO_LANZA_PIE_DN25",
+0.0,
+0.0
+],
+[
+"CODO_LANZA_PIE_25",
+"TAPA_LANZA_PIE",
+0.0,
+0.0
+],
+[
+"TUBO_LANZA_PIE_DN25",
+"COPLA_1_4_VD1",
+0.0,
+0.0
+],
+[
+"PURGA_VD1",
+"COPLA_1_4_VD1",
+0.0,
+0.0
+]
+]
+}

@@ -1,0 +1,5 @@
+analisis 0
+masa de barras kg 352.9
+f1..f3 Hz 2.59 5.46 12.09
+diseno 0
+D/C max 0.143 en 38
