@@ -35,7 +35,7 @@ SolidWorks 2024 (licencia educativa) & Planos, detección de interferencias y es
 Python & Presupuesto de inversión desde el metrado del CAD & \path{gestion/presupuesto/scripts/c4_presupuesto_v18b.py}\\
 OpenFOAM v2606 (versión candidata rc2) & Caso del agujero previo al cambio de programa & \path{cfd/06_OpenFOAM_agujero_rama_B/}\\
 OpenFOAM v2606 (\texttt{interFoam}) & Impacto local de la lámina de una boquilla lateral sobre el diámetro exterior (Sección~\ref{sec:anx-vof}) & \path{cfd/05_VOF_impacto_local/}\\
-FreeCAD 1.1 y Python & Medición del modelo del rodamiento, trazado de rayos del interior, tiempo de lavado y masa de grasa (Secciones~\ref{sec:anx-tiempo-lavado} y~\ref{sec:anx-cavidad}) & \path{cfd/04_alcance_del_lavado/}\\
+FreeCAD 1.1 y Python & Medición del modelo del rodamiento, trazado de rayos del interior y tiempo de lavado (Secciones~\ref{sec:anx-tiempo-lavado} y~\ref{sec:anx-cavidad}) & \path{cfd/04_alcance_del_lavado/}\\
 pdf\LaTeX{} y Biber & Compilación del informe & \path{main.tex} y módulos\\
 \end{longtable}
 \endgroup
@@ -281,6 +281,13 @@ Curvas de cobertura, diferencia máxima & --- & --- & 1,33 puntos & $\leq2$ punt
 \end{tabular}
 \end{table}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.55\textwidth]{fig_malla_configuracion_propuesta.png}
+\caption{Dosis media de la configuración propuesta de 24 boquillas con tres mallas, normalizada con la de la malla fina. Elaboración propia con los datos exportados de ANSYS Fluent.}
+\label{fig:cfd-malla-propuesta}
+\end{figure}
+
 \section{Tiempo de lavado y sombras de la cara inferior}
 \label{sec:anx-tiempo-lavado}
 
@@ -350,13 +357,6 @@ La Figura~\ref{fig:anx-cavidad} muestra por qué. Las boquillas superiores entra
 \caption[Sección del rodamiento armado con los rayos de las boquillas superiores]{Sección meridiana del rodamiento armado con los rayos de las dos boquillas superiores de un brazo, en dos posiciones del distribuidor. La hilera superior se ve en parte a través de la ventana entre aros y la inferior queda oculta. Geometría medida en el modelo del fabricante, sin jaula. Elaboración propia.}
 \label{fig:anx-cavidad}
 \end{figure}
-
-La masa de grasa se estimó con la regla del catálogo del fabricante para el volumen libre de un rodamiento con jaula metálica \cite[p.~112]{skfgrasa}; el de referencia tiene una jaula de latón mecanizado \cite{skf241}:
-\begin{equation}
-V_l=\frac{\pi}{4}\,B\left(D^2-d^2\right)-\frac{M}{7{,}8},
-\label{eq:anx-volumen-libre}
-\end{equation}
-con $V_l$ en dm$^3$, $B$, $D$ y $d$ en dm y la masa $M$ en kg; el catálogo da la misma relación en cm$^3$, con las cotas en mm. Con $B=5{,}15$, $D=14{,}20$, $M=3032$ kg y el agujero cónico tomado en su extremo menor ($d=9{,}00$) o en su diámetro medio ($d=9{,}086$), el volumen libre es de 99,2 y 93,0 dm$^3$. Con la densidad de 0,9 kg/dm$^3$ que da la misma fuente y la cavidad llena, como recomienda el fabricante para el primer engrase y como ocurre en la lubricación por purga de los HPGR \cite{schaeffler2021}, la grasa del rodamiento es de 84 a 89 kg. Como contraste, el volumen libre medido en el modelo sin jaula es de 112,9 dm$^3$; la diferencia, de 14 a 20 dm$^3$, equivale a una jaula de latón de unos 120 a 170 kg, un valor verosímil.
 
 \section{Impacto local de un chorro sobre el diámetro exterior}
 \label{sec:anx-vof}

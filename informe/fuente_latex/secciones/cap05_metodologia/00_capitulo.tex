@@ -26,7 +26,7 @@ La Tabla~\ref{tab:oe_metodo_revision} relaciona las actividades con los cinco ob
 \midrule\endhead
 \midrule\multicolumn{4}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
 \bottomrule\endlastfoot
-OE1 & Se organizaron los datos del rodamiento, las necesidades de mantenimiento y las restricciones del taller. & Ficha del fabricante y análisis del entorno; especificaciones E01--E15. & Trazabilidad de cada especificación a su origen (Tabla~\ref{tab:especificaciones_revision}).\\
+OE1 & Se organizaron los datos del rodamiento, las necesidades de mantenimiento y las restricciones del taller. & Ficha del fabricante y análisis del entorno; especificaciones E01--E14. & Trazabilidad de cada especificación a su origen (Tabla~\ref{tab:especificaciones_revision}).\\
 OE2 & Se descompuso la operación en funciones y se combinaron principios de soporte, movimiento y aplicación del fluido. & Matriz morfológica; cuatro alternativas integradas. & Filtros pasa/no pasa (Tabla~\ref{tab:filtros_revision}).\\
 OE3 & Se aplicó una matriz ponderada de ocho criterios y se analizó el compromiso con la segunda alternativa. & Matriz de decisión; arquitectura seleccionada. & Diferencia de puntaje y sensibilidad al peso del costo.\\
 OE4 & Se dimensionaron el soporte, el traslado, el distribuidor y la red hidráulica, y se seleccionaron componentes. & Cálculo analítico, SAP2000, CalculiX, SolidWorks, guiones en Python, CAD paramétrico y planos. & Contraste manual--modelo y reproducción del caso de cálculo.\\
@@ -66,7 +66,7 @@ FreeCAD FEM, Gmsh y CalculiX & Flexión local de los soportes de los centradores
 CalculiX y parrilla de pared delgada en Python & Torsión del bastidor de perfiles abiertos; el modelo de barras solo representa la torsión uniforme. & Torsión no uniforme con alabeo \cite{aiscdg9}. & Casos de control analíticos y cálculo independiente.\\
 Guiones en Python & Red hidráulica iterativa, trazado de rayos y posproceso del CFD. & Cálculo reproducible y trazable. & Reproducción exacta del caso de cálculo manual.\\
 ANSYS Fluent 2026 R1 & Mojado y dosis de la configuración base de 22 boquillas y de la configuración inferior de 24 boquillas. & Fase discreta lagrangiana acoplada al aire \cite{fluent2026}. & Tres mallas, paso de tiempo, dominio, número de parcelas y caso puente.\\
-OpenFOAM v2606 & Mojado del agujero con las boquillas de la lanza. & Mismo modelo físico en código abierto. & Caso puente con Fluent.\\
+OpenFOAM v2606 & Mojado del agujero con las boquillas de la lanza; impacto local de una lámina con volumen de fluido (interFoam). & Mismo modelo físico en código abierto; volumen de fluido para la película \cite{deshpande2012}. & Caso puente con Fluent; cuatro mallas en el impacto local.\\
 FreeCAD 1.1 (CAD) & Geometría, masas, interferencias y barridos del conjunto. & Modelo paramétrico regenerable por guiones. & Barridos de traslado, giro, retirada de la lanza y accionamiento; auditoría de solapes.\\
 SolidWorks 2024 & Planos normalizados, detección de interferencias y verificaciones locales de piezas. & Herramienta de dibujo con símbolos ISO de soldadura y estudios estáticos de sólidos. & Cotas contrastadas con el CAD; segunda revisión de interferencias.\\
 \end{longtable}
@@ -74,7 +74,7 @@ SolidWorks 2024 & Planos normalizados, detección de interferencias y verificaci
 
 El CFD se ejecutó en ANSYS Fluent. Antes de ampliar el dominio se repitió en Fluent el caso del agujero ya resuelto en OpenFOAM; ese caso puente permitió comprobar que el cambio de programa no alteraba el resultado en esa superficie (Sección~\ref{sec:resultados-aspersion}). Las simulaciones de Fluent las ejecutó el segundo autor.
 
-\paragraph{Uso de herramientas de inteligencia artificial.} Se usaron asistentes basados en inteligencia artificial (Claude, de Anthropic, y Codex, de OpenAI) en cuatro tareas. La primera fue programar guiones de cálculo y de posproceso, y guiones que generaron por interfaz de programación los modelos de SAP2000, el modelo CAD en FreeCAD y los planos en SolidWorks. La segunda fue revisar de forma independiente cálculos y la coherencia de los datos entre archivos. La tercera fue proponer alternativas de diseño, que los autores decidieron o confirmaron. La cuarta fue preparar borradores de texto y de tablas de este informe a partir de los archivos del proyecto. Los autores definieron el problema y los criterios, tomaron las decisiones de diseño y son responsables del contenido. Los guiones y sus salidas se conservan en el Anexo~\ref{anx:programas}, de modo que cada resultado puede reproducirse sin el asistente.
+\paragraph{Uso de herramientas de inteligencia artificial.} Se usaron asistentes basados en inteligencia artificial en cuatro tareas. La primera fue programar guiones de cálculo y de posproceso, y guiones que generaron por interfaz de programación los modelos de SAP2000, el modelo CAD en FreeCAD y los planos en SolidWorks. La segunda fue revisar de forma independiente cálculos y la coherencia de los datos entre archivos. La tercera fue proponer alternativas de diseño, que los autores decidieron o confirmaron. La cuarta fue preparar borradores de texto y de tablas de este informe a partir de los archivos del proyecto. Los autores definieron el problema y los criterios, tomaron las decisiones de diseño y son responsables del contenido. Los guiones y sus salidas se conservan en el Anexo~\ref{anx:programas}, de modo que cada resultado puede reproducirse sin el asistente.
 
 La estrategia de validación se basó en la verificación numérica de cada modelo (equilibrio, convergencia de malla, paso de tiempo y dominio) y en el contraste cruzado entre métodos independientes, cuyos escenarios se desarrollan en la Sección~\ref{sec:plan-pruebas}. Cada resultado se verificó por simulación o por cálculo; ninguno se validó con ensayos. La comprobación experimental de la huella de la boquilla, de la remoción del contaminante, del traslado y del bloqueo queda fuera del alcance de la tesis.
 
@@ -103,7 +103,7 @@ Las metas del subsistema de aspersión E09--E13 proceden de la especificación d
 \multicolumn{4}{@{}l}{\textit{Soporte y posicionamiento}}\\
 E01 & Admitir el rodamiento de diámetro exterior 1420 mm, agujero de 900 mm y ancho de 515 mm. & Ficha del fabricante \cite{skf241}. & Envolvente de la pieza en el modelo.\\
 E02 & Recibir una masa de rodamiento de 3032 kg y considerar por separado los pesos de estructura y accesorios. & Ficha del fabricante. & Balance de masas y correspondencia con las cargas de cada cálculo.\\
-E03 & Mantener la flecha relativa del miembro evaluado dentro de $L/800$. & Criterio propuesto; L/360 y L/1000 siguen en evaluación. & Desplazamiento respecto de la cuerda de sus extremos.\\
+E03 & Mantener la flecha relativa del miembro evaluado dentro de $L/800$. & Criterio propuesto; L/360 y L/1000 se informan como referencia. & Desplazamiento respecto de la cuerda de sus extremos.\\
 E04 & Relación demanda/capacidad no mayor que uno bajo las combinaciones declaradas. & AISC 360-16 \cite{aisc360}. & Resumen de diseño de acero; uniones por separado.\\
 E05 & Transmitir reacciones normales compresivas en las interfaces sin amarre vertical. & Condición física del contacto. & Equilibrio y factibilidad del contacto.\\
 E06 & Error radial de colocación del rodamiento no mayor que 5 mm. & Criterio del proyecto. & Presupuesto de tolerancias sobre el modelo, por nivel de fuerza del centrador.\\
@@ -115,9 +115,8 @@ E10 & Presión de aplicación no mayor que 8 bar, para preservar las pistas. & E
 E11 & Velocidad en la tubería de impulsión entre 1 y 3 m/s. & Especificación del subsistema de aspersión. & Red hidráulica.\\
 E12 & Velocidad del rotor entre 1 y 2 rpm (admisible entre 0,5 y 5 rpm) y tiempo por vuelta entre 30 y 60 s. & Especificación del subsistema de aspersión. & Valor de operación del aplicador.\\
 E13 & Cobertura geométrica de las superficies exteriores y del agujero de al menos 80\,\% (mínimo) y 95\,\% (objetivo). & Especificación del subsistema de aspersión. & Trazado de rayos y CFD.\\
-\multicolumn{4}{@{}l}{\textit{Contención}}\\
-E14 & Capacidad de evacuación del drenaje no menor que 250 L/min. & Criterio del proyecto. & Cálculo de captación.\\
-E15 & Holgura positiva entre la mesa y el aplicador en traslado y giro. & Requisito funcional. & Barridos CAD.\\
+\multicolumn{4}{@{}l}{\textit{Integración}}\\
+E14 & Holgura positiva entre la mesa y el aplicador en traslado y giro. & Requisito funcional. & Barridos CAD.\\
 \end{longtable}
 \endgroup
 
@@ -148,7 +147,7 @@ La Tabla~\ref{tab:filtros_revision} muestra la regla de admisión de cada restri
 \bottomrule\endlastfoot
 RS-02 Masa y geometría & Se excluye la configuración que no admite la carga o la envolvente requeridas. & Pasan las cuatro; A1 y A4 condicionadas a una sujeción para giro compatible con 3032 kg.\\
 RS-03 Preservación y acceso & Se modifica o excluye el concepto que obstruye una zona requerida o transmite carga por una superficie no prevista. & Pasan las cuatro a nivel funcional; la cobertura se verifica en el Capítulo~\ref{cap:resultados}.\\
-RS-04--RS-05 Izaje, espacio y losa & Se excluye una disposición con interferencia; sin levantamiento de planta, la aptitud final queda por comprobar. & Condicionadas para las cuatro (datos de planta pendientes).\\
+RS-04--RS-05 Izaje, espacio y losa & Se excluye una disposición con interferencia; sin levantamiento de planta, la aptitud final depende de ese dato. & Condicionadas para las cuatro (requieren datos de planta).\\
 RS-01, RS-11 Movimiento y bloqueo & Se excluye una secuencia que requiere lavar con la mesa sin inmovilizar o intervenir en una zona de movimiento peligroso. & Pasan las cuatro con inmovilización durante el lavado.\\
 RS-08--RS-09 Contención y fluido & Se excluye una propuesta cuya operación depende de descargar el fluido sin una gestión definida. & Pasan las cuatro con cabina, bandeja y recolección.\\
 RS-10 Recursos económicos & Un presupuesto máximo se aplica como filtro solo si está documentado. & No aplicado como filtro (sin techo acreditado); el costo es criterio comparativo.\\
@@ -268,7 +267,7 @@ Seg.: seguridad y ergonomía; Conf.: confiabilidad en ambiente húmedo; Integr.:
 
 Se seleccionó la doble cadena bajo la mesa accionada con un volante fuera de la cabina, con 4,25 puntos. La segunda opción fue la misma cadena con motor, con 3,70. La diferencia está en el costo y la disponibilidad, a cambio de una operación más lenta: si el peso de la operación sube a 0,30, las dos cadenas empatan (3,99 y 3,97). Por ese resultado, la motorización se mantiene como mejora sobre la misma transmisión y se trata en las recomendaciones.
 
-La rueda se revisó porque la segunda entrega comparó la carga del estado límite último, de 26,62~kN, con la capacidad de rodadura a 4~km/h, de 24,52~kN, y obtuvo un exceso de 8,5\,\%. Esa capacidad corresponde al desgaste en servicio. Se separaron las dos comprobaciones y se compararon las ruedas de 200 y 250~mm del mismo fabricante (Tabla~\ref{tab:rueda-200-250}).
+La rueda se revisó porque la versión anterior comparó la carga del estado límite último, de 26,62~kN, con la capacidad de rodadura a 4~km/h, de 24,52~kN, y obtuvo un exceso de 8,5\,\%. Esa capacidad corresponde al desgaste en servicio. Se separaron las dos comprobaciones y se compararon las ruedas de 200 y 250~mm del mismo fabricante (Tabla~\ref{tab:rueda-200-250}).
 
 \begin{table}[htbp]
 \centering\small\singlespacing
@@ -288,7 +287,7 @@ Masa móvil adicional & -- & 56 kg\\
 \bottomrule
 \end{tabularx}
 \par\smallskip\footnotesize
-Rueda más cargada con la mesa en tres ruedas, masa de 3500~kg, excentricidad de 100~mm en ambas direcciones y factor de impacto de 1,15; la carga última aplica 1,40. El precio de la rueda de 250~mm se estimó por su masa, a falta de un precio publicado.
+Rueda más cargada con la mesa en tres ruedas, masa de 3500~kg, excentricidad de 100~mm en ambas direcciones y factor de impacto de 1,15; la carga última aplica 1,40. El precio de la rueda de 250~mm se estimó por su masa.
 \end{table}
 
 Se mantuvo la rueda de 200~mm sobre riel A45. Cumple las dos comprobaciones con supuestos envolventes, mientras que la de 250~mm costaría unos S/~4230 más y obligaría a cambiar el riel, el eje y la horquilla. Falta que el fabricante confirme la capacidad a la velocidad de traslado de la mesa, muy inferior a los 4~km/h del catálogo.
@@ -304,7 +303,7 @@ La solución seleccionada realiza un lavado exterior del rodamiento completo, pa
 
 El soporte es una mesa móvil con bastidor de perfiles W6$\times$9 que se extrae de la cabina para cargar el rodamiento con grúa. En la estación de carga se inserta el pasador de bloqueo y los centradores posicionan la pieza; luego una doble cadena accionada con un volante traslada la mesa sobre rieles hasta la estación de lavado, donde se bloquea de nuevo. Los tres apoyos sectoriales, a 0$^\circ$, 120$^\circ$ y 240$^\circ$ bajo la cara inferior del aro exterior, reciben la carga vertical; los centradores solo fijan la posición lateral y los topes retienen la pieza.
 
-La aplicación se realiza con un distribuidor en U que gira a 1,7~rpm, alimentado por una unión rotativa y sostenido por un soporte superior, y con una lanza interior que entra por el agujero. En total hay 24 boquillas fijas: cada brazo de la U lleva dos superiores, cinco laterales y un par inferior de abanico estrecho, y la lanza lleva seis. La cabina contiene las salpicaduras y un colector conduce el líquido a un pozo desde el que vuelve al tanque de lavado. La Tabla~\ref{tab:componentes_revision} relaciona cada conjunto con su función, el objetivo específico al que responde y la forma en que se dimensiona o verifica.
+La aplicación se realiza con un distribuidor en U que gira a 1,7~rpm, alimentado por una unión rotativa y sostenido por un soporte superior, y con una lanza interior que entra por el agujero. En total hay 24 boquillas fijas: cada brazo de la U lleva dos superiores, cinco laterales y un par inferior de abanico estrecho, y la lanza lleva seis. La cabina contiene las salpicaduras y el líquido vuelve al tanque de lavado; el drenaje se representa en el esquema hidráulico, sin dimensionarse. La Tabla~\ref{tab:componentes_revision} relaciona cada conjunto con su función, el objetivo específico al que responde y la forma en que se dimensiona o verifica.
 
 \begingroup
 \small\singlespacing
@@ -327,12 +326,12 @@ Apoyos sectoriales y revestimiento & Apoyar el rodamiento y preservar la superfi
 Ruedas, rieles y pedestales & Rodar la mesa entre las estaciones de carga y lavado. & OE4 & Carga de rueda, fuerza lateral de guiado, viga del riel y anclajes.\\
 Traslado por doble cadena & Mover y detener la mesa sin empuje directo. & OE3, OE4 & Matriz de selección, tiro de la cadena, eje y fuerza en el volante.\\
 Centradores & Posicionar el rodamiento sin soportar su peso. & OE4, OE5 & Selección multicriterio, FEM local y error de colocación por nivel de fuerza.\\
-Bloqueo y topes & Inmovilizar la mesa y retener la pieza. & OE4 & Pasador con ajuste H7/g6, unión de los topes y secuencia de operación.\\
+Bloqueo y topes & Inmovilizar la mesa y retener la pieza. & OE4 & Pasador con ajuste H7/g6 y secuencia de operación.\\
 Distribuidor en U, eje y cubo & Aplicar el fluido al exterior y a las dos caras. & OE4, OE5 & Huella, número de boquillas, CFD y verificación estructural.\\
 Lanza interior & Aplicar el fluido al agujero y a la parte interior de la cara inferior. & OE4, OE5 & Visibilidad geométrica y CFD.\\
 Soporte superior y accionamiento & Sostener el distribuidor y hacerlo girar con par limitado. & OE4 & Selección de catálogo y comprobaciones resumidas (Anexo~\ref{anx:calculos}).\\
 Circuito hidráulico & Alimentar las 24 boquillas desde el tanque. & OE4 & Red iterativa, altura, potencia, NPSH y esquema hidráulico.\\
-Cabina, tanques y drenaje & Contener, recoger y recircular el líquido. & OE4 & Capacidad de evacuación, barridos y presupuesto.\\
+Cabina, tanques y drenaje & Contener, recoger y recircular el líquido. & OE4 & Representación en el CAD y en el esquema hidráulico, barridos y presupuesto; sin dimensionamiento.\\
 \end{longtable}
 \endgroup
 

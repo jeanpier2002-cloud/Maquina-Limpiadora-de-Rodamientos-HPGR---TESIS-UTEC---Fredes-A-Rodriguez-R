@@ -25,7 +25,7 @@ El origen de coordenadas se ubica en el centro nominal del rodamiento en la esta
 Rodamiento SKF 241/900 ECAK30/W33 & Diámetro exterior 1420; agujero 900 (extremo menor del cono 1:30); ancho 515 mm & Ficha del fabricante \cite{skf241} & Dato\\
 Masa del rodamiento & 3032 kg & Ficha del fabricante & Dato\\
 Carga externa del modelo estructural & $3\times9948=29\,844$ N & Corrida estructural de referencia & Dato de la corrida\\
-Masa móvil & 3439,8 kg en el balance de la segunda entrega; unos 3462 kg con los cambios posteriores & Balance de masas del conjunto; la segunda cifra es una estimación sin balance completo & Calculado; estimado\\
+Masa móvil & 3439,8 kg por componentes; unos 3462 kg con los cambios del centrador y de las ruedas & Balance de masas del conjunto & Calculado; estimado\\
 Masa móvil de diseño & 3500 kg & Escenario adoptado & Hipótesis\\
 Centro de gravedad del conjunto & $(0;\,-4{,}6;\,1093{,}3)$ mm & Balance de masas & Calculado\\
 Aceleración horizontal de traslado & 0,3 m/s$^2$ & Caso de diseño mecánico & Hipótesis\\
@@ -193,17 +193,11 @@ Tiempo de traslado (3,32 m) & 104 s & --\\
 \bottomrule
 \end{tabularx}
 \par\smallskip\footnotesize
-La resistencia de la cadena inoxidable se tomó como el 60\,\% de la de acero al carbono, a confirmar con el proveedor. La sección neta en el chavetero es una cota superior.
+La resistencia de la cadena inoxidable se tomó como el 60\,\% de la de acero al carbono; en catálogo, la 08B-1 inoxidable rompe a 12,5 kN frente a unos 18 kN, cerca del 70\,\% \cite{iwis08b}. La sección neta en el chavetero es una cota superior.
 \end{table}
 
 La cadena impone la velocidad de la mesa, de 0,032 m/s. Con ella, la energía cinética baja de 39,4 a 1,8 J y la fuerza para detener la mesa en 0,10 m, de 565 a 190 N, por lo que no se requiere un freno aparte. Un pasador fusible de latón en el volante limita el tiro total a 3 kN y protege la cadena ante un mal uso; en las estaciones, la retención sigue a cargo del pasador de bloqueo. El eje motriz se redujo de 30 a 25 mm porque la revisión de interferencias encontró que el cubo del piñón chocaba con la cadena.
-
-Para una motorización futura sobre la misma transmisión, la potencia en la mesa con la fuerza del escenario adverso y la velocidad de la cadena es
-\begin{equation}
-P=\frac{F\,v}{\eta_t}=\frac{836{,}7\times0{,}032}{\eta_t}\approx\frac{27\ \mathrm{W}}{\eta_t},
-\label{eq:dis-potencia-traslado}
-\end{equation}
-donde $\eta_t$ es el rendimiento conjunto del reductor y de las cadenas. El reductor admite un motor con brida, pero la transmisión con motor no se dimensionó, de modo que $\eta_t$ queda como dato del reductor que se elija en esa etapa.
+ El reductor admite un motor con brida; la motorización del traslado queda como recomendación (Capítulo~\ref{cap:conclusiones}).
 
 \subsubsection{Centradores}
 \label{sec:dimensionamiento-centradores}
@@ -215,7 +209,7 @@ El soporte de cada referencia se dimensionó con un modelo de elementos finitos 
 \subsubsection{Error de colocación del rodamiento}
 \label{sec:error-colocacion}
 
-El requisito E06 limita a 5 mm el error radial de colocación. La segunda entrega obtuvo 5,21 mm en el caso nominal y 6,10 mm en la envolvente de 2,08 kN, ambos con suma aritmética de tolerancias. Para corregirlo por diseño se separaron las dos partes de la Ecuación~\eqref{eq:mt-colocacion}: el desplazamiento elástico de las referencias, calculado con SAP2000 y con el modelo de barras con alabeo, y la suma de tolerancias de fabricación, juegos, rodillos, diámetro exterior del aro, temperatura y apoyo con la grúa, que vale 1,58 mm. Luego se recalculó el error para cada fuerza que el mecanismo puede dejar en el rodillo (Tabla~\ref{tab:centrado-por-fuerza} y Figura~\ref{fig:centrado}).
+El requisito E06 limita a 5 mm el error radial de colocación. La versión anterior del centrado obtuvo 5,21 mm en el caso nominal y 6,10 mm en la envolvente de 2,08 kN, ambos con suma aritmética de tolerancias. Para corregirlo por diseño se separaron las dos partes de la Ecuación~\eqref{eq:mt-colocacion}: el desplazamiento elástico de las referencias, calculado con SAP2000 y con el modelo de barras con alabeo, y la suma de tolerancias de fabricación, juegos, rodillos, diámetro exterior del aro, temperatura y apoyo con la grúa, que vale 1,58 mm. Luego se recalculó el error para cada fuerza que el mecanismo puede dejar en el rodillo (Tabla~\ref{tab:centrado-por-fuerza} y Figura~\ref{fig:centrado}).
 
 \begin{table}[htbp]
 \centering\small\singlespacing
@@ -252,7 +246,7 @@ Se evaluó y se descartó un cono de indexado en el pasador. Un cono solo elimin
 
 \subsubsection{Bloqueo y retención}
 
-La mesa se inmoviliza con el pasador central de 25 mm a doble corte, predimensionado para 10 kN, que se inserta en un receptor de la estación de carga antes de centrar y en otro de la estación de lavado antes de retraer los centradores. Tres topes bajos, a 60$^\circ$, 190$^\circ$ y 300$^\circ$, retienen el aro si este se desplaza sobre los apoyos. La unión de los topes se revisó con la carga sísmica: a 60$^\circ$ y 300$^\circ$ llevan dos cartelas interiores de 8 mm sobre el ala, que alargan el brazo de palanca y dejan el cordón de 3 mm en D/C 0,39; a 190$^\circ$, donde no hay ala debajo, una chapa de asiento de 16 mm a tope con el montante del centrador (D/C 0,69). El resumen de esa revisión está en el Anexo~\ref{anx:calculos}.
+La mesa se inmoviliza con el pasador central de 25 mm a doble corte, predimensionado para 10 kN, que se inserta en un receptor de la estación de carga antes de centrar y en otro de la estación de lavado antes de retraer los centradores. Tres topes bajos, a 60$^\circ$, 190$^\circ$ y 300$^\circ$, retienen el aro si este se desplaza sobre los apoyos; su unión al bastidor se detalla en los planos del Anexo~\ref{anx:planos}.
 
 \subsection{Subsistema de aspersión}
 \label{sec:dimensionamiento-aspersion}
@@ -335,7 +329,7 @@ Se seleccionó una bomba multietapa vertical Grundfos CRN 15-3 de acero inoxidab
 
 El distribuidor en U gira sobre un eje hueco, por cuyo interior pasa la alimentación hasta un cubo que reparte el caudal a la U y a la lanza (planos del eje, del cubo y de la U en el Anexo~\ref{anx:planos}). Para verificarlo se tomó la masa del modelo CAD, con 148 sólidos y el agua en los tubos. La estimación anterior era una envolvente de 180 kg con 50 mm de excentricidad; el modelo dio 231 kg con el centro de gravedad a 79,6 mm del eje, de modo que el momento excéntrico pasó de 88 a 180 N\,m. Como esa excentricidad gira con el eje, el peso produce una tensión constante en el eje; la única flexión alterna es la de la correa, que tira siempre en la misma dirección.
 
-Las cargas fueron el peso y la excentricidad medidos, un par de 60 N\,m (el limitador desliza), un tiro de correa de 1071 N, la reacción de los chorros de 97 N, una carga accidental de 1000 N horizontal a 1400 mm del piso y una presión de 6 bar, con prueba hidrostática a 9 bar. El tiro de la correa, la carga accidental y la presión son hipótesis hasta elegir los componentes. La Tabla~\ref{tab:conjunto-giratorio} reúne la verificación.
+Las cargas fueron el peso y la excentricidad medidos, un par de 60 N\,m (el limitador desliza), un tiro de correa de 1071 N, la reacción de los chorros de 97 N, una carga accidental de 1000 N horizontal a 1400 mm del piso y una presión de 6 bar, con prueba hidrostática a 9 bar. Los 1071 N son una envolvente conservadora del tiro de la correa: el motorreductor se verificó con los 625 N que resultan del par limitado. La carga accidental y la presión son hipótesis de diseño. La Tabla~\ref{tab:conjunto-giratorio} reúne la verificación.
 
 \begin{table}[htbp]
 \centering\small\singlespacing
@@ -361,17 +355,17 @@ Unión del eje con el cubo, filete de 5 mm & Cordón circular & 17,3 MPa & 0,05\
 Acero inoxidable 316L con $f_y=170$ MPa, reducido a 153 MPa a 62~$^\circ$C (hipótesis).
 \end{table}
 
-La resistencia no fija el tamaño del eje: lo fijan el paso de la alimentación por dentro y los asientos de 110 mm. La flecha de servicio en las boquillas es el 18\,\% de la tolerancia supuesta para el CFD. El único valor alto de la U, 0,93, corresponde a la carga accidental tangencial en un brazo, que solo puede ocurrir con el rotor detenido; con el rotor libre, el limitador desliza con 67 N en la punta del brazo. Las verificaciones complementarias con sólidos (Anexo~\ref{anx:calculos}) muestran que ese mismo golpe de 1000 N produce fluencia local en el tubo junto a la soldadura del transversal con el cubo, mientras la sección general trabaja al 74\,\% de la fluencia. Queda por decidir si se refuerza esa unión o se justifica un golpe de diseño menor. Las placas de 15 mm del cubo cumplen solo si se sueldan al anillo con penetración completa: el anillo es 15,5 veces más rígido al giro que la placa, lo que justifica tomar el borde como empotrado. Con borde apoyado, la prueba a 9 bar daría 1,09; por eso el requisito quedó escrito en el plano del eje y el cubo.
+La resistencia no fija el tamaño del eje: lo fijan el paso de la alimentación por dentro y los asientos de 110 mm. La flecha de servicio en las boquillas es el 18\,\% de la tolerancia supuesta para el CFD. El único valor alto de la U, 0,93, corresponde a la carga accidental tangencial en un brazo, que solo puede ocurrir con el rotor detenido; con el rotor libre, el limitador desliza con 67 N en la punta del brazo. Las verificaciones complementarias con sólidos (Anexo~\ref{anx:calculos}) muestran que ese mismo golpe de 1000 N produce fluencia local en el tubo junto a la soldadura del transversal con el cubo, mientras la sección general trabaja al 74\,\% de la fluencia. Con el tramo central del transversal en DN50 Sch 80S, de igual diámetro exterior, la misma simulación deja la unión bajo la fluencia, con un margen de 1,23, sin cambiar las bridas ni el cordón; se recomienda esa variante. Las placas de 15 mm del cubo cumplen solo si se sueldan al anillo con penetración completa: el anillo es 15,5 veces más rígido al giro que la placa, lo que justifica tomar el borde como empotrado. Con borde apoyado, la prueba a 9 bar daría 1,09; por eso el requisito quedó escrito en el plano del eje y el cubo.
 
 El cubo se suelda al eje y ambos se mecanizan en una sola atada, de modo que los asientos de los rodamientos y la cara inferior del cubo quedan alineados. La alternativa bridada con espiga H7/g6 sumaba una brida, seis pernos, una junta tórica expuesta al detergente a 62~$^\circ$C y unos 5 kg, sin una ventaja de resistencia: las dos uniones dan D/C $\leq0{,}06$. La U se desmonta por dos juntas bridadas DN50 a 300 mm del eje, sin válvulas de ramal, y sus dos brazos son iguales; en cada junta, el perno más cargado lleva 1,16 kN frente a 70,7 kN (D/C 0,02). Ninguna boquilla cambió de posición, de modo que el CFD sigue siendo válido para esta geometría.
 
-El distribuidor gira con un motorreductor de 0,12 kW a través de una correa con relación 2:1. El limitador de par va en el eje de salida del motorreductor, ajustado a 30 N\,m, que equivalen a 60 N\,m en el rotor. Sin limitador, un atasco llevaría la carga radial de ese eje a 3,9 kN y no pasaría; con él, el factor de seguridad es de 2,31. El soporte superior que sostiene el conjunto y la selección del accionamiento se resumen en el Anexo~\ref{anx:calculos}.
+El distribuidor gira con un motorreductor de 0,12 kW a través de una correa con relación 2:1. El limitador de par va en el eje de salida del motorreductor, ajustado a 30 N\,m, que equivalen a 60 N\,m en el rotor. Sin limitador, un atasco llevaría la carga radial de ese eje a 3,9 kN y no pasaría; con él, la carga radial es de 625 N según el método del fabricante y el factor de seguridad, de 2,31. El soporte superior que sostiene el conjunto y la selección del accionamiento se resumen en el Anexo~\ref{anx:calculos}.
 
 \subsubsection{Cinemática del distribuidor}
 
-A 1,7 rpm, una vuelta del distribuidor dura 35,3 s. La velocidad de barrido de las boquillas exteriores, a un radio de 836 mm, es de 0,149 m/s, y la de la lanza, 0,055 m/s. El tiempo de vuelo de las gotas hasta la superficie, de unos 7 ms a la mayor distancia, es pequeño frente al período de giro, lo que justifica evaluar la dosis con el distribuidor detenido por sectores (Sección~\ref{sec:teo-cfd}). El estudio analítico previo consideró además una oscilación de $\pm20^\circ$ de los brazos; el diseño evaluado no la incluye, porque las boquillas son fijas y así se simularon.
+A 1,7 rpm, una vuelta del distribuidor dura 35,3 s. La velocidad de barrido de las boquillas exteriores, a un radio de 836 mm, es de 0,149 m/s, y la de la lanza, 0,055 m/s. El tiempo de vuelo de las gotas hasta la superficie, de unos 7 ms a la mayor distancia, es pequeño frente al período de giro, lo que justifica evaluar la dosis con el distribuidor detenido por sectores (Sección~\ref{sec:teo-cfd}).
 
-\subsubsection{Calentamiento del baño}
+\subsubsection{Temperatura del baño}
 \label{sec:calentamiento}
 
-El rodamiento llega a la máquina a temperatura ambiente, supuesta en 15~$^\circ$C, y al rociarlo se iguala con el baño en pocos minutos. Con la relación $Q_t=mc\,(T_1-T_0)$ del Capítulo~\ref{cap:marco-teorico}, llevar sus 3032 kg de acero de 15 a 60~$^\circ$C requiere unos 62,8 MJ (17,4 kWh), más que la energía que guarda el baño por encima de 45~$^\circ$C. Sin precalentar, el baño bajaría a unos 46 a 51~$^\circ$C durante el lavado, por debajo de los 60~$^\circ$C a partir de los cuales el detergente no forma espuma. Por eso la operación incluye un precalentamiento con recirculación, la puerta cerrada y el extractor detenido. Con el tanque aislado, el baño llega a 60~$^\circ$C y el rodamiento a 55~$^\circ$C en unos 34 min con 24 kW y en unos 23 min con 36 kW; se adoptaron tres resistencias de 12 kW. Es una estimación de predimensionamiento: el intercambio con el rodamiento, las pérdidas de la cabina y el control de temperatura no se diseñaron.
+El detergente seleccionado no forma espuma por encima de 61~$^\circ$C y admite hasta 70~$^\circ$C \cite{zep36342}, por lo que el lavado se plantea con el baño a 60--62~$^\circ$C. Las lavadoras comerciales de aspersión calientan el tanque con resistencias de inmersión o con un quemador a gas, ofrecen un intercambiador de calor como opción y regulan la temperatura con un control electrónico: el StingRay 6075, con un depósito de 1325 L, usa 60 kW eléctricos o 117 kW a gas y tarda de 45 a 120 min en calentar el baño \cite{stingray_6075}. La máquina necesita un sistema equivalente. El esquema hidráulico lo representa con resistencias de inmersión y un control de temperatura en el tanque de lavado, como referencia de integración; su selección y su dimensionamiento quedan fuera del alcance.

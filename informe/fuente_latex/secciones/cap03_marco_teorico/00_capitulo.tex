@@ -32,8 +32,6 @@ sin acumulación en los tramos de tubería en régimen permanente \cite{white201
 \end{equation}
 donde $\eta_p$ y $\eta_m$ son las eficiencias de la bomba y del motor, que deben evaluarse en el punto de operación \cite{white2016}.
 
-Estos balances describen la capacidad mecánica y el suministro de fluido, no la limpieza. La remoción de grasa depende además del contaminante, el material, el agente de limpieza y la exposición de las superficies \cite{chalk1994}, y la condición final del rodamiento incluye su inspección y protección después del lavado \cite{skfmaintenance2011}. Por ello, ni la presión ni la cobertura calculadas se traducen por sí mismas en un porcentaje de limpieza.
-
 \section{Descripción teórica de los componentes y/o subsistemas de la solución}
 
 \subsection{Distribución de carga y estabilidad del soporte}
@@ -135,7 +133,7 @@ La fuerza de traslado se calcula a partir del equilibrio en la dirección de mov
   F_{\mathrm{acc}}=c_rW\cos\theta+W\sin\theta+m_Ta+F_{\mathrm{aux}}.
   \label{eq:teo-rodadura}
 \end{equation}
-La expresión resulta de la segunda ley de Newton \cite{shigley2015}. El coeficiente adimensional $c_r$ es una resistencia de rodadura equivalente, distinta del coeficiente de deslizamiento, y se obtiene de datos de la rueda y el riel o por medición; $F_{\mathrm{aux}}$ reúne resistencias adicionales, como el arrastre de mangueras. Arranque, marcha y frenado requieren valores propios, y la aceptabilidad del empuje humano exige además una evaluación ergonómica. A velocidad constante $v$, la potencia que pide el traslado es $P=F_{\mathrm{acc}}v/\eta_t$, con $\eta_t$ el rendimiento de la transmisión.
+La expresión resulta de la segunda ley de Newton \cite{shigley2015}. El coeficiente adimensional $c_r$ es una resistencia de rodadura equivalente, distinta del coeficiente de deslizamiento, y se obtiene de datos de la rueda y el riel o por medición; $F_{\mathrm{aux}}$ reúne resistencias adicionales, como el arrastre de mangueras. Arranque, marcha y frenado requieren valores propios, y la aceptabilidad del empuje humano exige además una evaluación ergonómica.
 
 Una rueda guiada por pestaña recibe también una fuerza lateral por el desvío entre su plano y el riel. La norma europea de acciones de equipos de elevación la estima como $H_T=f\,Q_r$, donde $Q_r$ es la carga vertical de la rueda y $f$ un coeficiente que crece con el ángulo de desvío y depende del sistema de guiado \cite{en19913}.
 
@@ -188,8 +186,6 @@ donde $p_v$ es la presión de vapor del líquido a la temperatura de operación,
 
 Aumentar la presión o el número de boquillas simultáneas eleva el caudal, las pérdidas y la potencia de la Ecuación~\eqref{eq:teo-potencia}, por lo que la aplicación del fluido, los diámetros y la bomba se revisan en conjunto \cite{white2016}. La tubería que gira con el distribuidor se verifica, además, como tubería a presión: la norma de tuberías de proceso limita la suma de los esfuerzos longitudinales por cargas sostenidas al esfuerzo admisible del material a la temperatura de operación y admite un valor mayor para cargas ocasionales \cite{asmeb313}.
 
-El calor necesario para llevar una masa $m$ de calor específico $c$ desde $T_0$ hasta $T_1$ es $Q_t=mc\,(T_1-T_0)$; con una potencia neta $P_t$, el tiempo de calentamiento es $t=Q_t/P_t$. Esta relación permite estimar el precalentamiento del baño y del rodamiento.
-
 \subsection{Cobertura geométrica}
 
 La huella ideal de un abanico sobre un plano perpendicular a su eje se obtiene por geometría:
@@ -197,7 +193,7 @@ La huella ideal de un abanico sobre un plano perpendicular a su eje se obtiene p
   B=2S\tan\left(\frac{\alpha}{2}\right),
   \label{eq:teo-huella}
 \end{equation}
-donde $S$ es la distancia a la superficie y $\alpha$ el ángulo de apertura. Esta construcción permite establecer el número y la separación preliminares de las boquillas. En una superficie curva u obstruida se evalúan la orientación, la distancia local y las zonas alcanzables mediante trazado de rayos desde cada boquilla. El alcance geométrico indica qué superficies pueden recibir el chorro; no indica cuánto líquido llega ni con qué intensidad, que se obtienen con el modelo de mojado de la Sección~\ref{sec:teo-cfd}. En un circuito recirculado, el volumen bombeado durante una etapa, $V=Qt$, no representa consumo de líquido nuevo, porque la misma porción atraviesa varias veces la bomba \cite{white2016}.
+donde $S$ es la distancia a la superficie y $\alpha$ el ángulo de apertura. Esta construcción permite establecer el número y la separación preliminares de las boquillas. En una superficie curva u obstruida se evalúan la orientación, la distancia local y las zonas alcanzables mediante trazado de rayos desde cada boquilla. El alcance geométrico indica qué superficies pueden recibir el chorro; no indica cuánto líquido llega ni con qué intensidad, que se obtienen con el modelo de mojado de la Sección~\ref{sec:teo-cfd}.
 
 \section{Descripción de las tecnologías aplicables}
 
@@ -211,7 +207,7 @@ Para el análisis lineal, el ensamblaje de las rigideces elementales y la aplica
 \mathbf{K}\mathbf{u}=\mathbf{F},
 \label{eq:kuf_revision}
 \end{equation}
-donde $\mathbf{K}$ es la matriz de rigidez del conjunto, $\mathbf{u}$ contiene los desplazamientos y giros nodales, y $\mathbf{F}$ reúne las acciones equivalentes. La discretización se define sobre las líneas medias de los perfiles. Las tensiones locales de una mordaza, un contacto o una soldadura no quedan resueltas con barras y requieren un modelo local. La coincidencia de cargas y reacciones es necesaria, pero no prueba que la rigidez o las uniones estén bien representadas.
+donde $\mathbf{K}$ es la matriz de rigidez del conjunto, $\mathbf{u}$ contiene los desplazamientos y giros nodales, y $\mathbf{F}$ reúne las acciones equivalentes. La discretización se define sobre las líneas medias de los perfiles. Las tensiones locales de una mordaza, un contacto o una soldadura no quedan resueltas con barras y requieren un modelo local.
 
 \subsection{Contacto y factibilidad del apoyo}
 \label{sec:contacto_revision}
@@ -246,7 +242,7 @@ Cuando el tiempo de vuelo de las gotas es mucho menor que el período de giro de
   T_v=\frac{60}{N},
   \label{eq:teo-dosis}
 \end{equation}
-donde $\dot m_b$ es el caudal másico depositado en la banda, $\dot I_b=\sum\dot m_pv_{n,p}$ el flujo de cantidad de movimiento normal a la pared y $N$ la velocidad de giro en rpm. La uniformidad se expresa con el coeficiente de variación entre bandas, $CV=s_D/\bar D$. Estas magnitudes describen el mojado y la acción hidráulica; no son una medida de remoción, que depende además de la reología del contaminante y del agente de limpieza \cite{chalk1994}.
+donde $\dot m_b$ es el caudal másico depositado en la banda, $\dot I_b=\sum\dot m_pv_{n,p}$ el flujo de cantidad de movimiento normal a la pared y $N$ la velocidad de giro en rpm. La uniformidad se expresa con el coeficiente de variación entre bandas, $CV=s_D/\bar D$, en la línea de los indicadores de cobertura, dosis y uniformidad de los estudios de aspersión del Capítulo~\ref{cap:estado-arte} \cite{fei2026,fang2023}. Estas magnitudes describen el mojado y la acción hidráulica; no son una medida de remoción, que depende además de la reología del contaminante y del agente de limpieza \cite{chalk1994}.
 
 La verificación numérica estima el error de discretización con tres mallas de tamaños $h_1<h_2<h_3$. Con las razones $r_{21}=h_2/h_1$ y $r_{32}=h_3/h_2$ y las diferencias $\varepsilon_{21}=\varphi_2-\varphi_1$ y $\varepsilon_{32}=\varphi_3-\varphi_2$ de un indicador $\varphi$, el orden aparente y el índice de convergencia de la malla fina son
 \begin{equation}
@@ -256,11 +252,23 @@ La verificación numérica estima el error de discretización con tres mallas de
 \end{equation}
 con $q(p)=\ln\left[(r_{21}^{\,p}-s)/(r_{32}^{\,p}-s)\right]$ y $s=\operatorname{sgn}(\varepsilon_{32}/\varepsilon_{21})$ \cite{celik2008}. El procedimiento supone que las diferencias entre mallas proceden de la discretización; si son menores que la variabilidad entre corridas equivalentes, el índice deja de ser interpretable. La verificación comprueba que las ecuaciones se resuelven con precisión suficiente; la validación, que el modelo representa el fenómeno físico, exige una comparación con mediciones.
 
+\subsection{Impacto local con volumen de fluido}
+\label{sec:teo-vof}
+
+Para estimar la acción local de una lámina sobre la pared, que el modelo de fase discreta no resuelve, se emplea el método de volumen de fluido: el agua y el aire forman un solo campo con una fracción volumétrica $\alpha$ transportada por la velocidad \cite{hirt1981}:
+\begin{equation}
+  \frac{\partial\alpha}{\partial t}+\nabla\cdot(\alpha\mathbf{u})=0,\qquad
+  \rho=\alpha\rho_l+(1-\alpha)\rho_a,\qquad
+  \mu=\alpha\mu_l+(1-\alpha)\mu_a,
+  \label{eq:teo-vof}
+\end{equation}
+con una sola ecuación de cantidad de movimiento y la tensión superficial como fuerza en la interfaz, que el programa interFoam de OpenFOAM mantiene nítida por compresión \cite{deshpande2012}. En la pared se evalúan la presión y el esfuerzo cortante $\tau_w=\mu\,\partial u_t/\partial n$, como referencia de la acción hidráulica y no como criterio de diseño.
+
 \subsection{Modelo geométrico}
 
 El modelo CAD paramétrico proporciona las coordenadas, las distancias, las masas y las áreas que usan los demás modelos. Las interferencias se comprueban barriendo las posiciones del mecanismo, porque una vista aislada no describe todo su recorrido.
 
-La Tabla~\ref{tab:mt-modelos-diseno} relaciona cada grupo de modelos con su aplicación en los Capítulos~\ref{cap:diseno} y~\ref{cap:resultados}. Se conservan en este capítulo solo los modelos que tienen una aplicación identificable.
+La Tabla~\ref{tab:mt-modelos-diseno} relaciona cada grupo de modelos con su aplicación en los Capítulos~\ref{cap:diseno} y~\ref{cap:resultados}.
 
 \begingroup
 \footnotesize
@@ -290,11 +298,12 @@ Flexión, flecha y resistencia & \eqref{eq:mt-flexion}--\eqref{eq:mt-utilizacion
 Uniones soldadas y fatiga & \eqref{eq:mt-filete}, \eqref{eq:mt-goodman} & Uniones a momento del bastidor; eje y cubo del distribuidor\\
 Torsión de perfiles abiertos & \eqref{eq:teo-torsion} & Modelo global del bastidor bajo las cargas de centrado\\
 Apoyos, pasadores y colocación & \eqref{eq:mt-pad}--\eqref{eq:mt-colocacion} & Presión media de los apoyos sectoriales, pasador de bloqueo y error de colocación\\
-Rodadura y guiado & \eqref{eq:teo-rodadura} & Fuerza de traslado, potencia estimada y fuerza lateral de la rueda\\
+Rodadura y guiado & \eqref{eq:teo-rodadura} & Fuerza de traslado y fuerza lateral de la rueda\\
 Red hidráulica y bomba & \eqref{eq:mt-caudal-re}--\eqref{eq:teo-npsh}, \eqref{eq:teo-potencia} & Caudal, pérdidas, altura, potencia y NPSH de la red; tubería del distribuidor\\
 Huella y acceso & \eqref{eq:teo-huella} & Número y disposición de las boquillas\\
 Barras, contacto y sólidos & \eqref{eq:kuf_revision}, \eqref{eq:complementariedad_revision} & Análisis del bastidor; factibilidad del contacto; elementos finitos de los centradores\\
 Mojado y verificación & \eqref{eq:teo-dpm}--\eqref{eq:teo-gci} & Dosis, uniformidad, transferencia e impulso; estudio de malla\\
+Volumen de fluido & \eqref{eq:teo-vof} & Presión y esfuerzo cortante bajo la lámina de una boquilla (Anexo~\ref{anx:programas})\\
 \end{longtable}
 \noindent\textit{Fuente:} elaboración propia.\par
 \endgroup

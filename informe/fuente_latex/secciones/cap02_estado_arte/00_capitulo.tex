@@ -91,8 +91,37 @@ La comparación mostró dos condiciones que debían comprobarse antes de adaptar
 
 La energía y la reposición de fluido por ciclo se mantuvieron fuera de la clasificación numérica: los catálogos consultados no aportaron una prueba común con duración, contaminante y criterio de limpieza equivalentes. Se conservaron las potencias y los inventarios como datos del equipo, sin convertirlos en consumos del proceso.
 
+Además de los equipos, se revisaron estudios que simularon la aspersión o la limpieza por chorros, para elegir el modelo y los indicadores del lavado. Carlsson et al. simularon el lavado a alta presión de bloques de motor con boquillas de abanico plano y la pieza en movimiento respecto de ellas; usaron mapas de distribución del impacto como criterio de diseño y los contrastaron de forma comparativa con marcas de partículas sobre la pieza \cite{carlsson2018}. Kou et al. modelaron en ANSYS Fluent una boquilla de abanico plano con el método de volumen de fluido y turbulencia $k$--$\varepsilon$, y relacionaron la presión dinámica sobre el blanco con la presión y la distancia; al subir la presión, la ganancia fue cada vez menor \cite{kou2020}. Fei et al. evaluaron en Fluent la descontaminación de un tanque por aspersión, con gotas lagrangianas y película de pared, mediante una tasa de cobertura contrastada con un banco de ensayo, y convirtieron el volumen acumulado en la zona menos favorecida en un tiempo de proceso \cite{fei2026}. Moghimi et al. simularon sprays en recipientes con gotas lagrangianas y definieron la fracción de área seca y la fracción del líquido que no llega a la pared; la primera resultó muy sensible a la malla \cite{moghimi2025}. Fang et al. resolvieron en OpenFOAM la aspersión de varias boquillas sobre una superficie que mira hacia abajo, con tres mallas e índice de convergencia, y expresaron la uniformidad con la dispersión del espesor de la película \cite{fang2023}.
+
+Los ensayos de limpieza acotan lo que esos indicadores permiten afirmar. Fuchs et al. midieron, a 2 y 4 bar, la fuerza y la presión de impacto de un chorro en función de la distancia, y el área limpia no se correlacionó con la fuerza de impacto, salvo con la vaselina \cite{fuchs2019}. Para grasa sobre acero, Davis y DeWeese lavaron probetas con un abanico y detergente alcalino: a 46,5 bar no quedó residuo y a 5,2 bar quedó entre el 15 y el 40\,\% tras dos pasadas \cite{davis1995}. La norma ASTM D4049 mide la pérdida de una grasa bajo un rociado de agua normalizado \cite{astmd4049}. La Tabla~\ref{tab:indicadores-literatura} relaciona estos antecedentes con los indicadores que usa el proyecto.
+
+\begingroup
+\small\singlespacing
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{4.6cm}>{\raggedright\arraybackslash}p{\dimexpr\textwidth-7.9cm-4\tabcolsep\relax}@{}}
+\caption{Indicadores de mojado y acción hidráulica tomados de la literatura}\label{tab:indicadores-literatura}\\
+\toprule
+\textbf{Indicador} & \textbf{Antecedente} & \textbf{Uso en el proyecto}\\
+\midrule\endfirsthead
+\toprule
+\textbf{Indicador} & \textbf{Antecedente} & \textbf{Uso en el proyecto}\\
+\midrule\endhead
+\bottomrule\endlastfoot
+Acceso geométrico & Mapas de impacto por boquilla en el lavado de piezas \cite{carlsson2018} & Trazado de rayos con los obstáculos del soporte\\
+Zona seca y cobertura & Fracción de área seca y tasa de cobertura \cite{moghimi2025,fei2026} & Bandas sin impacto directo\\
+Dosis & Volumen acumulado y peor zona \cite{fei2026}; dosis por área de ensayos de lavado de grasa \cite{davis1995,astmd4049} & Dosis por vuelta y tiempo hasta la dosis requerida\\
+Uniformidad & Dispersión sobre la superficie \cite{fang2023} & Coeficiente de variación entre bandas\\
+Transferencia & Fracción del líquido que llega a la pared \cite{moghimi2025} & Fracción del caudal que llega a cada superficie\\
+Acción hidráulica & Presión y fuerza de impacto \cite{kou2020,fuchs2019} & Impulso por área y por vuelta, solo para comparar configuraciones\\
+\end{longtable}
+\par\smallskip\footnotesize
+Fuente: elaboración propia a partir de los estudios citados.
+\endgroup
+
 \section{Determinación de la insuficiencia tecnológica}
 
-La revisión identificó soluciones comerciales para limpiar piezas pesadas y variar la aplicación del fluido \cite{stingray_6075,bvl_pacific}. La insuficiencia para el caso estudiado se localizó en la falta de una configuración y un proceso verificados conjuntamente frente a los requisitos del rodamiento y del taller delimitados en el capítulo~\ref{cap:introduccion}. Los documentos consultados no aportaron una validación específica que relacionara apoyos, transferencia, acceso a superficies internas, agente de limpieza y resultado final para ese conjunto de condiciones. Esta conclusión se limitó al alcance de la revisión y no demostró la inexistencia de una solución adaptable en el mercado.
+La revisión identificó soluciones comerciales para limpiar piezas pesadas y variar la aplicación del fluido \cite{stingray_6075,bvl_pacific}. La insuficiencia para el caso estudiado se localizó en la falta de una configuración y un proceso verificados conjuntamente frente a los requisitos del rodamiento y del taller delimitados en el capítulo~\ref{cap:introduccion}. Los documentos consultados no aportaron una validación específica que relacionara apoyos, transferencia, acceso a superficies internas, agente de limpieza y resultado final para ese conjunto de condiciones. Esta conclusión se limitó al alcance de la revisión y no demostró la inexistencia de una solución adaptable en el mercado. En la simulación, los estudios revisados trataron chorros coherentes o abanicos con presiones, distancias y contaminantes distintos, y ninguno trató la grasa de un rodamiento sobre acero con abanicos de baja presión \cite{carlsson2018,kou2020,fuchs2019}. Por eso sus indicadores se usan para comparar configuraciones y no como umbrales de limpieza.
 
 El proyecto encontró su oportunidad en adaptar e integrar los principios revisados con una escala y una secuencia compatibles con el taller. La generación de alternativas debía resolver cómo recibir y posicionar el rodamiento, cómo exponer las zonas de interés al fluido y cómo recoger los residuos, conservando acceso para operación y mantenimiento \cite{skfmaintenance2011,chalk1994,udy_extraccion_2018}. La pertinencia del diseño propio debía contrastarse posteriormente con el desempeño, costo y posibilidades de adaptación de las opciones comerciales. Ese contraste constituyó la base de la matriz de decisión del capítulo~\ref{cap:metodologia}, sin anticipar aquí una geometría de bastidor, un número de apoyos o un mecanismo de aplicación concreto.

@@ -1,7 +1,7 @@
 \chapter{MEMORIAS DE CÁLCULO}
 \label{anx:calculos}
 
-Este anexo desarrolla los cálculos resumidos en el Capítulo~\ref{cap:diseno}. La Sección~\ref{sec:memoria-soporte} presenta el caso de referencia del soporte; la Sección~\ref{sec:man-asp-base}, el caso analítico de diecinueve boquillas con el que se fijó el método hidráulico; la Sección~\ref{sec:memoria-red22}, la red de veintidós boquillas de la configuración base; la Sección~\ref{sec:memoria-red24}, la red de 24 boquillas de la configuración propuesta; la Sección~\ref{sec:memoria-termica}, el balance del precalentamiento; la Sección~\ref{sec:comprobaciones-resumidas}, las comprobaciones de los componentes que se resolvieron con menor profundidad; la Sección~\ref{sec:costo-historico}, la línea base histórica de costos, y la Sección~\ref{sec:base-precios}, la base de precios del presupuesto. La procedencia de los datos, los libros de cálculo y los guiones se registran en el Anexo~\ref{anx:programas}.
+Este anexo desarrolla los cálculos resumidos en el Capítulo~\ref{cap:diseno}. La Sección~\ref{sec:memoria-soporte} presenta el caso de referencia del soporte; la Sección~\ref{sec:man-asp-base}, el caso analítico de diecinueve boquillas con el que se fijó el método hidráulico; la Sección~\ref{sec:memoria-red22}, la red de veintidós boquillas de la configuración base; la Sección~\ref{sec:memoria-red24}, la red de 24 boquillas de la configuración propuesta; la Sección~\ref{sec:comprobaciones-resumidas}, las comprobaciones de los componentes que se resolvieron con menor profundidad, y la Sección~\ref{sec:base-precios}, la base de precios del presupuesto. La procedencia de los datos, los libros de cálculo y los guiones se registran en el Anexo~\ref{anx:programas}.
 
 \section{Memoria de cálculo del soporte}
 \label{sec:memoria-soporte}
@@ -240,47 +240,6 @@ Succión: entrada, válvula de tres vías y colador ($K=3$, hipótesis) & 0,52\\
 
 Con la presión atmosférica a 2335 m (76,24 kPa) y la presión de vapor a 62~$^\circ$C (21,87 kPa), el NPSH disponible es de 5,55 m con el nivel normal y de 5,24 m con el nivel bajo, frente a unos 2,2 m requeridos por la bomba. Es un valor conservador: la curva del catálogo da cerca de 1,8 m a 13,3 m$^3$/h \cite[p.~50]{grundfoscr}, en una lectura gráfica con $\pm0{,}3$ m.
 
-\section{Balance del precalentamiento}
-\label{sec:memoria-termica}
-
-El rodamiento, de 3032 kg de acero, tiene una capacidad térmica de unos 1,4 MJ/K. Si llega a 15~$^\circ$C (hipótesis), llevarlo a 60~$^\circ$C requiere unos 62,8 MJ (17,4 kWh). Al rociarlo, sus aros se igualan con el baño en minutos, con una constante de tiempo de 1,5 a 2 min. Sin precalentar, el baño baja durante un lavado de 10 min hasta las temperaturas de la Tabla~\ref{tab:termica-sin-precalentar}, según la masa de agua y el aporte de calor.
-
-\begin{table}[htbp]
-\centering\small\singlespacing
-\caption{Temperatura del baño tras 10 min de lavado sin precalentar}
-\label{tab:termica-sin-precalentar}
-\begin{tabularx}{\textwidth}{@{}Yr@{}}
-\toprule
-\textbf{Caso} & \textbf{Baño a los 10 min ($^\circ$C)}\\
-\midrule
-Sin aporte de calor; equilibrio con 600 kg / 858 kg de agua (tanque y pozo) & 45,2 / 48,8\\
-24 kW, extractor a 150 m$^3$/h, 858 kg & 50,9\\
-48 kW, extractor a 150 m$^3$/h, 858 kg & 54,0\\
-24 kW, extractor a 800 m$^3$/h, 600 kg & 41,7\\
-24 kW, rodamiento precalentado a 50~$^\circ$C, 858 kg & 59,5\\
-\bottomrule
-\end{tabularx}
-\end{table}
-
-El extractor pierde mucho calor: su aire sale saturado a unos 45~$^\circ$C y, a 2335 m de altitud, arrastra 8,8 kW a 150 m$^3$/h y 46,7 kW a 800 m$^3$/h. Por eso el precalentamiento se hace con el extractor detenido. La Tabla~\ref{tab:termica-precalentamiento} da el tiempo para que el baño llegue a 60~$^\circ$C y el rodamiento a 55~$^\circ$C, recirculando con la puerta cerrada.
-
-\begin{table}[htbp]
-\centering\small\singlespacing
-\caption{Tiempo de precalentamiento según la potencia de las resistencias}
-\label{tab:termica-precalentamiento}
-\begin{tabularx}{\textwidth}{@{}YP{4.2cm}P{4.2cm}@{}}
-\toprule
-\textbf{Resistencias} & \textbf{Extractor a 150 m$^3$/h, tanque sin aislar} & \textbf{Extractor detenido, tanque aislado}\\
-\midrule
-24 kW & 57 min & 34 min\\
-36 kW & 33 min & 23 min\\
-48 kW & 23 min & 18 min\\
-\bottomrule
-\end{tabularx}
-\end{table}
-
-Se adoptaron 36 kW con el tanque aislado con 50 mm de lana mineral. Es una estimación de predimensionamiento con una masa de agua de 858 kg; el diseño de las resistencias, del aislamiento y del control de temperatura queda como recomendación.
-
 \section{Comprobaciones de los componentes resueltos con menor profundidad}
 \label{sec:comprobaciones-resumidas}
 
@@ -304,59 +263,30 @@ Los componentes de esta sección se eligieron de catálogo o se comprobaron con 
 \multicolumn{4}{@{}l}{\textit{Soporte superior del distribuidor}}\\
 Cabina como estructura & Modelo de cáscaras en SAP2000, 2768 elementos & El techo de 1,5 mm se hunde 1037 mm con su peso; con el cartucho, 8,6 m. El muro abolla bajo la viga (factor 0,24) & La cabina es cerramiento; se mantiene un marco propio\\
 Marco del soporte & Barrido de 14 variantes en SAP2000 con el rotor real & Postes SHS80$\times$4 y vigas RHS150$\times$100$\times$3: D/C 0,18; flecha 1,99 mm ($\leq4{,}04$); lateral 2,26 mm ($\leq5$); primera frecuencia 3,74 Hz ($\geq3$); 247 kg & Criterios de flecha, lateral y frecuencia propios; bases tomadas como empotradas\\
-Sismo y bases & E.030, estático equivalente, $V/P=0{,}295$ \cite{e030}; ACI 318-19 \cite{aci318} & Barras con D/C $\leq0{,}18$; desplazamiento inelástico de 12,6 mm frente a 22,9 mm de holgura; 4 anclajes M16 por poste con adhesivo de al menos 2,6 MPa & Suelo, categoría y factor de sobrerresistencia supuestos; texto de E.030 de 2018, sin la modificación de 2026\\
+Sismo y bases & E.030, estático equivalente \cite{e030}; ACI 318-19 \cite{aci318} & Barras con D/C $\leq0{,}18$ y desplazamiento menor que la holgura del techo; 4 anclajes M16 por poste & Comprobación simplificada, con zona y suelo supuestos\\
 \multicolumn{4}{@{}l}{\textit{Accionamiento del distribuidor}}\\
-Motorreductor y limitador & Catálogo del fabricante y carga radial en el eje de salida & SEW SF47R17DRN63MS4 de 0,12 kW; limitador Mayr a 30 N\,m; factor de seguridad de 2,31 en la carga radial; sin limitador, 3,9 kN y no pasa & Calculado con 625 N de tiro de correa; el eje del distribuidor se verificó con 1071 N, cifra que falta conciliar con la correa elegida\\
-Eje de salida del motorreductor & SolidWorks, sólidos de segundo orden & 105 MPa con el limitador (factor 2,9 a fluencia, fatiga $\approx1{,}8$); 662 MPa en un atasco sin limitador & Con 1071 N de correa, el pico sube a unos 180 MPa; material y radios supuestos\\
+Motorreductor y limitador & Catálogo del fabricante y carga radial en el eje de salida & SEW SF47R17DRN63MS4 de 0,12 kW; limitador Mayr a 30 N\,m; factor de seguridad de 2,31 en la carga radial; sin limitador, 3,9 kN y no pasa & Tiro de 625 N por el método del fabricante; el eje del distribuidor se verificó con la envolvente de 1071 N\\
+Eje de salida del motorreductor & SolidWorks, sólidos de segundo orden & 105 MPa con el limitador (factor 2,9 a fluencia); 662 MPa en un atasco sin limitador & Material y radios supuestos\\
 \multicolumn{4}{@{}l}{\textit{Distribuidor y lanza}}\\
 Brazo de la U & SolidWorks; contraste con viga a mano dentro del 2\,\% & Chorros: 11,3 MPa en el codo y 0,67 mm en las boquillas; golpe accidental de 1000 N: 150 MPa en el codo & El codo ovaliza: el pico supera 1,5 veces el valor de ASME B31.3; una placa diagonal no lo reduce\\
-Lanza, carro y mástil & SolidWorks, 985\,629 nodos & Servicio: 7,8 MPa y 0,71 mm en las boquillas; el giro a 1,7 rpm deja todo bajo 0,2 MPa; un golpe de 200 N en el pie da unos 95 MPa & Golpe aceptable para la lanza por definir\\
-Unión del transversal con el cubo & Submodelo en SolidWorks con el cordón, tres mallas & Golpe de 1000 N fuera del plano: unos 185 MPa a 2,8 mm del fin del cordón, sobre la fluencia supuesta de 153 MPa; la sección general trabaja al 74\,\% & Fluencia local con un golpe accidental: se recomienda reforzar la unión o justificar un golpe menor\\
-\multicolumn{4}{@{}l}{\textit{Riel, anclajes y sismo de la mesa}}\\
-Pedestales del riel & ACI 318-19, capítulo 17 \cite{aci318} & 24 pedestales de inoxidable 304 con 4 anclajes adhesivos M16 de 150 mm: D/C 0,79 en los comunes y 0,98 en el del tensor de las cadenas & Losa supuesta de 200 mm y 21 MPa; adhesivo por elegir\\
-Sismo de la mesa & E.030, artículo 6.6, $F=0{,}236\,P$ \cite{e030} & Sin vuelco (factores 3,45 y 2,59); la rueda menos cargada conserva 4,58 kN; pasador de bloqueo con D/C 0,81; adherencia requerida de 2,45 MPa & Revisión estática; la viga bajo los topes puede fluir localmente (D/C 0,79--1,24)\\
-Topes de retención & Cálculo a mano de la unión, con la base medida en el CAD & Cartelas de 8 mm a 60$^\circ$ y 300$^\circ$: cordón de 3,97 a 0,39; chapa de asiento a 190$^\circ$: 0,69; dosis del lavado $-0{,}19$\,\% como máximo & Fricción del revestimiento y deslizamiento dinámico no modelados\\
+Lanza, carro y mástil & SolidWorks, 985\,629 nodos & Servicio: 7,8 MPa y 0,71 mm en las boquillas; el giro a 1,7 rpm deja todo bajo 0,2 MPa; un golpe de 200 N en el pie da unos 95 MPa & Golpe de 200 N supuesto\\
+Unión del transversal con el cubo & Submodelo en SolidWorks con el cordón, tres mallas & Golpe de 1000 N fuera del plano: unos 185 MPa a 2,8 mm del fin del cordón, sobre la fluencia supuesta de 153 MPa; la sección general trabaja al 74\,\%. Con el tramo central en Sch 80S, 124 MPa (margen de 1,23) & Se recomienda el tramo central en Sch 80S\\
+\multicolumn{4}{@{}l}{\textit{Riel y anclajes}}\\
+Pedestales del riel & ACI 318-19, capítulo 17 \cite{aci318} & 24 pedestales de inoxidable 304 con 4 anclajes adhesivos M16 de 150 mm: D/C 0,79 en los comunes y 0,98 en el del tensor de las cadenas & Losa supuesta de 200 mm y 21 MPa\\
+Sismo de la mesa & E.030, artículo 6.6 \cite{e030} & Sin vuelco de la mesa & Revisión estática simplificada; la retención de los topes no se evaluó\\
 \end{longtable}
 \endgroup
-
-\section{Línea base histórica de costos}
-\label{sec:costo-historico}
-
-La Tabla~\ref{tab:presupuesto-historico} conserva la estimación histórica en soles, elaborada para una arquitectura anterior del aplicador. Sus importes son referenciales y no son cotizaciones vigentes.
-
-\begin{table}[htbp]
-\centering\small\singlespacing
-\caption{Línea base histórica de costos y su vigencia}
-\label{tab:presupuesto-historico}
-\begin{tabularx}{\textwidth}{Y R{2.2cm} p{5.4cm}}
-\toprule
-\textbf{Partida histórica} & \textbf{Monto (S/)} & \textbf{Interpretación con el diseño vigente} \\
-\midrule
-Estructura y fabricación & 7100 & Incluía fabricación, como el presupuesto actual (Tabla~\ref{tab:presupuesto-completo}) \\
-Sistema hidráulico & 3560 & Sin bomba ni filtración; el presupuesto actual incluye ambas \\
-Anillo exterior & 2710 & Arquitectura anterior, sustituida por la U superior giratoria \\
-Lanza interna & 1780 & Lanza anterior, sustituida por la lanza corta \\
-Guardas y control & 1900 & El presupuesto actual incluye la cabina y el tablero como partidas propias \\
-\midrule
-Subtotal histórico & 17050 & Arquitectura anterior \\
-Contingencia histórica & 2560 & Aproximadamente 15\,\% del subtotal \\
-Total histórico & 19610 & Arquitectura anterior \\
-\bottomrule
-\end{tabularx}
-\end{table}
-
-También se registró un intervalo de S/ 18\,000 a S/ 24\,000, que combina partidas de arquitecturas distintas y sirve solo como antecedente de orden de magnitud.
 
 \section{Base de precios del estudio de costos}
 \label{sec:base-precios}
 
-La Tabla~\ref{tab:base-precios} registra el precio de referencia y la fuente de los valores con fuente publicada empleados en la Sección~\ref{sec:costos-unitarios}. Los precios son de catálogos o tiendas en línea de fabricantes y distribuidores, sin IGV; a los importados se les aplicó un factor de 1,20. Los componentes sin precio publicado, como la bomba CRN 15-3, el motorreductor, el limitador y las ruedas, se valoraron con una hipótesis de rango más amplio.
+La Tabla~\ref{tab:base-precios} registra el precio de referencia y la fuente de los valores con fuente publicada empleados en la Sección~\ref{sec:costos-unitarios}. Los precios son de catálogos o tiendas en línea de fabricantes y distribuidores, sin IGV; a los importados se les aplicó un factor de 1,20. La bomba, el limitador y las ruedas se valoraron a partir de productos similares o con un precio estimado, con un rango más amplio.
 
 \begingroup
 \small\singlespacing
 \setlength{\tabcolsep}{4pt}
 \begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{\dimexpr\textwidth-7.7cm-4\tabcolsep\relax}@{}}
-\caption{Base de precios de referencia, consultada entre el 9 de octubre y el 3 de noviembre de 2026}\label{tab:base-precios}\\
+\caption{Base de precios de referencia, consultada entre el 9 de octubre y el 16 de noviembre de 2026}\label{tab:base-precios}\\
 \toprule
 \textbf{Concepto} & \textbf{Valor de referencia} & \textbf{Fuente}\\
 \midrule\endfirsthead
@@ -367,24 +297,26 @@ La Tabla~\ref{tab:base-precios} registra el precio de referencia y la fuente de 
 \midrule\multicolumn{3}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
 \bottomrule\endlastfoot
 Tipo de cambio del dólar & S/ 3,448 (venta SUNAT, 13/10/2026) & \url{https://tucambista.pe/noticias/dolares-a-soles-13-octubre-2026}\\
-Tarifa de taller & S/ 50,5/h: soldador homologado a S/ 3500 al mes, 208 h, cargas sociales de 1,5 y gastos y utilidad de 2,0 (factores supuestos) & \url{https://cazvid.com}\\
+Tarifa de taller & S/ 47,5/h: soldador en Arequipa a S/ 3293 al mes, extremo superior del rango publicado por tratarse de soldadores calificados (promedio de S/ 2343, 75 sueldos, noviembre de 2026); 208 h, cargas sociales de 1,5 y gastos y utilidad de 2,0 (factores supuestos) & \url{https://pe.indeed.com/career/soldador/salaries/Arequipa}\\
 Filtro de bolsa de acero inoxidable de 2 pulgadas & US\$ 2208,45 & \url{https://punchout.acklandsgrainger.com}\\
 Variador Schneider ATV320U55N4C & US\$ 922,48 & \url{https://standardelectricsupply.com}\\
 Controlador Siemens 6ES7214-1AG40-0XB0 & US\$ 745,00 & Steiner Electric, distribuidor\\
-Dosificadora Grundfos DDA 7.5-16 & EUR 1079,17 (listado descontinuado, referencia) & \url{https://www.hellopro.fr}\\
+Dosificadora Grundfos DDA 7.5-16 & EUR 1079,17 (precio de lista) & \url{https://www.hellopro.fr}\\
 Tipo de cambio del euro & S/ 3,91 & \url{https://www.global66.com/pe/precio/euro-hoy/}\\
 Acero A36 (perfiles y rieles) & US\$ 1,81--3,16/kg, rango internacional de inicios de 2026; se adopta el máximo & \url{https://es.accio.com/plp/acero-a36-precio-por-kg}\\
 Masa del riel A45 & 22,1 kg/m & Catálogo ArcelorMittal \cite{arcelor2023}\\
 Plancha UHMW-PE de 8 mm & EUR 198,25 por plancha de 2013$\times$1003 mm & \url{https://www.klefinghaus.de/uhmw-polyethylene-panel-8mm-reclaimed-black-similar-to-ral-9004-41068232-en.html}\\
-Rueda Blickle de 200 mm & US\$ 220,00 en la segunda entrega, que correspondía a otro producto (LE-ALST 200K-14); el presupuesto actual usa una hipótesis de US\$ 450 para la SPKVS 200K & \url{https://www.tenaquip.com/product/blickle-high-quality-caster-swivel-8-2032-mm-polyurethane-elastomer-660-lbs-300-kg-le-alst-200k-14-mo563}\\
-Boquilla VeeJet de 50$^\circ$ en acero inoxidable & US\$ 16,26 (conexión de 1/4 de pulgada; la de 3/8 se cotiza a pedido) & \url{https://northstarhotsy.com/product/parts/nozzles/threaded/ssc-veejet-50-deg-ss/}\\
+Rueda Blickle de 200 mm & US\$ 450 por rueda SPKVS 200K (estimado); una rueda Blickle de 200 mm de otra serie cuesta US\$ 220 & \url{https://www.tenaquip.com/product/blickle-high-quality-caster-swivel-8-2032-mm-polyurethane-elastomer-660-lbs-300-kg-le-alst-200k-14-mo563}\\
+Boquilla VeeJet de 50$^\circ$ en acero inoxidable & US\$ 16,26 (conexión de 1/4 de pulgada, referencia para la de 3/8) & \url{https://northstarhotsy.com/product/parts/nozzles/threaded/ssc-veejet-50-deg-ss/}\\
 Acero inoxidable 316L & US\$ 2,05--2,55/lb en el mercado estadounidense (mayo de 2026), es decir, 4,52--5,62 US\$/kg; se adopta el máximo & \url{https://www.mwalloys.com/es/stainless-steel-prices-per-pound/}\\
 Masa de la tubería Sch10S & 2,13, 3,16 y 4,00 kg/m para DN25, DN40 y DN50 (espesor de 2,77 mm) & Calculada con ASME B36.19M \cite{asmeb3619}\\
-Bomba Grundfos CR 10-06 con motor & EUR 2647,06 neto; base de la hipótesis de precio de la CRN 15-3 ($\times1{,}4$) & \url{https://www.sparepartsnow.de/produkte/grundfos-grundfos-cr10-06-a-a-a-e-hqqe-c47rmg}\\
+Bomba Grundfos CR 10-06 con motor & EUR 2647,06 neto; base del precio estimado de la CRN 15-3 ($\times1{,}4$) & \url{https://www.sparepartsnow.de/produkte/grundfos-grundfos-cr10-06-a-a-a-e-hqqe-c47rmg}\\
 Unión rotativa Deublin 555-000-001 & US\$ 476,00 & \url{https://allworldmachinery.com/itemdetail/555-000-001}\\
-Motorreductor SEW-Eurodrive S37 (0,5 HP, helicoidal-sinfín, con freno) & US\$ 1226,14 & \url{https://www.mrosupply.com/products/6421197}\\
+Motorreductor SEW SF47 (caja SF47 con motor DRN80MK4) & US\$ 1315,83; base del precio del SF47R17DRN63MS4 seleccionado & \url{https://www.mrosupply.com/products/96818553}\\
+Limitador Mayr ROBA-slip tamaño 1 & US\$ 350 (estimado) & Estimación de los autores\\
+Motorreductor de la puerta de la cabina, SEW S37 con freno & US\$ 1226,14 & \url{https://www.mrosupply.com/products/6421197}\\
 Detergente Zep 36342 & US\$ 525,29 por balde de 125 lb (56,7 kg) & \cite{zep36342}\\
-Tarifa eléctrica & S/ 0,7238/kWh, BT5B de Luz del Sur con IGV (pliego de mayo de 2026) & \url{https://hacecuentas.com/pe/calculadora-recibo-luz-peru-osinergmin}\\
-Sueldo de un técnico de mantenimiento en Lima & S/ 1800--2800 mensuales & \url{https://cazvid.com/es/empleo/tecnico-mecanico-de-mantenimiento-en-lima-peru}\\
+Tarifa eléctrica & S/ 0,7238/kWh, BT5B de Luz del Sur con IGV (pliego de mayo de 2026), de referencia & \url{https://hacecuentas.com/pe/calculadora-recibo-luz-peru-osinergmin}\\
+Sueldo de un técnico en mantenimiento en Arequipa & S/ 1289--2927 mensuales; promedio de S/ 1942 (30 sueldos, octubre de 2026) & \url{https://pe.indeed.com/career/t\%C3\%A9cnico-de-mantenimiento/salaries/Arequipa}\\
 \end{longtable}
 \endgroup

@@ -4,7 +4,7 @@
 \section{Plan de pruebas de la solución}
 \label{sec:plan-pruebas}
 
-La verificación se planificó por subsistema y por nivel de evidencia. Las pruebas son numéricas, analíticas y geométricas: análisis estructural del bastidor y de sus uniones, modelos de elementos finitos de los centradores, barridos en el modelo CAD, cálculo de la red hidráulica y simulación del mojado del rodamiento. Los ensayos físicos quedan fuera del alcance de la tesis; ningún resultado de este capítulo es una validación experimental.
+La verificación se planificó por subsistema y por nivel de evidencia. Las pruebas son numéricas, analíticas y geométricas: análisis estructural del bastidor y de sus uniones, modelos de elementos finitos de los centradores, barridos en el modelo CAD, cálculo de la red hidráulica y simulación del mojado del rodamiento. Todas las pruebas se hicieron por cálculo y simulación en software; los ensayos físicos, incluido el ensayo de huella de las boquillas, quedan fuera del alcance de la tesis, y ningún resultado de este capítulo es una validación experimental.
 
 Se adoptó un Caso Base por subsistema. Para el soporte, el Caso Base es el bastidor de tres apoyos sectoriales con el rodamiento centrado y una carga vertical de $3\times9948$ N. Para la aspersión, el Caso Base hidráulico fue la red de diecinueve boquillas y el Caso Base de mojado, la configuración de 22 boquillas a 1,7 rpm. A partir de ellos se plantearon escenarios de sensibilidad y de rediseño: combinaciones de carga con factores 1,00, 1,25 y 1,40; fuerza final del centrador de 1,45 a 2,08 kN; desvío lateral de una rueda; presión uniforme de 3 a 6 bar en las boquillas; cambio de malla, paso de tiempo, dominio y número de parcelas del modelo de mojado; y las variantes de boquillas del diámetro exterior y de la cara inferior. La Tabla~\ref{tab:plan-pruebas} asigna a cada prueba sus escenarios, sus variables, su criterio y su estado.
 
@@ -27,7 +27,7 @@ Análisis estructural del bastidor & Carga centrada; factores 1,00, 1,25 y 1,40;
 Modelo global con cargas de centrado & 1,45, 1,60 y 2,08 kN; alabeo libre, continuo o impedido en los nudos & Desplazamiento en el contacto del centrador & E06, E08 & Ejecutada\\
 Elementos finitos locales de los centradores & 2,08 kN; dos mallas y dos sentidos de carga & Desplazamiento radial y tensiones & E06, E08 & Ejecutada\\
 Error de colocación y captura & Fuerza final del empujador; excentricidad de 5 mm en ocho direcciones & Error de colocación y carrera de captura & E06, E08 & Ejecutada (cálculo)\\
-Barridos CAD e interferencias & Traslado, giro del distribuidor, retirada de la lanza y centradores & Holgura mínima y contactos & E01, E07, E15 & Ejecutada\\
+Barridos CAD e interferencias & Traslado, giro del distribuidor, retirada de la lanza y centradores & Holgura mínima y contactos & E01, E07, E14 & Ejecutada\\
 Red hidráulica & 19, 22 y 24 boquillas; presión uniforme de 3 a 6 bar & Presión por boquilla, caudal, altura, potencia, NPSH & E09--E11 & Ejecutada\\
 Simulación del mojado & 22 boquillas a 1,7 rpm; malla, $\Delta t$, dominio y parcelas; caso puente & Acceso, dosis, uniformidad, zona seca, transferencia e impulso & E12, E13 & Ejecutada\\
 Rediseño de boquillas & Lateral inclinada y superior desplazada; par inferior de abanico estrecho (24 boquillas) & Dosis, uniformidad, zona seca y transferencia & Regla de decisión; criterio de la zona exterior & Ejecutada\\
@@ -35,7 +35,7 @@ Alcance del lavado & Dosis requerida de 65, 183 y 305 kg\,m$^{-2}$; trazado de r
 \end{longtable}
 \endgroup
 
-El mojado se evalúa con seis indicadores propuestos por el equipo (Tabla~\ref{tab:kpi-cfd}). Miden si el líquido llega a cada superficie, cuánto llega, con qué uniformidad y con qué cantidad de movimiento; no miden la remoción de grasa, que solo puede establecerse con ensayo.
+El mojado se evalúa con seis indicadores tomados de los estudios de aspersión del Capítulo~\ref{cap:estado-arte} (Tabla~\ref{tab:indicadores-literatura}) y definidos para este caso en la Tabla~\ref{tab:kpi-cfd}. Miden si el líquido llega a cada superficie, cuánto llega, con qué uniformidad y con qué cantidad de movimiento; no miden la remoción de grasa, que solo puede establecerse con ensayo.
 
 \begin{table}[htbp]
 \centering\small\singlespacing
@@ -121,7 +121,7 @@ Sumando la parte global y la local, el desplazamiento total en el contacto de la
 
 Las referencias, con 0,48 a 0,59 mm en el contacto, cumplen el criterio local de 1,0 mm, aunque no siempre el objetivo de 0,5 mm. En el empujador, la placa de 20 mm del soporte del pivote presentó de 190 a 246 MPa de membrana más flexión, por encima del filtro de 150 MPa. Con una placa de 28 mm, la tensión bajó a 102--129 MPa y el desplazamiento de 1,58--1,65 a 0,89--0,91 mm; esa placa se adoptó, con soldaduras a tope de penetración completa.
 
-En el modelo CAD, con el aro desplazado 5 mm en ocho direcciones, el rodillo de cada centrador tocó siempre antes que la horquilla, el pasador o el brazo, y la carrera de captura en el peor caso fue de 13,1 mm, frente a 5 mm de E08. La precisión era el punto débil de la segunda entrega: 5,21 mm en el caso nominal y 6,10 mm en la envolvente de 2,08 kN. Al separar la parte elástica de las tolerancias (Sección~\ref{sec:error-colocacion}), se vio que el 70\,\% del error a 2,08 kN es deformación y que crece con la fuerza. Con el ajuste H7/g6 y el límite de 1,95 kN al empujador, el error queda en 4,09 mm en la detención y 4,24 mm en el disparo, con alabeo libre, y en 3,35 mm con las alas continuas del detalle de uniones. La envolvente de 2,08 kN, que exige fallar la detención y el disparo, da 5,18 mm con alabeo libre y 3,91 mm con alas continuas.
+En el modelo CAD, con el aro desplazado 5 mm en ocho direcciones, el rodillo de cada centrador tocó siempre antes que la horquilla, el pasador o el brazo, y la carrera de captura en el peor caso fue de 13,1 mm, frente a 5 mm de E08. La precisión era el punto débil de la versión anterior: 5,21 mm en el caso nominal y 6,10 mm en la envolvente de 2,08 kN. Al separar la parte elástica de las tolerancias (Sección~\ref{sec:error-colocacion}), se vio que el 70\,\% del error a 2,08 kN es deformación y que crece con la fuerza. Con el ajuste H7/g6 y el límite de 1,95 kN al empujador, el error queda en 4,09 mm en la detención y 4,24 mm en el disparo, con alabeo libre, y en 3,35 mm con las alas continuas del detalle de uniones. La envolvente de 2,08 kN, que exige fallar la detención y el disparo, da 5,18 mm con alabeo libre y 3,91 mm con alas continuas.
 
 \subsection{Subsistema de aspersión}
 \label{sec:resultados-aspersion}
@@ -218,11 +218,11 @@ Zona exterior de la cara (Z3): dosis media & 4,1 & 19,99 & criterio 15,8\\
 Zona exterior de la cara (Z3): coeficiente de variación & 0,246 & 0,298 & criterio $\leq0{,}4$\\
 Diámetro exterior: dosis media & 26,38 & 25,82 & $-2{,}1$\,\%\\
 Diámetro exterior: zona seca, bandas de 2 mm (\%) & 1,17 & 0 & se cierra\\
-Cara inferior: tiempo de lavado con 183 kg\,m$^{-2}$, peor banda de 10 mm & 36,7 min & 14,7 min & 2,5 veces menos\\
+Cara inferior: tiempo de lavado $t_{95}$ con 183 kg\,m$^{-2}$ & 37,6 min & 14,1 min & 2,7 veces menos\\
 \bottomrule
 \end{tabularx}
 \par\smallskip\footnotesize
-*Base emparejada, con el brazo A duplicado; el tiempo base usa la dosis mínima de la Tabla~\ref{tab:cfd-caso-base} (2,93). Z3 es la zona de la cara inferior del aro exterior, entre los radios de 617,5 y 710 mm. El tiempo de lavado supone una dosis requerida de 183 kg\,m$^{-2}$ y 1,7 rpm, ambas hipótesis.
+*Base emparejada, con el brazo A duplicado. Z3 es la zona de la cara inferior del aro exterior, entre los radios de 617,5 y 710 mm. $t_{95}$ es el tiempo en que el 95\,\% del área accesible acumula la dosis requerida, leído por bandas de 10 mm (Sección~\ref{sec:alcance-lavado}), con 1,7 rpm.
 \end{table}
 
 \begin{figure}[htbp]
@@ -237,31 +237,24 @@ Cara inferior: tiempo de lavado con 183 kg\,m$^{-2}$, peor banda de 10 mm & 36,7
 \label{fig:cfd-propuesta}
 \end{figure}
 
-El par de boquillas inferiores cumple el criterio en la zona exterior de la cara inferior, con 19,99 frente a 15,8 kg\,m$^{-2}$ por vuelta y un coeficiente de variación de 0,298 frente a 0,4. La relación de dosis entre el diámetro exterior y la cara inferior baja de 4,8 a 1,8, y el tiempo de lavado de la cara inferior, medido en su peor banda, pasa de 36,7 a 14,7 min. Con dosis requeridas de 65 y 305 kg\,m$^{-2}$, sería de 5,2 y 24,5 min. Con ese criterio, la cara superior, cuya boquilla desplazada no se incorporó, necesita 17,6 min y es la que fija el tiempo de la máquina. Como la meta se cumplió, la reserva de elevar 25 mm los apoyos no hizo falta. El trazado de rayos había anticipado bien el resultado: esperaba de 19,6 a 19,7 en la zona exterior y el CFD dio 20,0, un 1,4\,\% más.
+Para la zona exterior de la cara inferior, los autores fijaron un criterio comparativo: una dosis media de al menos el 70\,\% de la de la cara superior ($0{,}7\times22{,}53\approx15{,}8$ kg\,m$^{-2}$ por vuelta) con un coeficiente de variación no mayor que 0,4. El par de boquillas inferiores lo cumple, con 19,99 kg\,m$^{-2}$ por vuelta y 0,298. La relación de dosis entre el diámetro exterior y la cara inferior baja de 4,8 a 1,8, y el tiempo de lavado de la cara inferior pasa de 37,6 a 14,1 min con la dosis requerida central (Sección~\ref{sec:alcance-lavado}). Como la meta se cumplió, la reserva de elevar 25 mm los apoyos no hizo falta. El trazado de rayos había anticipado bien el resultado: esperaba de 19,6 a 19,7 en la zona exterior y el CFD dio 20,0, un 1,4\,\% más.
 
-El cambio tiene un costo en el diámetro exterior. Las boquillas nuevas concentran agua en su borde inferior, con hasta 124 kg\,m$^{-2}$ por vuelta, y entre las alturas de 910 y 1000 mm la dosis baja de unos 29 a entre 12 y 20 (Figura~\ref{fig:cfd-propuesta}b). Frente a la configuración con la lateral inclinada, el coeficiente de variación del diámetro exterior sube de 0,265 a 0,648 y su dosis mínima baja de 14,56 a 10,53. La superficie sigue mojada por completo. Se definió para ella un criterio propio: sin zona seca y con una dosis mínima no menor que la de la superficie que fija el tiempo. Se cumple, con 0\,\% y 10,53 frente a 6,13 de la cara superior (7,33 en la cara inferior).
+El cambio tiene un costo en el diámetro exterior. Las boquillas nuevas concentran agua en su borde inferior, con hasta 124 kg\,m$^{-2}$ por vuelta, y entre las alturas de 910 y 1000 mm la dosis baja de unos 29 a entre 12 y 20 (Figura~\ref{fig:cfd-propuesta}b). Frente a la configuración con la lateral inclinada, el coeficiente de variación del diámetro exterior sube de 0,265 a 0,648 y su dosis mínima baja de 14,56 a 10,53. La superficie sigue mojada por completo. Se definió para ella un criterio propio: sin zona seca y con una dosis mínima no menor que la de la superficie que fija el tiempo. Se cumple, con 0\,\% y 10,53 frente a 7,33 de la cara inferior.
 
-La verificación numérica usó tres mallas, de 202\,616, 430\,560 y 846\,960 celdas, con el número de Courant de gota cerca de 0,339 en las tres. Las dosis medias cambiaron como máximo un 0,63\,\% entre la malla base y la fina, y un 0,42\,\% al cambiar el número de parcelas (Figura~\ref{fig:cfd-malla-propuesta}); los balances de masa quedaron entre 0,024 y 0,125\,\%. No todo cumple el 2\,\%: las dosis mínimas de la cara inferior cambiaron entre 2,2 y 2,6\,\%. El orden de convergencia observado no es estable, porque algunas secuencias oscilan.
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.55\textwidth]{fig_malla_configuracion_propuesta.png}
-\caption{Dosis media de la configuración propuesta con tres mallas, normalizada con la de la malla fina. Elaboración propia con los datos exportados de ANSYS Fluent.}
-\label{fig:cfd-malla-propuesta}
-\end{figure}
+La verificación numérica usó tres mallas, de 202\,616, 430\,560 y 846\,960 celdas, con el número de Courant de gota cerca de 0,339 en las tres. Las dosis medias cambiaron como máximo un 0,63\,\% entre la malla base y la fina, y un 0,42\,\% al cambiar el número de parcelas (Figura~\ref{fig:cfd-malla-propuesta} del Anexo~\ref{anx:programas}); los balances de masa quedaron entre 0,024 y 0,125\,\%. Las dosis mínimas de la cara inferior cambiaron entre 2,2 y 2,6\,\%, dentro del criterio de trabajo del 5\,\%. El orden de convergencia observado no es estable, porque algunas secuencias oscilan.
 
 \subsubsection{Alcance del lavado con el rodamiento armado}
 \label{sec:alcance-lavado}
 
-El lavado tiene por objetivo dejar el rodamiento en condiciones para la inspección visual inicial (Capítulo~\ref{cap:introduccion}). Su duración se estimó con el tiempo $t_{95}$ en que el 95\,\% del área accesible de cada superficie acumula una dosis requerida hipotética $D_{req}$ de 65, 183 o 305 kg\,m$^{-2}$, con la cara inferior leída por bandas de 10 mm y por celdas de 10 mm $\times$ 0,5$^\circ$, que registran las sombras parciales del soporte (Tabla~\ref{tab:tiempo-lavado}).
+El lavado tiene por objetivo dejar el rodamiento en condiciones para la inspección visual inicial (Capítulo~\ref{cap:introduccion}). Su duración se estimó con un solo criterio: el tiempo $t_{95}$ en que el 95\,\% del área accesible de cada superficie acumula la dosis requerida $D_{req}$, leído por bandas de 10 mm como los demás indicadores (Tabla~\ref{tab:tiempo-lavado}). La dosis requerida no se midió; se obtuvo convirtiendo a dosis por área ensayos publicados de lavado de grasa sobre acero. El ciclo de Davis y DeWeese a 46,5 bar, que no dejó residuo, equivale a unos 65 kg\,m$^{-2}$; un estudio a 5,2 bar citado por ellos, a unos 183 kg\,m$^{-2}$, y el rociado de 5 min de la norma ASTM D4049, a unos 300 kg\,m$^{-2}$ \cite{davis1995,astmd4049}. Por eso se informan tres valores, 65, 183 y 305 kg\,m$^{-2}$, con el central como referencia.
 
-Con 183 kg\,m$^{-2}$, el diámetro exterior y el agujero llegan en 8,2 min y la cara superior en 10,6 min. Con el criterio del 95\,\% del área, la que más tarda es la cara inferior: con la dosis media de cada banda tarda de 5 a 24 min, pero las bases de los apoyos sectoriales y los topes dejan sombras parciales en un 14\,\% de su área, donde la dosis por vuelta es menor. Al resolver esas sombras por celdas, el tiempo sube a 27 y 76 min con 65 y 183 kg\,m$^{-2}$, y con 305 kg\,m$^{-2}$ no se alcanza en 120 min (Sección~\ref{sec:anx-tiempo-lavado}).
+Con 183 kg\,m$^{-2}$, el diámetro exterior y el agujero llegan en 8,2 min, la cara superior en 10,6 min y la cara inferior en 14,1 min; con 65 y 305 kg\,m$^{-2}$, la cara inferior tarda 5,3 y 23,5 min. La cara inferior fija el tiempo de la máquina con los tres valores. Si además se resuelve la posición angular, con celdas de 10 mm $\times$ 0,5$^\circ$, las bases de los apoyos sectoriales y los topes dejan sombras parciales en un 14\,\% de la cara inferior; allí la dosis por vuelta es menor y el 95\,\% del área se alcanza a los 27 y 76 min con 65 y 183 kg\,m$^{-2}$ (Sección~\ref{sec:anx-tiempo-lavado}). Esa zona sombreada es la que limita el lavado de la cara inferior.
 
-El lavado no alcanza el interior del rodamiento armado. Con la geometría de aros y rodillos medida en el modelo del fabricante y un trazado de rayos desde las 24 boquillas a lo largo de una vuelta del distribuidor, solo el 24\,\% del área de rodillos y pistas tiene línea de vista con alguna boquilla (Sección~\ref{sec:anx-cavidad}). La hilera inferior de rodillos queda casi oculta, con el 0,35\,\% de su superficie lateral visible, y la mitad inferior de las pistas, con el 2 al 16\,\%. Es una cota superior, porque el modelo no incluye la jaula. En ese espacio está la mayor parte de la grasa: según la regla del fabricante para el volumen libre \cite[p.~112]{skfgrasa}, el rodamiento lleno contiene de 84 a 89 kg, del mismo orden que los 75 kg de residuos por rodamiento que registra el taller (Capítulo~\ref{cap:introduccion}). El resultado cuantifica el alcance declarado: la máquina prepara las superficies exteriores para la inspección visual, y la limpieza de rodillos y pistas corresponde a la etapa con el rodamiento desarmado.
+El lavado no alcanza el interior del rodamiento armado. Un trazado de rayos desde las 24 boquillas, con la geometría de aros y rodillos medida en el modelo del fabricante, muestra que solo el 24\,\% del área de rodillos y pistas tiene línea de vista con alguna boquilla (Sección~\ref{sec:anx-cavidad}); la hilera inferior de rodillos queda casi oculta, con el 0,35\,\% de su superficie lateral visible. Es una cota superior, porque el modelo no incluye la jaula. El resultado confirma el alcance declarado: la máquina prepara las superficies exteriores para la inspección visual, y la limpieza de rodillos y pistas corresponde a la etapa con el rodamiento desarmado.
 
 \subsection{Iteraciones de diseño}
 
-Las iteraciones que condujeron a la configuración actual se ordenan en la Tabla~\ref{tab:iteraciones-resumen}; el registro detallado está en el Anexo~\ref{anx:iteraciones}.
+Las iteraciones principales se ordenan en la Tabla~\ref{tab:iteraciones-resumen}; el registro completo, con las del bastidor, la rueda, el rotor y el soporte superior, está en el Anexo~\ref{anx:iteraciones}.
 
 \begingroup
 \small\singlespacing
@@ -275,18 +268,14 @@ Las iteraciones que condujeron a la configuración actual se ordenan en la Tabla
 \textbf{Cambio} & \textbf{Hallazgo que lo motivó} & \textbf{Resultado}\\
 \midrule\endhead
 \bottomrule\endlastfoot
-Mesa circular a bastidor de perfiles rectos & Muchas piezas e interfaces; ruedas en voladizo & Ruedas bajo las almas, sin ménsulas\\
 Centradores de carro radial a brazo pivotante & Atravesaban los perfiles e invadían el rodamiento & Selección multicriterio: brazo pivotante\\
 Uniones a momento diseñadas & La torsión de los travesaños gobernaba el centrado & Error de colocación de 3,35 mm con alas continuas\\
 Límite de fuerza al empujador y ajuste H7/g6 & Error de 6,10 mm en la envolvente & 4,09 y 4,24 mm en los estados de operación\\
-Rueda de 200 mm revisada & Se comparaba la carga última con la capacidad de rodadura & D/C 0,89 y 0,43; se descartó la de 250 mm\\
 Empuje manual a doble cadena con volante & 325 a 837 N de empuje y 565 N de frenado & 15,5 a 39,8 N en el volante; parada con 190 N\\
 Cabezal sobre monorriel a U superior giratoria con lanza & Movimiento y acceso del aplicador & Rodamiento y mesa inmóviles en el lavado\\
 19 a 22 boquillas & Sin aplicación hacia la cara inferior & Acceso de 99,1\,\% por trazado de rayos\\
 Lateral 1 inclinada $-4^\circ$ & Franja seca de 2 mm en el diámetro exterior & Sin zona seca\\
 22 a 24 boquillas, par inferior estrecho & Cara inferior con cuatro veces menos dosis & Zona exterior de 4,1 a 20,0 kg\,m$^{-2}$ por vuelta\\
-Masa del rotor medida en el CAD & La envolvente de 180 kg no cubría el rotor real & 231 kg; eje con D/C 0,27\\
-Soporte superior aligerado & El criterio anterior no era funcional & De 360 a 247 kg con criterios de rigidez\\
 \end{longtable}
 \endgroup
 
@@ -312,17 +301,17 @@ Análisis estructural & Apoyos bilaterales; el desvío lateral se aplicó entero
 Uniones y centrado & Continuidad perfecta de alas supuesta; partidas de tolerancia sin medición; disparo del limitador sin calibrar & Medición de referencias, juegos y fuerza del limitador\\
 Red hidráulica & Coeficientes de pérdida estimados; altura de 53,39 o 51,0--51,3 m según el trazado; curva de la bomba leída del gráfico & Curva del fabricante y medición de presión por boquilla\\
 Modelo de mojado & Retención en el primer impacto: dosis y transferencia son cotas superiores; inyección y 1,7 rpm supuestas; rodamiento con el extremo menor del agujero hacia abajo; la boquilla inferior adicional envía del 16 al 17\,\% de su caudal hacia el agujero, y que el agujero no cambie es una hipótesis & Sensibilidad a la inyección y a la orientación; corrida del agujero con la configuración propuesta\\
-Limpieza & No se calcula la remoción; el VOF acota el cortante en la pared entre 5 Pa y 2 kPa (Sección~\ref{sec:anx-vof}); la dosis requerida es una hipótesis & Ensayos de huella y de remoción\\
+Limpieza & No se calcula la remoción; el VOF acota el cortante en la pared entre 5 Pa y 2 kPa (Sección~\ref{sec:anx-vof}); la dosis requerida es una analogía de ensayos publicados & Ensayos de huella y de remoción\\
 Interior del rodamiento & 24\,\% de rodillos y pistas visible, sin la jaula & Limpieza con el rodamiento desarmado\\
-Distribuidor y soporte & Tiro de la correa, carga accidental y presión supuestos; bases tomadas como empotradas & Selección de catálogo y detalle de las bases\\
-Sismo & Revisión estática; la viga bajo los topes puede fluir localmente en un sismo severo & Modelo local por elementos finitos\\
+Distribuidor y soporte & Carga accidental y presión supuestas; bases tomadas como empotradas; la unión del transversal con el cubo necesita el tramo central en Sch 80S & Detalle de las bases y de la unión\\
+Sismo & Revisión estática simplificada del vuelco de la mesa y del soporte superior; la retención de los topes ante sismo no se evaluó & Revisión sísmica con el sitio y el suelo reales\\
 \end{longtable}
 \endgroup
 
 \section{Verificación del cumplimiento de las especificaciones técnicas}
 \label{sec:verificacion-especificaciones}
 
-La Tabla~\ref{tab:cumplimiento-especificaciones} contrasta las especificaciones E01--E15 de la Tabla~\ref{tab:especificaciones_revision} con los resultados. «Cumple en el modelo» indica que el resultado numérico satisface el criterio dentro de las hipótesis del modelo.
+La Tabla~\ref{tab:cumplimiento-especificaciones} contrasta las especificaciones E01--E14 de la Tabla~\ref{tab:especificaciones_revision} con los resultados. «Cumple en el modelo» indica que el resultado numérico satisface el criterio dentro de las hipótesis del modelo.
 
 \begingroup
 \small\singlespacing
@@ -339,11 +328,11 @@ La Tabla~\ref{tab:cumplimiento-especificaciones} contrasta las especificaciones 
 \midrule\endhead
 \midrule\multicolumn{4}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
 \bottomrule\endlastfoot
-E01 & Admitir 1420/900/515 mm & Envolvente en el CAD sin interferencias; paso por la puerta modelada & Cumple en el modelo; maniobra de planta pendiente\\
-E02 & 3032 kg y pesos separados & 29,84 kN en los apoyos sectoriales; masa móvil de 3440 kg frente a 3500 kg de diseño & Cumple\\
+E01 & Admitir 1420/900/515 mm & Envolvente en el CAD sin interferencias; paso por la puerta modelada & Cumple en el modelo\\
+E02 & 3032 kg y pesos separados & 29,84 kN en los apoyos sectoriales; masa móvil de 3440 kg por componentes (unos 3462 kg con los últimos cambios) frente a 3500 kg de diseño & Cumple\\
 E03 & Flecha $\leq L/800$ & 1,236 mm frente a 2,33 mm (también $<L/1000$) & Cumple en el nodo evaluado\\
 E04 & D/C $\leq1$ & Barras del bastidor 0,82; uniones 0,58; distribuidor 0,93; soporte superior 0,18 & Cumple en el modelo\\
-E05 & Reacciones compresivas sin amarre & Apoyos sectoriales y ruedas con reacciones no negativas; los pedestales del riel se anclan para $-3{,}78$ kN & Cumple en cálculo; losa por confirmar\\
+E05 & Reacciones compresivas sin amarre & Apoyos sectoriales y ruedas con reacciones no negativas; los pedestales del riel se anclan para $-3{,}78$ kN & Cumple en cálculo, con la losa supuesta\\
 E06 & Error de colocación $\leq5$ mm & 4,09 y 4,24 mm con alabeo libre; 3,35 mm con alas continuas; envolvente de 2,08 kN: 3,91 mm con alas continuas & Cumple con la fuerza final limitada a 1,95 kN\\
 E07 & Carga exterior y mesa inmovilizada & Recorrido de 3320 mm; pasador con ajuste H7/g6 en carga y lavado; cadena entre estaciones & Cumple en diseño; enclavamiento en el Capítulo~\ref{cap:seguridad-ambiente}\\
 E08 & Captura $\geq5$ mm & 13,1 mm en el peor caso; carrera base de 6,6 mm & Cumple numéricamente\\
@@ -352,12 +341,11 @@ E10 & $\leq8$ bar & Máximo de 4,13 bar & Cumple en el modelo\\
 E11 & 1--3 m/s en la impulsión & 2,57 m/s en DN40 (cálculo); 1,56 m/s en DN50 (trazado) & Cumple en el modelo\\
 E12 & 1--2 rpm; 30--60 s por vuelta & 1,7 rpm; 35,3 s & Valor de diseño; no medido\\
 E13 & Cobertura $\geq80$\,\% (objetivo 95\,\%) & Acceso de 99,13\,\%; sin zona seca en bandas de 10 mm, ni en bandas de 2 mm del diámetro exterior con 24 boquillas & Cumple en el modelo\\
-E14 & Drenaje $\geq250$ L/min & Captación de 333--350 L/min con 50\,\% de obstrucción; línea por gravedad de 413 L/min & Cumple en cálculo\\
-E15 & Holgura positiva mesa--distribuidor & 18,8 mm nominal; barrido del traslado sin choques & Cumple en el CAD nominal\\
+E14 & Holgura positiva mesa--distribuidor & 18,8 mm nominal; barrido del traslado sin choques & Cumple en el CAD nominal\\
 \end{longtable}
 \endgroup
 
-De las quince especificaciones, catorce se satisfacen en los modelos y en los cálculos; la velocidad del distribuidor es un valor de diseño que no se puede verificar sin el equipo. La precisión de centrado, que no se cumplía en la segunda entrega, se cumple ahora porque se limitó la fuerza del empujador y se dio continuidad a las alas del bastidor. Ninguna especificación se verificó con ensayos.
+De las catorce especificaciones, trece se satisfacen en los modelos y en los cálculos; la velocidad del distribuidor es un valor de diseño que no se puede verificar sin el equipo. La precisión de centrado, que no se cumplía en la versión anterior, se cumple ahora porque se limitó la fuerza del empujador y se dio continuidad a las alas del bastidor. Ninguna especificación se verificó con ensayos.
 
 \section{Verificación del cumplimiento de restricciones}
 \label{sec:verificacion-restricciones}
@@ -379,18 +367,18 @@ La Tabla~\ref{tab:cumplimiento-restricciones} verifica la configuración frente 
 \midrule\endhead
 \midrule\multicolumn{4}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
 \bottomrule\endlastfoot
-RS-01 & Seguridad laboral & Secuencia que separa izaje, centrado, traslado y aspersión; traslado sin empuje directo; enclavamientos definidos (Capítulo~\ref{cap:seguridad-ambiente}) & Pasa en diseño; implementación pendiente\\
+RS-01 & Seguridad laboral & Secuencia que separa izaje, centrado, traslado y aspersión; traslado sin empuje directo; enclavamientos definidos (Capítulo~\ref{cap:seguridad-ambiente}) & Pasa en diseño\\
 RS-02 & Técnica: masa y geometría & E01 y E02 & Pasa\\
-RS-03 & Preservación & Contacto solo en superficies autorizadas; presión media de 0,85 MPa en los apoyos; presión máxima de 4,13 bar en las boquillas & Pasa en el modelo; revestimiento por confirmar con el fabricante\\
+RS-03 & Preservación & Contacto solo en superficies autorizadas; presión media de 0,85 MPa en los apoyos; presión máxima de 4,13 bar en las boquillas & Pasa en el modelo; el revestimiento depende del dato del fabricante\\
 RS-04 & Espacial & Recorrido y paso por la puerta modelados & Condicionada al levantamiento del taller\\
 RS-05 & Infraestructura & Pedestales anclados para levantamiento, guiado y tensor de las cadenas, con losa supuesta de 200 mm & Condicionada a la losa real\\
-RS-06 & Geográfica y ambiental & Escenario de 2335 m para presión atmosférica y NPSH; zona sísmica supuesta & Condicionada a la ficha del emplazamiento\\
-RS-07 & Servicios & Bomba de 4 kW, resistencias de 36 kW y circuito recirculado de 221 L/min & Pendiente de datos del taller\\
-RS-08 & Ambiental y legal & Contención en cabina, pozo de drenaje y contenedor de 1000 L para la purga & Parcial; destino del efluente por definir\\
+RS-06 & Geográfica y ambiental & Escenario de 2335 m para presión atmosférica y NPSH; factor sísmico de la zona más alta & Condicionada a la ficha del emplazamiento\\
+RS-07 & Servicios & Bomba de 4 kW y circuito recirculado de 221 L/min & Condicionada a los datos del taller\\
+RS-08 & Ambiental y legal & Recolección en la cabina y contenedor para la purga, representados en el esquema hidráulico & Parcial; el destino del efluente queda fuera del alcance\\
 RS-09 & Química y ocupacional & Agua con detergente alcalino de baja espuma, compatible con acero y latón \cite{zep36342} & Pasa en diseño\\
-RS-10 & Económica y constructiva & Presupuesto de clase 4 de S/~319\,095 sin IGV (Capítulo~\ref{cap:cronograma-presupuesto}) & No evaluable como filtro: no hay techo acreditado\\
-RS-11 & Organizacional y ergonómica & Fuerza de 15,5 a 39,8 N en el volante, frente a 325--837 N de empuje directo & Pasa en cálculo; evaluación ergonómica con fuerzas medidas pendiente \cite{iso11228}\\
-RS-12 & Propiedad industrial & Revisión de antecedentes conservada & Pendiente de evaluación de libertad de operación\\
+RS-10 & Económica y constructiva & Presupuesto de clase 4 de S/~314\,310 sin IGV (Capítulo~\ref{cap:cronograma-presupuesto}) & No evaluable como filtro: no hay techo acreditado\\
+RS-11 & Organizacional y ergonómica & Fuerza de 15,5 a 39,8 N en el volante, frente a 325--837 N de empuje directo & Pasa en cálculo; la evaluación con fuerzas medidas requiere el equipo \cite{iso11228}\\
+RS-12 & Propiedad industrial & Revisión de antecedentes conservada & Requiere una evaluación de libertad de operación\\
 \end{longtable}
 \endgroup
 

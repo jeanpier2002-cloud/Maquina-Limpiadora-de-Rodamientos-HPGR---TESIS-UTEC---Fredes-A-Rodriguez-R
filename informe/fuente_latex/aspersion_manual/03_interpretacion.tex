@@ -43,7 +43,7 @@ de presión en conexiones, el arranque, las mangueras y los casos de
 ramales cerrados u obstruidos. Tampoco deben añadirse como reacciones
 de rueda sin resolver previamente el camino de carga de la estructura.
 
-\subsection{Cinemática nominal y tiempo de repetición}
+\subsection{Cinemática nominal}
 \label{sec:man-asp-cinematica}
 
 Se adopta una velocidad de giro de 1,7 rev/min. La velocidad angular y
@@ -55,20 +55,6 @@ el período de una vuelta se obtienen convirtiendo a unidades SI:
  =0{,}17802\ \mathrm{rad/s},\\
  T_g&=\frac{60}{1{,}7}=35{,}2941\ \mathrm{s}.
 \end{align}
-Se propone una oscilación con período $T_o=15$ s. Si ambos movimientos
-se mantienen periódicos, la posición conjunta se repite cuando
-$nT_g=mT_o$, con $n$ y $m$ enteros. En este caso,
-\begin{equation}
- \frac{T_g}{T_o}=\frac{35{,}2941}{15}=\frac{40}{17},\qquad
- 17T_g=40T_o=\boxed{600\ \mathrm{s}}.
- \label{eq:man-asp-repeticion}
-\end{equation}
-Por tanto, durante diez minutos se completan 17 vueltas y 40
-oscilaciones. La trayectoria nominal es periódica; no corresponde
-describirla como un movimiento que nunca se repite. Tampoco puede
-identificarse ese intervalo con el tiempo de limpieza suficiente sin
-medir la remoción de contaminante.
-
 Como referencia, la velocidad tangencial de barrido sobre el diámetro
 exterior es $u_D=\omega D/2=0{,}17802(0{,}710)=0{,}12640$ m/s, y sobre
 el diámetro interior menor es $u_d=0{,}17802(0{,}450)=0{,}08011$ m/s.
@@ -256,7 +242,6 @@ Potencia al eje & 2,58 kW & Demanda con eficiencia de bomba adoptada de 0,55.\\
 Consumo de bombeo & 3,03 kW & Estimación con eficiencia de motor de 0,85.\\
 NPSH disponible & 6,01 m & Escenario a 2335 m, 62 $^\circ$C y nivel inundado de 0,50 m.\\
 Franja axial nominal & 13,76 mm & Discontinuidad geométrica; no se declara cobertura completa.\\
-Repetición cinemática & 600 s & Período conjunto, no tiempo validado de limpieza.\\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -273,7 +258,7 @@ y bomba; el trazado y los accesorios; y el nivel mínimo del depósito.
 Con esos datos debe refinarse la distribución de presión incorporando
 los cambios de velocidad y las conexiones de las tomas. El cierre de
 cobertura requiere corregir la franja lateral y comprobar interferencias,
-sombras, oscilación y acceso inferior; la eficacia de lavado queda fuera
+sombras y acceso inferior; la eficacia de lavado queda fuera
 del alcance del caso analítico. Estas verificaciones delimitan la aplicación del
 caso analítico y no invalidan las operaciones de predimensionamiento
 desarrolladas.

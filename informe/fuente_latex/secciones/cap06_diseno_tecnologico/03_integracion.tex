@@ -11,8 +11,8 @@ La operación separa el izaje, el centrado, el traslado y la aspersión, de modo
 \item el rodamiento se iza y se apoya sobre los tres apoyos sectoriales;
 \item con la grúa sosteniendo parcialmente el aro, los centradores lo llevan contra las dos referencias y el empujador se detiene al alcanzar su fuerza normal; se activan los topes y se retira el aparejo;
 \item se retira el pasador, la mesa se lleva con el volante a la estación de lavado, se inserta el pasador en el receptor de lavado y se retraen los centradores;
-\item con la puerta cerrada y sin personal en la cabina, se baja la lanza, se precalienta el conjunto recirculando el baño y se ejecuta el lavado;
-\item la válvula de succión cambia al tanque de enjuague, se enjuaga con agua e inhibidor y se deja escurrir;
+\item con la puerta cerrada y sin personal en la cabina, se baja la lanza y se ejecuta el lavado con el baño a 60--62~$^\circ$C;
+\item la válvula de succión cambia al tanque de enjuague, se enjuaga y se deja escurrir;
 \item se despresuriza la red, el distribuidor se detiene a $0^\circ$, se retira la lanza y la mesa vuelve a la estación de carga para retirar el rodamiento.
 \end{enumerate}
 
@@ -20,7 +20,7 @@ El distribuidor solo puede girar, y la lanza bajar, con la mesa bloqueada en la 
 
 \subsection*{Interfaces}
 
-La integración geométrica se verificó con barridos del modelo CAD en traslado, giro del distribuidor, retirada de la lanza y accionamiento de los centradores. La holgura vertical que gobierna en el modelo de la segunda entrega es de 18,8 mm, entre el ala superior del bastidor ($Z=805$ mm) y los pies de la U ($Z=823{,}8$ mm), sin tolerancias aplicadas; en el modelo integrado final, el barrido del traslado completo no encontró choques (Sección~\ref{sec:representacion}). La Tabla~\ref{tab:interfaces-criticas} reúne las interfaces que condicionan la integración.
+La integración geométrica se verificó con barridos del modelo CAD en traslado, giro del distribuidor, retirada de la lanza y accionamiento de los centradores. La holgura vertical que gobierna en el modelo anterior es de 18,8 mm, entre el ala superior del bastidor ($Z=805$ mm) y los pies de la U ($Z=823{,}8$ mm), sin tolerancias aplicadas; en el modelo integrado final, el barrido del traslado completo no encontró choques (Sección~\ref{sec:representacion}). La Tabla~\ref{tab:interfaces-criticas} reúne las interfaces que condicionan la integración.
 
 \begingroup
 \footnotesize\singlespacing
@@ -30,11 +30,11 @@ La integración geométrica se verificó con barridos del modelo CAD en traslado
 \begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{\dimexpr(\textwidth-2.8cm-2.2cm-6\tabcolsep)/2\relax}>{\raggedright\arraybackslash}p{\dimexpr(\textwidth-2.8cm-2.2cm-6\tabcolsep)/2\relax}>{\raggedright\arraybackslash}p{2.2cm}@{}}
 \caption{Interfaces críticas de integración}\label{tab:interfaces-criticas}\\
 \toprule
-\textbf{Interfaz} & \textbf{Condición documentada} & \textbf{Verificación pendiente} & \textbf{Estado}\\
+\textbf{Interfaz} & \textbf{Condición documentada} & \textbf{Verificación en la etapa de detalle} & \textbf{Estado}\\
 \midrule\endfirsthead
 \caption[]{Interfaces críticas de integración (continuación)}\\
 \toprule
-\textbf{Interfaz} & \textbf{Condición documentada} & \textbf{Verificación pendiente} & \textbf{Estado}\\
+\textbf{Interfaz} & \textbf{Condición documentada} & \textbf{Verificación en la etapa de detalle} & \textbf{Estado}\\
 \midrule\endhead
 \midrule\multicolumn{4}{r}{\textit{Continúa en la página siguiente.}}\\\endfoot
 \bottomrule\endlastfoot
@@ -46,16 +46,13 @@ Rueda--riel & D/C 0,89 en servicio y 0,43 en estado último; fuerza lateral de 6
 Riel--losa & Pedestales con 4 anclajes M16; levantamiento de 3,78 kN & Losa real y producto adhesivo & Dato de planta\\
 Distribuidor--soporte superior & Desplazamiento lateral del cojinete de 2,26 mm frente a 22,9 mm de holgura en el techo & Velocidad del motor frente a los modos del soporte & Verificado por simulación\\
 Mesa--puerta & Recorrido de 3320 mm y paso por la puerta modelada & Levantamiento de planta y aparejo de grúa & Dato de planta\\
-Aspersión--drenaje & Captación del piso de 333 a 350 L/min con 50\,\% de obstrucción; línea por gravedad de 413 L/min & Control de nivel del pozo y arranques de su bomba & Pendiente\\
 Bloqueo--control & Receptores de carga y lavado conectados al bastidor & Lógica de enclavamiento (Capítulo~\ref{cap:seguridad-ambiente}) & Definida en diseño\\
 \end{longtable}
 \endgroup
 
 \subsection*{Circuito hidráulico}
 
-El circuito se representó en un esquema de tuberías e instrumentación simplificado según ISO 10628-2, con 42 componentes e instrumentos (Figura~\ref{fig:esquema-hidraulico}). El agua del tanque de lavado pasa por la válvula de tres vías de succión, el colador y la bomba; sigue por la válvula de retención, la válvula de impulsión y el filtro de bolsa, sube por el montante hasta la unión rotativa y baja por el eje hueco hasta el cubo. Del cubo sale hacia la U, con 18 boquillas y sin válvulas de ramal, y hacia la lanza, con 6 boquillas, a través de una válvula de aislamiento y una manguera que sigue la carrera de 640 mm. El agua cae a la cabina, pasa por el colector y la línea por gravedad al pozo, y la bomba del pozo la devuelve al tanque de lavado o, según el nivel, a un contenedor de efluente de 1000 L. Para el enjuague, la válvula de succión cambia al tanque de 204 L con inhibidor.
-
-El esquema deja a la vista dos puntos sin resolver: el tarado de la válvula de alivio y el caudal mínimo de la bomba, que comparten un mismo derivador en el modelo, y la bolsa del filtro. Ambos figuran como pendientes en la hoja 2 del plano (Anexo~\ref{anx:planos}).
+El circuito se representó en un esquema de tuberías e instrumentación simplificado según ISO 10628-2, con 42 componentes e instrumentos (Figura~\ref{fig:esquema-hidraulico}). El agua del tanque de lavado pasa por la válvula de tres vías de succión, el colador y la bomba; sigue por la válvula de retención, la válvula de impulsión y el filtro de bolsa, sube por el montante hasta la unión rotativa y baja por el eje hueco hasta el cubo. Del cubo sale hacia la U, con 18 boquillas y sin válvulas de ramal, y hacia la lanza, con 6 boquillas, a través de una válvula de aislamiento y una manguera que sigue la carrera de 640 mm. El agua cae a la cabina y vuelve al tanque de lavado por el drenaje; para el enjuague, la válvula de succión cambia al tanque de 204 L. El esquema también representa el calentamiento del tanque, la dosificación del detergente y del inhibidor, el pozo de drenaje y un contenedor para la purga, como referencia de integración: esos elementos quedan fuera del alcance y no se dimensionaron. La hoja 2 del plano (Anexo~\ref{anx:planos}) señala para la etapa de detalle el tarado de la válvula de alivio, que comparte derivador con el caudal mínimo de la bomba, y la bolsa del filtro.
 
 \begin{figure}[p]
 \centering
